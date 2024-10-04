@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PM2528 - Plugincard Riser")
-		(date "2024-08-17")
+		(date "2024-10-04")
 		(rev "2.0")
 		(company "D. Kupers")
 	)
@@ -2949,7 +2949,7 @@
 				)
 			)
 		)
-		(symbol "_PhilipsPM2528DMM:PCBEdge_Plugincard"
+		(symbol "PM2528:PCBEdge_Plugincard"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2969,7 +2969,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Philips_PM2528:PM2528_RiserCardConnector"
 				(at 11.43 22.86 0)
 				(effects
 					(font
@@ -3506,6 +3506,12 @@
 		(uuid "6edeb278-3464-48b6-8098-37442fe83032")
 	)
 	(junction
+		(at 91.44 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f715872-1700-4486-8703-b3909a1617fc")
+	)
+	(junction
 		(at 185.42 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3660,6 +3666,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3f3555e-836b-4616-bef9-8ec03f5ff5f5")
+	)
+	(junction
+		(at 90.17 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7beb795-042f-40f9-8b9b-f5e1e917ec31")
 	)
 	(junction
 		(at 173.99 113.03)
@@ -4215,6 +4227,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 52.07) (xy 140.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cd2a13-81a4-4fb5-b317-a19efc135339")
+	)
+	(wire
+		(pts
 			(xy 125.73 62.23) (xy 144.78 62.23)
 		)
 		(stroke
@@ -4675,7 +4697,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 52.07) (xy 140.97 52.07)
+			(xy 83.82 52.07) (xy 90.17 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4885,6 +4907,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 50.8) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d3e514-17e5-4f75-a0e6-b0b1f6cd476e")
+	)
+	(wire
+		(pts
 			(xy 144.78 102.87) (xy 154.94 102.87)
 		)
 		(stroke
@@ -5005,6 +5037,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 54.61) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b17ab0-b472-44b7-8a97-d9285bf1dadb")
+	)
+	(wire
+		(pts
 			(xy 144.78 62.23) (xy 154.94 62.23)
 		)
 		(stroke
@@ -5062,6 +5104,16 @@
 			(type default)
 		)
 		(uuid "d3f06497-f38b-47de-8de9-1fc754f721fd")
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d462f083-f353-44f5-8b05-b45ae5cb883a")
 	)
 	(wire
 		(pts
@@ -5125,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 54.61) (xy 83.82 54.61)
+			(xy 127 54.61) (xy 91.44 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5369,7 +5421,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 91.44 54.61 0)
+		(at 91.44 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5379,7 +5431,7 @@
 		)
 		(uuid "78db3fd8-5eae-42c2-b2eb-71a8a69097c5")
 		(property "Netclass" "Power"
-			(at 92.1385 52.07 0)
+			(at 92.1385 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5444,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 90.17 52.07 0)
+		(at 90.17 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5402,7 +5454,7 @@
 		)
 		(uuid "ac053821-a63a-48b2-9f6a-18a4bc9b9cbe")
 		(property "Netclass" "Power"
-			(at 90.8685 49.53 0)
+			(at 90.8685 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +5716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 113.03 0)
 			(effects
 				(font
@@ -5731,7 +5783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 57.15 0)
 			(effects
 				(font
@@ -6001,7 +6053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 123.19 0)
 			(effects
 				(font
@@ -6204,7 +6256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 77.47 0)
 			(effects
 				(font
@@ -6407,7 +6459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -6677,7 +6729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 87.63 0)
 			(effects
 				(font
@@ -7492,7 +7544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 143.51 0)
 			(effects
 				(font
@@ -7626,7 +7678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 107.95 0)
 			(effects
 				(font
@@ -7666,7 +7718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_PhilipsPM2528DMM:PCBEdge_Plugincard")
+		(lib_id "PM2528:PCBEdge_Plugincard")
 		(at 78.74 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8182,7 +8234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -8249,7 +8301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -8655,7 +8707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 118.11 0)
 			(effects
 				(font
@@ -8924,7 +8976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 128.27 0)
 			(effects
 				(font
@@ -8991,7 +9043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 62.23 0)
 			(effects
 				(font
@@ -9326,7 +9378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 133.35 0)
 			(effects
 				(font
@@ -9393,7 +9445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 67.31 0)
 			(effects
 				(font
@@ -9460,7 +9512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -9594,7 +9646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -9661,7 +9713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 92.71 0)
 			(effects
 				(font
@@ -9795,7 +9847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 179.07 72.39 0)
 			(effects
 				(font

@@ -95,16 +95,16 @@
 	(net 24 "unconnected-(A2106-C_{COMP}-Pad5)")
 	(net 25 "Net-(A2106-+)")
 	(net 26 "Net-(A2106-~{DISABLE})")
-	(net 27 "Net-(C2111-Pad2)")
+	(net 27 "Net-(C2111-Pad1)")
 	(net 28 "Net-(D2101-Pad1)")
 	(net 29 "Net-(A2101-+)")
 	(net 30 "+2VRef")
-	(net 31 "/SAZ")
-	(net 32 "/SDN-")
+	(net 31 "/xAZ")
+	(net 32 "/xDN-")
 	(net 33 "GND3")
 	(net 34 "GND4")
-	(net 35 "/SDN+")
-	(net 36 "/SUP")
+	(net 35 "/xDN+")
+	(net 36 "/xUP")
 	(net 37 "+5V")
 	(net 38 "INPUT")
 	(net 39 "unconnected-(K1-Pad16)")
@@ -140,7 +140,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "06f4d370-b9f7-4a62-a9ee-97ae6387b170")
-		(at 92.71 128.27 90)
+		(at 131.826 80.01 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2106"
@@ -415,7 +415,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0b0ab3a9-89d9-43dd-9bc3-7e9324ed64a8")
-		(at 95.25 128.27 90)
+		(at 134.366 80.01 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2105"
@@ -690,7 +690,7 @@
 	(footprint "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0c101362-8459-4833-b994-07a3f2956ad2")
-		(at 95.885 151.765 -90)
+		(at 135.001 103.505 -90)
 		(descr "Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
 		(tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 10.16mm  length 3.04mm diameter 1.6mm")
 		(property "Reference" "V2103"
@@ -1044,7 +1044,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "/SAZ")
+			(net 31 "/xAZ")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "1bd9df2d-3110-4997-b44c-282c720feee6")
@@ -1075,7 +1075,7 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "10c903f9-6ab2-4837-b64d-5621323a8346")
-		(at 72.39 163.83)
+		(at 111.506 115.57)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2109"
@@ -1225,7 +1225,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "128c24f9-7be5-44f0-a5d9-2eda5c0e526a")
-		(at 133.096 138.43 180)
+		(at 172.212 90.17 180)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "D2101"
@@ -1502,7 +1502,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "/SAZ")
+			(net 31 "/xAZ")
 			(pintype "input")
 			(uuid "772c4b44-7f60-40c3-90e7-db47c358ece3")
 		)
@@ -1512,7 +1512,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "/SDN-")
+			(net 32 "/xDN-")
 			(pintype "input")
 			(uuid "858142d8-209e-4cc2-af99-7b13562d0480")
 		)
@@ -1533,7 +1533,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "Net-(C2111-Pad2)")
+			(net 27 "Net-(C2111-Pad1)")
 			(pintype "passive")
 			(uuid "23e7e271-8266-4af3-aa1c-db716c6011b8")
 		)
@@ -1573,7 +1573,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "/SDN+")
+			(net 35 "/xDN+")
 			(pintype "input")
 			(uuid "f5fb296f-22af-44a7-afa1-b9751e62705c")
 		)
@@ -1583,7 +1583,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "/SUP")
+			(net 36 "/xUP")
 			(pintype "input")
 			(uuid "fd3b034e-a5bd-44f7-81af-df6240955595")
 		)
@@ -1613,7 +1613,7 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "17c5aa93-3887-47d9-9b9c-b47c64881c4b")
-		(at 120.142 158.242)
+		(at 159.258 109.982)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2108"
@@ -1763,7 +1763,7 @@
 	(footprint "Capacitor_THT:CP_Axial_L25.0mm_D10.0mm_P30.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1e043467-abe2-48b4-a094-db6b2b2c4fb4")
-		(at 102.87 161.29 90)
+		(at 141.986 113.03 90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=30mm, , length*diameter=25*10mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 30mm  length 25mm diameter 10mm Electrolytic Capacitor")
 		(property "Reference" "C2103"
@@ -2198,7 +2198,7 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "204595a8-948b-41f4-9dee-2612b9579c6d")
-		(at 161.925 120.65)
+		(at 201.041 72.39)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2101"
@@ -2348,7 +2348,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3325964e-64c7-4c99-b105-77b64d6ce713")
-		(at 90.17 143.51 90)
+		(at 129.286 95.25 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2111"
@@ -2623,7 +2623,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "340d2fff-f350-45db-9c87-f89d650b7534")
-		(at 133.096 161.29 180)
+		(at 172.212 113.03 180)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "D2102"
@@ -2880,7 +2880,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "/SDN-")
+			(net 32 "/xDN-")
 			(pintype "output")
 			(uuid "9328072e-ac2d-4307-9123-8c24eb589b3b")
 		)
@@ -2910,7 +2910,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "/SAZ")
+			(net 31 "/xAZ")
 			(pintype "output")
 			(uuid "e2d33870-3033-425b-9311-c6c8cf4e0fa5")
 		)
@@ -2951,7 +2951,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "/SUP")
+			(net 36 "/xUP")
 			(pintype "output")
 			(uuid "c2ce5ee2-13c5-432c-a750-65e74ba96775")
 		)
@@ -2981,7 +2981,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "/SDN+")
+			(net 35 "/xDN+")
 			(pintype "output")
 			(uuid "ad5eca76-3054-46c5-9c77-a38f85754bfd")
 		)
@@ -3032,11 +3032,11 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "354668a9-0c4d-4d86-ab5a-9e742600226a")
-		(at 140.375 133.985)
+		(at 179.491 85.725)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2113"
-			(at 2.5 -2.2 0)
+			(at 2.627 1.905 0)
 			(layer "F.SilkS")
 			(uuid "1d43b669-fd9d-4a20-b684-5ea5fc9e811a")
 			(effects
@@ -3287,11 +3287,11 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "361ee18b-f37f-41a3-91c4-f9c8f79b46b1")
-		(at 133.096 117.602)
+		(at 172.212 69.342)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2102"
-			(at 0 2.25 0)
+			(at -1.524 2.54 0)
 			(layer "F.SilkS")
 			(uuid "ed35da76-fe9c-4aac-96c0-5245c73694d4")
 			(effects
@@ -3417,7 +3417,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "Net-(C2111-Pad2)")
+			(net 27 "Net-(C2111-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "512ee884-cb41-4590-9d57-40604ad17b26")
@@ -3437,7 +3437,7 @@
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical"
 		(layer "F.Cu")
 		(uuid "397dc7a6-7e47-467a-98a2-f4aa29424a99")
-		(at 78.74 116.205)
+		(at 117.856 67.945)
 		(descr "Potentiometer, vertical, Bourns 3296Y, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296Y")
 		(property "Reference" "R2115"
@@ -3716,7 +3716,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "3aa7ac04-95b2-4c78-9324-8a8503c1c890")
-		(at 71.12 144.145 90)
+		(at 110.236 95.885 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2114"
@@ -3971,7 +3971,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3b5c7dac-7546-4563-baf6-c48cfc65147e")
-		(at 80.01 133.35 90)
+		(at 119.126 85.09 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2109"
@@ -4246,7 +4246,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3b79ea5b-281f-4b87-93b2-3fdc1f2706c8")
-		(at 69.85 161.29 90)
+		(at 108.966 113.03 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2116"
@@ -4521,7 +4521,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3dd51f6a-5ec9-4657-9f7b-18e1109d999e")
-		(at 85.09 149.86 90)
+		(at 124.206 101.6 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2114"
@@ -4796,7 +4796,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "407d0d35-09e0-4e3b-8caf-6b73e3dc4eab")
-		(at 151.13 161.29 180)
+		(at 190.246 113.03 180)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "R2119"
@@ -5142,7 +5142,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "Net-(C2111-Pad2)")
+			(net 27 "Net-(C2111-Pad1)")
 			(pintype "passive")
 			(uuid "72130bd3-ab52-4cff-908b-5be627da068f")
 		)
@@ -5197,7 +5197,7 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "408081a1-c30f-451a-89e9-7c897d756601")
-		(at 67.945 121.285)
+		(at 107.061 73.025)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2107"
@@ -5347,7 +5347,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "4b5ee0f2-7270-4364-9da6-4ca85c54eac7")
-		(at 82.55 163.83 90)
+		(at 121.666 115.57 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2109"
@@ -5602,7 +5602,7 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "4e21f9ad-b69f-4e2e-bf66-4c28630f47e5")
-		(at 80.01 161.29 180)
+		(at 119.126 113.03 180)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "A2104"
@@ -5935,7 +5935,7 @@
 	(footprint "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "50c44e2d-98fc-4f2c-8c12-d9b57af7e9c3")
-		(at 160.655 135.89 90)
+		(at 199.771 87.63 90)
 		(descr "Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
 		(tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 10.16mm  length 3.04mm diameter 1.6mm")
 		(property "Reference" "V2106"
@@ -6320,7 +6320,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "56d31028-287c-4bd9-8a3a-a41e0782d878")
-		(at 120.65 152.4 90)
+		(at 159.766 104.14 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2101"
@@ -6595,7 +6595,7 @@
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical"
 		(layer "F.Cu")
 		(uuid "5ce71919-9121-47b6-aa54-934ff392e2ce")
-		(at 118.11 116.205)
+		(at 157.226 67.945)
 		(descr "Potentiometer, vertical, Bourns 3296Y, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296Y")
 		(property "Reference" "R2104"
@@ -6874,7 +6874,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6a8bb0ff-8c02-42b7-ac6d-eea299676907")
-		(at 105.41 128.27 90)
+		(at 144.526 80.01 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2102"
@@ -7149,7 +7149,7 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "6c8daca8-9218-484d-88cb-c966a6bddd33")
-		(at 90.17 129.54 180)
+		(at 129.286 81.28 180)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "A2102"
@@ -7482,11 +7482,11 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "71f802fa-bdae-4c5d-8082-7f6d07111edd")
-		(at 151.21 133.985)
+		(at 190.326 85.725)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2112"
-			(at 2.5 -2.2 0)
+			(at 2.46 4.445 0)
 			(layer "F.SilkS")
 			(uuid "50079036-0452-4a0c-a3e2-e885923441c1")
 			(effects
@@ -7737,7 +7737,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "731a5e30-de38-44ae-8c1d-92f8a678034a")
-		(at 74.295 140.97 90)
+		(at 113.411 92.71 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2117"
@@ -7992,11 +7992,11 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "79b9c171-6377-4b4b-aa19-ea4e05502302")
-		(at 145.415 130.81 180)
+		(at 184.531 82.55 180)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "A2106"
-			(at 3.81 -2.33 0)
+			(at 3.683 0.508 0)
 			(layer "F.SilkS")
 			(uuid "e6c99523-a346-4b37-ac90-dca2d583b4e9")
 			(effects
@@ -8325,7 +8325,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "7b7a2f48-b06a-4b6b-84ea-825be33c7ff5")
-		(at 120.65 138.35 90)
+		(at 159.766 90.09 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2101"
@@ -8580,7 +8580,7 @@
 	(footprint "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7d89c104-3c65-4bd4-b002-4288d38ef91e")
-		(at 92.71 143.51 90)
+		(at 131.826 95.25 90)
 		(descr "Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
 		(tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 10.16mm  length 3.04mm diameter 1.6mm")
 		(property "Reference" "V2104"
@@ -8965,7 +8965,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7e815ae8-1fa5-4a4d-b464-c011953fb859")
-		(at 76.835 151.13 90)
+		(at 115.951 102.87 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2113"
@@ -9240,7 +9240,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "82b3da48-ec05-4bd1-a806-0e3f2495ccd1")
-		(at 85.09 158.71 90)
+		(at 124.206 110.45 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2106"
@@ -9495,7 +9495,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8c3d0363-bbd8-4b5a-a4fa-76d6df655764")
-		(at 110.49 129.54 90)
+		(at 149.606 81.28 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2103"
@@ -9770,7 +9770,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "9066c8b6-bd67-4558-b5cb-cbdc9abb5bfc")
-		(at 138.43 160.655 90)
+		(at 177.546 112.395 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2115"
@@ -10025,7 +10025,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "914b40a3-f554-4d54-99db-0ebda68eda64")
-		(at 110.57 133.985)
+		(at 149.686 85.725)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2102"
@@ -10280,7 +10280,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "92b49ec8-f167-4c07-a140-63add48ed85a")
-		(at 107.95 132.08 90)
+		(at 147.066 83.82 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2107"
@@ -10555,7 +10555,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9b773618-8f1d-4536-a62a-9264991e41a5")
-		(at 87.63 146.05 90)
+		(at 126.746 97.79 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2110"
@@ -10830,7 +10830,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a7f1c8bf-1d5e-420d-93a8-dcf62c032adf")
-		(at 82.55 153.67 90)
+		(at 121.666 105.41 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2112"
@@ -11105,7 +11105,7 @@
 	(footprint "Philips_PM2528:PM2528_RiserCardConnector"
 		(layer "F.Cu")
 		(uuid "a976deb6-455f-4f73-830c-a5a3acf7365c")
-		(at 70.12 169.5 90)
+		(at 109.236 121.24 90)
 		(property "Reference" "K1"
 			(at 0 -0.5 90)
 			(unlocked yes)
@@ -11645,11 +11645,11 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "af6e6ec7-98db-4c69-9c57-66dcc689e5a5")
-		(at 128.27 117.475)
+		(at 167.386 69.215)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2103"
-			(at 0 2.25 0)
+			(at -0.254 -2.159 0)
 			(layer "F.SilkS")
 			(uuid "6ca5b221-f3e6-4b90-bfec-b5d7878d4a3d")
 			(effects
@@ -11795,7 +11795,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "b35ffe87-ca80-479a-ad7e-29626f836c6f")
-		(at 91.44 148.59)
+		(at 130.556 100.33)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "V2102"
@@ -12027,7 +12027,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "b775f42a-2768-4d05-a3f6-85d5504beb0d")
-		(at 82.63 132.08)
+		(at 121.746 83.82)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2105"
@@ -12282,7 +12282,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ba4e6d7f-5e01-480c-b1c2-dda74c441530")
-		(at 92.71 163.83 90)
+		(at 131.826 115.57 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2108"
@@ -12557,7 +12557,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "bcb8b2b3-6f27-439e-99d2-b3737fb5999a")
-		(at 87.63 163.83 90)
+		(at 126.746 115.57 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2116"
@@ -12812,11 +12812,11 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "be7f1a5d-e8f6-4574-9f3f-888bddaed4b9")
-		(at 107.442 117.856)
+		(at 147.32 69.342)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2105"
-			(at 0 2.25 0)
+			(at -0.508 -2.286 0)
 			(layer "F.SilkS")
 			(uuid "064e6626-83c5-41aa-a13c-d83fd1572fab")
 			(effects
@@ -12962,7 +12962,7 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "ce8ef633-29d4-4b47-af4f-6bae289d8de7")
-		(at 77.47 130.81 180)
+		(at 116.586 82.55 180)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "A2103"
@@ -13295,7 +13295,7 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "d29a4eee-3421-4d1b-b018-7d9341b5089d")
-		(at 120.65 130.81 180)
+		(at 159.766 82.55 180)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "A2101"
@@ -13628,7 +13628,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d753a685-fa62-4ca5-8591-14dfee6fec04")
-		(at 73.66 151.05 90)
+		(at 112.776 102.79 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2107"
@@ -13883,7 +13883,7 @@
 	(footprint "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d9f9d3ef-7f9b-4dfb-9e09-0f9f54fd01af")
-		(at 138.43 146.05 90)
+		(at 177.546 97.79 90)
 		(descr "Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
 		(tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 10.16mm  length 3.04mm diameter 1.6mm")
 		(property "Reference" "V2107"
@@ -14268,7 +14268,7 @@
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical"
 		(layer "F.Cu")
 		(uuid "db8b97f8-733d-44ee-9e6e-4e9bbf7d7e4b")
-		(at 156.21 116.205)
+		(at 195.326 67.945)
 		(descr "Potentiometer, vertical, Bourns 3296Y, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296Y")
 		(property "Reference" "R2118"
@@ -14547,7 +14547,7 @@
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical"
 		(layer "F.Cu")
 		(uuid "e2e2e1fe-f6ba-4251-9649-0cb6640eb437")
-		(at 142.24 116.205)
+		(at 181.356 67.945)
 		(descr "Potentiometer, vertical, Bourns 3296Y, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296Y")
 		(property "Reference" "R2121"
@@ -14826,7 +14826,7 @@
 	(footprint "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e3ee47bb-2df3-46c9-910f-33677a694c91")
-		(at 95.25 143.51 90)
+		(at 134.366 95.25 90)
 		(descr "Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
 		(tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 10.16mm  length 3.04mm diameter 1.6mm")
 		(property "Reference" "V2105"
@@ -15211,11 +15211,11 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "e432f8a2-cd2f-4c1d-96d5-6a14786f5794")
-		(at 151.17 136.525)
+		(at 190.286 88.265)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2110"
-			(at 2.5 -2.2 0)
+			(at 2.46 3.175 0)
 			(layer "F.SilkS")
 			(uuid "a1601cc4-35e0-41bc-94b2-fe7cd6ce34a1")
 			(effects
@@ -15437,7 +15437,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "+2VRef")
+			(net 33 "GND3")
 			(pintype "passive")
 			(uuid "be5cfc6d-fb04-467c-bb70-e50da28c0a45")
 		)
@@ -15447,7 +15447,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 33 "GND3")
+			(net 30 "+2VRef")
 			(pintype "passive")
 			(uuid "c7960382-30f6-4ec3-a031-0a194243ef06")
 		)
@@ -15466,11 +15466,11 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "ec4e4f5c-22e9-42f7-9bbc-bb9539cc160d")
-		(at 158.115 130.81 180)
+		(at 197.231 82.55 180)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "A2105"
-			(at 3.81 -2.33 0)
+			(at 3.937 0.508 0)
 			(layer "F.SilkS")
 			(uuid "5b36d4c2-32fd-4a06-a87e-e62abc101d42")
 			(effects
@@ -15799,7 +15799,7 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "f1e16bdc-3f01-4a9d-b85b-e0588d839dbe")
-		(at 87.122 118.11)
+		(at 126.238 69.85)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2106"
@@ -15949,7 +15949,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "f43d44d7-d77b-404b-bddb-e012410d5141")
-		(at 80.01 151.13 90)
+		(at 119.126 102.87 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2108"
@@ -16204,11 +16204,11 @@
 	(footprint "Connector_Pin:Pin_D1.0mm_L10.0mm"
 		(layer "F.Cu")
 		(uuid "f87cc3ce-2d62-4651-a90e-e11fe4a0564d")
-		(at 122.936 117.602)
+		(at 162.052 69.342)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP2104"
-			(at 0 2.25 0)
+			(at 0.762 2.54 0)
 			(layer "F.SilkS")
 			(uuid "d2aea75f-7a5e-4387-8f71-00885f319686")
 			(effects
@@ -16354,7 +16354,7 @@
 	(footprint "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4"
 		(layer "F.Cu")
 		(uuid "fcefabef-2980-41d2-98e2-fe6dfc1e8b1b")
-		(at 113.03 160.93 90)
+		(at 152.146 112.67 90)
 		(descr "C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*8.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 22.50mm  length 26.5mm width 8.5mm Capacitor")
 		(property "Reference" "C2104"
@@ -16589,7 +16589,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fea32fcd-06cb-42c0-99cd-a427152f13ef")
-		(at 161.29 150.495 90)
+		(at 200.406 102.235 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2117"
@@ -16862,8 +16862,8 @@
 		)
 	)
 	(gr_rect
-		(start 67.5 114.23)
-		(end 164 177.5)
+		(start 106.616 65.97)
+		(end 203.116 129.24)
 		(stroke
 			(width 0.05)
 			(type default)

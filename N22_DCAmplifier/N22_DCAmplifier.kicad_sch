@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N22 (DC Amplifier)")
-		(date "2025-04-08")
+		(date "2025-05-23")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "4xxx:4047"
@@ -4097,7 +4098,7 @@
 		)
 		(uuid "1675f581-9c70-47d8-801f-037ffd76be49")
 	)
-	(text "-> ADC (D1101.1, D1101.2)\n-> Current Source (N23.17)\n"
+	(text "-> ADC (D1101.1/2)\n-> Current Source (N23.17)\n"
 		(exclude_from_sim no)
 		(at 204.724 71.12 0)
 		(effects
@@ -4158,36 +4159,16 @@
 		)
 		(uuid "859cbbb3-6be1-400e-b046-bd57af4f7348")
 	)
-	(text "X1 (Closed)\nX10 (Open)"
+	(text "K2201/K2202:\nX1 (Closed)\nX10 (Open)"
 		(exclude_from_sim no)
-		(at 162.306 97.536 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88650191-c9b3-4327-b308-c6bf054383b0")
-	)
-	(text "X1 (Closed)\nX10 (Open)"
-		(exclude_from_sim no)
-		(at 185.928 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8c2d0d74-7353-47e8-b0f4-fc99d10775b1")
-	)
-	(text "(Not fitted)"
-		(exclude_from_sim no)
-		(at 117.856 92.71 0)
+		(at 174.244 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a39fb6d0-bad4-4da2-80e3-30774d8403d3")
+		(uuid "8c2d0d74-7353-47e8-b0f4-fc99d10775b1")
 	)
 	(text "VOFF"
 		(exclude_from_sim no)
@@ -6573,7 +6554,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 214.63) (xy 223.52 215.9)
+			(xy 223.52 214.63) (xy 223.52 218.44)
 		)
 		(stroke
 			(width 0)
@@ -14306,7 +14287,7 @@
 	)
 	(symbol
 		(lib_id "power:GND3")
-		(at 223.52 215.9 0)
+		(at 223.52 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14314,7 +14295,7 @@
 		(dnp no)
 		(uuid "cc472a5f-1ab5-4661-84fb-1759a30de180")
 		(property "Reference" "#PWR021"
-			(at 223.52 222.25 0)
+			(at 223.52 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +14304,7 @@
 			)
 		)
 		(property "Value" "GND4"
-			(at 223.52 219.71 0)
+			(at 223.52 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14331,7 +14312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 215.9 0)
+			(at 223.52 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,7 +14321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 215.9 0)
+			(at 223.52 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14349,7 +14330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
-			(at 223.52 215.9 0)
+			(at 223.52 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

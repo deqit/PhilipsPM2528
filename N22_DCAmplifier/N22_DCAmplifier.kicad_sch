@@ -1912,214 +1912,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PM2528:BVS81"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "T"
-				(at 3.048 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BVS81_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -2.286 -0.889) (xy -2.286 -1.651) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.905) (xy -1.016 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 1.397) (xy -1.016 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.397) (xy -1.016 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 -0.127) (xy -1.002 -0.1256)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BVS81_1_1"
-				(pin input line
-					(at -6.35 -1.27 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -5.08 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PM2528:FET_Dual"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3102,6 +2894,294 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:NMOS_Substrate"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 6.985 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS_Substrate"
+				(at 6.985 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 29.845 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-channel MOSFET symbol with substrate (bulk) pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "MOS1"
+				(at 0 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S 4=B"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mosfet nmos simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_Substrate_0_1"
+				(polyline
+					(pts
+						(xy 1.524 1.905) (xy 1.524 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.286) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.778) (xy 2.54 1.778) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 2.032 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 3.302 0.381) (xy 3.302 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.921 0)
+					(radius 3.0294)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_Substrate_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "Bulk"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4339,12 +4419,6 @@
 		(uuid "4615d4cc-9ca5-4804-83c0-ae2c1b5d9574")
 	)
 	(junction
-		(at 127 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "497b9fa4-f622-4be6-9908-dc641cee7461")
-	)
-	(junction
 		(at 372.11 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4367,6 +4441,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "575af8e2-8291-40b4-84e4-b38f1017aa7d")
+	)
+	(junction
+		(at 139.7 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d98c817-6f65-437d-b6fc-048996a8eb0f")
 	)
 	(junction
 		(at 85.09 209.55)
@@ -4421,12 +4501,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f90ed05-a0ab-4418-ac65-cc24bb6624d4")
-	)
-	(junction
-		(at 139.7 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80268f42-b625-4fab-ad7b-970d610204b2")
 	)
 	(junction
 		(at 142.24 71.12)
@@ -4613,6 +4687,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e791cabf-a904-4ed5-ae27-8dbd9b5f858a")
+	)
+	(junction
+		(at 128.27 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8e44047-5968-4fef-bdad-4afb9ffc8611")
 	)
 	(junction
 		(at 172.72 151.13)
@@ -4984,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 186.69) (xy 127 246.38)
+			(xy 128.27 185.42) (xy 128.27 246.38)
 		)
 		(stroke
 			(width 0)
@@ -5151,6 +5231,16 @@
 			(type default)
 		)
 		(uuid "2abf58e2-fdaa-4a54-a43a-5351699f57b9")
+	)
+	(wire
+		(pts
+			(xy 139.7 179.07) (xy 139.7 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2baa6a8e-4ca3-44c7-ab57-490a4152bc03")
 	)
 	(wire
 		(pts
@@ -5354,7 +5444,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 246.38) (xy 127 246.38)
+			(xy 123.19 246.38) (xy 128.27 246.38)
 		)
 		(stroke
 			(width 0)
@@ -6024,6 +6114,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 246.38) (xy 133.35 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c05a24-ed27-4ed3-9b35-6dac55a2ab16")
+	)
+	(wire
+		(pts
 			(xy 93.98 27.94) (xy 93.98 29.21)
 		)
 		(stroke
@@ -6201,16 +6301,6 @@
 			(type default)
 		)
 		(uuid "84d312e5-0ffb-4301-9869-8c0ef9d9c134")
-	)
-	(wire
-		(pts
-			(xy 139.7 180.34) (xy 139.7 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85fca11e-4d40-437b-a58d-6b0b1ae5058f")
 	)
 	(wire
 		(pts
@@ -6394,6 +6484,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 179.07) (xy 154.94 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a7ce34-14d0-44b0-999a-5150295da2c8")
+	)
+	(wire
+		(pts
 			(xy 166.37 92.71) (xy 166.37 93.98)
 		)
 		(stroke
@@ -6511,16 +6611,6 @@
 			(type default)
 		)
 		(uuid "9b86decf-b4d4-490d-ad0e-cf62f338345f")
-	)
-	(wire
-		(pts
-			(xy 139.7 179.07) (xy 154.94 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c405bf6-e895-409e-ba59-577e20e36cfd")
 	)
 	(wire
 		(pts
@@ -6651,16 +6741,6 @@
 			(type default)
 		)
 		(uuid "a3ebe372-7101-4846-99a3-f9ecacc477b1")
-	)
-	(wire
-		(pts
-			(xy 127 246.38) (xy 133.35 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4635578-a798-41f7-96f7-6405bff77d22")
 	)
 	(wire
 		(pts
@@ -7394,7 +7474,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 186.69) (xy 132.08 186.69)
+			(xy 128.27 185.42) (xy 133.35 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11405,6 +11485,108 @@
 			(project "N22_DCAmplifier"
 				(path "/2ba4ca6b-4aec-411c-9da4-218d92fedde9"
 					(reference "R2205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS_Substrate")
+		(at 137.16 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75be14dc-2763-4d67-90f9-e68f856d3654")
+		(property "Reference" "V2205"
+			(at 143.256 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSV81"
+			(at 143.51 183.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-72-4"
+			(at 167.005 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 137.16 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel MOSFET symbol with substrate (bulk) pin"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 137.16 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "MOS1"
+			(at 137.16 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S 4=B"
+			(at 137.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "653230ca-d859-4646-9008-7a29f9510bd7")
+		)
+		(pin "1"
+			(uuid "aa4da618-2a33-4a2b-a5ec-de186230922f")
+		)
+		(pin "2"
+			(uuid "aaadc5b5-202e-4305-8e90-c1015c1a62e9")
+		)
+		(pin "4"
+			(uuid "d315b34d-a128-4bbf-9936-6f28687505d9")
+		)
+		(instances
+			(project ""
+				(path "/2ba4ca6b-4aec-411c-9da4-218d92fedde9"
+					(reference "V2205")
 					(unit 1)
 				)
 			)
@@ -15846,81 +16028,6 @@
 			(project ""
 				(path "/2ba4ca6b-4aec-411c-9da4-218d92fedde9"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PM2528:BVS81")
-		(at 138.43 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edaea6bb-4d13-40b5-b41d-480733568a5f")
-		(property "Reference" "V2205"
-			(at 141.478 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSV81"
-			(at 141.478 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-72-4"
-			(at 138.43 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f55e810-7df4-4038-b23d-19f94bc76bca")
-		)
-		(pin "4"
-			(uuid "eee17164-840a-478f-a54e-bbec28b6d52a")
-		)
-		(pin "3"
-			(uuid "af74a956-4e77-4d6a-9fc2-d5461f6c638d")
-		)
-		(pin "1"
-			(uuid "4fb3b9cf-3a9a-4b4b-ae02-0e0bb704869f")
-		)
-		(instances
-			(project ""
-				(path "/2ba4ca6b-4aec-411c-9da4-218d92fedde9"
-					(reference "V2205")
 					(unit 1)
 				)
 			)

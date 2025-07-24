@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N23 (Current Source)")
-		(date "2025-07-06")
+		(date "2025-07-23")
 		(rev "1.0")
 	)
 	(lib_symbols
@@ -5957,6 +5957,17 @@
 		)
 		(uuid "016f9327-2953-415a-828d-84fb08b1ddf6")
 	)
+	(hierarchical_label "Filter"
+		(shape input)
+		(at 25.4 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f8a9046-32d3-4f3a-934c-cc6e25d15237")
+	)
 	(hierarchical_label "REL2306"
 		(shape output)
 		(at 25.4 52.07 0)
@@ -5978,17 +5989,6 @@
 			(justify left)
 		)
 		(uuid "2385f785-e93f-448f-a0b6-77793f86077b")
-	)
-	(hierarchical_label "GND3"
-		(shape passive)
-		(at 25.4 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "331ec875-159e-4b97-bf53-7cde019740b3")
 	)
 	(hierarchical_label "REL2303"
 		(shape output)
@@ -6012,16 +6012,16 @@
 		)
 		(uuid "53100eee-da82-43ac-be92-7f147b2ead44")
 	)
-	(hierarchical_label "Filter"
-		(shape input)
-		(at 25.4 57.15 0)
+	(hierarchical_label "GND3"
+		(shape passive)
+		(at 25.4 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6872c16c-1057-49f6-8d88-248de5dcaff2")
+		(uuid "5d94fa54-db3c-4e1b-9ba9-173fa2a33e83")
 	)
 	(hierarchical_label "GND1"
 		(shape passive)
@@ -6045,17 +6045,6 @@
 		)
 		(uuid "95d338f8-421c-4fb3-941f-99b0db160bec")
 	)
-	(hierarchical_label "N2157"
-		(shape output)
-		(at 25.4 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fca97fc-5b69-48a6-aa50-6d103d74e016")
-	)
 	(hierarchical_label "Vref"
 		(shape output)
 		(at 25.4 36.83 0)
@@ -6065,18 +6054,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ba073b88-0905-4db8-b032-f2b94a682b84")
-	)
-	(hierarchical_label "-15V"
-		(shape passive)
-		(at 25.4 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c4c14809-8695-4598-be24-1c13222d451d")
+		(uuid "9b4af724-829d-41af-92c7-8e03a6b21c59")
 	)
 	(hierarchical_label "REL2301"
 		(shape output)
@@ -6088,6 +6066,17 @@
 			(justify left)
 		)
 		(uuid "c9f2a6cb-b284-444d-b133-5ff6591ae789")
+	)
+	(hierarchical_label "N2157"
+		(shape output)
+		(at 25.4 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc74a32b-829a-4600-9cea-e2a5a5fe3c1e")
 	)
 	(hierarchical_label "GND4"
 		(shape passive)
@@ -6110,6 +6099,17 @@
 			(justify left)
 		)
 		(uuid "e0872800-eb74-453f-bf4a-e8e6404b6f5f")
+	)
+	(hierarchical_label "-15V"
+		(shape passive)
+		(at 25.4 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed974b9e-0810-46c8-88fa-0ff12274ce21")
 	)
 	(hierarchical_label "REL2307"
 		(shape output)
@@ -6147,7 +6147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 87.63 47.498 90)
 			(effects
 				(font
@@ -6214,7 +6214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 297.18 103.378 90)
 			(effects
 				(font
@@ -6282,7 +6282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 151.13 59.182 90)
 			(effects
 				(font
@@ -6350,7 +6350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 241.3 71.882 90)
 			(effects
 				(font
@@ -6418,7 +6418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -6489,7 +6489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 142.24 59.182 90)
 			(effects
 				(font
@@ -6557,7 +6557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 163.83 71.882 90)
 			(effects
 				(font
@@ -6625,7 +6625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 246.38 126.492 90)
 			(effects
 				(font
@@ -6758,7 +6758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 153.67 71.882 90)
 			(effects
 				(font
@@ -6914,7 +6914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 267.97 127 0)
 			(effects
 				(font
@@ -7198,7 +7198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 222.25 71.882 90)
 			(effects
 				(font
@@ -7266,7 +7266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 201.93 71.882 90)
 			(effects
 				(font
@@ -7334,7 +7334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 182.88 71.882 90)
 			(effects
 				(font
@@ -7469,7 +7469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 85.09 57.15 0)
 			(effects
 				(font
@@ -7537,7 +7537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 257.81 160.782 90)
 			(effects
 				(font
@@ -7672,7 +7672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4"
 			(at 106.3752 40.64 0)
 			(effects
 				(font
@@ -7807,7 +7807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 337.82 118.11 0)
 			(effects
 				(font
@@ -7904,7 +7904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 106.68 72.898 90)
 			(effects
 				(font
@@ -7973,7 +7973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4"
 			(at 383.2352 215.9 0)
 			(effects
 				(font
@@ -8194,7 +8194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 257.81 143.002 90)
 			(effects
 				(font
@@ -8261,9 +8261,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 236.22 119.38 0)
 			(effects
 				(font
@@ -8416,7 +8417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 355.6 36.83 0)
 			(effects
 				(font
@@ -8489,7 +8490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 62.23 62.738 90)
 			(effects
 				(font
@@ -8557,7 +8558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 193.04 71.882 90)
 			(effects
 				(font
@@ -8625,7 +8626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 266.7 143.002 90)
 			(effects
 				(font
@@ -8692,7 +8693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_THT:TO-99-8"
 			(at 106.68 50.8 0)
 			(effects
 				(font
@@ -8779,7 +8780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 254 101.6 0)
 			(effects
 				(font
@@ -8844,7 +8845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
 			(at 247.65 144.78 0)
 			(effects
 				(font
@@ -8916,7 +8917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 238.76 36.83 0)
 			(effects
 				(font
@@ -9057,7 +9058,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4"
 			(at 275.8948 88.9 0)
 			(effects
 				(font
@@ -9125,7 +9126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 212.09 71.882 90)
 			(effects
 				(font
@@ -9324,7 +9325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 153.67 91.44 0)
 			(effects
 				(font
@@ -9399,7 +9400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -9564,7 +9565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -9633,7 +9634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -9699,7 +9700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 257.81 83.82 0)
 			(effects
 				(font
@@ -9764,7 +9765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 288.29 99.822 90)
 			(effects
 				(font
@@ -9831,7 +9832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 85.09 62.738 90)
 			(effects
 				(font
@@ -9900,7 +9901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 297.18 36.83 0)
 			(effects
 				(font
@@ -9975,7 +9976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4"
 			(at 383.2352 227.33 0)
 			(effects
 				(font
@@ -10025,10 +10026,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9616b258-4772-4c01-b873-5e2135e3f6d6")
 		(property "Reference" "K1"
-			(at 17.78 11.43 0)
+			(at 17.78 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,6 +10041,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PM2528:PM2528_RiserCardConnector"
@@ -10250,7 +10251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 209.55 36.83 0)
 			(effects
 				(font
@@ -10324,7 +10325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 255.27 126.492 90)
 			(effects
 				(font
@@ -10392,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
 			(at 247.65 162.56 0)
 			(effects
 				(font
@@ -10809,9 +10810,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 241.3 111.76 0)
 			(effects
 				(font
@@ -10973,7 +10975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 326.39 36.83 0)
 			(effects
 				(font
@@ -11047,7 +11049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
 			(at 212.09 78.74 0)
 			(effects
 				(font
@@ -11117,7 +11119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 127.508 74.93 90)
 			(effects
 				(font
@@ -11250,7 +11252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 172.72 71.882 90)
 			(effects
 				(font
@@ -11319,7 +11321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 267.97 36.83 0)
 			(effects
 				(font
@@ -11394,7 +11396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 241.3 92.71 0)
 			(effects
 				(font
@@ -11533,7 +11535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -11603,7 +11605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 73.66 62.738 90)
 			(effects
 				(font
@@ -11804,7 +11806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 384.81 36.83 0)
 			(effects
 				(font
@@ -11943,7 +11945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
 			(at 62.23 45.72 0)
 			(effects
 				(font
@@ -12015,7 +12017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 212.09 92.71 0)
 			(effects
 				(font
@@ -12089,7 +12091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 266.7 160.782 90)
 			(effects
 				(font
@@ -12154,9 +12156,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 264.16 101.6 0)
 			(effects
 				(font
@@ -12296,7 +12299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 182.88 92.71 0)
 			(effects
 				(font
@@ -12370,7 +12373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -12438,9 +12441,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PM2528:Reed relay assy"
 			(at 242.57 153.67 0)
 			(effects
 				(font
@@ -12515,7 +12519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 312.42 101.6 0)
 			(effects
 				(font
@@ -12580,7 +12584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 231.14 71.882 90)
 			(effects
 				(font
@@ -12647,7 +12651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L26.5mm_W8.5mm_P22.50mm_MKS4"
 			(at 102.87 78.4352 0)
 			(effects
 				(font

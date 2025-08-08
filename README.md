@@ -1,20 +1,11 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Reviving a Philips PM2528 Digital Multimeter
+Picked up this vintage multimeter a while back — half-functional, no manuals, and full of mystery. Perfect.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+It’s built around an Intel 8035 microcontroller and packed with analog boards. There wasn’t a complete service manual anywhere, so I decided to dive in myself. This project's become a learning experience in hardware reverse engineering, firmware disassembly, and documentation.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Note: Everything you find here is a work-in-progress. It might be incomplete, and some parts may not be 100% accurate — yet. If you spot something interesting or catch an error, feel free to drop me a message. I’ll gladly update the info and give credit where it’s due.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+I’ll be sharing the repair process, schematics as I recreate them, and whatever interesting quirks I uncover along the way. If you’re into old test gear, 8-bit micros, or just enjoy seeing how stuff ticks — follow along.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Have fun!
+Dethmer.

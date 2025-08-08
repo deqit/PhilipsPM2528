@@ -7913,7 +7913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02f38247-5552-496b-bd3c-d11c14fdfeb1")
-		(property "Reference" "JP2"
+		(property "Reference" "JP2201"
 			(at 90.17 199.39 0)
 			(effects
 				(font
@@ -7930,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 90.17 205.74 0)
 			(effects
 				(font
@@ -7966,7 +7966,7 @@
 		(instances
 			(project "N22_DCAmplifier"
 				(path "/2ba4ca6b-4aec-411c-9da4-218d92fedde9"
-					(reference "JP2")
+					(reference "JP2201")
 					(unit 1)
 				)
 			)
@@ -10255,7 +10255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 156.21 193.04 0)
 			(effects
 				(font
@@ -12557,7 +12557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88c9d118-aae6-407d-8f57-66bafec01442")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2202"
 			(at 77.47 199.39 0)
 			(effects
 				(font
@@ -12574,7 +12574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 			(at 77.47 205.74 0)
 			(effects
 				(font
@@ -12610,7 +12610,7 @@
 		(instances
 			(project ""
 				(path "/2ba4ca6b-4aec-411c-9da4-218d92fedde9"
-					(reference "JP1")
+					(reference "JP2202")
 					(unit 1)
 				)
 			)
@@ -13058,7 +13058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 110.49 209.55 0)
 			(effects
 				(font
@@ -13528,7 +13528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 95.25 120.65 0)
 			(effects
 				(font
@@ -13860,7 +13860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 172.72 88.9 0)
 			(effects
 				(font
@@ -15113,7 +15113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 76.2 261.62 0)
 			(effects
 				(font
@@ -15645,7 +15645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7fbcb44-f17c-484f-b769-c843d625e3a3")
-		(property "Reference" "K1"
+		(property "Reference" "X2201"
 			(at 20.32 20.32 0)
 			(effects
 				(font
@@ -15659,6 +15659,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PM2528:PM2528_RiserCardConnector"
@@ -15748,7 +15749,7 @@
 		(instances
 			(project ""
 				(path "/2ba4ca6b-4aec-411c-9da4-218d92fedde9"
-					(reference "K1")
+					(reference "X2201")
 					(unit 1)
 				)
 			)

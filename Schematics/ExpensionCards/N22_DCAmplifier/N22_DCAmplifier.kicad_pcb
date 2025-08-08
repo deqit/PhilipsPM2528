@@ -9,8 +9,9 @@
 	(paper "A4")
 	(title_block
 		(title "Philips PM2528 - N22 (DC Amplifier)")
-		(date "2025-05-23")
-		(rev "1.1")
+		(date "2025-08-06")
+		(rev "1.0")
+		(company "D. Kupers")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -83,25 +84,25 @@
 		)
 	)
 	(net 0 "")
-	(net 1 "unconnected-(K1--5V-Pad2)")
+	(net 1 "unconnected-(X2201--5V-Pad2)")
 	(net 2 "/HI")
 	(net 3 "GND5")
-	(net 4 "unconnected-(K1-Pad5)")
+	(net 4 "unconnected-(X2201-Pad5)")
 	(net 5 "-15V")
 	(net 6 "/RELHI")
 	(net 7 "GND3")
-	(net 8 "unconnected-(K1-Pad6)")
+	(net 8 "unconnected-(X2201-Pad6)")
 	(net 9 "GND7")
-	(net 10 "unconnected-(K1-Pad12)")
+	(net 10 "unconnected-(X2201-Pad12)")
 	(net 11 "/HIOUT2")
-	(net 12 "unconnected-(K1-Pad17)")
+	(net 12 "unconnected-(X2201-Pad17)")
 	(net 13 "/HIOUT1")
-	(net 14 "unconnected-(K1-Pad16)")
+	(net 14 "unconnected-(X2201-Pad16)")
 	(net 15 "/LO")
 	(net 16 "GND4")
 	(net 17 "+15V")
 	(net 18 "GND6")
-	(net 19 "unconnected-(K1-Pad13)")
+	(net 19 "unconnected-(X2201-Pad13)")
 	(net 20 "Net-(V2203-K)")
 	(net 21 "Net-(V2206-B)")
 	(net 22 "Net-(V2206-E)")
@@ -128,28 +129,28 @@
 	(net 43 "Net-(R2207-Pad2)")
 	(net 44 "Net-(R2216-Pad3)")
 	(net 45 "Net-(R2217-Pad2)")
-	(net 46 "Net-(JP1-B)")
-	(net 47 "Net-(V2201-1G)")
-	(net 48 "Net-(C2202-Pad2)")
-	(net 49 "Net-(V2202-K)")
-	(net 50 "Net-(V2205-D)")
-	(net 51 "Net-(V2201-1S)")
-	(net 52 "Net-(JP2-B)")
-	(net 53 "Net-(V2201-2D)")
-	(net 54 "Net-(C2205-Pad2)")
-	(net 55 "Net-(V2201-2S)")
-	(net 56 "Net-(C2207-Pad2)")
-	(net 57 "Net-(C2211-Pad2)")
-	(net 58 "Net-(V2201-2G)")
-	(net 59 "Net-(V2213-A)")
-	(net 60 "Net-(D2201-RC_COMMON)")
-	(net 61 "Net-(D2201-C)")
-	(net 62 "Net-(D2201-+TRIGGER)")
-	(net 63 "Net-(D2201-Q)")
-	(net 64 "Net-(D2201-R)")
-	(net 65 "Net-(D2201-~{Q})")
-	(net 66 "unconnected-(D2201-OSC_OUT-Pad13)")
-	(net 67 "Net-(V2205-Bulk)")
+	(net 46 "Net-(V2201-1G)")
+	(net 47 "Net-(C2202-Pad2)")
+	(net 48 "Net-(V2202-K)")
+	(net 49 "Net-(V2205-D)")
+	(net 50 "Net-(V2201-1S)")
+	(net 51 "Net-(JP2201-A)")
+	(net 52 "Net-(V2201-2D)")
+	(net 53 "Net-(C2205-Pad2)")
+	(net 54 "Net-(V2201-2S)")
+	(net 55 "Net-(C2207-Pad2)")
+	(net 56 "Net-(C2211-Pad2)")
+	(net 57 "Net-(V2201-2G)")
+	(net 58 "Net-(V2213-A)")
+	(net 59 "Net-(D2201-RC_COMMON)")
+	(net 60 "Net-(D2201-C)")
+	(net 61 "Net-(D2201-+TRIGGER)")
+	(net 62 "Net-(D2201-Q)")
+	(net 63 "Net-(D2201-R)")
+	(net 64 "Net-(D2201-~{Q})")
+	(net 65 "unconnected-(D2201-OSC_OUT-Pad13)")
+	(net 66 "Net-(V2205-Bulk)")
+	(net 67 "Net-(JP2201-B)")
 	(footprint "Package_TO_SOT_THT:TO-72-4"
 		(layer "F.Cu")
 		(uuid "016f7428-3ef4-4604-a1c2-671a4a7876f3")
@@ -368,7 +369,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "Net-(D2201-Q)")
+			(net 62 "Net-(D2201-Q)")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "beaa3d9b-ceb7-4098-af88-93cdaf177d49")
@@ -433,7 +434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -654,7 +655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -860,7 +861,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 60 "Net-(D2201-RC_COMMON)")
+			(net 59 "Net-(D2201-RC_COMMON)")
 			(pintype "passive")
 			(uuid "1d94db2c-6e45-4d9f-b3ae-012ff722c4c6")
 		)
@@ -870,7 +871,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 61 "Net-(D2201-C)")
+			(net 60 "Net-(D2201-C)")
 			(pintype "passive")
 			(uuid "c6b5747a-15ba-4c1c-afc6-c271eb46fe19")
 		)
@@ -915,7 +916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1216,7 +1217,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-+TRIGGER)")
+			(net 61 "Net-(D2201-+TRIGGER)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1e9e7587-cf7a-4076-9a46-7e39a880a93d")
@@ -1262,7 +1263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1486,7 +1487,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1692,7 +1693,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "Net-(C2207-Pad2)")
+			(net 55 "Net-(C2207-Pad2)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "47d92e45-7989-4b8d-99e8-7841831cba77")
@@ -1749,7 +1750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1967,7 +1968,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "Net-(D2201-Q)")
+			(net 62 "Net-(D2201-Q)")
 			(pintype "passive")
 			(uuid "8c7a7fff-ec6a-4b79-9cd1-166e16282529")
 		)
@@ -2012,7 +2013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2142,7 +2143,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "Net-(D2201-Q)")
+			(net 62 "Net-(D2201-Q)")
 			(pintype "passive")
 			(uuid "49fadcc6-eb96-450a-91c5-fd58fb3f4901")
 		)
@@ -2169,14 +2170,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Potentiometer horizontal ceramic"
+	(footprint "PM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "12794dfd-671f-4c2e-8cc1-1e0fe43c7de5")
 		(at 190.5 73 -90)
-		(descr "Potentiometer, horizontal, ACP CA9-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
-		(tags "Potentiometer horizontal ACP CA9-H2,5")
+		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2209"
-			(at -2 4 180)
+			(at -2.25 2.75 0)
 			(layer "F.SilkS")
 			(uuid "877d521f-c491-4373-a1cd-bc6a7882b364")
 			(effects
@@ -2187,7 +2187,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 8.65 90)
+			(at 0 8.65 270)
 			(layer "F.Fab")
 			(uuid "631640c7-bdae-40b7-a8ca-5e74488972ba")
 			(effects
@@ -2197,8 +2197,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "494e1812-7c7e-43b1-b7ec-f40c81979080")
@@ -2210,7 +2210,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8d8f665-33e0-4cd4-9822-921a6a81d5c9")
@@ -2234,7 +2234,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c98465e9-165b-4d7b-927a-d5744399fcd5")
+			(uuid "4511f87f-3574-4ef7-8b29-1face2fa7a31")
 		)
 		(fp_line
 			(start -0.11 6.396)
@@ -2244,7 +2244,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6e066eb9-88fa-4524-94e2-8596768613eb")
+			(uuid "092e38d2-66cc-45bd-b9fb-1543364554a2")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -2254,7 +2254,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "59a69cf2-6f21-4403-9e55-2c4eaa4d23dc")
+			(uuid "192d7a62-5040-41d3-9f09-352426735f48")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -2264,7 +2264,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "de6574eb-c786-440c-8000-8bb129ac3661")
+			(uuid "9faa3151-21f1-4a22-b412-a20573648b40")
 		)
 		(fp_line
 			(start -0.11 -2.51)
@@ -2274,7 +2274,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4188d296-702b-483d-bddc-c77b4fd5862d")
+			(uuid "c55d58c4-73ae-40cd-ba59-170baf017e76")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -2284,7 +2284,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f6cd7d77-d08b-4642-9948-7ab45da85229")
+			(uuid "ba47fcdc-42c6-41a3-a5d4-ddedd800681a")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -2294,7 +2294,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5f577e2b-aac2-41dc-9363-14484c5e3c50")
+			(uuid "a5137e9e-3d57-4fa9-91f9-353e85dfaa75")
 		)
 		(fp_line
 			(start -1 6.5)
@@ -2304,7 +2304,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "1677103c-6a3e-4aec-a25c-6e33913999f3")
+			(uuid "0847229a-936a-4159-8e5f-b54a44af73e9")
 		)
 		(fp_line
 			(start 1.5 6.5)
@@ -2314,7 +2314,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "4a7586fe-fff9-478d-9f56-a2409e5fbe06")
+			(uuid "c4bbe771-69cf-451a-a690-071468ebb04f")
 		)
 		(fp_line
 			(start 1.5 4)
@@ -2324,7 +2324,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "e5ccab10-6b28-4eb8-b4b1-eee8ac1206ea")
+			(uuid "c3594155-9d7d-48f6-bc6b-79c6bffec2e0")
 		)
 		(fp_line
 			(start 3.5 4)
@@ -2334,7 +2334,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "04cd5942-f762-4b64-85da-12ed813e5502")
+			(uuid "ed6456ea-f2b2-4af2-8dbe-e2f06b8a190e")
 		)
 		(fp_line
 			(start 1.5 1)
@@ -2344,7 +2344,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "cc5c9307-273f-4459-979d-21fdf6124973")
+			(uuid "64508f63-1e1a-4d26-9ac6-b8f16f47404b")
 		)
 		(fp_line
 			(start 3.5 1)
@@ -2354,7 +2354,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "b15e8603-959c-45f6-87ac-6469cb93faff")
+			(uuid "b8dcb370-f815-435b-b737-3c4af3438d86")
 		)
 		(fp_line
 			(start -1 -1.5)
@@ -2364,7 +2364,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "57c11f33-a7f0-4282-98c9-f7bbb8db0d91")
+			(uuid "d3b6af20-d38c-44e2-9462-8fbd46c42359")
 		)
 		(fp_line
 			(start 1.5 -1.5)
@@ -2374,7 +2374,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "4194488f-6008-4adf-86fb-bf1cab10c594")
+			(uuid "595a3e98-e2fc-4c47-9ad0-527d43dbd789")
 		)
 		(fp_rect
 			(start 2.4 -2.4)
@@ -2385,10 +2385,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f14220b4-38c3-4898-abf5-af11b6755ad2")
+			(uuid "f0ff5cd5-0ab6-4bc2-b4c4-247c3fc209ba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 90)
+			(at 2.4 2.5 270)
 			(layer "F.Fab")
 			(uuid "fa06a52f-eb8b-4d95-abfd-e74acae80eb1")
 			(effects
@@ -2432,15 +2432,15 @@
 			(uuid "b41e8313-6e92-4c4a-87e5-ab8cf40adfcf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3386V001XXX.stp"
+		(model "${KICAD_DEQIT}/3DModels/PT10_PTC10_LH02.STEP"
 			(offset
-				(xyz -1 -2.5 5.5)
+				(xyz 0 -2.5 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -2472,7 +2472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2680,7 +2680,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(JP1-B)")
+			(net 51 "Net-(JP2201-A)")
 			(pintype "passive")
 			(uuid "31abfbdc-6ddf-46d5-a499-ada7cf0facea")
 		)
@@ -2735,7 +2735,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2943,7 +2943,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(V2201-1G)")
+			(net 46 "Net-(V2201-1G)")
 			(pintype "passive")
 			(uuid "d78452f0-804e-4ec8-a524-3a3ba47758e4")
 		)
@@ -2998,7 +2998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3206,7 +3206,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "Net-(V2201-2S)")
+			(net 54 "Net-(V2201-2S)")
 			(pintype "passive")
 			(uuid "7fed6d8d-e783-4840-83de-39642ca6c644")
 		)
@@ -3261,7 +3261,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3469,7 +3469,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 54 "Net-(C2205-Pad2)")
+			(net 53 "Net-(C2205-Pad2)")
 			(pintype "passive")
 			(uuid "b1a0f91d-e99e-4eb3-99bb-42487fc37cc0")
 		)
@@ -3479,7 +3479,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(V2201-2D)")
+			(net 52 "Net-(V2201-2D)")
 			(pintype "passive")
 			(uuid "4e9b1b3a-28d8-418f-8d2a-4042c14f0c4f")
 		)
@@ -3524,7 +3524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3732,7 +3732,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(C2202-Pad2)")
+			(net 47 "Net-(C2202-Pad2)")
 			(pintype "passive")
 			(uuid "30756ef6-5ac8-4b62-8fce-b27dbd6aa95f")
 		)
@@ -3742,7 +3742,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(V2205-D)")
+			(net 49 "Net-(V2205-D)")
 			(pintype "passive")
 			(uuid "ffd641fa-1426-463c-a512-0aafa09dca18")
 		)
@@ -3994,14 +3994,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Potentiometer horizontal ceramic"
+	(footprint "PM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "2ca708ad-7233-400c-9c80-4b3f8d7deed6")
 		(at 131.5 70.5 -90)
-		(descr "Potentiometer, horizontal, ACP CA9-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
-		(tags "Potentiometer horizontal ACP CA9-H2,5")
+		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2232"
-			(at -2 2 180)
+			(at -2 2.75 0)
 			(layer "F.SilkS")
 			(uuid "176e846f-e0a6-48c9-a2a5-9351a9f8864f")
 			(effects
@@ -4012,7 +4011,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 8.65 90)
+			(at 0 8.65 270)
 			(layer "F.Fab")
 			(uuid "8db62fb7-4fd7-4702-8bee-f3e4b4e0a554")
 			(effects
@@ -4022,8 +4021,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed5ca465-f02d-44e9-9636-436f4ed84c47")
@@ -4035,7 +4034,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef9d33b2-74d3-489d-acb8-c8a57d613072")
@@ -4059,7 +4058,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "85a9bbfd-d0c1-4bf6-a074-616058a85118")
+			(uuid "825a9f62-e586-49be-aa92-a67d3eed85d7")
 		)
 		(fp_line
 			(start -0.11 6.396)
@@ -4069,7 +4068,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "48cc2c71-3581-4c82-a0d5-d4b74fda0ddb")
+			(uuid "03c80adc-19c7-4da3-920a-2641ba9fe903")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -4079,7 +4078,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2be3c20c-0654-41f7-9b76-310ce9ac134f")
+			(uuid "67795cd0-b08f-4155-a206-6ba6cb9ccc4a")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -4089,7 +4088,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a5bf059c-c53e-4b29-9c28-ac6f3884658a")
+			(uuid "f4a1cbaf-255e-46ae-a11a-232a2b28270b")
 		)
 		(fp_line
 			(start -0.11 -2.51)
@@ -4099,7 +4098,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5cff9ef1-27a7-484e-b4a3-5d32a74d21c5")
+			(uuid "ba20e379-1565-493c-91b7-391a3042818e")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -4109,7 +4108,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "56159e24-81e0-41c4-ac9d-7d9d472668c8")
+			(uuid "5d719c51-02b8-4330-b6a5-b3e9c4b6019f")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -4119,7 +4118,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0d63fb06-4e49-450f-aab8-7bde2874b66d")
+			(uuid "10e38fbd-265e-43bd-b16f-d94b2c1ffa99")
 		)
 		(fp_line
 			(start -1 6.5)
@@ -4129,7 +4128,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "6e9344a2-eb54-4b28-b906-9aff2ed37a5f")
+			(uuid "4c846867-665b-4fa8-aa22-188cc1af316a")
 		)
 		(fp_line
 			(start 1.5 6.5)
@@ -4139,7 +4138,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "97f0eb7c-311d-4afa-aeee-ddb3694310a7")
+			(uuid "093ea680-e7c4-427a-8cd0-ac7571e3290d")
 		)
 		(fp_line
 			(start 1.5 4)
@@ -4149,7 +4148,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc0f8023-b4d2-49ad-bf91-94681a4d2034")
+			(uuid "45871649-7f97-4cd9-84f9-90f3e448c0a0")
 		)
 		(fp_line
 			(start 3.5 4)
@@ -4159,7 +4158,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "c486a506-0dd4-401f-8d55-9b288dee83e9")
+			(uuid "523be919-8653-4d76-8c85-5d6f6f12e4f8")
 		)
 		(fp_line
 			(start 1.5 1)
@@ -4169,7 +4168,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "a8a67aa4-3468-4bf5-8002-923e2bed5f2b")
+			(uuid "116ad57c-9d84-4eb3-86e7-14f3ac30a463")
 		)
 		(fp_line
 			(start 3.5 1)
@@ -4179,7 +4178,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "31d296d5-f91f-43ca-a1e2-a5791383aa36")
+			(uuid "369d4433-850c-476c-857c-5a28e07beb18")
 		)
 		(fp_line
 			(start -1 -1.5)
@@ -4189,7 +4188,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "1755aef7-7f76-440c-b239-8707616f6aae")
+			(uuid "8c4b866e-d7e9-42b2-9c15-37e1f2717870")
 		)
 		(fp_line
 			(start 1.5 -1.5)
@@ -4199,7 +4198,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "58cbb534-b425-47a4-9ace-8e925cfc65a5")
+			(uuid "06b48a2f-ade1-42a2-a9da-05eccc771a77")
 		)
 		(fp_rect
 			(start 2.4 -2.4)
@@ -4210,10 +4209,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c85b7b98-0d5a-4f3a-bb77-c9b5b3a7f90f")
+			(uuid "7d00458c-18a0-4e2f-9ba3-9bc96fe3809c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 90)
+			(at 2.4 2.5 270)
 			(layer "F.Fab")
 			(uuid "d0c06cf1-b880-43c0-9ec2-fa71f9b6924e")
 			(effects
@@ -4257,26 +4256,25 @@
 			(uuid "83f85ad3-a2cd-41b3-9067-a0d293885355")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3386V001XXX.stp"
+		(model "${KICAD_DEQIT}/3DModels/PT10_PTC10_LH02.STEP"
 			(offset
-				(xyz -1 -2.5 5.5)
+				(xyz 0 -2.5 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
-	(footprint "PM2528:Potentiometer horizontal ceramic"
+	(footprint "PM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "2edcc306-8f61-44de-b2c8-ff767911dc54")
 		(at 198 78.5 -90)
-		(descr "Potentiometer, horizontal, ACP CA9-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
-		(tags "Potentiometer horizontal ACP CA9-H2,5")
+		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2216"
-			(at -2 2 180)
+			(at -2 0.75 0)
 			(layer "F.SilkS")
 			(uuid "485ad903-0b6e-4548-8767-1edba5d2c7ff")
 			(effects
@@ -4287,7 +4285,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 0 8.65 90)
+			(at 0 8.65 270)
 			(layer "F.Fab")
 			(uuid "570f3911-cccc-41df-82e9-fea53a32d115")
 			(effects
@@ -4297,8 +4295,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31dc6f75-0e7c-4b08-b114-77fb6139b4d3")
@@ -4310,7 +4308,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1baf93ad-6aa4-4712-88ab-f218527b5e00")
@@ -4334,7 +4332,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bfe48614-ed26-444b-b844-a90f4bda714a")
+			(uuid "ff07df0e-9417-4332-ae7f-79f577c0ee5b")
 		)
 		(fp_line
 			(start -0.11 6.396)
@@ -4344,7 +4342,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ba4904be-1a15-4734-a4a9-262d42412060")
+			(uuid "b4569da4-8cd5-4f5a-822d-c38d9d5b6fe6")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -4354,7 +4352,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "08cfa2e8-b0c0-4f8f-98f0-e284069ef65d")
+			(uuid "4db7d665-057f-40be-b5f5-c2fba2946005")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -4364,7 +4362,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2404e0bd-495b-411a-b1cb-211f91c78353")
+			(uuid "abc08cca-6619-45ed-9166-f285b3ea982b")
 		)
 		(fp_line
 			(start -0.11 -2.51)
@@ -4374,7 +4372,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5f69c9aa-a038-4b2e-a2cc-bcf1c4c2f542")
+			(uuid "fec4525a-7182-4bba-b30d-26216b7b66be")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -4384,7 +4382,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "587490fd-7256-446d-bf66-6c06cc487f14")
+			(uuid "932fa949-8f77-454c-a1f3-25520e648832")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -4394,7 +4392,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0ebdc179-d9db-4672-81ee-3395d371c792")
+			(uuid "5e8f3baa-5854-4181-aa83-a797b21924f9")
 		)
 		(fp_line
 			(start -1 6.5)
@@ -4404,7 +4402,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "96f7739b-af5d-4f0c-8d8b-f469328ac983")
+			(uuid "c035c82d-d8db-43c5-9693-e7ba36422806")
 		)
 		(fp_line
 			(start 1.5 6.5)
@@ -4414,7 +4412,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "c15c13b7-8c42-4c25-b053-a9bb9cb79478")
+			(uuid "856b6cdb-f6df-45da-a38b-761d682218a5")
 		)
 		(fp_line
 			(start 1.5 4)
@@ -4424,7 +4422,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "09d2db9e-a453-4380-af00-ca24949f525d")
+			(uuid "ced66f46-2e25-4449-a582-b1acbcf9cb27")
 		)
 		(fp_line
 			(start 3.5 4)
@@ -4434,7 +4432,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "ddf0027f-a30b-49ed-b84e-3d0afc716d0c")
+			(uuid "f849e849-f520-4878-a955-487437177ab0")
 		)
 		(fp_line
 			(start 1.5 1)
@@ -4444,7 +4442,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "d093881d-4366-4063-895d-039b16ff8271")
+			(uuid "c27bc910-c913-40be-97b4-354dc044bd94")
 		)
 		(fp_line
 			(start 3.5 1)
@@ -4454,7 +4452,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "11060eb5-62c7-446e-ba2c-fef2328510d7")
+			(uuid "a3820066-88a8-4834-a929-4d2389db80a8")
 		)
 		(fp_line
 			(start -1 -1.5)
@@ -4464,7 +4462,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "feb7788a-d8d8-49bb-a109-cb2c06522015")
+			(uuid "3467fe90-8dc8-4532-9fde-3e7ede59209d")
 		)
 		(fp_line
 			(start 1.5 -1.5)
@@ -4474,7 +4472,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "ef19c94d-dfd8-40e9-90bc-ef3516428497")
+			(uuid "26b7428e-5fc8-4b54-8f8c-9cb96acf8fa5")
 		)
 		(fp_rect
 			(start 2.4 -2.4)
@@ -4485,10 +4483,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "82d3e462-43b4-4303-9171-4c5e8b50007c")
+			(uuid "2a70b239-7d18-4ed0-99ac-0b597b1a2125")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 90)
+			(at 2.4 2.5 270)
 			(layer "F.Fab")
 			(uuid "e3450bd7-85ed-4437-9539-44bef56050c8")
 			(effects
@@ -4504,7 +4502,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 60 "Net-(D2201-RC_COMMON)")
+			(net 59 "Net-(D2201-RC_COMMON)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "c4c0a705-492e-46ef-a234-6f4bdad923ee")
@@ -4515,7 +4513,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 60 "Net-(D2201-RC_COMMON)")
+			(net 59 "Net-(D2201-RC_COMMON)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "88d47a59-d672-4964-ae5b-5f3e8364b093")
@@ -4532,15 +4530,15 @@
 			(uuid "2759c27f-04f9-4564-bd56-1325f5552cfa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3386V001XXX.stp"
+		(model "${KICAD_DEQIT}/3DModels/PT10_PTC10_LH02.STEP"
 			(offset
-				(xyz -1 -2.5 5.5)
+				(xyz 0 -2.5 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -4572,7 +4570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4873,7 +4871,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 59 "Net-(V2213-A)")
+			(net 58 "Net-(V2213-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0358af9d-87d5-48f7-a4a5-a85b9873fbe1")
@@ -4919,7 +4917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5143,7 +5141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5943,7 +5941,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(V2205-D)")
+			(net 49 "Net-(V2205-D)")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "60bfbd44-795e-4df2-9e9b-a86054e0dded")
@@ -5954,7 +5952,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "Net-(D2201-~{Q})")
+			(net 64 "Net-(D2201-~{Q})")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "dc7791c9-d53e-49dd-a942-856c963307e6")
@@ -5965,7 +5963,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "Net-(V2205-Bulk)")
+			(net 66 "Net-(V2205-Bulk)")
 			(pinfunction "S")
 			(pintype "passive")
 			(uuid "b0617449-2e03-4410-9b23-a46a193576a8")
@@ -5976,7 +5974,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "Net-(V2205-Bulk)")
+			(net 66 "Net-(V2205-Bulk)")
 			(pinfunction "Bulk")
 			(pintype "input")
 			(uuid "86a69adb-d96c-4f56-abba-b2faf028c301")
@@ -6022,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6230,7 +6228,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(V2201-2D)")
+			(net 52 "Net-(V2201-2D)")
 			(pintype "passive")
 			(uuid "93917f9a-6025-42ce-a14b-a672554b6486")
 		)
@@ -6285,7 +6283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6470,7 +6468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6688,7 +6686,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "Net-(V2205-Bulk)")
+			(net 66 "Net-(V2205-Bulk)")
 			(pintype "passive")
 			(uuid "df125841-41ba-4e2e-9014-29ba1cf7ca9f")
 		)
@@ -6705,14 +6703,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Potentiometer horizontal ceramic"
+	(footprint "PM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "496e3a5a-76d5-41b6-9a52-67f853394aae")
 		(at 140.5 70.5 -90)
-		(descr "Potentiometer, horizontal, ACP CA9-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
-		(tags "Potentiometer horizontal ACP CA9-H2,5")
+		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2214"
-			(at -2 1.5 180)
+			(at -2 2.5 0)
 			(layer "F.SilkS")
 			(uuid "4f54481f-5646-4940-ad29-6f669d03ccdd")
 			(effects
@@ -6723,7 +6720,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 8.65 90)
+			(at 0 8.65 270)
 			(layer "F.Fab")
 			(uuid "367ae006-f318-4168-b110-6b01426825af")
 			(effects
@@ -6733,8 +6730,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "adc28a20-3eb2-4609-a288-fc42202b684b")
@@ -6746,7 +6743,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7d90ce41-ac0d-49fe-b3f8-b69f9c664003")
@@ -6770,7 +6767,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bc76e1e2-5847-4e30-a283-ee0085e422db")
+			(uuid "d18bd81e-3787-4926-8c01-b791b7db83fc")
 		)
 		(fp_line
 			(start -0.11 6.396)
@@ -6780,7 +6777,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7648c752-9840-46bf-8530-b762de9feaf0")
+			(uuid "8c5fe3ec-df80-430c-b3e6-85cf4cf81829")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -6790,7 +6787,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "517659b3-8fd0-4adc-8a3a-fdd8cae7bfec")
+			(uuid "6dff4a19-3a2b-467f-82a0-852e60cbb295")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -6800,7 +6797,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "72069ebe-2936-4b31-b986-e3318fae4e5d")
+			(uuid "ee57c8b9-3848-434e-993c-c35b9fd9470e")
 		)
 		(fp_line
 			(start -0.11 -2.51)
@@ -6810,7 +6807,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "08dd1841-c608-492d-96dc-ffbe27ee097e")
+			(uuid "943d364b-1310-4d48-92c2-ba5640a86946")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -6820,7 +6817,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6db6e8d9-7699-46e5-845c-d9136395fc22")
+			(uuid "d7cf2207-53f7-46e8-9ac5-3186f0674ce0")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -6830,7 +6827,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f97800e9-d9ac-4635-8541-4057b995e890")
+			(uuid "fb597781-cc64-453b-a4c8-cdc591e328cf")
 		)
 		(fp_line
 			(start -1 6.5)
@@ -6840,7 +6837,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "ce1674f9-fc9c-4eec-8b2b-d500662a63eb")
+			(uuid "fdb184c1-a7d9-452a-b906-604e9d692953")
 		)
 		(fp_line
 			(start 1.5 6.5)
@@ -6850,7 +6847,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "9d3833c8-9e8c-41b2-9908-8787bda27184")
+			(uuid "d627d643-22e2-465a-8873-72889c90db62")
 		)
 		(fp_line
 			(start 1.5 4)
@@ -6860,7 +6857,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "1be41c54-2c3b-4311-925f-52374b6b50a2")
+			(uuid "bcb23df8-4e62-4f71-9993-5ba1cc07927b")
 		)
 		(fp_line
 			(start 3.5 4)
@@ -6870,7 +6867,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "5b35b3ce-fec6-4c61-a786-9829317cabb6")
+			(uuid "4002b324-97dd-4945-94cb-3b11434c7d9f")
 		)
 		(fp_line
 			(start 1.5 1)
@@ -6880,7 +6877,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "7eb08f0b-59f4-4263-a5c2-d72a2d5ed9da")
+			(uuid "063c855e-0fef-4487-98ae-4910b3c9ea23")
 		)
 		(fp_line
 			(start 3.5 1)
@@ -6890,7 +6887,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "1e9eea8e-9548-4f36-94b8-df4ce5191f6f")
+			(uuid "e7a10da1-9ecc-439b-b2a6-26c51aeac30b")
 		)
 		(fp_line
 			(start -1 -1.5)
@@ -6900,7 +6897,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "8fb1ac5d-5237-486c-9ee4-b08aa5aa2450")
+			(uuid "45cbbf64-6c02-4088-a049-7feeba05a5b9")
 		)
 		(fp_line
 			(start 1.5 -1.5)
@@ -6910,7 +6907,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "ef75b6fd-2fce-4562-8a8b-c757c080c74f")
+			(uuid "b6847bd5-d275-4394-9190-5abe64826364")
 		)
 		(fp_rect
 			(start 2.4 -2.4)
@@ -6921,10 +6918,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d2ec26eb-9d47-4aef-a614-c9082879e19d")
+			(uuid "e92dc913-5a70-4beb-997a-63e6cedc0735")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 90)
+			(at 2.4 2.5 270)
 			(layer "F.Fab")
 			(uuid "5150c4b9-0aa5-4fc3-a0b2-f6dc74afaa9e")
 			(effects
@@ -6968,15 +6965,15 @@
 			(uuid "a58e3e36-81a0-4dd0-a626-af0b7bb2b5d9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3386V001XXX.stp"
+		(model "${KICAD_DEQIT}/3DModels/PT10_PTC10_LH02.STEP"
 			(offset
-				(xyz -1 -2.5 5.5)
+				(xyz 0 -2.5 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -7353,16 +7350,17 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "505fdf79-a99c-47d1-b30b-cfe4de02466b")
 		(at 195 109.77 90)
-		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm")
+		(descr "wire loop as test point, pitch 5.08mm, hole diameter 0.7mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
-		(property "Reference" "JP2"
-			(at 4.77 0 180)
+		(property "Reference" "JP2201"
+			(at 2.8 1.9 90)
 			(layer "F.SilkS")
-			(uuid "2dd78871-20a5-4093-932b-968d38adaaec")
+			(hide yes)
+			(uuid "333defda-174e-4d3c-b69b-35d4b2ad8c73")
 			(effects
 				(font
 					(size 1 1)
@@ -7373,7 +7371,7 @@
 		(property "Value" "A"
 			(at 1 -1.7 90)
 			(layer "F.Fab")
-			(uuid "06be8c40-d92d-4ef1-bfbf-bbf36d19d2ca")
+			(uuid "c649e932-5ca7-4a97-95b1-d0097649cf47")
 			(effects
 				(font
 					(size 1 1)
@@ -7381,12 +7379,12 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c9615ed-2124-4de0-9e66-6b24d17410d7")
+			(uuid "777f73bc-a52e-474f-9b0d-62b00f3ed7d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +7397,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20db82e9-abda-41ec-aaff-92b5bb2dea6a")
+			(uuid "4636147a-df87-4361-beac-7f4ea2565012")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,97 +7411,97 @@
 		(sheetfile "N22_DCAmplifier.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 3.7 -1.2)
-			(end -1.2 -1.2)
+			(start 6 -0.9)
+			(end 6 0.9)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ba499598-4ac2-458c-9ae1-fee4f371f8d7")
+			(uuid "7984080d-2985-42a8-a03e-8e595b57983b")
+		)
+		(fp_line
+			(start -0.9 -0.9)
+			(end 6 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bf18571e-ae4d-43e1-828d-af856cabe87f")
+		)
+		(fp_line
+			(start 6 0.9)
+			(end -0.9 0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92b06e3a-0545-4135-bcc5-d34c5f15c8b4")
+		)
+		(fp_line
+			(start -0.9 0.9)
+			(end -0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4cc514d-361a-49c8-952c-bf7d9312383b")
+		)
+		(fp_line
+			(start -1.2 -1.2)
+			(end 6.28 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "190a6a8e-fe25-4f88-b7a1-d292e47d40a3")
 		)
 		(fp_line
 			(start -1.2 -1.2)
 			(end -1.2 1.2)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "d688edfd-b371-43ab-a34f-243784373e25")
+			(layer "F.CrtYd")
+			(uuid "e5425767-ab86-4395-8ee5-b0ae0433336b")
 		)
 		(fp_line
-			(start 3.7 1.2)
-			(end 3.7 -1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "febb4f89-9632-4c00-9a59-fb9202800426")
-		)
-		(fp_line
-			(start -1.2 1.2)
-			(end 3.7 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a73f0174-8cc3-4b33-a38a-45ad90053797")
-		)
-		(fp_line
-			(start -1.5 -1.5)
-			(end 4.04 -1.5)
+			(start 6.28 1.2)
+			(end 6.28 -1.2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7869f9ab-77e9-42ba-ba23-1fb405cb7887")
+			(uuid "71756987-78d2-478c-a695-f394e0a7366c")
 		)
 		(fp_line
-			(start -1.5 -1.5)
-			(end -1.5 1.5)
+			(start 6.28 1.2)
+			(end -1.2 1.2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1b2bf8cd-ce8f-4c61-8f3a-277618f302eb")
+			(uuid "9dfde21c-6faa-44a6-bf1a-af00649594dc")
 		)
 		(fp_line
-			(start 4.04 1.5)
-			(end 4.04 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "235c88e5-9209-404f-8c9c-bf3581faffe8")
-		)
-		(fp_line
-			(start 4.04 1.5)
-			(end -1.5 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "42c80790-87bc-428a-af29-1106dfcb3fdb")
-		)
-		(fp_line
-			(start 2.54 0)
+			(start 5.08 0)
 			(end 0 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a3f5019a-b15d-4989-b37e-db2af369610a")
+			(uuid "637c7adf-55d1-43d3-80aa-cd0b74c235ba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 2.1 90)
+			(at 2.8 1.9 90)
 			(layer "F.Fab")
 			(uuid "eb22b53e-21e9-4350-8733-2f07bb5a851d")
 			(effects
@@ -7515,28 +7513,28 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 2 2)
-			(drill 1)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(JP1-B)")
+			(net 51 "Net-(JP2201-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "da998e43-8de4-4706-84da-5e91d1b104fc")
 		)
 		(pad "1" thru_hole circle
-			(at 2.54 0 90)
-			(size 2 2)
-			(drill 1)
+			(at 5.08 0 90)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(JP1-B)")
+			(net 51 "Net-(JP2201-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "1300a393-ac7c-43f7-a1f6-a734f9769d6c")
+			(uuid "6f55a32a-a74d-4bb7-a44d-12787b2a8101")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.0mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch5.08mm_Drill0.7mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7576,7 +7574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7794,7 +7792,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "Net-(V2201-2G)")
+			(net 57 "Net-(V2201-2G)")
 			(pintype "passive")
 			(uuid "80e7bc6a-d1cd-4a2a-b5b1-776b9cfc62db")
 		)
@@ -7839,7 +7837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8047,7 +8045,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "Net-(C2211-Pad2)")
+			(net 56 "Net-(C2211-Pad2)")
 			(pintype "passive")
 			(uuid "6bd8e04c-0e23-4755-b550-946ba0356252")
 		)
@@ -8102,7 +8100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8298,7 +8296,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 64 "Net-(D2201-R)")
+			(net 63 "Net-(D2201-R)")
 			(pintype "passive")
 			(uuid "7a68f91c-cdc2-4f50-aab8-d9a5659b12ea")
 		)
@@ -8343,7 +8341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8690,7 +8688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8953,7 +8951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9129,7 +9127,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(C2202-Pad2)")
+			(net 47 "Net-(C2202-Pad2)")
 			(pintype "passive")
 			(uuid "02d3a633-be64-4574-b28e-90a2e93c1342")
 		)
@@ -9174,7 +9172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9382,7 +9380,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 64 "Net-(D2201-R)")
+			(net 63 "Net-(D2201-R)")
 			(pintype "passive")
 			(uuid "b1800315-f53a-4bff-a35b-fbb0b5207e05")
 		)
@@ -9437,7 +9435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9643,7 +9641,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(V2205-D)")
+			(net 49 "Net-(V2205-D)")
 			(pintype "passive")
 			(uuid "d10af05c-463f-42a0-88e6-bac8f93055c6")
 		)
@@ -9653,7 +9651,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "Net-(C2207-Pad2)")
+			(net 55 "Net-(C2207-Pad2)")
 			(pintype "passive")
 			(uuid "eb99a6a1-7aa8-4b3a-901b-92871e23af9b")
 		)
@@ -9698,7 +9696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9906,7 +9904,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-+TRIGGER)")
+			(net 61 "Net-(D2201-+TRIGGER)")
 			(pintype "passive")
 			(uuid "55b68783-5668-40fc-a6be-256f96aed382")
 		)
@@ -10388,14 +10386,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PM2528:Potentiometer horizontal ceramic"
+	(footprint "PM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "751abe0c-ac61-4840-815f-ed300d53e827")
 		(at 175 71 -90)
-		(descr "Potentiometer, horizontal, ACP CA9-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
-		(tags "Potentiometer horizontal ACP CA9-H2,5")
+		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2217"
-			(at -2.5 2 180)
+			(at -2.25 2.75 0)
 			(layer "F.SilkS")
 			(uuid "9613d65b-930d-4171-a0d4-39245e114ef7")
 			(effects
@@ -10406,7 +10403,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 0 8.65 90)
+			(at 0 8.65 270)
 			(layer "F.Fab")
 			(uuid "f9b87fac-93ff-4999-91cc-3b6fd544bdd0")
 			(effects
@@ -10416,8 +10413,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "~"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c418484-0afd-4996-a724-ac77993ee4a6")
@@ -10429,7 +10426,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db50cf16-0f12-416a-9b80-05ed7e74cdc0")
@@ -10453,7 +10450,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "38037f61-3193-4719-ae16-e83bcfc75949")
+			(uuid "61d696b6-f58a-4110-8584-d6760611561a")
 		)
 		(fp_line
 			(start -0.11 6.396)
@@ -10463,7 +10460,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0344edc0-3ed7-4ec8-b138-7ad6fcf30d50")
+			(uuid "a67b27a4-6c43-4321-8945-9c0b454f72d9")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -10473,7 +10470,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cbf6a7d4-8ef1-4e85-b066-2d1ee6a0fe25")
+			(uuid "6eab0f10-47d5-4ed8-861f-26a6f36961e7")
 		)
 		(fp_line
 			(start -0.11 1.396)
@@ -10483,7 +10480,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dc5417b7-dae6-4fc2-8573-6d907401a2ab")
+			(uuid "83bbf1e8-ec35-4cb0-b44b-e19baaa24be5")
 		)
 		(fp_line
 			(start -0.11 -2.51)
@@ -10493,7 +10490,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d6e89172-541a-473d-af35-db6fb2da87ef")
+			(uuid "89644ef9-a589-4d34-a9c7-702c1b18070a")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -10503,7 +10500,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a6f17f45-92d0-486f-bce7-1a5043394ed4")
+			(uuid "bedac440-f7df-41f9-af5c-daa810d5be30")
 		)
 		(fp_line
 			(start 2.5 -2.515)
@@ -10513,7 +10510,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8d5b93d7-0e8f-4b0e-bc71-f1cb40c0d288")
+			(uuid "fa981bb9-279b-4ffa-a784-96e0cf6abaf3")
 		)
 		(fp_line
 			(start -1 6.5)
@@ -10523,7 +10520,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "f0222219-807e-4342-97cd-33296e72f4f6")
+			(uuid "5e05beee-f0e3-4893-8d2c-ef29abf52b83")
 		)
 		(fp_line
 			(start 1.5 6.5)
@@ -10533,7 +10530,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "e9944397-0547-4712-a912-54ae6716fd64")
+			(uuid "082753b2-2335-4b7f-9b94-3ea0483ef586")
 		)
 		(fp_line
 			(start 1.5 4)
@@ -10543,7 +10540,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "bf2b4691-f426-4682-a291-73151452bf79")
+			(uuid "3b09a08d-4469-491e-a1ff-106b513c4a6e")
 		)
 		(fp_line
 			(start 3.5 4)
@@ -10553,7 +10550,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "31334fcb-a0d4-45e0-84fb-d84a31f3ae4b")
+			(uuid "dfbcb96e-5aa1-436e-a6fa-86297f707fc7")
 		)
 		(fp_line
 			(start 1.5 1)
@@ -10563,7 +10560,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "c3c6c0cc-1a87-43c8-8039-bd6a6cb01bc3")
+			(uuid "fee21ad5-8426-45b4-b027-d8375ddbb204")
 		)
 		(fp_line
 			(start 3.5 1)
@@ -10573,7 +10570,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "7d403b37-9b5e-4069-992a-810921fb4124")
+			(uuid "4f7db890-5c31-4431-abd2-58eb2a28e7ca")
 		)
 		(fp_line
 			(start -1 -1.5)
@@ -10583,7 +10580,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "7f747e61-c5f3-409a-8a14-cdf29e748af9")
+			(uuid "534f0038-399a-4ce0-90da-eda01de2fd71")
 		)
 		(fp_line
 			(start 1.5 -1.5)
@@ -10593,7 +10590,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "da69fc98-7859-49c5-a279-98d4fbbce4d4")
+			(uuid "bc4abbaf-2b27-428f-8a8a-13bbd851fac6")
 		)
 		(fp_rect
 			(start 2.4 -2.4)
@@ -10604,10 +10601,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "55e888d0-4f84-4de2-a42b-f69f92258448")
+			(uuid "49fa3f87-5166-4268-be2f-77f77db961f3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 90)
+			(at 2.4 2.5 270)
 			(layer "F.Fab")
 			(uuid "b2e15d72-36a0-4cfd-b104-30f9624db695")
 			(effects
@@ -10651,15 +10648,15 @@
 			(uuid "77e28ffd-a1e3-4ff4-9fbe-cf06bf87397e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3386V001XXX.stp"
+		(model "${KICAD_DEQIT}/3DModels/PT10_PTC10_LH02.STEP"
 			(offset
-				(xyz -1 -2.5 5.5)
+				(xyz 0 -2.5 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -10691,7 +10688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10899,7 +10896,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "Net-(V2205-Bulk)")
+			(net 66 "Net-(V2205-Bulk)")
 			(pintype "passive")
 			(uuid "76b37809-2307-4bb5-bb26-aa34dd37ddb5")
 		)
@@ -10954,7 +10951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11672,7 +11669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12082,7 +12079,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 61 "Net-(D2201-C)")
+			(net 60 "Net-(D2201-C)")
 			(pinfunction "C")
 			(pintype "input")
 			(uuid "16b6aa4b-890d-45ad-9e03-124cc475c5ec")
@@ -12093,7 +12090,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 64 "Net-(D2201-R)")
+			(net 63 "Net-(D2201-R)")
 			(pinfunction "R")
 			(pintype "input")
 			(uuid "671fe1df-02ab-45e6-a91d-7ff9692aca54")
@@ -12104,7 +12101,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 60 "Net-(D2201-RC_COMMON)")
+			(net 59 "Net-(D2201-RC_COMMON)")
 			(pinfunction "RC_COMMON")
 			(pintype "input")
 			(uuid "4b8d7535-9d94-4165-bc79-76debe76a6d3")
@@ -12148,7 +12145,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-+TRIGGER)")
+			(net 61 "Net-(D2201-+TRIGGER)")
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(uuid "b98da1a2-1439-477b-a5c5-837408c04318")
@@ -12159,7 +12156,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-+TRIGGER)")
+			(net 61 "Net-(D2201-+TRIGGER)")
 			(pinfunction "+TRIGGER")
 			(pintype "input")
 			(uuid "ef8c05a2-7950-4751-9b40-a617ef7e16ab")
@@ -12170,7 +12167,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-+TRIGGER)")
+			(net 61 "Net-(D2201-+TRIGGER)")
 			(pinfunction "EXT_RESET")
 			(pintype "input")
 			(uuid "8a95c14a-2596-4623-98de-cc2cac74aa27")
@@ -12181,7 +12178,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "Net-(D2201-Q)")
+			(net 62 "Net-(D2201-Q)")
 			(pinfunction "Q")
 			(pintype "output")
 			(uuid "755f92e2-6487-4fe3-8c27-7e475df80c2d")
@@ -12192,7 +12189,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "Net-(D2201-~{Q})")
+			(net 64 "Net-(D2201-~{Q})")
 			(pinfunction "~{Q}")
 			(pintype "output")
 			(uuid "01d74d71-3d50-4525-a690-091c89d2b0dc")
@@ -12203,7 +12200,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-+TRIGGER)")
+			(net 61 "Net-(D2201-+TRIGGER)")
 			(pinfunction "RETRIGGER")
 			(pintype "input")
 			(uuid "3a8c1163-d56f-42b6-be7c-691870cde609")
@@ -12214,7 +12211,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 66 "unconnected-(D2201-OSC_OUT-Pad13)")
+			(net 65 "unconnected-(D2201-OSC_OUT-Pad13)")
 			(pinfunction "OSC_OUT")
 			(pintype "output+no_connect")
 			(uuid "d74bec20-fdbf-4d16-a969-c6aaed57889c")
@@ -12644,7 +12641,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13458,7 +13455,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(V2201-1S)")
+			(net 50 "Net-(V2201-1S)")
 			(pinfunction "1S")
 			(pintype "passive")
 			(uuid "f15f508f-a7a8-4444-b75a-5bb601edc0e1")
@@ -13480,7 +13477,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(V2201-1G)")
+			(net 46 "Net-(V2201-1G)")
 			(pinfunction "1G")
 			(pintype "input")
 			(uuid "256fb804-bf02-437e-81c1-3dc8c09f1c13")
@@ -13491,7 +13488,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "Net-(V2201-2S)")
+			(net 54 "Net-(V2201-2S)")
 			(pinfunction "2S")
 			(pintype "passive")
 			(uuid "cac64f6b-06f4-46a1-8e66-0f19e6de87b6")
@@ -13502,7 +13499,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(V2201-2D)")
+			(net 52 "Net-(V2201-2D)")
 			(pinfunction "2D")
 			(pintype "passive")
 			(uuid "34af878d-9db6-4e40-8fa7-06ddc4998be3")
@@ -13513,7 +13510,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "Net-(V2201-2G)")
+			(net 57 "Net-(V2201-2G)")
 			(pinfunction "2G")
 			(pintype "input")
 			(uuid "18eedf7a-79e6-4593-86fe-7ab2fcd36ad4")
@@ -13559,7 +13556,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13783,7 +13780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13991,7 +13988,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(V2202-K)")
+			(net 48 "Net-(V2202-K)")
 			(pintype "passive")
 			(uuid "d3dcc60e-5e4f-40bf-84f3-352b3633a363")
 		)
@@ -14046,7 +14043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14287,7 +14284,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14505,7 +14502,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(C2202-Pad2)")
+			(net 47 "Net-(C2202-Pad2)")
 			(pintype "passive")
 			(uuid "ab8f4c19-78a1-485a-a4c3-1bc2b7e4e821")
 		)
@@ -14529,7 +14526,7 @@
 		(descr "solder Pin_ with flat fork, hole diameter 0.9mm, length 10.0mm, width 2.4mm")
 		(tags "solder Pin_ with flat fork")
 		(property "Reference" "TP2201"
-			(at 1 -2 0)
+			(at 1.5 -2 0)
 			(layer "F.SilkS")
 			(uuid "5f27ed78-5203-4197-bde3-9d0c26f2d207")
 			(effects
@@ -14550,7 +14547,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14728,7 +14725,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "Net-(D2201-~{Q})")
+			(net 64 "Net-(D2201-~{Q})")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "1744653a-93a5-464c-ba30-54c1c083652a")
@@ -14774,7 +14771,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15037,7 +15034,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15255,7 +15252,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "Net-(D2201-Q)")
+			(net 62 "Net-(D2201-Q)")
 			(pintype "passive")
 			(uuid "83c0918d-1398-472d-a905-9b1ec8a4af30")
 		)
@@ -15300,7 +15297,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15563,7 +15560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15703,7 +15700,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "Net-(V2201-2G)")
+			(net 57 "Net-(V2201-2G)")
 			(pintype "passive")
 			(uuid "ccdaebad-89e4-4b3a-ba6d-45818d40d30c")
 		)
@@ -15748,7 +15745,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15956,7 +15953,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(V2201-2D)")
+			(net 52 "Net-(V2201-2D)")
 			(pintype "passive")
 			(uuid "1d72fdd1-9611-425a-ac85-57d629b888e1")
 		)
@@ -16011,7 +16008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16229,7 +16226,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Net-(JP2-B)")
+			(net 67 "Net-(JP2201-B)")
 			(pintype "passive")
 			(uuid "23a5e762-2c05-4d0d-8909-4e6cd88c2177")
 		)
@@ -16274,7 +16271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16564,7 +16561,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(V2202-K)")
+			(net 48 "Net-(V2202-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "cff09709-34fe-4e83-a54e-8b684c556b54")
@@ -16597,7 +16594,7 @@
 		(layer "F.Cu")
 		(uuid "c3d95beb-726a-4830-9be3-3fe0ca89c825")
 		(at 106.14 121 90)
-		(property "Reference" "K1"
+		(property "Reference" "X2201"
 			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -16919,7 +16916,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "unconnected-(K1--5V-Pad2)")
+			(net 1 "unconnected-(X2201--5V-Pad2)")
 			(pinfunction "-5V")
 			(pintype "passive+no_connect")
 			(uuid "0877d3ac-d55f-4289-8dc1-cf75f2ef1a3e")
@@ -16956,7 +16953,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "unconnected-(K1-Pad5)")
+			(net 4 "unconnected-(X2201-Pad5)")
 			(pintype "passive+no_connect")
 			(uuid "4826d276-0fb1-4dec-9ffb-15db314259e3")
 		)
@@ -16968,7 +16965,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "unconnected-(K1-Pad6)")
+			(net 8 "unconnected-(X2201-Pad6)")
 			(pintype "passive+no_connect")
 			(uuid "7b099446-d229-44ac-aee0-4753a345d558")
 		)
@@ -17040,7 +17037,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "unconnected-(K1-Pad12)")
+			(net 10 "unconnected-(X2201-Pad12)")
 			(pintype "passive+no_connect")
 			(uuid "8fb07b8b-5f5d-4f93-8ea4-6c1e56707dec")
 		)
@@ -17052,7 +17049,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "unconnected-(K1-Pad13)")
+			(net 19 "unconnected-(X2201-Pad13)")
 			(pintype "passive+no_connect")
 			(uuid "fd9dcf6b-cbee-4ecb-a7bb-935f0af9c12b")
 		)
@@ -17088,7 +17085,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "unconnected-(K1-Pad16)")
+			(net 14 "unconnected-(X2201-Pad16)")
 			(pintype "passive+no_connect")
 			(uuid "d8cf9e6b-e2a9-4548-b490-e7809e3d3b53")
 		)
@@ -17100,7 +17097,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "unconnected-(K1-Pad17)")
+			(net 12 "unconnected-(X2201-Pad17)")
 			(pintype "passive+no_connect")
 			(uuid "a6d207e5-5358-4b9d-b728-7e4f6dba84ad")
 		)
@@ -17133,15 +17130,16 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
+	(footprint "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "c442526f-c1eb-4648-897f-dca2dea3185f")
 		(at 195 117 90)
-		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm")
+		(descr "wire loop as test point, pitch 5.08mm, hole diameter 0.7mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
-		(property "Reference" "JP1"
-			(at 4.5 0 180)
+		(property "Reference" "JP2202"
+			(at 2.8 1.9 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b6a458ae-da41-4bf8-8aec-c62cb27e1927")
 			(effects
 				(font
@@ -17161,7 +17159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17193,97 +17191,97 @@
 		(sheetfile "N22_DCAmplifier.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 3.7 -1.2)
-			(end -1.2 -1.2)
+			(start 6 -0.9)
+			(end 6 0.9)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e10e51b-5c15-4494-bbb4-0a98cb944b64")
+			(uuid "72959793-4806-4542-862a-407ce829004c")
+		)
+		(fp_line
+			(start -0.9 -0.9)
+			(end 6 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c1cf84d8-f18c-4186-b554-aaeca332476a")
+		)
+		(fp_line
+			(start 6 0.9)
+			(end -0.9 0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2f258cd-8434-47d7-b651-a62030cd2ff8")
+		)
+		(fp_line
+			(start -0.9 0.9)
+			(end -0.9 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea0f1cbc-7464-4c14-8781-38282b9bb70c")
+		)
+		(fp_line
+			(start -1.2 -1.2)
+			(end 6.28 -1.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d6e44765-b55f-49c5-9ed0-68712234f53a")
 		)
 		(fp_line
 			(start -1.2 -1.2)
 			(end -1.2 1.2)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "82df9d23-8a49-42f3-9957-26a1197f6fa8")
+			(layer "F.CrtYd")
+			(uuid "b52a3877-c2da-47e7-a575-5f991c41a365")
 		)
 		(fp_line
-			(start 3.7 1.2)
-			(end 3.7 -1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "79d9a82b-329d-4553-8700-40f6f90a18e6")
-		)
-		(fp_line
-			(start -1.2 1.2)
-			(end 3.7 1.2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "17ecd244-6cfa-46c4-bd03-9451e3a3e1fb")
-		)
-		(fp_line
-			(start -1.5 -1.5)
-			(end 4.04 -1.5)
+			(start 6.28 1.2)
+			(end 6.28 -1.2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "736bb784-b411-4b73-8d00-6de004c84887")
+			(uuid "908e5e74-fa1d-4fcb-8e92-ad91a2d67a4a")
 		)
 		(fp_line
-			(start -1.5 -1.5)
-			(end -1.5 1.5)
+			(start 6.28 1.2)
+			(end -1.2 1.2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ff761aaa-e1b3-4bd3-90dd-75bd2b322e8c")
+			(uuid "81960917-2701-47e2-b484-84b6346bfd48")
 		)
 		(fp_line
-			(start 4.04 1.5)
-			(end 4.04 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "69ca1cb7-a8e1-4b50-bd98-8063150121c8")
-		)
-		(fp_line
-			(start 4.04 1.5)
-			(end -1.5 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7c9def8f-b38d-4a48-b261-e1a46af5b511")
-		)
-		(fp_line
-			(start 2.54 0)
+			(start 5.08 0)
 			(end 0 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "89a0d9dc-bce4-4a33-b433-149e47789d27")
+			(uuid "d4b02537-59ab-4a18-89f4-bd7c848e561b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 2.1 90)
+			(at 2.8 1.9 90)
 			(layer "F.Fab")
 			(uuid "dbb7bc24-2593-410c-8358-b15508d43941")
 			(effects
@@ -17295,8 +17293,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 2 2)
-			(drill 1)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "GND4")
@@ -17305,18 +17303,18 @@
 			(uuid "9a2f4a25-be95-43a2-95ee-e1a44b2513f3")
 		)
 		(pad "1" thru_hole circle
-			(at 2.54 0 90)
-			(size 2 2)
-			(drill 1)
+			(at 5.08 0 90)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "GND4")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "9563089b-7118-4263-8d7a-d7bee01bccfd")
+			(uuid "28bf610c-26f3-435b-97dd-a8d9b463cc7f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.0mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch5.08mm_Drill0.7mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17356,7 +17354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17657,7 +17655,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 59 "Net-(V2213-A)")
+			(net 58 "Net-(V2213-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1398ba3c-d805-4c6d-a67b-886058616b7f")
@@ -17703,7 +17701,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17911,7 +17909,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "Net-(C2207-Pad2)")
+			(net 55 "Net-(C2207-Pad2)")
 			(pintype "passive")
 			(uuid "6c5ab988-0bcd-4e7c-9a9d-5e3b9c3f3299")
 		)
@@ -17966,7 +17964,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18229,7 +18227,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18437,7 +18435,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(V2201-1S)")
+			(net 50 "Net-(V2201-1S)")
 			(pintype "passive")
 			(uuid "89ce700b-11ba-4dcf-a50b-37f3cc81a98c")
 		)
@@ -18783,7 +18781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18959,7 +18957,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 54 "Net-(C2205-Pad2)")
+			(net 53 "Net-(C2205-Pad2)")
 			(pintype "passive")
 			(uuid "cb72e8b6-288f-4372-8f12-a67fcc8b5d44")
 		)
@@ -19004,7 +19002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19222,7 +19220,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(V2202-K)")
+			(net 48 "Net-(V2202-K)")
 			(pintype "passive")
 			(uuid "1ecd9d2f-62ad-40e5-b26b-206b84dc46c6")
 		)
@@ -19267,7 +19265,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19443,7 +19441,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "Net-(C2211-Pad2)")
+			(net 56 "Net-(C2211-Pad2)")
 			(pintype "passive")
 			(uuid "ce852bd9-8a8d-4fc8-937d-aff3f9b40a6f")
 		)
@@ -19488,7 +19486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19664,7 +19662,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(V2205-D)")
+			(net 49 "Net-(V2205-D)")
 			(pintype "passive")
 			(uuid "ba12284d-9eff-450d-bdb1-1131329549f7")
 		)
@@ -19709,7 +19707,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19933,7 +19931,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20109,7 +20107,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(V2201-1G)")
+			(net 46 "Net-(V2201-1G)")
 			(pintype "passive")
 			(uuid "1a8ea609-86ea-4cd5-bec1-1231434070dd")
 		)
@@ -20154,7 +20152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20417,7 +20415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20613,7 +20611,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-+TRIGGER)")
+			(net 61 "Net-(D2201-+TRIGGER)")
 			(pintype "passive")
 			(uuid "44d893d3-adee-4dd3-97fc-358796f5b4cc")
 		)
@@ -20658,7 +20656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20866,7 +20864,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Net-(JP2-B)")
+			(net 67 "Net-(JP2201-B)")
 			(pintype "passive")
 			(uuid "47ecc225-d1e3-4f12-9a65-355f65c470aa")
 		)
@@ -20876,7 +20874,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(JP1-B)")
+			(net 51 "Net-(JP2201-A)")
 			(pintype "passive")
 			(uuid "577b5248-afe5-4be9-9c62-cde13adae409")
 		)
@@ -20921,7 +20919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21184,7 +21182,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21667,7 +21665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32361,10 +32359,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "B"
+		(at 194.5 115 0)
+		(layer "F.SilkS")
+		(uuid "68cf2262-6824-4b33-9690-883332fb9a65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Vchop"
-		(at 190 67 0)
+		(at 194 71 0)
 		(layer "F.SilkS")
 		(uuid "6f275e4e-d719-4053-ae10-ba40c1d8804f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A"
+		(at 194.5 108 0)
+		(layer "F.SilkS")
+		(uuid "70be9797-8f4e-4952-bf9e-9645e1065961")
 		(effects
 			(font
 				(size 1 1)
@@ -32410,7 +32432,7 @@
 		)
 	)
 	(gr_text "Fchop"
-		(at 194 75 0)
+		(at 195.25 75 0)
 		(layer "F.SilkS")
 		(uuid "ecbb084d-a5f9-4f10-936b-9e7dd6e94aa1")
 		(effects

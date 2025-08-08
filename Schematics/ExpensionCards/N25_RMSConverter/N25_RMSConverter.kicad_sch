@@ -9999,7 +9999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "132f8bfd-16a6-40dd-83af-0c3f4851d2e6")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2504"
 			(at 287.02 81.28 0)
 			(effects
 				(font
@@ -10052,7 +10052,7 @@
 		(instances
 			(project ""
 				(path "/210e0b9d-97f4-4fba-8363-ab76276771d7"
-					(reference "JP1")
+					(reference "JP2504")
 					(unit 1)
 				)
 			)
@@ -10617,7 +10617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "292735f2-3f78-49cb-8c09-6e84a21bcb5d")
-		(property "Reference" "JP3"
+		(property "Reference" "JP2502"
 			(at 287.02 96.52 0)
 			(effects
 				(font
@@ -10670,7 +10670,7 @@
 		(instances
 			(project "N25_RMSConverter"
 				(path "/210e0b9d-97f4-4fba-8363-ab76276771d7"
-					(reference "JP3")
+					(reference "JP2502")
 					(unit 1)
 				)
 			)
@@ -10901,10 +10901,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e6f8133-3b9e-4e03-801c-841802b62d3b")
-		(property "Reference" "K1"
-			(at 21.59 15.24 0)
+		(property "Reference" "X2501"
+			(at 21.336 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,6 +10916,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PM2528:PM2528_RiserCardConnector"
@@ -11006,7 +11006,7 @@
 		(instances
 			(project ""
 				(path "/210e0b9d-97f4-4fba-8363-ab76276771d7"
-					(reference "K1")
+					(reference "X2501")
 					(unit 1)
 				)
 			)
@@ -11537,7 +11537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
 			(at 369.57 100.33 0)
 			(effects
 				(font
@@ -11670,7 +11670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
 			(at 130.81 60.96 0)
 			(effects
 				(font
@@ -13072,7 +13072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -13244,7 +13244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
 			(at 233.68 30.48 0)
 			(effects
 				(font
@@ -13308,7 +13308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 72.39 99.06 0)
 			(effects
 				(font
@@ -13518,7 +13518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "675063b5-c572-46e5-b83e-b203d6abc362")
-		(property "Reference" "JP2"
+		(property "Reference" "JP2503"
 			(at 287.02 88.9 0)
 			(effects
 				(font
@@ -13571,7 +13571,7 @@
 		(instances
 			(project "N25_RMSConverter"
 				(path "/210e0b9d-97f4-4fba-8363-ab76276771d7"
-					(reference "JP2")
+					(reference "JP2503")
 					(unit 1)
 				)
 			)
@@ -13604,7 +13604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
 			(at 73.66 22.86 0)
 			(effects
 				(font
@@ -13817,7 +13817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 91.44 55.88 0)
 			(effects
 				(font
@@ -15405,7 +15405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
 			(at 285.75 69.85 0)
 			(effects
 				(font
@@ -15997,9 +15997,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
 			(at 92.71 82.55 0)
 			(effects
 				(font
@@ -16703,7 +16704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
 			(at 378.46 205.74 0)
 			(effects
 				(font
@@ -17049,7 +17050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PM2528:Potentiometer horizontal ceramic"
+		(property "Footprint" "PM2528:Trimmer vertical"
 			(at 293.37 144.78 0)
 			(effects
 				(font
@@ -17908,7 +17909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eef7cf3e-42da-445d-899a-ec8f81fd9038")
-		(property "Reference" "JP4"
+		(property "Reference" "JP2501"
 			(at 287.02 104.14 0)
 			(effects
 				(font
@@ -17961,7 +17962,7 @@
 		(instances
 			(project "N25_RMSConverter"
 				(path "/210e0b9d-97f4-4fba-8363-ab76276771d7"
-					(reference "JP4")
+					(reference "JP2501")
 					(unit 1)
 				)
 			)

@@ -4144,6 +4144,18 @@
 		(uuid 47c4a20f-6f48-4b4f-ace9-fabf278b354e)
 	)
 	(rectangle
+		(start 46.99 12.7)
+		(end 247.65 165.1)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 72d2712f-23fe-4160-92f2-c1f80e75d210)
+	)
+	(rectangle
 		(start 46.99 218.44)
 		(end 144.78 281.94)
 		(stroke
@@ -4169,7 +4181,7 @@
 	)
 	(text "-> Relays"
 		(exclude_from_sim no)
-		(at 204.47 65.024 0)
+		(at 265.43 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4180,7 +4192,7 @@
 	)
 	(text "-> ADC\n-> Currentsource.Filter (N23)\n"
 		(exclude_from_sim no)
-		(at 204.724 71.12 0)
+		(at 265.684 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4239,7 +4251,7 @@
 		)
 		(uuid "859cbbb3-6be1-400e-b046-bd57af4f7348")
 	)
-	(text "K2201/K2202:\nX1 (Closed)\nX10 (Open)"
+	(text "K2201/K2202:\nX10 (Open)\nX1 (Closed)\n"
 		(exclude_from_sim no)
 		(at 174.244 99.314 0)
 		(effects
@@ -4279,6 +4291,16 @@
 			)
 		)
 		(uuid "da2e3348-150d-484d-bbff-443151431457")
+	)
+	(text "AC"
+		(exclude_from_sim no)
+		(at 49.53 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db3fdf4c-6ebd-4947-8a74-f3bd019151ff")
 	)
 	(text "Power"
 		(exclude_from_sim no)
@@ -5114,7 +5136,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 66.04) (xy 147.32 66.04)
+			(xy 256.54 66.04) (xy 147.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5544,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 71.12) (xy 195.58 71.12)
+			(xy 184.15 71.12) (xy 256.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5654,7 +5676,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 140.97) (xy 53.34 140.97)
+			(xy 41.91 140.97) (xy 53.34 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7274,7 +7296,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 151.13) (xy 172.72 151.13)
+			(xy 41.91 151.13) (xy 172.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7723,7 +7745,7 @@
 		(uuid "ff840229-d48b-49cf-85fa-34a7dc9c7cee")
 	)
 	(label "HI"
-		(at 45.72 140.97 180)
+		(at 41.91 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7743,7 +7765,7 @@
 		(uuid "6361eb26-2bb5-4590-851c-00ee2e0cd0ad")
 	)
 	(label "HIOUT1"
-		(at 195.58 66.04 0)
+		(at 256.54 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7753,7 +7775,7 @@
 		(uuid "a5a21b55-a432-44d3-863b-34b37fe7fed2")
 	)
 	(label "LO"
-		(at 45.72 151.13 180)
+		(at 41.91 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7763,7 +7785,7 @@
 		(uuid "cde5c48f-b736-4a61-9607-f419f1b25acb")
 	)
 	(label "HIOUT2"
-		(at 195.58 71.12 0)
+		(at 256.54 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7784,7 +7806,7 @@
 		(uuid "12504e87-001c-456c-8c6a-54260d62b0de")
 	)
 	(hierarchical_label "HIOUT2"
-		(shape input)
+		(shape output)
 		(at 29.21 60.96 0)
 		(effects
 			(font
@@ -7806,7 +7828,7 @@
 		(uuid "250c2ca7-6c44-4dad-8121-e7305686cc1f")
 	)
 	(hierarchical_label "HI"
-		(shape output)
+		(shape input)
 		(at 29.21 48.26 0)
 		(effects
 			(font
@@ -7817,7 +7839,7 @@
 		(uuid "38cd7dfe-81c1-4cec-96d8-fc116b582f9f")
 	)
 	(hierarchical_label "RELHI"
-		(shape output)
+		(shape input)
 		(at 29.21 68.58 0)
 		(effects
 			(font
@@ -7861,7 +7883,7 @@
 		(uuid "73f8e318-59ea-40f5-8b80-3410e15dc932")
 	)
 	(hierarchical_label "LO"
-		(shape output)
+		(shape input)
 		(at 29.21 43.18 0)
 		(effects
 			(font
@@ -7872,7 +7894,7 @@
 		(uuid "7761c6d2-58c9-4468-8bca-dcc48517109e")
 	)
 	(hierarchical_label "HIOUT1"
-		(shape input)
+		(shape output)
 		(at 29.21 58.42 0)
 		(effects
 			(font
@@ -11619,7 +11641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 72.39 24.765 0)
 			(effects
 				(font
@@ -12642,6 +12664,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PM2528:Reed relay assy"
@@ -14344,7 +14367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 72.39 43.815 0)
 			(effects
 				(font
@@ -15036,6 +15059,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PM2528:Reed relay assy"

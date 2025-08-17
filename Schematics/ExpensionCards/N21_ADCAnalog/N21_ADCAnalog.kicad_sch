@@ -5469,7 +5469,7 @@
 		)
 	)
 	(rectangle
-		(start 165.1 13.97)
+		(start 162.56 13.97)
 		(end 242.57 73.66)
 		(stroke
 			(width 0)
@@ -5493,8 +5493,8 @@
 		(uuid 167c2402-1edb-4d75-a352-d812556a0774)
 	)
 	(rectangle
-		(start 165.1 81.28)
-		(end 273.05 133.35)
+		(start 153.67 81.28)
+		(end 254 133.35)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -5554,7 +5554,7 @@
 	)
 	(rectangle
 		(start 309.88 13.97)
-		(end 361.95 97.79)
+		(end 351.79 97.79)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -5669,7 +5669,7 @@
 	)
 	(text "Integrator"
 		(exclude_from_sim no)
-		(at 170.688 16.256 0)
+		(at 168.402 16.256 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5679,7 +5679,7 @@
 	)
 	(text "DBZ (fine)"
 		(exclude_from_sim no)
-		(at 183.388 96.266 0)
+		(at 173.228 96.266 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5719,7 +5719,7 @@
 	)
 	(text "Auto Zero"
 		(exclude_from_sim no)
-		(at 171.196 83.566 0)
+		(at 159.004 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6142,7 +6142,7 @@
 		(uuid "e67debf2-91d2-4a99-aa9f-6c82f49d560c")
 	)
 	(junction
-		(at 176.53 104.14)
+		(at 166.37 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea34fa33-607d-4ee8-971b-064ab4ddf925")
@@ -6251,7 +6251,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 114.3) (xy 234.95 114.3)
+			(xy 166.37 114.3) (xy 234.95 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6361,7 +6361,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 97.79) (xy 227.33 97.79)
+			(xy 223.52 97.79) (xy 227.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6401,7 +6401,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 99.06) (xy 181.61 104.14)
+			(xy 171.45 99.06) (xy 171.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6561,7 +6561,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 86.36) (xy 176.53 53.34)
+			(xy 166.37 45.72) (xy 166.37 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6571,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 107.95) (xy 213.36 107.95)
+			(xy 205.74 107.95) (xy 213.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6798,26 +6798,6 @@
 			(type default)
 		)
 		(uuid "2d700248-ac43-40de-913c-7267a6ebf04d")
-	)
-	(wire
-		(pts
-			(xy 166.37 53.34) (xy 166.37 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db0bb8f-0f17-401a-ab6e-d833e2c78231")
-	)
-	(wire
-		(pts
-			(xy 345.44 50.8) (xy 354.33 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eae5187-dadb-4d23-9884-97f286e4ca86")
 	)
 	(wire
 		(pts
@@ -7311,7 +7291,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 176.53 114.3)
+			(xy 166.37 104.14) (xy 166.37 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7421,7 +7401,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 102.87) (xy 176.53 104.14)
+			(xy 166.37 102.87) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7451,7 +7431,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 176.53 95.25)
+			(xy 166.37 93.98) (xy 166.37 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7831,7 +7811,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 97.79) (xy 213.36 97.79)
+			(xy 215.9 97.79) (xy 213.36 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8321,7 +8301,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 99.06) (xy 181.61 99.06)
+			(xy 170.18 99.06) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8541,6 +8521,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 50.8) (xy 363.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0996278-3267-4cd4-8a12-e64539ecd8a5")
+	)
+	(wire
+		(pts
 			(xy 66.04 151.13) (xy 66.04 149.86)
 		)
 		(stroke
@@ -8638,16 +8628,6 @@
 			(type default)
 		)
 		(uuid "d6737c16-7199-432f-977e-2216643aea2e")
-	)
-	(wire
-		(pts
-			(xy 176.53 53.34) (xy 166.37 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a7986f-6e71-41f5-9bf4-e53e92d05bda")
 	)
 	(wire
 		(pts
@@ -8771,7 +8751,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 176.53 104.14)
+			(xy 171.45 104.14) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9090,7 +9070,7 @@
 		(uuid "39de97f4-c9ac-4603-b8a9-c08cc058353d")
 	)
 	(label "xAZ"
-		(at 208.28 107.95 0)
+		(at 205.74 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9180,7 +9160,7 @@
 		(uuid "b1a03d82-d725-4dc7-862e-fca6b7601cda")
 	)
 	(label "COMP"
-		(at 354.33 50.8 0)
+		(at 363.22 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14009,7 +13989,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 222.25 97.79 90)
+		(at 219.71 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14017,7 +13997,7 @@
 		(dnp no)
 		(uuid "9a321958-e70c-4804-9a45-739e51b4b2ed")
 		(property "Reference" "R2108"
-			(at 222.25 95.504 90)
+			(at 219.71 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,7 +14005,7 @@
 			)
 		)
 		(property "Value" "40k2"
-			(at 222.25 97.79 90)
+			(at 219.71 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14033,7 +14013,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 222.25 99.568 90)
+			(at 219.71 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14042,7 +14022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 97.79 0)
+			(at 219.71 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14051,7 +14031,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 222.25 97.79 0)
+			(at 219.71 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14428,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 176.53 99.06 0)
+		(at 166.37 99.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14457,7 +14437,7 @@
 		(dnp no)
 		(uuid "a7334a91-11a0-4623-9b60-8e234d4d79d4")
 		(property "Reference" "R2104"
-			(at 172.72 99.06 90)
+			(at 162.56 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14465,7 +14445,7 @@
 			)
 		)
 		(property "Value" "680k"
-			(at 176.53 99.06 90)
+			(at 166.37 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,7 +14453,7 @@
 			)
 		)
 		(property "Footprint" "PM2528:Trimmer vertical"
-			(at 176.53 99.06 0)
+			(at 166.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +14462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 99.06 0)
+			(at 166.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,7 +14471,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 176.53 99.06 0)
+			(at 166.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15666,7 +15646,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 90.17 180)
+		(at 166.37 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15674,7 +15654,7 @@
 		(dnp no)
 		(uuid "c2d7f062-449a-45d1-9df1-735a5379eb6f")
 		(property "Reference" "R2103"
-			(at 174.244 90.17 90)
+			(at 164.084 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15682,7 +15662,7 @@
 			)
 		)
 		(property "Value" "64k9"
-			(at 176.784 89.916 90)
+			(at 166.624 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15690,7 +15670,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 178.308 90.17 90)
+			(at 168.148 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15699,7 +15679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 90.17 0)
+			(at 166.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15708,7 +15688,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 90.17 0)
+			(at 166.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2021,6 +2021,181 @@
 			)
 		)
 	)
+	(footprint "Capacitor_THT:CP_Radial_Tantal_D7.0mm_P5.00mm"
+		(layer "F.Cu")
+		(uuid "36b4cdd9-9326-4dc8-a403-404156302545")
+		(at 200.75 67)
+		(descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, diameter=7.0mm, height=10mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
+		(tags "CP Radial_Tantal series Radial pin pitch 5.00mm diameter 7.0mm height 10mm Tantal Electrolytic Capacitor")
+		(property "Reference" "C3001"
+			(at 2.5 -4.75 0)
+			(layer "F.SilkS")
+			(uuid "e0d35854-e4e3-4412-ab12-603cc4707fc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "33u"
+			(at 2.5 4.75 0)
+			(layer "F.Fab")
+			(uuid "35e2b8f6-0a19-4e1a-a237-1bb26f0bed40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adb90abf-4b8d-4dce-b2c1-d168165e5c1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bc5dc22-0635-41cd-a073-8253a79a1547")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/2fb82b84-09e1-4b24-9ed4-a28177456286")
+		(sheetname "/")
+		(sheetfile "N30_GalvanicSeperation.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.374723 -2.035)
+			(end -0.674723 -2.035)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "914fa623-29ef-4512-8807-e2cb327de36b")
+		)
+		(fp_line
+			(start -1.024723 -2.385)
+			(end -1.024723 -1.685)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d99c0043-fa8d-4568-802a-e5569273004e")
+		)
+		(fp_arc
+			(start -0.961329 -1.06)
+			(mid 6.12 0)
+			(end -0.961329 1.06)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5333f7d1-6ce2-4627-a618-d30fa6bd517f")
+		)
+		(fp_circle
+			(center 2.5 0)
+			(end 6.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "299c8811-d356-4613-a2db-52121f419d35")
+		)
+		(fp_line
+			(start -0.495708 -1.5275)
+			(end 0.204292 -1.5275)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02525398-f8e8-4102-a1db-556a837738ed")
+		)
+		(fp_line
+			(start -0.145708 -1.8775)
+			(end -0.145708 -1.1775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb4a02b5-5bbc-4c78-8bbc-545ce57a3b5b")
+		)
+		(fp_circle
+			(center 2.5 0)
+			(end 6 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0e207d92-82dc-4605-860d-1494e314a732")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 0 0)
+			(layer "F.Fab")
+			(uuid "d6a5125d-3039-4596-a1a8-dc2ec8adb09d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 1 "GND2")
+			(pintype "passive")
+			(uuid "f50677b4-067d-4414-b732-5302a4ad8731")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "-5V")
+			(pintype "passive")
+			(uuid "816566bd-a1a1-46f6-ba06-c94736902708")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D7.0mm_P5.00mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3b8a1aea-f951-4517-ad8a-71811e7c0147")
@@ -4958,12 +5133,12 @@
 			)
 		)
 	)
-	(footprint "PM2528:PM2528_RiserCardConnector"
+	(footprint "Philips_PM2528:PM2528_RiserCardConnector"
 		(layer "F.Cu")
 		(uuid "6f7705bd-b092-4419-8b2b-7b241661d316")
 		(at 107.69 126.55 90)
 		(property "Reference" "X3001"
-			(at 0 -0.5 90)
+			(at -7 -4.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4976,7 +5151,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 90)
+			(at -0.5 -3 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "38c5f6ca-b553-40fc-b24c-8106ea2f63be")
@@ -5026,7 +5201,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "6298f96d-3ee1-45fa-8bdd-ed2174c5af72")
+			(uuid "ed06f408-f7a6-4fab-8539-9ecde6d4c9ff")
 		)
 		(fp_rect
 			(start -8 6.92)
@@ -5037,7 +5212,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "0f4cdd21-7d72-40ec-a20b-496349af630f")
+			(uuid "ed6f72da-8e44-4de5-81e6-fe9313709fbd")
 		)
 		(fp_rect
 			(start -8 12)
@@ -5048,7 +5223,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "aeb656da-7563-4401-a26e-d89031fd8648")
+			(uuid "bd938621-b7d7-4a7d-8227-3339118486dd")
 		)
 		(fp_rect
 			(start -8 17.08)
@@ -5059,7 +5234,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "57e3efad-6778-4f28-b0b2-68fb3dbbb72e")
+			(uuid "abfc7394-23ab-4a91-885b-365906e8670b")
 		)
 		(fp_rect
 			(start -8 22.16)
@@ -5070,7 +5245,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "12ca7347-f885-4a07-a654-c020f3b720d2")
+			(uuid "398c349e-78d9-4ecf-9561-1143bfb20230")
 		)
 		(fp_rect
 			(start -8 27.24)
@@ -5081,7 +5256,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "82706b99-bd8b-43fb-b08f-ab1571c66d16")
+			(uuid "7dbd1b2c-2876-4f36-b869-150f4d572edd")
 		)
 		(fp_rect
 			(start -8 32.32)
@@ -5092,7 +5267,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "ee47547c-aff2-48f1-bf69-3927f27bc154")
+			(uuid "3a591b11-c1c6-43be-b66b-442708934884")
 		)
 		(fp_rect
 			(start -8 37.4)
@@ -5103,7 +5278,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "7190b9d2-9c5c-402e-8a34-1bf3e05472a3")
+			(uuid "32d5b3f2-b91c-410f-95bf-dc3d5aae941b")
 		)
 		(fp_rect
 			(start -8 42.48)
@@ -5114,7 +5289,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "be4d8b37-7a54-41a4-a5da-04382d1d262d")
+			(uuid "65471a67-52ff-4c0a-999c-ec5fc000c739")
 		)
 		(fp_rect
 			(start -8 47.56)
@@ -5125,7 +5300,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "be44f137-3502-442f-83e1-c3d7185f86ef")
+			(uuid "506996aa-d56e-47e9-8d65-5025aa1b55cd")
 		)
 		(fp_rect
 			(start -8 52.64)
@@ -5136,7 +5311,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "3e340b68-61fa-4239-ab51-cec207c04842")
+			(uuid "c97c9979-f458-412f-8f1f-f3e43e0ac6b5")
 		)
 		(fp_rect
 			(start -8 57.72)
@@ -5147,7 +5322,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "a1304d58-730f-42a3-90f6-dda2b43e7ef5")
+			(uuid "5fb63aaa-a5c7-4341-b3e5-0665bd4e2624")
 		)
 		(fp_rect
 			(start -8 62.8)
@@ -5158,7 +5333,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "78125b3e-06c1-47de-b166-20fc71ac9df2")
+			(uuid "e1536aa9-592d-4976-89d0-91fd12512fce")
 		)
 		(fp_rect
 			(start -8 67.88)
@@ -5169,7 +5344,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "f2958565-e0fb-45df-8ec8-b9d0a3510f4e")
+			(uuid "cf059f95-a186-454a-bcbf-a184ca41f8b1")
 		)
 		(fp_rect
 			(start -8 72.96)
@@ -5180,7 +5355,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "e2902413-183c-43ee-b7b3-602d9f60a4f5")
+			(uuid "2dfc02af-3707-467a-8126-4a9dfec9a301")
 		)
 		(fp_rect
 			(start -8 78.04)
@@ -5191,7 +5366,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "e24adfd8-bb10-4c21-b232-859a0c3b7961")
+			(uuid "d1c61ba0-9edb-455d-b3ad-9204bc2230d6")
 		)
 		(fp_rect
 			(start -8 83.12)
@@ -5202,7 +5377,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "877d5afd-c94b-4dca-aecc-8ff481a8e09e")
+			(uuid "c230cbe7-6f09-43a0-9d63-37029ae012ca")
 		)
 		(fp_rect
 			(start -8 88.2)
@@ -5213,7 +5388,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "cb0bc2f8-00e0-4ccc-aa92-1ec131dd0730")
+			(uuid "afaeb987-e96c-441f-b66d-bbe9195d089a")
 		)
 		(fp_rect
 			(start -8.0156 -2)
@@ -5224,10 +5399,36 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "17abba3b-2a1e-42b8-95b0-51d46fa51b29")
+			(uuid "990c4941-bc8e-404c-8f6c-b09974e7ceaf")
+		)
+		(fp_text user "-5V"
+			(at 3 87 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "71c63a4f-51bd-49d1-9512-c393aa658ce6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "0V"
+			(at 4 92 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fa75b1d5-81a6-4a5d-b273-7c048f76fa6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
+			(at 5 -4.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "268105ec-b022-4ceb-ba75-ee7f7d2a9d13")
@@ -5700,7 +5901,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?16*")
-		(path "/d7555032-81b8-4c97-b8f1-3d8e37f03475")
+		(path "/a41f25ed-53db-4769-8fa2-7e09f2a4452d")
 		(sheetname "/")
 		(sheetfile "N30_GalvanicSeperation.kicad_sch")
 		(attr through_hole)
@@ -6236,7 +6437,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?14*")
-		(path "/9beeade8-9ebf-4c9c-b463-89ca24aba72d")
+		(path "/892df9be-acd9-42e5-bcc1-3d61046f3af9")
 		(sheetname "/")
 		(sheetfile "N30_GalvanicSeperation.kicad_sch")
 		(attr through_hole)
@@ -8777,7 +8978,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?16*")
-		(path "/80ef0565-e1fd-41a8-958e-4e0d294c42f3")
+		(path "/dfbeeeae-ea26-475e-8be8-efbd5be33cf4")
 		(sheetname "/")
 		(sheetfile "N30_GalvanicSeperation.kicad_sch")
 		(attr through_hole)

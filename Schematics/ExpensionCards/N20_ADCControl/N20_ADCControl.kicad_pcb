@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Philips PM2528 - N20 (ADC Control)")
-		(date "2025-08-07")
+		(date "2025-09-12")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -101,7 +101,7 @@
 	(net 27 "Net-(D2002B-Q4)")
 	(net 28 "unconnected-(D2002B-Q2-Pad12)")
 	(net 29 "unconnected-(D2002A-Q3-Pad5)")
-	(net 30 "/xxC20")
+	(net 30 "/xXC20")
 	(net 31 "/xAZ")
 	(net 32 "unconnected-(D2002A-Q1-Pad3)")
 	(net 33 "/xECP")
@@ -126,7 +126,7 @@
 	(net 52 "unconnected-(D2006-Pad3)")
 	(net 53 "Net-(D2007-Pad3)")
 	(net 54 "unconnected-(D2007-Pad11)")
-	(net 55 "/~{UP}")
+	(net 55 "/x~{UP}")
 	(net 56 "unconnected-(D2007-Pad13)")
 	(net 57 "/xENC20")
 	(net 58 "unconnected-(D2007-Pad12)")
@@ -1933,7 +1933,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/xxC20")
+			(net 30 "/xXC20")
 			(pinfunction "Q")
 			(pintype "output")
 			(uuid "d7f5ce04-6a08-4982-b4d1-8b9226bb0c44")
@@ -3870,7 +3870,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/xxC20")
+			(net 30 "/xXC20")
 			(pinfunction "Enable")
 			(pintype "input")
 			(uuid "3bb9a12c-78ef-4831-a447-321253509dc1")
@@ -4479,7 +4479,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "/~{UP}")
+			(net 55 "/x~{UP}")
 			(pinfunction "~{Q}")
 			(pintype "output")
 			(uuid "f05283fd-8274-49f0-8164-af9ef6303745")
@@ -5252,7 +5252,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "/~{UP}")
+			(net 55 "/x~{UP}")
 			(pintype "input")
 			(uuid "b39ac67b-879b-46a5-89f6-60b2522c4bd0")
 		)
@@ -5874,7 +5874,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/xxC20")
+			(net 30 "/xXC20")
 			(pintype "passive")
 			(uuid "dea7a9d5-5c0b-4f73-992d-912e5dcc13fb")
 		)
@@ -6245,7 +6245,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/xxC20")
+			(net 30 "/xXC20")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "96579311-e991-4b56-9776-e89a8fef6c8a")
@@ -6473,7 +6473,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 55 "/~{UP}")
+			(net 55 "/x~{UP}")
 			(pintype "input")
 			(uuid "4f4c05af-b683-4bf4-920c-68181a1682cb")
 		)
@@ -6523,7 +6523,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/xxC20")
+			(net 30 "/xXC20")
 			(pintype "input")
 			(uuid "57ce4333-d107-40bf-a7de-88ba04ccbb69")
 		)
@@ -6544,7 +6544,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/xxC20")
+			(net 30 "/xXC20")
 			(pintype "input")
 			(uuid "4bd32b41-471b-4e50-9400-234dc353c6c4")
 		)
@@ -7428,7 +7428,7 @@
 				)
 			)
 		)
-		(property "Value" "1k0"
+		(property "Value" "1k00"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "e8ddc967-1c6e-40d9-b6fa-d062ad444ccb")
@@ -7729,7 +7729,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*")
-		(path "/63850717-d187-4ef0-8e5a-2d8d5eb80cec")
+		(path "/c03120e4-4196-46ff-8498-ce5500f5a426")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
 		(attr through_hole)
@@ -8239,15 +8239,14 @@
 			)
 		)
 	)
-	(footprint "PM2528:PM2528_RiserCardConnector"
+	(footprint "Philips_PM2528:PM2528_RiserCardConnector"
 		(layer "F.Cu")
 		(uuid "a976deb6-455f-4f73-830c-a5a3acf7365c")
 		(at 104.57 125.22 90)
 		(property "Reference" "X2001"
-			(at 0 -0.5 90)
+			(at -7 -4.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "8ad80fe2-20d0-4f03-8d35-37639ada0714")
 			(effects
 				(font
@@ -8257,7 +8256,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 90)
+			(at -0.5 -3 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "16936697-126e-4c83-af2d-abfc0e37bcd6")
@@ -8307,7 +8306,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "6c628298-df74-46fb-b660-7206d2c3dd30")
+			(uuid "1e8353e7-2016-49f4-82b5-4c3563d700c3")
 		)
 		(fp_rect
 			(start -8 6.92)
@@ -8318,7 +8317,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "4d6f4282-f09b-4e2d-b885-5696e5836274")
+			(uuid "bd3dd1a1-d6f3-4351-b02c-8c337c00267c")
 		)
 		(fp_rect
 			(start -8 12)
@@ -8329,7 +8328,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "b4fae4f2-783b-4bd8-bffb-589b6e513f65")
+			(uuid "b2084eb9-7f2b-488a-a599-fb813a8f3466")
 		)
 		(fp_rect
 			(start -8 17.08)
@@ -8340,7 +8339,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "9d243c0d-f4f8-4a9f-8e4b-8173616aeb32")
+			(uuid "06940f52-e472-4a78-85a9-9a0f824f2ebe")
 		)
 		(fp_rect
 			(start -8 22.16)
@@ -8351,7 +8350,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "9da0a5d3-4922-4765-a198-16d2ce42470d")
+			(uuid "66beff9c-73f8-42c3-af23-9de6fd2f8b89")
 		)
 		(fp_rect
 			(start -8 27.24)
@@ -8362,7 +8361,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "9c8f9b09-00e9-4da9-ae87-776a11e509cf")
+			(uuid "f7a0c52d-628a-428a-9995-d9dc72ddb58a")
 		)
 		(fp_rect
 			(start -8 32.32)
@@ -8373,7 +8372,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "9b42acf3-bc40-406c-bad7-b4fc46ff78ed")
+			(uuid "7a14cb78-04f5-4e59-977e-f0fded27a684")
 		)
 		(fp_rect
 			(start -8 37.4)
@@ -8384,7 +8383,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "475bc872-7d8f-44d2-b356-0169b3f8f3af")
+			(uuid "1fad5a17-443e-4ed4-aace-ca0895dfbdb5")
 		)
 		(fp_rect
 			(start -8 42.48)
@@ -8395,7 +8394,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "889f1622-44cd-4057-aa5d-4bb388307b33")
+			(uuid "09916d28-5077-4d1a-bed1-1e02df769148")
 		)
 		(fp_rect
 			(start -8 47.56)
@@ -8406,7 +8405,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "fce9d06a-c143-4bfe-b0b4-9a4b08bcb179")
+			(uuid "aae0af2b-436f-4bef-9a73-4bb4d64820ea")
 		)
 		(fp_rect
 			(start -8 52.64)
@@ -8417,7 +8416,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "76813371-d118-46bd-b475-104089c1aca1")
+			(uuid "28e2c745-16c2-453d-b224-d4d69b6360da")
 		)
 		(fp_rect
 			(start -8 57.72)
@@ -8428,7 +8427,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "8335b2a1-8e88-4c07-90ad-3d74a87473cf")
+			(uuid "c632dcd2-f464-4350-9595-bb6a0149148b")
 		)
 		(fp_rect
 			(start -8 62.8)
@@ -8439,7 +8438,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "f4d7896e-f9f6-43d9-9c27-e9fa8e93f41a")
+			(uuid "1473ed06-0628-4297-9afe-f60de02deccb")
 		)
 		(fp_rect
 			(start -8 67.88)
@@ -8450,7 +8449,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "d0d1a198-c71c-47e7-b32b-96ad1c9ef2a0")
+			(uuid "55a81dad-1c5d-42e8-881e-b1c66efbcc12")
 		)
 		(fp_rect
 			(start -8 72.96)
@@ -8461,7 +8460,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "8743988c-ce10-4b2a-831a-35bf54d81748")
+			(uuid "ad2532e8-726c-4703-876b-f1aec2333cd5")
 		)
 		(fp_rect
 			(start -8 78.04)
@@ -8472,7 +8471,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "446e31bf-4561-46fe-87a7-e27215bf4fc9")
+			(uuid "8219a281-1776-4030-87da-01b7b8aae2ed")
 		)
 		(fp_rect
 			(start -8 83.12)
@@ -8483,7 +8482,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "d5d69505-616c-48e5-968b-692c474c0a69")
+			(uuid "a3d40134-6954-423a-a119-c16aeb25260f")
 		)
 		(fp_rect
 			(start -8 88.2)
@@ -8494,7 +8493,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "edb29238-39f2-43ef-acaf-2e2857b60762")
+			(uuid "2d624341-3e11-4f7d-b393-c5f1801bed32")
 		)
 		(fp_rect
 			(start -8.0156 -2)
@@ -8505,7 +8504,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "eb97473f-bbc6-4322-8be6-c89054e25bdc")
+			(uuid "319e9a83-7d32-49e0-836b-536b5521c717")
 		)
 		(fp_text user "-5V"
 			(at 3 87 90)
@@ -8534,7 +8533,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
+			(at 5 -4.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ee1c76df-b304-4da8-9e8d-b02384c87389")
@@ -9249,7 +9248,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/xxC20")
+			(net 30 "/xXC20")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "bab6a3b3-04fc-4400-95db-a0bd5a63c603")
@@ -9274,7 +9273,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2003"
-			(at 2.5 1.8 90)
+			(at 2.5 1.37 90)
 			(layer "F.SilkS")
 			(uuid "97bab0f6-6b14-488d-a53d-1f7634e7474c")
 			(effects
@@ -10116,7 +10115,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "_AZ"
+	(gr_text "xAZ"
 		(at 152.15 74 0)
 		(layer "F.SilkS")
 		(uuid "560f5e88-10cc-4662-ab02-56495320ffcd")
@@ -10140,7 +10139,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "xxC20"
+	(gr_text "xXC20"
 		(at 105 108.5 90)
 		(layer "F.SilkS")
 		(uuid "a40e500e-2b34-4cb4-9be9-3cbe494542fe")
@@ -10235,14 +10234,6 @@
 			)
 			(justify left bottom)
 		)
-	)
-	(via
-		(at 109.347 78.232)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "3f40cab3-45a3-4ec6-b95b-6b21e82d0ed7")
 	)
 	(embedded_fonts no)
 )

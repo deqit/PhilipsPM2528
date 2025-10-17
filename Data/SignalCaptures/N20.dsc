@@ -9,8 +9,8 @@
     "Language": 31,
     "Max Height": "1X",
     "Operation Mode": 0,
-    "Sample count": "50000896",
-    "Sample rate": "10000000",
+    "Sample count": "12500992",
+    "Sample rate": "25000000",
     "Stop Options": 1,
     "Threshold Level": "1",
     "Title": "DSView v1.3.2",
@@ -24,261 +24,109 @@
     "Version": 3,
     "channel": [
         {
-            "colour": "#00aa7f",
+            "colour": "default",
             "enabled": true,
             "index": 0,
-            "name": "A08",
-            "strigger": 0,
+            "name": "SRUP",
+            "strigger": 1,
             "type": 10000,
             "view_index": 0
         },
         {
-            "colour": "#00aa7f",
+            "colour": "default",
             "enabled": true,
             "index": 1,
-            "name": "A09",
+            "name": "CP",
             "strigger": 0,
             "type": 10000,
             "view_index": 1
         },
         {
-            "colour": "#00aa7f",
+            "colour": "default",
             "enabled": true,
             "index": 2,
-            "name": "A10",
+            "name": "SAZ",
             "strigger": 0,
             "type": 10000,
             "view_index": 2
         },
         {
-            "colour": "#00aa7f",
+            "colour": "default",
             "enabled": true,
             "index": 3,
-            "name": "A11",
+            "name": "COMP",
             "strigger": 0,
             "type": 10000,
             "view_index": 3
         },
         {
-            "colour": "#00aa7f",
+            "colour": "default",
             "enabled": true,
             "index": 4,
-            "name": "A12",
+            "name": "C2000",
             "strigger": 0,
             "type": 10000,
             "view_index": 4
         },
         {
-            "colour": "#ff55ff",
+            "colour": "default",
             "enabled": true,
             "index": 5,
-            "name": "T1",
+            "name": "RC",
             "strigger": 0,
             "type": 10000,
             "view_index": 5
         },
         {
-            "colour": "#ffaaff",
+            "colour": "default",
             "enabled": true,
             "index": 6,
-            "name": "/PSEN",
+            "name": "CPC",
             "strigger": 0,
             "type": 10000,
             "view_index": 6
         },
         {
-            "colour": "#ffaaff",
+            "colour": "default",
             "enabled": true,
             "index": 7,
-            "name": "ALE",
+            "name": "UP",
             "strigger": 0,
             "type": 10000,
             "view_index": 7
         },
         {
-            "colour": "#00aaff",
+            "colour": "default",
             "enabled": true,
             "index": 8,
-            "name": "D0",
+            "name": "AZ",
             "strigger": 0,
             "type": 10000,
             "view_index": 8
         },
         {
-            "colour": "#00aaff",
+            "colour": "default",
             "enabled": true,
             "index": 9,
-            "name": "D1",
+            "name": "DN+",
             "strigger": 0,
             "type": 10000,
             "view_index": 9
         },
         {
-            "colour": "#00aaff",
+            "colour": "default",
             "enabled": true,
             "index": 10,
-            "name": "D2",
+            "name": "XC20",
             "strigger": 0,
             "type": 10000,
             "view_index": 10
-        },
-        {
-            "colour": "#00aaff",
-            "enabled": true,
-            "index": 11,
-            "name": "D3",
-            "strigger": 0,
-            "type": 10000,
-            "view_index": 11
-        },
-        {
-            "colour": "#00aaff",
-            "enabled": true,
-            "index": 12,
-            "name": "D4",
-            "strigger": 0,
-            "type": 10000,
-            "view_index": 12
-        },
-        {
-            "colour": "#00aaff",
-            "enabled": true,
-            "index": 13,
-            "name": "D5",
-            "strigger": 0,
-            "type": 10000,
-            "view_index": 13
-        },
-        {
-            "colour": "#00aaff",
-            "enabled": true,
-            "index": 14,
-            "name": "D6",
-            "strigger": 0,
-            "type": 10000,
-            "view_index": 14
-        },
-        {
-            "colour": "#00aaff",
-            "enabled": true,
-            "index": 15,
-            "name": "D7",
-            "strigger": 0,
-            "type": 10000,
-            "view_index": 15
         }
     ],
     "decoder": [
-        {
-            "channel": [
-                {
-                    "a12": 4
-                },
-                {
-                    "a9": 1
-                },
-                {
-                    "psen": 6
-                },
-                {
-                    "d4": 12
-                },
-                {
-                    "a11": 3
-                },
-                {
-                    "d5": 13
-                },
-                {
-                    "d6": 14
-                },
-                {
-                    "a10": 2
-                },
-                {
-                    "d1": 9
-                },
-                {
-                    "d7": 15
-                },
-                {
-                    "d0": 8
-                },
-                {
-                    "ale": 7
-                },
-                {
-                    "d3": 11
-                },
-                {
-                    "d2": 10
-                },
-                {
-                    "a8": 0
-                }
-            ],
-            "id": "mcs48",
-            "label": "MCS-48",
-            "options": {
-            },
-            "show": {
-                "mcs48": true
-            },
-            "stacked decoders": [
-            ],
-            "version": 2,
-            "view_index": -1
-        },
-        {
-            "channel": [
-                {
-                    "d6": 14
-                },
-                {
-                    "d5": 13
-                },
-                {
-                    "d7": 15
-                },
-                {
-                    "d4": 12
-                },
-                {
-                    "d3": 11
-                },
-                {
-                    "d0": 8
-                },
-                {
-                    "d1": 9
-                },
-                {
-                    "clk": 6
-                },
-                {
-                    "d2": 10
-                }
-            ],
-            "id": "parallel",
-            "label": "Parallel",
-            "options": {
-                "clock_edge": "rising",
-                "endianness": "big",
-                "wordsize": 0
-            },
-            "show": {
-                "parallel": true,
-                "parallel: Items": true,
-                "parallel: Words": true
-            },
-            "stacked decoders": [
-            ],
-            "version": 2,
-            "view_index": -1
-        }
     ],
     "trigger": {
-        "advTriggerMode": true,
+        "advTriggerMode": false,
         "serialTriggerBits": 0,
         "serialTriggerChannel": 0,
         "serialTriggerClock": "X X X X X X X X X X X X X X X X",
@@ -397,7 +245,7 @@
         "stageTriggerValue17": "X X X X X X X X X X X X X X X X",
         "stageTriggerValue18": "X X X X X X X X X X X X X X X X",
         "stageTriggerValue19": "X X X X X X X X X X X X X X X X",
-        "triggerPos": 1,
+        "triggerPos": 10,
         "triggerStages": 0,
         "triggerTab": 0
     }

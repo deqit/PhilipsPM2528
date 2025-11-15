@@ -46,7 +46,33 @@ Here lies the analog heart of the converter:
 Simple but essential: the Counter just counts pulses. It gets a clock pulse (**CPC**) from the ADC Control. When it overflows, it raises **C20000**. These pulses are counted by the CPU.
 
 # A Measurement Cycle in action
-Let’s walk through a full measurement cycle, based on scope captures and logic traces.
+Let’s walk through a full measurement cycle, based on scope captures and logic traces. We'll do this top-down, so first an overview, then the details.
 
-#### The Clock Source
-Timing accuracy is crucial in a dual-slope converter. The CPU provides a 2 MHz clock (**CP**) via output T0. This clock is derived from the 6MHz oscillator from the CPU.
+_Note: In the images below, the analogue traces are offset by +5V. That's because the digital 0V is -5V in reference to the analogue 0V. As a scope knows just one 0V (GND)._
+
+### Visualizing the process
+The screencapture below shows a full ADC-cycle. The input voltage is about 1.63V DC, the meter is in 2V range.
+
+![ADC Full MeasurementCycle](assets/ADC_FullMeasurementCycle.png "A complete measurement-cycle").
+
+#### @0ms: start of the cycle
+- The CPU releases the **AZ** signal. The other circuits are now able to accept measurement-signals
+- The CPU sets the **UP** signal. This initiates the 'Ramp-Up' phase.
+- The CPU leaves the **DN+** and **DN-** signal low, indicating no 'Ramp-Down' phase.
+- The input-signal is offered to the ADC (**TP2105**, yellow trace)
+- The ADC (**TP2106**, purple trace) starts integrating
+- The **COMP** signal is asserted by the ADC, meaning it's working hard
+
+#### @100ms: The fixed time Ramp-Up phase is ready
+- The **UP** signal is reset
+- The **DN+** signal is set, meaning we're starting the Down-Ramp phase
+- The measurement-signal (**TP2105**, yellow trace) is set to the reference-voltage, with an opposite sign as the input-signal
+- The ADC (**TP2106**, purple trace) starts draining
+- The **COMP** signal stays high, as the ADC is still working.
+
+#### @180ms: Measurement ready
+- The ADC has is crossing zero, meaning we're ready.
+- The CPU asserts **AZ** indicating 'zero everything'
+- **DN+** is reset, indicating we're done with the Ramp-Down phase
+- The measurement-signal (**TP2105**, yellow trace) is set to 0V
+- The **COMP** signal is reset by the ADC, indicating is resting.

@@ -81,11 +81,3 @@ The screencapture below shows a full ADC-cycle. The input voltage is about 1351m
 When you offer a small voltage (but in the same measurement range), the Ramp-down phase will be shorter as the ADC won't be charged up as much in the Ramp-Up phase. See the image below for a measurement of 500mV.
 
 ![ADC Full MeasurementCycle](assets/ADC_FullMeasurementCycle_0500mV.png "A complete measurement-cycle").
-
-# A measurement Cycle in detail
-
-_Todo - not correct, make new screenshots_
-
-Timing accuracy is crucial in a dual-slope converter. The CPU provides a 2 MHz clock (labeled CP) used by the control logic. All measurement intervals are derived from this base clock. With a known time base, the measurement reduces to counting pulses.
-
-![ADC Detail](assets/ADC_Cycle_Overview_N21.png "Cycle-detail - digital overview").

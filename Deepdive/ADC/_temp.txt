@@ -1,124 +1,4 @@
-Reverse Engineering the Philips PM2528: A Peek Inside a Vintage RMS Multimeter
-The Philips PM2528 is a precision RMS multimeter from the late 1970s to early 1980s—a period when test equipment was transitioning from analog dials to digital displays, and microcontrollers were just beginning to appear in lab gear. Buried inside the steel case of this 5.5-digit instrument is a mix of analog precision, discrete logic, and early firmware-controlled automation. In this post, I’ll take a close look at how the PM2528 works, focusing for now on its dual-slope ADC design.
-
-The goal of this project is documenting 'everything' about this multimeter, and simultaniously talk about the concept used in this device.
-
-A personal aside
-I recently acquired this Philips PM2528 RMS multimeter in non-working condition and decided to restore it. Half-functional, no manuals, and full of mystery. Perfect.
-
-There wasn’t a complete service manual available, so I decided to do what any curious engineer would: reverse engineer it.
-
-If you're interested in what I did, take a look in the GitHub repository. It contains annotated schematics (KiCad), a riser card, the relay matrix, and the partially disassembled firmware (Ghidra). It’s all a work in progress, and there are likely some mistakes or gaps. Corrections, contributions, and curiosity are all welcome.
-
-Introduction: A Multimeter with a Microprocessor Soul
-Unlike modern instruments that rely on integrated chips, the PM2528 is built with a mixture of analog and logic-level circuits driven by an Intel 8035 microcontroller.
-
-Measurement Capabilities
-The PM2528 supports a broad range of measurements for its era, including:
-
-DC Voltage: 200 mV to 2000 V (max 1000 V continuous)
-
-AC Voltage (RMS): 200 mV to 2000 V (600 Vrms max)
-
-AC + DC Voltage: 200 mV to 2000 V (600 Vrms / 900 V peak max)
-
-DC Current: 2 µA to 2000 mA (2500 mA max)
-
-AC + DC Current: 2 µA to 2000 mA (2500 mA max)
-
-Resistance (2-wire): 200 Ω to 2000 MΩ
-
-Resistance (4-wire): 200 Ω to 2000 kΩ
-
-Temperature (via external PT100 sensor): –220 °C to +850 °C
-
-Optional features (not present in my unit) included:
-
-Peak voltage capture
-
-High-frequency AC voltage measurement
-
-System Overview: Four Functional Blocks
-The PM2528 is organized into four primary functional blocks, each with clearly defined responsibilities.
-
-1. Analog Front-End
-
-All measurements begin here. The analog section accepts voltage, current, resistance, or temperature inputs and scales them down to normalized voltage levels. These conditioned signals are then routed to the ADC for digitization. The analog input circuits also include protection circuitry and signal routing via relays, depending on the selected function and range.
-
-2. Analog-to-Digital Converter (ADC)
-
-At the heart of the PM2528 is a dual-slope integrating ADC, a method widely used in precision multimeters of this era for its excellent noise rejection and accuracy. Unlike modern designs that use a single-chip ADC, the PM2528 implements this function across two full circuit boards.
-
-We’ll dive into the ADC in more detail below.
-
-3. Control Logic and CPU
-
-The PM2528 is controlled by an Intel 8035 microcontroller running at 6 MHz. It has 64 bytes of internal RAM and no on-chip ROM. The firmware lives in two external 2 KB EPROMs.
-
-This microcontroller handles sequencing of measurement operations, display updates, user inputs, and communication over GPIB. Inputs to the CPU include front panel controls, GPIB interface, ADC conversion results and external trigger signals. Outputs are sent to a 7-segment display,  LEDs, Relay drivers and some external interfaces.
-
-4. Display and User Interface
-
-The user interacts with the multimeter through a combination of buttons and a display: A 6-digit 7-segment LED array shows readings and units, LEDs (in fact: small lamps) indicate selected modes and functions, and function-keys allow measurement mode selection, ranging, and triggering.
-
-The ADC: Dual-Slope Precision from Discrete Parts
-The ADC in the PM2528 is a classic dual-slope integrating converter, ideal for high-precision measurements with good noise immunity. Unlike most modern designs, this ADC is built entirely from discrete components.
-
-A dual-slope ADC operates in two phases:
-
-Ramp-Up (Integration):
-The unknown input voltage charges an integrator (op-amp + capacitor) for a fixed period. The output voltage ramps up (or down) linearly.
-
-Ramp-Down (De-integration):
-A known reference voltage of opposite polarity is applied. The time required to bring the integrator’s output back to zero is measured by counting clock pulses.
-
-This gives the relationship:
-
-Vin = (Tdown / Tup) × Vref
-
-Since the integration period (Tup) and Vref are known and stable, measuring Tdown gives an accurate representation of the input voltage.
-
-Implementation Details
-Performing a measurement requires four components: Expansion boards N20 (ADC Control) and N21 (ADC Core), a 20.000 counts counter  and the CPU.
-
-
-Board N20 – ADC Control
-
-This board forms the digital control interface between the microcontroller, the ADC core and the counter. Its functions include:
-
-Translating CPU commands into timing signals
-
-Issues control signals like SRUP (Start Ramp Up), AZ (Auto Zero), UP/DN± (Ramp Direction)
-
-Handling feedback from the analog section (e.g., comparator output)
-
-Returning conversion results to the CPU
-
-It also includes logic to divide the clock and count 20,000 pulse blocks using a carry signal (C20000), a technique that reduces the counter width while preserving resolution.
-
-Board N21 – ADC Core
-
-Here lies the analog heart of the converter:
-
-Integrator: An op-amp and capacitor form the core integration circuit
-
-Comparator: Detects when the integrator output crosses zero
-
-Reference Voltage: Provides stable reference for de-integration
-
-Auto-Zeroing: Ensures measurement accuracy by compensating for offset voltages
-
-Signal Input Path: Receives scaled signals from the analog front-end
-
-This board operates largely autonomously, driven by the control signals generated by N20.
-
-A Measurement Cycle in Detail
-Let’s walk through a full measurement cycle using logic analyzer captures.
-
-The Clock Source
-Timing accuracy is crucial in a dual-slope converter. The CPU provides a 2 MHz clock (labeled CP) used by the control logic. All measurement intervals are derived from this base clock. With a known time base, the measurement reduces to counting pulses.
-
-Phase 1: Ramp-Up (Integration)
+### Phase 1: Ramp-Up (Integration)
 The measurement begins when the CPU asserts the SRUP signal (Start Ramp Up).
 
 The ADC Control resets the 20,000-count counter (RC = Reset Counter)
@@ -135,14 +15,13 @@ The integration period is fixed: 200,000 clock pulses, exactly 100 ms at 2 M
 
 Interestingly, the COMP signal doesn’t activate immediately. There’s a slight delay, likely due to residual offset or incomplete zeroing at the comparator input. Time to calibrate.
 
-
-
+![ADC Detail](assets/ADC_CycleStart_N21.png "Cycle-detail - start").
 
 During ramp-up, the counter tracks every CPC pulse. For every 20,000 counts, the carry-out (C20000) toggles. The ADC Control logic uses this to track progress toward the 200,000-pulse goal. Once ten carry pulses have been seen, the ramp-up phase ends.
 
 At this point, the capacitor holds a charge proportional to the input voltage.
 
-Phase 2: Ramp-Down (de-integration)
+### Phase 2: Ramp-Down (de-integration)
 Now comes the clever part. The integrator is discharged using a fixed reference current, and the time it takes to return to zero is measured.
 
 The UP signal is deasserted
@@ -150,12 +29,17 @@ The DN+ (or DN-, depending on input polarity) is asserted to begin ramp-down
 The counter is reset again via RC
 The CPU counts how many times the counter hits 20,000 using the XC20 signal
 
+![ADC Detail](assets/ADC_Cycle_Mid01_N21.png "Cycle-detail - mid").
+
 This continues until the comparator detects zero crossing, at which point COMP goes low again. The ADC Control:
 
 Halts the counter by stopping the CPC clock
 Resets the DN± signal
 Re-asserts AZ to begin a new auto-zero cycle
 The CPU pulses the SAZ signal to be sure the auto-zero, to make sure the auto-zero cycle starts. Probably to mitigate a failed measurement.
+
+![ADC Detail](assets/ADC_Cycle_Mid_N21.png "Cycle-detail - mid").
+
 
 At this point, the measurement is complete.
 
@@ -168,32 +52,3 @@ Ramp-down phase = 363.666-200.000=163.666 counts (=8x20.000 from XC20 + 3.666 fr
 Reference-voltage = 2V (see the schematics in the Github-repository)
 Vin = (Tdown / Tup) × Vref = 163.666 / 200.000 * 2V = 1,63666V
 
-
-Visualizing the Process
-The logic analyzer trace below shows the full conversion cycle. Note: since the analog front end and internal ADC share different grounds, the measurements appear offset by +5V. This is an artifact of differential grounding and trying to safe my oscilloscope, not an error.
-
-Yellow (TP2105): Input signal for the ADC
-
-Purple (TP2106): Integrator capacitor voltage
-
-Blue (TP2107): Comparator output
-
-Here, the input voltage was about 1.63 V. The waveforms clearly show the capacitor voltage ramping up linearly, followed by a discharge as it ramps down under a controlled current.
-
-
-A Second Example
-To verify the behavior, I captured another cycle with a smaller input voltage (≈600 mV). As expected, the capacitor discharges in less time, and the total count during ramp-down is correspondingly smaller. The measurement luckily tracks closely with theory, confirming the dual-slope ADC’s reliability, decades after it was built.
-
-
-Again, see the Github-repo for the information this article was based upon.
-
-Next up: a more technical deep-dive into N21, the ADC Core.
-
-Footnotes & References
-
-Dual-Slope ADC Theory:
-Wikipedia: Integrating ADC
-
-Hackaday.io: Multislope ADC
-
-Curious Marc : HP3478A

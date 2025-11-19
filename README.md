@@ -12,4 +12,5 @@ The goal of this project is fixing the multimeter. Well... not really. In real l
 
 # The components
 ### ADC
-See [The ADC](/Deepdive/ADC/README.md "The ADC in more detail").
+- See [The ADC](/Deepdive/ADC/README.md "The ADC in more detail").
+- See [N20 - ADC Control](/Deepdive/N20/README.md "N20 - ADC Control").

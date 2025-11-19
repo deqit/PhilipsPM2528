@@ -18,7 +18,7 @@ Since the integration time (**Tup**) and **Vref** are fixed and stable, measurin
 
 Performing a measurement requires four components: The CPU, Expansion boards N20 (ADC Control) and N21 (ADC Core), and a 20.000-count Counter. For understanding how everything works together, the role of every component must be clear.
 
-![ADC Signalflow](assets/ADC_Signalflow.png "The signalflow between the components").
+![ADC Signalflow](assets/ADC_Signalflow.png "The signalflow between the components")
 
 #### The CPU
 The CPU is the director of a measurement. It:
@@ -53,7 +53,7 @@ _Note: In the images below, the analogue traces are offset by +5V. That's becaus
 
 The screencapture below shows a full ADC-cycle. The input voltage is about 1351mV DC, the meter is in 2V range. The digital signals (top of the screen) are the signals as seen from the CPU's point of view.
 
-![ADC Full MeasurementCycle](assets/ADC_FullMeasurementCycle_1351mV.png "A complete measurement-cycle").
+![ADC Full MeasurementCycle](assets/ADC_FullMeasurementCycle_1351mV.png "A complete measurement-cycle")
 
 #### @0ms: start of the cycle
 - The input-signal (reverse polarity!) is offered to the ADC (**yellow trace**)
@@ -65,7 +65,7 @@ The screencapture below shows a full ADC-cycle. The input voltage is about 1351m
 - As this is a fixed time phase, under control of the ADC Control, the CPU does not receive any signal. Note there are no timer-overflow (**XC20**) pulses.
 - Watch the clockpulses (**CP**) pulsing
 
-#### @100ms: The fixed-time Ramp-Up phase is ready, starting the Ramp-Down phase
+#### @100ms: The fixed-time Ramp-Up phase is finished, starting the Ramp-Down phase
 - The measurement-signal (**yellow trace**) is set to the reference-voltage (opposite polarity of the input voltage, which was already inversed)
 
 #### @100-170ms: Ramp-down phase
@@ -77,7 +77,17 @@ The screencapture below shows a full ADC-cycle. The input voltage is about 1351m
 - The CPU asserts **SAZ** telling the ADC Control to auto-zero.
 - The input signal to the ADC (**yellow trace**) is reset to 0V.
 
+#### Displaying the measured value
+The CPU now calculates the measured value, with:
+- the current value of the Counter
+- Multiply the number of **XC20** pulses by 20000
+- Divides 
+- Ramp-up phase = 200.000 counts
+- Ramp-down phase = 135.100 counts (=6x20.000 from XC20 + 15.100 from the counter)
+Reference-voltage = 2000mV (see the schematics in the Github-repository)
+>Vin = (Tdown / Tup) × Vref = 135.100 / 200.000 * 2000mV = 1351mV
+
 ### A second example
 When you offer a small voltage (but in the same measurement range), the Ramp-down phase will be shorter as the ADC won't be charged up as much in the Ramp-Up phase. See the image below for a measurement of 500mV.
 
-![ADC Full MeasurementCycle](assets/ADC_FullMeasurementCycle_0500mV.png "A complete measurement-cycle").
+![ADC Full MeasurementCycle](assets/ADC_FullMeasurementCycle_0500mV.png "A complete measurement-cycle")

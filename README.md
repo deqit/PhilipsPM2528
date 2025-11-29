@@ -13,7 +13,7 @@ In this repository you'll find:
 - Schematics (KiCad)
 - PCB Layouts (KiCad)
 - Schematic/PCB of a risercard, for the expansion-cards
-- Disassembled firmware, including annotations
+- Disassembled firmware, including annotations (Ghidra)
 - A lot of documentation regarding relais-mapping, IO-expander-ports, etc.
 - Detailed scope- and logic analyzer screenprints and datafiles
 - Explaination of how-everything-works

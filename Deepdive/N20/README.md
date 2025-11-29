@@ -7,7 +7,7 @@ Its functions include:
 - Counts Counter-overflows through C2000 pulses, sends them to the CPU (XC20)
 - Resets the Counter via the RC (Reset Counter) pulse
 
-![ADC Signalflow](../ADC/assets/ADC_Signalflow.png "The signalflow between the components")
+![ADC Signalflow](assets/ADC_Signalflow_N20.png "The signalflow between the components")
 
 # A Measurement Cycle from the N20's perspective
 

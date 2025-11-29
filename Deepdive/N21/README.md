@@ -8,7 +8,7 @@
 This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals. Not in this image is:
 - **DN-**: Start of Ramp-Down for negative-polarity signals
 
-![N21 MeasurementCycle](assets/N21_MeasurementCycle.png "N21 - A complete measurement-cycle")
+![N21 MeasurementCycle](assets/N21_measurementCycle.png "N21 - A complete measurement-cycle")
 
 #### @0ms: start of the cycle
 ![N21 Start RampUp](assets/N21_RampUp.png "N21 Start RampUp")

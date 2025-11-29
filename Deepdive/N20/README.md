@@ -1,15 +1,15 @@
-# N20: ADC Control
+# ADC Control (Expansionboard N20)
 This expansion board forms the digital control interface between the microcontroller, the ADC core and the Counter.
 
 Its functions include:
-- Send control signals like AZ (Auto Zero), UP/DN+/DN- (Ramp UP, DowN for positive resp negative input voltages)
-- Generate the CPC (Clock Pulse Counter) signal for the Counter, which is essentially CP gated by COMP
-- Counts Counter-overflows through C2000 pulses, sends them to the CPU (XC20)
-- Resets the Counter via the RC (Reset Counter) pulse
+- Coordinating of the Ramp-Up and Ramp-Down phases
+- Send the correct signals on time to the ADC Core
+- Trigger and reset the Counter
+- Return measurement-ready signal to the CPU
 
 ![ADC Signalflow](assets/ADC_Signalflow_N20.png "The signalflow between the components")
 
-# A Measurement Cycle from the N20's perspective
+# A Measurement Cycle from the ADC Control's perspective
 
 This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals. Not in this image are:
 - **POL**: Polarity of the signal

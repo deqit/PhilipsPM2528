@@ -35,6 +35,18 @@ Here lies the analog heart of the converter. This board provides a reference vol
 #### The Counter
 The 20.000 counts Counter just counts pulses, provided by the ADC Control. In return, it provides the actual count-value to the CPU.
 
+### The signals
+The signals used/shown on this page (see also the image above):
+| Signal | Use | Source | Target |
+| - | - | - | - |
+| **SRUP** | Start Ramp-Up | CPU | ADC Control |
+| **SAZ** | Set Auto Zero | CPU | ADC Core |
+| **CP** | Clock Pulses | CPU | ADC Core |
+| **XC20** | Counter overflow (20.000 counts) @ RampDown | ADC Control | CPU |
+| **Count** | Current value | Counter | CPU |
+| **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Core |
+| **purple trace** | ADC Integrator | ADC Core | ADC Core |
+
 # A Measurement Cycle in action
 Let’s walk through a full measurement cycle, based on scope captures and logic traces. We'll do this top-down, so first an overview, then the details.
 
@@ -67,9 +79,9 @@ The screencapture below shows a full ADC-cycle. The input voltage is about 1351m
 - The input signal to the ADC (**yellow trace**) is reset to 0V.
 
 #### Displaying the measured value
-The CPU now calculates the measured value, with:
+The CPU now calculates the measured value, using
 - the current value of the Counter
-- Multiply the number of **XC20** pulses by 20.000
+- the number of **XC20** pulses
 - Ramp-up phase = 200.000 counts (=fixed)
 - Ramp-down phase = 135.100 counts (=6 x 20.000 from **XC20** + 15.100 from the Counter)
 - Reference-voltage = 2000mV

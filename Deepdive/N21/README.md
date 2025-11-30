@@ -3,12 +3,23 @@
 
 ![ADC Signalflow](assets/ADC_Signalflow_N21.png "The signalflow between the components")
 
+The signals used/shown on this page (see also the image above):
+| Signal | Use | Source | Target |
+| - | - | - | - |
+| **AZ** | AutoZero active? | ADC Control | ADC Core, CPU |
+| **DN-** | RampDown phase, for -pol input signals | ADC Control | ADC Core |
+| **DN+** | RampDown phase, for +pol input signals | ADC Control | ADC Core |
+| **UP** | RampUp phase | ADC Control | ADC Core|
+| **COMP** | COMPuting (integrator busy) | ADC Core | ADC Control |
+| **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Core |
+| **purple trace** | ADC Integrator | ADC Core | ADC Core |
+
 # A Measurement Cycle from the ADC Core's perspective
 
 This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals. Not in this image is:
 - **DN-**: Start of Ramp-Down for negative-polarity signals
 
-![N21 MeasurementCycle](assets/N21_measurementCycle.png "N21 - A complete measurement-cycle")
+![N21 MeasurementCycle](assets/N21_MeasurementCycle.png "N21 - A complete measurement-cycle")
 
 #### @0ms: start of the cycle
 ![N21 Start RampUp](assets/N21_RampUp.png "N21 Start RampUp")

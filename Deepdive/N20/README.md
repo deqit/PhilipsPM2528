@@ -9,12 +9,28 @@ Its functions include:
 
 ![ADC Signalflow](assets/ADC_Signalflow_N20.png "The signalflow between the components")
 
+### The signals
+The signals used/shown on this page (see also the image above):
+| Signal | Use | Source | Target |
+| - | - | - | - |
+| **SRUP** | Start Ramp-Up | CPU | ADC Control |
+| **SAZ** | Set Auto Zero | CPU | ADC Core |
+| **CP** | Clock Pulses | CPU | ADC Core |
+| **DN-** | RampDown phase, for -pol input signals | ADC Control | ADC Core |
+| **DN+** | RampDown phase, for +pol input signals | ADC Control | ADC Core |
+| **UP** | RampUp phase | ADC Control | ADC Core|
+| **XC20** | Counter overflow (20.000 counts) @ RampDown | ADC Control | CPU |
+| **AZ** | AutoZero active? | ADC Control | ADC Core, CPU |
+| **COMP** | COMPuting (integrator busy) | ADC Core | ADC Control |
+| **C20000** | Counter overflow (20.000 counts) | Counter | ADC Control |
+| **CPC** | Clockpulses for Counter | ADC Control | Counter |
+| **RC** | Reset Counter | ADC Control | Counter |
+| **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Core |
+| **purple trace** | ADC Integrator | ADC Core | ADC Core |
+
 # A Measurement Cycle from the ADC Control's perspective
 
-This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals. Not in this image are:
-- **POL**: Polarity of the signal
-- **DN-**: Start of Ramp-Down for negative-polarity signals
-- **HSM**: Indication this will be a high-speed measurement
+This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals.
 
 ![N20 MeasurementCycle](assets/N20_MeasurementCycle.png "N20 - A complete measurement-cycle")
 
@@ -55,4 +71,10 @@ See the first image in this section for reference.
 - The ADC Control asserts the **AZ** signal, signalling the CPU it's job has been done and signaling the ADC Core to select 0V (**yellow trace**) as input to the ADC logic.
 
 
-The CPU has enough info to calculate the voltage of the input-signal.
+The CPU has enough info to calculate the voltage of the input-signal:
+- the current value of the Counter
+- Multiply the number of **XC20** pulses by 20.000
+- Ramp-up phase = 200.000 counts (=fixed)
+- Ramp-down phase = 135.100 counts (=6 x 20.000 from **XC20** + 15.100 from the Counter), which should be the same as the nummber of pulses **CPC**
+- Reference-voltage = 2000mV
+>Vin = (Tdown / Tup) × Vref = (135.100 / 200.000) * 2000mV = 1351mV

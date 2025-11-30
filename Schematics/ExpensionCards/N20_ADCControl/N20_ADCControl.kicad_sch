@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N20 (ADC Control)")
-		(date "2025-09-14")
+		(date "2025-11-30")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -5494,26 +5494,6 @@
 			)
 		)
 		(uuid "ea394a12-445c-4f80-8230-66dbea5e60fe")
-	)
-	(text_box "*** Counter\nI: C20000 = CO5 (carry out)\nO: CPC (Clockpulses)\nO: RC (Reset Counter)\n\n*** ADC\nI: COMP (=gate from ADC)\nO: UP\nO: DN- (Down-ramp at pol- of display)\nO: DN+ (Down-ramp at pol+ of display)\n\n*** uP\nI: CP (CounterPulses, from T0)\nI: SAZ (Set Auto Zero)\nI: SRUP (Set Ramp Up)\nI: HSM (High Speed Mode)\nO: XC20 (number of Counter-overflows, to T1)\nO: AZ (Auto Zero started?)\nO: POL"
-		(exclude_from_sim no)
-		(at 367.03 16.51 0)
-		(size 36.83 30.48)
-		(margins 0.6668 0.6668 0.6668 0.6668)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left top)
-		)
-		(uuid "58195434-ad8d-436f-8a5d-47a043bcc76d")
 	)
 	(junction
 		(at 289.56 209.55)

@@ -14,7 +14,7 @@ The signals used/shown on this page (see also the image above):
 | **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Core |
 | **purple trace** | ADC Integrator | ADC Core | ADC Core |
 
-# A Measurement Cycle from the ADC Core's perspective
+## A Measurement Cycle from the ADC Core's perspective
 
 This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals. Not in this image is:
 - **DN-**: Start of Ramp-Down for negative-polarity signals
@@ -53,4 +53,6 @@ See the first image in this section for reference.
 - The ADC Core deselects the reference-signal from the integrator-input
 - The ADC Control sets the **AZ** signal, the ADC Core initiates the Auto-zero circuitery.
 
-Ready!
+## Schematics
+These are the schematics in KiCad, as copied from the Philips documentation. Note there may be slight variations based on my PM2528. The KiCad-files (including PCB-layout) are in other parts of this repository.
+![N21 Schematics](assets/N21_Schematics.png "N21 Schematics")

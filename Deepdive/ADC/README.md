@@ -47,8 +47,8 @@ The signals used/shown on this page (see also the image above):
 | **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Core |
 | **purple trace** | ADC Integrator | ADC Core | ADC Core |
 
-# A Measurement Cycle in action
-Let’s walk through a full measurement cycle, based on scope captures and logic traces. We'll do this top-down, so first an overview, then the details.
+## A Measurement Cycle from the CPU's perspective
+Let’s walk through a full measurement cycle, based on scope captures and logic traces.
 
 _Note: In the images below, the analogue traces are offset by +5V. That's because the digital 0V is -5V in reference to the analogue 0V and this is the way to show two signals in one screenshot (apart from Photoshop)._
 

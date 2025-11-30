@@ -28,7 +28,7 @@ The signals used/shown on this page (see also the image above):
 | **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Core |
 | **purple trace** | ADC Integrator | ADC Core | ADC Core |
 
-# A Measurement Cycle from the ADC Control's perspective
+## A Measurement Cycle from the ADC Control's perspective
 
 This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals.
 
@@ -78,3 +78,7 @@ The CPU has enough info to calculate the voltage of the input-signal:
 - Ramp-down phase = 135.100 counts (=6 x 20.000 from **XC20** + 15.100 from the Counter), which should be the same as the nummber of pulses **CPC**
 - Reference-voltage = 2000mV
 >Vin = (Tdown / Tup) × Vref = (135.100 / 200.000) * 2000mV = 1351mV
+
+## Schematics
+These are the schematics in KiCad, as copied from the Philips documentation. Note there may be slight variations based on my PM2528. The KiCad-files (including PCB-layout) are in other parts of this repository.
+![N20 Schematics](assets/N20_Schematics.png "N20 Schematics")

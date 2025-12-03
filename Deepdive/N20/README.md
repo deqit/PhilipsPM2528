@@ -80,6 +80,6 @@ The CPU has enough info to calculate the voltage of the input-signal:
 >Vin = (Tdown / Tup) × Vref = (135.100 / 200.000) * 2000mV = 1351mV
 
 ## Schematics
-The schematics and PCB are copied from the Philips documentation. Note there may be slight variations, as I've updated them to reflect 'my' PM2528. The original KiCad-files are in other parts of this repository.
+I copied and redrew the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
 ![N20 Schematics](assets/N20_Schematics.png "N20 Schematics")
 ![N20 PCB](assets/N20_PCB.png "N20 PCB")

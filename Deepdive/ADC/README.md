@@ -16,7 +16,7 @@ Since the integration time (**Tup**) and **Vref** are fixed and stable, measurin
 
 ## In Practice: how does the PM2528 do this?
 
-Performing a measurement requires four components of the machine: The CPU, module ADC Control, module ADC Core and a 20.000-count Counter. For understanding how everything works together, the role of every component must be clear.
+Performing a measurement requires four components of the machine: The CPU, module ADC Control, module ADC Analog and a 20.000-count Counter. For understanding how everything works together, the role of every component must be clear.
 
 ![ADC Signalflow](assets/ADC_Signalflow.png "The signalflow between the components")
 
@@ -27,9 +27,9 @@ This is the voltage to be measured. For this section, assume this voltage has be
 The CPU is the director of a measurement. It is in control of the clocksignal, gives a start-signal to the ADC-Control and reads the counter, among other things.
 
 #### ADC Control (Expansioncard N20)
-This board forms the digital control interface between the microcontroller, the ADC core and the Counter. The ADC Control is normaly 'idle', unless commanded by the CPU to perform a measurement.
+This board forms the digital control interface between the microcontroller, the ADC Analog and the Counter. The ADC Control is normaly 'idle', unless commanded by the CPU to perform a measurement.
 
-#### ADC Core (Expansioncard N21)
+#### ADC Analog (Expansioncard N21)
 Here lies the analog heart of the converter. This board provides a reference voltage for the de-integration phase and contains all analog logic for the dual slope integration process.
 
 #### The Counter
@@ -40,12 +40,12 @@ The signals used/shown on this page (see also the image above):
 | Signal | Use | Source | Target |
 | - | - | - | - |
 | **SRUP** | Start Ramp-Up | CPU | ADC Control |
-| **SAZ** | Set Auto Zero | CPU | ADC Core |
-| **CP** | Clock Pulses | CPU | ADC Core |
+| **SAZ** | Set Auto Zero | CPU | ADC Analog |
+| **CP** | Clock Pulses | CPU | ADC Analog |
 | **XC20** | Counter overflow (20.000 counts) @ RampDown | ADC Control | CPU |
 | **Count** | Current value | Counter | CPU |
-| **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Core |
-| **purple trace** | ADC Integrator | ADC Core | ADC Core |
+| **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Analog |
+| **purple trace** | ADC Integrator | ADC Analog | ADC Analog |
 
 ## A Measurement Cycle from the CPU's perspective
 Let’s walk through a full measurement cycle, based on scope captures and logic traces.

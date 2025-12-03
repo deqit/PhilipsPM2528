@@ -1,9 +1,9 @@
 # ADC Control (Expansionboard N20)
-This expansion board forms the digital control interface between the microcontroller, the ADC core and the Counter.
+This expansion board forms the digital control interface between the microcontroller, the ADC Analog and the Counter.
 
 Its functions include:
 - Coordinating of the Ramp-Up and Ramp-Down phases
-- Send the correct signals on time to the ADC Core
+- Send the correct signals on time to the ADC Analog
 - Trigger and reset the Counter
 - Return measurement-ready signal to the CPU
 
@@ -14,19 +14,19 @@ The signals used/shown on this page (see also the image above):
 | Signal | Use | Source | Target |
 | - | - | - | - |
 | **SRUP** | Start Ramp-Up | CPU | ADC Control |
-| **SAZ** | Set Auto Zero | CPU | ADC Core |
-| **CP** | Clock Pulses | CPU | ADC Core |
-| **DN-** | RampDown phase, for -pol input signals | ADC Control | ADC Core |
-| **DN+** | RampDown phase, for +pol input signals | ADC Control | ADC Core |
-| **UP** | RampUp phase | ADC Control | ADC Core|
+| **SAZ** | Set Auto Zero | CPU | ADC Analog |
+| **CP** | Clock Pulses | CPU | ADC Analog |
+| **DN-** | RampDown phase, for -pol input signals | ADC Control | ADC Analog |
+| **DN+** | RampDown phase, for +pol input signals | ADC Control | ADC Analog |
+| **UP** | RampUp phase | ADC Control | ADC Analog|
 | **XC20** | Counter overflow (20.000 counts) @ RampDown | ADC Control | CPU |
-| **AZ** | AutoZero active? | ADC Control | ADC Core, CPU |
-| **COMP** | COMPuting (integrator busy) | ADC Core | ADC Control |
+| **AZ** | AutoZero active? | ADC Control | ADC Analog, CPU |
+| **COMP** | COMPuting (integrator busy) | ADC Analog | ADC Control |
 | **C20000** | Counter overflow (20.000 counts) | Counter | ADC Control |
 | **CPC** | Clockpulses for Counter | ADC Control | Counter |
 | **RC** | Reset Counter | ADC Control | Counter |
-| **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Core |
-| **purple trace** | ADC Integrator | ADC Core | ADC Core |
+| **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Analog |
+| **purple trace** | ADC Integrator | ADC Analog | ADC Analog |
 
 ## A Measurement Cycle from the ADC Control's perspective
 
@@ -39,9 +39,9 @@ This section describes in detail how the N20 takes it role as the conductor of a
 - The measurement starts with a **SRUP**-pulse from the CPU
 - The ADC Control resets the counter via **RC**. The counter resets and sets the **C20000** signal high (it's active low)
 - The ADC Control opens the gate for the **CP** signals to passthrough to the Counter via the **CPC** signal.
-- The ADC Control raises the **UP** signal, which instructs the ADC Core to select the input-signal (reverse polarity) to be selected.
+- The ADC Control raises the **UP** signal, which instructs the ADC Analog to select the input-signal (reverse polarity) to be selected.
 - The **AZ** signal is set low by the ADC-control, indicating there's no auto-zeroing going on.
-- The ADC Core signals the ADC Core it's integrating, by setting the **COMP** signal.
+- The ADC Analog signals the ADC Analog it's integrating, by setting the **COMP** signal.
 
 #### @0-100ms: Ramp-up phase
 See the first image in this section for reference.
@@ -54,8 +54,8 @@ See the first image in this section for reference.
 (please add 100ms to the time in the image)
 ![N20 Start RampDown](assets/N20_RampDown.png "N20 Start RampDown")
 - The ADC Control detected that the Ramp-Up phase has finished, as it has counted 200000 **CP** pulses.
-- The ADC Control resets **UP** to signal the ADC Core Ramp-Up is finished.
-- The ADC Control sets **DN+** to indicate the ADC Core we're now starting the Ramp-Down phase. The ADC Core selects the positive reference-signal for de-integrating. For negative measure-signals, the ADC Core would set **DN-** (not pictured).
+- The ADC Control resets **UP** to signal the ADC Analog Ramp-Up is finished.
+- The ADC Control sets **DN+** to indicate the ADC Analog we're now starting the Ramp-Down phase. The ADC Analog selects the positive reference-signal for de-integrating. For negative measure-signals, the ADC Analog would set **DN-** (not pictured).
 - The ADC Control resets the counter via **RC**. The counter resets and sets/keeps the **C20000** signal high (it's active low).
 
 #### @100-170ms: Ramp-down phase
@@ -65,10 +65,10 @@ See the first image in this section for reference.
 
 #### @170ms: Measurement ready
 ![N20 Measurement Finished](assets/N20_Finished.png "N20 Measurement Finished")
-- The ADC Core detected that de-integrating is ready by resetting the **COMP** signal.
+- The ADC Analog detected that de-integrating is ready by resetting the **COMP** signal.
 - The ADC Control then resets the **DN+** signal
 - The ADC Control closes the gate for the **CPC** signal, stopping the Counter.
-- The ADC Control asserts the **AZ** signal, signalling the CPU it's job has been done and signaling the ADC Core to select 0V (**yellow trace**) as input to the ADC logic.
+- The ADC Control asserts the **AZ** signal, signalling the CPU it's job has been done and signaling the ADC Analog to select 0V (**yellow trace**) as input to the ADC logic.
 
 
 The CPU has enough info to calculate the voltage of the input-signal:

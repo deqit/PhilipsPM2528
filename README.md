@@ -27,4 +27,4 @@ Everything you find here is work-in-progress. It might be incomplete, and some p
 ### ADC
 - See [ADC Overview](/Deepdive/ADC/README.md "The ADC in more detail")
 - See [ADC Control (Expansionboard N20)](/Deepdive/N20/README.md "ADC Control (Expansionboard N20)")
-- See [ADC Core (Expansionboard N21)](/Deepdive/N21/README.md "ADC Core (Expansionboard N21)")
+- See [ADC Analog (Expansionboard N21)](/Deepdive/N21/README.md "ADC Analog (Expansionboard N21)")

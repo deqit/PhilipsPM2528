@@ -1,5 +1,10 @@
 # ADC Analog (Expansionboard N21)
+This expansion board realizes the actual Dual Slope Integrator.
 
+Its functions include:
+- Providing a reference voltage
+- Realizing the actual Dual Slope Integrator
+- Selecting the right signal to be fed into the integrator
 
 ![ADC Signalflow](assets/ADC_Signalflow_N21.png "The signalflow between the components")
 
@@ -16,8 +21,9 @@ The signals used/shown on this page (see also the image above):
 
 ## A Measurement Cycle from the ADC Analog's perspective
 
-This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals. Not in this image is:
-- **DN-**: Start of Ramp-Down for negative-polarity signals
+This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals.
+
+_Note: In the images below, the analogue traces are offset by +5V. That's because the digital 0V is -5V in reference to the analogue 0V and this is the way to show two signals in one screenshot (apart from Photoshop)._
 
 ![N21 MeasurementCycle](assets/N21_MeasurementCycle.png "N21 - A complete measurement-cycle")
 
@@ -53,8 +59,8 @@ See the first image in this section for reference.
 - The ADC Analog deselects the reference-signal from the integrator-input
 - The ADC Control sets the **AZ** signal, the ADC Analog initiates the Auto-zero circuitery.
 
-## Schematics, PCB
+## Schematics and PCB
 I copied and redrew the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
 ![N21 Schematics](assets/N21_Schematics.png "N21 Schematics")
-
 ![N21 PCB](assets/N21_PCB.png "N21 PCB")
+![N21 PCB 3D](assets/N21_PCB-3D.png "N21 PCB 3D")

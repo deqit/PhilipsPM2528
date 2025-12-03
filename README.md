@@ -9,14 +9,14 @@ Also see https://hackaday.io/project/203720-reviving-a-philips-pm2528-digital-mu
 The goal of this project is fixing the multimeter. Well... maybe not really. In real life, the road towards that goal is much more interesting. And I'm documenting everything I found along the way.
 
 In this repository you'll find:
-- Original Philips-documentation (at least, what I could find)
+- Original Philips-documentation (at least, what I could find, unfortunately in lo-res)
 - Schematics (KiCad)
 - PCB Layouts (KiCad)
-- Schematic/PCB of a risercard, for the expansion-cards
+- Schematic/PCB of a risercard, for testing the expansionboards
 - Disassembled firmware, including annotations (Ghidra)
 - A lot of documentation regarding relais-mapping, IO-expander-ports, etc.
-- Detailed scope- and logic analyzer screenprints and datafiles
-- Explaination of how-everything-works
+- Detailed scope- and logic analyzer screenprints and capture-logs
+- Deepdive: Explaination of how-everything-works
 - etc.
 
 Everything you find here is work-in-progress. It might be incomplete, and some parts may not be 100% accurate yet. If you spot something interesting or catch an error, feel free to drop me a message.
@@ -24,6 +24,8 @@ Everything you find here is work-in-progress. It might be incomplete, and some p
 # The components
 ### Overview
 - See [PM2528 Overview](/Deepdive/Overview/README.md "A very broad overview")
+### Risercard
+- See [PM2528 Risercard](/Deepdive/Risercard/README.md "A Risercard for testing the Expansionboards")
 ### ADC
 - See [ADC Overview](/Deepdive/ADC/README.md "The ADC in more detail")
 - See [ADC Control (Expansionboard N20)](/Deepdive/N20/README.md "ADC Control (Expansionboard N20)")

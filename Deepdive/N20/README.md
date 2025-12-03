@@ -32,6 +32,8 @@ The signals used/shown on this page (see also the image above):
 
 This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals.
 
+_Note: In the images below, the analogue traces are offset by +5V. That's because the digital 0V is -5V in reference to the analogue 0V and this is the way to show two signals in one screenshot (apart from Photoshop)._
+
 ![N20 MeasurementCycle](assets/N20_MeasurementCycle.png "N20 - A complete measurement-cycle")
 
 #### @0ms: start of the cycle
@@ -79,7 +81,8 @@ The CPU has enough info to calculate the voltage of the input-signal:
 - Reference-voltage = 2000mV
 >Vin = (Tdown / Tup) × Vref = (135.100 / 200.000) * 2000mV = 1351mV
 
-## Schematics
+## Schematics and PCB
 I copied and redrew the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
 ![N20 Schematics](assets/N20_Schematics.png "N20 Schematics")
 ![N20 PCB](assets/N20_PCB.png "N20 PCB")
+![N21 PCB 3D](assets/N20_PCB-3D.png "N20 PCB 3D")

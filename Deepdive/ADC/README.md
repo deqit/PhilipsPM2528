@@ -26,10 +26,10 @@ This is the voltage to be measured. For this section, assume this voltage has be
 #### The CPU
 The CPU is the director of a measurement. It is in control of the clocksignal, gives a start-signal to the ADC-Control and reads the counter, among other things.
 
-#### ADC Control (Expansioncard N20)
+#### ADC Control (Expansionboard N20)
 This board forms the digital control interface between the microcontroller, the ADC Analog and the Counter. The ADC Control is normaly 'idle', unless commanded by the CPU to perform a measurement.
 
-#### ADC Analog (Expansioncard N21)
+#### ADC Analog (Expansionboard N21)
 Here lies the analog heart of the converter. This board provides a reference voltage for the de-integration phase and contains all analog logic for the dual slope integration process.
 
 #### The Counter

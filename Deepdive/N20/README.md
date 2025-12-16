@@ -81,8 +81,36 @@ The CPU has enough info to calculate the voltage of the input-signal:
 - Reference-voltage = 2000mV
 >Vin = (Tdown / Tup) × Vref = (135.100 / 200.000) * 2000mV = 1351mV
 
-## Schematics and PCB
-I copied and redrew the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
+## Schematics
+I copied, redrew and rearranged the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
 ![N20 Schematics](assets/N20_Schematics.png "N20 Schematics")
+
+### Section: Invert counterpulses
+This section simple inverts the counterpulses signal.
+| Signal | Use | Target | Testpoint |
+| - | - | - | - |
+| **!xCP** | Counterpulses (inverted) | N20 | |
+
+### Section: Signals for counter (gated clockpulses, reset)
+This section generates two signals for the Counter.
+| Signal | Use | Target | Testpoint |
+| - | - | - | - |
+| **RC** | Reset Counter | Counter | TP2003 |
+| **CPC** | Clockpulses for Counter (gated, eg only during RampUp and RampDown) | Counter | TP2011 |
+| **xSCP** | ? | N20 | |
+| **xECP** | ? | N20 | |
+
+### Section: Gated Counter-overflow
+This section creates this signals:
+
+| Signal | Use | Target | Testpoint |
+| - | - | - | - |
+| **XC20** | Counter overflow (20.000 counts) @ RampDown | CPU | |
+| **xXC20** | Pulse (≈1.40us) for every Counter overflow | N20 | TP2005 |
+| **xEC20** | Pulse (≈1.40us) when ending RampUp | N20 | |
+| **xERD** | Gate-signal during Ramp down, delayed by ≈40us | N20 | |
+
+![N20 Gated Counter Overflow](assets/N20_GatedCounterOverflow.png "N20 Gated Counter Overflow")
+## PCB
 ![N20 PCB](assets/N20_PCB.png "N20 PCB")
 ![N21 PCB 3D](assets/N20_PCB-3D.png "N20 PCB 3D")

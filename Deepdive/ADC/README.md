@@ -91,3 +91,6 @@ The CPU now calculates the measured value, using
 When you offer a small voltage (but in the same measurement range), the Ramp-down phase will be shorter as the ADC won't be charged up as much in the Ramp-Up phase. See the image below for a measurement of 500mV.
 
 ![ADC Full MeasurementCycle](assets/ADC_FullMeasurementCycle_0500mV.png "A complete measurement-cycle")
+
+### High-speed mode
+In high-speed mode (can only be enabled via the GPIB-interface) the ramp-up phase is reduced from 200.000 counts to 20.000 counts, eg, 10 times faster.

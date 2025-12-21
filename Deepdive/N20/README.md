@@ -11,22 +11,26 @@ Its functions include:
 
 ### The signals
 The signals used/shown on this page (see also the image above):
-| Signal | Use | Source | Target |
-| - | - | - | - |
-| **SRUP** | Start Ramp-Up | CPU | ADC Control |
-| **SAZ** | Set Auto Zero | CPU | ADC Analog |
-| **CP** | Clock Pulses | CPU | ADC Analog |
-| **DN-** | RampDown phase, for -pol input signals | ADC Control | ADC Analog |
-| **DN+** | RampDown phase, for +pol input signals | ADC Control | ADC Analog |
-| **UP** | RampUp phase | ADC Control | ADC Analog|
-| **XC20** | Counter overflow (20.000 counts) @ RampDown | ADC Control | CPU |
-| **AZ** | AutoZero active? | ADC Control | ADC Analog, CPU |
-| **COMP** | COMPuting (integrator busy) | ADC Analog | ADC Control |
-| **C20000** | Counter overflow (20.000 counts) | Counter | ADC Control |
-| **CPC** | Clockpulses for Counter | ADC Control | Counter |
-| **RC** | Reset Counter | ADC Control | Counter |
-| **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Analog |
-| **purple trace** | ADC Integrator | ADC Analog | ADC Analog |
+| Name | Description | I/O | Target | I/O Pin | Testpoint |
+| - | - | :-: | - | -: | - |
+| **SRUP** | Start Ramp-Up | I | CPU | 8 |
+| **SAZ** | Set Auto Zero | I | CPU |9 |
+| **CP** | Clock Pulses | I | CPU | 16 | TP2001 |
+| **DN-** | RampDown phase, for -pol input signals | O | ADC Analog | 11 | TP2010 |
+| **DN+** | RampDown phase, for +pol input signals | O | ADC Analog | 13 | TP2008 |
+| **UP** | RampUp phase | O | ADC Analog| 14 | TP2007 | 
+| **XC20** | Counter overflow (20.000 counts) @ RampDown | O | CPU | 15 |
+| **AZ** | AutoZero active? | O | ADC Analog, CPU | 12 |
+| **COMP** | COMPuting (integrator busy) | I | ADC Analog | 19 | TP2006 |
+| **C20000** | Counter overflow (20.000 counts) | I | Counter | 5 |
+| **CPC** | ClockPulses for Counter | O | Counter | 4 | TP2011 |
+| **RC** | Reset Counter | O | Counter | 3 | TP2003 |
+
+In the scope-screendumps, you'll also see these signals:
+| Trace | Description | Measuring point |
+| - | - | - |
+| **yellow** | Input into ADC Integrator | N21.TP2105 |
+| **purple** | ADC Integrator voltage | N21.TP2106 |
 
 ## A Measurement Cycle from the ADC Control's perspective
 
@@ -82,35 +86,50 @@ The CPU has enough info to calculate the voltage of the input-signal:
 >Vin = (Tdown / Tup) × Vref = (135.100 / 200.000) * 2000mV = 1351mV
 
 ## Schematics
-I copied, redrew and rearranged the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
+I copied and rearranged the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
 ![N20 Schematics](assets/N20_Schematics.png "N20 Schematics")
 
-### Section: Invert counterpulses
-This section simple inverts the counterpulses signal.
-| Signal | Use | Target | Testpoint |
-| - | - | - | - |
-| **!xCP** | Counterpulses (inverted) | N20 | |
+The input- and output signals of this board are listed at the top of the page. The 'local' signals are listed in the next table.
 
-### Section: Signals for counter (gated clockpulses, reset)
-This section generates two signals for the Counter.
-| Signal | Use | Target | Testpoint |
-| - | - | - | - |
-| **RC** | Reset Counter | Counter | TP2003 |
-| **CPC** | Clockpulses for Counter (gated, eg only during RampUp and RampDown) | Counter | TP2011 |
-| **xSCP** | ? | N20 | |
-| **xECP** | ? | N20 | |
+| Name |  Description | Testpoint |
+| - | - | - |
+| **/xCP** | **C**lock**P**ulse (inverted)  | |
+| **xSTD** | **ST**art Ramp**D**own? | |
+| **xECP** | | |
+| **xRD** | | |
+| **xRDY** | **R**ea**DY**: RampUp and RampDown finished | TP2002 |
+| **xSCP** |  **S**top **C**ounter**P**ulses | |
+| **xEC20** | Pulse (≈1.40us) when ending RampUp | |
+| **xENC20** |  | |
+| **xXC20** | Pulse (≈1.40us) for every Counter overflow  | TP2005 |
+| **xERD** | Gate-signal during Ramp down, delayed by ≈40us | |
+| **xSTD** | | |
+| **xAZ** | AutoZero active (same as **AZ**) | TP2009 |
+| **/xUP** | RampUp-phase active
+
+### Section: Counter-control
+This section generates the **CPC** (ClockPulses for Counter) and **RC** (Reset Counter) signals.
+
+![N20 CounterControl](assets/N20_Schematics_CounterControl.png "N20 CounterControl")
+### Section: Signals for ADC: RampUp, AutoZero
+This section generates the **UP** (Start RampUp) and **AZ** (AutoZero) signals.
+
+### Section: Signals for ADC: Polarity and RampDown
+This section generates the **POL** (Polarity), **DN+** and **DN-** (DownRamp) signals.
 
 ### Section: Gated Counter-overflow
-This section creates this signals:
+This section creates the **XC20** signal for the CPU. This is in fact a gated Counter-Overflow signal. The gate is closed in the RampUp phase, and opened in the RampDown phase.
 
-| Signal | Use | Target | Testpoint |
-| - | - | - | - |
-| **XC20** | Counter overflow (20.000 counts) @ RampDown | CPU | |
-| **xXC20** | Pulse (≈1.40us) for every Counter overflow | N20 | TP2005 |
-| **xEC20** | Pulse (≈1.40us) when ending RampUp | N20 | |
-| **xERD** | Gate-signal during Ramp down, delayed by ≈40us | N20 | |
+![N20 Gated Counter Overflow](assets/N20_Schematics_GatedCounterOverflow.png "N20 Gated Counter Overflow")
 
-![N20 Gated Counter Overflow](assets/N20_GatedCounterOverflow.png "N20 Gated Counter Overflow")
+### Section: Invert counterpulses
+Just a simple inverter.
+
+### Section: ?
+This section generates the internal **xENC20** signal.
+
+
+
 ## PCB
 ![N20 PCB](assets/N20_PCB.png "N20 PCB")
 ![N21 PCB 3D](assets/N20_PCB-3D.png "N20 PCB 3D")

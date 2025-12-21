@@ -5442,6 +5442,17 @@
 		)
 		(uuid "b4a9fb89-ccff-4171-b037-c170e569b039")
 	)
+	(text "xECP   = Enable Counter Pulses (to Counter)\nxSCP   = Stop Counter Pulses\nxRDY   = Measurement Ready\nxEC20  = ?\nxXC20  = Counter Overflow (pulse, 1.40us)\nxENC20 = ?\nxEC20  = Enable CounterOverflow gate\nxERD   = Gate for XC20->uP\nxSTD   = ?\n\nxRD!   = ?"
+		(exclude_from_sim no)
+		(at 254.254 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b6030d08-314a-4e7e-892a-e642f3603855")
+	)
 	(text "Invert counterpulses"
 		(exclude_from_sim no)
 		(at 255.27 18.796 0)
@@ -5453,7 +5464,7 @@
 		)
 		(uuid "cb158c06-fc86-4941-a7f0-c038fe43ed69")
 	)
-	(text "Signals for counter (gated clockpulses, reset)"
+	(text "Counter-control"
 		(exclude_from_sim no)
 		(at 63.246 18.542 0)
 		(effects

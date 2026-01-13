@@ -93,26 +93,33 @@ The input- and output signals of this board are listed at the top of the page. T
 
 | Name |  Description | Testpoint |
 | - | - | - |
-| **/xCP** | **C**lock**P**ulse (inverted)  | |
+| **x/CP** | **C**lock**P**ulse (inverted)  | |
 | **xSTD** | **ST**art Ramp**D**own? | |
-| **xECP** | | |
-| **xRD** | | |
+| **xECP** | **E**nable **C**ounter**P**ulses (to counter)| |
+| **x/RD** | ? | |
 | **xRDY** | **R**ea**DY**: RampUp and RampDown finished | TP2002 |
 | **xSCP** |  **S**top **C**ounter**P**ulses | |
 | **xEC20** | Pulse (≈1.40us) when ending RampUp | |
-| **xENC20** |  | |
+| **xENC20** |  ? | |
+| **xEC20** | **E**nable **C20000** gate | |
 | **xXC20** | Pulse (≈1.40us) for every Counter overflow  | TP2005 |
-| **xERD** | Gate-signal during Ramp down, delayed by ≈40us | |
-| **xSTD** | | |
+| **xERD** | **E**nable **R**amp**D**own gate (XC20->uP), delayed by ≈40us | |
+| **xSTD** | ? | |
 | **xAZ** | AutoZero active (same as **AZ**) | TP2009 |
-| **/xUP** | RampUp-phase active
+| **x/UP** | Ramp**UP** active (inverted)
 
 ### Section: Counter-control
 This section generates the **CPC** (ClockPulses for Counter) and **RC** (Reset Counter) signals.
 
 ![N20 CounterControl](assets/N20_Schematics_CounterControl.png "N20 CounterControl")
+
 ### Section: Signals for ADC: RampUp, AutoZero
-This section generates the **UP** (Start RampUp) and **AZ** (AutoZero) signals.
+This section generates the **UP** (RampUp active) and **AZ** (AutoZero) signals.
+
+The **UP** (RampUp) signal is active during the RampUp phase.
+The **AZ** (AutoZero) signal is active when the measurement is not active, eg, when not in the RampUp or RampDown phase.
+
+![N20 UpAutozero](assets/N20_Schematics_UpAutozero.png "N20 UpAutozero")
 
 ### Section: Signals for ADC: Polarity and RampDown
 This section generates the **POL** (Polarity), **DN+** and **DN-** (DownRamp) signals.

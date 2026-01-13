@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N20 (ADC Control)")
-		(date "2025-12-16")
+		(date "2026-01-13")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -5442,17 +5442,6 @@
 		)
 		(uuid "b4a9fb89-ccff-4171-b037-c170e569b039")
 	)
-	(text "xECP   = Enable Counter Pulses (to Counter)\nxSCP   = Stop Counter Pulses\nxRDY   = Measurement Ready\nxEC20  = ?\nxXC20  = Counter Overflow (pulse, 1.40us)\nxENC20 = ?\nxEC20  = Enable CounterOverflow gate\nxERD   = Gate for XC20->uP\nxSTD   = ?\n\nxRD!   = ?"
-		(exclude_from_sim no)
-		(at 254.254 114.808 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b6030d08-314a-4e7e-892a-e642f3603855")
-	)
 	(text "Invert counterpulses"
 		(exclude_from_sim no)
 		(at 255.27 18.796 0)
@@ -6196,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 119.38) (xy 76.2 119.38)
+			(xy 46.99 119.38) (xy 76.2 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8925,7 +8914,7 @@
 		(uuid "efb6c6cf-a68c-4058-9ba0-2286339fe454")
 	)
 	(label "RC"
-		(at 71.12 119.38 0)
+		(at 46.99 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -132,7 +132,7 @@ This section creates the **XC20** signal for the CPU. This is in fact a gated Co
 ### Section: Invert counterpulses
 Just a simple inverter.
 
-### Section: ?
+### Section: noname
 This section generates the internal **xENC20** signal.
 
 

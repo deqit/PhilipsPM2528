@@ -93,27 +93,25 @@ The input- and output signals of this board are listed at the top of the page. T
 
 | Name |  Description | Testpoint |
 | - | - | - |
-| **x/CP** | **C**lock**P**ulse (inverted)  | |
-| **xSTD** | **ST**art Ramp**D**own? | |
-| **xECP** | **E**nable **C**ounter**P**ulses (to counter)| |
-| **x/RD** | ? | |
-| **xRDY** | **R**ea**DY**: RampUp and RampDown finished | TP2002 |
-| **xSCP** |  **S**top **C**ounter**P**ulses | |
-| **xEC20** | Pulse (≈1.40us) when ending RampUp | |
-| **xENC20** |  ? | |
-| **xEC20** | **E**nable **C20000** gate | |
-| **xXC20** | Pulse (≈1.40us) for every Counter overflow  | TP2005 |
+| **xSTD** | **ST**art Ramp**D**own | |
 | **xERD** | **E**nable **R**amp**D**own gate (XC20->uP), delayed by ≈40us | |
-| **xSTD** | ? | |
+| **x/UP** | Ramp**UP** active (active low)
+| **x/RD** | **R**amp**D**own active (active-low) | |
+| **xECP** | **E**nable **C**ounter**P**ulses (to counter)| |
+| **xRDY** | **R**ea**DY**: RampUp and RampDown finished | TP2002 |
+| **x/CP** | **C**lock**P**ulses (inverted)  | |
+| **xSCP** |  **S**top **C**ounter**P**ulses | |
+| **xEC20** | **E**nable **C20000** gate, Pulse (≈1.40us) when ending RampUp | |
+| **xENC20** | **EN**d **C20000**?  | |
+| **xXC20** | Pulse (≈1.40us) for every Counter overflow  | TP2005 |
 | **xAZ** | AutoZero active (same as **AZ**) | TP2009 |
-| **x/UP** | Ramp**UP** active (inverted)
 
-### Section: Counter-control
+### Section: Counter-control (to Counter)
 This section generates the **CPC** (ClockPulses for Counter) and **RC** (Reset Counter) signals.
 
 ![N20 CounterControl](assets/N20_Schematics_CounterControl.png "N20 CounterControl")
 
-### Section: Signals for ADC: RampUp, AutoZero
+### Section: RampUp, AutoZero (to ADC)
 This section generates the **UP** (RampUp active) and **AZ** (AutoZero) signals.
 
 The **UP** (RampUp) signal is active during the RampUp phase.
@@ -121,10 +119,19 @@ The **AZ** (AutoZero) signal is active when the measurement is not active, eg, w
 
 ![N20 UpAutozero](assets/N20_Schematics_UpAutozero.png "N20 UpAutozero")
 
-### Section: Signals for ADC: Polarity and RampDown
+### Section: Polarity and RampDown (to ADC)
 This section generates the **POL** (Polarity), **DN+** and **DN-** (DownRamp) signals.
+D2002A is responsible for counting the number to counter-overflows. When it reaches 10, RampUp is done and RampDown can start. This sets **xSTD** to high.
 
-### Section: Gated Counter-overflow
+**POL** (Polarity) is high for +ve input signals, low for -ve input signals.
+
+**DN+** indicates the RampDown for +ve inputsignals
+
+**DN-** indicates the RampDown for -ve inputsignals (not pictured)
+
+![N20 Polarity, Rampdown](assets/N20_Schematic_PolRampdown.png "N20 Polarity, Rampdown")
+
+### Section: Gated Counter-overflow (to uP)
 This section creates the **XC20** signal for the CPU. This is in fact a gated Counter-Overflow signal. The gate is closed in the RampUp phase, and opened in the RampDown phase.
 
 ![N20 Gated Counter Overflow](assets/N20_Schematics_GatedCounterOverflow.png "N20 Gated Counter Overflow")

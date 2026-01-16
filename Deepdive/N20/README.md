@@ -91,21 +91,27 @@ I copied and rearranged the schematics and PCB in KiCad, using the low‑res Phi
 
 The input- and output signals of this board are listed at the top of the page. The 'local' signals are listed in the next table.
 
+#### Main signals
 | Name |  Description | Testpoint |
 | - | - | - |
-| **xSTD** | **ST**art Ramp**D**own | |
-| **xERD** | **E**nable **R**amp**D**own gate (XC20->uP), delayed by ≈40us | |
 | **x/UP** | Ramp**UP** active (active low)
+| **xSTD** | **ST**art Ramp**D**own (level)| |
+| **xERD** | **E**nable **R**amp**D**own | |
+| **xRD** | **R**amp**D**own active | |
 | **x/RD** | **R**amp**D**own active (active-low) | |
-| **xECP** | **E**nable **C**ounter**P**ulses (to counter)| |
-| **xRDY** | **R**ea**DY**: RampUp and RampDown finished | TP2002 |
-| **x/CP** | **C**lock**P**ulses (inverted)  | |
-| **xSCP** |  **S**top **C**ounter**P**ulses | |
-| **xEC20** | **E**nable **C20000** gate, Pulse (≈1.40us) when ending RampUp | |
-| **xENC20** | **EN**d **C20000**?  | |
-| **xXC20** | Pulse (≈1.40us) for every Counter overflow  | TP2005 |
 | **xAZ** | AutoZero active (same as **AZ**) | TP2009 |
+| **xRDY** | **R**ea**DY**: RampUp and RampDown finished (pulse ≈60us)| TP2002 |
 
+#### Clock and Counter pulses
+| Name |  Description | Testpoint |
+| - | - | - |
+| **x/CP** | **C**lock**P**ulses (inverted)  | |
+| **xECP** | **E**nable **C**lock**P**ulses (gate for pulses to counter)| |
+| **xSCP** |  **S**top **C**ounter**P**ulses | |
+| **xXC20** | Pulse (≈1.4us) for every Counter overflow  | TP2005 |
+| **xENC20** | **EN**d **C20000**?  | |
+| **xEC20** | **E**nable **C20000** gate, Pulse (≈1.4us) when ending RampUp | |
+|
 ### Section: Counter-control (to Counter)
 This section generates the **CPC** (ClockPulses for Counter) and **RC** (Reset Counter) signals.
 
@@ -121,13 +127,6 @@ The **AZ** (AutoZero) signal is active when the measurement is not active, eg, w
 
 ### Section: Polarity and RampDown (to ADC)
 This section generates the **POL** (Polarity), **DN+** and **DN-** (DownRamp) signals.
-D2002A is responsible for counting the number to counter-overflows. When it reaches 10, RampUp is done and RampDown can start. This sets **xSTD** to high.
-
-**POL** (Polarity) is high for +ve input signals, low for -ve input signals.
-
-**DN+** indicates the RampDown for +ve inputsignals
-
-**DN-** indicates the RampDown for -ve inputsignals (not pictured)
 
 ![N20 Polarity, Rampdown](assets/N20_Schematic_PolRampdown.png "N20 Polarity, Rampdown")
 
@@ -137,10 +136,12 @@ This section creates the **XC20** signal for the CPU. This is in fact a gated Co
 ![N20 Gated Counter Overflow](assets/N20_Schematics_GatedCounterOverflow.png "N20 Gated Counter Overflow")
 
 ### Section: Invert counterpulses
-Just a simple inverter.
 
-### Section: noname
-This section generates the internal **xENC20** signal.
+
+### Section: Determine length of RampUp phase
+This section generates the internal **xENC20** signal. In HSM-mode it sets **xENC20** after one Counter-overflow (10ms), otherwise it sets **xENC20** after 9 Counter-overflows (eg, 100ms). The RampUp-phase ends on the falling edge of **xENC20**, see the 'Generate internal signals' section.
+
+### Section: Determine start and end of RampDown
 
 
 

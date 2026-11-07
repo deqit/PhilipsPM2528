@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Philips PM2528 - N22 (DC Amplifier)")
-		(date "2025-08-06")
+		(date "2026-11-07")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -42,7 +42,20 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -51,15 +64,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -83,74 +93,6 @@
 			(outputdirectory "")
 		)
 	)
-	(net 0 "")
-	(net 1 "unconnected-(X2201--5V-Pad2)")
-	(net 2 "/HI")
-	(net 3 "GND5")
-	(net 4 "unconnected-(X2201-Pad5)")
-	(net 5 "-15V")
-	(net 6 "/RELHI")
-	(net 7 "GND3")
-	(net 8 "unconnected-(X2201-Pad6)")
-	(net 9 "GND7")
-	(net 10 "unconnected-(X2201-Pad12)")
-	(net 11 "/HIOUT2")
-	(net 12 "unconnected-(X2201-Pad17)")
-	(net 13 "/HIOUT1")
-	(net 14 "unconnected-(X2201-Pad16)")
-	(net 15 "/LO")
-	(net 16 "GND4")
-	(net 17 "+15V")
-	(net 18 "GND6")
-	(net 19 "unconnected-(X2201-Pad13)")
-	(net 20 "Net-(V2203-K)")
-	(net 21 "Net-(V2206-B)")
-	(net 22 "Net-(V2206-E)")
-	(net 23 "Net-(V2206-C)")
-	(net 24 "Net-(V2207-K)")
-	(net 25 "Net-(V2208-A)")
-	(net 26 "Net-(V2212-D)")
-	(net 27 "unconnected-(A2201-NULL-Pad5)")
-	(net 28 "unconnected-(A2201-NC-Pad8)")
-	(net 29 "Net-(A2201-+)")
-	(net 30 "unconnected-(A2201-NULL-Pad1)")
-	(net 31 "Net-(A2201--)")
-	(net 32 "Net-(A2202--)")
-	(net 33 "unconnected-(A2202-NC-Pad8)")
-	(net 34 "unconnected-(A2202-NULL-Pad5)")
-	(net 35 "Net-(A2202-+)")
-	(net 36 "unconnected-(A2202-NULL-Pad1)")
-	(net 37 "Net-(A2202-Pad6)")
-	(net 38 "Net-(R2232-Pad1)")
-	(net 39 "Net-(C2203-Pad1)")
-	(net 40 "Net-(R2208-Pad1)")
-	(net 41 "Net-(R2209-Pad1)")
-	(net 42 "Net-(R2214-Pad1)")
-	(net 43 "Net-(R2207-Pad2)")
-	(net 44 "Net-(R2216-Pad3)")
-	(net 45 "Net-(R2217-Pad2)")
-	(net 46 "Net-(V2201-1G)")
-	(net 47 "Net-(C2202-Pad2)")
-	(net 48 "Net-(V2202-K)")
-	(net 49 "Net-(V2205-D)")
-	(net 50 "Net-(V2201-1S)")
-	(net 51 "Net-(JP2201-A)")
-	(net 52 "Net-(V2201-2D)")
-	(net 53 "Net-(C2205-Pad2)")
-	(net 54 "Net-(V2201-2S)")
-	(net 55 "Net-(C2207-Pad2)")
-	(net 56 "Net-(C2211-Pad2)")
-	(net 57 "Net-(V2201-2G)")
-	(net 58 "Net-(V2213-A)")
-	(net 59 "Net-(D2201-RC_COMMON)")
-	(net 60 "Net-(D2201-C)")
-	(net 61 "Net-(D2201-+TRIGGER)")
-	(net 62 "Net-(D2201-Q)")
-	(net 63 "Net-(D2201-R)")
-	(net 64 "Net-(D2201-~{Q})")
-	(net 65 "unconnected-(D2201-OSC_OUT-Pad13)")
-	(net 66 "Net-(V2205-Bulk)")
-	(net 67 "Net-(JP2201-B)")
 	(footprint "Package_TO_SOT_THT:TO-72-4"
 		(layer "F.Cu")
 		(uuid "016f7428-3ef4-4604-a1c2-671a4a7876f3")
@@ -207,7 +149,14 @@
 		(path "/fce56135-9edc-44a7-8dec-17400bf4583b")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.214448 -2.494499)
 			(end -1.302281 -1.582331)
@@ -358,8 +307,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "Net-(V2212-D)")
-			(pinfunction "D")
+			(net "Net-(V2212-D)")
+			(pinfunction "D_1")
 			(pintype "passive")
 			(uuid "363a6520-d2c7-47f1-8082-16c162e6be03")
 		)
@@ -369,8 +318,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-Q)")
-			(pinfunction "G")
+			(net "Net-(D2201-Q)")
+			(pinfunction "G_2")
 			(pintype "input")
 			(uuid "beaa3d9b-ceb7-4098-af88-93cdaf177d49")
 		)
@@ -380,8 +329,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "GND4")
-			(pinfunction "S")
+			(net "GND4")
+			(pinfunction "S_3")
 			(pintype "passive")
 			(uuid "5a8e5649-3e35-4f9b-9b41-a6d3cb11b267")
 		)
@@ -462,7 +411,14 @@
 		(path "/826586d5-de91-408f-bbf4-de911af9699c")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.23 -1.07)
 			(end 4.77 -1.07)
@@ -600,7 +556,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "dbff575e-a5c8-4023-b011-8122798656d2")
 		)
@@ -610,12 +566,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "Net-(A2202-+)")
+			(net "Net-(A2202-+)")
 			(pintype "passive")
 			(uuid "0683f8b3-db7e-4d4a-b400-3756e65c87aa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.3mm_W1.9mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.3mm_W1.9mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -683,7 +639,14 @@
 		(path "/1f60513f-c9b5-42cd-8bb6-50bf80f4d760")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.52 -1.42)
 			(end 5.48 -1.42)
@@ -861,7 +824,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 59 "Net-(D2201-RC_COMMON)")
+			(net "Net-(D2201-RC_COMMON)")
 			(pintype "passive")
 			(uuid "1d94db2c-6e45-4d9f-b3ae-012ff722c4c6")
 		)
@@ -871,12 +834,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 60 "Net-(D2201-C)")
+			(net "Net-(D2201-C)")
 			(pintype "passive")
 			(uuid "c6b5747a-15ba-4c1c-afc6-c271eb46fe19")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L3.8mm_D2.6mm_P15.00mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L3.8mm_D2.6mm_P15.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -946,7 +909,14 @@
 		(path "/a350439b-620a-4f85-b272-8ab187abd11a")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.96 1.12)
 			(end 7.2 1.12)
@@ -1206,8 +1176,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
-			(pinfunction "K")
+			(net "GND5")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "06c44de2-e382-486c-af49-119809c55054")
 		)
@@ -1217,13 +1187,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 61 "Net-(D2201-+TRIGGER)")
-			(pinfunction "A")
+			(net "Net-(D2201-+TRIGGER)")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "1e9e7587-cf7a-4076-9a46-7e39a880a93d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1293,7 +1263,14 @@
 		(path "/7b0aa8af-3675-43af-a277-3142cf958de9")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -1441,13 +1418,13 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "Net-(A2202-Pad6)")
-			(pinfunction "1")
+			(net "Net-(A2202-Pad6)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "c2ce2a6c-97fc-495e-b518-345bc918fc07")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1515,7 +1492,14 @@
 		(path "/bc3f7bc1-64f0-4580-aef8-9b46c102588a")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 12.49 -2.12)
 			(end 2.75 -2.12)
@@ -1693,8 +1677,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "Net-(C2207-Pad2)")
-			(pinfunction "1")
+			(net "Net-(C2207-Pad2)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "47d92e45-7989-4b8d-99e8-7841831cba77")
 		)
@@ -1704,13 +1688,13 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "Net-(A2202-+)")
-			(pinfunction "2")
+			(net "Net-(A2202-+)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "31a915fe-615f-442c-bffc-90b22e725f79")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1780,7 +1764,14 @@
 		(path "/3da9ec80-12e9-453a-aff4-c3b4611c50f8")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -1958,7 +1949,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "Net-(A2202--)")
+			(net "Net-(A2202--)")
 			(pintype "passive")
 			(uuid "9d845b03-c937-4215-9af3-f3ff76ea341c")
 		)
@@ -1968,12 +1959,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-Q)")
+			(net "Net-(C2210-Pad1)")
 			(pintype "passive")
 			(uuid "8c7a7fff-ec6a-4b79-9cd1-166e16282529")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2041,7 +2032,14 @@
 		(path "/85c22ed9-a293-42bd-a2fa-fc986c222ebf")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.037288 -1.335)
 			(end 0.412712 -1.335)
@@ -2143,7 +2141,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-Q)")
+			(net "Net-(C2210-Pad1)")
 			(pintype "passive")
 			(uuid "49fadcc6-eb96-450a-91c5-fd58fb3f4901")
 		)
@@ -2153,12 +2151,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "f597881d-5b0c-4c31-890d-3047aaace92a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2170,13 +2168,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "12794dfd-671f-4c2e-8cc1-1e0fe43c7de5")
 		(at 190.5 73 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2209"
-			(at -2.25 4.75 0)
+			(at -2.134 3.048 180)
 			(layer "F.SilkS")
 			(uuid "877d521f-c491-4373-a1cd-bc6a7882b364")
 			(effects
@@ -2187,7 +2185,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "631640c7-bdae-40b7-a8ca-5e74488972ba")
 			(effects
@@ -2197,8 +2195,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "494e1812-7c7e-43b1-b7ec-f40c81979080")
@@ -2209,8 +2207,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8d8f665-33e0-4cd4-9822-921a6a81d5c9")
@@ -2225,7 +2223,14 @@
 		(path "/a03231e0-1c13-41ca-8a66-0c1fbb162853")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -2388,7 +2393,7 @@
 			(uuid "f0ff5cd5-0ab6-4bc2-b4c4-247c3fc209ba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "fa06a52f-eb8b-4d95-abfd-e74acae80eb1")
 			(effects
@@ -2404,8 +2409,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 41 "Net-(R2209-Pad1)")
-			(pinfunction "1")
+			(net "Net-(R2209-Pad1)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "bd5dfd2e-48da-4644-873e-e579dbca65fa")
 		)
@@ -2415,8 +2420,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "Net-(C2203-Pad1)")
-			(pinfunction "2")
+			(net "Net-(C2203-Pad1)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "9173bc89-68a9-4c09-8e1e-4a4ec4432d5a")
 		)
@@ -2426,8 +2431,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "Net-(R2208-Pad1)")
-			(pinfunction "3")
+			(net "Net-(R2208-Pad1)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "b41e8313-6e92-4c4a-87e5-ab8cf40adfcf")
 		)
@@ -2502,7 +2507,14 @@
 		(path "/e65a7222-c9fe-48be-bea2-6d9f4dd00c3e")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -2680,7 +2692,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(JP2201-A)")
+			(net "Net-(JP2201-A)")
 			(pintype "passive")
 			(uuid "31abfbdc-6ddf-46d5-a499-ada7cf0facea")
 		)
@@ -2690,12 +2702,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "9297536c-3230-4cda-b7f2-a3c4d0294779")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2765,7 +2777,14 @@
 		(path "/d4481470-e2e6-42ba-acad-6d4539439087")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -2943,7 +2962,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(V2201-1G)")
+			(net "Net-(V2201-1G)")
 			(pintype "passive")
 			(uuid "d78452f0-804e-4ec8-a524-3a3ba47758e4")
 		)
@@ -2953,12 +2972,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "d9335277-17ed-4e3d-99b5-0e02ad9f6ce3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3028,7 +3047,14 @@
 		(path "/2d199b7d-7528-4c8c-bc92-cee886aec9f5")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -3206,7 +3232,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 54 "Net-(V2201-2S)")
+			(net "Net-(V2201-2S)")
 			(pintype "passive")
 			(uuid "7fed6d8d-e783-4840-83de-39642ca6c644")
 		)
@@ -3216,12 +3242,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 42 "Net-(R2214-Pad1)")
+			(net "Net-(R2214-Pad1)")
 			(pintype "passive")
 			(uuid "431caae0-d90c-44df-aca1-0dc68352bfd0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3291,7 +3317,14 @@
 		(path "/7fe1468a-d003-4009-a31b-ba9ed0238477")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -3469,7 +3502,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(C2205-Pad2)")
+			(net "Net-(C2205-Pad2)")
 			(pintype "passive")
 			(uuid "b1a0f91d-e99e-4eb3-99bb-42487fc37cc0")
 		)
@@ -3479,12 +3512,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Net-(V2201-2D)")
+			(net "Net-(V2201-2D)")
 			(pintype "passive")
 			(uuid "4e9b1b3a-28d8-418f-8d2a-4042c14f0c4f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3554,7 +3587,14 @@
 		(path "/3ee18598-65cd-4e03-96de-cde15f65738e")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -3732,7 +3772,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(C2202-Pad2)")
+			(net "Net-(C2202-Pad2)")
 			(pintype "passive")
 			(uuid "30756ef6-5ac8-4b62-8fce-b27dbd6aa95f")
 		)
@@ -3742,12 +3782,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(V2205-D)")
+			(net "Net-(V2205-D)")
 			(pintype "passive")
 			(uuid "ffd641fa-1426-463c-a512-0aafa09dca18")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3841,7 +3881,14 @@
 		(path "/77e2ef98-a6d6-40bc-aa87-20d892a29083")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.53 -1.12)
 			(end 2.53 1.12)
@@ -3986,17 +4033,6 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 4.11 0 90)
-			(layer "F.Fab")
-			(uuid "226f902b-c502-488f-8a41-81380c15df6e")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(fp_text user "K"
 			(at 0 -1.8 90)
 			(layer "F.Fab")
@@ -4008,6 +4044,17 @@
 				)
 			)
 		)
+		(fp_text user "${REFERENCE}"
+			(at 4.11 0 90)
+			(layer "F.Fab")
+			(uuid "226f902b-c502-488f-8a41-81380c15df6e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -4015,8 +4062,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 20 "Net-(V2203-K)")
-			(pinfunction "K")
+			(net "Net-(V2203-K)")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "2cbe9b50-c86e-45a4-8d13-1475a414dde7")
 		)
@@ -4026,8 +4073,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "/HI")
-			(pinfunction "A")
+			(net "/HI")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "a1a309a6-249c-451a-9ed4-7d48534b3bf4")
 		)
@@ -4044,13 +4091,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "2ca708ad-7233-400c-9c80-4b3f8d7deed6")
 		(at 131.5 70.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2232"
-			(at -2 2.75 0)
+			(at -2.174 2.468 180)
 			(layer "F.SilkS")
 			(uuid "176e846f-e0a6-48c9-a2a5-9351a9f8864f")
 			(effects
@@ -4061,7 +4108,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "8db62fb7-4fd7-4702-8bee-f3e4b4e0a554")
 			(effects
@@ -4071,8 +4118,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed5ca465-f02d-44e9-9636-436f4ed84c47")
@@ -4083,8 +4130,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef9d33b2-74d3-489d-acb8-c8a57d613072")
@@ -4099,7 +4146,14 @@
 		(path "/bcc93cb4-df8d-4749-b405-b647313a7436")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -4262,7 +4316,7 @@
 			(uuid "7d00458c-18a0-4e2f-9ba3-9bc96fe3809c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "d0c06cf1-b880-43c0-9ec2-fa71f9b6924e")
 			(effects
@@ -4278,8 +4332,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "Net-(R2232-Pad1)")
-			(pinfunction "1")
+			(net "Net-(R2232-Pad1)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "dc3db1f1-a85d-414f-aa7c-4f53f6497ffb")
 		)
@@ -4289,8 +4343,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "Net-(R2232-Pad1)")
-			(pinfunction "2")
+			(net "Net-(R2232-Pad1)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "52340247-0bf0-44f9-b6e2-0d35b4ac3cde")
 		)
@@ -4300,8 +4354,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/LO")
-			(pinfunction "3")
+			(net "/LO")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "83f85ad3-a2cd-41b3-9067-a0d293885355")
 		)
@@ -4318,13 +4372,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "2edcc306-8f61-44de-b2c8-ff767911dc54")
 		(at 198 78.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2216"
-			(at -2 0.75 0)
+			(at -1.792 2.42 180)
 			(layer "F.SilkS")
 			(uuid "485ad903-0b6e-4548-8767-1edba5d2c7ff")
 			(effects
@@ -4335,7 +4389,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "570f3911-cccc-41df-82e9-fea53a32d115")
 			(effects
@@ -4345,8 +4399,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31dc6f75-0e7c-4b08-b114-77fb6139b4d3")
@@ -4357,8 +4411,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1baf93ad-6aa4-4712-88ab-f218527b5e00")
@@ -4373,7 +4427,14 @@
 		(path "/dd780512-11b0-4d9e-b8a0-6cb5658f130e")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -4536,7 +4597,7 @@
 			(uuid "2a70b239-7d18-4ed0-99ac-0b597b1a2125")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "e3450bd7-85ed-4437-9539-44bef56050c8")
 			(effects
@@ -4552,8 +4613,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 59 "Net-(D2201-RC_COMMON)")
-			(pinfunction "1")
+			(net "Net-(D2201-RC_COMMON)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "c4c0a705-492e-46ef-a234-6f4bdad923ee")
 		)
@@ -4563,8 +4624,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 59 "Net-(D2201-RC_COMMON)")
-			(pinfunction "2")
+			(net "Net-(D2201-RC_COMMON)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "88d47a59-d672-4964-ae5b-5f3e8364b093")
 		)
@@ -4574,8 +4635,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 44 "Net-(R2216-Pad3)")
-			(pinfunction "3")
+			(net "Net-(R2216-Pad3)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "2759c27f-04f9-4564-bd56-1325f5552cfa")
 		)
@@ -4609,7 +4670,7 @@
 				)
 			)
 		)
-		(property "Value" "BZX79-C5V1"
+		(property "Value" "BZX87-C5V1"
 			(at 6.35 2.12 270)
 			(layer "F.Fab")
 			(uuid "c66b5277-f800-4700-a1c4-4c8aa468f4e9")
@@ -4650,7 +4711,14 @@
 		(path "/a469d569-1156-4af5-a375-fa23a4bb859d")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.23 1.12)
 			(end 8.47 1.12)
@@ -4910,8 +4978,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
-			(pinfunction "K")
+			(net "/HIOUT1")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "50dbaea1-b557-4f8a-bc56-3f1286c259e5")
 		)
@@ -4921,13 +4989,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "Net-(V2213-A)")
-			(pinfunction "A")
+			(net "Net-(V2213-A)")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "0358af9d-87d5-48f7-a4a5-a85b9873fbe1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4997,7 +5065,14 @@
 		(path "/3237bb84-4093-4163-9947-02117b40d969")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -5145,13 +5220,13 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
-			(pinfunction "1")
+			(net "/HIOUT1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "6dc3c5ec-3d69-49af-bb59-08077f19c1b3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5221,7 +5296,14 @@
 		(path "/e1d41975-2bf6-4adb-b31c-1c907041b834")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.96 1.12)
 			(end 7.2 1.12)
@@ -5453,17 +5535,6 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -1.8 90)
-			(layer "F.Fab")
-			(uuid "fccafa52-b910-4575-9458-32c967f648bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 5.38 0 90)
 			(layer "F.Fab")
@@ -5475,14 +5546,25 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at 0 -1.8 90)
+			(layer "F.Fab")
+			(uuid "fccafa52-b910-4575-9458-32c967f648bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
-			(pinfunction "K")
+			(net "/HIOUT1")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "867c20ea-b0d7-4279-8b6a-fa662808be73")
 		)
@@ -5492,13 +5574,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "Net-(V2208-A)")
-			(pinfunction "A")
+			(net "Net-(V2208-A)")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "57de1c3e-94f8-48d6-90af-811ace51f49d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5592,7 +5674,14 @@
 		(path "/ca7ac8dc-4a5c-44e5-8f69-4c329046250a")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.53 -1.12)
 			(end 2.53 1.12)
@@ -5737,17 +5826,6 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 4.11 0 90)
-			(layer "F.Fab")
-			(uuid "ac114da3-18f6-439c-8880-95efd313e913")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(fp_text user "K"
 			(at 0 -1.8 90)
 			(layer "F.Fab")
@@ -5759,6 +5837,17 @@
 				)
 			)
 		)
+		(fp_text user "${REFERENCE}"
+			(at 4.11 0 90)
+			(layer "F.Fab")
+			(uuid "ac114da3-18f6-439c-8880-95efd313e913")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
 			(size 1.6 1.6)
@@ -5766,8 +5855,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 2 "/HI")
-			(pinfunction "K")
+			(net "/HI")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "d26b3f73-f255-4b27-8460-910c8b822ccc")
 		)
@@ -5777,8 +5866,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "Net-(V2203-K)")
-			(pinfunction "A")
+			(net "Net-(V2203-K)")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "adfa6c47-7bc0-4f72-991a-06d0e73eedda")
 		)
@@ -5889,7 +5978,14 @@
 		(path "/75be14dc-2763-4d67-90f9-e68f856d3654")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3" "4")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.130108 -2.424301)
 			(end -1.289618 -1.583811)
@@ -6041,8 +6137,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(V2205-D)")
-			(pinfunction "D")
+			(net "Net-(V2205-D)")
+			(pinfunction "D_1")
 			(pintype "passive")
 			(uuid "60bfbd44-795e-4df2-9e9b-a86054e0dded")
 		)
@@ -6052,8 +6148,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 64 "Net-(D2201-~{Q})")
-			(pinfunction "G")
+			(net "Net-(D2201-~{Q})")
+			(pinfunction "G_2")
 			(pintype "input")
 			(uuid "dc7791c9-d53e-49dd-a942-856c963307e6")
 		)
@@ -6063,8 +6159,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 66 "Net-(V2205-Bulk)")
-			(pinfunction "S")
+			(net "Net-(V2205-Bulk)")
+			(pinfunction "S_3")
 			(pintype "passive")
 			(uuid "b0617449-2e03-4410-9b23-a46a193576a8")
 		)
@@ -6074,8 +6170,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 66 "Net-(V2205-Bulk)")
-			(pinfunction "Bulk")
+			(net "Net-(V2205-Bulk)")
+			(pinfunction "Bulk_4")
 			(pintype "input")
 			(uuid "86a69adb-d96c-4f56-abba-b2faf028c301")
 		)
@@ -6150,7 +6246,14 @@
 		(path "/855c69fe-171d-4a3e-a768-65e4e3121095")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -6328,7 +6431,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Net-(V2201-2D)")
+			(net "Net-(V2201-2D)")
 			(pintype "passive")
 			(uuid "93917f9a-6025-42ce-a14b-a672554b6486")
 		)
@@ -6338,12 +6441,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(A2201--)")
+			(net "Net-(A2201--)")
 			(pintype "passive")
 			(uuid "656b2706-5e66-4246-91d9-0e80bdf85a9a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6411,7 +6514,14 @@
 		(path "/e5b63d2c-8c52-4247-b737-ae352808db33")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.037288 -1.335)
 			(end 0.412712 -1.335)
@@ -6513,7 +6623,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "Net-(V2206-B)")
+			(net "Net-(V2206-B)")
 			(pintype "passive")
 			(uuid "da6becff-f2fb-4b4d-a543-f1f30a0aad9f")
 		)
@@ -6523,12 +6633,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
+			(net "-15V")
 			(pintype "passive")
 			(uuid "2c6988cd-a81a-4246-aae6-18cff50af652")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6557,7 +6667,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "2R05"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "959f8108-9e25-43f0-af5f-bd301de9e2e4")
@@ -6598,7 +6708,14 @@
 		(path "/e95fb0fe-03cf-4eae-bf36-cdc91d764a96")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -6776,7 +6893,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "819b69f6-a05f-4780-a498-96ba3b555b24")
 		)
@@ -6786,12 +6903,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 66 "Net-(V2205-Bulk)")
+			(net "Net-(V2205-Bulk)")
 			(pintype "passive")
 			(uuid "df125841-41ba-4e2e-9014-29ba1cf7ca9f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6803,13 +6920,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "496e3a5a-76d5-41b6-9a52-67f853394aae")
 		(at 140.5 70.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2214"
-			(at -2 2.5 0)
+			(at -2.174 2.578 180)
 			(layer "F.SilkS")
 			(uuid "4f54481f-5646-4940-ad29-6f669d03ccdd")
 			(effects
@@ -6820,7 +6937,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "367ae006-f318-4168-b110-6b01426825af")
 			(effects
@@ -6830,8 +6947,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "adc28a20-3eb2-4609-a288-fc42202b684b")
@@ -6842,8 +6959,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7d90ce41-ac0d-49fe-b3f8-b69f9c664003")
@@ -6858,7 +6975,14 @@
 		(path "/b0712d6d-3047-4a14-a45a-7ebeacb07882")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -7021,7 +7145,7 @@
 			(uuid "e92dc913-5a70-4beb-997a-63e6cedc0735")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "5150c4b9-0aa5-4fc3-a0b2-f6dc74afaa9e")
 			(effects
@@ -7037,8 +7161,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 42 "Net-(R2214-Pad1)")
-			(pinfunction "1")
+			(net "Net-(R2214-Pad1)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "7d1a6494-904b-4dd0-a006-5c587774b65d")
 		)
@@ -7048,8 +7172,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "Net-(V2206-C)")
-			(pinfunction "2")
+			(net "Net-(V2206-C)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "174cde72-e674-4132-b8ea-1f97210c75ca")
 		)
@@ -7059,8 +7183,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "Net-(R2207-Pad2)")
-			(pinfunction "3")
+			(net "Net-(R2207-Pad2)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "a58e3e36-81a0-4dd0-a626-af0b7bb2b5d9")
 		)
@@ -7161,7 +7285,14 @@
 		(path "/fbe7b0af-b7ac-46d1-b8d1-80f95154aef6")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.96 1.12)
 			(end 7.2 1.12)
@@ -7421,8 +7552,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "Net-(V2207-K)")
-			(pinfunction "K")
+			(net "Net-(V2207-K)")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "9b917b3f-240b-42af-8e4f-8af2fad97d7b")
 		)
@@ -7432,13 +7563,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "Net-(V2203-K)")
-			(pinfunction "A")
+			(net "Net-(V2203-K)")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "3a1c2474-84c4-41fa-9240-ed6710257d3e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7509,7 +7640,14 @@
 		(path "/02f38247-5552-496b-bd3c-d11c14fdfeb1")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6 -0.9)
 			(end 6 0.9)
@@ -7617,8 +7755,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(JP2201-A)")
-			(pinfunction "A")
+			(net "Net-(JP2201-A)")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "da998e43-8de4-4706-84da-5e91d1b104fc")
 		)
@@ -7628,8 +7766,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(JP2201-A)")
-			(pinfunction "A")
+			(net "Net-(JP2201-A)")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "6f55a32a-a74d-4bb7-a44d-12787b2a8101")
 		)
@@ -7704,7 +7842,14 @@
 		(path "/4712af7a-d67b-4571-b81c-39f85eb2054a")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -7882,7 +8027,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "Net-(V2212-D)")
+			(net "Net-(V2212-D)")
 			(pintype "passive")
 			(uuid "fa242b65-8ed9-49b3-9c5d-f6f4c4acf129")
 		)
@@ -7892,12 +8037,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "Net-(V2201-2G)")
+			(net "Net-(V2201-2G)")
 			(pintype "passive")
 			(uuid "80e7bc6a-d1cd-4a2a-b5b1-776b9cfc62db")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7967,7 +8112,14 @@
 		(path "/c67a11c0-81b1-4e66-b53f-c03d32a8810a")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -8145,7 +8297,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "Net-(C2211-Pad2)")
+			(net "Net-(C2211-Pad2)")
 			(pintype "passive")
 			(uuid "6bd8e04c-0e23-4755-b550-946ba0356252")
 		)
@@ -8155,12 +8307,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "Net-(V2212-D)")
+			(net "Net-(V2212-D)")
 			(pintype "passive")
 			(uuid "28f20d63-5084-461b-96cb-7b0073241e10")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8228,7 +8380,14 @@
 		(path "/9786c4fa-0b95-4eb7-800c-ba4f635e5c08")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 5.17 -1.72)
 			(end 5.17 -1.026)
@@ -8386,7 +8545,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "fc0c0f62-57db-450a-94de-ac4eb8d587d0")
 		)
@@ -8396,12 +8555,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "Net-(D2201-R)")
+			(net "Net-(D2201-R)")
 			(pintype "passive")
 			(uuid "7a68f91c-cdc2-4f50-aab8-d9a5659b12ea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.1mm_W3.2mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.1mm_W3.2mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8471,7 +8630,14 @@
 		(path "/70b76d59-3d4f-443d-bdad-2234506a3b6f")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.96 1.12)
 			(end 7.2 1.12)
@@ -8703,17 +8869,6 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -1.8 90)
-			(layer "F.Fab")
-			(uuid "116b76f4-3cc8-4f9c-8339-2b8917834309")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 5.38 0 90)
 			(layer "F.Fab")
@@ -8725,14 +8880,25 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at 0 -1.8 90)
+			(layer "F.Fab")
+			(uuid "116b76f4-3cc8-4f9c-8339-2b8917834309")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "Net-(V2207-K)")
-			(pinfunction "K")
+			(net "Net-(V2207-K)")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "dca09ed4-c73a-48ea-8b28-93f547130fd3")
 		)
@@ -8742,13 +8908,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
-			(pinfunction "A")
+			(net "/HIOUT1")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "a63e3a17-96d9-49d1-94c6-c25df3f978eb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8818,7 +8984,14 @@
 		(path "/155f0ee8-5813-49f3-94c0-4d45cdc68216")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -8996,7 +9169,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "Net-(A2202-Pad6)")
+			(net "Net-(A2202-Pad6)")
 			(pintype "passive")
 			(uuid "e299e3a5-9eab-40fa-95c5-a26498a4db62")
 		)
@@ -9006,12 +9179,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "Net-(A2202--)")
+			(net "Net-(A2202--)")
 			(pintype "passive")
 			(uuid "ce1acff9-f027-4303-87e2-b4243dffb1f3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9079,7 +9252,14 @@
 		(path "/1320acba-128f-4e33-8495-6c8e03bf4d4b")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.87 -2.12)
 			(end 8.87 2.12)
@@ -9217,7 +9397,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "7b53bd05-c4a2-424b-b929-80c10037ca4f")
 		)
@@ -9227,12 +9407,12 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(C2202-Pad2)")
+			(net "Net-(C2202-Pad2)")
 			(pintype "passive")
 			(uuid "02d3a633-be64-4574-b28e-90a2e93c1342")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9302,7 +9482,14 @@
 		(path "/393e6a95-1b19-4087-ae27-7567a80c7cc3")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -9480,7 +9667,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "Net-(D2201-R)")
+			(net "Net-(D2201-R)")
 			(pintype "passive")
 			(uuid "b1800315-f53a-4bff-a35b-fbb0b5207e05")
 		)
@@ -9490,12 +9677,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 44 "Net-(R2216-Pad3)")
+			(net "Net-(R2216-Pad3)")
 			(pintype "passive")
 			(uuid "021a11b6-cbf4-43ca-ba7f-95933a6b3be8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9563,7 +9750,14 @@
 		(path "/604d37a9-3289-4dfd-97ce-0d4e26cc01df")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.52 -1.42)
 			(end 5.48 -1.42)
@@ -9741,7 +9935,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(V2205-D)")
+			(net "Net-(V2205-D)")
 			(pintype "passive")
 			(uuid "d10af05c-463f-42a0-88e6-bac8f93055c6")
 		)
@@ -9751,12 +9945,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "Net-(C2207-Pad2)")
+			(net "Net-(C2207-Pad2)")
 			(pintype "passive")
 			(uuid "eb99a6a1-7aa8-4b3a-901b-92871e23af9b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L3.8mm_D2.6mm_P15.00mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L3.8mm_D2.6mm_P15.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9826,7 +10020,14 @@
 		(path "/3bc83850-3e4d-41fc-890c-f4be2159a1cc")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -10004,7 +10205,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 61 "Net-(D2201-+TRIGGER)")
+			(net "Net-(D2201-+TRIGGER)")
 			(pintype "passive")
 			(uuid "55b68783-5668-40fc-a6be-256f96aed382")
 		)
@@ -10014,12 +10215,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
+			(net "-15V")
 			(pintype "passive")
 			(uuid "d157849d-63d6-4f91-8fd1-8e65f4c07cec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10031,13 +10232,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "7166df1f-09f5-446e-ae1f-4ce06192a5e3")
 		(at 110.5 114.1 90)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2202"
-			(at 3.85 4.975 0)
+			(at -0.5 -7 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0539bd9a-4103-4fca-9820-8436b6dcf574")
@@ -10073,7 +10274,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10089,7 +10290,18 @@
 		(path "/891109f7-732a-4d08-aa16-41fcdfdfbd9f")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7.35 -6.05)
 			(end 10.35 -2.55)
@@ -10450,7 +10662,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 11 "/HIOUT2")
+			(net "/HIOUT2")
 			(pintype "passive")
 			(uuid "47dc2548-a2ce-49a1-bfb9-4c21821d9ca6")
 		)
@@ -10460,7 +10672,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/LO")
+			(net "/LO")
 			(pintype "passive")
 			(uuid "dcfa7437-9c68-4ec4-9a53-bedb397eeb14")
 		)
@@ -10470,7 +10682,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "GND7")
+			(net "GND7")
 			(pintype "passive")
 			(uuid "0a7138f8-5987-40ac-9516-6b8bc5a11c92")
 		)
@@ -10480,19 +10692,19 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "/RELHI")
+			(net "/RELHI")
 			(pintype "passive")
 			(uuid "02c349b0-28ea-44a2-8995-eeab4837f910")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "751abe0c-ac61-4840-815f-ed300d53e827")
 		(at 175 71 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2217"
-			(at -2.25 2.75 0)
+			(at -1.912 2.534 180)
 			(layer "F.SilkS")
 			(uuid "9613d65b-930d-4171-a0d4-39245e114ef7")
 			(effects
@@ -10503,7 +10715,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "f9b87fac-93ff-4999-91cc-3b6fd544bdd0")
 			(effects
@@ -10513,8 +10725,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c418484-0afd-4996-a724-ac77993ee4a6")
@@ -10525,8 +10737,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db50cf16-0f12-416a-9b80-05ed7e74cdc0")
@@ -10541,7 +10753,14 @@
 		(path "/4b067976-663f-4502-ba3e-b49b5e5a98b7")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -10704,7 +10923,7 @@
 			(uuid "49fa3f87-5166-4268-be2f-77f77db961f3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "b2e15d72-36a0-4cfd-b104-30f9624db695")
 			(effects
@@ -10720,8 +10939,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
-			(pinfunction "1")
+			(net "-15V")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "dea7b1df-142f-4929-967a-f4472b1ffce8")
 		)
@@ -10731,8 +10950,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(R2217-Pad2)")
-			(pinfunction "2")
+			(net "Net-(R2217-Pad2)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "1cc0da15-2173-45a3-b532-64c5b1c4206e")
 		)
@@ -10742,8 +10961,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
-			(pinfunction "3")
+			(net "+15V")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "77e28ffd-a1e3-4ff4-9fbe-cf06bf87397e")
 		)
@@ -10818,7 +11037,14 @@
 		(path "/f26ef67c-600d-4f3b-aa65-653a8b5a6951")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 10.97 -1.72)
 			(end 1.73 -1.72)
@@ -10996,7 +11222,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 66 "Net-(V2205-Bulk)")
+			(net "Net-(V2205-Bulk)")
 			(pintype "passive")
 			(uuid "76b37809-2307-4bb5-bb26-aa34dd37ddb5")
 		)
@@ -11006,12 +11232,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(R2217-Pad2)")
+			(net "Net-(R2217-Pad2)")
 			(pintype "passive")
 			(uuid "1874a0ab-dcd3-441a-a6f5-60cedf3da4f5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11081,7 +11307,14 @@
 		(path "/a0c4035b-7789-4cfd-8944-dbc7655d1f8f")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -11259,7 +11492,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "Net-(V2207-K)")
+			(net "Net-(V2207-K)")
 			(pintype "passive")
 			(uuid "88fc9aa7-b9c0-4009-8e74-92aba2ff04dc")
 		)
@@ -11269,12 +11502,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "3f3c100e-d28e-435b-a64a-ebec15dda229")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11286,13 +11519,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "82da7e4d-35e3-45a7-880a-b58d8d6bc0fa")
 		(at 119.5 76.4 -90)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2201"
-			(at 3.6 4.5 0)
+			(at 0.054 17.138 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9d36a547-78a4-4d3f-a350-541e1950c1b6")
@@ -11328,7 +11561,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11344,7 +11577,18 @@
 		(path "/dc8cf897-9750-4462-92d6-0c584dff767e")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.65 16)
 			(end 7.35 16)
@@ -11676,10 +11920,9 @@
 			(uuid "4e783296-2765-416b-b0b6-96c806de2b37")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -9.985 -7.06 270)
-			(unlocked yes)
+			(at -10.985 1.94 0)
 			(layer "F.Fab")
-			(uuid "cf0f63cd-4df1-4aea-b92f-9f64ada6684b")
+			(uuid "ea871e92-bff6-41a5-8f37-17a9d0e245a7")
 			(effects
 				(font
 					(size 1 1)
@@ -11688,9 +11931,10 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -10.985 1.94 0)
+			(at -9.985 -7.06 270)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ea871e92-bff6-41a5-8f37-17a9d0e245a7")
+			(uuid "cf0f63cd-4df1-4aea-b92f-9f64ada6684b")
 			(effects
 				(font
 					(size 1 1)
@@ -11705,7 +11949,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 13 "/HIOUT1")
+			(net "/HIOUT1")
 			(pintype "passive")
 			(uuid "fa1cee84-69d4-48fd-aee5-f29aa540bbb3")
 		)
@@ -11715,7 +11959,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/LO")
+			(net "/LO")
 			(pintype "passive")
 			(uuid "39b5e1a2-8584-4ce8-b8c3-d927a6d5e4be")
 		)
@@ -11725,7 +11969,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "GND7")
+			(net "GND7")
 			(pintype "passive")
 			(uuid "902002b3-4fe7-465d-b87e-2e584c8d10c6")
 		)
@@ -11735,7 +11979,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "/RELHI")
+			(net "/RELHI")
 			(pintype "passive")
 			(uuid "9d3eb684-d146-43b8-bdba-bb6d843ca771")
 		)
@@ -11797,7 +12041,14 @@
 		(path "/6bae812f-31c4-4ad7-8fc8-6882eb7d3464")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.03 -1.37)
 			(end 0.03 -1.04)
@@ -11955,7 +12206,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
+			(net "GND5")
 			(pintype "passive")
 			(uuid "bb8c4c99-2a2e-4374-b0b0-3b9c1a2c9c98")
 		)
@@ -11965,12 +12216,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
+			(net "-15V")
 			(pintype "passive")
 			(uuid "ea81b6a5-f1db-4754-8a52-88e4c122eab3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12038,7 +12289,14 @@
 		(path "/7023be58-1522-4266-810c-5e03ab941b39")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "4" "6" "8" "12" "9" "2" "1" "3" "14" "7" "13" "10" "11")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.46 16.57)
 			(end 6.46 -1.33)
@@ -12179,8 +12437,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 60 "Net-(D2201-C)")
-			(pinfunction "C")
+			(net "Net-(D2201-C)")
+			(pinfunction "C_1")
 			(pintype "input")
 			(uuid "16b6aa4b-890d-45ad-9e03-124cc475c5ec")
 		)
@@ -12190,8 +12448,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "Net-(D2201-R)")
-			(pinfunction "R")
+			(net "Net-(D2201-R)")
+			(pinfunction "R_2")
 			(pintype "input")
 			(uuid "671fe1df-02ab-45e6-a91d-7ff9692aca54")
 		)
@@ -12201,8 +12459,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 59 "Net-(D2201-RC_COMMON)")
-			(pinfunction "RC_COMMON")
+			(net "Net-(D2201-RC_COMMON)")
+			(pinfunction "RC_COMMON_3")
 			(pintype "input")
 			(uuid "4b8d7535-9d94-4165-bc79-76debe76a6d3")
 		)
@@ -12212,8 +12470,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
-			(pinfunction "~{ASTABLE}")
+			(net "GND5")
+			(pinfunction "~{ASTABLE}_4")
 			(pintype "input")
 			(uuid "c8509303-6ed4-4496-93e8-6980b59e007f")
 		)
@@ -12223,8 +12481,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
-			(pinfunction "ASTABLE")
+			(net "GND5")
+			(pinfunction "ASTABLE_5")
 			(pintype "input")
 			(uuid "a98861cf-ba45-4e2b-b00c-d18541af23f8")
 		)
@@ -12234,8 +12492,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
-			(pinfunction "-TRIGGER")
+			(net "GND5")
+			(pinfunction "-TRIGGER_6")
 			(pintype "input")
 			(uuid "a2e45b43-076f-4772-afee-5bd8dfdd316d")
 		)
@@ -12245,8 +12503,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 61 "Net-(D2201-+TRIGGER)")
-			(pinfunction "VSS")
+			(net "Net-(D2201-+TRIGGER)")
+			(pinfunction "VSS_7")
 			(pintype "power_in")
 			(uuid "b98da1a2-1439-477b-a5c5-837408c04318")
 		)
@@ -12256,8 +12514,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 61 "Net-(D2201-+TRIGGER)")
-			(pinfunction "+TRIGGER")
+			(net "Net-(D2201-+TRIGGER)")
+			(pinfunction "+TRIGGER_8")
 			(pintype "input")
 			(uuid "ef8c05a2-7950-4751-9b40-a617ef7e16ab")
 		)
@@ -12267,8 +12525,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 61 "Net-(D2201-+TRIGGER)")
-			(pinfunction "EXT_RESET")
+			(net "Net-(D2201-+TRIGGER)")
+			(pinfunction "EXT_RESET_9")
 			(pintype "input")
 			(uuid "8a95c14a-2596-4623-98de-cc2cac74aa27")
 		)
@@ -12278,8 +12536,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-Q)")
-			(pinfunction "Q")
+			(net "Net-(D2201-Q)")
+			(pinfunction "Q_10")
 			(pintype "output")
 			(uuid "755f92e2-6487-4fe3-8c27-7e475df80c2d")
 		)
@@ -12289,8 +12547,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 64 "Net-(D2201-~{Q})")
-			(pinfunction "~{Q}")
+			(net "Net-(D2201-~{Q})")
+			(pinfunction "~{Q}_11")
 			(pintype "output")
 			(uuid "01d74d71-3d50-4525-a690-091c89d2b0dc")
 		)
@@ -12300,8 +12558,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 61 "Net-(D2201-+TRIGGER)")
-			(pinfunction "RETRIGGER")
+			(net "Net-(D2201-+TRIGGER)")
+			(pinfunction "RETRIGGER_12")
 			(pintype "input")
 			(uuid "3a8c1163-d56f-42b6-be7c-691870cde609")
 		)
@@ -12311,8 +12569,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "unconnected-(D2201-OSC_OUT-Pad13)")
-			(pinfunction "OSC_OUT")
+			(net "unconnected-(D2201-OSC_OUT-Pad13)")
+			(pinfunction "OSC_OUT_13")
 			(pintype "output+no_connect")
 			(uuid "d74bec20-fdbf-4d16-a969-c6aaed57889c")
 		)
@@ -12322,13 +12580,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
-			(pinfunction "VDD")
+			(net "GND5")
+			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(uuid "1625b692-b11d-41cb-98b3-4af85ec39a23")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12424,7 +12682,14 @@
 		(path "/c5efd895-cb83-45cb-adb1-cecdaf353101")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.96 1.12)
 			(end 7.2 1.12)
@@ -12656,17 +12921,6 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -1.8 90)
-			(layer "F.Fab")
-			(uuid "31b38da5-d826-4d55-9739-c75e44addbac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 5.38 0 90)
 			(layer "F.Fab")
@@ -12678,14 +12932,25 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at 0 -1.8 90)
+			(layer "F.Fab")
+			(uuid "31b38da5-d826-4d55-9739-c75e44addbac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "GND7")
-			(pinfunction "K")
+			(net "GND7")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "6b1fa203-13e1-401b-a075-ee2748c6d7bf")
 		)
@@ -12695,13 +12960,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "/RELHI")
-			(pinfunction "A")
+			(net "/RELHI")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "3a527d39-ebd1-4aa4-91f1-3720bdf03059")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12771,7 +13036,14 @@
 		(path "/dfd6d07b-7ea7-4967-9b46-bef4cb188c6a")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -12949,7 +13221,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "GND6")
+			(net "GND6")
 			(pintype "passive")
 			(uuid "4a492ad5-1ff2-4dc4-bee6-3b18447f097f")
 		)
@@ -12959,12 +13231,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/LO")
+			(net "/LO")
 			(pintype "passive")
 			(uuid "450d7c7e-0975-4d0f-9221-b50710267855")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13060,7 +13332,14 @@
 		(path "/e8dbb65c-40c5-454b-af1d-d15749254b5c")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.96 1.12)
 			(end 7.2 1.12)
@@ -13320,8 +13599,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "Net-(V2203-K)")
-			(pinfunction "K")
+			(net "Net-(V2203-K)")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "c2b57aca-e684-40d2-800a-fbc578b42458")
 		)
@@ -13331,13 +13610,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "Net-(V2208-A)")
-			(pinfunction "A")
+			(net "Net-(V2208-A)")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "52066d2e-d982-4e31-880a-6547966b2179")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13404,7 +13683,14 @@
 		(path "/3380eb5d-f00a-4dcd-941a-79cd1da13968")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1" "5" "4" "6")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.457084 -3.774902)
 			(end -1.348039 -4.665856)
@@ -13555,8 +13841,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(V2201-1S)")
-			(pinfunction "1S")
+			(net "Net-(V2201-1S)")
+			(pinfunction "1S_1")
 			(pintype "passive")
 			(uuid "f15f508f-a7a8-4444-b75a-5bb601edc0e1")
 		)
@@ -13566,8 +13852,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "Net-(A2201-+)")
-			(pinfunction "1D")
+			(net "Net-(A2201-+)")
+			(pinfunction "1D_2")
 			(pintype "passive")
 			(uuid "03c0d840-7369-44de-ba02-720b907d6c86")
 		)
@@ -13577,8 +13863,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(V2201-1G)")
-			(pinfunction "1G")
+			(net "Net-(V2201-1G)")
+			(pinfunction "1G_3")
 			(pintype "input")
 			(uuid "256fb804-bf02-437e-81c1-3dc8c09f1c13")
 		)
@@ -13588,8 +13874,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 54 "Net-(V2201-2S)")
-			(pinfunction "2S")
+			(net "Net-(V2201-2S)")
+			(pinfunction "2S_4")
 			(pintype "passive")
 			(uuid "cac64f6b-06f4-46a1-8e66-0f19e6de87b6")
 		)
@@ -13599,8 +13885,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Net-(V2201-2D)")
-			(pinfunction "2D")
+			(net "Net-(V2201-2D)")
+			(pinfunction "2D_5")
 			(pintype "passive")
 			(uuid "34af878d-9db6-4e40-8fa7-06ddc4998be3")
 		)
@@ -13610,8 +13896,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "Net-(V2201-2G)")
-			(pinfunction "2G")
+			(net "Net-(V2201-2G)")
+			(pinfunction "2G_6")
 			(pintype "input")
 			(uuid "18eedf7a-79e6-4593-86fe-7ab2fcd36ad4")
 		)
@@ -13686,7 +13972,14 @@
 		(path "/fc24d24d-0816-46bb-9c24-ed94f8638fcf")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -13834,13 +14127,13 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "Net-(V2212-D)")
-			(pinfunction "1")
+			(net "Net-(V2212-D)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "53a00eb1-ceb9-42fe-8964-601e3b6c9511")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13910,7 +14203,14 @@
 		(path "/a1a518b9-1940-4159-8fd5-492e80c41f1a")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -14088,7 +14388,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(V2202-K)")
+			(net "Net-(V2202-K)")
 			(pintype "passive")
 			(uuid "d3dcc60e-5e4f-40bf-84f3-352b3633a363")
 		)
@@ -14098,12 +14398,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "Net-(V2206-B)")
+			(net "Net-(V2206-B)")
 			(pintype "passive")
 			(uuid "448a3b7c-8371-4dff-b9a6-9dd63bc61ab6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14171,7 +14471,14 @@
 		(path "/67bb250a-bf1c-4ff7-a98d-70a83142e121")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.03 1.37)
 			(end 4.97 1.37)
@@ -14329,7 +14636,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "8ef0cc8d-d268-4033-84d7-e371bb763e6b")
 		)
@@ -14339,12 +14646,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
+			(net "GND5")
 			(pintype "passive")
 			(uuid "78de0718-de3b-4748-a9f0-3291acc2a18f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14414,7 +14721,14 @@
 		(path "/885b3901-0bd2-4b63-bfaa-f4fb43f8126f")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -14592,7 +14906,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "/HI")
+			(net "/HI")
 			(pintype "passive")
 			(uuid "5a3e565c-fb15-474a-8d65-cd8ba01ceff6")
 		)
@@ -14602,12 +14916,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(C2202-Pad2)")
+			(net "Net-(C2202-Pad2)")
 			(pintype "passive")
 			(uuid "ab8f4c19-78a1-485a-a4c3-1bc2b7e4e821")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14677,7 +14991,14 @@
 		(path "/83f6cc0e-e527-435a-8045-9f5450f846fd")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -14825,13 +15146,13 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 64 "Net-(D2201-~{Q})")
-			(pinfunction "1")
+			(net "Net-(D2201-~{Q})")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "1744653a-93a5-464c-ba30-54c1c083652a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14901,7 +15222,14 @@
 		(path "/7a9eaa8b-676a-4282-bee4-a94d70b2fe0e")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -15079,7 +15407,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
+			(net "-15V")
 			(pintype "passive")
 			(uuid "a800d424-b25c-4976-9c51-950ec1ece498")
 		)
@@ -15089,12 +15417,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "Net-(V2208-A)")
+			(net "Net-(V2208-A)")
 			(pintype "passive")
 			(uuid "769b7c81-3211-466c-8532-0f6d503bbba4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15164,7 +15492,14 @@
 		(path "/5a12c30c-bdc0-48c9-a7da-b21c63841afd")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -15342,7 +15677,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "Net-(R2208-Pad1)")
+			(net "Net-(R2208-Pad1)")
 			(pintype "passive")
 			(uuid "6349f0fe-cb87-43c4-a068-b4c6beca82cf")
 		)
@@ -15352,12 +15687,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "Net-(D2201-Q)")
+			(net "Net-(D2201-Q)")
 			(pintype "passive")
 			(uuid "83c0918d-1398-472d-a905-9b1ec8a4af30")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15427,7 +15762,14 @@
 		(path "/23d46437-d243-4408-a07b-c9089159515c")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -15605,7 +15947,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(A2201--)")
+			(net "Net-(A2201--)")
 			(pintype "passive")
 			(uuid "43532287-b481-41bc-98d8-e62e41f665d8")
 		)
@@ -15615,12 +15957,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
+			(net "/HIOUT1")
 			(pintype "passive")
 			(uuid "fb6a15ee-559f-4fce-8006-32be08720e1f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15688,7 +16030,14 @@
 		(path "/7cb90bbc-45f2-4016-95fb-34f969909571")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.037288 -1.335)
 			(end 0.412712 -1.335)
@@ -15790,7 +16139,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "8bc48abe-4776-4481-a1cd-71f6fcc01da9")
 		)
@@ -15800,12 +16149,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "Net-(V2201-2G)")
+			(net "Net-(V2201-2G)")
 			(pintype "passive")
 			(uuid "ccdaebad-89e4-4b3a-ba6d-45818d40d30c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15875,7 +16224,14 @@
 		(path "/9d902df7-dddd-4c02-875a-526f818fd7f5")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -16053,7 +16409,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Net-(V2201-2D)")
+			(net "Net-(V2201-2D)")
 			(pintype "passive")
 			(uuid "1d72fdd1-9611-425a-ac85-57d629b888e1")
 		)
@@ -16063,12 +16419,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "63324913-28e6-40b1-b83d-04e3f70f7142")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16138,7 +16494,14 @@
 		(path "/895009c0-7eca-4951-885c-a339764309dc")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -16316,7 +16679,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 41 "Net-(R2209-Pad1)")
+			(net "Net-(R2209-Pad1)")
 			(pintype "passive")
 			(uuid "beb3b8ce-3e31-4053-8943-530b8db480e1")
 		)
@@ -16326,12 +16689,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "Net-(JP2201-B)")
+			(net "Net-(JP2201-B)")
 			(pintype "passive")
 			(uuid "23a5e762-2c05-4d0d-8909-4e6cd88c2177")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16401,7 +16764,14 @@
 		(path "/29d57f32-7dec-4c2d-8663-f9faa9a7b760")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.96 1.12)
 			(end 7.2 1.12)
@@ -16661,8 +17031,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(V2202-K)")
-			(pinfunction "K")
+			(net "Net-(V2202-K)")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "cff09709-34fe-4e83-a54e-8b684c556b54")
 		)
@@ -16672,13 +17042,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
-			(pinfunction "A")
+			(net "-15V")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "a060a3be-da12-42d1-ad9f-d723c3374fe0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16690,15 +17060,14 @@
 			)
 		)
 	)
-	(footprint "PM2528:PM2528_RiserCardConnector"
+	(footprint "PhilipsPM2528:PM2528_RiserCardConnector"
 		(layer "F.Cu")
 		(uuid "c3d95beb-726a-4830-9be3-3fe0ca89c825")
 		(at 106.14 121 90)
 		(property "Reference" "X2201"
-			(at 0 -0.5 90)
+			(at -7 -4.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "fc79169d-fa71-4b9f-8487-f7b6d7b517ef")
 			(effects
 				(font
@@ -16708,7 +17077,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 90)
+			(at -0.5 -3 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0b5a26af-a7f6-483e-8473-c399fa602854")
@@ -16748,7 +17117,16 @@
 		(path "/e7fbcb44-f17c-484f-b769-c843d625e3a3")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19"
+				)
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -8 1.84)
 			(end 0 3.24)
@@ -16985,7 +17363,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
+			(at 5 -4.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fcbcfde7-8721-42ec-a15b-73e0dc89407a")
@@ -17004,8 +17382,8 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
-			(pinfunction "0V")
+			(net "GND5")
+			(pinfunction "0V_1")
 			(pintype "passive")
 			(uuid "463246dd-4097-42bb-b407-c464eb88e939")
 		)
@@ -17017,8 +17395,8 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "unconnected-(X2201--5V-Pad2)")
-			(pinfunction "-5V")
+			(net "unconnected-(X2201--5V-Pad2)")
+			(pinfunction "-5V_2")
 			(pintype "passive+no_connect")
 			(uuid "0877d3ac-d55f-4289-8dc1-cf75f2ef1a3e")
 		)
@@ -17030,7 +17408,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
+			(net "-15V")
 			(pintype "passive")
 			(uuid "51dc307a-56bd-4dca-97fc-6977588533b7")
 		)
@@ -17042,7 +17420,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "f648930b-5310-43a3-a425-2c87e86b65e3")
 		)
@@ -17054,7 +17432,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "unconnected-(X2201-Pad5)")
+			(net "unconnected-(X2201-Pad5)")
 			(pintype "passive+no_connect")
 			(uuid "4826d276-0fb1-4dec-9ffb-15db314259e3")
 		)
@@ -17066,7 +17444,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "unconnected-(X2201-Pad6)")
+			(net "unconnected-(X2201-Pad6)")
 			(pintype "passive+no_connect")
 			(uuid "7b099446-d229-44ac-aee0-4753a345d558")
 		)
@@ -17078,7 +17456,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "ef26acc5-6729-496d-add8-6127e10a81ed")
 		)
@@ -17090,7 +17468,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/LO")
+			(net "/LO")
 			(pintype "passive")
 			(uuid "e6969de1-7e4d-4be8-a4b8-7c7186d17b61")
 		)
@@ -17102,7 +17480,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "7321f77f-b99a-473a-b940-5b78a8115a98")
 		)
@@ -17114,7 +17492,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "/HI")
+			(net "/HI")
 			(pintype "passive")
 			(uuid "2e534ac9-06c3-4dc4-a4ca-f53119dbb71b")
 		)
@@ -17126,7 +17504,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "GND6")
+			(net "GND6")
 			(pintype "passive")
 			(uuid "fc001b8a-7337-4c74-8b7d-002888ef1df1")
 		)
@@ -17138,7 +17516,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "unconnected-(X2201-Pad12)")
+			(net "unconnected-(X2201-Pad12)")
 			(pintype "passive+no_connect")
 			(uuid "8fb07b8b-5f5d-4f93-8ea4-6c1e56707dec")
 		)
@@ -17150,7 +17528,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "unconnected-(X2201-Pad13)")
+			(net "unconnected-(X2201-Pad13)")
 			(pintype "passive+no_connect")
 			(uuid "fd9dcf6b-cbee-4ecb-a7bb-935f0af9c12b")
 		)
@@ -17162,7 +17540,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
+			(net "/HIOUT1")
 			(pintype "passive")
 			(uuid "d7d802ba-55b8-4e2f-9c5d-5eecf8dffab0")
 		)
@@ -17174,7 +17552,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "/HIOUT2")
+			(net "/HIOUT2")
 			(pintype "passive")
 			(uuid "902d9be9-9d53-421c-912f-650923dadc76")
 		)
@@ -17186,7 +17564,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "unconnected-(X2201-Pad16)")
+			(net "unconnected-(X2201-Pad16)")
 			(pintype "passive+no_connect")
 			(uuid "d8cf9e6b-e2a9-4548-b490-e7809e3d3b53")
 		)
@@ -17198,7 +17576,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "unconnected-(X2201-Pad17)")
+			(net "unconnected-(X2201-Pad17)")
 			(pintype "passive+no_connect")
 			(uuid "a6d207e5-5358-4b9d-b728-7e4f6dba84ad")
 		)
@@ -17210,7 +17588,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "/RELHI")
+			(net "/RELHI")
 			(pintype "passive")
 			(uuid "65652ef5-d4eb-4f4d-b6d9-aacb9bc4911e")
 		)
@@ -17225,7 +17603,7 @@
 			(roundrect_rratio 0)
 			(chamfer_ratio 0.2)
 			(chamfer top_left)
-			(net 9 "GND7")
+			(net "GND7")
 			(pintype "passive")
 			(uuid "7c45da6d-d5eb-4f3e-963b-7123306d113f")
 		)
@@ -17290,7 +17668,14 @@
 		(path "/88c9d118-aae6-407d-8f57-66bafec01442")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6 -0.9)
 			(end 6 0.9)
@@ -17398,8 +17783,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "GND4")
-			(pinfunction "A")
+			(net "GND4")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "9a2f4a25-be95-43a2-95ee-e1a44b2513f3")
 		)
@@ -17409,8 +17794,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "GND4")
-			(pinfunction "A")
+			(net "GND4")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "28bf610c-26f3-435b-97dd-a8d9b463cc7f")
 		)
@@ -17444,7 +17829,7 @@
 				)
 			)
 		)
-		(property "Value" "BZX79-C5V1"
+		(property "Value" "BZX87-C5V1"
 			(at 6.35 2.12 270)
 			(layer "F.Fab")
 			(uuid "9dbdec5a-db68-4019-9e4d-a099d7622660")
@@ -17485,7 +17870,14 @@
 		(path "/31d2c949-ea0f-4c71-abc5-5cd503ed4d37")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.23 1.12)
 			(end 8.47 1.12)
@@ -17745,8 +18137,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
-			(pinfunction "K")
+			(net "GND5")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "a08ba9cd-23a9-4326-88c9-c83d0e06af37")
 		)
@@ -17756,13 +18148,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "Net-(V2213-A)")
-			(pinfunction "A")
+			(net "Net-(V2213-A)")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "1398ba3c-d805-4c6d-a67b-886058616b7f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17832,7 +18224,14 @@
 		(path "/328646a0-8065-4bea-bf91-bd04b591a705")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -18010,7 +18409,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 55 "Net-(C2207-Pad2)")
+			(net "Net-(C2207-Pad2)")
 			(pintype "passive")
 			(uuid "6c5ab988-0bcd-4e7c-9a9d-5e3b9c3f3299")
 		)
@@ -18020,12 +18419,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "1c5d460e-b889-4cf6-8c99-5b35a45b0662")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18095,7 +18494,14 @@
 		(path "/90affb61-6b31-43da-810f-a0b6542487dd")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -18273,7 +18679,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "Net-(R2232-Pad1)")
+			(net "Net-(R2232-Pad1)")
 			(pintype "passive")
 			(uuid "274399ac-18fc-459c-a90f-8514e1503c98")
 		)
@@ -18283,12 +18689,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
+			(net "/HIOUT1")
 			(pintype "passive")
 			(uuid "5ff225d7-1cba-4474-9a67-89bd75c68ac3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18358,7 +18764,14 @@
 		(path "/3b453706-908d-4464-9f35-070815e98648")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -18536,7 +18949,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(V2201-1S)")
+			(net "Net-(V2201-1S)")
 			(pintype "passive")
 			(uuid "89ce700b-11ba-4dcf-a50b-37f3cc81a98c")
 		)
@@ -18546,12 +18959,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "Net-(R2207-Pad2)")
+			(net "Net-(R2207-Pad2)")
 			(pintype "passive")
 			(uuid "9b2c3ce1-1d71-427a-b7a9-b91f11c595cf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18580,7 +18993,7 @@
 				)
 			)
 		)
-		(property "Value" "LF355N"
+		(property "Value" "LF355H"
 			(at 3.81 9.95 0)
 			(layer "F.Fab")
 			(uuid "fe1bf069-f01b-472e-b469-00a62f50d764")
@@ -18619,7 +19032,14 @@
 		(path "/319ef0ef-482a-41c9-9915-2a3a1149876a")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "7" "4" "8" "1" "5" "6")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.46 8.95)
 			(end 6.46 -1.33)
@@ -18760,8 +19180,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 36 "unconnected-(A2202-NULL-Pad1)")
-			(pinfunction "NULL")
+			(net "unconnected-(A2202-NULL-Pad1)")
+			(pinfunction "NULL_1")
 			(pintype "input+no_connect")
 			(uuid "d6b31680-d807-4799-906a-28e72248f112")
 		)
@@ -18771,8 +19191,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "Net-(A2202--)")
-			(pinfunction "-")
+			(net "Net-(A2202--)")
+			(pinfunction "-_2")
 			(pintype "input")
 			(uuid "52c65592-d676-4081-82c5-d5c7a9d02607")
 		)
@@ -18782,8 +19202,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "Net-(A2202-+)")
-			(pinfunction "+")
+			(net "Net-(A2202-+)")
+			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "b9e5c44b-e4ce-4bfd-85e7-ba13590dcbd1")
 		)
@@ -18793,8 +19213,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
-			(pinfunction "V-")
+			(net "-15V")
+			(pinfunction "V-_4")
 			(pintype "power_in")
 			(uuid "09bebab9-1503-43e2-b4b8-82b7dce900e6")
 		)
@@ -18804,8 +19224,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 34 "unconnected-(A2202-NULL-Pad5)")
-			(pinfunction "NULL")
+			(net "unconnected-(A2202-NULL-Pad5)")
+			(pinfunction "NULL_5")
 			(pintype "input+no_connect")
 			(uuid "6f5c40bc-7779-45c9-bad5-c9815a4d6825")
 		)
@@ -18815,7 +19235,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "Net-(A2202-Pad6)")
+			(net "Net-(A2202-Pad6)")
 			(pintype "output")
 			(uuid "e6653b55-ab20-473b-9f5e-a06c901f495f")
 		)
@@ -18825,8 +19245,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
-			(pinfunction "V+")
+			(net "+15V")
+			(pinfunction "V+_7")
 			(pintype "power_in")
 			(uuid "a9a3c4bc-7bdd-42c8-8156-9638c6f6699d")
 		)
@@ -18836,13 +19256,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 33 "unconnected-(A2202-NC-Pad8)")
-			(pinfunction "NC")
+			(net "unconnected-(A2202-NC-Pad8)")
+			(pinfunction "NC_8")
 			(pintype "no_connect")
 			(uuid "6ad0b9b9-c39a-43fe-9ff3-6aecd99b69f4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18871,7 +19291,7 @@
 				)
 			)
 		)
-		(property "Value" "880n"
+		(property "Value" "680n"
 			(at 7.5 3.75 90)
 			(layer "F.Fab")
 			(uuid "e0fb7c3c-9500-45e5-97e0-13fa69202cd5")
@@ -18910,7 +19330,14 @@
 		(path "/3bfeefe7-fbfe-4164-9f73-60d2d458e5d7")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 16.62 -2.62)
 			(end 16.62 2.62)
@@ -19048,7 +19475,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "Net-(A2201-+)")
+			(net "Net-(A2201-+)")
 			(pintype "passive")
 			(uuid "93168e32-0f86-47a5-a518-4f9769fc96b3")
 		)
@@ -19058,12 +19485,12 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(C2205-Pad2)")
+			(net "Net-(C2205-Pad2)")
 			(pintype "passive")
 			(uuid "cb72e8b6-288f-4372-8f12-a67fcc8b5d44")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19133,7 +19560,14 @@
 		(path "/2fdd99f1-5110-4162-85f8-9c3ece38c0d1")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.04 0)
 			(end 1.81 0)
@@ -19311,7 +19745,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "fdc1e40a-e54f-427e-95ee-001572c72ae0")
 		)
@@ -19321,12 +19755,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(V2202-K)")
+			(net "Net-(V2202-K)")
 			(pintype "passive")
 			(uuid "1ecd9d2f-62ad-40e5-b26b-206b84dc46c6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19394,7 +19828,14 @@
 		(path "/cbbae2c6-c7ff-4b33-84d9-1e29277be217")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 16.62 -2.62)
 			(end 16.62 2.62)
@@ -19532,7 +19973,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "Net-(A2202-Pad6)")
+			(net "Net-(A2202-Pad6)")
 			(pintype "passive")
 			(uuid "154e9482-a798-40ab-8f9b-3f68a6fd6cca")
 		)
@@ -19542,12 +19983,12 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "Net-(C2211-Pad2)")
+			(net "Net-(C2211-Pad2)")
 			(pintype "passive")
 			(uuid "ce852bd9-8a8d-4fc8-937d-aff3f9b40a6f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19615,7 +20056,14 @@
 		(path "/89d387bd-125f-4e0a-95d5-20364f9d6b51")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.23 -1.07)
 			(end 4.77 -1.07)
@@ -19753,7 +20201,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "Net-(C2203-Pad1)")
+			(net "Net-(C2203-Pad1)")
 			(pintype "passive")
 			(uuid "ae1278ac-1336-4930-af06-7d667d9700e0")
 		)
@@ -19763,12 +20211,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(V2205-D)")
+			(net "Net-(V2205-D)")
 			(pintype "passive")
 			(uuid "ba12284d-9eff-450d-bdb1-1131329549f7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.3mm_W1.9mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.3mm_W1.9mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19838,7 +20286,14 @@
 		(path "/44c9e8c7-8474-4c16-9a07-d1c14a5bc3fa")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -19986,13 +20441,13 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "GND6")
-			(pinfunction "1")
+			(net "GND6")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "48876590-15c0-4fd6-aa50-b1de903fbdc0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20060,7 +20515,14 @@
 		(path "/54f77bbd-b415-4fee-b5fb-511efd9dd0dd")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 16.62 -3.12)
 			(end 16.62 3.12)
@@ -20198,7 +20660,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "/HI")
+			(net "/HI")
 			(pintype "passive")
 			(uuid "ab217dc3-bc22-493a-8e39-6e692115b1a3")
 		)
@@ -20208,12 +20670,12 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(V2201-1G)")
+			(net "Net-(V2201-1G)")
 			(pintype "passive")
 			(uuid "1a8ea609-86ea-4cd5-bec1-1231434070dd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20283,7 +20745,14 @@
 		(path "/71346314-30a9-49f9-91b4-ab862ac0b369")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -20461,7 +20930,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "Net-(A2201-+)")
+			(net "Net-(A2201-+)")
 			(pintype "passive")
 			(uuid "d69546ae-86e6-41b9-8b90-0188bf686512")
 		)
@@ -20471,12 +20940,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "20cea811-fc5d-4787-89d8-5ebcae2676ce")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20544,7 +21013,14 @@
 		(path "/cd10398c-88ab-408b-9918-78ba4bbc9303")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.12 1.37)
 			(end 5.12 1.37)
@@ -20702,7 +21178,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND5")
+			(net "GND5")
 			(pintype "passive")
 			(uuid "bc0f59ab-f573-41d8-81f3-25ff0bc8251d")
 		)
@@ -20712,12 +21188,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 61 "Net-(D2201-+TRIGGER)")
+			(net "Net-(D2201-+TRIGGER)")
 			(pintype "passive")
 			(uuid "44d893d3-adee-4dd3-97fc-358796f5b4cc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20787,7 +21263,14 @@
 		(path "/e65035b5-60dd-4fd9-942f-8eed051de314")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -20965,7 +21448,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 67 "Net-(JP2201-B)")
+			(net "Net-(JP2201-B)")
 			(pintype "passive")
 			(uuid "47ecc225-d1e3-4f12-9a65-355f65c470aa")
 		)
@@ -20975,12 +21458,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(JP2201-A)")
+			(net "Net-(JP2201-A)")
 			(pintype "passive")
 			(uuid "577b5248-afe5-4be9-9c62-cde13adae409")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21050,7 +21533,14 @@
 		(path "/e768c1b4-ff36-4404-9d52-8a420ce4c4b8")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -21228,7 +21718,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "Net-(V2206-E)")
+			(net "Net-(V2206-E)")
 			(pintype "passive")
 			(uuid "ff50a04b-09ee-4adf-ac93-758840bd6775")
 		)
@@ -21238,12 +21728,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
+			(net "-15V")
 			(pintype "passive")
 			(uuid "e003b9d6-5596-4d97-aee9-1868533253ce")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21313,7 +21803,14 @@
 		(path "/facdae32-943e-41f7-96a5-f454a5a453a5")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -21491,7 +21988,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
+			(net "/HIOUT1")
 			(pintype "passive")
 			(uuid "ead1f9cd-a926-491c-a899-7a2de945c687")
 		)
@@ -21501,12 +21998,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "/HIOUT2")
+			(net "/HIOUT2")
 			(pintype "passive")
 			(uuid "bb3902aa-9a2e-4c34-96b3-03a08c1b9347")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21576,7 +22073,14 @@
 		(path "/d8a1488b-09cd-4c8a-9819-2654e67a9f7c")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.53 1.85)
 			(end 3.07 1.85)
@@ -21698,8 +22202,8 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "Net-(V2206-C)")
-			(pinfunction "C")
+			(net "Net-(V2206-C)")
+			(pinfunction "C_1")
 			(pintype "passive")
 			(uuid "d630c037-f2fa-4d18-ae7e-7b2190be1ef5")
 		)
@@ -21709,8 +22213,8 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "Net-(V2206-B)")
-			(pinfunction "B")
+			(net "Net-(V2206-B)")
+			(pinfunction "B_2")
 			(pintype "input")
 			(uuid "2651efdd-5f88-4f82-aa25-b6a418651c4b")
 		)
@@ -21720,13 +22224,13 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "Net-(V2206-E)")
-			(pinfunction "E")
+			(net "Net-(V2206-E)")
+			(pinfunction "E_3")
 			(pintype "passive")
 			(uuid "b9ec5f1a-2bf5-44cb-b616-ac53461dba68")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21796,7 +22300,14 @@
 		(path "/29ed0220-471c-4fa4-a76a-658cd4cfdd58")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -21974,7 +22485,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "5e219aca-14c1-4dfa-9e9f-154e1c2b2545")
 		)
@@ -21984,12 +22495,12 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "Net-(V2203-K)")
+			(net "Net-(V2203-K)")
 			(pintype "passive")
 			(uuid "88c7c9a1-961f-4006-8c66-70668dbdf7da")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22018,7 +22529,7 @@
 				)
 			)
 		)
-		(property "Value" "LF355N"
+		(property "Value" "LF355H"
 			(at 3.81 9.95 0)
 			(layer "F.Fab")
 			(uuid "fc39f4cc-c86b-4ecf-bbc0-72405fa20742")
@@ -22057,7 +22568,14 @@
 		(path "/2475600a-53ef-4ff4-ba75-1bc1c0ada981")
 		(sheetname "/")
 		(sheetfile "N22_DCAmplifier.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "7" "4" "8" "1" "5" "6")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.46 8.95)
 			(end 6.46 -1.33)
@@ -22198,8 +22716,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 30 "unconnected-(A2201-NULL-Pad1)")
-			(pinfunction "NULL")
+			(net "unconnected-(A2201-NULL-Pad1)")
+			(pinfunction "NULL_1")
 			(pintype "input+no_connect")
 			(uuid "d3e69a52-57f6-4812-b21f-49fe3dd66a57")
 		)
@@ -22209,8 +22727,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(A2201--)")
-			(pinfunction "-")
+			(net "Net-(A2201--)")
+			(pinfunction "-_2")
 			(pintype "input")
 			(uuid "d9bb6652-2551-4e4a-bc8a-99a1181bfa29")
 		)
@@ -22220,8 +22738,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "Net-(A2201-+)")
-			(pinfunction "+")
+			(net "Net-(A2201-+)")
+			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "5eb5b9ff-63b5-4eda-886d-6d9607e7c598")
 		)
@@ -22231,8 +22749,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "-15V")
-			(pinfunction "V-")
+			(net "-15V")
+			(pinfunction "V-_4")
 			(pintype "power_in")
 			(uuid "ddd807ad-0d5e-46f2-89f4-5e233285a7fb")
 		)
@@ -22242,8 +22760,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "unconnected-(A2201-NULL-Pad5)")
-			(pinfunction "NULL")
+			(net "unconnected-(A2201-NULL-Pad5)")
+			(pinfunction "NULL_5")
 			(pintype "input+no_connect")
 			(uuid "1542bab4-8efd-4362-a0dd-d0f807a2cfb4")
 		)
@@ -22253,7 +22771,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/HIOUT1")
+			(net "/HIOUT1")
 			(pintype "output")
 			(uuid "ab74b180-5e6e-41d6-98c4-d3e772dadb7f")
 		)
@@ -22263,8 +22781,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "+15V")
-			(pinfunction "V+")
+			(net "+15V")
+			(pinfunction "V+_7")
 			(pintype "power_in")
 			(uuid "04effda6-9e53-40a5-87be-5c27fbd87949")
 		)
@@ -22274,13 +22792,13 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "unconnected-(A2201-NC-Pad8)")
-			(pinfunction "NC")
+			(net "unconnected-(A2201-NC-Pad8)")
+			(pinfunction "NC_8")
 			(pintype "no_connect")
 			(uuid "56a3af5a-ca92-469d-92b0-c970c54132b7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32434,10 +32952,22 @@
 		)
 		(uuid "66ecb422-1489-49f8-8347-3ca4fd4749d7")
 	)
-	(gr_text "Ioff"
-		(at 136.5 66.75 0)
+	(gr_text "GND6"
+		(at 109 66.75 0)
 		(layer "F.SilkS")
-		(uuid "06b1c770-9a34-40d0-ae88-9a6d5e7cb5b4")
+		(uuid "a12c01ae-3c35-4463-9112-cfa3d9e3335c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HiOut"
+		(at 115.7 66.75 0)
+		(layer "F.SilkS")
+		(uuid "d982105e-bd33-40a7-915b-3e22bd034694")
 		(effects
 			(font
 				(size 1 1)
@@ -32458,10 +32988,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Voff"
-		(at 170.5 66.75 0)
+	(gr_text "Ioff"
+		(at 136.5 66.75 0)
 		(layer "F.SilkS")
-		(uuid "3c9c0a3a-5dd0-42d5-8051-79ed97e9014e")
+		(uuid "06b1c770-9a34-40d0-ae88-9a6d5e7cb5b4")
 		(effects
 			(font
 				(size 1 1)
@@ -32482,10 +33012,34 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B"
-		(at 194.5 115 0)
+	(gr_text "Demod"
+		(at 160 66.75 0)
 		(layer "F.SilkS")
-		(uuid "68cf2262-6824-4b33-9690-883332fb9a65")
+		(uuid "fbdf9f25-4d96-4110-8749-9b60e7276b26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Voff"
+		(at 170.5 66.75 0)
+		(layer "F.SilkS")
+		(uuid "3c9c0a3a-5dd0-42d5-8051-79ed97e9014e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SPIKE"
+		(at 183.25 66.75 0)
+		(layer "F.SilkS")
+		(uuid "ab77ebcb-8ff2-4c72-af01-9bee5709cfcb")
 		(effects
 			(font
 				(size 1 1)
@@ -32518,34 +33072,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND6"
-		(at 109 66.75 0)
+	(gr_text "B"
+		(at 194.5 115 0)
 		(layer "F.SilkS")
-		(uuid "a12c01ae-3c35-4463-9112-cfa3d9e3335c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "SPIKE"
-		(at 183.25 66.75 0)
-		(layer "F.SilkS")
-		(uuid "ab77ebcb-8ff2-4c72-af01-9bee5709cfcb")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "HiOut"
-		(at 115.7 66.75 0)
-		(layer "F.SilkS")
-		(uuid "d982105e-bd33-40a7-915b-3e22bd034694")
+		(uuid "68cf2262-6824-4b33-9690-883332fb9a65")
 		(effects
 			(font
 				(size 1 1)
@@ -32558,18 +33088,6 @@
 		(at 195.25 75 0)
 		(layer "F.SilkS")
 		(uuid "ecbb084d-a5f9-4f10-936b-9e7dd6e94aa1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Demod"
-		(at 160 66.75 0)
-		(layer "F.SilkS")
-		(uuid "fbdf9f25-4d96-4110-8749-9b60e7276b26")
 		(effects
 			(font
 				(size 1 1)

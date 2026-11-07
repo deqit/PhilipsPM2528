@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Philips PM2528 - N23 (Current Source)")
-		(date "2025-08-10")
+		(date "2026-11-07")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -42,7 +42,20 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -51,15 +64,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -83,68 +93,13 @@
 			(outputdirectory "")
 		)
 	)
-	(net 0 "")
-	(net 1 "unconnected-(A2301-C_{COMP}-Pad5)")
-	(net 2 "Net-(A2301-+)")
-	(net 3 "Net-(A2301-LOGIC_REFERENCE)")
-	(net 4 "Net-(A2301--)")
-	(net 5 "+15V")
-	(net 6 "Net-(A2301-~{DISABLE})")
-	(net 7 "-15V")
-	(net 8 "Net-(V2301-B)")
-	(net 9 "GND3")
-	(net 10 "Net-(V2301-E)")
-	(net 11 "Net-(V2309-B)")
-	(net 12 "/Filter")
-	(net 13 "Net-(JP2301-A)")
-	(net 14 "Net-(JP2301-B)")
-	(net 15 "/REL2301")
-	(net 16 "/REL2304")
-	(net 17 "/Iout")
-	(net 18 "unconnected-(X2301-Pad6)")
-	(net 19 "unconnected-(X2301-Pad5)")
-	(net 20 "/REL2306")
-	(net 21 "/REL2307")
-	(net 22 "/VrefZero")
-	(net 23 "/REL2303")
-	(net 24 "unconnected-(X2301--5V-Pad2)")
-	(net 25 "/Vref")
-	(net 26 "/REL2305")
-	(net 27 "/REL2302")
-	(net 28 "GND1")
-	(net 29 "GND4")
-	(net 30 "Net-(K2301-Pad1)")
-	(net 31 "Net-(K2301-Pad5)")
-	(net 32 "Net-(K2302-Pad1)")
-	(net 33 "Net-(K2303-Pad1)")
-	(net 34 "Net-(K2304-Pad1)")
-	(net 35 "Net-(K2306-Pad5)")
-	(net 36 "Net-(K2307-Pad5)")
-	(net 37 "Net-(R2304-Pad3)")
-	(net 38 "Net-(R2308-Pad2)")
-	(net 39 "Net-(R2310-Pad2)")
-	(net 40 "Net-(R2311-Pad2)")
-	(net 41 "Net-(R2312-Pad2)")
-	(net 42 "Net-(R2314-Pad2)")
-	(net 43 "Net-(R2315-Pad2)")
-	(net 44 "Net-(R2316-Pad2)")
-	(net 45 "Net-(R2318-Pad2)")
-	(net 46 "Net-(R2319-Pad2)")
-	(net 47 "Net-(R2320-Pad2)")
-	(net 48 "Net-(R2322-Pad1)")
-	(net 49 "Net-(R2324-Pad2)")
-	(net 50 "Net-(R2326-Pad1)")
-	(net 51 "Net-(R2328-Pad2)")
-	(net 52 "Net-(R2329-Pad2)")
-	(net 53 "Net-(R2331-Pad2)")
-	(net 54 "Net-(R2332-Pad2)")
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "003e8920-8acb-44f3-a715-8b23803a03a6")
 		(at 160.25 73.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2309"
-			(at -2 2.25 0)
+			(at -2.126 2.516 180)
 			(layer "F.SilkS")
 			(uuid "d0f41f95-3cc0-4874-92b1-40457be963d7")
 			(effects
@@ -155,7 +110,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "e176e8c3-6469-4be9-adbb-84a5df22e6a4")
 			(effects
@@ -165,8 +120,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "041049cd-be5d-4aa0-b04e-73911401826e")
@@ -177,8 +132,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "44cab481-43b3-4816-bfd7-a3b45fe9aea0")
@@ -193,7 +148,14 @@
 		(path "/cb69fadf-cb32-4930-9483-6089922f93a5")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -356,7 +318,7 @@
 			(uuid "e287afe4-d445-4800-8def-6ddde5546eb5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "b497c336-b674-482a-b57f-30d3931f65ca")
 			(effects
@@ -372,8 +334,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "Net-(R2308-Pad2)")
-			(pinfunction "1")
+			(net "Net-(R2308-Pad2)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "3de2fb7f-b30a-4587-89c4-441c6c652d2f")
 		)
@@ -383,8 +345,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 34 "Net-(K2304-Pad1)")
-			(pinfunction "2")
+			(net "Net-(K2304-Pad1)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "d28e6467-f9d8-447a-8f59-f67c1f6c4f84")
 		)
@@ -394,8 +356,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(A2301-+)")
-			(pinfunction "3")
+			(net "Net-(A2301-+)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "d15d3a07-055c-437f-b4c5-7660f1c1e44f")
 		)
@@ -468,7 +430,14 @@
 		(path "/068588a0-8faf-4428-8a95-fdff21a7c041")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -559,7 +528,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(R2319-Pad2)")
+			(net "Net-(R2319-Pad2)")
 			(pintype "passive")
 			(uuid "66446501-1e7d-43d9-9c22-7d642bcd78d0")
 		)
@@ -569,7 +538,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(R2320-Pad2)")
+			(net "Net-(R2320-Pad2)")
 			(pintype "passive")
 			(uuid "741d36b3-1544-44c1-b97a-bf7aeeae897c")
 		)
@@ -644,7 +613,14 @@
 		(path "/f88541e4-2eba-4321-a36d-7068de62ec97")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -792,8 +768,8 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "/Iout")
-			(pinfunction "1")
+			(net "/Iout")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "fdfc88fd-80f5-4528-bdc9-8551d990b60d")
 		)
@@ -892,7 +868,14 @@
 		(path "/52340a48-57a5-4618-8c2a-0e42855f0643")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.34 0)
 			(end 2.36 0)
@@ -1037,10 +1020,10 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -2.1 90)
+		(fp_text user "${REFERENCE}"
+			(at 5.47 0 90)
 			(layer "F.Fab")
-			(uuid "1e583f9e-92a6-4171-bfbf-2828107dc2ad")
+			(uuid "a69d07c6-8540-4aff-9a5d-12c53c3e8373")
 			(effects
 				(font
 					(size 1 1)
@@ -1048,10 +1031,10 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.47 0 90)
+		(fp_text user "K"
+			(at 0 -2.1 90)
 			(layer "F.Fab")
-			(uuid "a69d07c6-8540-4aff-9a5d-12c53c3e8373")
+			(uuid "1e583f9e-92a6-4171-bfbf-2828107dc2ad")
 			(effects
 				(font
 					(size 1 1)
@@ -1066,8 +1049,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.113636)
-			(net 29 "GND4")
-			(pinfunction "K")
+			(net "GND4")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "4779a7a0-2532-4f5d-95b0-606fa08ebe7e")
 		)
@@ -1077,8 +1060,8 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "/REL2304")
-			(pinfunction "A")
+			(net "/REL2304")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "5986dffd-13df-46ef-bfc9-8b5c67bea816")
 		)
@@ -1151,7 +1134,14 @@
 		(path "/ebddc1fa-90b4-42f1-8c1b-193bace7be5f")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.66 0)
 			(end 10.97 0)
@@ -1242,7 +1232,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 54 "Net-(R2332-Pad2)")
+			(net "Net-(R2332-Pad2)")
 			(pintype "passive")
 			(uuid "a56041de-d971-44cb-9737-ee18baf29737")
 		)
@@ -1252,7 +1242,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "/Iout")
+			(net "/Iout")
 			(pintype "passive")
 			(uuid "2e9fea5f-6ff8-43a8-a478-20c56d64d31b")
 		)
@@ -1325,7 +1315,14 @@
 		(path "/3113e11f-df2b-4b58-a3a9-1c6872830ada")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -1416,7 +1413,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "Net-(R2311-Pad2)")
+			(net "Net-(R2311-Pad2)")
 			(pintype "passive")
 			(uuid "3fc8a03d-f585-4e16-ab8e-b1874e99a928")
 		)
@@ -1426,7 +1423,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 41 "Net-(R2312-Pad2)")
+			(net "Net-(R2312-Pad2)")
 			(pintype "passive")
 			(uuid "8f78e49d-396a-477a-b6b6-59dc8d9b735d")
 		)
@@ -1525,7 +1522,14 @@
 		(path "/ba278150-d57c-4df9-a560-416a97601613")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.34 0)
 			(end 2.36 0)
@@ -1670,10 +1674,10 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -2.1 90)
+		(fp_text user "${REFERENCE}"
+			(at 5.47 0 90)
 			(layer "F.Fab")
-			(uuid "69c2a6ac-a192-4709-bb13-2acdabe54131")
+			(uuid "b3c98d02-b567-49a7-a9f2-585c3e03c725")
 			(effects
 				(font
 					(size 1 1)
@@ -1681,10 +1685,10 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.47 0 90)
+		(fp_text user "K"
+			(at 0 -2.1 90)
 			(layer "F.Fab")
-			(uuid "b3c98d02-b567-49a7-a9f2-585c3e03c725")
+			(uuid "69c2a6ac-a192-4709-bb13-2acdabe54131")
 			(effects
 				(font
 					(size 1 1)
@@ -1699,8 +1703,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.113636)
-			(net 29 "GND4")
-			(pinfunction "K")
+			(net "GND4")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "e26c78e2-74bd-4aa1-97fb-f7842da565b9")
 		)
@@ -1710,8 +1714,8 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "/REL2303")
-			(pinfunction "A")
+			(net "/REL2303")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "df091e3a-4b1e-4241-8537-7a710779095e")
 		)
@@ -1735,7 +1739,7 @@
 		(descr "solder Pin_ with flat fork, hole diameter 0.9mm, length 10.0mm, width 2.4mm")
 		(tags "solder Pin_ with flat fork")
 		(property "Reference" "TP2304"
-			(at 0 1.95 0)
+			(at -0.116 -3.11 0)
 			(layer "F.SilkS")
 			(uuid "e6f313d7-0620-4027-972b-c1135843a9e6")
 			(effects
@@ -1786,7 +1790,14 @@
 		(path "/5d931cf0-4c37-4731-9df5-30338a6d0fbe")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -1934,8 +1945,8 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "Net-(K2306-Pad5)")
-			(pinfunction "1")
+			(net "Net-(K2306-Pad5)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "e2eda45c-50dc-4c8d-b1b6-3ca16671f696")
 		)
@@ -2008,7 +2019,14 @@
 		(path "/18f7a2ee-48cf-46f8-b3db-005f7e0c9529")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -2099,7 +2117,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(A2301-+)")
+			(net "Net-(A2301-+)")
 			(pintype "passive")
 			(uuid "f662f701-05ac-4925-a979-fd3179fc9bbd")
 		)
@@ -2109,7 +2127,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "Net-(R2308-Pad2)")
+			(net "Net-(R2308-Pad2)")
 			(pintype "passive")
 			(uuid "577464d0-2cc2-46eb-bcd7-4c1c6b28fc5d")
 		)
@@ -2126,13 +2144,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "220c5fcf-ff8c-4e26-be3e-f79abf151aac")
 		(at 185.65 84.5)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2301"
-			(at 3.1 13.5 0)
+			(at 0.532 -7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b00ab020-f309-43cf-b19a-701cafaad17b")
@@ -2168,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2184,7 +2202,18 @@
 		(path "/ca2d4e4d-672a-4fa1-be4d-d45ca4fcd325")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.65 -6.05)
 			(end -2.65 15.95)
@@ -2545,7 +2574,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 30 "Net-(K2301-Pad1)")
+			(net "Net-(K2301-Pad1)")
 			(pintype "passive")
 			(uuid "040710a8-91df-4af7-9da2-f8591d7fde74")
 		)
@@ -2555,7 +2584,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(K2301-Pad5)")
+			(net "Net-(K2301-Pad5)")
 			(pintype "passive")
 			(uuid "dd40ea53-8102-4fc5-a61a-6639c001abe3")
 		)
@@ -2565,7 +2594,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "e7246dc5-48a2-48e5-89f1-0cc3b0813962")
 		)
@@ -2575,7 +2604,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/REL2301")
+			(net "/REL2301")
 			(pintype "passive")
 			(uuid "1e106e26-2fab-4ace-8a54-0f34ca5ffa63")
 		)
@@ -2637,7 +2666,14 @@
 		(path "/fcfe1b0e-6496-4398-b6f7-b80fefb0393f")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.23 -1.07)
 			(end 4.77 -1.07)
@@ -2717,7 +2753,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(V2301-E)")
+			(net "Net-(C2303-Pad1)")
 			(pintype "passive")
 			(uuid "92510339-9ddf-45c8-9b42-a8387f779a49")
 		)
@@ -2727,7 +2763,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(A2301--)")
+			(net "Net-(A2301--)")
 			(pintype "passive")
 			(uuid "78383663-c01e-4a73-bdf2-c267236e3282")
 		)
@@ -2800,7 +2836,14 @@
 		(path "/63288533-1486-4377-9149-51a7434de518")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 13.8 0)
 			(end 12.69 0)
@@ -2891,7 +2934,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Net-(R2329-Pad2)")
+			(net "Net-(R2329-Pad2)")
 			(pintype "passive")
 			(uuid "8f9148e9-6125-432d-973e-2aa827c8524e")
 		)
@@ -2901,7 +2944,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "/Iout")
+			(net "/Iout")
 			(pintype "passive")
 			(uuid "4ebb67a1-3984-4009-a309-df0f4c8fcd42")
 		)
@@ -2974,7 +3017,14 @@
 		(path "/0bfe8c88-1fa3-4377-8809-92058b950583")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -3065,7 +3115,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "Net-(R2308-Pad2)")
+			(net "Net-(R2308-Pad2)")
 			(pintype "passive")
 			(uuid "85c6f296-8f28-496f-aaf6-cfb89b32c7e3")
 		)
@@ -3075,7 +3125,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "Net-(R2310-Pad2)")
+			(net "Net-(R2310-Pad2)")
 			(pintype "passive")
 			(uuid "01d12912-6900-44bc-904e-ec2a3afd25d0")
 		)
@@ -3148,7 +3198,14 @@
 		(path "/822bff97-9481-480c-bf91-0dcc7398b93b")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -3239,7 +3296,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "Net-(R2315-Pad2)")
+			(net "Net-(R2315-Pad2)")
 			(pintype "passive")
 			(uuid "d232c792-f3a4-42a9-a052-6e729d2e26fd")
 		)
@@ -3249,7 +3306,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 44 "Net-(R2316-Pad2)")
+			(net "Net-(R2316-Pad2)")
 			(pintype "passive")
 			(uuid "abb13d87-254f-44d9-b303-ba51e7ed35b6")
 		)
@@ -3266,16 +3323,16 @@
 			)
 		)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "37822300-46b8-46bc-a3db-bf253a9494db")
 		(at 116.25 94.5 180)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2307"
-			(at 2.5 -3.5 0)
+			(at 8.554 16.776 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "433a8839-822b-4aa6-bb7d-f82c14868a1c")
+			(uuid "d4443bfc-8cd0-42aa-975e-7667c8bccabd")
 			(effects
 				(font
 					(size 1 1)
@@ -3287,7 +3344,7 @@
 			(at -10.985 -5.06 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "31aba97a-c108-4c52-8bb9-bb189a281289")
+			(uuid "45120e77-9d17-466f-911c-4cad860756e4")
 			(effects
 				(font
 					(size 1 1)
@@ -3300,7 +3357,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22ab9280-ef10-45dc-9603-53af81a9e776")
+			(uuid "2d5724e9-42da-46ae-bb95-f859a59c724b")
 			(effects
 				(font
 					(size 1 1)
@@ -3308,12 +3365,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "473d4ec7-a1af-401d-af26-f83d91c5858c")
+			(uuid "416c5a3c-8488-48f6-a438-43ba363d1e3f")
 			(effects
 				(font
 					(size 1 1)
@@ -3324,7 +3381,18 @@
 		(path "/f73c6cb2-025e-437a-a5e8-92a13d2fadb6")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 10.35 -2.5)
 			(end 10.35 12.5)
@@ -3656,9 +3724,10 @@
 			(uuid "a0fe2b2c-525c-4c5d-97d2-08384109676e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -10.985 1.94 90)
+			(at -9.985 -7.06 180)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "29d6beb0-10d1-411a-b9ba-4841a4cf4382")
+			(uuid "3746fec4-0474-472c-ad7f-0fe3a2a96dd9")
 			(effects
 				(font
 					(size 1 1)
@@ -3667,10 +3736,9 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -9.985 -7.06 180)
-			(unlocked yes)
+			(at -10.985 1.94 90)
 			(layer "F.Fab")
-			(uuid "3746fec4-0474-472c-ad7f-0fe3a2a96dd9")
+			(uuid "29d6beb0-10d1-411a-b9ba-4841a4cf4382")
 			(effects
 				(font
 					(size 1 1)
@@ -3685,7 +3753,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 35 "Net-(K2306-Pad5)")
+			(net "Net-(K2306-Pad5)")
 			(pintype "passive")
 			(uuid "e47c9fe1-6cf6-4545-a1fd-832520f8fb73")
 		)
@@ -3695,7 +3763,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "Net-(K2307-Pad5)")
+			(net "Net-(K2307-Pad5)")
 			(pintype "passive")
 			(uuid "705df1a2-00fe-45ea-9b44-c34d5b5a2628")
 		)
@@ -3705,7 +3773,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "c7ee5a4a-c884-4a76-bfb2-615fc1f75d62")
 		)
@@ -3715,7 +3783,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/REL2307")
+			(net "/REL2307")
 			(pintype "passive")
 			(uuid "8c06ce0e-e310-4fb6-b006-a6612cc19dac")
 		)
@@ -3777,7 +3845,14 @@
 		(path "/90add5d7-4062-4a7f-a912-8b96b3ce0403")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.66 0)
 			(end 10.97 0)
@@ -3868,7 +3943,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(JP2301-B)")
+			(net "Net-(JP2301-B)")
 			(pintype "passive")
 			(uuid "9571c23a-2691-4608-857a-29e801f33c53")
 		)
@@ -3878,7 +3953,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(A2301--)")
+			(net "Net-(A2301--)")
 			(pintype "passive")
 			(uuid "b0432488-b040-4dd9-91d2-f57b71fa7f02")
 		)
@@ -3902,7 +3977,7 @@
 		(descr "solder Pin_ with flat fork, hole diameter 0.9mm, length 10.0mm, width 2.4mm")
 		(tags "solder Pin_ with flat fork")
 		(property "Reference" "TP2301"
-			(at -3.75 -0.75 0)
+			(at -0.678 -4.586 90)
 			(layer "F.SilkS")
 			(uuid "bac6a9c7-e449-4744-a263-30336a7971c3")
 			(effects
@@ -3953,7 +4028,14 @@
 		(path "/8c134dbb-1da7-4f24-8a3a-9dd805f424fd")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -4101,8 +4183,8 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "Net-(K2301-Pad1)")
-			(pinfunction "1")
+			(net "Net-(K2301-Pad1)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "43f19c03-2d6f-4372-80ca-c7332f1b1b3a")
 		)
@@ -4175,7 +4257,14 @@
 		(path "/554dc249-6cb3-4357-8ad6-fac772bb612a")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -4266,7 +4355,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(R2328-Pad2)")
+			(net "Net-(R2328-Pad2)")
 			(pintype "passive")
 			(uuid "de946230-55ad-4ce2-9596-c8109c1fcf20")
 		)
@@ -4276,7 +4365,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 52 "Net-(R2329-Pad2)")
+			(net "Net-(R2329-Pad2)")
 			(pintype "passive")
 			(uuid "fb8114b6-b1bd-4431-9d80-948fa2a1f07e")
 		)
@@ -4300,7 +4389,7 @@
 		(descr "solder Pin_ with flat fork, hole diameter 0.9mm, length 10.0mm, width 2.4mm")
 		(tags "solder Pin_ with flat fork")
 		(property "Reference" "TP2303"
-			(at 0 1.95 0)
+			(at 0.124 -2.856 0)
 			(layer "F.SilkS")
 			(uuid "60da7b9d-16b0-40e6-a18a-d7c782408603")
 			(effects
@@ -4351,7 +4440,14 @@
 		(path "/6c149565-e63a-42d7-876e-660042666853")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -4499,8 +4595,8 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(K2301-Pad5)")
-			(pinfunction "1")
+			(net "Net-(K2301-Pad5)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "c3a19576-a0ad-4151-b39d-2abc14a7be6a")
 		)
@@ -4573,7 +4669,14 @@
 		(path "/05a9543b-214e-4ff3-a44c-e98c7ea0b470")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.66 0)
 			(end 10.97 0)
@@ -4664,7 +4767,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(R2322-Pad1)")
+			(net "Net-(R2322-Pad1)")
 			(pintype "passive")
 			(uuid "bfa1ce2d-8a05-4dca-b1d0-edf47540b14d")
 		)
@@ -4674,7 +4777,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(R2320-Pad2)")
+			(net "Net-(R2320-Pad2)")
 			(pintype "passive")
 			(uuid "23091a68-abc5-4f7a-899f-0df4bb1276c2")
 		)
@@ -4691,12 +4794,12 @@
 			)
 		)
 	)
-	(footprint "PM2528:PM2528_RiserCardConnector"
+	(footprint "PhilipsPM2528:PM2528_RiserCardConnector"
 		(layer "F.Cu")
 		(uuid "540af3a7-0578-4192-b0fe-c2b3f8c51e72")
 		(at 103.81 124.5 90)
 		(property "Reference" "X2301"
-			(at -6 -6.56 90)
+			(at -7 -4.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c7b15abf-0638-43f6-bfc3-31347b57352e")
@@ -4708,7 +4811,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -6 -5.06 90)
+			(at -0.5 -3 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "8728e391-370f-4991-b251-5e42e0465ddf")
@@ -4748,7 +4851,16 @@
 		(path "/9616b258-4772-4c01-b873-5e2135e3f6d6")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19"
+				)
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -8 1.84)
 			(end 0 3.24)
@@ -4985,7 +5097,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -6 -3.56 90)
+			(at 5 -4.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b8beaa99-6764-4a94-a011-d288f4356f9c")
@@ -5004,8 +5116,8 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "GND3")
-			(pinfunction "0V")
+			(net "GND3")
+			(pinfunction "0V_1")
 			(pintype "passive")
 			(uuid "e4300871-eff8-4d6a-a8be-5f1715e01739")
 		)
@@ -5017,8 +5129,8 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "unconnected-(X2301--5V-Pad2)")
-			(pinfunction "-5V")
+			(net "unconnected-(X2301--5V-Pad2)")
+			(pinfunction "-5V_2")
 			(pintype "passive+no_connect")
 			(uuid "95a0dda0-241e-4754-803f-0542cd17bdfe")
 		)
@@ -5030,7 +5142,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "-15V")
+			(net "-15V")
 			(pintype "passive")
 			(uuid "8edbbda2-8cad-4d03-94b6-dff5c696127a")
 		)
@@ -5042,7 +5154,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "086aadaa-c293-44e1-9cba-993ad5ae2606")
 		)
@@ -5054,7 +5166,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "unconnected-(X2301-Pad5)")
+			(net "unconnected-(X2301-Pad5)")
 			(pintype "passive+no_connect")
 			(uuid "449140e6-ef26-4c9c-93a9-94ae425fb7c4")
 		)
@@ -5066,7 +5178,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "unconnected-(X2301-Pad6)")
+			(net "unconnected-(X2301-Pad6)")
 			(pintype "passive+no_connect")
 			(uuid "3057b33e-c337-455a-96ec-2f11d1509d72")
 		)
@@ -5078,7 +5190,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "f43f6368-521f-4825-bf7f-0c69545aa20a")
 		)
@@ -5090,7 +5202,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "/VrefZero")
+			(net "/+2VRef")
 			(pintype "passive")
 			(uuid "740b4382-ee82-4710-8489-4836dac0eb9e")
 		)
@@ -5102,7 +5214,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "/Vref")
+			(net "/+2VRefZero")
 			(pintype "passive")
 			(uuid "b443bf0c-b0f9-40d5-97f6-03b4b005e180")
 		)
@@ -5114,7 +5226,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/REL2301")
+			(net "/REL2301")
 			(pintype "passive")
 			(uuid "04ab1df9-b23d-4ac4-b098-0e4a922fba8e")
 		)
@@ -5126,7 +5238,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "/REL2302")
+			(net "/REL2302")
 			(pintype "passive")
 			(uuid "d48b966a-ce15-4f75-b168-00ecc42b0fa9")
 		)
@@ -5138,7 +5250,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "/REL2303")
+			(net "/REL2303")
 			(pintype "passive")
 			(uuid "7d4e7520-ec63-4455-a8f6-8248db6d996f")
 		)
@@ -5150,7 +5262,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "/REL2304")
+			(net "/REL2304")
 			(pintype "passive")
 			(uuid "07b9ec73-21dd-4fc9-8be3-9d8dab3aa3ca")
 		)
@@ -5162,7 +5274,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "/REL2305")
+			(net "/REL2305")
 			(pintype "passive")
 			(uuid "d08a2ede-4dd1-466d-a629-a8a7ce73b2ff")
 		)
@@ -5174,7 +5286,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/REL2306")
+			(net "/REL2306")
 			(pintype "passive")
 			(uuid "5cb3cfb6-7c4a-4f22-91d4-a03f5fbff204")
 		)
@@ -5186,7 +5298,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/REL2307")
+			(net "/REL2307")
 			(pintype "passive")
 			(uuid "656fd12f-5327-4053-9477-d16568efdb8e")
 		)
@@ -5198,7 +5310,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "/Filter")
+			(net "/Filter")
 			(pintype "passive")
 			(uuid "a43597c3-8ef5-4cdb-9a70-49c44e11b27d")
 		)
@@ -5210,7 +5322,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "GND1")
+			(net "GND1")
 			(pintype "passive")
 			(uuid "e60889c5-98c9-4ada-a60a-07a57203f911")
 		)
@@ -5225,19 +5337,19 @@
 			(roundrect_rratio 0)
 			(chamfer_ratio 0.2)
 			(chamfer top_left)
-			(net 17 "/Iout")
+			(net "/Iout")
 			(pintype "passive")
 			(uuid "20dc787f-258a-45b9-8dac-5538f8a75050")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "575c785f-df50-48f5-8f00-bb27e43d2e68")
 		(at 155.35 94.5 180)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2304"
-			(at 2.1 -4 0)
+			(at 7.522 16.776 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "af314905-9c5a-4c89-9d5a-533afcf7bb1b")
@@ -5273,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5289,7 +5401,18 @@
 		(path "/ca839067-84a3-4cb0-9c33-7f2808a3e87e")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 10.35 -2.5)
 			(end 10.35 12.5)
@@ -5650,7 +5773,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 34 "Net-(K2304-Pad1)")
+			(net "Net-(K2304-Pad1)")
 			(pintype "passive")
 			(uuid "4828c5bd-75b2-4e73-a4fa-1183f0690991")
 		)
@@ -5660,7 +5783,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(K2301-Pad5)")
+			(net "Net-(K2301-Pad5)")
 			(pintype "passive")
 			(uuid "cc6b73c6-4341-46ae-918c-9699955df28b")
 		)
@@ -5670,7 +5793,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "477b59c8-3356-4c2c-8572-47faa14e4de6")
 		)
@@ -5680,7 +5803,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "/REL2304")
+			(net "/REL2304")
 			(pintype "passive")
 			(uuid "954025bc-7aa7-42d2-a19e-2752fa98fe8b")
 		)
@@ -5742,7 +5865,14 @@
 		(path "/4bccdc17-c9c7-4423-b22b-0f4568707a70")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.04 0)
 			(end 1.73 0)
@@ -5833,7 +5963,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(A2301--)")
+			(net "Net-(A2301--)")
 			(pintype "passive")
 			(uuid "b29640e3-1f50-4598-bccc-d056d325eeb3")
 		)
@@ -5843,7 +5973,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(V2301-E)")
+			(net "Net-(C2303-Pad1)")
 			(pintype "passive")
 			(uuid "f584ecc7-f57d-4782-b475-fb49dc16bae4")
 		)
@@ -5867,7 +5997,7 @@
 		(descr "solder Pin_ with flat fork, hole diameter 0.9mm, length 10.0mm, width 2.4mm")
 		(tags "solder Pin_ with flat fork")
 		(property "Reference" "TP2302"
-			(at 0 1.95 0)
+			(at -0.136 -2.602 0)
 			(layer "F.SilkS")
 			(uuid "1c895b8b-a23f-44be-bef4-9ff0f55dfbff")
 			(effects
@@ -5918,7 +6048,14 @@
 		(path "/2301001d-e3e9-43e6-bb3c-7a95e0abc901")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -6066,8 +6203,8 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "GND1")
-			(pinfunction "1")
+			(net "GND1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "c878c13e-dba2-4ffb-80be-2318f78fd9aa")
 		)
@@ -6140,7 +6277,14 @@
 		(path "/43aef81a-5101-48ba-8df0-6679469b6c3a")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.23 -1.07)
 			(end 4.77 -1.07)
@@ -6220,7 +6364,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(A2301-LOGIC_REFERENCE)")
+			(net "Net-(A2301-LOGIC_REFERENCE)")
 			(pintype "passive")
 			(uuid "42fb617e-cdaa-45d1-8878-921177cdb826")
 		)
@@ -6230,7 +6374,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "Net-(A2301-~{DISABLE})")
+			(net "Net-(A2301-~{DISABLE})")
 			(pintype "passive")
 			(uuid "f776f66e-41d0-4f18-b47c-ac61dd72e2a3")
 		)
@@ -6264,7 +6408,7 @@
 				)
 			)
 		)
-		(property "Value" "Vref"
+		(property "Value" "+2VRef"
 			(at 0 -2.05 0)
 			(layer "F.Fab")
 			(uuid "e383336a-ab26-4dfd-a361-686df23458c7")
@@ -6305,7 +6449,14 @@
 		(path "/8aeb8093-1a86-429e-b1fb-0925a7f2debc")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -6453,8 +6604,8 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "/Vref")
-			(pinfunction "1")
+			(net "/+2VRef")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "40745a8f-8181-43ec-8b2a-a86640f73883")
 		)
@@ -6471,13 +6622,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "6bf9d1f2-3129-409c-971b-2d84eff0006a")
 		(at 190.75 73.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2321"
-			(at -2 2.5 0)
+			(at -1.872 2.79 180)
 			(layer "F.SilkS")
 			(uuid "cded1092-315f-4494-8f2a-887d03e9574e")
 			(effects
@@ -6488,7 +6639,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "3543e04b-b8c6-4185-ab88-8c65b7d812e9")
 			(effects
@@ -6498,8 +6649,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ab0c8b3-29e7-4efe-9c46-2ac282dc768c")
@@ -6510,8 +6661,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78c26d8f-9603-4773-8bff-567fe5146330")
@@ -6526,7 +6677,14 @@
 		(path "/f6a3b351-bf08-4bec-bc45-0155aec95399")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -6689,7 +6847,7 @@
 			(uuid "b26ece69-9007-4f24-b5bb-8561ff57f2ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "16de496d-96c5-4bd2-a498-47a084a8cf20")
 			(effects
@@ -6705,8 +6863,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 47 "Net-(R2320-Pad2)")
-			(pinfunction "1")
+			(net "Net-(R2320-Pad2)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "a9f6bd88-b5e8-480d-8d51-ccfd450c9ed0")
 		)
@@ -6716,8 +6874,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "Net-(K2301-Pad1)")
-			(pinfunction "2")
+			(net "Net-(K2301-Pad1)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "d21b7a34-6b25-4948-868e-c2476c1e2699")
 		)
@@ -6727,8 +6885,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(R2319-Pad2)")
-			(pinfunction "3")
+			(net "Net-(R2319-Pad2)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "a91c6817-0a4d-47d9-8d72-99f9b45d5c80")
 		)
@@ -6745,13 +6903,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "72e57260-c853-4284-89b0-2dfbc7c0187d")
 		(at 170.75 73.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2313"
-			(at -2 2.5 0)
+			(at -2.126 2.856 180)
 			(layer "F.SilkS")
 			(uuid "d8efbc2f-cace-4172-a9f9-7fd05034a0ba")
 			(effects
@@ -6762,7 +6920,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "676f778c-39fd-47dd-bac5-3ff5bd49695c")
 			(effects
@@ -6772,8 +6930,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6df82663-f373-42ae-8235-6cff041fe1a4")
@@ -6784,8 +6942,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3e3d0df-6369-495a-93df-30d9b6688397")
@@ -6800,7 +6958,14 @@
 		(path "/072c967a-fb08-40b5-b6f3-50c54189d087")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -6963,7 +7128,7 @@
 			(uuid "f1148add-6279-41af-922c-12ef9c88107b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "80f34459-2427-468f-9d02-83efda3abf1e")
 			(effects
@@ -6979,8 +7144,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 41 "Net-(R2312-Pad2)")
-			(pinfunction "1")
+			(net "Net-(R2312-Pad2)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "b8cb335e-adde-43c6-87d0-82a548780a9b")
 		)
@@ -6990,8 +7155,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 33 "Net-(K2303-Pad1)")
-			(pinfunction "2")
+			(net "Net-(K2303-Pad1)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "5ec0da29-2336-4a28-9cb7-adecaed6f66b")
 		)
@@ -7001,8 +7166,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "Net-(R2311-Pad2)")
-			(pinfunction "3")
+			(net "Net-(R2311-Pad2)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "047b9148-8c2e-478d-a310-0aed71b3e07c")
 		)
@@ -7075,7 +7240,14 @@
 		(path "/2d5d675a-f19b-4ebb-bf0f-65a0b9516843")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -7166,7 +7338,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 44 "Net-(R2316-Pad2)")
+			(net "Net-(R2316-Pad2)")
 			(pintype "passive")
 			(uuid "124db294-527c-4200-998b-162f7d5ed96d")
 		)
@@ -7176,7 +7348,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(R2318-Pad2)")
+			(net "Net-(R2318-Pad2)")
 			(pintype "passive")
 			(uuid "7ab175e6-a5b0-453f-846a-b308368abb4c")
 		)
@@ -7275,7 +7447,14 @@
 		(path "/5ec9b6b5-61ab-4b58-ac36-14e5a719c83f")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.34 0)
 			(end 2.36 0)
@@ -7449,8 +7628,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.113636)
-			(net 29 "GND4")
-			(pinfunction "K")
+			(net "GND4")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "d39b291e-4616-4876-8f3f-08c5e203fd9b")
 		)
@@ -7460,8 +7639,8 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "/REL2307")
-			(pinfunction "A")
+			(net "/REL2307")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f3809021-2d27-4377-bb8b-f2de03d75252")
 		)
@@ -7478,13 +7657,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "85d9f67e-43fc-4ac7-80aa-0ad91ba193a9")
 		(at 114.25 73.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2331"
-			(at -2 2 0)
+			(at -1.872 2.49 180)
 			(layer "F.SilkS")
 			(uuid "546faada-7efd-434f-8131-4eca47ae3e2d")
 			(effects
@@ -7495,7 +7674,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "1d93f949-3a57-4d9f-aafe-2f4a67d8b586")
 			(effects
@@ -7505,8 +7684,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "40581ce7-9223-48d6-bf59-f89341e25dcd")
@@ -7517,8 +7696,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a113a982-8745-496a-b9c8-54f0d2dedbe6")
@@ -7533,7 +7712,14 @@
 		(path "/a38ec481-1110-40d1-96a8-c766c3a53c23")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -7696,7 +7882,7 @@
 			(uuid "8ec951e0-a5b0-4bfc-8913-73443228b5dd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "e42a125e-cec6-4d45-99ba-086eebc3975f")
 			(effects
@@ -7712,8 +7898,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "Net-(K2307-Pad5)")
-			(pinfunction "1")
+			(net "Net-(K2307-Pad5)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "e9dd17e0-f81c-44f3-83a7-f43c1b25afaa")
 		)
@@ -7723,8 +7909,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(R2331-Pad2)")
-			(pinfunction "2")
+			(net "Net-(R2331-Pad2)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "8f28b047-010d-4105-8ceb-7b7a5ed1fada")
 		)
@@ -7734,8 +7920,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(R2331-Pad2)")
-			(pinfunction "3")
+			(net "Net-(R2331-Pad2)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "5e059cf9-fc21-4b3d-8d46-03cee326877a")
 		)
@@ -7808,7 +7994,14 @@
 		(path "/cce3d4b5-c709-4ea1-9552-9ef4456ef0a9")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -7899,7 +8092,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "Net-(JP2301-A)")
+			(net "Net-(JP2301-A)")
 			(pintype "passive")
 			(uuid "901334e2-568a-445e-947c-2ad857362ab5")
 		)
@@ -7909,7 +8102,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(JP2301-B)")
+			(net "Net-(JP2301-B)")
 			(pintype "passive")
 			(uuid "9637dfab-7948-4c75-9524-5ac29346e202")
 		)
@@ -7985,7 +8178,14 @@
 		(path "/89faacfb-812a-44db-bc5f-b0dd6d545883")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 0.9)
 			(end -0.9 -0.9)
@@ -8093,8 +8293,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "Net-(JP2301-A)")
-			(pinfunction "A")
+			(net "Net-(JP2301-A)")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "094cb179-b519-4b09-808f-239c88c7d04f")
 		)
@@ -8104,8 +8304,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "Net-(JP2301-A)")
-			(pinfunction "A")
+			(net "Net-(JP2301-A)")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "0944de97-f178-4aaa-9883-f7bfdbacd359")
 		)
@@ -8139,7 +8339,7 @@
 				)
 			)
 		)
-		(property "Value" "N2157"
+		(property "Value" "+2VRefZero"
 			(at 0 -2.05 0)
 			(layer "F.Fab")
 			(uuid "7f9e4a39-289d-431c-9dab-ce745c2a03da")
@@ -8180,7 +8380,14 @@
 		(path "/ee6fc9c2-50be-48b5-a515-d70c2e3ed8a3")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -8328,8 +8535,8 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "/VrefZero")
-			(pinfunction "1")
+			(net "/+2VRefZero")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "9f99f965-d958-4c06-b05e-57c1e8568153")
 		)
@@ -8402,7 +8609,14 @@
 		(path "/8fa00b1b-c8cf-451b-9a68-1f5d8848c139")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.64 0)
 			(end 5.43 0)
@@ -8493,7 +8707,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(V2309-B)")
+			(net "Net-(C2305-Pad1)")
 			(pintype "passive")
 			(uuid "f902ad88-6824-4ba0-9985-be8cd20dd7be")
 		)
@@ -8503,7 +8717,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(R2324-Pad2)")
+			(net "Net-(R2324-Pad2)")
 			(pintype "passive")
 			(uuid "01e0dc23-4d6d-4ffc-b06a-7be0f936d0a2")
 		)
@@ -8576,7 +8790,14 @@
 		(path "/c4b2cbf2-bc49-445b-b50f-0fa65c4285fd")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.04 0)
 			(end 1.73 0)
@@ -8667,7 +8888,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "Net-(R2310-Pad2)")
+			(net "Net-(R2310-Pad2)")
 			(pintype "passive")
 			(uuid "77f8de07-63b7-4096-b6c6-ebc3db8b6b9c")
 		)
@@ -8677,7 +8898,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "Net-(R2311-Pad2)")
+			(net "Net-(R2311-Pad2)")
 			(pintype "passive")
 			(uuid "6eec6dd7-cfa1-4d4f-8318-804fe27e00b0")
 		)
@@ -8694,13 +8915,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "9e0f013f-d5f8-4f9f-9d1e-26113f6c0456")
 		(at 180.85 94.5 180)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2302"
-			(at 3.1 -3.5 0)
+			(at 7.114 17.03 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d896d754-e17c-4ae4-8dcf-a890a63689a1")
@@ -8736,7 +8957,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8752,7 +8973,18 @@
 		(path "/e90c50da-b178-4f2c-8b74-470f3d847444")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 10.35 -2.5)
 			(end 10.35 12.5)
@@ -9084,9 +9316,10 @@
 			(uuid "6ddacc28-5ddb-49b5-8d5e-761173cfa057")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -10.985 1.94 90)
+			(at -9.985 -7.06 180)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "bd2e8cdf-7fad-4c06-b863-a246cfa5f244")
+			(uuid "fdb668f6-3baa-4d9f-a4c8-aef9d722042d")
 			(effects
 				(font
 					(size 1 1)
@@ -9095,10 +9328,9 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -9.985 -7.06 180)
-			(unlocked yes)
+			(at -10.985 1.94 90)
 			(layer "F.Fab")
-			(uuid "fdb668f6-3baa-4d9f-a4c8-aef9d722042d")
+			(uuid "bd2e8cdf-7fad-4c06-b863-a246cfa5f244")
 			(effects
 				(font
 					(size 1 1)
@@ -9113,7 +9345,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 32 "Net-(K2302-Pad1)")
+			(net "Net-(K2302-Pad1)")
 			(pintype "passive")
 			(uuid "842ec7c2-46ca-4eb5-b36f-4158e4af8738")
 		)
@@ -9123,7 +9355,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(K2301-Pad5)")
+			(net "Net-(K2301-Pad5)")
 			(pintype "passive")
 			(uuid "1b78c28c-5fc0-4049-a18a-a1d63d3ac05b")
 		)
@@ -9133,7 +9365,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "c4f9948f-bf32-49cc-9183-ce4e51db64dd")
 		)
@@ -9143,7 +9375,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "/REL2302")
+			(net "/REL2302")
 			(pintype "passive")
 			(uuid "21eaf818-b4e8-430f-b01f-d6e025c9b177")
 		)
@@ -9205,7 +9437,14 @@
 		(path "/a0a12dde-d863-4ccf-af75-4a34c4052e48")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -9296,7 +9535,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "GND1")
+			(net "GND1")
 			(pintype "passive")
 			(uuid "a24c8b76-6300-4cb1-9386-bacb8c950e29")
 		)
@@ -9306,7 +9545,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(R2326-Pad1)")
+			(net "Net-(R2326-Pad1)")
 			(pintype "passive")
 			(uuid "185cf840-aae1-48c6-a0ff-0c7e7b5a493f")
 		)
@@ -9323,13 +9562,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "a52b0720-2edc-4bd1-bb34-bd238b0b21bd")
 		(at 168.35 94.5 180)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2303"
-			(at 3.1 -3.5 0)
+			(at 7.568 16.776 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "68c8b34b-ee04-4354-b1bb-959a89261c43")
@@ -9365,7 +9604,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9381,7 +9620,18 @@
 		(path "/f59e4e8d-1635-407e-bf0d-32e3a679e6c7")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 10.35 -2.5)
 			(end 10.35 12.5)
@@ -9742,7 +9992,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 33 "Net-(K2303-Pad1)")
+			(net "Net-(K2303-Pad1)")
 			(pintype "passive")
 			(uuid "625d115a-8e36-439e-86e8-e550f3a57abb")
 		)
@@ -9752,7 +10002,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(K2301-Pad5)")
+			(net "Net-(K2301-Pad5)")
 			(pintype "passive")
 			(uuid "badc9308-d517-4710-92dd-ac83cb17e0f7")
 		)
@@ -9762,7 +10012,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "7376b840-2c1a-4b05-8092-984046457340")
 		)
@@ -9772,19 +10022,19 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "/REL2303")
+			(net "/REL2303")
 			(pintype "passive")
 			(uuid "a2c6c1fb-2ef5-467d-9bbe-9d4882f0e3cd")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "a593cd2f-afc4-4127-86d3-b5ec212e2baf")
 		(at 144.25 73.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2304"
-			(at -2 2.5 0)
+			(at -1.872 2.264 180)
 			(layer "F.SilkS")
 			(uuid "353afe31-9cbe-4bac-8ba9-58c9a6af1dc8")
 			(effects
@@ -9795,7 +10045,7 @@
 			)
 		)
 		(property "Value" "1K5"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "b4e75cf4-9cc1-462b-9279-28619a2602cf")
 			(effects
@@ -9805,8 +10055,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84324b62-8373-4054-99ab-3628c02be4d4")
@@ -9817,8 +10067,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "79c37f27-2dab-4398-aa46-df0f64fcf0e8")
@@ -9833,7 +10083,14 @@
 		(path "/e3791c0c-5684-42b1-989e-ad719c5b170f")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -9996,7 +10253,7 @@
 			(uuid "d0334181-f1a4-4957-a635-10908be77695")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "a256de51-9765-4ce4-b356-da91ffd5f691")
 			(effects
@@ -10012,8 +10269,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "/VrefZero")
-			(pinfunction "1")
+			(net "/+2VRefZero")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "e4b3bb56-c543-4d0c-b92c-36dffb73f684")
 		)
@@ -10023,8 +10280,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "/VrefZero")
-			(pinfunction "2")
+			(net "/+2VRefZero")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "5b603440-8cfe-4d5d-8d75-fd6bf9b5ceed")
 		)
@@ -10034,8 +10291,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "Net-(R2304-Pad3)")
-			(pinfunction "3")
+			(net "Net-(R2304-Pad3)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "d4f711d4-264b-4714-b45b-fe37a45fe70b")
 		)
@@ -10134,7 +10391,14 @@
 		(path "/9fa3579f-eb6e-4872-bf35-5e6c5dbf78ba")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.34 0)
 			(end 2.36 0)
@@ -10279,10 +10543,10 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -2.1 90)
+		(fp_text user "${REFERENCE}"
+			(at 5.47 0 90)
 			(layer "F.Fab")
-			(uuid "2062214b-8326-4789-93ee-a4c49b98edf2")
+			(uuid "9b5a3dea-15d6-4ef7-8a8f-b96c4303ee6f")
 			(effects
 				(font
 					(size 1 1)
@@ -10290,10 +10554,10 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.47 0 90)
+		(fp_text user "K"
+			(at 0 -2.1 90)
 			(layer "F.Fab")
-			(uuid "9b5a3dea-15d6-4ef7-8a8f-b96c4303ee6f")
+			(uuid "2062214b-8326-4789-93ee-a4c49b98edf2")
 			(effects
 				(font
 					(size 1 1)
@@ -10308,8 +10572,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.113636)
-			(net 29 "GND4")
-			(pinfunction "K")
+			(net "GND4")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "5b4ecc8f-01eb-4c17-b453-98e19ddb03cf")
 		)
@@ -10319,8 +10583,8 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/REL2301")
-			(pinfunction "A")
+			(net "/REL2301")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "514a1375-f9eb-4ee5-a5cf-a6ead72f27ba")
 		)
@@ -10393,7 +10657,14 @@
 		(path "/51d1d543-4524-4fd4-b39f-d3f1874b30d1")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.037288 -1.335)
 			(end 0.412712 -1.335)
@@ -10496,7 +10767,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 5 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "0fab29b5-12a1-4b48-b996-00fd5898c97b")
 		)
@@ -10506,7 +10777,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "f8d9b8bb-43bd-4166-b925-7dfaf4820487")
 		)
@@ -10582,7 +10853,14 @@
 		(path "/3ad9b8fe-75b1-4fe5-a285-f84fdb434561")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6 -0.9)
 			(end 6 0.9)
@@ -10690,8 +10968,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(JP2301-B)")
-			(pinfunction "A")
+			(net "Net-(JP2301-B)")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "a6735271-2f74-438d-95cf-b38f6c273756")
 		)
@@ -10701,8 +10979,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(JP2301-B)")
-			(pinfunction "A")
+			(net "Net-(JP2301-B)")
+			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "a6811432-65d1-412f-8cde-b75c3d6871ef")
 		)
@@ -10775,7 +11053,14 @@
 		(path "/3f71a2ef-a225-49a5-ada0-61b352aa3ffe")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.66 0)
 			(end 10.97 0)
@@ -10866,7 +11151,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 53 "Net-(R2331-Pad2)")
+			(net "Net-(R2331-Pad2)")
 			(pintype "passive")
 			(uuid "0c50c8e4-b203-4d6f-918d-49560a9868a2")
 		)
@@ -10876,7 +11161,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 54 "Net-(R2332-Pad2)")
+			(net "Net-(R2332-Pad2)")
 			(pintype "passive")
 			(uuid "aa578571-8fa6-4184-95a2-285f1970b282")
 		)
@@ -10949,7 +11234,14 @@
 		(path "/61b060d8-cfcc-4673-a163-aa77646a4b75")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -11040,7 +11332,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "/Vref")
+			(net "/+2VRef")
 			(pintype "passive")
 			(uuid "2e4b72a9-dd6f-4aaa-af3c-7612bb19c10d")
 		)
@@ -11050,7 +11342,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "Net-(JP2301-A)")
+			(net "Net-(JP2301-A)")
 			(pintype "passive")
 			(uuid "161fd141-3cc2-4438-adbf-8e8da8751612")
 		)
@@ -11123,7 +11415,14 @@
 		(path "/1531fd37-a914-4039-b8c1-b62d9d50c1c3")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -11214,7 +11513,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 50 "Net-(R2326-Pad1)")
+			(net "Net-(R2326-Pad1)")
 			(pintype "passive")
 			(uuid "d8346ea9-7d1c-44e7-ae83-07d7d4322c64")
 		)
@@ -11224,7 +11523,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "Net-(K2306-Pad5)")
+			(net "Net-(K2306-Pad5)")
 			(pintype "passive")
 			(uuid "3353930c-dba4-48dd-93f2-9f15f49fdff1")
 		)
@@ -11295,11 +11594,18 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property ki_fp_filters "R_* RV_*")
 		(path "/03aa68ad-eb62-4a67-a651-903ad2f82435")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6 -1)
 			(end 6 2.9)
@@ -11437,7 +11743,7 @@
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 49 "Net-(R2324-Pad2)")
+			(net "Net-(R2324-Pad2)")
 			(pintype "passive")
 			(uuid "852de836-667d-478a-8b00-5398513fd09e")
 		)
@@ -11447,7 +11753,7 @@
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "/Iout")
+			(net "/Iout")
 			(pintype "passive")
 			(uuid "1423887c-7835-4f09-bfeb-a2085655d93b")
 		)
@@ -11464,13 +11770,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "b040db11-a595-4764-967c-bc5c287e63d7")
 		(at 179.75 73.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2317"
-			(at -2 2.25 0)
+			(at -1.872 2.458 180)
 			(layer "F.SilkS")
 			(uuid "020cc456-b80a-459b-9c49-cd7f368c207f")
 			(effects
@@ -11481,7 +11787,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "8589a665-64e6-4ec2-a1f8-c6d11bb0cdbc")
 			(effects
@@ -11491,8 +11797,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9321ee09-026e-48ae-92f7-d03ae5a9960b")
@@ -11503,8 +11809,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ddc8a728-b3c7-4ffb-a1dc-4754883afcab")
@@ -11519,7 +11825,14 @@
 		(path "/bdd91dbf-9650-4224-8185-f1d214d9b805")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -11682,7 +11995,7 @@
 			(uuid "cf746b0f-952b-4fdb-a52e-dabf5dcf7289")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "32f739ac-b17d-4a88-8a9e-d1115306eff0")
 			(effects
@@ -11698,8 +12011,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 44 "Net-(R2316-Pad2)")
-			(pinfunction "1")
+			(net "Net-(R2316-Pad2)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "6f3a53fc-5558-4d3d-aec2-d10903aff0b1")
 		)
@@ -11709,8 +12022,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "Net-(K2302-Pad1)")
-			(pinfunction "2")
+			(net "Net-(K2302-Pad1)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "44e56e6c-2ce4-443d-992e-f5b51f3e72c9")
 		)
@@ -11720,8 +12033,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "Net-(R2315-Pad2)")
-			(pinfunction "3")
+			(net "Net-(R2315-Pad2)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "a098e5c0-0f37-4335-84b8-833e3cb73bae")
 		)
@@ -11794,7 +12107,14 @@
 		(path "/beb18952-0b63-4494-b977-077cfaf7e4b0")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -11885,7 +12205,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "+15V")
+			(net "+15V")
 			(pintype "passive")
 			(uuid "99ee450c-2048-40f5-a31d-c2f86a1c7d01")
 		)
@@ -11895,7 +12215,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(V2301-E)")
+			(net "Net-(C2303-Pad1)")
 			(pintype "passive")
 			(uuid "505b7a91-0660-4a1b-b438-9f83997c9972")
 		)
@@ -11968,7 +12288,14 @@
 		(path "/fca0a8b2-974e-4bfb-ae7b-e653f5233bf7")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.04 0)
 			(end 1.81 0)
@@ -12059,7 +12386,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "Net-(R2318-Pad2)")
+			(net "Net-(R2318-Pad2)")
 			(pintype "passive")
 			(uuid "24092684-b68d-47fe-a7ab-d16caaaeaed0")
 		)
@@ -12069,7 +12396,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "Net-(R2319-Pad2)")
+			(net "Net-(R2319-Pad2)")
 			(pintype "passive")
 			(uuid "3ad84dc8-3764-4353-a97a-1775f9319d82")
 		)
@@ -12142,7 +12469,14 @@
 		(path "/66dcb304-e259-4dbf-9b30-c43438500377")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "7" "4" "1" "8" "5" "6")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.891017 -4.574693)
 			(end -1.654693 -3.811018)
@@ -12294,8 +12628,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(A2301-LOGIC_REFERENCE)")
-			(pinfunction "LOGIC_REFERENCE")
+			(net "Net-(A2301-LOGIC_REFERENCE)")
+			(pinfunction "LOGIC_REFERENCE_1")
 			(pintype "input")
 			(uuid "79d21787-ebdd-44f7-97eb-6303fb4373d3")
 		)
@@ -12305,8 +12639,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(A2301--)")
-			(pinfunction "-")
+			(net "Net-(A2301--)")
+			(pinfunction "-_2")
 			(pintype "input")
 			(uuid "83ba42d1-9ffc-4552-97a8-904fb1384abe")
 		)
@@ -12316,8 +12650,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(A2301-+)")
-			(pinfunction "+")
+			(net "Net-(A2301-+)")
+			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "7107469a-ebe6-4905-afdf-0f69eb7d26be")
 		)
@@ -12327,8 +12661,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "-15V")
-			(pinfunction "V-")
+			(net "-15V")
+			(pinfunction "V-_4")
 			(pintype "power_in")
 			(uuid "d388c547-7454-44f3-8806-cc4386d591fb")
 		)
@@ -12338,8 +12672,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "unconnected-(A2301-C_{COMP}-Pad5)")
-			(pinfunction "C_{COMP}")
+			(net "unconnected-(A2301-C_{COMP}-Pad5)")
+			(pinfunction "C_{COMP}_5")
 			(pintype "passive+no_connect")
 			(uuid "32e7cda9-1b8b-409e-bf35-776dbaeba8a3")
 		)
@@ -12349,7 +12683,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "Net-(V2301-B)")
+			(net "Net-(A2301-Pad6)")
 			(pintype "output")
 			(uuid "f9e72917-db58-448e-8805-3713362f86e6")
 		)
@@ -12359,8 +12693,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "+15V")
-			(pinfunction "V+")
+			(net "+15V")
+			(pinfunction "V+_7")
 			(pintype "power_in")
 			(uuid "b8f0c67e-e7b7-4711-9668-c20b7a1d1722")
 		)
@@ -12370,8 +12704,8 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "Net-(A2301-~{DISABLE})")
-			(pinfunction "~{DISABLE}")
+			(net "Net-(A2301-~{DISABLE})")
+			(pinfunction "~{DISABLE}_8")
 			(pintype "input")
 			(uuid "cea3ca21-784b-413a-bdaf-9b17eb7ec5b1")
 		)
@@ -12470,7 +12804,14 @@
 		(path "/210912c6-ed0a-4b3b-8e65-b8bc1e778e11")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.34 0)
 			(end 2.36 0)
@@ -12615,10 +12956,10 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -2.1 90)
+		(fp_text user "${REFERENCE}"
+			(at 5.47 0 90)
 			(layer "F.Fab")
-			(uuid "8910c49c-a675-488a-a4c7-5dc0de522036")
+			(uuid "a16dc852-a816-43ce-8eac-4436039b9cb2")
 			(effects
 				(font
 					(size 1 1)
@@ -12626,10 +12967,10 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.47 0 90)
+		(fp_text user "K"
+			(at 0 -2.1 90)
 			(layer "F.Fab")
-			(uuid "a16dc852-a816-43ce-8eac-4436039b9cb2")
+			(uuid "8910c49c-a675-488a-a4c7-5dc0de522036")
 			(effects
 				(font
 					(size 1 1)
@@ -12644,8 +12985,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.113636)
-			(net 29 "GND4")
-			(pinfunction "K")
+			(net "GND4")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "917e9457-d530-4a0b-9d65-4c850168da97")
 		)
@@ -12655,8 +12996,8 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/REL2306")
-			(pinfunction "A")
+			(net "/REL2306")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "b029d69d-491d-4757-a89d-f7b49ea3f5a3")
 		)
@@ -12769,7 +13110,14 @@
 		(path "/894c6cb7-7710-47dd-96cc-22c20b633e04")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "B" "C" "E")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.53 1.85)
 			(end 3.07 1.85)
@@ -12891,9 +13239,6 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "-15V")
-			(pinfunction "C")
-			(pintype "open_collector")
 			(uuid "60409cd9-db1c-4e92-9199-ffa5b67efe60")
 		)
 		(pad "2" thru_hole circle
@@ -12902,9 +13247,6 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "Net-(V2301-B)")
-			(pinfunction "B")
-			(pintype "input")
 			(uuid "c5553ff9-793e-4e15-8294-7855a2566ec7")
 		)
 		(pad "3" thru_hole circle
@@ -12913,9 +13255,6 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(V2301-E)")
-			(pinfunction "E")
-			(pintype "open_emitter")
 			(uuid "aaaf9d44-14c0-4f97-b638-c5bbf6a9d595")
 		)
 		(embedded_fonts no)
@@ -12931,13 +13270,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "be09a0f1-8b5b-4f20-a9ba-0aeab7c89f9f")
 		(at 129.35 94.5 180)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2306"
-			(at 2.6 -3.5 0)
+			(at 7.938 16.776 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f1b9431b-f1fd-4030-af72-19c273a68f12")
@@ -12973,7 +13312,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12989,7 +13328,18 @@
 		(path "/afbf27c5-b048-418f-887f-45aba49991ca")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 10.35 -2.5)
 			(end 10.35 12.5)
@@ -13321,9 +13671,10 @@
 			(uuid "8d76ac7b-952b-4dc4-9f84-2383f2d30cc5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -10.985 1.94 90)
+			(at -9.985 -7.06 180)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "96ff1118-cdca-4477-8b21-08aaed50d65c")
+			(uuid "f0028a48-9ffa-4b98-8b08-ea27f024c0e7")
 			(effects
 				(font
 					(size 1 1)
@@ -13332,10 +13683,9 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -9.985 -7.06 180)
-			(unlocked yes)
+			(at -10.985 1.94 90)
 			(layer "F.Fab")
-			(uuid "f0028a48-9ffa-4b98-8b08-ea27f024c0e7")
+			(uuid "96ff1118-cdca-4477-8b21-08aaed50d65c")
 			(effects
 				(font
 					(size 1 1)
@@ -13350,7 +13700,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 31 "Net-(K2301-Pad5)")
+			(net "Net-(K2301-Pad5)")
 			(pintype "passive")
 			(uuid "c5126eb5-aa3f-4a7e-83ac-e1ce238b6b26")
 		)
@@ -13360,7 +13710,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "Net-(K2306-Pad5)")
+			(net "Net-(K2306-Pad5)")
 			(pintype "passive")
 			(uuid "e9e85907-ac8b-4b4f-87af-38588d5825de")
 		)
@@ -13370,7 +13720,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "3d86d294-2df6-492b-9fd0-9a8d28522a1d")
 		)
@@ -13380,7 +13730,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "/REL2306")
+			(net "/REL2306")
 			(pintype "passive")
 			(uuid "fdad19d5-5a86-4719-b61a-64dcf377f5b3")
 		)
@@ -13442,7 +13792,14 @@
 		(path "/302697f3-3a63-408c-866d-0f3182d88892")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.04 0)
 			(end 1.81 0)
@@ -13533,7 +13890,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 42 "Net-(R2314-Pad2)")
+			(net "Net-(R2314-Pad2)")
 			(pintype "passive")
 			(uuid "2d528f27-04f4-4f9f-8ecb-983196ea29cb")
 		)
@@ -13543,7 +13900,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "Net-(R2315-Pad2)")
+			(net "Net-(R2315-Pad2)")
 			(pintype "passive")
 			(uuid "0608042b-ec95-4eed-8c7e-697e27c993c6")
 		)
@@ -13560,13 +13917,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Trimmer vertical"
+	(footprint "PhilipsPM2528:Trimmer vertical"
 		(layer "F.Cu")
 		(uuid "d5369162-654d-42e1-b298-c266e5b03d30")
 		(at 129.75 73.5 -90)
 		(tags "Potentiometer, trimmer")
 		(property "Reference" "R2328"
-			(at -2 2.75 0)
+			(at -1.872 2.496 180)
 			(layer "F.SilkS")
 			(uuid "b3d2efb8-ae04-4936-ae51-ef342466bf58")
 			(effects
@@ -13577,7 +13934,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 8.65 270)
+			(at 0 8.65 90)
 			(layer "F.Fab")
 			(uuid "62d9d7b1-3273-463c-aecd-6ff479a43bc0")
 			(effects
@@ -13587,8 +13944,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 270)
+		(property "Datasheet" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "553bc06a-0bd8-4e9a-b269-c824cd35d90a")
@@ -13599,8 +13956,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 270)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "818f953e-1c69-4c3e-83c1-f2ad6c1be9eb")
@@ -13615,7 +13972,14 @@
 		(path "/6e6d17e7-335c-450f-903a-55a05cdea04a")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.5 7.505)
 			(end -0.11 7.51)
@@ -13778,7 +14142,7 @@
 			(uuid "6a4b3806-6154-4203-afac-2481c36abc6a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4 2.5 270)
+			(at 2.4 2.5 90)
 			(layer "F.Fab")
 			(uuid "8daeab35-b6ab-4094-9514-0a8c8165ddac")
 			(effects
@@ -13794,8 +14158,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "Net-(K2306-Pad5)")
-			(pinfunction "1")
+			(net "Net-(K2306-Pad5)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "2eebf49e-5141-4d31-aa8c-95c26698867a")
 		)
@@ -13805,8 +14169,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(R2328-Pad2)")
-			(pinfunction "2")
+			(net "Net-(R2328-Pad2)")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "b5eb6b57-d1c9-4f91-8019-e302f4088b01")
 		)
@@ -13816,8 +14180,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 51 "Net-(R2328-Pad2)")
-			(pinfunction "3")
+			(net "Net-(R2328-Pad2)")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "8bf76c56-168a-4756-87be-e7322843b04b")
 		)
@@ -13890,7 +14254,14 @@
 		(path "/03323d2e-d5c9-4b77-a679-5b6dc6ae0af2")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.66 0)
 			(end 10.97 0)
@@ -13981,7 +14352,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "Net-(R2304-Pad3)")
+			(net "Net-(R2304-Pad3)")
 			(pintype "passive")
 			(uuid "2c26a552-5f9e-4a8b-9bb7-215e8749fd13")
 		)
@@ -13991,7 +14362,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(A2301-+)")
+			(net "Net-(A2301-+)")
 			(pintype "passive")
 			(uuid "fb8b458f-40b8-45e7-8ff0-6dea64974327")
 		)
@@ -14090,7 +14461,14 @@
 		(path "/adde6b69-0e4a-4af2-9d70-896c494ee48a")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.34 0)
 			(end 2.36 0)
@@ -14264,8 +14642,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.113636)
-			(net 29 "GND4")
-			(pinfunction "K")
+			(net "GND4")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "447de2dd-da4e-4fa4-abf7-ae237afb9a14")
 		)
@@ -14275,8 +14653,8 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "/REL2302")
-			(pinfunction "A")
+			(net "/REL2302")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "75245df1-6cee-448c-8e96-7220f3cea1a1")
 		)
@@ -14300,7 +14678,7 @@
 		(descr "solder Pin_ with flat fork, hole diameter 0.9mm, length 10.0mm, width 2.4mm")
 		(tags "solder Pin_ with flat fork")
 		(property "Reference" "TP2305"
-			(at 0 1.95 0)
+			(at 2.878 -1.718 90)
 			(layer "F.SilkS")
 			(uuid "2dae1367-74c2-413e-a8a1-cc93a6ae4d79")
 			(effects
@@ -14351,7 +14729,14 @@
 		(path "/93eb7e14-0f3e-4b9e-a813-659785bfaa77")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.3 -1.1)
 			(end -1.3 0.6)
@@ -14499,8 +14884,8 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(V2301-E)")
-			(pinfunction "1")
+			(net "Net-(C2303-Pad1)")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "456f1543-e994-42b2-8f36-35516c3d9403")
 		)
@@ -14599,7 +14984,14 @@
 		(path "/2c30dc5a-0cab-4393-8cfe-62b9889324e8")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.34 0)
 			(end 2.36 0)
@@ -14744,10 +15136,10 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -2.1 90)
+		(fp_text user "${REFERENCE}"
+			(at 5.47 0 90)
 			(layer "F.Fab")
-			(uuid "43f0cc85-b2bd-4e75-b0f3-e8c8d14c7097")
+			(uuid "61bbdf15-7ec6-4118-a89b-a2ca7c082a39")
 			(effects
 				(font
 					(size 1 1)
@@ -14755,10 +15147,10 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.47 0 90)
+		(fp_text user "K"
+			(at 0 -2.1 90)
 			(layer "F.Fab")
-			(uuid "61bbdf15-7ec6-4118-a89b-a2ca7c082a39")
+			(uuid "43f0cc85-b2bd-4e75-b0f3-e8c8d14c7097")
 			(effects
 				(font
 					(size 1 1)
@@ -14773,8 +15165,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.113636)
-			(net 29 "GND4")
-			(pinfunction "K")
+			(net "GND4")
+			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "8fe900c3-85d0-42c1-95f2-220889eee7e5")
 		)
@@ -14784,8 +15176,8 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "/REL2305")
-			(pinfunction "A")
+			(net "/REL2305")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d8da7482-3c1f-469e-b94b-896f9f271db6")
 		)
@@ -14858,7 +15250,14 @@
 		(path "/6224a9c6-702e-4fd6-947e-a8823a093b50")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -14949,7 +15348,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 41 "Net-(R2312-Pad2)")
+			(net "Net-(R2312-Pad2)")
 			(pintype "passive")
 			(uuid "b256b26b-03cb-4dd8-856a-c317edea9928")
 		)
@@ -14959,7 +15358,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 42 "Net-(R2314-Pad2)")
+			(net "Net-(R2314-Pad2)")
 			(pintype "passive")
 			(uuid "947f8f1f-5a14-4a70-a322-e0598b617ec3")
 		)
@@ -15032,7 +15431,14 @@
 		(path "/09eaf99a-2777-48a3-96e1-4136026025c7")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.66 0)
 			(end 10.97 0)
@@ -15123,7 +15529,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(V2301-E)")
+			(net "Net-(C2303-Pad1)")
 			(pintype "passive")
 			(uuid "fd53a732-74d7-46eb-807d-68e76312d01e")
 		)
@@ -15133,7 +15539,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 48 "Net-(R2322-Pad1)")
+			(net "Net-(R2322-Pad1)")
 			(pintype "passive")
 			(uuid "9c712a72-2dc8-4c38-aa80-e8f02def7aa7")
 		)
@@ -15246,7 +15652,14 @@
 		(path "/4a79ad2e-f835-4a2d-8209-81fac6c1bdea")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "B" "C" "E")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.53 1.85)
 			(end 3.07 1.85)
@@ -15368,9 +15781,6 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(V2309-B)")
-			(pinfunction "C")
-			(pintype "open_collector")
 			(uuid "628859c5-290d-43ff-a2dc-60352d2e2ebc")
 		)
 		(pad "2" thru_hole circle
@@ -15379,9 +15789,6 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(V2309-B)")
-			(pinfunction "B")
-			(pintype "input")
 			(uuid "74be8680-5a08-48cd-b9e8-04d4243d6bd3")
 		)
 		(pad "3" thru_hole circle
@@ -15390,9 +15797,6 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "GND1")
-			(pinfunction "E")
-			(pintype "open_emitter")
 			(uuid "790e6b94-d1ed-45c6-917f-6817d9d19cb3")
 		)
 		(embedded_fonts no)
@@ -15464,7 +15868,14 @@
 		(path "/7f6f0b14-d556-4f0b-9a18-9af6ead2fa6c")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 13.96 0)
 			(end 10.17 0)
@@ -15555,7 +15966,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(V2309-B)")
+			(net "Net-(C2305-Pad1)")
 			(pintype "passive")
 			(uuid "2b7a39a4-590d-438e-bc4a-e87c420eb25b")
 		)
@@ -15565,7 +15976,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "/Filter")
+			(net "/Filter")
 			(pintype "passive")
 			(uuid "7e2167e2-18c2-4dd5-a0e3-583ee7f7658a")
 		)
@@ -15582,13 +15993,13 @@
 			)
 		)
 	)
-	(footprint "PM2528:Reed relay assy"
+	(footprint "PhilipsPM2528:Reed relay assy"
 		(layer "F.Cu")
 		(uuid "fcb770bb-189a-4fbe-a5dd-c50ea028a33d")
 		(at 142.35 94.5 180)
 		(descr "Philips 5322 280 8049")
 		(property "Reference" "K2305"
-			(at 3.1 -3.5 0)
+			(at 7.73 16.776 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "927515eb-85f3-417c-9062-193b5bf94f80")
@@ -15624,7 +16035,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips 5322 280 8049"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15640,7 +16051,18 @@
 		(path "/eefdfba6-57c3-4d0f-b7d9-2daebcdb7e6f")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "6")
+			)
+			(unit
+				(name "B")
+				(pins "1" "5")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 10.35 -2.5)
 			(end 10.35 12.5)
@@ -15972,9 +16394,10 @@
 			(uuid "49e721fc-4a29-4046-ab39-8c2567ad7737")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -10.985 1.94 90)
+			(at -9.985 -7.06 180)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "52fae67f-f15a-438d-b208-a965151b1917")
+			(uuid "f7b0dcbc-46b4-4679-90a4-195c223ec803")
 			(effects
 				(font
 					(size 1 1)
@@ -15983,10 +16406,9 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -9.985 -7.06 180)
-			(unlocked yes)
+			(at -10.985 1.94 90)
 			(layer "F.Fab")
-			(uuid "f7b0dcbc-46b4-4679-90a4-195c223ec803")
+			(uuid "52fae67f-f15a-438d-b208-a965151b1917")
 			(effects
 				(font
 					(size 1 1)
@@ -16001,7 +16423,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 11 "Net-(V2309-B)")
+			(net "Net-(C2305-Pad1)")
 			(pintype "passive")
 			(uuid "e919a4b8-5547-45e9-9499-307bf405be48")
 		)
@@ -16011,7 +16433,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(K2301-Pad5)")
+			(net "Net-(K2301-Pad5)")
 			(pintype "passive")
 			(uuid "733ff4ec-77e3-4206-aee0-6714352e0da1")
 		)
@@ -16021,7 +16443,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "GND4")
+			(net "GND4")
 			(pintype "passive")
 			(uuid "110d7c6e-f3ef-433c-bb81-d961b7545de3")
 		)
@@ -16031,7 +16453,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "/REL2305")
+			(net "/REL2305")
 			(pintype "passive")
 			(uuid "d5a28ded-5049-4a7a-ba6c-3ded0511d544")
 		)
@@ -16093,7 +16515,14 @@
 		(path "/92db30b4-e3d1-42cf-8fe2-24d7d12ffb36")
 		(sheetname "/")
 		(sheetfile "N23_CurrentSource.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.187712 -1.56)
 			(end 0.187712 -1.11)
@@ -16196,7 +16625,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 9 "GND3")
+			(net "GND3")
 			(pintype "passive")
 			(uuid "5c6db5aa-1a6e-40db-a6b9-75b25f7a6260")
 		)
@@ -16206,7 +16635,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "-15V")
+			(net "-15V")
 			(pintype "passive")
 			(uuid "32eec457-c19d-4b86-a34a-cec85f98d1d4")
 		)
@@ -16222,28 +16651,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_circle
-		(center 193.103553 97)
-		(end 193.353553 97.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "1e09563e-5a48-42cf-9de3-d61d0e139f28")
-	)
-	(gr_circle
-		(center 148.353553 97)
-		(end 148.603553 97.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "2234eb2b-ddec-4c98-9322-765e5da3373c")
 	)
 	(gr_circle
 		(center 109.353553 97)
@@ -16268,6 +16675,28 @@
 		(uuid "7b580ae5-bcd2-48d6-8f7b-52a472422dfd")
 	)
 	(gr_circle
+		(center 135.103553 97)
+		(end 135.353553 97.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f526866e-9f31-437b-ad5c-02cd45e0f5e5")
+	)
+	(gr_circle
+		(center 148.353553 97)
+		(end 148.603553 97.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2234eb2b-ddec-4c98-9322-765e5da3373c")
+	)
+	(gr_circle
 		(center 161.353553 97)
 		(end 161.603553 97.25)
 		(stroke
@@ -16290,15 +16719,15 @@
 		(uuid "c1ab12e2-8e78-46ed-a6ee-bba3e2defeb0")
 	)
 	(gr_circle
-		(center 135.103553 97)
-		(end 135.353553 97.25)
+		(center 193.103553 97)
+		(end 193.353553 97.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "f526866e-9f31-437b-ad5c-02cd45e0f5e5")
+		(uuid "1e09563e-5a48-42cf-9de3-d61d0e139f28")
 	)
 	(gr_rect
 		(start 99.75 68.5)
@@ -21363,10 +21792,10 @@
 		)
 		(uuid "2b75bb7f-98eb-4799-aaea-cb06592bcb78")
 	)
-	(gr_text "20kΩ"
-		(at 165.75 70 0)
+	(gr_text "2000kΩ"
+		(at 109.75 70 0)
 		(layer "F.SilkS")
-		(uuid "05c4c8f7-6bd7-4b24-8f8a-f60d4b8cadd4")
+		(uuid "e99ef692-0698-41d5-98f3-775cf42fbc7d")
 		(effects
 			(font
 				(size 1 1)
@@ -21375,22 +21804,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "A"
-		(at 150.15 103 0)
+	(gr_text "200MΩ"
+		(at 124.75 70 0)
 		(layer "F.SilkS")
-		(uuid "60d940b8-f0d8-4fc6-a486-ee717c1db5dc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "200Ω"
-		(at 185.75 70 0)
-		(layer "F.SilkS")
-		(uuid "7e1f555b-8eff-4c50-b1ee-8daff6427a11")
+		(uuid "d817b80c-bc63-4bef-8776-22e4dc6da7b5")
 		(effects
 			(font
 				(size 1 1)
@@ -21403,6 +21820,18 @@
 		(at 140.25 70 0)
 		(layer "F.SilkS")
 		(uuid "b668742d-87f8-4288-b6ae-241b62d54fce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A"
+		(at 150.15 103 0)
+		(layer "F.SilkS")
+		(uuid "60d940b8-f0d8-4fc6-a486-ee717c1db5dc")
 		(effects
 			(font
 				(size 1 1)
@@ -21435,10 +21864,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "200MΩ"
-		(at 124.75 70 0)
+	(gr_text "20kΩ"
+		(at 165.75 70 0)
 		(layer "F.SilkS")
-		(uuid "d817b80c-bc63-4bef-8776-22e4dc6da7b5")
+		(uuid "05c4c8f7-6bd7-4b24-8f8a-f60d4b8cadd4")
 		(effects
 			(font
 				(size 1 1)
@@ -21459,10 +21888,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "2000kΩ"
-		(at 109.75 70 0)
+	(gr_text "200Ω"
+		(at 185.75 70 0)
 		(layer "F.SilkS")
-		(uuid "e99ef692-0698-41d5-98f3-775cf42fbc7d")
+		(uuid "7e1f555b-8eff-4c50-b1ee-8daff6427a11")
 		(effects
 			(font
 				(size 1 1)

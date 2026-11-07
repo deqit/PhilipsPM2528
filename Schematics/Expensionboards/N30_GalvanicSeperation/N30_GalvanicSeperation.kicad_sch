@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N30 (Galvanic Seperation)")
-		(date "2026-11-05")
+		(date "2026-11-07")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -4852,12 +4852,6 @@
 		(uuid "34170703-7594-4254-be2d-c9ca720ac9a0")
 	)
 	(junction
-		(at 227.33 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34436072-bd36-48ed-81cf-801f3ed44dc6")
-	)
-	(junction
 		(at 200.66 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4976,6 +4970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74fb1370-0375-4450-83ba-0f70a2c2150b")
+	)
+	(junction
+		(at 227.33 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c741a77-44d1-487b-9f50-541b81e4977b")
 	)
 	(junction
 		(at 180.34 245.11)
@@ -5376,6 +5376,16 @@
 			(type default)
 		)
 		(uuid "0dd306cc-52f0-4255-86b1-533216d1e36f")
+	)
+	(wire
+		(pts
+			(xy 227.33 229.87) (xy 227.33 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de4d95d-1a79-4053-98d7-307c9f01b0ae")
 	)
 	(wire
 		(pts
@@ -6059,16 +6069,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 229.87) (xy 227.33 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdff766-dfec-4f32-8aa3-2e82c0c826ea")
-	)
-	(wire
-		(pts
 			(xy 238.76 25.4) (xy 241.3 25.4)
 		)
 		(stroke
@@ -6079,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 231.14) (xy 210.82 231.14)
+			(xy 210.82 231.14) (xy 227.33 231.14)
 		)
 		(stroke
 			(width 0)
@@ -6536,16 +6536,6 @@
 			(type default)
 		)
 		(uuid "7a86df0d-ee08-4866-b4e7-7dca456e2c1b")
-	)
-	(wire
-		(pts
-			(xy 241.3 231.14) (xy 227.33 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cd0d6ad-080d-45f1-9248-76420e0a326d")
 	)
 	(wire
 		(pts
@@ -7746,6 +7736,16 @@
 			(type default)
 		)
 		(uuid "ed1d866b-2f48-4ef4-b7ce-d89a2d4d45f6")
+	)
+	(wire
+		(pts
+			(xy 227.33 231.14) (xy 241.3 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb5329a-53de-4b99-b335-5be58dc575f1")
 	)
 	(wire
 		(pts
@@ -11339,7 +11339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Philips_PM2528:PM2528_RiserCardConnector"
+		(property "Footprint" "PhilipsPM2528:PM2528_RiserCardConnector"
 			(at 36.83 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13279,7 +13279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "22n"
 			(at 202.184 261.874 0)
 			(show_name no)
 			(do_not_autoplace no)

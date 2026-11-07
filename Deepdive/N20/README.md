@@ -10,7 +10,7 @@ Its functions include:
 ![ADC Signalflow](assets/ADC_Signalflow_N20.png "The signalflow between the components")
 
 ### The signals
-The signals used/shown on this page (see also the image above):
+#### External signals (to/from this board)
 | Name | Description | I/O | Target | I/O Pin | Testpoint |
 | - | - | :-: | - | -: | - |
 | **SRUP** | Start Ramp-Up | I | CPU | 8 |
@@ -20,11 +20,23 @@ The signals used/shown on this page (see also the image above):
 | **DN+** | RampDown phase, for +pol input signals | O | ADC Analog | 13 | TP2008 |
 | **UP** | RampUp phase | O | ADC Analog| 14 | TP2007 | 
 | **XC20** | Counter overflow (20.000 counts) @ RampDown| O | CPU.T1 | 15 |
-| **AZ** | AutoZero active? | O | ADC Analog, CPU | 12 |
+| **AZ** | AutoZero active | O | ADC Analog, CPU | 12 |
 | **COMP** | COMPuting (integrator busy) | I | ADC Analog | 19 | TP2006 |
 | **C20000** | Counter overflow (20.000 counts) | I | Counter | 5 |
 | **CPC** | ClockPulses for Counter | O | Counter | 4 | TP2011 |
 | **RC** | Reset Counter | O | Counter | 3 | TP2003 |
+| **POL** | Polarity of the input | O | CPU | 6 ||
+| **HSM** | High Speed Mode (40.000 counts instead of 20.000) @ RampUp | I | CPU | 7 ||
+
+#### Internal signals (internal on the board)
+| Name | Description |
+| - | - |
+| **xSTD** | STart Down-count. Goes high 8 CP pulses after RampDown starts (Q3 of counter D2002A) and triggers the RC pulse that restarts the counter.|
+| **xERD** |Enable RampDown overflow. It is x/UP AND xECP, delayed about 70 µs by R2002/C2008. It opens the XC20 gate and freezes counter D2002B.|
+|**xENC20**|ENable end-of-RampUp C20000. High while D2002B is at 9, or at 1 in HSM, so the next overflow ends RampUp.|
+|**xEC20**|**xXC20** AND **xENC20**: the overflow pulse that ends RampUp (about 1.4 µs).|
+|**xRDY**|Set when COMP flips during RampDown. It stays high until the CPU's SAZ pulse, so the ~60 µs width is set by the firmware, not by this board. |
+|**xSCP**|SAZ OR xRDY. It closes the counter gate at once.|
 
 In the scope-screendumps, you'll also see these signals:
 | Trace | Description | Measuring point |
@@ -64,7 +76,7 @@ See the first image in this section for reference.
 - The ADC Control sets **DN+** to indicate the ADC Analog we're now starting the Ramp-Down phase. The ADC Analog selects the positive reference-signal for de-integrating. For negative measure-signals, the ADC Analog would set **DN-** (not pictured).
 - The ADC Control resets the counter via **RC**. The counter resets and sets/keeps the **C20000** signal high (it's active low).
 
-Note: **CPC** pauses for about 4.5 µs around the RC pulse while **DN+** is already active, so about 9 clock pulses are not counted. This is a fixed offset.
+Note: **CPC** pauses for about 4.5 µs around the RC pulse while **DN+** is already active, so about 9 clock pulses are not counted.
 
 #### @100-170ms: Ramp-down phase
 See the first image in this section for reference.
@@ -137,14 +149,27 @@ This section creates the **XC20** signal for the CPU. This is in fact a gated Co
 
 ![N20 Gated Counter Overflow](assets/N20_Schematics_GatedCounterOverflow.png "N20 Gated Counter Overflow")
 
-### Section: Invert counterpulses
-tbd
+### Section: Determine end of RampUp phase
+This section generates the internal **xENC20** signal. In HSM-mode it sets **xENC20** after the 1st Counter-overflow, so the RampUp-phase ends at the 2nd overflow (40.000 counts, 20 ms). Otherwise it sets **xENC20** after the 9th overflow, and the RampUp-phase ends at the 10th (200.000 counts, 100 ms). The RampUp-phase ends on the falling edge of **xENC20**.
 
-### Section: Determine length of RampUp phase
-This section generates the internal **xENC20** signal. In HSM-mode it sets **xENC20** after the 1st Counter-overflow, so the RampUp-phase ends at the 2nd overflow (40.000 counts, 20 ms). Otherwise it sets **xENC20** after the 9th overflow, and the RampUp-phase ends at the 10th (200.000 counts, 100 ms). The RampUp-phase ends on the falling edge of **xENC20**."
 
-### Section: Determine start and end of RampDown
-tbd
+### Section: Timing-table
+| **CP**-Edge | What's happening | Components |
+|-|-|-|
+| rising, **SRUP**=high|**RC** set|D2005 (**RC**) |
+| next falling|**AZ** cleared, counter gate **xECP** opens, **RC** cleared|D2009 (**xAZ**), D2005 (**xECP**) |
+| next rising| **UP** set, count 1 | D2009 (**UP**), D2010 (**CPC**) |
+| 200.000th rising  | Counter overflow: **C20000** --> **xXC20** --> **xEC20**, **POL** latched | Counter, D2001 |
+| next rising | **UP** cleared (integrator input off| D2009 (**UP**) |
+| next falling | **DN+** or **DN-** high, counter gate **xECP** closed | D2003 (**xRD**), D2005 (**xECP**) |
+| next 8 falling edges | Counts to 8 --> **xSTD** high | D2002A |
+| next rising | **RC** set: Counter cleared | D2005 (**RC**) |
+| next falling | **RC** cleared, Counter gate opens | D2005 (**xECP**)|
+| next rising | First counter **CP** @RampDown| D2010 (**CPC**) |
+| (70us after gate open) | **XC20** gate opens | R2002/C2008 --> **xERD** |
+| (**COMP** flips) | **xRDY** set --> **xSCP** --> counter gate closes | D2006 --> D2003 (**xRDY**) |
+| next falling | **xRD** cleared, **DN+** or **DN-** off | D2003 (**xRD**) |
+| next falling | **AZ** set --> CPU sees this, pulses **SAZ** after 67us | D2009 (**xAZ**) |
 
 
 ## PCB

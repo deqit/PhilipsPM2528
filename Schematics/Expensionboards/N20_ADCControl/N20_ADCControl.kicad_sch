@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N20 (ADC Control)")
-		(date "2026-01-16")
+		(date "2026-11-07")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -5648,13 +5648,14 @@
 		)
 		(uuid "f3217a87-4e23-4b0c-9b59-779129f7fbcb")
 	)
-	(text "τ=102μs"
+	(text "τ≈102μs\nEffective: delays xERD by ≈70us\nAvoid XC20-glitch due to signalpaths"
 		(exclude_from_sim no)
-		(at 163.322 218.44 0)
+		(at 167.132 219.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "298a8370-e106-4898-860f-324a31ba007e")
 	)
@@ -5669,7 +5670,7 @@
 		)
 		(uuid "3cf90303-50d8-43fd-9bb3-b868bd69e20b")
 	)
-	(text "Determine length of RampUp phase"
+	(text "Determine end of RampUp phase"
 		(exclude_from_sim no)
 		(at 255.27 48.768 0)
 		(effects
@@ -5744,13 +5745,14 @@
 		)
 		(uuid "ce165586-985a-400d-9098-16d288756018")
 	)
-	(text "τ=1,54μs"
+	(text "τ≈1,4μs\nPulse instead of edge/level of counter-overflow"
 		(exclude_from_sim no)
-		(at 116.078 216.408 0)
+		(at 120.396 216.916 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "d890d049-718b-415e-a269-b16e3d2478b1")
 	)

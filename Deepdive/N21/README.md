@@ -21,7 +21,7 @@ The signals used/shown on this page (see also the image above):
 
 ## A Measurement Cycle from the ADC Analog's perspective
 
-This section describes in detail how the N20 takes it role as the conductor of a measurement. The next image shows an overview, including the most important signals.
+This section describes in detail how the N20 takes it role in a measurement. The next image shows an overview, including the most important signals.
 
 _Note: In the images below, the analogue traces are offset by +5V. That's because the digital 0V is -5V in reference to the analogue 0V and this is the way to show two signals in one screenshot (apart from Photoshop)._
 
@@ -44,7 +44,7 @@ See the first image in this section for reference.
 (please add 100ms to the time in the image)
 ![N21 Start RampDown](assets/N21_RampDown.png "N21 Start RampDown")
 - The ADC Control releases the **UP** signal as the fixed time has passed.
-- The ADC Analog sets the **DN+** signal to tell the ADC Analog it can start the Ramp-Down phase.
+- The ADC Control sets the **DN+** signal to tell the ADC Analog it can start the Ramp-Down phase.
 - As a response, the ADC Analog now selects the correct Reference Signal (**yellow trace**), in this case +2V.
 - The integrator now start to drain the capacitor (**purple trace**).
 
@@ -55,7 +55,7 @@ See the first image in this section for reference.
 #### @170ms: Measurement ready
 ![N21 Measurement Finished](assets/N21_Finished.png "N21 Measurement Finished")
 - The ADC Analog detects de-integrating is ready (the capacitor-voltage crosses zero) and resets the **COMP** signal.
-- The ADC Control release the **DN++** signal, telling the ADC Control to stop the Ramp-down phase.
+- The ADC Control release the **DN++** signal, telling the ADC Analog to stop the Ramp-down phase.
 - The ADC Analog deselects the reference-signal from the integrator-input
 - The ADC Control sets the **AZ** signal, the ADC Analog initiates the Auto-zero circuitery.
 

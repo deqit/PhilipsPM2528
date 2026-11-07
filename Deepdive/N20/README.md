@@ -15,11 +15,11 @@ The signals used/shown on this page (see also the image above):
 | - | - | :-: | - | -: | - |
 | **SRUP** | Start Ramp-Up | I | CPU | 8 |
 | **SAZ** | Set Auto Zero | I | CPU |9 |
-| **CP** | Clock Pulses | I | CPU | 16 | TP2001 |
+| **CP** | Clock Pulses (2Mhz) | I | CPU.T0 | 16 | TP2001 |
 | **DN-** | RampDown phase, for -pol input signals | O | ADC Analog | 11 | TP2010 |
 | **DN+** | RampDown phase, for +pol input signals | O | ADC Analog | 13 | TP2008 |
 | **UP** | RampUp phase | O | ADC Analog| 14 | TP2007 | 
-| **XC20** | Counter overflow (20.000 counts) @ RampDown | O | CPU | 15 |
+| **XC20** | Counter overflow (20.000 counts) @ RampDown| O | CPU.T1 | 15 |
 | **AZ** | AutoZero active? | O | ADC Analog, CPU | 12 |
 | **COMP** | COMPuting (integrator busy) | I | ADC Analog | 19 | TP2006 |
 | **C20000** | Counter overflow (20.000 counts) | I | Counter | 5 |
@@ -45,9 +45,9 @@ _Note: In the images below, the analogue traces are offset by +5V. That's becaus
 - The measurement starts with a **SRUP**-pulse from the CPU
 - The ADC Control resets the counter via **RC**. The counter resets and sets the **C20000** signal high (it's active low)
 - The ADC Control opens the gate for the **CP** signals to passthrough to the Counter via the **CPC** signal.
-- The ADC Control raises the **UP** signal, which instructs the ADC Analog to select the input-signal (reverse polarity) to be selected.
+- The ADC Control raises the **UP** signal, which instructs the ADC Analog to select the input-signal (reverse polarity).
 - The **AZ** signal is set low by the ADC-control, indicating there's no auto-zeroing going on.
-- The ADC Analog signals the ADC Analog it's integrating, by setting the **COMP** signal.
+- The ADC Analog signals the ADC Control that it is integrating, by setting the **COMP** signal.
 
 #### @0-100ms: Ramp-up phase
 See the first image in this section for reference.
@@ -64,6 +64,8 @@ See the first image in this section for reference.
 - The ADC Control sets **DN+** to indicate the ADC Analog we're now starting the Ramp-Down phase. The ADC Analog selects the positive reference-signal for de-integrating. For negative measure-signals, the ADC Analog would set **DN-** (not pictured).
 - The ADC Control resets the counter via **RC**. The counter resets and sets/keeps the **C20000** signal high (it's active low).
 
+Note: **CPC** pauses for about 4.5 µs around the RC pulse while **DN+** is already active, so about 9 clock pulses are not counted. This is a fixed offset.
+
 #### @100-170ms: Ramp-down phase
 See the first image in this section for reference.
 - The ADC (**purple trace**) keeps draining
@@ -74,14 +76,14 @@ See the first image in this section for reference.
 - The ADC Analog detected that de-integrating is ready by resetting the **COMP** signal.
 - The ADC Control then resets the **DN+** signal
 - The ADC Control closes the gate for the **CPC** signal, stopping the Counter.
-- The ADC Control asserts the **AZ** signal, signalling the CPU it's job has been done and signaling the ADC Analog to select 0V (**yellow trace**) as input to the ADC logic.
+- The ADC Control asserts the **AZ** signal, signalling the CPU its job has been done and signaling the ADC Analog to select 0V (**yellow trace**) as input to the ADC logic.
 
 
 The CPU has enough info to calculate the voltage of the input-signal:
 - the current value of the Counter
 - Multiply the number of **XC20** pulses by 20.000
 - Ramp-up phase = 200.000 counts (=fixed)
-- Ramp-down phase = 135.100 counts (=6 x 20.000 from **XC20** + 15.100 from the Counter), which should be the same as the nummber of pulses **CPC**
+- Ramp-down phase = 135.100 counts (=6 x 20.000 from **XC20** + 15.100 from the Counter), which should be the same as the number of pulses **CPC**
 - Reference-voltage = 2000mV
 >Vin = (Tdown / Tup) × Vref = (135.100 / 200.000) * 2000mV = 1351mV
 
@@ -121,7 +123,7 @@ This section generates the **CPC** (ClockPulses for Counter) and **RC** (Reset C
 This section generates the **UP** (RampUp active) and **AZ** (AutoZero) signals.
 
 The **UP** (RampUp) signal is active during the RampUp phase.
-The **AZ** (AutoZero) signal is active when the measurement is not active, eg, when not in the RampUp or RampDown phase.
+The **AZ** (AutoZero) signal is active when the measurement is not active, i.e. when not in the RampUp or RampDown phase.
 
 ![N20 UpAutozero](assets/N20_Schematics_UpAutozero.png "N20 UpAutozero")
 
@@ -136,15 +138,15 @@ This section creates the **XC20** signal for the CPU. This is in fact a gated Co
 ![N20 Gated Counter Overflow](assets/N20_Schematics_GatedCounterOverflow.png "N20 Gated Counter Overflow")
 
 ### Section: Invert counterpulses
-
+tbd
 
 ### Section: Determine length of RampUp phase
-This section generates the internal **xENC20** signal. In HSM-mode it sets **xENC20** after one Counter-overflow (10ms), otherwise it sets **xENC20** after 9 Counter-overflows (eg, 100ms). The RampUp-phase ends on the falling edge of **xENC20**, see the 'Generate internal signals' section.
+This section generates the internal **xENC20** signal. In HSM-mode it sets **xENC20** after the 1st Counter-overflow, so the RampUp-phase ends at the 2nd overflow (40.000 counts, 20 ms). Otherwise it sets **xENC20** after the 9th overflow, and the RampUp-phase ends at the 10th (200.000 counts, 100 ms). The RampUp-phase ends on the falling edge of **xENC20**."
 
 ### Section: Determine start and end of RampDown
-
+tbd
 
 
 ## PCB
 ![N20 PCB](assets/N20_PCB.png "N20 PCB")
-![N21 PCB 3D](assets/N20_PCB-3D.png "N20 PCB 3D")
+![N20 PCB 3D](assets/N20_PCB-3D.png "N20 PCB 3D")

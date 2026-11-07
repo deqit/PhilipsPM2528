@@ -33,15 +33,15 @@ This board forms the digital control interface between the microcontroller, the 
 Here lies the analog heart of the converter. This board provides a reference voltage for the de-integration phase and contains all analog logic for the dual slope integration process.
 
 #### The Counter
-The 20.000 counts Counter just counts pulses, provided by the ADC Control. In return, it provides the actual count-value to the CPU.
+The 20.000-counts counter just counts pulses, provided by the ADC Control. In return, it provides the actual count-value to the CPU.
 
 ### The signals
 The signals used/shown on this page (see also the image above):
 | Signal | Use | Source | Target |
 | - | - | - | - |
 | **SRUP** | Start Ramp-Up | CPU | ADC Control |
-| **SAZ** | Set Auto Zero | CPU | ADC Analog |
-| **CP** | Clock Pulses | CPU | ADC Analog |
+| **SAZ** | Set Auto Zero | CPU | ADC Control |
+| **CP** | Clock Pulses (2Mhz, CPU T0) | CPU | ADC Control |
 | **XC20** | Counter overflow (20.000 counts) @ RampDown | ADC Control | CPU |
 | **Count** | Current value | Counter | CPU |
 | **yellow trace** | Input to ADC Integrator | Signal conditioning | ADC Analog |
@@ -58,7 +58,7 @@ The screencapture below shows a full ADC-cycle. The input voltage is about 1351m
 
 #### @0ms: start of the cycle
 - The CPU sets the **SRUP** signal. This initiates the 'Ramp-Up' phase.
-- The input-signal (**yellow trace**, reverse polarity, why?) is offered to the ADC
+- The input-signal (**yellow trace**, reverse polarity) is offered to the ADC
 - The **AZ** signal is set low by the ADC-control, indicating there's no auto-zeroing going on.
 
 #### @0-100ms: Ramp-up phase
@@ -71,10 +71,10 @@ The screencapture below shows a full ADC-cycle. The input voltage is about 1351m
 
 #### @100-170ms: Ramp-down phase
 - The ADC (**purple trace**) keeps draining due to the reference voltage
-- Every 20.000 pulses of the clock, the CPU receives the Counter Overflow pulse (**XC20**). The CPU counts the number of these pulses.
+- Every 20.000 pulses of the clock, the CPU receives the Counter Overflow pulse (**XC20**) on T1. The CPU's build-in counter counts them.
 
 #### @170ms: Measurement ready
-- The ADC (**purple trace**) has crossed zero, meaning we're ready. The CPU knows this, because the AutoZero signal (**AZ**) has been set by the ADC Control.
+- The ADC (**purple trace**) has crossed zero, meaning we're ready. The CPU knows this by looking at the AutoZero signal (**AZ**) every 15us. ADC Control controls the **AZ** signal. If there's no **AZ** within 326ms, the firmware concludes this as an overload.
 - The CPU asserts **SAZ** telling the ADC Control to auto-zero.
 - The input signal to the ADC (**yellow trace**) is reset to 0V.
 
@@ -93,4 +93,4 @@ When you offer a small voltage (but in the same measurement range), the Ramp-dow
 ![ADC Full MeasurementCycle](assets/ADC_FullMeasurementCycle_0500mV.png "A complete measurement-cycle")
 
 ### High-speed mode
-In high-speed mode (can only be enabled via the GPIB-interface) the ramp-up phase is reduced from 200.000 counts to 20.000 counts, eg, 10 times faster.
+In high-speed mode (can only be enabled via the GPIB-interface) the ramp-up phase is reduced from 200.000 counts to 40.000 counts, eg, 5 times faster.

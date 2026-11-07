@@ -1,6 +1,6 @@
 ; Using sbasm30312 (https://www.sbprojects.net/sbasm/)
         .cr 8048
-        .tf PM2528MyTest.bin BIN
+        .tf PM2528Test.bin BIN
         .or $0000
 
 ;**********************
@@ -56,5 +56,5 @@ LoadRegistersForDisplaying
         RET
 
 ;****************************************************************************************
-        .in PM2528_DisplayRoutines.asm
-        .in PM2528_HelperRoutines.asm
+        .in PM2528_DisplayRoutines.a48
+        .in PM2528_HelperRoutines.a48

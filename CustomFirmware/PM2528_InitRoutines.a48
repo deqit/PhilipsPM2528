@@ -1,0 +1,64 @@
+;****************************************************************************************
+; Initialisation of the 8243 I/O expanders, based on the original firmware.
+;
+; Relays: the relay bytes the original BuildSignalPath (0x0b21) produces for VDC on the highest
+; range (FuncRange = $07, Mode = $80), computed with reveng/tools/mcs48.py:
+;   D1701: R2 = $FF (P4 low, P5 high nibble), R3 = $BF (P6 low, P7 high nibble)
+;   D1702: R4 = $80 (P4, P5), R5 = $F2 (P6, P7)
+;   D1703: R6 = $FE (P5, P6), R7 = $0E (P7 low nibble)
+; written in the same order as TaskReconfigure (0x0a17-0x0a35). Bit meanings: see the
+; P4-P7 plates in the Ghidra project.
+;
+;**********************
+InitRelays
+        ANL        P2,#%00001111                                  Deselect all IO-expanders (D170x, N2)
+        ORL        P2,#%11000000                                  Select D1701
+        MOV        A,#$0F
+        MOVD       P4,A                                           R2 low nibble
+        MOVD       P5,A                                           R2 high nibble
+        MOVD       P6,A                                           R3 low nibble
+        MOV        A,#$0B
+        MOVD       P7,A                                           R3 high nibble
+        MOV        A,#%11011111
+        OUTL       P2,A                                           Select D1702
+        MOV        A,#$00
+        MOVD       P4,A                                           R4 low nibble
+        MOV        A,#$08
+        MOVD       P5,A                                           R4 high nibble
+        MOV        A,#$02
+        MOVD       P6,A                                           R5 low nibble
+        MOV        A,#$0F
+        MOVD       P7,A                                           R5 high nibble (/CHSUM high)
+        MOV        A,#%11101111
+        OUTL       P2,A                                           Select D1703
+        MOV        A,#$0E
+        MOVD       P5,A                                           R6 low nibble (N27 /RESET high, SEL low)
+        MOV        A,#$0F
+        MOVD       P6,A                                           R6 high nibble
+        MOV        A,#$0E
+        MOVD       P7,A                                           R7 low nibble
+        ANL        P2,#%00001111                                  Deselect all IO-expanders (D170x, N2)
+        RET
+
+;**********************
+; All indicator LEDs on N2 off.
+; D201: P6/P7 bits are 0 = LED on. D202: P4 code 0111 is the unused unit output, P5 code 1010 is an
+; unused (illegal) function code, P6 = 0 shows no Vpeak marks and no sign, P7 = $F shows no
+; decimal point (0 = DP on). The D202 P6/P7 polarity is inferred from the original code (check).
+InitIndicators
+        MOV        A,#%01001111
+        OUTL       P2,A                                           Select N2 / D201
+        MOV        A,#$0F
+        MOVD       P6,A                                           HR, REMOTE, OFFSET off; no keyboard row selected
+        MOVD       P7,A                                           AUTO, MAN, EXT, INT off
+        ORL        P2,#%00010000                                  D201 -> D202
+        MOV        A,#%00000111
+        MOVD       P4,A                                           Unit code 0111 = (nc): no unit LED
+        MOV        A,#%00001010
+        MOVD       P5,A                                           Function code 1010 (illegal): no function LED
+        CLR        A
+        MOVD       P6,A                                           No Vpeak marks, no sign
+        MOV        A,#$0F
+        MOVD       P7,A                                           No decimal point
+        ANL        P2,#%00001111                                  Deselect all IO-expanders (D170x, N2)
+        RET

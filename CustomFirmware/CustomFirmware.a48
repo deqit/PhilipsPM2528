@@ -6,26 +6,31 @@
 ;**********************
         .no $0000
 RESET   
-        JMP MainRoutine
+        JMP Boot
 
 ;**********************
         .no $0003
 EXTIRQ  
-        RET
+        RETR
         
 
 ;**********************
         .no $0007
-TIMIRQ  RET
+TIMIRQ  RETR
 
 
 ;**********************
-MainRoutine
+Boot
         ; Setup
         ; From PM2528
+        CLR A
         ANL        P1,#%11010011 ; clear stuff
         ANL        P2,#%01001111                              Select N2 / D201
         MOVD       P4,A                                       Set all outputs to 0 (eg: check for no key in keyboard-matrix)
+        ANL        P2,#%00001111                              Deselect all IO-expanders (D170x, N2)
+        CALL InitRelays                                       Relays as for VDC, highest range
+        CALL InitIndicators                                   All indicator LEDs off
+        CALL PulseWatchdog
 
 .MainLoop
         MOV R0,#$0A
@@ -36,6 +41,7 @@ MainRoutine
 
         MOV R1,#$32                     ; wait 500msecs
 .delay
+        CALL PulseWatchdog                                    every 10 ms, like the original MainLoop
         CALL Delay10msecs
         DJNZ R1,.delay
 
@@ -58,3 +64,4 @@ LoadRegistersForDisplaying
 ;****************************************************************************************
         .in PM2528_DisplayRoutines.a48
         .in PM2528_HelperRoutines.a48
+        .in PM2528_InitRoutines.a48

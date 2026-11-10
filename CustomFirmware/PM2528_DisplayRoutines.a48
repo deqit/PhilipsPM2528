@@ -1,4 +1,9 @@
 ;****************************************************************************************
+; The 7-segment table lives in page 3, so MOVP3 can read it from code in any page.
+        .DO *>$0300
+        .ER F,Code before SevenSegmentDisplayBitPatterns runs past $0300
+        .FI
+        .no $0300
 SevenSegmentDisplayBitPatterns
         .db %01111111   (blank)
         .db %01000000   '0'
@@ -18,39 +23,21 @@ SevenSegmentDisplayBitPatterns
         .db %00000110   'E'
         .db %00001110   'F'
 
-        .db %00111111   'G'
-        .db %00111111   'H'
-        .db %00111111   'I'
-        .db %00111111   'J'
-        .db %00111111   'K'
-        .db %00111111   'L'
-        .db %00111111   'M'
-        .db %00111111   'N'
-        .db %00111111   'O'
-        .db %00111111   'P'
-        .db %00111111   'Q'
-        .db %00111111   'R'
-        .db %00111111   'S'
-        .db %00111111   'T'
-        .db %00111111   'U'
-        .db %00111111   'V'
-        .db %00111111   'W'
-        .db %00111111   'X'
-        .db %00111111   'Y'
-        .db %00111111   'Z'
-
-PgStart .EQ SevenSegmentDisplayBitPatterns/$100  ; Make sure the patterns fit in one page, due to the MOVP A,@A instruction
+PgStart .EQ SevenSegmentDisplayBitPatterns/$100  ; MOVP3 A,@A always reads page 3
 PgEnd   .EQ *-1/$100
-        .DO PgStart!=PgEnd
-        .ER F,Length of SevenSegmentDisplayBitPatterns crosses page-boundary
+        .DO PgStart!=3
+        .ER F,SevenSegmentDisplayBitPatterns must start in page 3 (MOVP3)
+        .FI
+        .DO PgEnd!=3
+        .ER F,SevenSegmentDisplayBitPatterns runs past the end of page 3
         .FI
 
 ;**********************
 Lookup7SegmentCodeForDigit
         INC        A
-        ANL        A,#%00001111
-        ADD        A,#SevenSegmentDisplayBitPatterns\256 ; offset of current page
-        MOVP       A,@A
+        ANL        A,#%00001111 ; for now only the first few characters
+        ADD        A,#SevenSegmentDisplayBitPatterns\256 ; offset within page 3
+        MOVP3      A,@A                                  ; always reads page 3, from any page
         RET
 
 ;**********************
@@ -59,7 +46,7 @@ Update7SegmentDisplay
         OUTL       P2,A
         MOV        A,R7
         CALL Update7SegmentDigit
-        MOV        A,#10101111b                                  Select N2, /PS2, Digit 1
+        MOV        A,#%10101111                                  Select N2, /PS2, Digit 1
         OUTL       P2,A
         MOV        A,R6
         CALL Update7SegmentDigit
@@ -69,8 +56,8 @@ Update7SegmentDisplay
         CALL Update7SegmentDigit
         MOV        A,R4
         CALL Update7SegmentDigit
-        MOV        A,#%10001111                                  Select N2, /PS2, Digit 4,5
-        OUTL       P2,A                                           Select N2, /PS2, Digit 2,3
+        MOV        A,#%10001111
+        OUTL       P2,A                                           Select N2, /PS2, Digit 4,5
         MOV        A,R3
         CALL Update7SegmentDigit
         MOV        A,R2

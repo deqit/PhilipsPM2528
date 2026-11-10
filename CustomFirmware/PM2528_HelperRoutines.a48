@@ -7,3 +7,10 @@ Delay10msecs
         DJNZ R2,.delay_inner
         DJNZ R3,.delay_outer
         RET
+
+;**********************
+; Pulse the watchdog (P1 bit 5), as the original MainLoop does (0x09dc).
+PulseWatchdog
+        ORL        P1,#%00100000
+        ANL        P1,#%11011111
+        RET

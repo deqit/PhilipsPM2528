@@ -2948,6 +2948,581 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PM2528:LGND2"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LGND2"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LGND2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LGND2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PM2528:LGND3"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LGND3"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LGND3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LGND3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PM2528:LGND4"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LGND4"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LGND4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LGND4_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PM2528:LGND5"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LGND5"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LGND5_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LGND5_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PM2528:LGND6"
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LGND6"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LGND6_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LGND6_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PM2528:OPAMP_COMPEN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4496,351 +5071,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND2"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND3"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND3_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND3_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -4982,8 +5212,8 @@
 		(uuid "b7a8656f-cbec-464c-bac6-4245d0a93773")
 	)
 	(rectangle
-		(start 76.2 13.97)
-		(end 180.34 60.96)
+		(start 76.2 19.05)
+		(end 180.34 64.77)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -4995,7 +5225,7 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 335.026 187.198 0)
+		(at 332.994 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5023,16 +5253,6 @@
 		)
 		(uuid "34501a7b-b5d4-4238-af4d-cd3420b5480e")
 	)
-	(text "Supply zero"
-		(exclude_from_sim no)
-		(at 341.122 233.426 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4038f3db-bac9-4a5c-b520-6076ea8a52f1")
-	)
 	(text "Ioff"
 		(exclude_from_sim no)
 		(at 128.27 151.892 0)
@@ -5055,7 +5275,7 @@
 	)
 	(text "Chopper Amplifier"
 		(exclude_from_sim no)
-		(at 87.884 175.768 0)
+		(at 86.36 169.672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5065,13 +5285,23 @@
 	)
 	(text "Crest Factor Indicator"
 		(exclude_from_sim no)
-		(at 87.884 16.51 0)
+		(at 86.868 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "916bd1eb-4dbe-441d-bf54-d6a393bf59eb")
+	)
+	(text "Supply zero"
+		(exclude_from_sim no)
+		(at 340.36 239.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b39897a4-2d0b-42cc-ae60-441dfa1e2a85")
 	)
 	(text "Supply zero"
 		(exclude_from_sim no)
@@ -5108,7 +5338,7 @@
 		(uuid "087afc8b-a8c8-46b4-9369-1181e8d0abed")
 	)
 	(junction
-		(at 80.01 38.1)
+		(at 80.01 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "087b6ac1-2f06-49a5-a96a-78b5eee1d911")
@@ -5120,13 +5350,13 @@
 		(uuid "0d1a4be5-5bcb-44fb-967f-da77cc0eaa16")
 	)
 	(junction
-		(at 106.68 43.18)
+		(at 106.68 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c776770-27b2-4e53-bc53-fceba09cb02b")
 	)
 	(junction
-		(at 160.02 44.45)
+		(at 160.02 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dc2a4c5-b6d5-481f-a976-bbe04884c74f")
@@ -5156,7 +5386,7 @@
 		(uuid "27274784-f6ec-4786-b101-a30ce3f9e84c")
 	)
 	(junction
-		(at 106.68 33.02)
+		(at 106.68 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "278261b9-a7bd-4d2d-af36-49a183e5637e")
@@ -5186,13 +5416,13 @@
 		(uuid "2f01d0d6-99be-4e55-b90d-eb7dbbf91d6b")
 	)
 	(junction
-		(at 101.6 43.18)
+		(at 101.6 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f64d805-84eb-4897-9e18-76c2f73a841a")
 	)
 	(junction
-		(at 165.1 44.45)
+		(at 165.1 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "313e5ff4-1758-40f4-ab07-b563648010e7")
@@ -5204,7 +5434,7 @@
 		(uuid "377eb8c8-cefb-4c8e-b8fe-0f7a486bf11d")
 	)
 	(junction
-		(at 116.84 38.1)
+		(at 116.84 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e6762aa-d91a-42fa-88f3-c65d2bafbc7b")
@@ -5354,7 +5584,7 @@
 		(uuid "8ee73a40-8be3-42dd-b954-473336234156")
 	)
 	(junction
-		(at 140.97 26.67)
+		(at 140.97 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9119f65b-be99-4356-99ce-880863a86411")
@@ -5426,7 +5656,7 @@
 		(uuid "a945b770-b4ff-46fc-8f35-18480ddf2661")
 	)
 	(junction
-		(at 90.17 33.02)
+		(at 90.17 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af76296d-90b6-4c60-a5e5-3f36de90de21")
@@ -5462,7 +5692,7 @@
 		(uuid "beef1bab-be30-420e-a018-3259c4b31c0a")
 	)
 	(junction
-		(at 171.45 44.45)
+		(at 171.45 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf8e70f5-6ddc-4828-88c0-dd7612aea2d1")
@@ -5480,7 +5710,7 @@
 		(uuid "c1b82096-13d3-4e9d-aa25-30ce3e2b0e1f")
 	)
 	(junction
-		(at 349.25 238.76)
+		(at 378.46 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2eba13d-da0b-4497-9699-feac09407f92")
@@ -5504,7 +5734,7 @@
 		(uuid "ca8f4d70-5725-40f3-b4c5-a061c38f1f93")
 	)
 	(junction
-		(at 90.17 43.18)
+		(at 90.17 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccc9a1e0-ca95-423d-9218-f46257fd8c62")
@@ -5528,7 +5758,7 @@
 		(uuid "e2c6cbb7-eb18-439d-b13c-9ff3f479993b")
 	)
 	(junction
-		(at 140.97 49.53)
+		(at 140.97 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4378274-a47f-4393-a3ea-cc4520bc2706")
@@ -5576,7 +5806,7 @@
 		(uuid "f206e7dc-671f-48f5-b9c9-3b3632cd44c5")
 	)
 	(junction
-		(at 101.6 33.02)
+		(at 101.6 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3e3c04c-26f4-4ebc-b72d-855c8e9f0398")
@@ -5697,7 +5927,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 92.71 43.18)
+			(xy 90.17 46.99) (xy 92.71 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5937,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 44.45) (xy 171.45 44.45)
+			(xy 187.96 48.26) (xy 171.45 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5857,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 26.67) (xy 132.08 26.67)
+			(xy 129.54 30.48) (xy 132.08 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6227,7 +6457,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 38.1) (xy 328.93 76.2)
+			(xy 328.93 41.91) (xy 328.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6244,6 +6474,16 @@
 			(type default)
 		)
 		(uuid "26c18358-068b-4397-8ae1-0793eab3a68b")
+	)
+	(wire
+		(pts
+			(xy 360.68 240.03) (xy 358.14 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e8ab25-f8c4-43e8-ad7a-14125cdc2b7f")
 	)
 	(wire
 		(pts
@@ -6287,7 +6527,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 107.95 43.18)
+			(xy 106.68 46.99) (xy 107.95 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6317,7 +6557,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 33.02) (xy 116.84 38.1)
+			(xy 116.84 36.83) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6407,7 +6647,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 53.34) (xy 165.1 54.61)
+			(xy 165.1 57.15) (xy 165.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6424,6 +6664,16 @@
 			(type default)
 		)
 		(uuid "3659c32c-4b0a-418b-ba8e-24750be5474f")
+	)
+	(wire
+		(pts
+			(xy 367.03 238.76) (xy 367.03 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a5b5a8-e88f-463e-af83-c1be7d985b7b")
 	)
 	(wire
 		(pts
@@ -6487,7 +6737,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 33.02) (xy 107.95 33.02)
+			(xy 106.68 36.83) (xy 107.95 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6547,7 +6797,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 31.75) (xy 101.6 33.02)
+			(xy 101.6 35.56) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6587,7 +6837,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 21.59) (xy 106.68 33.02)
+			(xy 106.68 25.4) (xy 106.68 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6647,7 +6897,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 44.45) (xy 140.97 49.53)
+			(xy 140.97 48.26) (xy 140.97 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6697,7 +6947,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 44.45) (xy 165.1 45.72)
+			(xy 165.1 48.26) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6727,7 +6977,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 33.02) (xy 140.97 26.67)
+			(xy 140.97 36.83) (xy 140.97 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6767,7 +7017,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 33.02) (xy 132.08 33.02)
+			(xy 129.54 36.83) (xy 132.08 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6837,7 +7087,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 21.59) (xy 101.6 24.13)
+			(xy 101.6 25.4) (xy 101.6 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6854,6 +7104,16 @@
 			(type default)
 		)
 		(uuid "513d3683-5bfb-4cc2-bf82-33833e14c37f")
+	)
+	(wire
+		(pts
+			(xy 369.57 238.76) (xy 367.03 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52880e9a-e31e-43af-a03e-552381732459")
 	)
 	(wire
 		(pts
@@ -6947,7 +7207,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 33.02) (xy 90.17 33.02)
+			(xy 88.9 36.83) (xy 90.17 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6967,7 +7227,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 54.61) (xy 106.68 43.18)
+			(xy 106.68 58.42) (xy 106.68 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6994,6 +7254,16 @@
 			(type default)
 		)
 		(uuid "58913a7b-d3c5-407d-aab9-17fdddd4700b")
+	)
+	(wire
+		(pts
+			(xy 351.79 240.03) (xy 349.25 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ef4ade-2cc5-4b92-878f-6dec2a49d59e")
 	)
 	(wire
 		(pts
@@ -7027,7 +7297,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 33.02) (xy 115.57 33.02)
+			(xy 116.84 36.83) (xy 115.57 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7047,7 +7317,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 238.76) (xy 382.27 241.3)
+			(xy 351.79 237.49) (xy 351.79 240.03)
 		)
 		(stroke
 			(width 0)
@@ -7157,7 +7427,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 45.72) (xy 171.45 44.45)
+			(xy 171.45 49.53) (xy 171.45 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7277,7 +7547,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 43.18) (xy 115.57 43.18)
+			(xy 116.84 46.99) (xy 115.57 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7307,7 +7577,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 43.18) (xy 116.84 38.1)
+			(xy 116.84 46.99) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7437,7 +7707,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 26.67) (xy 140.97 26.67)
+			(xy 139.7 30.48) (xy 140.97 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7477,7 +7747,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 137.16) (xy 72.39 38.1)
+			(xy 72.39 137.16) (xy 72.39 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7537,7 +7807,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 33.02) (xy 90.17 43.18)
+			(xy 90.17 36.83) (xy 90.17 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7577,7 +7847,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 33.02) (xy 106.68 33.02)
+			(xy 101.6 36.83) (xy 106.68 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7607,7 +7877,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 90.17 44.45)
+			(xy 90.17 46.99) (xy 90.17 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7667,7 +7937,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 52.07) (xy 101.6 55.88)
+			(xy 101.6 55.88) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7707,7 +7977,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 24.13) (xy 160.02 44.45)
+			(xy 160.02 27.94) (xy 160.02 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7717,7 +7987,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 38.1) (xy 80.01 43.18)
+			(xy 80.01 41.91) (xy 80.01 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7807,7 +8077,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 33.02) (xy 92.71 33.02)
+			(xy 90.17 36.83) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7837,7 +8107,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 52.07) (xy 90.17 53.34)
+			(xy 90.17 55.88) (xy 90.17 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7847,7 +8117,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 49.53) (xy 132.08 49.53)
+			(xy 129.54 53.34) (xy 132.08 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7877,7 +8147,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 44.45) (xy 132.08 44.45)
+			(xy 129.54 48.26) (xy 132.08 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7907,7 +8177,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 43.18) (xy 101.6 43.18)
+			(xy 100.33 46.99) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7917,7 +8187,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 238.76) (xy 349.25 240.03)
+			(xy 375.92 238.76) (xy 375.92 240.03)
 		)
 		(stroke
 			(width 0)
@@ -7957,7 +8227,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 26.67) (xy 142.24 26.67)
+			(xy 140.97 30.48) (xy 142.24 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7977,7 +8247,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 49.53) (xy 142.24 49.53)
+			(xy 140.97 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8167,7 +8437,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 53.34) (xy 171.45 54.61)
+			(xy 171.45 57.15) (xy 171.45 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8217,7 +8487,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 44.45) (xy 165.1 44.45)
+			(xy 160.02 48.26) (xy 165.1 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8267,7 +8537,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 33.02) (xy 101.6 33.02)
+			(xy 100.33 36.83) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8297,7 +8567,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 44.45) (xy 160.02 52.07)
+			(xy 160.02 48.26) (xy 160.02 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8337,7 +8607,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 106.68 43.18)
+			(xy 101.6 46.99) (xy 106.68 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8487,7 +8757,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 54.61) (xy 106.68 54.61)
+			(xy 142.24 58.42) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8557,7 +8827,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 21.59) (xy 106.68 21.59)
+			(xy 142.24 25.4) (xy 106.68 25.4)
 		)
 		(stroke
 			(width 0)
@@ -8647,7 +8917,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 38.1) (xy 80.01 38.1)
+			(xy 72.39 41.91) (xy 80.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8707,7 +8977,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 38.1) (xy 328.93 38.1)
+			(xy 116.84 41.91) (xy 328.93 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8717,7 +8987,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 49.53) (xy 140.97 49.53)
+			(xy 139.7 53.34) (xy 140.97 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8857,7 +9127,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 80.01 38.1)
+			(xy 80.01 36.83) (xy 80.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9047,7 +9317,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 238.76) (xy 369.57 241.3)
+			(xy 369.57 237.49) (xy 369.57 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9057,7 +9327,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 101.6 44.45)
+			(xy 101.6 46.99) (xy 101.6 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9077,7 +9347,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 43.18) (xy 81.28 43.18)
+			(xy 80.01 46.99) (xy 81.28 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9097,7 +9367,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 90.17 43.18)
+			(xy 88.9 46.99) (xy 90.17 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9167,7 +9437,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 24.13) (xy 160.02 24.13)
+			(xy 157.48 27.94) (xy 160.02 27.94)
 		)
 		(stroke
 			(width 0)
@@ -9197,7 +9467,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 140.97 33.02)
+			(xy 139.7 36.83) (xy 140.97 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9217,7 +9487,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 44.45) (xy 140.97 44.45)
+			(xy 139.7 48.26) (xy 140.97 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9247,7 +9517,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 52.07) (xy 160.02 52.07)
+			(xy 157.48 55.88) (xy 160.02 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9257,7 +9527,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 237.49) (xy 349.25 238.76)
+			(xy 378.46 237.49) (xy 378.46 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9307,7 +9577,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 44.45) (xy 171.45 44.45)
+			(xy 165.1 48.26) (xy 171.45 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9357,7 +9627,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 238.76) (xy 375.92 241.3)
+			(xy 360.68 237.49) (xy 360.68 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9387,7 +9657,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 33.02) (xy 80.01 33.02)
+			(xy 81.28 36.83) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9417,7 +9687,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 238.76) (xy 354.33 238.76)
+			(xy 375.92 238.76) (xy 382.27 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9476,7 +9746,7 @@
 		(uuid "89fc7ed1-cd87-40cd-80c5-59511cf035f0")
 	)
 	(label "CFI"
-		(at 187.96 44.45 0)
+		(at 187.96 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9507,7 +9777,7 @@
 		)
 		(uuid "24526e23-1505-47d6-9b3f-7e6b35c17bc5")
 	)
-	(hierarchical_label "GND2"
+	(hierarchical_label "LGND6"
 		(shape passive)
 		(at 27.94 34.29 0)
 		(effects
@@ -9518,7 +9788,7 @@
 		)
 		(uuid "257451cc-747c-4dce-bdad-7ed880308f2a")
 	)
-	(hierarchical_label "GND4"
+	(hierarchical_label "LGND4"
 		(shape passive)
 		(at 27.94 54.61 0)
 		(effects
@@ -9529,7 +9799,7 @@
 		)
 		(uuid "787fbcb3-7468-47ad-b999-03805270f4e1")
 	)
-	(hierarchical_label "GND3"
+	(hierarchical_label "LGND3"
 		(shape passive)
 		(at 27.94 46.99 0)
 		(effects
@@ -9551,7 +9821,7 @@
 		)
 		(uuid "90338fbb-497d-4ef7-be52-57138c82f7b6")
 	)
-	(hierarchical_label "GND6"
+	(hierarchical_label "LGND6"
 		(shape passive)
 		(at 27.94 80.01 0)
 		(effects
@@ -9562,7 +9832,7 @@
 		)
 		(uuid "91ed4692-1c41-4a79-801b-26c5c6657575")
 	)
-	(hierarchical_label "GND5"
+	(hierarchical_label "LGND5"
 		(shape passive)
 		(at 27.94 64.77 0)
 		(effects
@@ -9584,7 +9854,7 @@
 		)
 		(uuid "a98a4f1e-ebdd-40da-a8e4-c4cc936317b7")
 	)
-	(hierarchical_label "GND4"
+	(hierarchical_label "LGND4"
 		(shape passive)
 		(at 27.94 59.69 0)
 		(effects
@@ -9628,7 +9898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0374dcb4-7c81-4ebc-a03b-52b305d14ace")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR47"
 			(at 229.87 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9688,7 +9958,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR047")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -9696,7 +9966,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 26.67 90)
+		(at 135.89 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9706,7 +9976,7 @@
 		(dnp no)
 		(uuid "0509535d-0bb3-48fd-bad6-d35b74498d98")
 		(property "Reference" "R2451"
-			(at 135.89 24.638 90)
+			(at 135.89 28.448 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9716,7 +9986,7 @@
 			)
 		)
 		(property "Value" "1k05"
-			(at 135.89 26.67 90)
+			(at 135.89 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9726,7 +9996,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 135.89 28.448 90)
+			(at 135.89 32.258 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,7 +10007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 26.67 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9748,7 +10018,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 26.67 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9774,7 +10044,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND3")
 		(at 149.86 240.03 0)
 		(unit 1)
 		(body_style 1)
@@ -9784,7 +10054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0540d318-f614-43de-b2b9-ffc452350bb7")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 149.86 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -9795,7 +10065,7 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
+		(property "Value" "LGND3"
 			(at 149.86 244.348 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9827,7 +10097,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 149.86 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -9844,7 +10114,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -9861,7 +10131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "064688b0-5d90-4ffe-a45f-37c8e6526455")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR26"
 			(at 124.46 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9921,7 +10191,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR026")
+					(reference "#PWR26")
 					(unit 1)
 				)
 			)
@@ -10017,7 +10287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e4bd5e6-447f-411a-9bf3-538abb00a160")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 349.25 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -10077,7 +10347,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -10163,8 +10433,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 349.25 240.03 0)
+		(lib_id "PM2528:LGND5")
+		(at 375.92 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10173,8 +10443,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f45d613-6433-4831-b7b0-3be7077b8f9e")
-		(property "Reference" "#PWR05"
-			(at 349.25 246.38 0)
+		(property "Reference" "#PWR5"
+			(at 375.92 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10184,8 +10454,8 @@
 				)
 			)
 		)
-		(property "Value" "GND5"
-			(at 349.25 244.348 0)
+		(property "Value" "LGND5"
+			(at 375.92 244.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10195,7 +10465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 240.03 0)
+			(at 375.92 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10206,7 +10476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 240.03 0)
+			(at 375.92 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,8 +10486,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 240.03 0)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 375.92 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10233,14 +10503,14 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 196.85 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -10250,7 +10520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1107b0fb-14ae-4f3f-8b4b-b8a2d447ac8d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR45"
 			(at 196.85 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10261,7 +10531,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 196.85 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10293,7 +10563,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 196.85 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10310,7 +10580,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR045")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -10450,7 +10720,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 48.26 180)
+		(at 101.6 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10460,7 +10730,7 @@
 		(dnp no)
 		(uuid "11f523f3-e733-46a5-a2f0-725bd6460b51")
 		(property "Reference" "R2448"
-			(at 99.314 49.022 90)
+			(at 99.314 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10470,7 +10740,7 @@
 			)
 		)
 		(property "Value" "15k4"
-			(at 101.6 48.26 90)
+			(at 101.6 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10480,7 +10750,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 103.378 48.26 90)
+			(at 103.378 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10491,7 +10761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 48.26 0)
+			(at 101.6 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10772,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 48.26 0)
+			(at 101.6 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10608,7 +10878,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 129.54 33.02 180)
+		(at 129.54 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10617,8 +10887,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14521c78-37d4-4079-a05d-20198d75cc04")
-		(property "Reference" "#PWR032"
-			(at 129.54 29.21 0)
+		(property "Reference" "#PWR32"
+			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10899,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 132.334 36.322 0)
+			(at 132.334 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10639,7 +10909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 33.02 0)
+			(at 129.54 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,7 +10920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 33.02 0)
+			(at 129.54 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10661,7 +10931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 129.54 33.02 0)
+			(at 129.54 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10677,7 +10947,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR032")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -10851,7 +11121,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 96.52 43.18 0)
+		(at 96.52 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10861,7 +11131,7 @@
 		(dnp no)
 		(uuid "18de5ffc-f29d-4f3a-a3d4-91d22bcaf7a6")
 		(property "Reference" "V2422"
-			(at 95.25 40.64 0)
+			(at 95.25 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10871,7 +11141,7 @@
 			)
 		)
 		(property "Value" "BAW62"
-			(at 95.25 46.228 0)
+			(at 95.25 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10881,7 +11151,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 96.52 43.18 0)
+			(at 96.52 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10892,7 +11162,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 96.52 43.18 0)
+			(at 96.52 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10903,7 +11173,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 96.52 43.18 0)
+			(at 96.52 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10914,7 +11184,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 96.52 43.18 0)
+			(at 96.52 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10925,7 +11195,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 43.18 0)
+			(at 96.52 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10952,7 +11222,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 101.6 55.88 180)
+		(at 101.6 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10961,8 +11231,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19c0ff71-a085-4959-83e7-ace0a4b6661f")
-		(property "Reference" "#PWR034"
-			(at 101.6 52.07 0)
+		(property "Reference" "#PWR34"
+			(at 101.6 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10973,7 +11243,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 104.394 59.182 0)
+			(at 104.394 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10983,7 +11253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 55.88 0)
+			(at 101.6 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10994,7 +11264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 55.88 0)
+			(at 101.6 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,7 +11275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 101.6 55.88 0)
+			(at 101.6 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11021,7 +11291,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -11265,7 +11535,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 49.53 90)
+		(at 135.89 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11275,7 +11545,7 @@
 		(dnp no)
 		(uuid "26d2f710-acc4-456a-b2a0-670cd446c923")
 		(property "Reference" "R2452"
-			(at 135.89 47.498 90)
+			(at 135.89 51.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11285,7 +11555,7 @@
 			)
 		)
 		(property "Value" "1k05"
-			(at 135.89 49.53 90)
+			(at 135.89 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11295,7 +11565,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 135.89 51.308 90)
+			(at 135.89 55.118 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11306,7 +11576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 49.53 0)
+			(at 135.89 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11317,7 +11587,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 49.53 0)
+			(at 135.89 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11343,8 +11613,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 382.27 241.3 0)
+		(lib_id "PM2528:LGND2")
+		(at 349.25 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11353,8 +11623,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "276cf4d0-c8f4-4849-b4ae-953601da7947")
-		(property "Reference" "#PWR017"
-			(at 382.27 247.65 0)
+		(property "Reference" "#PWR17"
+			(at 349.25 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11364,8 +11634,8 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
-			(at 382.27 245.618 0)
+		(property "Value" "LGND2"
+			(at 349.25 244.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11375,7 +11645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 241.3 0)
+			(at 349.25 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11386,7 +11656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 241.3 0)
+			(at 349.25 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11396,8 +11666,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 241.3 0)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 349.25 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11413,14 +11683,14 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 115.57 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -11430,7 +11700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28d9911c-3838-483a-9942-8deafa00294f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11441,7 +11711,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 115.57 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +11743,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11490,7 +11760,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -11656,7 +11926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 167.64 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -11666,7 +11936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e10dc5f-0d9f-44d9-9015-f3f343d317f4")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR42"
 			(at 167.64 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11677,7 +11947,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 167.64 163.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11709,7 +11979,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11726,7 +11996,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR042")
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)
@@ -11973,7 +12243,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 101.6 21.59 0)
+		(at 101.6 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11982,8 +12252,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b8923c-5dac-43f2-9c3c-5f75abeceb09")
-		(property "Reference" "#PWR036"
-			(at 101.6 25.4 0)
+		(property "Reference" "#PWR36"
+			(at 101.6 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11994,7 +12264,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 101.346 17.78 0)
+			(at 101.346 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12004,7 +12274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 21.59 0)
+			(at 101.6 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12015,7 +12285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 21.59 0)
+			(at 101.6 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12026,7 +12296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 101.6 21.59 0)
+			(at 101.6 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12042,7 +12312,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -12138,7 +12408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a2f8f35-d19b-4df1-8080-2faa389504f0")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 133.35 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -12198,7 +12468,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -12564,8 +12834,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 129.54 49.53 0)
+		(lib_id "PM2528:LGND2")
+		(at 129.54 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12574,8 +12844,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fca9f01-f27d-43dc-98d3-b4a62fa3c37a")
-		(property "Reference" "#PWR028"
-			(at 129.54 55.88 0)
+		(property "Reference" "#PWR28"
+			(at 129.54 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12585,8 +12855,8 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
-			(at 129.54 53.848 0)
+		(property "Value" "LGND2"
+			(at 129.54 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12596,7 +12866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 49.53 0)
+			(at 129.54 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12607,7 +12877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 49.53 0)
+			(at 129.54 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12617,8 +12887,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 129.54 49.53 0)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 129.54 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12634,7 +12904,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR028")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -12736,7 +13006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4293d7ff-dc7f-4fd4-8b1e-d6e9cd871a8f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 83.82 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -12796,7 +13066,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -12813,7 +13083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42df18bd-311e-469d-ad75-12149537f980")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR44"
 			(at 200.66 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -12873,7 +13143,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR044")
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -13158,8 +13428,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 375.92 241.3 0)
+		(lib_id "PM2528:LGND3")
+		(at 358.14 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13168,8 +13438,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45a6dd8f-2488-495b-93a9-d3d63748387e")
-		(property "Reference" "#PWR07"
-			(at 375.92 247.65 0)
+		(property "Reference" "#PWR7"
+			(at 358.14 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13179,8 +13449,8 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
-			(at 375.92 245.618 0)
+		(property "Value" "LGND3"
+			(at 358.14 244.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13190,7 +13460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 241.3 0)
+			(at 358.14 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13201,7 +13471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 241.3 0)
+			(at 358.14 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13211,8 +13481,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 375.92 241.3 0)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 358.14 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13228,7 +13498,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -13313,7 +13583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND3")
 		(at 193.04 224.79 0)
 		(unit 1)
 		(body_style 1)
@@ -13323,7 +13593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "498418f3-f9fb-42a0-9177-ed5363769565")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR21"
 			(at 193.04 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -13334,7 +13604,7 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
+		(property "Value" "LGND3"
 			(at 193.04 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13366,7 +13636,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 193.04 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -13383,7 +13653,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR021")
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -13400,7 +13670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c1c8097-23c6-43e7-88c9-fb3492977ecd")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 349.25 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13460,7 +13730,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -13546,7 +13816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND4")
 		(at 275.59 185.42 0)
 		(unit 1)
 		(body_style 1)
@@ -13556,7 +13826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e82eeab-2aee-4e41-8a08-663879410ba2")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR18"
 			(at 275.59 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -13567,7 +13837,7 @@
 				)
 			)
 		)
-		(property "Value" "GND4"
+		(property "Value" "LGND4"
 			(at 275.59 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13599,7 +13869,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 275.59 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13616,14 +13886,14 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR018")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND3")
 		(at 96.52 257.81 0)
 		(unit 1)
 		(body_style 1)
@@ -13633,7 +13903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5011158e-b4c2-4450-8bd4-f5cb9b2d7e48")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR25"
 			(at 96.52 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -13644,7 +13914,7 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
+		(property "Value" "LGND3"
 			(at 96.52 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13676,7 +13946,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 96.52 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -13693,7 +13963,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR025")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -13780,7 +14050,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 49.53 180)
+		(at 171.45 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13790,7 +14060,7 @@
 		(dnp no)
 		(uuid "52094293-507a-44cd-b71a-86111fb3447d")
 		(property "Reference" "C2425"
-			(at 175.006 46.99 0)
+			(at 175.006 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13800,7 +14070,7 @@
 			)
 		)
 		(property "Value" "39p"
-			(at 173.99 52.07 0)
+			(at 173.99 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13810,7 +14080,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 170.4848 45.72 0)
+			(at 170.4848 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13821,7 +14091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 49.53 0)
+			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13832,7 +14102,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 49.53 0)
+			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13858,8 +14128,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 165.1 54.61 0)
+		(lib_id "PM2528:LGND2")
+		(at 165.1 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13868,8 +14138,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52b86dd0-129d-49ff-bffc-ec6dfbb828e5")
-		(property "Reference" "#PWR030"
-			(at 165.1 60.96 0)
+		(property "Reference" "#PWR30"
+			(at 165.1 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13879,8 +14149,8 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
-			(at 165.1 58.42 0)
+		(property "Value" "LGND2"
+			(at 165.1 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13890,7 +14160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 54.61 0)
+			(at 165.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13901,7 +14171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 54.61 0)
+			(at 165.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13911,8 +14181,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 165.1 54.61 0)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 165.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13928,7 +14198,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR030")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -14053,7 +14323,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 375.92 238.76 0)
+		(at 360.68 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14064,7 +14334,7 @@
 		(fields_autoplaced yes)
 		(uuid "52dbebfd-ea49-44dc-b292-b77389ede02c")
 		(property "Reference" "#FLG07"
-			(at 375.92 236.855 0)
+			(at 360.68 235.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14075,7 +14345,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 375.92 233.68 0)
+			(at 360.68 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14086,7 +14356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 238.76 0)
+			(at 360.68 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14097,7 +14367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 238.76 0)
+			(at 360.68 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14108,7 +14378,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 375.92 238.76 0)
+			(at 360.68 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14132,7 +14402,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 129.54 44.45 0)
+		(at 129.54 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14141,8 +14411,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53150bb5-f865-4580-baf5-02265afba777")
-		(property "Reference" "#PWR031"
-			(at 129.54 48.26 0)
+		(property "Reference" "#PWR31"
+			(at 129.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14153,7 +14423,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 129.286 40.64 0)
+			(at 129.286 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14163,7 +14433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 44.45 0)
+			(at 129.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14174,7 +14444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 44.45 0)
+			(at 129.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14185,7 +14455,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 129.54 44.45 0)
+			(at 129.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14201,14 +14471,14 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR031")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND6")
 		(at 309.88 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -14218,7 +14488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "537c7853-2f13-4cbf-b537-4503f778ea0f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR52"
 			(at 309.88 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -14229,7 +14499,7 @@
 				)
 			)
 		)
-		(property "Value" "GND6"
+		(property "Value" "LGND6"
 			(at 309.88 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14261,7 +14531,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 309.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14278,7 +14548,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR052")
+					(reference "#PWR52")
 					(unit 1)
 				)
 			)
@@ -14364,8 +14634,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 369.57 241.3 0)
+		(lib_id "PM2528:LGND4")
+		(at 367.03 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14374,8 +14644,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "547ece2b-17b5-4942-b9e9-8d0c6038cad7")
-		(property "Reference" "#PWR06"
-			(at 369.57 247.65 0)
+		(property "Reference" "#PWR6"
+			(at 367.03 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14385,8 +14655,8 @@
 				)
 			)
 		)
-		(property "Value" "GND4"
-			(at 369.57 245.618 0)
+		(property "Value" "LGND4"
+			(at 367.03 244.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14396,7 +14666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 241.3 0)
+			(at 367.03 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14407,7 +14677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 241.3 0)
+			(at 367.03 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14417,8 +14687,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 369.57 241.3 0)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 367.03 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14434,7 +14704,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -14599,7 +14869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND3")
+		(lib_id "PM2528:LGND6")
 		(at 349.25 203.2 0)
 		(unit 1)
 		(body_style 1)
@@ -14609,7 +14879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "618e52b7-85bd-47b4-960f-5de380f1520b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 349.25 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -14620,7 +14890,7 @@
 				)
 			)
 		)
-		(property "Value" "GND6"
+		(property "Value" "LGND6"
 			(at 349.25 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,7 +14922,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 349.25 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14669,7 +14939,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -14914,8 +15184,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 90.17 53.34 0)
+		(lib_id "PM2528:LGND3")
+		(at 90.17 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14924,8 +15194,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "635362ae-4bf9-4d62-ad7f-c4547bd6691e")
-		(property "Reference" "#PWR035"
-			(at 90.17 59.69 0)
+		(property "Reference" "#PWR35"
+			(at 90.17 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14935,8 +15205,8 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
-			(at 90.17 57.658 0)
+		(property "Value" "LGND3"
+			(at 90.17 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14946,7 +15216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 53.34 0)
+			(at 90.17 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14957,7 +15227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 53.34 0)
+			(at 90.17 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14967,8 +15237,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 90.17 53.34 0)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 90.17 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14984,14 +15254,14 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 111.76 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -15001,7 +15271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "640ca755-36ff-4950-8e3c-e132b4b747ec")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 111.76 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15012,7 +15282,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 111.76 182.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15044,7 +15314,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 111.76 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -15061,7 +15331,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -15069,7 +15339,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 382.27 238.76 0)
+		(at 351.79 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15080,7 +15350,7 @@
 		(fields_autoplaced yes)
 		(uuid "643cde66-53e6-4c54-94ef-2900743df79d")
 		(property "Reference" "#FLG08"
-			(at 382.27 236.855 0)
+			(at 351.79 235.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15091,7 +15361,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 382.27 233.68 0)
+			(at 351.79 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15102,7 +15372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 238.76 0)
+			(at 351.79 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15113,7 +15383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 238.76 0)
+			(at 351.79 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15124,7 +15394,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 382.27 238.76 0)
+			(at 351.79 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15227,7 +15497,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 171.45 54.61 180)
+		(at 171.45 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15236,8 +15506,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "655c2ce5-f464-42a1-835e-35ba25662f66")
-		(property "Reference" "#PWR029"
-			(at 171.45 50.8 0)
+		(property "Reference" "#PWR29"
+			(at 171.45 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15248,7 +15518,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 172.212 58.42 0)
+			(at 172.212 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15258,7 +15528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 54.61 0)
+			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15269,7 +15539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 54.61 0)
+			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15280,7 +15550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 171.45 54.61 0)
+			(at 171.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15296,7 +15566,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR029")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -15786,7 +16056,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND3")
 		(at 182.88 224.79 0)
 		(unit 1)
 		(body_style 1)
@@ -15796,7 +16066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6accc630-8393-4a3a-a1c9-156f6bb40c01")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR20"
 			(at 182.88 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -15807,7 +16077,7 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
+		(property "Value" "LGND3"
 			(at 182.88 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15839,7 +16109,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 182.88 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -15856,7 +16126,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR020")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -15942,7 +16212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND3")
 		(at 234.95 245.11 0)
 		(unit 1)
 		(body_style 1)
@@ -15952,7 +16222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c44ecfc-7db5-439a-82ae-a0d3c3201081")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR19"
 			(at 234.95 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -15963,7 +16233,7 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
+		(property "Value" "LGND3"
 			(at 234.95 249.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15995,7 +16265,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 234.95 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -16012,7 +16282,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -16029,7 +16299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72aff625-847d-43e7-ada6-3b701581d6de")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR50"
 			(at 248.92 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16089,7 +16359,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR050")
+					(reference "#PWR50")
 					(unit 1)
 				)
 			)
@@ -16935,7 +17205,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 33.02 90)
+		(at 135.89 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16945,7 +17215,7 @@
 		(dnp no)
 		(uuid "7c5d4f49-cabb-4395-aee9-ab54be685c7b")
 		(property "Reference" "R2450"
-			(at 135.89 30.988 90)
+			(at 135.89 34.798 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16955,7 +17225,7 @@
 			)
 		)
 		(property "Value" "30k1"
-			(at 135.89 33.02 90)
+			(at 135.89 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16965,7 +17235,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 135.89 34.798 90)
+			(at 135.89 38.608 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16976,7 +17246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 33.02 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16987,7 +17257,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 33.02 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17092,7 +17362,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND5")
 		(at 198.12 200.66 0)
 		(unit 1)
 		(body_style 1)
@@ -17102,7 +17372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81381c4c-7509-4a28-abb5-bd1bfebf4247")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 198.12 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -17113,7 +17383,7 @@
 				)
 			)
 		)
-		(property "Value" "GND5"
+		(property "Value" "LGND5"
 			(at 198.12 204.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17145,7 +17415,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 198.12 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17162,7 +17432,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -17328,7 +17598,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 369.57 238.76 0)
+		(at 369.57 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17339,7 +17609,7 @@
 		(fields_autoplaced yes)
 		(uuid "86f5d5b0-d2ca-4f98-8881-5358cc9e98ee")
 		(property "Reference" "#FLG06"
-			(at 369.57 236.855 0)
+			(at 369.57 235.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17350,7 +17620,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 369.57 233.68 0)
+			(at 369.57 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17361,7 +17631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 238.76 0)
+			(at 369.57 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17372,7 +17642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 238.76 0)
+			(at 369.57 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17383,7 +17653,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 369.57 238.76 0)
+			(at 369.57 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17487,7 +17757,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 349.25 237.49 0)
+		(at 378.46 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17498,7 +17768,7 @@
 		(fields_autoplaced yes)
 		(uuid "89ff5c35-7d81-4f4b-9d56-182460b654c6")
 		(property "Reference" "#FLG05"
-			(at 349.25 235.585 0)
+			(at 378.46 235.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17509,7 +17779,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 349.25 232.41 0)
+			(at 378.46 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17520,7 +17790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 237.49 0)
+			(at 378.46 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17531,7 +17801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 237.49 0)
+			(at 378.46 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17542,7 +17812,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 349.25 237.49 0)
+			(at 378.46 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17684,7 +17954,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 49.53 180)
+		(at 165.1 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17694,7 +17964,7 @@
 		(dnp no)
 		(uuid "8c56d404-8dbb-432a-ae9f-b26930f88240")
 		(property "Reference" "R2449"
-			(at 163.068 49.53 90)
+			(at 163.068 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17704,7 +17974,7 @@
 			)
 		)
 		(property "Value" "46k4"
-			(at 165.1 49.53 90)
+			(at 165.1 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17714,7 +17984,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 166.878 49.53 90)
+			(at 166.878 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17725,7 +17995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 49.53 0)
+			(at 165.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17736,7 +18006,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 49.53 0)
+			(at 165.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17842,7 +18112,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 85.09 33.02 180)
+		(at 85.09 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17852,7 +18122,7 @@
 		(dnp no)
 		(uuid "8d67c50f-7da1-4924-9282-469ec949a161")
 		(property "Reference" "V2419"
-			(at 83.566 30.226 0)
+			(at 83.566 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17862,7 +18132,7 @@
 			)
 		)
 		(property "Value" "BAV45"
-			(at 84.836 35.56 0)
+			(at 84.836 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17872,7 +18142,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 85.09 33.02 0)
+			(at 85.09 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17883,7 +18153,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 85.09 33.02 0)
+			(at 85.09 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17894,7 +18164,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 85.09 33.02 0)
+			(at 85.09 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17905,7 +18175,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 85.09 33.02 0)
+			(at 85.09 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17916,7 +18186,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 33.02 0)
+			(at 85.09 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18021,8 +18291,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 129.54 26.67 0)
+		(lib_id "PM2528:LGND2")
+		(at 129.54 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18031,8 +18301,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f1bf918-7c01-4f01-9c2e-2233a8622187")
-		(property "Reference" "#PWR033"
-			(at 129.54 33.02 0)
+		(property "Reference" "#PWR33"
+			(at 129.54 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18042,8 +18312,8 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
-			(at 129.54 30.988 0)
+		(property "Value" "LGND2"
+			(at 129.54 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18053,7 +18323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 26.67 0)
+			(at 129.54 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18064,7 +18334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 26.67 0)
+			(at 129.54 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18074,8 +18344,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 129.54 26.67 0)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 129.54 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18091,7 +18361,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -18178,7 +18448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 88.9 204.47 0)
 		(unit 1)
 		(body_style 1)
@@ -18188,7 +18458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "948abbc1-ac0c-476d-a2bc-4876f0e27498")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 88.9 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18199,7 +18469,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 88.9 208.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18231,7 +18501,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 88.9 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -18248,14 +18518,14 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "PM2528:LGND2")
 		(at 109.22 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -18265,7 +18535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95f6ce74-15ef-4848-9f46-f9b1d66c625f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR27"
 			(at 109.22 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18276,7 +18546,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 109.22 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18308,7 +18578,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 109.22 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -18325,7 +18595,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR027")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -18584,7 +18854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c0f8da0-38b2-4551-9c19-9b0bfa6099c0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 218.44 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -18644,14 +18914,14 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND4")
 		(at 279.4 227.33 0)
 		(unit 1)
 		(body_style 1)
@@ -18661,7 +18931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cbee177-1828-4ee5-ac1a-10a9dca48dcc")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR24"
 			(at 279.4 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -18672,7 +18942,7 @@
 				)
 			)
 		)
-		(property "Value" "GND4"
+		(property "Value" "LGND4"
 			(at 279.4 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18704,7 +18974,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 279.4 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -18721,7 +18991,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR024")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -18738,7 +19008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d616ddc-7392-437c-86a6-3390bbeab5f6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 118.11 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -18798,7 +19068,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -18806,7 +19076,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 111.76 43.18 180)
+		(at 111.76 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18816,7 +19086,7 @@
 		(dnp no)
 		(uuid "9f421423-2104-4436-b939-25c0e152c18b")
 		(property "Reference" "V2424"
-			(at 112.776 46.99 0)
+			(at 112.776 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18826,7 +19096,7 @@
 			)
 		)
 		(property "Value" "BZX79-B8V2"
-			(at 116.078 49.022 0)
+			(at 116.078 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18836,7 +19106,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 111.76 43.18 0)
+			(at 111.76 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18847,7 +19117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 43.18 0)
+			(at 111.76 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18858,7 +19128,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 111.76 43.18 0)
+			(at 111.76 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18894,7 +19164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3cf3409-256f-40be-b53b-2548a10d6e32")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR46"
 			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18954,7 +19224,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR046")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -19144,7 +19414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5ce66b6-43d1-4509-b7df-e34e5566270f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR53"
 			(at 318.77 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -19204,7 +19474,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR053")
+					(reference "#PWR53")
 					(unit 1)
 				)
 			)
@@ -19379,7 +19649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b22ef9bd-0509-41a3-b903-633b521ee5a4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 133.35 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -19439,7 +19709,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -19613,7 +19883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b30c4445-a299-41aa-a44e-e22245651da0")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR54"
 			(at 318.77 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19673,7 +19943,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR054")
+					(reference "#PWR54")
 					(unit 1)
 				)
 			)
@@ -19759,7 +20029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 257.81 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -19769,7 +20039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b33dc543-cd3a-4975-ac58-d75de4aa7773")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR51"
 			(at 257.81 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -19780,7 +20050,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 257.81 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19812,7 +20082,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 257.81 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -19829,7 +20099,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR051")
+					(reference "#PWR51")
 					(unit 1)
 				)
 			)
@@ -19846,7 +20116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3e115f1-f589-40e3-a21c-e3dbf211b017")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR43"
 			(at 187.96 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -19906,7 +20176,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR043")
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
@@ -20176,7 +20446,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 96.52 33.02 180)
+		(at 96.52 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20186,7 +20456,7 @@
 		(dnp no)
 		(uuid "b65917b4-f571-43c0-915e-46897e0b8d1d")
 		(property "Reference" "V2421"
-			(at 94.996 30.48 0)
+			(at 94.996 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20196,7 +20466,7 @@
 			)
 		)
 		(property "Value" "BAW62"
-			(at 96.266 35.814 0)
+			(at 96.266 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20206,7 +20476,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 96.52 33.02 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20217,7 +20487,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 96.52 33.02 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20228,7 +20498,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 96.52 33.02 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20239,7 +20509,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 96.52 33.02 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20250,7 +20520,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 33.02 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20286,7 +20556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6d6ea2e-534a-4724-9397-b9d24981b35e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR40"
 			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -20346,7 +20616,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR040")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -20433,7 +20703,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 27.94 180)
+		(at 101.6 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20443,7 +20713,7 @@
 		(dnp no)
 		(uuid "b7c2c826-38da-4912-9515-4c0bc0f15f63")
 		(property "Reference" "R2447"
-			(at 99.314 27.686 90)
+			(at 99.314 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20453,7 +20723,7 @@
 			)
 		)
 		(property "Value" "15K4"
-			(at 101.6 27.94 90)
+			(at 101.6 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20463,7 +20733,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 103.378 27.94 90)
+			(at 103.378 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20474,7 +20744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 27.94 0)
+			(at 101.6 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20485,7 +20755,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 27.94 0)
+			(at 101.6 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20591,7 +20861,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 48.26 180)
+		(at 90.17 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20601,7 +20871,7 @@
 		(dnp no)
 		(uuid "b8e81d19-7d08-49d8-a224-21f643910b47")
 		(property "Reference" "R2446"
-			(at 88.138 48.26 90)
+			(at 88.138 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20611,7 +20881,7 @@
 			)
 		)
 		(property "Value" "1k21"
-			(at 90.17 48.26 90)
+			(at 90.17 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20621,7 +20891,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 91.948 48.26 90)
+			(at 91.948 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20632,7 +20902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 48.26 0)
+			(at 90.17 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20643,7 +20913,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 48.26 0)
+			(at 90.17 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20669,7 +20939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 182.88 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -20679,7 +20949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b94a8794-b7db-4bf3-bc12-445f61adf603")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR41"
 			(at 182.88 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -20690,7 +20960,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 182.88 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20722,7 +20992,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 182.88 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -20739,7 +21009,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR041")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -20923,7 +21193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c09eb49d-3e85-41fb-a74c-e4f66c0f9d1e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR37"
 			(at 134.62 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -20983,7 +21253,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR037")
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -21070,7 +21340,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 44.45 90)
+		(at 135.89 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21080,7 +21350,7 @@
 		(dnp no)
 		(uuid "c32ff231-e6e8-402c-b623-b00b3202e88e")
 		(property "Reference" "R2453"
-			(at 135.89 42.418 90)
+			(at 135.89 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21090,7 +21360,7 @@
 			)
 		)
 		(property "Value" "30k1"
-			(at 135.89 44.45 90)
+			(at 135.89 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21100,7 +21370,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 135.89 46.228 90)
+			(at 135.89 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21111,7 +21381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 44.45 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21122,7 +21392,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 44.45 0)
+			(at 135.89 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21306,7 +21576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 138.43 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -21316,7 +21586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4e5cc04-6625-4514-ad5f-0a4ac231ef5f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR39"
 			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -21327,7 +21597,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 138.43 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21359,7 +21629,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 138.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -21376,14 +21646,14 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR039")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND2")
 		(at 97.79 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -21393,7 +21663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5fb7f34-ceba-46d0-9a3d-e68c00ecbf26")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 97.79 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -21404,7 +21674,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "LGND2"
 			(at 97.79 194.818 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21436,7 +21706,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 97.79 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -21453,7 +21723,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -21709,7 +21979,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM393")
-		(at 149.86 24.13 0)
+		(at 149.86 27.94 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21719,7 +21989,7 @@
 		(dnp no)
 		(uuid "d0bc0cfb-5556-4cb5-b256-bfae40c9d93f")
 		(property "Reference" "A2402"
-			(at 155.194 27.686 0)
+			(at 155.194 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21729,7 +21999,7 @@
 			)
 		)
 		(property "Value" "LM393N"
-			(at 155.194 30.226 0)
+			(at 155.194 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21739,7 +22009,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 149.86 24.13 0)
+			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21750,7 +22020,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 149.86 24.13 0)
+			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21761,7 +22031,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 149.86 24.13 0)
+			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22202,7 +22472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND6")
 		(at 306.07 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -22212,7 +22482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da4f6eb1-ccf5-4c68-acaa-3df26ac82fb8")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR55"
 			(at 306.07 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -22223,7 +22493,7 @@
 				)
 			)
 		)
-		(property "Value" "GND6"
+		(property "Value" "LGND6"
 			(at 306.07 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22255,7 +22525,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 306.07 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -22272,7 +22542,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR055")
+					(reference "#PWR55")
 					(unit 1)
 				)
 			)
@@ -22280,7 +22550,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 354.33 238.76 0)
+		(at 382.27 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22290,7 +22560,7 @@
 		(dnp no)
 		(uuid "da6a3eb2-24a1-4841-9aa1-7fa1d39e4b96")
 		(property "Reference" "TP2405"
-			(at 351.282 231.902 0)
+			(at 379.222 231.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22301,7 +22571,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 353.06 233.934 0)
+			(at 381 233.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22312,7 +22582,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 359.41 238.76 0)
+			(at 387.35 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22323,7 +22593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 238.76 0)
+			(at 387.35 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22334,7 +22604,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 354.33 238.76 0)
+			(at 382.27 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22446,7 +22716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e360e31d-c525-4fcf-be21-04d86ca4f901")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR48"
 			(at 238.76 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22506,7 +22776,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR048")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -22674,7 +22944,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 111.76 33.02 0)
+		(at 111.76 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22684,7 +22954,7 @@
 		(dnp no)
 		(uuid "e5742344-3f16-4f3a-8b57-7aa0e33f614d")
 		(property "Reference" "V2423"
-			(at 112.776 27.686 0)
+			(at 112.776 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22694,7 +22964,7 @@
 			)
 		)
 		(property "Value" "BZX79-B8V2"
-			(at 116.078 30.226 0)
+			(at 116.078 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22704,7 +22974,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 111.76 33.02 0)
+			(at 111.76 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22715,7 +22985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 33.02 0)
+			(at 111.76 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22726,7 +22996,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 111.76 33.02 0)
+			(at 111.76 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23075,7 +23345,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM393")
-		(at 149.86 52.07 0)
+		(at 149.86 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23085,7 +23355,7 @@
 		(dnp no)
 		(uuid "ed2d8d2c-71b7-407e-8c26-c28ace00090a")
 		(property "Reference" "A2402"
-			(at 154.686 45.466 0)
+			(at 154.686 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23095,7 +23365,7 @@
 			)
 		)
 		(property "Value" "LM393N"
-			(at 154.686 48.006 0)
+			(at 154.686 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23105,7 +23375,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 149.86 52.07 0)
+			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23116,7 +23386,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 149.86 52.07 0)
+			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23127,7 +23397,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 149.86 52.07 0)
+			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23571,7 +23841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
+		(lib_id "PM2528:LGND5")
 		(at 246.38 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -23581,7 +23851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4b92342-c02d-4d9c-b6a5-06274c7190b0")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR49"
 			(at 246.38 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -23592,7 +23862,7 @@
 				)
 			)
 		)
-		(property "Value" "GND5"
+		(property "Value" "LGND5"
 			(at 246.38 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23624,7 +23894,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
 			(at 246.38 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -23641,7 +23911,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR049")
+					(reference "#PWR49")
 					(unit 1)
 				)
 			)
@@ -23658,7 +23928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f52c0fc9-a6f5-40ce-984d-c0ec2758f2de")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 349.25 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -23718,7 +23988,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -23726,7 +23996,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 85.09 43.18 0)
+		(at 85.09 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23736,7 +24006,7 @@
 		(dnp no)
 		(uuid "f8785d44-164b-482d-9ef5-8a01e891ec33")
 		(property "Reference" "V2420"
-			(at 83.82 40.386 0)
+			(at 83.82 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23746,7 +24016,7 @@
 			)
 		)
 		(property "Value" "BAV45"
-			(at 83.566 45.72 0)
+			(at 83.566 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23756,7 +24026,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 85.09 43.18 0)
+			(at 85.09 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23767,7 +24037,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 85.09 43.18 0)
+			(at 85.09 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23778,7 +24048,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 85.09 43.18 0)
+			(at 85.09 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23789,7 +24059,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 85.09 43.18 0)
+			(at 85.09 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23800,7 +24070,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 43.18 0)
+			(at 85.09 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24007,7 +24277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb3144bf-179f-4d8c-91c2-666fb988c34f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR23"
 			(at 218.44 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -24067,7 +24337,7 @@
 		(instances
 			(project "N24_ACAmplifier"
 				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR023")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)

@@ -11585,7 +11585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42f1398b-e088-44cd-96bd-f5ce87792fca")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 161.29 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +12152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b44100d-a124-4c7a-abab-cf8cb9284bb4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 161.29 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -12440,7 +12440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52c98354-b6b1-4aef-8635-0bbf59e972e6")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR28"
 			(at 242.57 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -14039,7 +14039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a4aface-7070-4006-bcb5-309f53d8dd83")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 85.09 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14594,7 +14594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99c85bcb-edce-425a-b2e4-1e58f9bc322b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 166.37 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15125,7 +15125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a16e13b0-1eb9-4ed5-83f4-fecfd259bbcb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15351,6 +15351,12 @@
 		(instances
 			(project "N30_GalvanicSeperation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -15781,7 +15787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac542133-d42a-491c-ae5f-dd32fb11d5fe")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 167.64 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -16123,7 +16129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd49291f-6831-4cb1-b9c3-16a3ff39ace3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 195.58 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16750,7 +16756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7420fa8-d0fb-4af0-a8d5-e1c5a83a09d0")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 166.37 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16833,7 +16839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccfd6e6c-aa8a-4f48-b957-7e95391f8acb")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 161.29 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16916,7 +16922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0e427ac-59ec-4f5a-aab4-2ee0b127f067")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 166.37 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -18934,7 +18940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "facde660-e40b-41f5-a7aa-cefc409dbd31")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 161.29 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19264,5 +19270,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

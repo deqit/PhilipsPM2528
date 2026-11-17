@@ -6597,16 +6597,6 @@
 		)
 		(uuid "8fbe75f2-63b5-4ae9-affd-b450f7cba469")
 	)
-	(label "+2VRefZero"
-		(at 40.64 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92cdc5e5-fc32-49f2-a9b9-f1b93cb4b104")
-	)
 	(label "Iout"
 		(at 367.03 80.01 0)
 		(effects
@@ -6756,17 +6746,6 @@
 		)
 		(uuid "95d338f8-421c-4fb3-941f-99b0db160bec")
 	)
-	(hierarchical_label "+2VRefZero"
-		(shape input)
-		(at 25.4 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b4af724-829d-41af-92c7-8e03a6b21c59")
-	)
 	(hierarchical_label "REL2301"
 		(shape input)
 		(at 25.4 39.37 0)
@@ -6778,8 +6757,8 @@
 		)
 		(uuid "c9f2a6cb-b284-444d-b133-5ff6591ae789")
 	)
-	(hierarchical_label "+2VRef"
-		(shape input)
+	(hierarchical_label "GND1"
+		(shape passive)
 		(at 25.4 34.29 0)
 		(effects
 			(font
@@ -6787,7 +6766,7 @@
 			)
 			(justify left)
 		)
-		(uuid "cc74a32b-829a-4600-9cea-e2a5a5fe3c1e")
+		(uuid "ce5a4dc4-39ab-4ef6-aec8-e62050815a62")
 	)
 	(hierarchical_label "GND2"
 		(shape passive)
@@ -6821,6 +6800,17 @@
 			(justify left)
 		)
 		(uuid "ed974b9e-0810-46c8-88fa-0ff12274ce21")
+	)
+	(hierarchical_label "+2VRef"
+		(shape input)
+		(at 25.4 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f053a4ba-265f-4ce5-9eaf-5f0b6be509cc")
 	)
 	(hierarchical_label "REL2307"
 		(shape input)
@@ -7465,6 +7455,89 @@
 			(project "N23_CurrentSource"
 				(path "/d0cbc3eb-af1d-4eaa-9415-d4cdbf725378"
 					(reference "R2310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PM2528:LGND1")
+		(at 40.64 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14b7175d-cdcb-42f2-9902-1cfb0de0243c")
+		(property "Reference" "#PWR102"
+			(at 40.64 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LGND1"
+			(at 40.64 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 40.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c66c6f8-b2e4-43b3-a62f-f901108cde8b")
+		)
+		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/a5c4d301-4400-56bb-b206-56ab8baa6a70"
+					(reference "#PWR102")
+					(unit 1)
+				)
+			)
+			(project "N23_CurrentSource"
+				(path "/d0cbc3eb-af1d-4eaa-9415-d4cdbf725378"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)

@@ -4972,9 +4972,9 @@
 		)
 		(uuid "221b24a3-cb56-4d63-862e-2d6d28c92250")
 	)
-	(text "X3010-X3011: PM9291 (IEC-BUS) ??\nX3010-X3012: PM9292 (BCD Parallel) ??"
+	(text "Option strap, read as D6 at 0x08 (ROM 0x0a02):\nOpen or X3010-X3011: D6 = 1, no effect\nX3010-X3012 (-5V): D6 = 0, fast conversion forced\nPM9291 IEC / PM9292 BCD link: assumed"
 		(exclude_from_sim no)
-		(at 68.58 146.05 0)
+		(at 13.97 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)

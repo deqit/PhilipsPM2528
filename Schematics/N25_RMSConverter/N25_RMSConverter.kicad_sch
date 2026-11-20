@@ -5172,19 +5172,8 @@
 			)
 			(symbol "ReedRelay_1_1"
 				(rectangle
-					(start -2.54 2.54)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.905 1.27)
-					(end 1.905 -1.27)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5195,34 +5184,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -1.27) (xy 1.524 1.27)
+						(xy -1.016 -1.016) (xy 1.016 1.016)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -10112,7 +10077,7 @@
 		)
 		(uuid "ff478594-b502-4044-aa29-495847d1579b")
 	)
-	(label "D1703.22"
+	(label "N25_REL2501"
 		(at 365.76 31.75 0)
 		(effects
 			(font
@@ -10142,7 +10107,7 @@
 		)
 		(uuid "c10ac0d6-7db9-418a-97f7-99ccd95dd965")
 	)
-	(hierarchical_label "D1703.22"
+	(hierarchical_label "N25_REL2501"
 		(shape input)
 		(at 30.48 55.88 0)
 		(effects

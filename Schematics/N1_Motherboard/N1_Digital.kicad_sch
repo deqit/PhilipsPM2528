@@ -9,6 +9,8 @@
 		(date "2026-11-20")
 		(rev "1.0")
 		(company "D. Kupers")
+		(comment 1 "Source: Philips PM2528 service manual part 2, Fig 7.5 (digital section)")
+		(comment 2 "Values follow the parts list where it differs from Fig 7.5, see reveng/CARD_TODO.md")
 	)
 	(lib_symbols
 		(symbol "4xxx:4013"
@@ -11543,6 +11545,30 @@
 		(uuid "2fc2a80e-5f57-417c-9fb4-55c942762800")
 	)
 	(rectangle
+		(start 289.56 99.06)
+		(end 374.9 203.2)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3bdeb876-1514-4238-bc02-04b0dbd883a7")
+	)
+	(rectangle
+		(start 22.36 365.76)
+		(end 69.08 400.05)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "43628adc-9c97-4f80-b251-fc04e2ac922b")
+	)
+	(rectangle
 		(start 99.06 60.96)
 		(end 191.77 143.51)
 		(stroke
@@ -11555,8 +11581,32 @@
 		(uuid "465bd471-63ec-4a5f-8eb8-8e4c36dd0ccd")
 	)
 	(rectangle
+		(start 410.2 86.36)
+		(end 456.43 186.69)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6b8641d7-2cb6-47bb-b944-1ab3843c9c12")
+	)
+	(rectangle
+		(start 488.9 63.5)
+		(end 533.9 205.74)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "76489837-189c-464b-b8f6-cde10d984fe4")
+	)
+	(rectangle
 		(start 17.78 21.59)
-		(end 63.5 127)
+		(end 63.5 129.54)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -11579,8 +11629,8 @@
 		(uuid "ad624b99-77b3-4b4b-8ad8-8e72de6c8b56")
 	)
 	(rectangle
-		(start 283.21 193.04)
-		(end 313.69 232.41)
+		(start 283.21 210.82)
+		(end 313.69 250.19)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -11613,29 +11663,20 @@
 		)
 		(uuid "0adcf58a-a825-499c-8068-8092b8101b7e")
 	)
-	(text "Lower"
+	(text "Read 0x20 via D1814A:\nD7/D6 mains-sync phases,\nD5 ~{WDTO} (0 = watchdog fired),\nD4 TEST ADC (0 = test loop)."
 		(exclude_from_sim no)
-		(at 515.874 89.916 0)
+		(at 485.5 327 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
-		(uuid "1a1f8b60-7497-47dc-bc07-ec86fa569f42")
-	)
-	(text "Upper"
-		(exclude_from_sim no)
-		(at 515.366 149.352 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "37ea768e-6b53-4997-80f2-d3798f60d500")
+		(uuid "3eb8f711-0ac3-49d7-b438-27d0c2fa78ef")
 	)
 	(text "CP-selection"
 		(exclude_from_sim no)
-		(at 289.306 191.516 0)
+		(at 289.306 209.296 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11656,7 +11697,7 @@
 	)
 	(text "50Hz"
 		(exclude_from_sim no)
-		(at 308.61 201.168 0)
+		(at 308.61 218.948 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11686,6 +11727,17 @@
 		)
 		(uuid "9e62beb5-8f63-471e-880d-691458730e4a")
 	)
+	(text "Address latch"
+		(exclude_from_sim no)
+		(at 411 84.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a587cf33-a97f-45de-b6f3-14f9f3afe3d1")
+	)
 	(text "Interrupt controller"
 		(exclude_from_sim no)
 		(at 202.438 115.316 0)
@@ -11699,7 +11751,7 @@
 	)
 	(text "Configuration shown for 50Hz.\nFor 60Hz, also B1802=4,8Mhz\nGoal: measurement-cycle takes exactly 5 mains periods.\n"
 		(exclude_from_sim no)
-		(at 283.21 236.474 0)
+		(at 283.21 254.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11708,16 +11760,16 @@
 		)
 		(uuid "c19a455e-87aa-41ae-94a0-25a8ef52a5b0")
 	)
-	(text "Counter"
+	(text "B1801 (EXT START or N30 STDO)\n~{INT0} low on P1.7 and ~{INT} via D1817;\n~{INTX} (N2 keys)\nENI (P1.6) clears it."
 		(exclude_from_sim no)
-		(at 216.662 44.704 0)
+		(at 202.5 208 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
-		(uuid "c4aa5cb7-0584-4c00-b93a-93a730cfe4c3")
+		(uuid "ce1405f3-a510-4c42-ba19-f04137e84721")
 	)
 	(text "ADC TEST"
 		(exclude_from_sim no)
@@ -11731,13 +11783,24 @@
 	)
 	(text "60Hz"
 		(exclude_from_sim no)
-		(at 308.61 203.454 0)
+		(at 308.61 221.234 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "da9bb9c7-e21c-4cfd-9e21-9fb48f731fec")
+	)
+	(text "Counter"
+		(exclude_from_sim no)
+		(at 215.138 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "df5a9302-463b-4c3d-91f9-120f80f72b50")
 	)
 	(text "Sheet interface"
 		(exclude_from_sim no)
@@ -11750,6 +11813,28 @@
 			(justify left bottom)
 		)
 		(uuid "e939c68e-6f48-4c1a-8082-e28ddfadb408")
+	)
+	(text "Not used"
+		(exclude_from_sim no)
+		(at 22.9 364.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2fd6989-2a83-44f4-a9df-d1833122001b")
+	)
+	(text "Program memory (2 x 2716)\nD1810 = 2514: 0x000-0x7FF\nD1813 = 2515: 0x800-0xFFF"
+		(exclude_from_sim no)
+		(at 489.5 61.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3c78f1c-3d97-467d-89a5-0c9a8a77f739")
 	)
 	(text "OUTGUARD"
 		(exclude_from_sim no)
@@ -13617,7 +13702,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 207.01) (xy 298.45 209.55)
+			(xy 298.45 224.79) (xy 298.45 227.33)
 		)
 		(stroke
 			(width 0)
@@ -13757,7 +13842,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 231.14) (xy 336.55 186.69)
+			(xy 336.55 248.92) (xy 336.55 186.69)
 		)
 		(stroke
 			(width 0)
@@ -13907,7 +13992,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 204.47) (xy 306.07 204.47)
+			(xy 307.34 222.25) (xy 306.07 222.25)
 		)
 		(stroke
 			(width 0)
@@ -14167,7 +14252,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 199.39) (xy 307.34 199.39)
+			(xy 306.07 217.17) (xy 307.34 217.17)
 		)
 		(stroke
 			(width 0)
@@ -14177,7 +14262,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 217.17) (xy 287.02 231.14)
+			(xy 287.02 234.95) (xy 287.02 248.92)
 		)
 		(stroke
 			(width 0)
@@ -14387,7 +14472,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 201.93) (xy 295.91 201.93)
+			(xy 292.1 219.71) (xy 295.91 219.71)
 		)
 		(stroke
 			(width 0)
@@ -14517,7 +14602,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 208.28) (xy 294.64 207.01)
+			(xy 294.64 226.06) (xy 294.64 224.79)
 		)
 		(stroke
 			(width 0)
@@ -14607,7 +14692,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 217.17) (xy 287.02 217.17)
+			(xy 290.83 234.95) (xy 287.02 234.95)
 		)
 		(stroke
 			(width 0)
@@ -15087,7 +15172,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 123.19) (xy 45.72 123.19)
+			(xy 35.56 125.73) (xy 45.72 125.73)
 		)
 		(stroke
 			(width 0)
@@ -15137,7 +15222,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 118.11) (xy 45.72 118.11)
+			(xy 35.56 120.65) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -15317,7 +15402,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 214.63) (xy 307.34 214.63)
+			(xy 306.07 232.41) (xy 307.34 232.41)
 		)
 		(stroke
 			(width 0)
@@ -15757,7 +15842,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 207.01) (xy 298.45 207.01)
+			(xy 294.64 224.79) (xy 298.45 224.79)
 		)
 		(stroke
 			(width 0)
@@ -15847,7 +15932,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 120.65) (xy 45.72 120.65)
+			(xy 35.56 123.19) (xy 45.72 123.19)
 		)
 		(stroke
 			(width 0)
@@ -15877,6 +15962,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 115.57) (xy 45.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831c8c79-f676-4065-b3c6-76b5c67592e5")
+	)
+	(wire
+		(pts
 			(xy 132.08 92.71) (xy 134.62 92.71)
 		)
 		(stroke
@@ -15897,7 +15992,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 214.63) (xy 290.83 214.63)
+			(xy 288.29 232.41) (xy 290.83 232.41)
 		)
 		(stroke
 			(width 0)
@@ -16157,7 +16252,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 231.14) (xy 336.55 231.14)
+			(xy 287.02 248.92) (xy 336.55 248.92)
 		)
 		(stroke
 			(width 0)
@@ -16377,7 +16472,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 204.47) (xy 307.34 214.63)
+			(xy 307.34 222.25) (xy 307.34 232.41)
 		)
 		(stroke
 			(width 0)
@@ -16477,7 +16572,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 224.79) (xy 298.45 226.06)
+			(xy 298.45 242.57) (xy 298.45 243.84)
 		)
 		(stroke
 			(width 0)
@@ -16677,7 +16772,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 219.71) (xy 308.61 219.71)
+			(xy 306.07 237.49) (xy 308.61 237.49)
 		)
 		(stroke
 			(width 0)
@@ -16687,7 +16782,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 219.71) (xy 308.61 229.87)
+			(xy 308.61 237.49) (xy 308.61 247.65)
 		)
 		(stroke
 			(width 0)
@@ -16957,7 +17052,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 199.39) (xy 307.34 175.26)
+			(xy 307.34 217.17) (xy 307.34 175.26)
 		)
 		(stroke
 			(width 0)
@@ -17147,7 +17242,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 229.87) (xy 288.29 214.63)
+			(xy 288.29 247.65) (xy 288.29 232.41)
 		)
 		(stroke
 			(width 0)
@@ -17437,7 +17532,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 229.87) (xy 288.29 229.87)
+			(xy 308.61 247.65) (xy 288.29 247.65)
 		)
 		(stroke
 			(width 0)
@@ -18476,7 +18571,7 @@
 		(uuid "fe4fc5bb-91eb-43a5-924a-07bfaca03713")
 	)
 	(label "TR1.13"
-		(at 45.72 118.11 0)
+		(at 45.72 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18526,7 +18621,7 @@
 		(uuid "0598b5b6-a9e2-4a02-9bcb-b440ea050c9d")
 	)
 	(label "TR1.15"
-		(at 45.72 123.19 0)
+		(at 45.72 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18625,7 +18720,7 @@
 		)
 		(uuid "11e6fd7f-2727-4175-bc69-f52e8f7d71d1")
 	)
-	(label "CHSUM{slash}SOH"
+	(label "CHSUM{slash}SDH"
 		(at 361.95 234.95 0)
 		(effects
 			(font
@@ -19045,7 +19140,7 @@
 		)
 		(uuid "510d2eaa-ace2-4d03-97a6-3f452534b917")
 	)
-	(label "WHDOG"
+	(label "~{WDTO}"
 		(at 495.3 298.45 180)
 		(effects
 			(font
@@ -19256,7 +19351,7 @@
 		(uuid "7410ce38-df4f-4e3e-8044-9012f2387fbe")
 	)
 	(label "N20_CP"
-		(at 292.1 201.93 180)
+		(at 292.1 219.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19294,6 +19389,16 @@
 			(justify left bottom)
 		)
 		(uuid "7b47e860-5b33-4b98-b7d5-984e91d48dac")
+	)
+	(label "CHSUM{slash}SDH"
+		(at 45.72 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c622b12-dd5b-42fe-8c0c-efe6bf7abf73")
 	)
 	(label "~{INT}"
 		(at 284.48 165.1 0)
@@ -19776,7 +19881,7 @@
 		(uuid "c8f84682-caf8-4898-b3e2-57d544bd6259")
 	)
 	(label "TR1.14"
-		(at 45.72 120.65 0)
+		(at 45.72 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19995,7 +20100,7 @@
 		)
 		(uuid "e92264b6-b295-422c-9b4e-c1ee8c4649d6")
 	)
-	(label "WHDOG"
+	(label "~{WDTO}"
 		(at 243.84 151.13 180)
 		(effects
 			(font
@@ -20190,7 +20295,7 @@
 	)
 	(hierarchical_label "TR1.13"
 		(shape passive)
-		(at 35.56 118.11 180)
+		(at 35.56 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20399,7 +20504,7 @@
 	)
 	(hierarchical_label "TR1.14"
 		(shape passive)
-		(at 35.56 120.65 180)
+		(at 35.56 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20485,9 +20590,20 @@
 		)
 		(uuid "e34f145a-b8f8-48e9-8bac-2dae87ff1623")
 	)
+	(hierarchical_label "CHSUM{slash}SDH"
+		(shape input)
+		(at 35.56 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e569d82d-8f9c-4e61-b4cd-3148d86075c6")
+	)
 	(hierarchical_label "TR1.15"
 		(shape passive)
-		(at 35.56 123.19 180)
+		(at 35.56 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21974,7 +22090,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4013")
-		(at 298.45 217.17 0)
+		(at 298.45 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21984,7 +22100,7 @@
 		(dnp no)
 		(uuid "132bffdd-dfed-4dd9-ba4a-725677eac413")
 		(property "Reference" "D1816"
-			(at 299.466 210.566 0)
+			(at 299.466 228.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21995,7 +22111,7 @@
 			)
 		)
 		(property "Value" "HEF4013"
-			(at 298.958 223.774 0)
+			(at 298.958 241.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22006,7 +22122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 217.17 0)
+			(at 298.45 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22017,7 +22133,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
-			(at 298.45 217.17 0)
+			(at 298.45 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22028,7 +22144,7 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
-			(at 298.45 217.17 0)
+			(at 298.45 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23187,7 +23303,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 298.45 226.06 180)
+		(at 298.45 243.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23197,7 +23313,7 @@
 		(dnp no)
 		(uuid "28616e9f-70a2-4308-97cd-e1e33f3dd75c")
 		(property "Reference" "#PWR0122"
-			(at 298.45 222.25 0)
+			(at 298.45 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23208,7 +23324,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 295.402 227.838 0)
+			(at 295.402 245.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23218,7 +23334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 226.06 0)
+			(at 298.45 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23229,7 +23345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 226.06 0)
+			(at 298.45 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23240,7 +23356,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 298.45 226.06 0)
+			(at 298.45 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28988,7 +29104,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 294.64 208.28 180)
+		(at 294.64 226.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28998,7 +29114,7 @@
 		(dnp no)
 		(uuid "91958e19-95f6-4607-88b7-d9f3adf2681e")
 		(property "Reference" "#PWR0121"
-			(at 294.64 204.47 0)
+			(at 294.64 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29009,7 +29125,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 291.338 210.312 0)
+			(at 291.338 228.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29019,7 +29135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 208.28 0)
+			(at 294.64 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29030,7 +29146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 208.28 0)
+			(at 294.64 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29041,7 +29157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 294.64 208.28 0)
+			(at 294.64 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34495,7 +34611,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 300.99 201.93 0)
+		(at 300.99 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34505,7 +34621,7 @@
 		(dnp no)
 		(uuid "f3c33881-b715-42ad-9379-aaa5eb0d3491")
 		(property "Reference" "S1801"
-			(at 300.99 196.596 0)
+			(at 300.99 214.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34515,7 +34631,7 @@
 			)
 		)
 		(property "Value" "2x SPDT"
-			(at 300.99 195.58 0)
+			(at 300.99 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34526,7 +34642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 201.93 0)
+			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34537,7 +34653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 201.93 0)
+			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34548,7 +34664,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 300.99 201.93 0)
+			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

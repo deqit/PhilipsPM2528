@@ -6370,6 +6370,17 @@
 		)
 		(uuid "1b9f33b2-077d-4688-86f5-33083047b18d")
 	)
+	(text "GUARD: inner shell around the PCB and the transformer screen (board 2026-11-21).\nNo internal link to 0 or to earth; the link between the GUARD and 0 sockets is fitted outside."
+		(exclude_from_sim no)
+		(at 83.82 468.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f32b42c-d40c-43d0-8e7b-76523fc23430")
+	)
 	(text "[N24 AC Amplifier]"
 		(exclude_from_sim no)
 		(at 371.602 320.294 0)
@@ -11403,6 +11414,16 @@
 	)
 	(wire
 		(pts
+			(xy 778.51 510.54) (xy 786.13 510.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0a5ff1-446a-41ea-b766-8d5662f8d4a6")
+	)
+	(wire
+		(pts
 			(xy 378.46 260.35) (xy 396.24 260.35)
 		)
 		(stroke
@@ -12503,6 +12524,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 461.01) (xy 110.49 461.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2c8440-ca7b-43de-b22a-af6889eea470")
+	)
+	(wire
+		(pts
 			(xy 408.94 335.28) (xy 411.48 335.28)
 		)
 		(stroke
@@ -13491,6 +13522,16 @@
 		)
 		(uuid "3ecdd975-0f92-4f50-9a3e-dccd8348fad9")
 	)
+	(label "Guard"
+		(at 778.51 510.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f515399-c491-4130-834d-64e64aa45d07")
+	)
 	(label "N22_HIOUT1"
 		(at 245.11 406.4 0)
 		(effects
@@ -13900,6 +13941,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed281d86-f022-402e-9b31-9f8ada18510d")
+	)
+	(label "Guard"
+		(at 110.49 461.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eef792a5-3580-45c7-8bd1-9cfcdc0e51ca")
 	)
 	(label "~{ES_Enable}"
 		(at 154.94 199.39 0)

@@ -6,7 +6,7 @@
 	(paper "A1")
 	(title_block
 		(title "Philips PM2528 - N1 (Motherboard)")
-		(date "2026-11-20")
+		(date "2026-11-21")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -13371,6 +13371,16 @@
 		)
 		(uuid "1cee4db4-c18c-48e9-a4c6-035b6c7367b9")
 	)
+	(label "N22_HI"
+		(at 293.37 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ee05557-5550-4de7-94ac-e32e3f0f8e82")
+	)
 	(label "N24_OUT"
 		(at 252.73 50.8 0)
 		(effects
@@ -13431,7 +13441,7 @@
 		)
 		(uuid "2a4add15-ceb1-4523-a7c3-3e0eb654082e")
 	)
-	(label "N26_OCAmp"
+	(label "N22_HIOUT1"
 		(at 207.01 251.46 0)
 		(effects
 			(font
@@ -13460,6 +13470,16 @@
 			(justify right bottom)
 		)
 		(uuid "35fb82c3-3ca1-4039-94f1-2f0d656704bc")
+	)
+	(label "N22_HIOUT1"
+		(at 293.37 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bb5a38e-5cc7-4cf3-9d22-97fe7997330b")
 	)
 	(label "~{DH_SAMPLE}"
 		(at 669.29 449.58 0)
@@ -14023,17 +14043,6 @@
 		)
 		(uuid "16bb6281-34f3-40ee-8d9b-70ce0f9d4cf1")
 	)
-	(hierarchical_label "N26_DCAmp"
-		(shape input)
-		(at 293.37 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ee05557-5550-4de7-94ac-e32e3f0f8e82")
-	)
 	(hierarchical_label "A3"
 		(shape output)
 		(at 374.65 81.28 0)
@@ -14121,17 +14130,6 @@
 			(justify left)
 		)
 		(uuid "385c0853-08a1-4c84-86f2-5532e4b82e63")
-	)
-	(hierarchical_label "N26_OCAmp"
-		(shape output)
-		(at 293.37 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3bb5a38e-5cc7-4cf3-9d22-97fe7997330b")
 	)
 	(hierarchical_label "A3"
 		(shape output)
@@ -20363,7 +20361,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4394c7dd-bfe0-491a-9584-4cfa66ac6261")
 		(property "Reference" "C1426"
 			(at 369.062 247.904 0)
@@ -20410,6 +20408,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 368.3 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Board" "One leg lifted on the board (2026-11-21)"
 			(at 368.3 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -23220,7 +23229,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5daaa21b-6749-4dad-bf69-ad7505617d7a")
 		(property "Reference" "C1421"
 			(at 361.442 218.694 0)
@@ -23267,6 +23276,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 360.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Board" "One leg lifted on the board (2026-11-21)"
 			(at 360.68 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -23657,7 +23677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k9"
+		(property "Value" "7k5"
 			(at 311.912 320.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25456,7 +25476,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "78279cf6-af03-474f-8e07-511d64200601")
 		(property "Reference" "C1422"
 			(at 369.062 218.694 0)
@@ -25503,6 +25523,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 368.3 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Board" "One leg lifted on the board (2026-11-21)"
 			(at 368.3 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -26127,7 +26158,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7ede7f23-5a08-45bc-b4ca-da54df7cae3f")
 		(property "Reference" "C1423"
 			(at 346.202 247.904 0)
@@ -26174,6 +26205,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 345.44 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Board" "One leg lifted on the board (2026-11-21)"
 			(at 345.44 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -26756,7 +26798,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8259274d-0519-494f-9c91-813d7ec14571")
 		(property "Reference" "C1414"
 			(at 366.522 177.8 90)
@@ -26801,6 +26843,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 361.95 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Board" "One leg lifted on the board (2026-11-21)"
 			(at 361.95 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -27930,7 +27983,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9213b771-38df-42ea-9054-01e5ef02228c")
 		(property "Reference" "C1420"
 			(at 353.822 218.694 0)
@@ -27977,6 +28030,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 353.06 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Board" "One leg lifted on the board (2026-11-21)"
 			(at 353.06 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -35548,7 +35612,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f518d66b-96f4-4171-885e-7da0bf4aee90")
 		(property "Reference" "C1415"
 			(at 366.522 185.674 90)
@@ -35593,6 +35657,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 361.95 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Board" "One leg lifted on the board (2026-11-21)"
 			(at 361.95 186.69 0)
 			(hide yes)
 			(show_name no)

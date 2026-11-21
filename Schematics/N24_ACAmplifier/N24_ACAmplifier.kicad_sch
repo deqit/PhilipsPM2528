@@ -6002,12 +6002,6 @@
 		(uuid "d5a77ec2-c63a-4f82-a073-3598d5a063f0")
 	)
 	(junction
-		(at 327.66 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8daa758-3981-465e-9b7b-235cc8556de1")
-	)
-	(junction
 		(at 149.86 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10779,7 +10773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 196.85 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -10800,7 +10794,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 196.85 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11960,7 +11954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 115.57 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -11981,7 +11975,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 115.57 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12214,7 +12208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 167.64 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -12235,7 +12229,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 167.64 163.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13188,7 +13182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 129.54 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -13209,7 +13203,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 129.54 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13522,89 +13516,6 @@
 			(project "PM2528_System"
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/bc3937ae-8043-5433-b77b-9c7edad11abc"
 					(reference "#PWR44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PM2528:LGND2")
-		(at 327.66 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43b3789d-2db4-4b01-83d7-628f0a9c311f")
-		(property "Reference" "#PWR017"
-			(at 327.66 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LGND2"
-			(at 327.66 207.518 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-			(at 327.66 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27214496-abe4-4acc-97e3-9933bbfbe4ee")
-		)
-		(instances
-			(project "N24_ACAmplifier"
-				(path "/10314dd0-d63b-49c9-902d-69ff1737d02f"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "PM2528_System"
-				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/bc3937ae-8043-5433-b77b-9c7edad11abc"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14661,7 +14572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 165.1 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -14682,7 +14593,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 165.1 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15710,7 +15621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 111.76 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -15731,7 +15642,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 111.76 182.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18875,7 +18786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 129.54 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -18896,7 +18807,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 129.54 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19044,7 +18955,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 88.9 204.47 0)
 		(unit 1)
 		(body_style 1)
@@ -19065,7 +18976,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 88.9 208.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19127,7 +19038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 109.22 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -19148,7 +19059,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 109.22 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20828,7 +20739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 257.81 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -20849,7 +20760,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 257.81 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21805,7 +21716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 182.88 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -21826,7 +21737,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 182.88 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22657,7 +22568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 138.43 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -22678,7 +22589,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 138.43 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22740,7 +22651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PM2528:LGND2")
+		(lib_id "PM2528:LGND6")
 		(at 97.79 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -22761,7 +22672,7 @@
 				)
 			)
 		)
-		(property "Value" "LGND2"
+		(property "Value" "LGND6"
 			(at 97.79 194.818 0)
 			(show_name no)
 			(do_not_autoplace no)

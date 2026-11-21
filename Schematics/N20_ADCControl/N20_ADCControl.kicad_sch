@@ -5565,7 +5565,7 @@
 		(uuid "164a0f5e-d9bd-492c-af6c-d5d1ed675ab1")
 	)
 	(rectangle
-		(start 360.68 171.45)
+		(start 358.14 172.72)
 		(end 405.13 191.77)
 		(stroke
 			(width 0)
@@ -5769,7 +5769,7 @@
 	)
 	(text "Unused"
 		(exclude_from_sim no)
-		(at 364.744 173.228 0)
+		(at 361.188 171.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5846,6 +5846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21096b5b-331d-459e-9e67-8958d9868e82")
+	)
+	(junction
+		(at 386.08 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2137df77-0371-420e-810c-86a89661a37f")
 	)
 	(junction
 		(at 189.23 29.21)
@@ -5960,6 +5966,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73e39672-30d5-4aa4-bfae-920de8de7938")
+	)
+	(junction
+		(at 363.22 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78435337-beb4-418d-bc2c-73c1988fc70e")
 	)
 	(junction
 		(at 317.5 209.55)
@@ -6146,10 +6158,6 @@
 		(uuid "064f677e-2ee2-48ea-9b0d-ac44c4115490")
 	)
 	(no_connect
-		(at 364.49 187.96)
-		(uuid "1e9735a4-999b-45d5-a4a0-66f6b645322e")
-	)
-	(no_connect
 		(at 107.95 200.66)
 		(uuid "3aa469b2-de03-468d-8032-f62f5d78b160")
 	)
@@ -6158,16 +6166,12 @@
 		(uuid "3cbaa3b9-8d86-4cc5-a7f3-90592b820082")
 	)
 	(no_connect
-		(at 379.73 185.42)
+		(at 379.73 182.88)
 		(uuid "46259bef-50df-4475-be14-f48e51ec5385")
 	)
 	(no_connect
 		(at 351.79 107.95)
 		(uuid "536222bf-1e2e-46d9-82f7-7477c9af5063")
-	)
-	(no_connect
-		(at 387.35 182.88)
-		(uuid "75d80991-f38f-44fd-b5e3-524230c1c349")
 	)
 	(no_connect
 		(at 157.48 45.72)
@@ -6182,20 +6186,12 @@
 		(uuid "99c720f4-6ca6-42f4-8db5-1796c2d8b3b9")
 	)
 	(no_connect
-		(at 402.59 185.42)
+		(at 402.59 182.88)
 		(uuid "9b5a059e-6ae3-4e9e-b816-8f47d15b0b61")
 	)
 	(no_connect
 		(at 293.37 64.77)
 		(uuid "ba1316e7-528c-452e-ac2d-6284bca5cf6b")
-	)
-	(no_connect
-		(at 364.49 182.88)
-		(uuid "bd4c8a78-313f-41d2-9503-d4ad9b53b184")
-	)
-	(no_connect
-		(at 387.35 187.96)
-		(uuid "be5a835a-a9b0-4815-a588-12b5e6f5a453")
 	)
 	(no_connect
 		(at 345.44 130.81)
@@ -6965,6 +6961,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 185.42) (xy 387.35 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584bcd4d-3a4a-429e-b2da-faaa11aaefe3")
+	)
+	(wire
+		(pts
 			(xy 22.86 54.61) (xy 27.94 54.61)
 		)
 		(stroke
@@ -7345,6 +7351,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 179.07) (xy 363.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893afe1b-35e3-4f41-bcfe-dda2aca61d24")
+	)
+	(wire
+		(pts
 			(xy 142.24 165.1) (xy 142.24 152.4)
 		)
 		(stroke
@@ -7645,6 +7661,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 180.34) (xy 386.08 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0c20b4-8bc1-4727-865a-7768823abd2e")
+	)
+	(wire
+		(pts
 			(xy 119.38 114.3) (xy 114.3 114.3)
 		)
 		(stroke
@@ -7855,6 +7881,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 185.42) (xy 364.49 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c97406-45a2-411b-8dda-1e2f0ac3b75a")
+	)
+	(wire
+		(pts
 			(xy 248.92 209.55) (xy 251.46 209.55)
 		)
 		(stroke
@@ -7912,6 +7948,16 @@
 			(type default)
 		)
 		(uuid "b92d6355-9fd9-4ec6-9d5c-4644f3529315")
+	)
+	(wire
+		(pts
+			(xy 363.22 180.34) (xy 364.49 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba26d6b6-75ae-4ee9-b7a1-ea36471408cd")
 	)
 	(wire
 		(pts
@@ -8012,6 +8058,16 @@
 			(type default)
 		)
 		(uuid "c142b439-5a51-4bbf-a4ea-ec5c057df7c6")
+	)
+	(wire
+		(pts
+			(xy 363.22 185.42) (xy 363.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1adb247-6703-4074-9811-af1b93e7cd01")
 	)
 	(wire
 		(pts
@@ -8245,6 +8301,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 180.34) (xy 386.08 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a1b1a7-b01d-4b91-bd86-3319bee17f84")
+	)
+	(wire
+		(pts
 			(xy 307.34 232.41) (xy 307.34 234.95)
 		)
 		(stroke
@@ -8392,6 +8458,16 @@
 			(type default)
 		)
 		(uuid "e44ee0b2-9518-4fca-9cb1-37ba44a5825a")
+	)
+	(wire
+		(pts
+			(xy 386.08 179.07) (xy 386.08 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d286b9-7846-42ae-8014-a77df5ae0acf")
 	)
 	(wire
 		(pts
@@ -9400,7 +9476,7 @@
 				)
 			)
 		)
-		(property "Value" "1k00"
+		(property "Value" "1R"
 			(at 165.1 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9466,7 +9542,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4070")
-		(at 372.11 185.42 0)
+		(at 372.11 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9474,10 +9550,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0181cfc0-6be1-42f2-a594-1c4398380bc4")
 		(property "Reference" "D2006"
-			(at 371.8052 176.53 0)
+			(at 371.094 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9487,7 +9562,7 @@
 			)
 		)
 		(property "Value" "HEF4070"
-			(at 371.8052 179.07 0)
+			(at 371.602 188.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9497,7 +9572,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 372.11 185.42 0)
+			(at 372.11 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9508,7 +9583,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf"
-			(at 372.11 185.42 0)
+			(at 372.11 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9519,7 +9594,7 @@
 			)
 		)
 		(property "Description" "Quad Xor 2 inputs"
-			(at 372.11 185.42 0)
+			(at 372.11 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10102,6 +10177,83 @@
 			(project "PM2528_System"
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/539d0cf0-ca60-5d0a-8d12-e55bb36907d1"
 					(reference "#PWR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PM2528:LGND2")
+		(at 363.22 179.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0962e128-259a-442f-b8c7-05847bb39b24")
+		(property "Reference" "#PWR019"
+			(at 363.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LGND2"
+			(at 363.22 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 363.22 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ae847e0-8e04-46ad-a9f8-e963a54173a1")
+		)
+		(instances
+			(project "N20_ADCControl"
+				(path "/8bec8e5b-28b2-4dff-8f1b-c390b10e7bba"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15336,7 +15488,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4081")
-		(at 394.97 185.42 0)
+		(at 394.97 182.88 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15344,10 +15496,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "accb93e3-1b56-4bad-9c08-0f09a1a1e895")
 		(property "Reference" "D2007"
-			(at 394.9617 176.53 0)
+			(at 394.462 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15357,7 +15508,7 @@
 			)
 		)
 		(property "Value" "HEF4081"
-			(at 394.9617 179.07 0)
+			(at 395.224 188.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15367,7 +15518,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 394.97 185.42 0)
+			(at 394.97 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15378,7 +15529,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 394.97 185.42 0)
+			(at 394.97 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15389,7 +15540,7 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
-			(at 394.97 185.42 0)
+			(at 394.97 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16750,6 +16901,83 @@
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/539d0cf0-ca60-5d0a-8d12-e55bb36907d1"
 					(reference "D2009")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PM2528:LGND2")
+		(at 386.08 179.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8f1e10f-1069-4cc4-9e3c-4962fa7b1636")
+		(property "Reference" "#PWR020"
+			(at 386.08 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LGND2"
+			(at 386.08 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 386.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "095bd927-e81b-4ce9-b924-23f018bdbed6")
+		)
+		(instances
+			(project "N20_ADCControl"
+				(path "/8bec8e5b-28b2-4dff-8f1b-c390b10e7bba"
+					(reference "#PWR020")
+					(unit 1)
 				)
 			)
 		)
@@ -18340,4 +18568,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

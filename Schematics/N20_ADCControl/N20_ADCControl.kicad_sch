@@ -4172,6 +4172,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -9593,6 +9770,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14073"
+			(at 372.11 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Xor 2 inputs"
 			(at 372.11 182.88 0)
 			(hide yes)
@@ -9855,6 +10043,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14055"
+			(at 298.45 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual JK FlipFlop, set & reset"
 			(at 298.45 105.41 0)
 			(hide yes)
@@ -10057,6 +10256,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 295.91 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 295.91 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -10321,6 +10531,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14055"
+			(at 153.67 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual JK FlipFlop, set & reset"
 			(at 153.67 99.06 0)
 			(hide yes)
@@ -10450,6 +10671,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14073"
+			(at 276.86 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Xor 2 inputs"
 			(at 276.86 34.29 0)
 			(hide yes)
@@ -10563,6 +10795,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 123.19 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50479"
 			(at 123.19 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10747,6 +10990,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14055"
+			(at 120.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual JK FlipFlop, set & reset"
 			(at 120.65 43.18 0)
 			(hide yes)
@@ -10875,6 +11129,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14073"
+			(at 80.01 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Xor 2 inputs"
 			(at 80.01 195.58 0)
 			(hide yes)
@@ -10987,6 +11252,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf"
+			(at 339.09 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14064"
 			(at 339.09 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11463,6 +11739,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 30114"
+			(at 170.18 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 170.18 214.63 0)
 			(hide yes)
@@ -11886,6 +12173,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14053"
+			(at 304.8 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Or 2 inputs"
 			(at 304.8 72.39 0)
 			(hide yes)
@@ -12261,6 +12559,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14055"
+			(at 327.66 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual JK FlipFlop, set & reset"
 			(at 327.66 222.25 0)
 			(hide yes)
@@ -12390,6 +12699,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 30103"
+			(at 276.86 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 276.86 220.98 0)
 			(hide yes)
@@ -12468,6 +12788,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 368.3 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 368.3 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -12592,6 +12923,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4027bms.pdf"
+			(at 347.98 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14055"
 			(at 347.98 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -12807,6 +13149,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4027bms.pdf"
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14055"
 			(at 106.68 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13114,6 +13467,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14054"
+			(at 152.4 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And 2 inputs"
 			(at 152.4 189.23 0)
 			(hide yes)
@@ -13225,6 +13589,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 83.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 83.82 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13347,6 +13722,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+			(at 82.55 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14053"
 			(at 82.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -13563,6 +13949,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14054"
+			(at 276.86 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And 2 inputs"
 			(at 276.86 102.87 0)
 			(hide yes)
@@ -13687,6 +14084,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14053"
+			(at 337.82 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Or 2 inputs"
 			(at 337.82 222.25 0)
 			(hide yes)
@@ -13799,6 +14207,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd45/cd4518bms-20bms.pdf"
+			(at 280.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14064"
 			(at 280.67 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13939,6 +14358,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14064"
+			(at 317.5 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual BCD Up-Counter"
 			(at 317.5 222.25 0)
 			(hide yes)
@@ -14057,6 +14487,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 154.94 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 154.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14189,6 +14630,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14054"
+			(at 321.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And 2 inputs"
 			(at 321.31 64.77 0)
 			(hide yes)
@@ -14302,6 +14754,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 119.38 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 30613"
 			(at 119.38 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -14587,6 +15050,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14053"
+			(at 101.6 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Or 2 inputs"
 			(at 101.6 53.34 0)
 			(hide yes)
@@ -14791,6 +15265,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14054"
+			(at 83.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And 2 inputs"
 			(at 83.82 104.14 0)
 			(hide yes)
@@ -14902,6 +15387,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+			(at 82.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14053"
 			(at 82.55 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15203,6 +15699,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50557"
+			(at 165.1 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 165.1 209.55 0)
 			(hide yes)
@@ -15460,6 +15967,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 30103"
+			(at 270.51 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 270.51 220.98 0)
 			(hide yes)
@@ -15535,6 +16053,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 394.97 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 394.97 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15835,6 +16364,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 10002"
+			(at 307.34 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
 			(at 307.34 222.25 0)
 			(hide yes)
@@ -15948,6 +16488,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf"
+			(at 287.02 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14073"
 			(at 287.02 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16082,6 +16633,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14073"
+			(at 358.14 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Xor 2 inputs"
 			(at 358.14 222.25 0)
 			(hide yes)
@@ -16196,6 +16758,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 378.46 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 378.46 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -16413,6 +16986,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 10002"
+			(at 123.19 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
 			(at 123.19 154.94 0)
 			(hide yes)
@@ -16526,6 +17110,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 289.56 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 289.56 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -16707,6 +17302,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14055"
+			(at 149.86 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual JK FlipFlop, set & reset"
 			(at 149.86 43.18 0)
 			(hide yes)
@@ -16827,6 +17433,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4027bms.pdf"
+			(at 388.62 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14055"
 			(at 388.62 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -17049,6 +17666,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 30103"
+			(at 283.21 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 283.21 220.98 0)
 			(hide yes)
@@ -17126,6 +17754,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4027bms.pdf"
+			(at 337.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14055"
 			(at 337.82 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -17263,6 +17902,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14054"
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And 2 inputs"
 			(at 129.54 96.52 0)
 			(hide yes)
@@ -17387,6 +18037,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14054"
+			(at 398.78 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And 2 inputs"
 			(at 398.78 222.25 0)
 			(hide yes)
@@ -17500,6 +18161,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 177.8 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 177.8 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -17707,6 +18379,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 100.33 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 100.33 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -17953,7 +18636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 264.16 220.98 0)
 		(unit 1)
 		(body_style 1)
@@ -18007,7 +18690,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_PN" "4822 124 20678"
+			(at 264.16 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
 			(at 264.16 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -18094,6 +18788,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 31081"
+			(at 123.19 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 123.19 212.09 0)
 			(hide yes)
@@ -18170,6 +18875,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 152.4 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 152.4 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -18301,6 +19017,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14054"
+			(at 154.94 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And 2 inputs"
 			(at 154.94 154.94 0)
 			(hide yes)
@@ -18414,6 +19141,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 175.26 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 175.26 43.18 0)
 			(hide yes)
 			(show_name no)

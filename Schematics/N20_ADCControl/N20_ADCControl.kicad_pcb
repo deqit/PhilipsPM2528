@@ -140,6 +140,12 @@
 		(path "/6545381d-6da0-427d-8842-c377b1eee2f0")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -290,12 +296,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xRDY")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "0fc8e695-11f1-46ce-9d8c-7142c593378d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -365,6 +371,12 @@
 		(path "/29902706-06f5-4750-b6f4-2809de1166df")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -515,12 +527,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "ed1e0dab-e200-4d44-808f-35e5bf068e21")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -590,6 +602,12 @@
 		(path "/695d5596-2875-4518-8299-0824fbc65699")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -740,12 +758,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/CPC")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "91c1b1a1-1f52-4fe6-bbb6-f529d7086216")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -815,6 +833,28 @@
 		(path "/7a5eaffd-f37b-492d-a6e2-d0db22414ff6")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "4")
+			)
+			(unit
+				(name "C")
+				(pins "8" "9" "10")
+			)
+			(unit
+				(name "D")
+				(pins "12" "13" "11")
+			)
+			(unit
+				(name "E")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1018,7 +1058,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_7")
 			(pintype "power_in")
 			(uuid "c0a0ce22-b5a2-47aa-a94e-1bc45dffa86e")
 		)
@@ -1089,7 +1129,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(uuid "8098cee1-67f1-4723-a6e2-4a136879c067")
 		)
@@ -1164,6 +1204,12 @@
 		(path "/abc51f03-462c-4765-a001-6bf4c4d27983")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1314,12 +1360,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "305e251a-b7a7-49d6-8a7b-3c98080002f5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1389,6 +1435,12 @@
 		(path "/3737d215-0826-41a7-9a17-6b8b46648d37")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1539,12 +1591,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xAZ")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "fc9303be-9ab8-4121-93c3-f3f0725f4cbe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1614,6 +1666,20 @@
 		(path "/d9ec4d6e-7b12-448f-8466-bb4bda9bfc9f")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "3" "6" "4" "1" "2")
+			)
+			(unit
+				(name "B")
+				(pins "9" "11" "8" "10" "13" "12")
+			)
+			(unit
+				(name "C")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1757,7 +1823,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
 			(net "/POL")
-			(pinfunction "Q")
+			(pinfunction "Q_1")
 			(pintype "output")
 			(uuid "91b8ca8d-a78b-4e5d-8d39-4277955a8e47")
 		)
@@ -1768,7 +1834,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2001A-~{Q})")
-			(pinfunction "~{Q}")
+			(pinfunction "~{Q}_2")
 			(pintype "output")
 			(uuid "ae5626a1-4c57-43b7-80b5-6fdbedfbdea5")
 		)
@@ -1779,7 +1845,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xEC20")
-			(pinfunction "C")
+			(pinfunction "C_3")
 			(pintype "input")
 			(uuid "45c41fed-9eab-4e3c-98a3-c3cae06d4b96")
 		)
@@ -1790,7 +1856,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "R")
+			(pinfunction "R_4")
 			(pintype "input")
 			(uuid "16277244-3efd-4d04-8a5a-d12592cde920")
 		)
@@ -1801,7 +1867,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/COMP")
-			(pinfunction "D")
+			(pinfunction "D_5")
 			(pintype "input")
 			(uuid "13c6835b-083a-49b3-830e-0c7d8dc82e82")
 		)
@@ -1812,7 +1878,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "S")
+			(pinfunction "S_6")
 			(pintype "input")
 			(uuid "212f0fec-2a5f-435e-bb1e-45a6b7232467")
 		)
@@ -1823,7 +1889,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_7")
 			(pintype "power_in")
 			(uuid "066e5bc2-5677-4e42-9307-d7cc4b807150")
 		)
@@ -1834,7 +1900,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "S")
+			(pinfunction "S_8")
 			(pintype "input")
 			(uuid "bdd3c468-7d47-4726-8088-75720b437407")
 		)
@@ -1845,7 +1911,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2001B-D)")
-			(pinfunction "D")
+			(pinfunction "D_9")
 			(pintype "input")
 			(uuid "8f684129-f23e-49e8-a965-9959c1e849d8")
 		)
@@ -1856,7 +1922,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2001B-R)")
-			(pinfunction "R")
+			(pinfunction "R_10")
 			(pintype "input")
 			(uuid "76ca543b-419b-4528-ba6a-03865a2ed1a6")
 		)
@@ -1867,7 +1933,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/C20000")
-			(pinfunction "C")
+			(pinfunction "C_11")
 			(pintype "input")
 			(uuid "b9300cb2-bad6-4d43-8c22-1430ffb209e5")
 		)
@@ -1878,7 +1944,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2001B-~{Q}-Pad12)")
-			(pinfunction "~{Q}")
+			(pinfunction "~{Q}_12")
 			(pintype "output+no_connect")
 			(uuid "33b3cbcd-8e0c-4478-8676-d55b7c8aa439")
 		)
@@ -1889,7 +1955,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xXC20")
-			(pinfunction "Q")
+			(pinfunction "Q_13")
 			(pintype "output")
 			(uuid "d7f5ce04-6a08-4982-b4d1-8b9226bb0c44")
 		)
@@ -1900,7 +1966,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(uuid "df508d9f-fdd5-4fb3-ac1a-a550865b2e60")
 		)
@@ -1975,6 +2041,12 @@
 		(path "/3afa9343-579c-4816-806a-d5808a0e6f5d")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2125,12 +2197,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/DN-")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "9fcc1845-dd63-484e-97d9-87c79b6e731a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2200,6 +2272,12 @@
 		(path "/498a64ce-6891-403e-ae95-b50afbab6c40")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2350,12 +2428,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/DN+")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "10f455ac-4496-40ca-ad4d-09784d15c915")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2425,6 +2503,12 @@
 		(path "/a4d40dbe-3c9e-4fe4-b909-04fc0a77d508")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2575,12 +2659,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2005B-J)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "28428f6b-b667-478d-8077-3a52eb79c816")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2650,6 +2734,12 @@
 		(path "/2e347ecc-71b8-431c-bb22-0b10608d3339")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2800,12 +2890,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/CP")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "7d28cef6-17eb-44fd-95d8-f17ce99868c6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2824,7 +2914,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2005"
-			(at 2.5 -1.37 270)
+			(at 2.5 0.5 270)
 			(layer "F.SilkS")
 			(uuid "969d6592-8680-4110-a279-0ef35d936224")
 			(effects
@@ -2873,6 +2963,12 @@
 		(path "/0672383a-d34f-474f-8811-5dfbd06331b4")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2989,7 +3085,7 @@
 			(uuid "090793b8-35a6-40bc-9a07-09ebda4e758c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3008,7 +3104,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2004"
-			(at 2.5 0.45 270)
+			(at 2.5 0.5 270)
 			(layer "F.SilkS")
 			(uuid "a904b53a-f8bc-43c4-a6d7-e0a8ce8cdd7c")
 			(effects
@@ -3057,6 +3153,12 @@
 		(path "/bf8924d4-25ac-46b2-b22a-30b63a23827d")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3173,7 +3275,7 @@
 			(uuid "31f54a82-f307-4aac-a3ca-28062007a9bb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3243,6 +3345,28 @@
 		(path "/d06302ee-d6c2-45db-84db-2d1625c0a3aa")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "4")
+			)
+			(unit
+				(name "C")
+				(pins "8" "9" "10")
+			)
+			(unit
+				(name "D")
+				(pins "12" "13" "11")
+			)
+			(unit
+				(name "E")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3446,7 +3570,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_7")
 			(pintype "power_in")
 			(uuid "c84fc691-66c6-4ef8-80cf-cdcbd6c106a4")
 		)
@@ -3517,7 +3641,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(uuid "d3647e74-7a72-4e94-bdbe-137f807d7005")
 		)
@@ -3589,9 +3713,23 @@
 			)
 		)
 		(property ki_fp_filters "DIP?16*")
-		(path "/7b87b8a6-d776-4e44-ae85-25a776c3611d")
+		(path "/7b6a5583-c497-487e-adb6-6141a9dabecb")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "7" "2" "3" "4" "5" "6")
+			)
+			(unit
+				(name "B")
+				(pins "9" "15" "10" "11" "12" "13" "14")
+			)
+			(unit
+				(name "C")
+				(pins "16" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3735,7 +3873,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
 			(net "/xECP")
-			(pinfunction "CK")
+			(pinfunction "CK_1")
 			(pintype "input")
 			(uuid "5a1d79ac-9a49-47d3-ab18-fc9ae52f81b9")
 		)
@@ -3746,7 +3884,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/CP")
-			(pinfunction "Enable")
+			(pinfunction "Enable_2")
 			(pintype "input")
 			(uuid "604816a5-5721-4e1a-81c1-49aa008e783d")
 		)
@@ -3757,7 +3895,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2002A-Q1-Pad3)")
-			(pinfunction "Q1")
+			(pinfunction "Q1_3")
 			(pintype "output+no_connect")
 			(uuid "5cc52784-41b8-4fc1-bfe6-ecef182f1b9e")
 		)
@@ -3768,7 +3906,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2002A-Q2-Pad4)")
-			(pinfunction "Q2")
+			(pinfunction "Q2_4")
 			(pintype "output+no_connect")
 			(uuid "a4376a67-58be-486e-8025-bb67f44f9344")
 		)
@@ -3779,7 +3917,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2002A-Q3-Pad5)")
-			(pinfunction "Q3")
+			(pinfunction "Q3_5")
 			(pintype "output+no_connect")
 			(uuid "3fcc59e5-8c5b-4bca-8104-f4cceefe6f3e")
 		)
@@ -3790,7 +3928,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xSTD")
-			(pinfunction "Q4")
+			(pinfunction "Q4_6")
 			(pintype "output")
 			(uuid "d5154bd8-8620-4682-ab8b-a0af68f59984")
 		)
@@ -3801,7 +3939,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/x~{RD}")
-			(pinfunction "Reset")
+			(pinfunction "Reset_7")
 			(pintype "input")
 			(uuid "79903812-f926-4ac1-bc28-433ea00b5d0c")
 		)
@@ -3812,7 +3950,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_8")
 			(pintype "power_in")
 			(uuid "d80ec85f-bf5c-408b-bb96-c83d9eb7c16c")
 		)
@@ -3823,7 +3961,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xERD")
-			(pinfunction "CK")
+			(pinfunction "CK_9")
 			(pintype "input")
 			(uuid "dab44d9d-7e75-4692-8a70-8660aa016022")
 		)
@@ -3834,7 +3972,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xXC20")
-			(pinfunction "Enable")
+			(pinfunction "Enable_10")
 			(pintype "input")
 			(uuid "3bb9a12c-78ef-4831-a447-321253509dc1")
 		)
@@ -3845,7 +3983,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2002B-Q1)")
-			(pinfunction "Q1")
+			(pinfunction "Q1_11")
 			(pintype "output")
 			(uuid "813e6058-18b5-4be7-b371-a5788ce25e92")
 		)
@@ -3856,7 +3994,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2002B-Q2-Pad12)")
-			(pinfunction "Q2")
+			(pinfunction "Q2_12")
 			(pintype "output+no_connect")
 			(uuid "21543f17-4435-4372-9e02-a4cf771567dd")
 		)
@@ -3867,7 +4005,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2002B-Q3-Pad13)")
-			(pinfunction "Q3")
+			(pinfunction "Q3_13")
 			(pintype "output+no_connect")
 			(uuid "04bfb5cb-a432-4c85-acd2-6ad65bb486f1")
 		)
@@ -3878,7 +4016,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2002B-Q4)")
-			(pinfunction "Q4")
+			(pinfunction "Q4_14")
 			(pintype "output")
 			(uuid "17eff76c-f0c8-437d-979c-97655f8f69c4")
 		)
@@ -3889,7 +4027,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xAZ")
-			(pinfunction "Reset")
+			(pinfunction "Reset_15")
 			(pintype "input")
 			(uuid "560dd822-439a-4ac5-9d0c-3711d5286530")
 		)
@@ -3900,7 +4038,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_16")
 			(pintype "power_in")
 			(uuid "bc001883-c385-4305-85cb-f87ef018e5b8")
 		)
@@ -3924,7 +4062,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2006"
-			(at 2.5 -1.37 270)
+			(at 2.5 0.5 270)
 			(layer "F.SilkS")
 			(uuid "e7d1f6d8-1aee-45d2-ab87-415527610583")
 			(effects
@@ -3973,6 +4111,12 @@
 		(path "/ebe47773-d618-4ccd-a752-08acc9acc56d")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4089,7 +4233,7 @@
 			(uuid "b5ac42d4-a58f-41fa-b0f0-f0a3a291b2e5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4159,6 +4303,20 @@
 		(path "/c0382edf-b999-477b-8a54-841c9d257aa4")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "3" "5" "7" "4" "1" "2")
+			)
+			(unit
+				(name "B")
+				(pins "10" "13" "11" "9" "12" "15" "14")
+			)
+			(unit
+				(name "C")
+				(pins "16" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4302,7 +4460,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
 			(net "/xAZ")
-			(pinfunction "Q")
+			(pinfunction "Q_1")
 			(pintype "output")
 			(uuid "f7569803-de2b-42b9-b0b2-a1eb31c54e6b")
 		)
@@ -4313,7 +4471,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2009A-~{Q})")
-			(pinfunction "~{Q}")
+			(pinfunction "~{Q}_2")
 			(pintype "output")
 			(uuid "a6c873ab-acf4-4384-b478-b6229199bbe4")
 		)
@@ -4324,7 +4482,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/x~{CP}")
-			(pinfunction "C")
+			(pinfunction "C_3")
 			(pintype "input")
 			(uuid "f96b7d78-c6dd-4187-93d9-58443a730cbf")
 		)
@@ -4335,7 +4493,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "R")
+			(pinfunction "R_4")
 			(pintype "input")
 			(uuid "55f09e05-d35f-4cbf-9e51-fee0498ded83")
 		)
@@ -4346,7 +4504,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2009A-K)")
-			(pinfunction "K")
+			(pinfunction "K_5")
 			(pintype "input")
 			(uuid "7e2e4322-309b-4f9d-9cd4-7b79cb1bef18")
 		)
@@ -4357,7 +4515,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2009A-J)")
-			(pinfunction "J")
+			(pinfunction "J_6")
 			(pintype "input")
 			(uuid "0f62de8f-0a38-46db-b215-1eab30c0a403")
 		)
@@ -4368,7 +4526,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/SAZ")
-			(pinfunction "S")
+			(pinfunction "S_7")
 			(pintype "input")
 			(uuid "5d071897-d35e-45fe-8bad-49b679cc2d0e")
 		)
@@ -4379,7 +4537,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_8")
 			(pintype "power_in")
 			(uuid "a79edef6-6509-4d2a-a502-4b3378ccd581")
 		)
@@ -4390,7 +4548,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "S")
+			(pinfunction "S_9")
 			(pintype "input")
 			(uuid "02998526-bb6b-439f-b02a-5ccc9be7aeb2")
 		)
@@ -4401,7 +4559,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2009B-J)")
-			(pinfunction "J")
+			(pinfunction "J_10")
 			(pintype "input")
 			(uuid "8cb158bd-d4b3-419f-bc30-fbf76e487b34")
 		)
@@ -4412,7 +4570,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xEC20")
-			(pinfunction "K")
+			(pinfunction "K_11")
 			(pintype "input")
 			(uuid "a8305d22-7aef-4bb9-b162-6e2f016617ac")
 		)
@@ -4423,7 +4581,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xAZ")
-			(pinfunction "R")
+			(pinfunction "R_12")
 			(pintype "input")
 			(uuid "d4901fc1-2639-4f3d-a55c-88d9f470c759")
 		)
@@ -4434,7 +4592,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/CP")
-			(pinfunction "C")
+			(pinfunction "C_13")
 			(pintype "input")
 			(uuid "020d9366-1d8b-4feb-a34e-4dd017895972")
 		)
@@ -4445,7 +4603,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/x~{UP}")
-			(pinfunction "~{Q}")
+			(pinfunction "~{Q}_14")
 			(pintype "output")
 			(uuid "f05283fd-8274-49f0-8164-af9ef6303745")
 		)
@@ -4456,7 +4614,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/UP")
-			(pinfunction "Q")
+			(pinfunction "Q_15")
 			(pintype "output")
 			(uuid "223e8920-a696-4d31-bb81-72b37cdf4eff")
 		)
@@ -4467,7 +4625,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_16")
 			(pintype "power_in")
 			(uuid "0b8a5066-d7f2-44a6-8135-4169980d8599")
 		)
@@ -4491,7 +4649,7 @@
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*6mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 6mm Electrolytic Capacitor")
 		(property "Reference" "C2007"
-			(at 8.03 -3.3 90)
+			(at 8.5 0 90)
 			(layer "F.SilkS")
 			(uuid "3eb12f7e-9c95-4bb3-bc00-5428b4e42308")
 			(effects
@@ -4538,10 +4696,16 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
+		(property ki_fp_filters "CP_*")
 		(path "/e1639f81-7d69-4d34-bcd1-5813f0ab02ef")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4966,6 +5130,28 @@
 		(path "/b9ff5816-c749-429c-b2b3-38c9c57a8bb5")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "4")
+			)
+			(unit
+				(name "C")
+				(pins "8" "9" "10")
+			)
+			(unit
+				(name "D")
+				(pins "12" "13" "11")
+			)
+			(unit
+				(name "E")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5158,7 +5344,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2003A-J)")
+			(net "/xRD")
 			(pintype "input")
 			(uuid "83fe8bc0-1e99-4aeb-9e3f-63889ee1f339")
 		)
@@ -5169,7 +5355,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_7")
 			(pintype "power_in")
 			(uuid "dd8454d1-877c-4e3e-8a52-0ce1ff621e6a")
 		)
@@ -5179,7 +5365,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2003A-J)")
+			(net "/xRD")
 			(pintype "input")
 			(uuid "2ec5ebea-6690-4529-9bd6-82770050c388")
 		)
@@ -5240,7 +5426,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(uuid "07aa1a48-8e64-4082-adb7-8fda654c37e6")
 		)
@@ -5315,6 +5501,28 @@
 		(path "/b929e818-df22-424b-a080-c62c3afd51b8")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "4")
+			)
+			(unit
+				(name "C")
+				(pins "8" "9" "10")
+			)
+			(unit
+				(name "D")
+				(pins "12" "13" "11")
+			)
+			(unit
+				(name "E")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5457,8 +5665,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net "unconnected-(D2006-Pad1)")
-			(pintype "input+no_connect")
+			(net "GND2")
+			(pintype "input")
 			(uuid "c6126f99-6626-4dfa-99df-699a3c7ae92e")
 		)
 		(pad "2" thru_hole circle
@@ -5467,8 +5675,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(D2006-Pad2)")
-			(pintype "input+no_connect")
+			(net "GND2")
+			(pintype "input")
 			(uuid "4ce37498-0cd3-4c6d-b345-0f0d1979831d")
 		)
 		(pad "3" thru_hole circle
@@ -5518,7 +5726,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_7")
 			(pintype "power_in")
 			(uuid "ac2453ff-6c93-4799-9ca7-c5fb664dfa1d")
 		)
@@ -5589,7 +5797,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(uuid "fa374287-c966-4cc8-b958-217ce658087f")
 		)
@@ -5664,6 +5872,12 @@
 		(path "/1a6c3304-aaea-4f7a-b02f-b9d787abfc33")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5928,6 +6142,28 @@
 		(path "/accb93e3-1b56-4bad-9c08-0f09a1a1e895")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "4")
+			)
+			(unit
+				(name "C")
+				(pins "8" "9" "10")
+			)
+			(unit
+				(name "D")
+				(pins "12" "13" "11")
+			)
+			(unit
+				(name "E")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6131,7 +6367,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_7")
 			(pintype "power_in")
 			(uuid "942d1660-74bf-4ba3-ad99-dada0c94111f")
 		)
@@ -6181,8 +6417,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(D2007-Pad12)")
-			(pintype "input+no_connect")
+			(net "GND2")
+			(pintype "input")
 			(uuid "d908251a-91e7-4d66-bb49-b3651cf62165")
 		)
 		(pad "13" thru_hole circle
@@ -6191,8 +6427,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(D2007-Pad13)")
-			(pintype "input+no_connect")
+			(net "GND2")
+			(pintype "input")
 			(uuid "9ae41c97-4863-4018-a384-60cc6a77ce32")
 		)
 		(pad "14" thru_hole circle
@@ -6202,7 +6438,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(uuid "01f0d694-d1f2-48c8-93a0-f2e28102393a")
 		)
@@ -6277,6 +6513,12 @@
 		(path "/3f5f1636-7a1c-4d27-96a5-410d18d6496c")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6427,12 +6669,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/RC")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "f72896a4-62ab-4895-975d-3232a37ea1ef")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6451,7 +6693,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2001"
-			(at 2.5 -1.8 270)
+			(at 2.5 1.37 270)
 			(layer "F.SilkS")
 			(uuid "c39729b8-4fc4-4156-a3be-956a6846e04a")
 			(effects
@@ -6500,6 +6742,12 @@
 		(path "/abec0190-cd85-4251-8e2e-3740559686a3")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6616,7 +6864,7 @@
 			(uuid "8d0d665e-99fc-47b2-8f12-ca2325e24a54")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6683,9 +6931,23 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*")
-		(path "/5a01add5-f4ce-4092-8c5c-2705b3ad31af")
+		(path "/cba70f58-0af0-456f-a758-ec3e5f04efeb")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "3" "5" "7" "4" "1" "2")
+			)
+			(unit
+				(name "B")
+				(pins "10" "13" "11" "9" "12" "15" "14")
+			)
+			(unit
+				(name "C")
+				(pins "16" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6829,7 +7091,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
 			(net "/xRDY")
-			(pinfunction "Q")
+			(pinfunction "Q_1")
 			(pintype "output")
 			(uuid "7d1bd35f-3fb9-4cea-bf9f-cfc5bab5b597")
 		)
@@ -6840,7 +7102,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2003A-~{Q}-Pad2)")
-			(pinfunction "~{Q}")
+			(pinfunction "~{Q}_2")
 			(pintype "output+no_connect")
 			(uuid "a3ecccc3-024b-406b-9063-5610396f9aa1")
 		)
@@ -6851,7 +7113,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2003A-C)")
-			(pinfunction "C")
+			(pinfunction "C_3")
 			(pintype "input")
 			(uuid "1b5d57bf-ac6b-4d5b-8977-723e76f3cd79")
 		)
@@ -6862,7 +7124,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/SAZ")
-			(pinfunction "R")
+			(pinfunction "R_4")
 			(pintype "input")
 			(uuid "9a3590c9-5f31-4374-9c59-3118b0da5830")
 		)
@@ -6873,7 +7135,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "K")
+			(pinfunction "K_5")
 			(pintype "input")
 			(uuid "0522e4f1-fb19-4c29-9485-d07f6c490399")
 		)
@@ -6883,8 +7145,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2003A-J)")
-			(pinfunction "J")
+			(net "/xRD")
+			(pinfunction "J_6")
 			(pintype "input")
 			(uuid "fc1adf03-58d0-4e8a-b546-7064bf2acc00")
 		)
@@ -6895,7 +7157,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "S")
+			(pinfunction "S_7")
 			(pintype "input")
 			(uuid "162f4f07-cfc0-48d0-ae76-0e97e9d09184")
 		)
@@ -6906,7 +7168,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_8")
 			(pintype "power_in")
 			(uuid "7519663d-ce11-41e7-aca6-4fc08dbaecff")
 		)
@@ -6917,7 +7179,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "S")
+			(pinfunction "S_9")
 			(pintype "input")
 			(uuid "5a5bd067-83ad-45d6-9256-c7a5be731e4a")
 		)
@@ -6928,7 +7190,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2003B-J)")
-			(pinfunction "J")
+			(pinfunction "J_10")
 			(pintype "input")
 			(uuid "fc9e4a81-8109-47fd-b70b-be71bd827d45")
 		)
@@ -6939,7 +7201,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xRDY")
-			(pinfunction "K")
+			(pinfunction "K_11")
 			(pintype "input")
 			(uuid "e17049ae-6bc4-4176-a5dc-a6f4e9e4d6c7")
 		)
@@ -6950,7 +7212,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xAZ")
-			(pinfunction "R")
+			(pinfunction "R_12")
 			(pintype "input")
 			(uuid "5c5244c6-86ea-405e-bb23-7da14a8504fb")
 		)
@@ -6961,7 +7223,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/x~{CP}")
-			(pinfunction "C")
+			(pinfunction "C_13")
 			(pintype "input")
 			(uuid "67dc68d0-526e-4794-b175-f7719db26fe8")
 		)
@@ -6972,7 +7234,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/x~{RD}")
-			(pinfunction "~{Q}")
+			(pinfunction "~{Q}_14")
 			(pintype "output")
 			(uuid "1c9aa694-f7d1-4285-a46a-68335d0756c8")
 		)
@@ -6982,8 +7244,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2003A-J)")
-			(pinfunction "Q")
+			(net "/xRD")
+			(pinfunction "Q_15")
 			(pintype "output")
 			(uuid "320e849a-de3e-4394-bf73-6d21b47ed22d")
 		)
@@ -6994,7 +7256,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_16")
 			(pintype "power_in")
 			(uuid "367a147b-f4f0-4d7e-8c1f-dde76df23b5e")
 		)
@@ -7028,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Value" "1k00"
+		(property "Value" "1R"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "e8ddc967-1c6e-40d9-b6fa-d062ad444ccb")
@@ -7069,6 +7331,12 @@
 		(path "/00b6de14-3d89-43ab-b03a-168098f11c34")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7333,6 +7601,20 @@
 		(path "/63850717-d187-4ef0-8e5a-2d8d5eb80cec")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "3" "5" "7" "4" "1" "2")
+			)
+			(unit
+				(name "B")
+				(pins "10" "13" "11" "9" "12" "15" "14")
+			)
+			(unit
+				(name "C")
+				(pins "16" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7476,7 +7758,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
 			(net "/xECP")
-			(pinfunction "Q")
+			(pinfunction "Q_1")
 			(pintype "output")
 			(uuid "9e261295-c7a2-4ba3-90ce-2cec29684185")
 		)
@@ -7487,7 +7769,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2005A-~{Q}-Pad2)")
-			(pinfunction "~{Q}")
+			(pinfunction "~{Q}_2")
 			(pintype "output+no_connect")
 			(uuid "b390f67a-94de-428e-a5f9-0f97ec144f4e")
 		)
@@ -7498,7 +7780,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/x~{CP}")
-			(pinfunction "C")
+			(pinfunction "C_3")
 			(pintype "input")
 			(uuid "339a3e87-8c1c-4ff6-81c1-a0f0685d3363")
 		)
@@ -7509,7 +7791,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xSCP")
-			(pinfunction "R")
+			(pinfunction "R_4")
 			(pintype "input")
 			(uuid "cd5b7a1e-39bd-4740-830d-6dbade141777")
 		)
@@ -7520,7 +7802,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xEC20")
-			(pinfunction "K")
+			(pinfunction "K_5")
 			(pintype "input")
 			(uuid "1f916ede-0200-41db-bbbe-bb862d6fa813")
 		)
@@ -7531,7 +7813,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/RC")
-			(pinfunction "J")
+			(pinfunction "J_6")
 			(pintype "input")
 			(uuid "d8a9716d-6d23-49eb-9e66-d5e203dd6e52")
 		)
@@ -7542,7 +7824,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "S")
+			(pinfunction "S_7")
 			(pintype "input")
 			(uuid "f88358da-62ad-4b0b-8ab3-aa3aa0f33786")
 		)
@@ -7553,7 +7835,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "VSS")
+			(pinfunction "VSS_8")
 			(pintype "power_in")
 			(uuid "8b85eebc-2825-4248-a8e2-5fe29f107083")
 		)
@@ -7564,7 +7846,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "S")
+			(pinfunction "S_9")
 			(pintype "input")
 			(uuid "fd072768-68fa-4065-ba6d-22d1d058aab0")
 		)
@@ -7575,7 +7857,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2005B-J)")
-			(pinfunction "J")
+			(pinfunction "J_10")
 			(pintype "input")
 			(uuid "f327fcc2-c65b-406c-9936-d05b917ee5b1")
 		)
@@ -7586,7 +7868,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "K")
+			(pinfunction "K_11")
 			(pintype "input")
 			(uuid "84b0023b-7579-4dc7-9c57-304bc1f38346")
 		)
@@ -7597,7 +7879,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2005B-R)")
-			(pinfunction "R")
+			(pinfunction "R_12")
 			(pintype "input")
 			(uuid "12422c61-5eb7-4770-97e5-c05b5333cc83")
 		)
@@ -7608,7 +7890,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/CP")
-			(pinfunction "C")
+			(pinfunction "C_13")
 			(pintype "input")
 			(uuid "2731bbcd-3cc6-4c40-83b0-3217068c6971")
 		)
@@ -7619,7 +7901,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(D2005B-~{Q}-Pad14)")
-			(pinfunction "~{Q}")
+			(pinfunction "~{Q}_14")
 			(pintype "output+no_connect")
 			(uuid "920d222e-8f84-4f73-872a-24855851c5e6")
 		)
@@ -7630,7 +7912,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/RC")
-			(pinfunction "Q")
+			(pinfunction "Q_15")
 			(pintype "output")
 			(uuid "a30186ae-4e17-4d59-b755-fd4febf1d11a")
 		)
@@ -7641,7 +7923,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "VDD")
+			(pinfunction "VDD_16")
 			(pintype "power_in")
 			(uuid "d39e524e-fe5a-4fbc-9679-74faa21eed85")
 		)
@@ -7665,7 +7947,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2008"
-			(at 2.5 -2.5 270)
+			(at 2.5 0.45 270)
 			(layer "F.SilkS")
 			(uuid "adc965b8-2851-4f89-aed4-8adfa0d80017")
 			(effects
@@ -7714,6 +7996,12 @@
 		(path "/36d0fc1e-d569-493f-85cf-ad4e1ebfd2e9")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7830,7 +8118,7 @@
 			(uuid "61712dde-3fcb-4ee6-a7e3-3cf160d7914f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7899,6 +8187,14 @@
 		(path "/042be766-f627-4535-a8f0-1cb3a0f23dc7")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "17" "18" "19"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8131,7 +8427,6 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND2")
-			(pinfunction "0V")
 			(pintype "passive")
 			(uuid "fce30afa-98a2-488c-a068-d46eb83a7ac8")
 		)
@@ -8144,7 +8439,6 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
-			(pinfunction "-5V")
 			(pintype "passive")
 			(uuid "ec618e57-ac23-431d-a951-cbe2f0fc4fc6")
 		)
@@ -8415,6 +8709,12 @@
 		(path "/a10a37a3-f770-4665-a740-c08ccf80f24a")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8679,6 +8979,12 @@
 		(path "/70977847-6a72-4ec2-b4e5-70cf26a0d3f0")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8829,12 +9135,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xXC20")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "bab6a3b3-04fc-4400-95db-a0bd5a63c603")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8853,7 +9159,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "V2001"
-			(at 5.08 -2.12 270)
+			(at 5.08 0 270)
 			(layer "F.SilkS")
 			(uuid "4950cf35-be83-475d-b6fa-aa6ce0553edf")
 			(effects
@@ -8908,9 +9214,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/87ecb574-9937-4ffc-a0f2-5a630e6b0bb5")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9087,6 +9400,8 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
 			(net "/xXC20")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "12c883ed-6013-4788-9cf2-f53068a980c0")
 		)
 		(pad "2" thru_hole circle
@@ -9096,6 +9411,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2001B-R)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "25defec0-2c03-49db-8c75-37691bb65958")
 		)
 		(embedded_fonts no)
@@ -9118,7 +9435,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2003"
-			(at 2.5 1.37 90)
+			(at 2.5 2.55 90)
 			(layer "F.SilkS")
 			(uuid "97bab0f6-6b14-488d-a53d-1f7634e7474c")
 			(effects
@@ -9167,6 +9484,12 @@
 		(path "/ca49c08f-f6cc-4eee-acc1-defa1a8eea01")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9283,7 +9606,7 @@
 			(uuid "373aa58f-005c-432d-ad80-0b3f990c02e4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9302,7 +9625,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C2002"
-			(at 2.5 -1.37 270)
+			(at 2.5 0.5 270)
 			(layer "F.SilkS")
 			(uuid "a2e89075-9d2a-4fa8-96df-6fb41afe9f7d")
 			(effects
@@ -9351,6 +9674,12 @@
 		(path "/5ae5668f-4e8d-4256-9724-4d82a8afa3ee")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9467,7 +9796,7 @@
 			(uuid "56da8581-66c7-413a-8181-0a958f329f04")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9537,6 +9866,12 @@
 		(path "/8a19dec8-7350-405c-8542-940a9e95d40d")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9687,12 +10022,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/COMP")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "283459a8-86e0-48d0-8495-105589d43256")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9762,6 +10097,12 @@
 		(path "/1cb5b1b1-fedf-4b80-935a-cb832f3a17d7")
 		(sheetname "/")
 		(sheetfile "N20_ADCControl.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9912,12 +10253,12 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/UP")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "65ee0ce4-33e9-4489-808e-d9ccf6b2545a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork.step"
 			(offset
 				(xyz 0 0 0)
 			)

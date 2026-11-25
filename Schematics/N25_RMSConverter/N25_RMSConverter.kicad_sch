@@ -10,6 +10,426 @@
 		(rev "1.0")
 	)
 	(lib_symbols
+		(symbol "Transistor_BJT:BC559"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC559"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PNP bipolar junction transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC559_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BC559_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC547"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC547"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN bipolar junction transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC547_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BC547_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Amplifier_Operational:OPA356xxD"
 			(pin_names
 				(offset 0.127)
@@ -10312,7 +10732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
+		(lib_id "Transistor_BJT:BC547")
 		(at 130.81 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -10344,7 +10764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10356,6 +10776,17 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 130.81 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 40959"
 			(at 130.81 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10410,13 +10841,13 @@
 				)
 			)
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "7278ed08-cb85-4f8e-88ca-cf9017e5bbab")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "04a8259f-f8cc-4044-9cac-466a3ab44ec1")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "17ec816d-4c5a-423a-bf7f-2f627d7a4475")
 		)
 		(instances
@@ -10560,6 +10991,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 161.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50458"
 			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10826,6 +11268,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 34037"
+			(at 349.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Diode"
 			(at 349.25 87.63 0)
 			(hide yes)
@@ -10923,6 +11376,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54508"
 			(at 137.16 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11101,6 +11565,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 110 72207"
+			(at 92.71 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 92.71 30.48 0)
 			(hide yes)
@@ -11259,6 +11734,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 355.6 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50664"
 			(at 355.6 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11511,6 +11997,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 251.46 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 121 40283"
 			(at 251.46 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11779,6 +12276,18 @@
 				(justify left)
 			)
 		)
+		(property "Philips_PN" "5322 209 86481"
+			(at 215.9 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Description" "20mA Ic, 40V Vce, Precision Dual Monolithic Low Noise, Low Offset Transistor, TO-78"
 			(at 215.9 33.02 0)
 			(hide yes)
@@ -11856,7 +12365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 374.3452 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -11868,6 +12377,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 373.38 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 373.38 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12163,7 +12683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D7.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 364.1852 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -12175,6 +12695,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 363.22 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14081"
 			(at 363.22 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -12355,6 +12886,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54743"
+			(at 81.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 81.28 99.06 0)
 			(hide yes)
@@ -12420,7 +12962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PhilipsPM2528:Reed relay assy"
 			(at 382.27 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12432,6 +12974,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 382.27 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 382.27 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12533,6 +13086,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54743"
+			(at 182.88 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 182.88 69.85 0)
 			(hide yes)
@@ -12610,6 +13174,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 200.66 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34037"
 			(at 200.66 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12811,6 +13386,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 116 51246"
+			(at 355.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 355.6 88.9 0)
 			(hide yes)
@@ -12970,6 +13556,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31063"
 			(at 105.41 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13318,6 +13915,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 277 24045"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
 			(at 261.62 40.64 0)
 			(hide yes)
@@ -13413,6 +14021,18 @@
 				(justify left)
 			)
 		)
+		(property "Philips_PN" "5322 209 86481"
+			(at 236.22 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Description" "20mA Ic, 40V Vce, Precision Dual Monolithic Low Noise, Low Offset Transistor, TO-78"
 			(at 236.22 74.93 0)
 			(hide yes)
@@ -13490,7 +14110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PhilipsPM2528:Reed relay assy"
 			(at 313.69 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13502,6 +14122,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 313.69 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 313.69 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13686,6 +14317,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 86483"
+			(at 280.67 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 280.67 82.55 0)
 			(hide yes)
@@ -13803,6 +14445,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 328.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 121 44246"
 			(at 328.93 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14029,7 +14682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP")
+		(lib_id "Transistor_BJT:BC559")
 		(at 138.43 68.58 0)
 		(mirror x)
 		(unit 1)
@@ -14063,7 +14716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 143.51 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14075,6 +14728,17 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 138.43 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 44358"
 			(at 138.43 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14129,13 +14793,13 @@
 				)
 			)
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "005c657a-2539-4c7e-8dac-5c7f5da2773f")
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "3898d834-2ee7-43e8-b199-3be4e28e398c")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "d5689cf4-a0b4-4c8b-b709-a9a2eb4fd55c")
 		)
 		(instances
@@ -14279,6 +14943,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 86.36 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50473"
 			(at 86.36 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14457,6 +15132,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50561"
+			(at 140.97 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 140.97 58.42 0)
 			(hide yes)
@@ -14534,6 +15220,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 236.22 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 30613"
 			(at 236.22 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14734,6 +15431,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 101 14293"
+			(at 173.99 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Potentiometer"
 			(at 173.99 69.85 0)
 			(hide yes)
@@ -14803,7 +15511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
+		(lib_id "Transistor_BJT:BC547")
 		(at 143.51 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -14836,7 +15544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 138.43 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14848,6 +15556,17 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 143.51 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 40959"
 			(at 143.51 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14902,13 +15621,13 @@
 				)
 			)
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "04717d67-13d7-4019-b8bd-eb7ca4078301")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "c0df3a6a-197f-4fe5-bba9-0cf63fadb405")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "2c78c6f6-1648-49d9-b76b-98486f75eb9e")
 		)
 		(instances
@@ -15063,6 +15782,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 101 14293"
+			(at 72.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Potentiometer"
 			(at 72.39 99.06 0)
 			(hide yes)
@@ -15164,7 +15894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 384.5052 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -15176,6 +15906,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 383.54 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31414"
 			(at 383.54 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -15429,6 +16170,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 121.92 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 30613"
 			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15716,6 +16468,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 121 40323"
+			(at 349.25 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 349.25 105.41 0)
 			(hide yes)
@@ -15901,6 +16664,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 100 10255"
+			(at 91.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Potentiometer"
 			(at 91.44 55.88 0)
 			(hide yes)
@@ -16024,6 +16798,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 34605"
+			(at 391.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Diode"
 			(at 391.16 38.1 0)
 			(hide yes)
@@ -16123,6 +16908,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 260.35 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34037"
 			(at 260.35 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16240,6 +17036,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54571"
+			(at 154.94 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 154.94 135.89 0)
 			(hide yes)
@@ -16305,7 +17112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 384.5052 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -16317,6 +17124,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 383.54 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31414"
 			(at 383.54 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -16495,6 +17313,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 121 40252"
+			(at 334.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 334.01 110.49 0)
 			(hide yes)
@@ -16580,6 +17409,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 31177"
+			(at 119.38 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 119.38 130.81 0)
 			(hide yes)
@@ -16655,6 +17495,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 133.35 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 116 51234"
 			(at 133.35 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16825,6 +17676,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 132.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 86483"
 			(at 132.08 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17023,7 +17885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 105.41 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -17035,6 +17897,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 101.6 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31414"
 			(at 101.6 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -17304,6 +18177,18 @@
 				(justify left)
 			)
 		)
+		(property "Philips_PN" "5322 209 86481"
+			(at 273.05 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Description" "20mA Ic, 40V Vce, Precision Dual Monolithic Low Noise, Low Offset Transistor, TO-78"
 			(at 273.05 102.87 0)
 			(hide yes)
@@ -17401,6 +18286,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54476"
+			(at 187.96 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 187.96 74.93 0)
 			(hide yes)
@@ -17479,6 +18375,18 @@
 			)
 		)
 		(property "Datasheet" "http://www.elenota.pl/datasheet_download/93431/MAT02"
+			(at 199.39 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Philips_PN" "5322 209 86481"
 			(at 199.39 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17985,7 +18893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 374.3452 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -17997,6 +18905,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 373.38 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 373.38 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18512,6 +19431,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 80953"
+			(at 203.2 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Single High Speed CMOS Operational Amplifier, SOIC-8"
 			(at 199.39 72.39 0)
 			(hide yes)
@@ -18595,7 +19525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D7.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 364.1852 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -18607,6 +19537,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 363.22 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14081"
 			(at 363.22 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -18763,7 +19704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 256.8448 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -18775,6 +19716,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 257.81 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31081"
 			(at 257.81 127 0)
 			(hide yes)
 			(show_name no)
@@ -18945,6 +19897,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 99.06 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 30613"
 			(at 99.06 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19137,6 +20100,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 34174"
 			(at 120.65 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -19389,6 +20363,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 251.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 121 40257"
 			(at 251.46 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -19754,6 +20739,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 101 14244"
+			(at 293.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Potentiometer"
 			(at 293.37 116.84 0)
 			(hide yes)
@@ -19865,6 +20861,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 260.35 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31177"
 			(at 260.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -20104,7 +21111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 140.97 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -20116,6 +21123,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 137.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30114"
 			(at 137.16 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -20211,6 +21229,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 31316"
+			(at 218.44 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 218.44 64.77 0)
 			(hide yes)
@@ -20286,6 +21315,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 261.62 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31054"
 			(at 261.62 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -20549,6 +21589,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 55448"
+			(at 241.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 241.3 142.24 0)
 			(hide yes)
@@ -20720,6 +21771,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 277 24045"
+			(at 331.47 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
 			(at 331.47 120.65 0)
 			(hide yes)
@@ -20801,6 +21863,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 91.44 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54099"
 			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21043,7 +22116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 128.27 32.258 90)
 			(hide yes)
 			(show_name no)
@@ -21055,6 +22128,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 110 42227"
 			(at 128.27 30.48 0)
 			(hide yes)
 			(show_name no)

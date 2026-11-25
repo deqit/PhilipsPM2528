@@ -124,8 +124,6 @@ This section generates the **CPC** (ClockPulses for Counter) and **RC** (Reset C
 
 ![N20 Counter-control schematic](assets/N20_Section_CounterControl.png "N20 Counter-control schematic")
 
-![N20 CounterControl](assets/N20_Schematics_CounterControl.png "N20 CounterControl")
-
 ### Section: RampUp, AutoZero (to ADC)
 This section generates the **UP** (RampUp active) and **AZ** (AutoZero) signals.
 
@@ -134,21 +132,15 @@ The **AZ** (AutoZero) signal is active when the measurement is not active, i.e. 
 
 ![N20 RampUp, AutoZero schematic](assets/N20_Section_UpAutozero.png "N20 RampUp, AutoZero schematic")
 
-![N20 UpAutozero](assets/N20_Schematics_UpAutozero.png "N20 UpAutozero")
-
 ### Section: Polarity and RampDown (to ADC)
 This section generates the **POL** (Polarity), **DN+** and **DN-** (DownRamp) signals.
 
 ![N20 Polarity, RampDown schematic](assets/N20_Section_PolRampdown.png "N20 Polarity, RampDown schematic")
 
-![N20 Polarity, Rampdown](assets/N20_Schematic_PolRampdown.png "N20 Polarity, Rampdown")
-
 ### Section: Gated Counter-overflow (to uP)
 This section creates the **XC20** signal for the CPU. This is in fact a gated Counter-Overflow signal. The gate is closed in the RampUp phase, and opened in the RampDown phase.
 
 ![N20 Gated Counter-overflow schematic](assets/N20_Section_GatedCounterOverflow.png "N20 Gated Counter-overflow schematic")
-
-![N20 Gated Counter Overflow](assets/N20_Schematics_GatedCounterOverflow.png "N20 Gated Counter Overflow")
 
 ### Section: Determine end of RampUp phase
 This section generates the internal **xENC20** signal. In HSM-mode it sets **xENC20** after the 1st Counter-overflow, so the RampUp-phase ends at the 2nd overflow (40.000 counts, 20 ms). Otherwise it sets **xENC20** after the 9th overflow, and the RampUp-phase ends at the 10th (200.000 counts, 100 ms). The RampUp-phase ends with the **xEC20** pulse.

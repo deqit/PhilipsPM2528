@@ -11,6 +11,404 @@
 		(company "D. Kupers")
 	)
 	(lib_symbols
+		(symbol "Transistor_BJT:BC559"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC559"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PNP bipolar junction transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC559_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BC559_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "4xxx:4013"
 			(pin_names
 				(offset 1.016)
@@ -20709,6 +21107,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 30128"
+			(at 449.58 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 449.58 284.48 0)
 			(hide yes)
@@ -20796,6 +21205,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 31063"
+			(at 346.71 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 346.71 191.77 0)
 			(hide yes)
@@ -20862,7 +21282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 110.49 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -20874,6 +21294,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 110.49 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 110.49 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -21081,6 +21512,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 135.89 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 84995"
 			(at 135.89 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -21378,6 +21820,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 242 74364"
+			(at 350.52 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Two pin crystal"
 			(at 350.52 186.69 0)
 			(hide yes)
@@ -21633,6 +22086,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14304"
+			(at 161.29 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex inverting buffer, 3-state outputs, active LOW enables (1OE: 1Y0-1Y3, 2OE: 2Y0-2Y1)"
 			(at 161.29 374.65 0)
 			(hide yes)
@@ -21751,6 +22215,17 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF40098B.pdf"
+			(at 509.27 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14304"
 			(at 509.27 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -22119,7 +22594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 298.45 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -22131,6 +22606,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 298.45 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 298.45 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -22262,6 +22748,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14304"
+			(at 224.79 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex inverting buffer, 3-state outputs, active LOW enables (1OE: 1Y0-1Y3, 2OE: 2Y0-2Y1)"
 			(at 224.79 168.91 0)
 			(hide yes)
@@ -22369,7 +22866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 240.03 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -22381,6 +22878,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 240.03 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 240.03 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -22575,7 +23083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 173.228 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -22587,6 +23095,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 171.45 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50581"
 			(at 171.45 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -22765,6 +23284,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 85312"
+			(at 317.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "quad 2-input NOR gate"
 			(at 317.5 85.09 0)
 			(hide yes)
@@ -22866,7 +23396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 425.958 254 90)
 			(hide yes)
 			(show_name no)
@@ -22878,6 +23408,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 424.18 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50572"
 			(at 424.18 254 0)
 			(hide yes)
 			(show_name no)
@@ -23225,6 +23766,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14406"
+			(at 433.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 433.07 162.56 0)
 			(hide yes)
@@ -23415,7 +23967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 353.06 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -23427,6 +23979,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 353.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55477"
 			(at 353.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -23501,7 +24064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 474.98 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -23513,6 +24076,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 474.98 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 474.98 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -23634,6 +24208,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 463.55 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 84995"
 			(at 463.55 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -24008,7 +24593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 444.5 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -24020,6 +24605,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 444.5 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85311"
 			(at 444.5 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -24214,7 +24810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 250.19 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -24226,6 +24822,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 250.19 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 250.19 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -24471,7 +25078,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAW76")
+		(lib_id "Device:D")
 		(at 139.7 165.1 270)
 		(unit 1)
 		(body_style 1)
@@ -24501,7 +25108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
 			(at 135.255 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -24523,7 +25130,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_PN" "5322 130 34605"
+			(at 139.7 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
 			(at 139.7 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -24814,7 +25432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAW76")
+		(lib_id "Device:D")
 		(at 368.3 320.04 0)
 		(unit 1)
 		(body_style 1)
@@ -24844,7 +25462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 368.3 324.485 0)
 			(hide yes)
 			(show_name no)
@@ -24866,7 +25484,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_PN" "4822 130 30613"
+			(at 368.3 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
 			(at 368.3 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -25036,7 +25665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 428.498 331.47 90)
 			(hide yes)
 			(show_name no)
@@ -25048,6 +25677,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 426.72 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50481"
 			(at 426.72 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -25228,6 +25868,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54603"
+			(at 459.74 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 459.74 284.48 0)
 			(hide yes)
@@ -25374,7 +26025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 405.13 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -25386,6 +26037,17 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm311.pdf"
+			(at 405.13 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85503"
 			(at 405.13 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -25477,7 +26139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 397.51 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -25489,6 +26151,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 397.51 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85311"
 			(at 397.51 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -25598,7 +26271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 397.51 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -25610,6 +26283,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 397.51 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85311"
 			(at 397.51 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -25860,7 +26544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP")
+		(lib_id "Transistor_BJT:BC559")
 		(at 146.05 170.18 0)
 		(mirror x)
 		(unit 1)
@@ -25894,7 +26578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 151.13 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25916,6 +26600,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 130 44358"
+			(at 146.05 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "PNP bipolar junction transistor"
 			(at 146.05 170.18 0)
 			(hide yes)
@@ -25927,13 +26622,13 @@
 				)
 			)
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "20307c0f-4b49-43ec-acb5-d73da9abc32a")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "535d6a0a-e52b-45de-a63d-f7fbbebded61")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "b3700cae-f48e-4de5-8970-214146d6c74e")
 		)
 		(instances
@@ -25985,7 +26680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 204.47 373.38 0)
 			(hide yes)
 			(show_name no)
@@ -25997,6 +26692,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 204.47 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 204.47 373.38 0)
 			(hide yes)
 			(show_name no)
@@ -26159,7 +26865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAW76")
+		(lib_id "Device:D")
 		(at 368.3 336.55 0)
 		(unit 1)
 		(body_style 1)
@@ -26189,7 +26895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 368.3 340.995 0)
 			(hide yes)
 			(show_name no)
@@ -26211,7 +26917,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_PN" "4822 130 30613"
+			(at 368.3 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
 			(at 368.3 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -26311,6 +27028,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 433.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14406"
 			(at 433.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -26428,7 +27156,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 136.398 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -26440,6 +27168,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 134.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 116 51268"
 			(at 134.62 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -26620,6 +27359,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 55393"
+			(at 306.07 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 306.07 124.46 0)
 			(hide yes)
@@ -26767,7 +27517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 464.82 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -26779,6 +27529,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 464.82 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85311"
 			(at 464.82 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -26986,6 +27747,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
+			(at 97.79 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85312"
 			(at 97.79 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -27512,7 +28284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 375.412 325.12 90)
 			(hide yes)
 			(show_name no)
@@ -27524,6 +28296,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 377.19 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50481"
 			(at 377.19 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -27785,6 +28568,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 209 80621"
+			(at 444.5 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex Inverter"
 			(at 444.5 215.9 0)
 			(hide yes)
@@ -27908,6 +28702,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 124 20945"
+			(at 524.51 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 524.51 82.55 0)
 			(hide yes)
@@ -27985,6 +28790,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 328.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 86479"
 			(at 328.93 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -28196,6 +29012,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 124 20945"
+			(at 353.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 353.06 116.84 0)
 			(hide yes)
@@ -28271,6 +29098,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
+			(at 167.64 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85312"
 			(at 167.64 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -28574,6 +29412,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 124 20944"
+			(at 306.07 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 306.07 104.14 0)
 			(hide yes)
@@ -28650,6 +29499,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 426.72 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 84995"
 			(at 426.72 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -28781,6 +29641,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 209 80621"
+			(at 360.68 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex Inverter"
 			(at 360.68 152.4 0)
 			(hide yes)
@@ -28880,7 +29751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 382.27 321.818 90)
 			(hide yes)
 			(show_name no)
@@ -28892,6 +29763,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 382.27 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 116 51253"
 			(at 382.27 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -29184,7 +30066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAW76")
+		(lib_id "Device:D")
 		(at 314.96 104.14 180)
 		(unit 1)
 		(body_style 1)
@@ -29214,7 +30096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 314.96 99.695 0)
 			(hide yes)
 			(show_name no)
@@ -29236,7 +30118,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_PN" "4822 130 30613"
+			(at 314.96 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
 			(at 314.96 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -29322,7 +30215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 474.98 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -29334,6 +30227,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 474.98 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 474.98 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -29457,6 +30361,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 128.27 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 121 44201"
 			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -29636,6 +30551,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 84995"
+			(at 33.02 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And2"
 			(at 33.02 378.46 0)
 			(hide yes)
@@ -29759,6 +30685,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 31439"
+			(at 415.29 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 415.29 331.47 0)
 			(hide yes)
@@ -29834,6 +30771,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 480.06 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 209 80621"
 			(at 480.06 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -30050,6 +30998,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 209 80621"
+			(at 415.29 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex Inverter"
 			(at 415.29 248.92 0)
 			(hide yes)
@@ -30255,6 +31214,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 84995"
+			(at 33.02 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad And2"
 			(at 33.02 393.7 0)
 			(hide yes)
@@ -30438,7 +31408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 267.97 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -30450,6 +31420,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 267.97 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 267.97 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -30561,7 +31542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 448.31 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -30573,6 +31554,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 448.31 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 448.31 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -30768,7 +31760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -30780,6 +31772,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 209 10004"
 			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -31002,6 +32005,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 31175"
+			(at 388.62 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 388.62 325.12 0)
 			(hide yes)
@@ -31089,6 +32103,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50672"
+			(at 393.7 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 393.7 335.28 0)
 			(hide yes)
@@ -31165,6 +32190,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
+			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85312"
 			(at 149.86 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -31442,7 +32478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 124.968 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -31454,6 +32490,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 123.19 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 116 51268"
 			(at 123.19 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -31539,6 +32586,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 219.71 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 209 80621"
 			(at 219.71 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -31662,6 +32720,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 354.33 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31063"
 			(at 354.33 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -31927,6 +32996,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 85312"
+			(at 317.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "quad 2-input NOR gate"
 			(at 317.5 73.66 0)
 			(hide yes)
@@ -32029,7 +33109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 121.92 127 0)
 			(hide yes)
 			(show_name no)
@@ -32041,6 +33121,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 121.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 209 10004"
 			(at 121.92 127 0)
 			(hide yes)
 			(show_name no)
@@ -32325,7 +33416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 173.99 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -32337,6 +33428,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 173.99 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 173.99 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -32449,7 +33551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 189.23 373.38 0)
 			(hide yes)
 			(show_name no)
@@ -32461,6 +33563,17 @@
 			)
 		)
 		(property "Datasheet" "http://datasheet.octopart.com/CD4528BCN-Fairchild-datasheet-143503.pdf"
+			(at 189.23 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14191"
 			(at 189.23 373.38 0)
 			(hide yes)
 			(show_name no)
@@ -32591,6 +33704,17 @@
 			)
 		)
 		(property "Datasheet" "~"
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14511"
 			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -32800,7 +33924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile"
 			(at 487.68 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -32812,6 +33936,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 487.68 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 277 24045"
 			(at 487.68 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -32897,7 +34032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 449.58 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -32909,6 +34044,17 @@
 			)
 		)
 		(property "Datasheet" "http://datasheet.octopart.com/CD4528BCN-Fairchild-datasheet-143503.pdf"
+			(at 449.58 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14191"
 			(at 449.58 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -33036,6 +34182,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 379.73 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 209 80621"
 			(at 379.73 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -33228,7 +34385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 223.52 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -33240,6 +34397,17 @@
 			)
 		)
 		(property "Datasheet" "http://datasheet.octopart.com/CD4528BCN-Fairchild-datasheet-143503.pdf"
+			(at 223.52 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14191"
 			(at 223.52 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -33440,7 +34608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 168.148 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -33452,6 +34620,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 166.37 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54714"
 			(at 166.37 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -33624,6 +34803,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 148.59 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 209 80621"
 			(at 148.59 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -33818,7 +35008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 280.67 163.322 90)
 			(hide yes)
 			(show_name no)
@@ -33830,6 +35020,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 280.67 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50572"
 			(at 280.67 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -33988,7 +35189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 522.732 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -34000,6 +35201,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 524.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55477"
 			(at 524.51 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -34075,7 +35287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 490.728 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -34087,6 +35299,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 488.95 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50572"
 			(at 488.95 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -34174,6 +35397,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 115.57 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55362"
 			(at 115.57 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -34669,7 +35903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile"
 			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -34681,6 +35915,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 300.99 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 277 24045"
 			(at 300.99 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -34780,6 +36025,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 148.59 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54519"
 			(at 148.59 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -34938,7 +36194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 230.378 193.04 90)
 			(hide yes)
 			(show_name no)
@@ -34950,6 +36206,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 228.6 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50572"
 			(at 228.6 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -35023,7 +36290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 58.42 378.46 0)
 			(hide yes)
 			(show_name no)
@@ -35035,6 +36302,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(at 58.42 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14054"
 			(at 58.42 378.46 0)
 			(hide yes)
 			(show_name no)
@@ -35230,7 +36508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 123.19 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -35242,6 +36520,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+			(at 123.19 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85311"
 			(at 123.19 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -35518,6 +36807,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 223.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 124 20943"
 			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)

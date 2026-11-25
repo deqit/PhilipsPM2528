@@ -11,6 +11,194 @@
 		(company "D. Kupers")
 	)
 	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "4xxx:4011"
 			(body_styles demorgan)
 			(pin_names
@@ -8649,6 +8837,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 10002"
+			(at 166.37 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
 			(at 166.37 138.43 0)
 			(hide yes)
@@ -8761,6 +8960,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 308.61 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8884,6 +9094,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 255.27 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 255.27 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -9098,6 +9319,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 31718"
+			(at 254 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 254 105.41 0)
 			(hide yes)
@@ -9192,6 +9424,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50664"
+			(at 265.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 265.43 26.67 0)
 			(hide yes)
@@ -9270,6 +9513,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 386.08 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14188"
 			(at 386.08 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -9410,6 +9664,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 10002"
+			(at 166.37 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
 			(at 166.37 62.23 0)
 			(hide yes)
@@ -9524,6 +9789,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 314.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14188"
 			(at 314.96 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9662,6 +9938,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54714"
+			(at 247.65 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 247.65 180.34 0)
 			(hide yes)
@@ -9737,6 +10024,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 134.62 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14433"
 			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9988,7 +10286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 179.07 73.66 90)
 		(mirror x)
 		(unit 1)
@@ -10019,7 +10317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 179.07 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10041,7 +10339,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_PN" "4822 130 30613"
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
 			(at 179.07 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10233,6 +10542,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14046"
+			(at 241.3 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Nand 2 inputs"
 			(at 241.3 217.17 0)
 			(hide yes)
@@ -10354,6 +10674,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50536"
+			(at 232.41 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 232.41 107.95 0)
 			(hide yes)
@@ -10431,6 +10762,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 190.5 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 10166"
 			(at 190.5 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -10519,6 +10861,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 166.37 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 166.37 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10820,6 +11173,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 31718"
+			(at 254 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 254 139.7 0)
 			(hide yes)
@@ -10999,6 +11363,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50536"
+			(at 232.41 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 232.41 142.24 0)
 			(hide yes)
@@ -11084,6 +11459,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54714"
+			(at 260.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 260.35 148.59 0)
 			(hide yes)
@@ -11159,6 +11545,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 260.35 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54714"
 			(at 260.35 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11328,6 +11725,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 356.87 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 356.87 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -11849,6 +12257,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 31718"
+			(at 254 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 254 171.45 0)
 			(hide yes)
@@ -12109,6 +12528,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50581"
+			(at 300.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 300.99 62.23 0)
 			(hide yes)
@@ -12268,6 +12698,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
+			(at 105.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14046"
 			(at 105.41 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12565,6 +13006,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 116 51264"
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 96.52 154.94 0)
 			(hide yes)
@@ -12726,6 +13178,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 227.33 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 227.33 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -12942,6 +13405,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 10166"
+			(at 200.66 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 200.66 215.9 0)
 			(hide yes)
@@ -13112,6 +13586,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 278.13 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex Buffer Inverter"
 			(at 278.13 67.31 0)
 			(hide yes)
@@ -13225,6 +13710,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 283.21 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14433"
 			(at 283.21 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -13362,6 +13858,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 31718"
+			(at 254 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 254 69.85 0)
 			(hide yes)
@@ -13447,6 +13954,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 356.87 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 356.87 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -13580,6 +14098,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 31435"
+			(at 290.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 290.83 67.31 0)
 			(hide yes)
@@ -13656,6 +14185,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 292.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 292.1 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13789,6 +14329,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 10166"
+			(at 200.66 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 200.66 259.08 0)
 			(hide yes)
@@ -13875,6 +14426,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 116 51264"
+			(at 323.85 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 323.85 168.91 0)
 			(hide yes)
@@ -13950,6 +14512,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
+			(at 105.41 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14046"
 			(at 105.41 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14247,6 +14820,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14433"
+			(at 208.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "3-state hex non-inverting buffer"
 			(at 203.2 85.09 0)
 			(hide yes)
@@ -14374,6 +14958,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 31718"
+			(at 254 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 254 34.29 0)
 			(hide yes)
@@ -14458,6 +15053,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 260.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54714"
 			(at 260.35 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -14719,6 +15325,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 85.09 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex Buffer Inverter"
 			(at 85.09 48.26 0)
 			(hide yes)
@@ -14830,6 +15447,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
+			(at 105.41 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14046"
 			(at 105.41 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14953,6 +15581,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 269.24 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 269.24 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -15417,6 +16056,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 356.87 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex Buffer Inverter"
 			(at 356.87 229.87 0)
 			(hide yes)
@@ -15621,6 +16271,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 116 51284"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 175.26 73.66 0)
 			(hide yes)
@@ -15698,6 +16359,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 218.44 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 218.44 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -15912,6 +16584,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50536"
+			(at 232.41 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 232.41 36.83 0)
 			(hide yes)
@@ -15999,6 +16682,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 10166"
+			(at 190.5 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 190.5 215.9 0)
 			(hide yes)
@@ -16076,6 +16770,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 180.34 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 124 20678"
 			(at 180.34 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -16255,6 +16960,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50536"
+			(at 278.13 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 278.13 173.99 0)
 			(hide yes)
@@ -16340,6 +17056,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50664"
+			(at 265.43 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 265.43 132.08 0)
 			(hide yes)
@@ -16415,6 +17142,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 265.43 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50664"
 			(at 265.43 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16583,6 +17321,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 386.08 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 386.08 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -17049,6 +17798,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 10166"
+			(at 210.82 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 210.82 215.9 0)
 			(hide yes)
@@ -17125,6 +17885,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 356.87 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 356.87 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -17339,6 +18110,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50664"
+			(at 265.43 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 265.43 62.23 0)
 			(hide yes)
@@ -17372,7 +18154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 304.8 62.23 270)
 		(mirror x)
 		(unit 1)
@@ -17403,7 +18185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 304.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17425,7 +18207,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_PN" "4822 130 30613"
+			(at 304.8 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
 			(at 304.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17522,6 +18315,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 317.5 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 317.5 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -17643,6 +18447,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
+			(at 123.19 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14046"
 			(at 123.19 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17852,6 +18667,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
+			(at 166.37 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 10002"
 			(at 166.37 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18149,6 +18975,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 139.7 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Hex Buffer Inverter"
 			(at 139.7 62.23 0)
 			(hide yes)
@@ -18260,6 +19097,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 317.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
 			(at 317.5 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18393,6 +19241,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 122 10175"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 166.37 83.82 0)
 			(hide yes)
@@ -18479,6 +19338,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50664"
+			(at 242.57 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 242.57 163.83 0)
 			(hide yes)
@@ -18554,6 +19424,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 232.41 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50536"
 			(at 232.41 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19223,6 +20104,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 260.35 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54714"
 			(at 260.35 43.18 0)
 			(hide yes)
 			(show_name no)

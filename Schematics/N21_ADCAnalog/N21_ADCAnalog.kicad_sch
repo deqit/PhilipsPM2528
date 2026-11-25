@@ -2233,6 +2233,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -9969,6 +10146,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54552"
+			(at 339.09 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 339.09 58.42 0)
 			(hide yes)
@@ -10130,6 +10318,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14104"
 			(at 93.98 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10567,6 +10766,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 101 14293"
+			(at 328.93 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Potentiometer"
 			(at 328.93 81.28 0)
 			(hide yes)
@@ -10690,6 +10900,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 121 54253"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 76.2 76.2 0)
 			(hide yes)
@@ -10765,6 +10986,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 234.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50592"
 			(at 234.95 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11033,6 +11265,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 130 30613"
+			(at 233.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Diode"
 			(at 233.68 95.25 0)
 			(hide yes)
@@ -11130,6 +11373,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 247.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50583"
 			(at 247.65 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11299,6 +11553,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm101a-n.pdf"
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14748"
 			(at 115.57 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -11488,6 +11753,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 336.55 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14104"
 			(at 336.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11706,6 +11982,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14104"
+			(at 93.98 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Analog Switches"
 			(at 93.98 78.74 0)
 			(hide yes)
@@ -11903,6 +12190,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 127 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34568"
 			(at 127 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12272,6 +12570,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 55458"
+			(at 320.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 320.04 81.28 0)
 			(hide yes)
@@ -12474,7 +12783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 364.49 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -12506,7 +12815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 365.4552 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -12528,7 +12837,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_PN" "5322 124 14081"
+			(at 364.49 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
 			(at 364.49 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -12696,6 +13016,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50592"
+			(at 289.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 289.56 55.88 0)
 			(hide yes)
@@ -12729,7 +13060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 311.15 208.28 0)
 		(unit 1)
 		(body_style 1)
@@ -12761,7 +13092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 312.1152 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -12783,7 +13114,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_PN" "4822 124 20943"
+			(at 311.15 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
 			(at 311.15 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12957,6 +13299,18 @@
 				(justify left)
 			)
 		)
+		(property "Philips_PN" "5322 130 34044"
+			(at 209.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
 			(at 213.36 92.71 0)
 			(hide yes)
@@ -13045,6 +13399,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54613"
+			(at 78.74 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 78.74 29.21 0)
 			(hide yes)
@@ -13120,6 +13485,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lf357.pdf"
+			(at 138.43 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 80951"
 			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13572,6 +13948,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 130 30613"
+			(at 237.49 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Diode"
 			(at 237.49 95.25 0)
 			(hide yes)
@@ -13826,7 +14213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 322.2752 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -13838,6 +14225,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 321.31 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 321.31 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -13923,6 +14321,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lf357.pdf"
+			(at 273.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 86338"
 			(at 273.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14268,7 +14677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 378.1552 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -14280,6 +14689,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 377.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31414"
 			(at 377.19 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -14353,7 +14773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 376.2248 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14365,6 +14785,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 377.19 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31414"
 			(at 377.19 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14439,7 +14870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_TO_SOT_THT:TO-99-8"
 			(at 67.31 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14451,6 +14882,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm101a-n.pdf"
+			(at 67.31 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85762"
 			(at 67.31 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14643,6 +15085,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 63.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31067"
 			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -14888,7 +15341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 390.8552 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14900,6 +15353,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 389.89 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 389.89 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14985,6 +15449,17 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm311.pdf"
+			(at 330.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85503"
 			(at 330.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15266,6 +15741,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14748"
+			(at 213.36 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
 			(at 212.09 58.42 0)
 			(hide yes)
@@ -15443,6 +15929,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 171.45 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54259"
 			(at 171.45 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15875,6 +16372,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54665"
+			(at 219.71 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 219.71 100.33 0)
 			(hide yes)
@@ -16216,6 +16724,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "4822 130 30613"
+			(at 213.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Diode"
 			(at 213.36 105.41 0)
 			(hide yes)
@@ -16313,6 +16832,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 53.34 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 30613"
 			(at 53.34 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -16421,6 +16951,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 166.37 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 101 14294"
 			(at 166.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16667,7 +17208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 311.15 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -16699,7 +17240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 312.1152 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -16721,7 +17262,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_PN" "4822 124 20943"
+			(at 311.15 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
 			(at 311.15 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16879,6 +17431,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 53.34 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54558"
 			(at 53.34 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17223,6 +17786,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 54704"
+			(at 266.7 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 266.7 39.37 0)
 			(hide yes)
@@ -17392,6 +17966,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 121 54255"
+			(at 200.66 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 200.66 31.75 0)
 			(hide yes)
@@ -17470,6 +18055,17 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14104"
 			(at 93.98 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17591,6 +18187,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 378.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14443"
 			(at 378.46 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17763,7 +18370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 364.49 208.28 0)
 		(unit 1)
 		(body_style 1)
@@ -17795,7 +18402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 365.4552 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -17817,7 +18424,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_PN" "5322 124 14081"
+			(at 364.49 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
 			(at 364.49 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18153,6 +18771,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 116 50514"
+			(at 166.37 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Resistor"
 			(at 166.37 88.9 0)
 			(hide yes)
@@ -18328,6 +18957,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 14104"
+			(at 93.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Quad Analog Switches"
 			(at 93.98 45.72 0)
 			(hide yes)
@@ -18450,6 +19090,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 101 14072"
+			(at 133.35 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Potentiometer"
 			(at 133.35 166.37 0)
 			(hide yes)
@@ -18551,7 +19202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 390.8552 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -18563,6 +19214,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 389.89 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 389.89 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -18913,6 +19575,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 121 40283"
+			(at 201.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Unpolarized capacitor"
 			(at 201.93 95.25 0)
 			(hide yes)
@@ -19155,6 +19828,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 247.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50583"
 			(at 247.65 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19585,6 +20269,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 86482"
+			(at 91.44 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 91.44 143.51 0)
 			(hide yes)
@@ -19686,7 +20381,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 75.2348 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -19698,6 +20393,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 76.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30128"
 			(at 76.2 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -19785,6 +20491,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 119.38 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31067"
 			(at 119.38 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -20002,6 +20719,17 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 44405"
+			(at 189.23 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 189.23 46.99 0)
 			(hide yes)
@@ -20089,6 +20817,17 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 200.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54648"
 			(at 200.66 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -20304,4 +21043,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

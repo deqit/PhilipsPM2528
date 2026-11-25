@@ -2384,7 +2384,7 @@
 				(pin passive line
 					(at -1.27 -5.08 90)
 					(length 2.54)
-					(name "1S"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2402,7 +2402,7 @@
 				(pin passive line
 					(at -1.27 5.08 270)
 					(length 2.54)
-					(name "1D"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2420,7 +2420,7 @@
 				(pin input line
 					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "1G"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2438,7 +2438,7 @@
 				(pin passive line
 					(at 1.27 -5.08 90)
 					(length 2.54)
-					(name "2S"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2456,7 +2456,7 @@
 				(pin passive line
 					(at 1.27 5.08 270)
 					(length 2.54)
-					(name "2D"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2474,7 +2474,7 @@
 				(pin input line
 					(at 8.89 -1.27 180)
 					(length 2.54)
-					(name "2G"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3093,7 +3093,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Philips_PM2528:PM2528_RiserCardConnector"
+			(property "Footprint" "PhilipsPM2528:PM2528Edgeconnector"
 				(at 10.414 27.686 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3128,7 +3128,7 @@
 			)
 			(symbol "PCBEdge_Plugincard_1_1"
 				(rectangle
-					(start -2.54 24.13)
+					(start 0 24.13)
 					(end 2.54 -24.13)
 					(stroke
 						(width 0.254)
@@ -3139,7 +3139,7 @@
 					)
 				)
 				(text "PM2528 EdgeConnector"
-					(at -0.762 0.254 900)
+					(at 1.27 0.254 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3149,7 +3149,7 @@
 				(pin passive line
 					(at 5.08 22.86 180)
 					(length 2.54)
-					(name "0V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3167,7 +3167,7 @@
 				(pin passive line
 					(at 5.08 20.32 180)
 					(length 2.54)
-					(name "-5V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4250,8 +4250,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BF244A"
+		(symbol "Device:Q_NJFET_SDG"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -4260,7 +4261,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 5.08 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4270,8 +4271,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BF244A"
-				(at 5.08 0 0)
+			(property "Value" "Q_NJFET_SDG"
+				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4281,21 +4282,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-				(at 5.08 -3.81 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4303,10 +4291,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4317,7 +4304,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "N-Channel FET Transistor Low Voltage"
+			(property "Description" "N-JFET transistor, source/drain/gate"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4328,7 +4315,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_keywords" "transistor NJFET N-JFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4339,7 +4326,7 @@
 					)
 				)
 			)
-			(symbol "BF244A_0_1"
+			(symbol "Q_NJFET_SDG_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
@@ -4354,22 +4341,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -4401,7 +4376,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.397) (xy 0.254 -1.397)
+						(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 0.254 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -4412,11 +4387,11 @@
 					)
 				)
 			)
-			(symbol "BF244A_1_1"
+			(symbol "Q_NJFET_SDG_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4431,10 +4406,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "G"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4449,10 +4424,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.334)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13633,7 +13608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "PhilipsPM2528:BAV45_TO-18-2"
 			(at 72.39 24.765 0)
 			(hide yes)
 			(show_name no)
@@ -17099,7 +17074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "PhilipsPM2528:BAV45_TO-18-2"
 			(at 72.39 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -18815,7 +18790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PhilipsPM2528:PM2528_RiserCardConnector"
+		(property "Footprint" "PhilipsPM2528:PM2528Edgeconnector"
 			(at 31.75 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -19892,7 +19867,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BF244A")
+		(lib_id "Device:Q_NJFET_SDG")
 		(at 220.98 200.66 0)
 		(unit 1)
 		(body_style 1)
@@ -19960,13 +19935,13 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "1"
 			(uuid "d154a8fb-81a7-4d3c-8a80-72a87651f679")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "e475a312-2a76-4f02-ba9f-c00da07d6a99")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "70de54f5-c823-49b1-81a1-d8d27572d53a")
 		)
 		(instances

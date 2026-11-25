@@ -11,22 +11,29 @@ Its functions include:
 
 ### The signals
 #### External signals (to/from this board)
-| Name | Description | I/O | Pin | Source | Target | Testpoint |
-| - | - | :-: | -: | - | - |- |
-| **CP** | Clock Pulses (2Mhz) | I | 16 | CPU.T0 | |TP2001
-| **SRUP** | Start Ramp-Up | I | 8 | CPU
-| **SAZ** | Set Auto Zero | I | 9 | CPU
-| **DN-** | RampDown phase, for -pol input signals | O | 11 || ADC Analog | TP2010
-| **DN+** | RampDown phase, for +pol input signals | O |13|| ADC Analog |TP2008
-| **UP** | RampUp phase | O |14| | ADC Analog| TP2007
-| **XC20** | Counter overflow (20.000 counts) @ RampDown| O |15|| CPU.T1
-| **AZ** | AutoZero active | O |12| |ADC Analog, CPU | TP2009
-| **COMP** | COMParator output (sign of the integrator on N21) | I | 19 | ADC Analog || TP2006
-| **C20000** | Counter overflow (20.000 counts) | I |5 | | Counter 
-| **CPC** | ClockPulses for Counter | O |4 | | Counter |TP2011 
-| **RC** | Reset Counter | O |3| | Counter | TP2003 
-| **POL** | Polarity of the input | O |6| | CPU 
-| **HSM** | High Speed Mode (40.000 counts instead of 200.000) @ RampUp | I |7| CPU
+🟦 signal · 🟧 supply / zero · ⬛ not connected
+
+| Pin | Name | I/O | Description | Connected to | Testpoint |
+| -: | - | :-: | - | - | - |
+| 1 | 🟧 **0V** |  | Supply zero | Mainboard |  |
+| 2 | 🟧 **-5V** |  | Supply | Mainboard |  |
+| 3 | 🟦 **RC** | O | Reset Counter | Counter | TP2003 |
+| 4 | 🟦 **CPC** | O | ClockPulses for Counter | Counter | TP2011 |
+| 5 | 🟦 **C20000** | I | Counter overflow (20.000 counts) | Counter |  |
+| 6 | 🟦 **POL** | O | Polarity of the input | CPU |  |
+| 7 | 🟦 **HSM** | I | High Speed Mode (40.000 counts instead of 200.000) @ RampUp | CPU |  |
+| 8 | 🟦 **SRUP** | I | Start Ramp-Up | CPU |  |
+| 9 | 🟦 **SAZ** | I | Set Auto Zero | CPU |  |
+| 10 | ⬛ - |  | Not connected |  |  |
+| 11 | 🟦 **DN-** | O | RampDown phase, for -pol input signals | ADC Analog | TP2010 |
+| 12 | 🟦 **AZ** | O | AutoZero active | ADC Analog, CPU | TP2009 |
+| 13 | 🟦 **DN+** | O | RampDown phase, for +pol input signals | ADC Analog | TP2008 |
+| 14 | 🟦 **UP** | O | RampUp phase | ADC Analog | TP2007 |
+| 15 | 🟦 **XC20** | O | Counter overflow (20.000 counts) @ RampDown | CPU.T1 |  |
+| 16 | 🟦 **CP** | I | Clock Pulses (2Mhz) | CPU.T0 | TP2001 |
+| 17 | ⬛ - |  | Not connected |  |  |
+| 18 | ⬛ - |  | Not connected |  |  |
+| 19 | 🟦 **COMP** | I | COMParator output (sign of the integrator on N21) | ADC Analog | TP2006 |
 
 In the scope-screendumps, you'll also see these signals:
 | Trace | Description | Measuring point |
@@ -115,6 +122,8 @@ The input- and output signals of this board are listed at the top of the page. T
 ### Section: Counter-control (to Counter)
 This section generates the **CPC** (ClockPulses for Counter) and **RC** (Reset Counter) signals.
 
+![N20 Counter-control schematic](assets/N20_Section_CounterControl.png "N20 Counter-control schematic")
+
 ![N20 CounterControl](assets/N20_Schematics_CounterControl.png "N20 CounterControl")
 
 ### Section: RampUp, AutoZero (to ADC)
@@ -123,20 +132,28 @@ This section generates the **UP** (RampUp active) and **AZ** (AutoZero) signals.
 The **UP** (RampUp) signal is active during the RampUp phase.
 The **AZ** (AutoZero) signal is active when the measurement is not active, i.e. when not in the RampUp or RampDown phase.
 
+![N20 RampUp, AutoZero schematic](assets/N20_Section_UpAutozero.png "N20 RampUp, AutoZero schematic")
+
 ![N20 UpAutozero](assets/N20_Schematics_UpAutozero.png "N20 UpAutozero")
 
 ### Section: Polarity and RampDown (to ADC)
 This section generates the **POL** (Polarity), **DN+** and **DN-** (DownRamp) signals.
+
+![N20 Polarity, RampDown schematic](assets/N20_Section_PolRampdown.png "N20 Polarity, RampDown schematic")
 
 ![N20 Polarity, Rampdown](assets/N20_Schematic_PolRampdown.png "N20 Polarity, Rampdown")
 
 ### Section: Gated Counter-overflow (to uP)
 This section creates the **XC20** signal for the CPU. This is in fact a gated Counter-Overflow signal. The gate is closed in the RampUp phase, and opened in the RampDown phase.
 
+![N20 Gated Counter-overflow schematic](assets/N20_Section_GatedCounterOverflow.png "N20 Gated Counter-overflow schematic")
+
 ![N20 Gated Counter Overflow](assets/N20_Schematics_GatedCounterOverflow.png "N20 Gated Counter Overflow")
 
 ### Section: Determine end of RampUp phase
 This section generates the internal **xENC20** signal. In HSM-mode it sets **xENC20** after the 1st Counter-overflow, so the RampUp-phase ends at the 2nd overflow (40.000 counts, 20 ms). Otherwise it sets **xENC20** after the 9th overflow, and the RampUp-phase ends at the 10th (200.000 counts, 100 ms). The RampUp-phase ends with the **xEC20** pulse.
+
+![N20 End of RampUp schematic](assets/N20_Section_EndOfRampUp.png "N20 End of RampUp schematic")
 
 
 ### Section: Timing-table

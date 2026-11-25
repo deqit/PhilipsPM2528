@@ -4796,7 +4796,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Philips_PM2528:PM2528_RiserCardConnector"
+			(property "Footprint" "PhilipsPM2528:PM2528Edgeconnector"
 				(at 10.414 27.686 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4831,7 +4831,7 @@
 			)
 			(symbol "PCBEdge_Plugincard_1_1"
 				(rectangle
-					(start -2.54 24.13)
+					(start 0 24.13)
 					(end 2.54 -24.13)
 					(stroke
 						(width 0.254)
@@ -4842,7 +4842,7 @@
 					)
 				)
 				(text "PM2528 EdgeConnector"
-					(at -0.762 0.254 900)
+					(at 1.27 0.254 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4852,7 +4852,7 @@
 				(pin passive line
 					(at 5.08 22.86 180)
 					(length 2.54)
-					(name "0V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4870,7 +4870,7 @@
 				(pin passive line
 					(at 5.08 20.32 180)
 					(length 2.54)
-					(name "-5V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9694,7 +9694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PhilipsPM2528:PM2528_RiserCardConnector"
+		(property "Footprint" "PhilipsPM2528:PM2528Edgeconnector"
 			(at 28.194 14.224 0)
 			(hide yes)
 			(show_name no)
@@ -14290,7 +14290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 119.38 200.66 0)
 			(hide yes)
 			(show_name no)

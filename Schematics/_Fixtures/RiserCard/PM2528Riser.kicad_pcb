@@ -6719,7 +6719,7 @@
 			)
 		)
 	)
-	(footprint "PM2528:PM2528_RiserCardConnector"
+	(footprint "PhilipsPM2528:PM2528Edgeconnector"
 		(layer "F.Cu")
 		(uuid "866186f5-1a7e-40a7-a416-40957897da39")
 		(at 66 40)
@@ -6986,32 +6986,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "bfdd7d2e-63fa-4ca6-948c-68d29c8460ec")
-		)
-		(fp_text user "0V"
-			(at 4 92 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "0301c379-ad65-43eb-9e57-07a23c4aaea4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "-5V"
-			(at 3 87 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "c96906a9-6421-40cc-87bf-801f3bb40cef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -10029,7 +10003,7 @@
 			)
 		)
 	)
-	(footprint "PM2528:CONN EDGE DUAL FMALE 80POS 0.100"
+	(footprint "PhilipsPM2528:CONN EDGE DUAL FMALE 80POS 0.100"
 		(layer "F.Cu")
 		(uuid "cbed6a0b-1667-433a-8fce-6985bef0cd35")
 		(at 171.74 134 180)

@@ -11,15 +11,29 @@ Its functions include:
 ### The signals
 #### External signals (to/from this board)
 
-| Name | Description | I/O | Pin | Source | Target | Testpoint |
-| - | - | :-: | -: | - | - |- |
-| **INPUT** | Conditioned input-signal (inverted) | I | 9 | Mainboard ||TP2108
-| **AZ** | AutoZero active | I |12|ADC Control | |
-| **DN-** | RampDown phase, for -pol input signals | I | 11 | ADC Control | |
-| **DN+** | RampDown phase, for +pol input signals | I | 13| ADC Control |  |
-| **UP** | RampUp phase, select input | I | 14| ADC Control | |
-| **COMP** | COMParator output (zero-crossing detector) | O |19 | | ADC Control |TP2109
-| **+2VRef** | 2V Reference | O | 7 | | Mainboard | TP2101
+🟦 signal · 🟧 supply / zero · ⬛ not connected
+
+| Pin | Name | I/O | Description | Connected to | Testpoint |
+| -: | - | :-: | - | - | - |
+| 1 | 🟧 **0V** |  | Supply zero | Mainboard |  |
+| 2 | 🟧 **-5V** |  | Supply | Mainboard |  |
+| 3 | 🟧 **-15V** |  | Supply | Mainboard |  |
+| 4 | 🟧 **+15V** |  | Supply | Mainboard |  |
+| 5 | 🟧 **+5V** |  | Supply | Mainboard |  |
+| 6 | 🟧 **Measuring zero** |  | Measuring zero | Mainboard |  |
+| 7 | 🟦 **+2VRef** | O | 2V Reference | Mainboard | TP2101 |
+| 8 | 🟧 **Measuring zero** |  | Measuring zero | Mainboard |  |
+| 9 | 🟦 **INPUT** | I | Conditioned input-signal (inverted) | Mainboard | TP2108 |
+| 10 | 🟧 **Measuring zero** |  | Measuring zero | Mainboard |  |
+| 11 | 🟦 **DN-** | I | RampDown phase, for -pol input signals | ADC Control |  |
+| 12 | 🟦 **AZ** | I | AutoZero active | ADC Control |  |
+| 13 | 🟦 **DN+** | I | RampDown phase, for +pol input signals | ADC Control |  |
+| 14 | 🟦 **UP** | I | RampUp phase, select input | ADC Control |  |
+| 15 | ⬛ - |  | Not connected |  |  |
+| 16 | ⬛ - |  | Not connected |  |  |
+| 17 | ⬛ - |  | Not connected |  |  |
+| 18 | 🟧 **0V** |  | Supply zero | Mainboard |  |
+| 19 | 🟦 **COMP** | O | COMParator output (zero-crossing detector) | ADC Control | TP2109 |
 
 In the scope-screendumps, you'll also see these signals:
 | Trace | Description | Measuring point |

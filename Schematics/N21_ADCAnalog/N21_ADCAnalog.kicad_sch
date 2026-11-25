@@ -3727,7 +3727,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 				(at 14.478 1.778 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4540,7 +4540,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Philips_PM2528:PM2528_RiserCardConnector"
+			(property "Footprint" "PhilipsPM2528:PM2528Edgeconnector"
 				(at 10.414 27.686 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4575,7 +4575,7 @@
 			)
 			(symbol "PCBEdge_Plugincard_1_1"
 				(rectangle
-					(start -2.54 24.13)
+					(start 0 24.13)
 					(end 2.54 -24.13)
 					(stroke
 						(width 0.254)
@@ -4586,7 +4586,7 @@
 					)
 				)
 				(text "PM2528 EdgeConnector"
-					(at -0.762 0.254 900)
+					(at 1.27 0.254 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4596,7 +4596,7 @@
 				(pin passive line
 					(at 5.08 22.86 180)
 					(length 2.54)
-					(name "0V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4614,7 +4614,7 @@
 				(pin passive line
 					(at 5.08 20.32 180)
 					(length 2.54)
-					(name "-5V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10241,7 +10241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PhilipsPM2528:PM2528_RiserCardConnector"
+		(property "Footprint" "PhilipsPM2528:PM2528Edgeconnector"
 			(at 29.21 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -11011,7 +11011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 233.68 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13550,7 +13550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 237.49 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16194,7 +16194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16301,7 +16301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 53.34 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -19563,7 +19563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 105.918 141.732 90)
 			(hide yes)
 			(show_name no)
@@ -19980,7 +19980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-78-6"
+		(property "Footprint" "Package_TO_SOT_THT:TO-75-6"
 			(at 189.23 46.99 0)
 			(hide yes)
 			(show_name no)

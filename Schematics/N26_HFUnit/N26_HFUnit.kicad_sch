@@ -6,288 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N26 (HF Unit)")
-		(date "2026-11-13")
+		(date "2026-11-25")
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "+Vprobe_1"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+Vprobe"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a local label with name \"+Vprobe\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+Vprobe_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+Vprobe_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "+Vprobe_2"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+Vprobe"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a local label with name \"+Vprobe\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+Vprobe_2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+Vprobe_2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1334,6 +1056,39 @@
 					)
 				)
 			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "resistor variable"
 				(at 0 0 0)
 				(show_name no)
@@ -2263,7 +2018,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Philips_PM2528:PM2528_RiserCardConnector"
+			(property "Footprint" "PhilipsPM2528:PM2528Edgeconnector"
 				(at 10.414 27.686 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2298,7 +2053,7 @@
 			)
 			(symbol "PCBEdge_Plugincard_1_1"
 				(rectangle
-					(start -2.54 24.13)
+					(start 0 24.13)
 					(end 2.54 -24.13)
 					(stroke
 						(width 0.254)
@@ -2309,7 +2064,7 @@
 					)
 				)
 				(text "PM2528 EdgeConnector"
-					(at -0.762 0.254 900)
+					(at 1.27 0.254 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2319,7 +2074,7 @@
 				(pin passive line
 					(at 5.08 22.86 180)
 					(length 2.54)
-					(name "0V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2337,7 +2092,7 @@
 				(pin passive line
 					(at 5.08 20.32 180)
 					(length 2.54)
-					(name "-5V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3580,16 +3335,6 @@
 			)
 		)
 		(uuid "2d0adb16-b735-4d99-b654-de885902fda4")
-	)
-	(text "100kHz/15mV"
-		(exclude_from_sim no)
-		(at 166.624 166.878 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3ad6c8ce-e5bf-4200-8280-b73de86ef9ef")
 	)
 	(text "Amplifier"
 		(exclude_from_sim no)
@@ -6523,7 +6268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 176.53 156.5148 0)
 			(hide yes)
 			(show_name no)
@@ -6756,7 +6501,7 @@
 		(dnp no)
 		(uuid "070db715-742d-49df-9d04-d5f78663fffe")
 		(property "Reference" "K2605"
-			(at 379.73 40.64 90)
+			(at 380.492 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6869,7 +6614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 236.982 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -7033,7 +6778,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+Vprobe_2")
 		(lib_id "PM2528:+Vprobe")
 		(at 146.05 52.07 0)
 		(mirror y)
@@ -7234,7 +6978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 205.4352 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7289,7 +7033,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+Vprobe_1")
 		(lib_id "PM2528:+Vprobe")
 		(at 110.49 52.07 0)
 		(mirror y)
@@ -7386,7 +7129,7 @@
 		(dnp no)
 		(uuid "14fb7f77-97c0-47eb-8743-6dc7a24dae4b")
 		(property "Reference" "TP2606"
-			(at 344.17 25.4 0)
+			(at 343.916 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7396,9 +7139,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 337.82 28.4479 0)
-			(hide yes)
+		(property "Value" "REL2600B"
+			(at 344.678 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7492,7 +7234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" ""
 			(at 332.74 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7503,7 +7245,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" ""
 			(at 327.66 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7515,39 +7257,6 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 327.66 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 327.66 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 327.66 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 327.66 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7975,7 +7684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 109.5248 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8063,7 +7772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC"
+		(property "Footprint" ""
 			(at 137.16 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8149,7 +7858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 264.922 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -8236,7 +7945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" ""
 			(at 215.9 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8247,7 +7956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" ""
 			(at 210.82 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8259,39 +7968,6 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 210.82 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 210.82 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 210.82 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 210.82 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8442,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 230.632 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -8508,7 +8184,7 @@
 		(dnp no)
 		(uuid "2578cb45-4fc9-4352-af39-d6e8c0c1216f")
 		(property "Reference" "K2603"
-			(at 341.63 40.64 90)
+			(at 342.392 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8937,7 +8613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e103b52-061c-453c-8a5e-7ae0271cc98c")
-		(property "Reference" "#PWR39"
+		(property "Reference" "#PWR039"
 			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9043,7 +8719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" ""
 			(at 220.98 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9054,7 +8730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" ""
 			(at 226.06 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9066,39 +8742,6 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 226.06 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 226.06 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 226.06 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 226.06 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9248,7 +8891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 221.742 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -9334,7 +8977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 110.49 41.148 90)
 			(hide yes)
 			(show_name no)
@@ -9400,7 +9043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "411b3dde-b20c-44c2-8fad-fa62be9fca8f")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR05"
 			(at 330.2 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9505,7 +9148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" ""
 			(at 369.2652 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -9677,7 +9320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 163.83 181.3052 0)
 			(hide yes)
 			(show_name no)
@@ -9763,7 +9406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 356.87 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -9849,7 +9492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 167.132 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -9916,7 +9559,7 @@
 		(dnp no)
 		(uuid "48b9068c-1d7b-4c9b-84ec-267fa4d714ee")
 		(property "Reference" "TP2605"
-			(at 313.69 25.4 0)
+			(at 313.436 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9926,9 +9569,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 307.34 28.4479 0)
-			(hide yes)
+		(property "Value" "REL2600A"
+			(at 314.452 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10001,7 +9643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c6de5a8-b01b-42b8-9c04-68ac8e5fea87")
-		(property "Reference" "#PWR11"
+		(property "Reference" "#PWR011"
 			(at 280.67 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10105,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 143.002 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -10193,7 +9835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 306.07 156.5148 0)
 			(hide yes)
 			(show_name no)
@@ -10426,7 +10068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58f8b84a-1a77-4b91-88e3-49cea7c70388")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR014"
 			(at 238.76 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10530,7 +10172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 283.972 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -10616,7 +10258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 153.162 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -10682,7 +10324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d732106-9536-4e3e-8131-f5493fe2399a")
-		(property "Reference" "#PWR17"
+		(property "Reference" "#PWR017"
 			(at 218.44 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10870,7 +10512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 216.662 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -10956,7 +10598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 278.892 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -11043,7 +10685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" ""
 			(at 278.13 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11054,7 +10696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" ""
 			(at 273.05 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11066,39 +10708,6 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 273.05 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 273.05 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 273.05 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 273.05 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11249,7 +10858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 319.532 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -11752,7 +11361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 153.162 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11932,7 +11541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 173.99 69.088 90)
 			(hide yes)
 			(show_name no)
@@ -12102,7 +11711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 339.09 170.688 90)
 			(hide yes)
 			(show_name no)
@@ -12335,7 +11944,7 @@
 		(dnp no)
 		(uuid "8757aca1-6e2a-45b4-b757-ba0bf3f0c592")
 		(property "Reference" "K2602"
-			(at 332.486 40.386 90)
+			(at 333.248 40.386 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12429,7 +12038,7 @@
 		(dnp no)
 		(uuid "87f8eb3e-c97b-424d-9790-890d3705b94a")
 		(property "Reference" "TP2607"
-			(at 382.27 25.4 0)
+			(at 382.016 23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12439,9 +12048,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 375.92 28.4479 0)
-			(hide yes)
+		(property "Value" "REL2600C"
+			(at 383.032 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12534,7 +12142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 162.56 69.088 90)
 			(hide yes)
 			(show_name no)
@@ -12704,7 +12312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 125.222 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -12875,7 +12483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 143.2052 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12963,7 +12571,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 267.6652 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -13050,7 +12658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" ""
 			(at 142.24 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -13061,7 +12669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" ""
 			(at 137.16 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13073,39 +12681,6 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 137.16 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 137.16 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 137.16 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 137.16 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13172,7 +12747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 328.422 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -13260,7 +12835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P15.00mm_Horizontal"
+		(property "Footprint" ""
 			(at 186.69 105.1052 0)
 			(hide yes)
 			(show_name no)
@@ -13431,7 +13006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 378.1552 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -13518,7 +13093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal"
+		(property "Footprint" ""
 			(at 369.2652 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -13605,7 +13180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 143.2052 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13691,7 +13266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 144.272 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -14386,7 +13961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 125.222 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -14472,7 +14047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 189.23 159.258 90)
 			(hide yes)
 			(show_name no)
@@ -14622,7 +14197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c488a294-1a03-4d20-ac7b-ec1fede8d573")
-		(property "Reference" "#PWR10"
+		(property "Reference" "#PWR010"
 			(at 300.99 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -14728,7 +14303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 385.1148 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -14879,7 +14454,7 @@
 		(dnp no)
 		(uuid "c585f294-d4da-46a3-81da-7b4ff308e759")
 		(property "Reference" "TP2601"
-			(at 170.18 168.91 0)
+			(at 169.926 166.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14889,9 +14464,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 163.83 171.9579 0)
-			(hide yes)
+		(property "Value" "100kHz/15mV"
+			(at 172.466 168.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14984,7 +14558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 299.212 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -15051,7 +14625,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5a32130-71f7-4fcb-a0fc-c51db3304826")
 		(property "Reference" "X2601"
-			(at 27.94 44.45 0)
+			(at 29.21 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15070,7 +14644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PhilipsPM2528:PM2528_RiserCardConnector"
+		(property "Footprint" "PhilipsPM2528:PM2528Edgeconnector"
 			(at 38.354 43.434 0)
 			(hide yes)
 			(show_name no)
@@ -15547,7 +15121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbaec10a-0e22-45d5-99e6-46220e941656")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR03"
 			(at 344.17 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -15631,7 +15205,7 @@
 		(dnp no)
 		(uuid "ccf0427e-2342-42c6-9fdc-26f210fb3c2c")
 		(property "Reference" "K2601"
-			(at 302.006 40.132 90)
+			(at 302.768 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15746,7 +15320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D7.5mm_P20.00mm_Horizontal"
+		(property "Footprint" ""
 			(at 354.33 167.9448 0)
 			(hide yes)
 			(show_name no)
@@ -15954,7 +15528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 202.692 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -16126,7 +15700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 144.272 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -16305,7 +15879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 93.98 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -16392,7 +15966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 378.1552 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -16478,7 +16052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 292.862 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -16627,7 +16201,7 @@
 		(dnp no)
 		(uuid "ece090f7-10f2-4cd5-b3c7-8c6eb7cab64a")
 		(property "Reference" "K2604"
-			(at 370.586 40.132 90)
+			(at 371.348 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17001,7 +16575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 328.422 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -17089,7 +16663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 245.11 156.5148 0)
 			(hide yes)
 			(show_name no)
@@ -17177,7 +16751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" ""
 			(at 109.5248 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17265,7 +16839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" ""
 			(at 283.21 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17276,7 +16850,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" ""
 			(at 288.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -17288,39 +16862,6 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 288.29 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 288.29 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 288.29 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 288.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -17590,4 +17131,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

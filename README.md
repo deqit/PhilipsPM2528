@@ -24,6 +24,10 @@ Everything you find here is work-in-progress. It might be incomplete, and some p
 # The components
 ### Overview
 - See [PM2528 Overview](/Deepdive/Overview/README.md "A very broad overview")
+### Motherboard, display and firmware
+- See [Motherboard (N1)](/Deepdive/N1/README.md "Motherboard (N1)")
+- See [Display Unit (N2)](/Deepdive/N2/README.md "Display Unit (N2)")
+- See [Firmware: memory, I/O and ports](/Deepdive/Firmware/README.md "Firmware: memory, I/O and ports")
 ### Risercard
 - See [PM2528 Risercard](/Deepdive/Risercard/README.md "A Risercard for testing the Expansionboards")
 ### ADC

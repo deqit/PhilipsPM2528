@@ -6983,7 +6983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 255.27 54.61 0)
+			(at 45.72 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7067,7 +7067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 255.27 137.16 0)
+			(at 45.72 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +7151,18 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 209 84841"
+		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
+			(at 149.86 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "+voltreg 7805UC"
 			(at 149.86 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7162,8 +7173,8 @@
 				)
 			)
 		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-			(at 149.86 43.18 0)
+		(property "Philips_PN" "5322 209 84841"
+			(at 149.86 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7250,7 +7261,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54549"
+		(property "Description" "Resistor"
 			(at 180.34 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7261,7 +7272,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "1K 1% 0.4W"
+			(at 180.34 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54549"
 			(at 180.34 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7348,7 +7370,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 34919"
+		(property "Description" "Diode"
 			(at 185.42 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7359,7 +7381,18 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Philips_Value" "BYW54"
+			(at 185.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34919"
 			(at 185.42 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7456,7 +7489,29 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/"
+			(at 48.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Common mode choke, 2A, 300VAC, 1.1mH, 70mohm, RN-102"
+			(at 48.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "2x2.5nF"
 			(at 48.26 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7468,17 +7523,6 @@
 			)
 		)
 		(property "Philips_PN" "5322 121 44161"
-			(at 48.26 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 48.26 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7570,7 +7614,18 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 267 54072"
+		(property "Description" "C14 Plug, 10A max"
+			(at 23.495 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "8p DIN socket (probe)"
 			(at 21.844 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7581,8 +7636,8 @@
 				)
 			)
 		)
-		(property "Description" "C14 Plug, 10A max"
-			(at 23.495 92.71 0)
+		(property "Philips_PN" "5322 267 54072"
+			(at 21.844 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7671,7 +7726,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 30103"
+		(property "Description" "Unpolarized capacitor"
 			(at 208.28 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7682,7 +7737,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "22nF 63V"
+			(at 208.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 208.28 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7770,7 +7836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 128.27 0)
+			(at 45.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7853,7 +7919,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 121 40323"
+		(property "Description" "Unpolarized capacitor"
 			(at 160.02 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7864,7 +7930,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "100nF 100V"
+			(at 160.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 121 40323"
 			(at 160.02 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7951,7 +8028,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 30103"
+		(property "Description" "Unpolarized capacitor"
 			(at 226.06 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7962,7 +8039,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "22nF 63V"
+			(at 226.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 226.06 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8049,7 +8137,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 124 20781"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 127 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8060,7 +8148,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "3300uF 16V"
+			(at 127 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 124 20781"
 			(at 127 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8278,7 +8377,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 121 40232"
+		(property "Description" "Unpolarized capacitor"
 			(at 140.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8289,7 +8388,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "220nF 100V"
+			(at 140.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 121 40232"
 			(at 140.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8465,7 +8575,7 @@
 		(fields_autoplaced yes)
 		(uuid "31075340-3e7a-4ba4-81fe-cc10030db632")
 		(property "Reference" "S1"
-			(at 59.69 83.82 0)
+			(at 59.69 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8506,7 +8616,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 276 10554"
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
 			(at 59.69 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8517,7 +8627,18 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+		(property "Philips_Value" "power switch"
+			(at 59.69 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 276 10554"
 			(at 59.69 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8693,7 +8814,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 124 14066"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8704,7 +8825,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "10uF 16V"
+			(at 137.16 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14066"
 			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8874,7 +9006,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 124 14078"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 152.4 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8885,7 +9017,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "1.5uF 35V"
+			(at 152.4 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14078"
 			(at 152.4 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8972,7 +9115,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 34919"
+		(property "Description" "Diode"
 			(at 185.42 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8983,7 +9126,18 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Philips_Value" "BYW54"
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34919"
 			(at 185.42 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9223,7 +9377,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 124 20794"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9234,7 +9388,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "680uF 40V"
+			(at 128.27 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 124 20794"
 			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9321,7 +9486,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 124 20945"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9332,7 +9497,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "33uF 10V"
+			(at 227.33 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 124 20945"
 			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9420,7 +9596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 76.2 0)
+			(at 45.72 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9589,7 +9765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 41.91 0)
+			(at 45.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9641,13 +9817,14 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 255.27 160.02 0)
+			(at 257.81 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9756,7 +9933,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 124 14014"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 175.26 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9767,7 +9944,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "2.2uF 35V"
+			(at 175.26 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14014"
 			(at 175.26 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10022,7 +10210,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 30103"
+		(property "Description" "Unpolarized capacitor"
 			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10033,7 +10221,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "22nF 63V"
+			(at 217.17 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10120,7 +10319,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 44844"
+		(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -15V, TO-220/TO-263"
 			(at 166.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10131,7 +10330,18 @@
 				)
 			)
 		)
-		(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -15V, TO-220/TO-263"
+		(property "Philips_Value" "-voltreg 7915UC"
+			(at 166.37 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 44844"
 			(at 166.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10306,7 +10516,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 124 14187"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 142.24 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10317,7 +10527,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "6800uF 16V"
+			(at 142.24 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14187"
 			(at 142.24 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10492,7 +10713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 255.27 107.95 0)
+			(at 45.72 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10575,7 +10796,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 30103"
+		(property "Description" "Unpolarized capacitor"
 			(at 199.39 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10586,7 +10807,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "22nF 63V"
+			(at 199.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 199.39 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10673,7 +10905,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 124 14014"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 175.26 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10684,7 +10916,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "2.2uF 35V"
+			(at 175.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14014"
 			(at 175.26 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10854,7 +11097,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 124 14014"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 175.26 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10865,7 +11108,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "2.2uF 35V"
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14014"
 			(at 175.26 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10952,7 +11206,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 124 14014"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 152.4 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10963,7 +11217,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "2.2uF 35V"
+			(at 152.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14014"
 			(at 152.4 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11048,7 +11313,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 130 50312"
+		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
 			(at 115.57 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11059,7 +11324,18 @@
 				)
 			)
 		)
-		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
+		(property "Philips_Value" "BY225-100"
+			(at 115.57 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 50312"
 			(at 115.57 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11152,7 +11428,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 30103"
+		(property "Description" "Unpolarized capacitor"
 			(at 252.73 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11163,7 +11439,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "22nF 63V"
+			(at 252.73 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 252.73 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11206,7 +11493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6b03459-af0a-4f29-8789-9e13336a19e4")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR012"
 			(at 255.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11332,7 +11619,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 276 10554"
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
 			(at 59.69 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11343,7 +11630,18 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+		(property "Philips_Value" "power switch"
+			(at 59.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 276 10554"
 			(at 59.69 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11519,7 +11817,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 124 20794"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 128.27 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11530,7 +11828,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "680uF 40V"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 124 20794"
 			(at 128.27 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11787,7 +12096,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 34711"
+		(property "Description" "Diode"
 			(at 121.92 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11798,7 +12107,18 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Philips_Value" "BYW29-150"
+			(at 121.92 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34711"
 			(at 121.92 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11998,7 +12318,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 30103"
+		(property "Description" "Unpolarized capacitor"
 			(at 234.95 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12009,7 +12329,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "22nF 63V"
+			(at 234.95 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
 			(at 234.95 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12052,7 +12383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4cb2a3b-9396-4d48-a0e6-d1f2214e2dc8")
-		(property "Reference" "#PWR13"
+		(property "Reference" "#PWR013"
 			(at 255.27 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12179,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 124 14078"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 152.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12190,7 +12521,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Philips_Value" "1.5uF 35V"
+			(at 152.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14078"
 			(at 152.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12277,7 +12619,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 34711"
+		(property "Description" "Diode"
 			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12288,7 +12630,18 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Philips_Value" "BYW29-150"
+			(at 121.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34711"
 			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12529,7 +12882,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 255.27 93.98 0)
+			(at 45.72 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12613,7 +12966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 82.55 0)
+			(at 45.72 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12697,7 +13050,18 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 44698"
+		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 15V, TO-220/TO-263/TO-252"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "+voltreg 7815UC"
 			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12708,8 +13072,8 @@
 				)
 			)
 		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 15V, TO-220/TO-263/TO-252"
-			(at 166.37 83.82 0)
+		(property "Philips_PN" "5322 130 44698"
+			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12881,7 +13245,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54469"
+		(property "Description" "Resistor"
 			(at 140.97 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12892,7 +13256,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "100E 1% 1/8W"
+			(at 140.97 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54469"
 			(at 140.97 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12977,7 +13352,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 130 30414"
+		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
 			(at 115.57 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12988,7 +13363,18 @@
 				)
 			)
 		)
-		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
+		(property "Philips_Value" "BY164"
+			(at 115.57 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 130 30414"
 			(at 115.57 83.82 0)
 			(hide yes)
 			(show_name no)

@@ -110,7 +110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -380,7 +380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -650,7 +650,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -903,11 +903,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 86482"
 			(at 0 0 180)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e2a7b80-48f0-46bb-8a47-66f064ff4905")
+			(uuid "f85e747c-923a-4183-a355-38f69a4060a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "OM528 thin film network"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf0ba1e1-3f9f-4cc6-84fe-6f179a7b0f61")
 			(effects
 				(font
 					(size 1 1)
@@ -1182,7 +1196,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(C2111-Pad1)")
+			(net "Net-(D2101C-Y2)")
 			(pintype "passive")
 			(uuid "b90f4146-1232-4057-b290-79be89bdda99")
 		)
@@ -1247,7 +1261,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1259,7 +1273,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1267,6 +1281,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14081"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acfde3f8-d7e4-441e-ad4b-421e41bf5c60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "6.8uF 25V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07ea1ea6-6b19-4319-b08b-aaabb3c537d3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1440,7 +1480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1671,7 +1711,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1693,6 +1733,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 121 54255"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b9ac2df-2f76-493e-a79f-e61296f93399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "162nF trim 100V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebfbebd4-3f9c-4729-b69d-2a3a1823e044")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2101,7 +2167,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2332,7 +2398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2352,6 +2418,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8333ca2-bb4e-40de-bdc4-f940b282a439")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5365585-258c-48c2-9817-9bf0335ab163")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2522,7 +2614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2542,6 +2634,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf5bb7ff-1491-433f-8e46-3a3f5824118e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38de080a-bcc3-44d3-b141-cea8fed45a06")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2712,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2724,7 +2842,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2732,6 +2850,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 124 20943"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c062878-1b1a-474b-b155-edb4703a185d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22uF 10V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91ab3dec-b692-4b2c-b033-3c97222b211b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2916,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2927,11 +3071,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c302c05f-bc19-4082-bcd2-85fbfacfee42")
+			(uuid "164a6d99-1a45-4cdd-ac45-40eda82f8169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22911032-a14d-4d03-a379-9967809f72d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a9cd78b-fc7a-482d-a664-fa49929cdd25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc25509-66ad-4141-9c8f-b668c476830d")
 			(effects
 				(font
 					(size 1 1)
@@ -3153,6 +3337,424 @@
 			)
 		)
 	)
+	(footprint "Package_DIP:DIP-16_W7.62mm"
+		(layer "F.Cu")
+		(uuid "2b8fb98a-476e-4be8-8893-6808b822b986")
+		(at 172.915 114.455 180)
+		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
+		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
+		(property "Reference" "D2102"
+			(at 3.81 8.455 0)
+			(layer "F.SilkS")
+			(uuid "1700c4c6-4f17-4044-b574-bfef5461649c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "HEF4104B"
+			(at 3.81 20.11 0)
+			(layer "F.Fab")
+			(uuid "4d2d21ae-553b-4500-8e42-1bc77cdda9e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "Data/Documentation/Components/HEF4104B.PDF"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e36322b-6a10-4561-b3f2-ec14f2c86f19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quadruple low to high voltage translator with 3-state outputs; inputs on VDDI, outputs O0-O3 and complements on VDDO, common VSS; EO HIGH enables the outputs"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b56a838b-1456-4d68-b776-f5566a609f75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14443"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "498be3da-cd0d-4e49-a024-c7fb04d2382a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "HEF4104BP"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d082518-91ea-4095-86c4-96ee8a9a9d9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b41546d5-eff9-4bc7-a4ac-333b57fe9c38")
+		(sheetname "/")
+		(sheetfile "N21_ADCAnalog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "5" "11" "12" "15" "16" "8" "1" "3" "2" "6" "7" "10" "9" "13"
+					"14"
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 6.46 19.11)
+			(end 6.46 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2587e656-d3fb-4435-b588-c81df5bd80b2")
+		)
+		(fp_line
+			(start 6.46 -1.33)
+			(end 4.81 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "070cb85b-846a-4e3a-993c-aa831c586b49")
+		)
+		(fp_line
+			(start 2.81 -1.33)
+			(end 1.16 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d07326f5-f2c1-41a7-83b6-2e033d7a7ca1")
+		)
+		(fp_line
+			(start 1.16 19.11)
+			(end 6.46 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "443d2480-aeeb-4355-85bc-674457895972")
+		)
+		(fp_line
+			(start 1.16 -1.33)
+			(end 1.16 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cad88325-84ed-4aa8-a10c-ec2bfe70360d")
+		)
+		(fp_arc
+			(start 4.81 -1.33)
+			(mid 3.81 -0.33)
+			(end 2.81 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5717f458-4d91-4218-9b4a-d4f2305afd83")
+		)
+		(fp_rect
+			(start -1.06 -1.52)
+			(end 8.67 19.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fffdb377-1998-42b1-9b97-26b764cc374e")
+		)
+		(fp_line
+			(start 6.985 19.05)
+			(end 0.635 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "051aca3c-925e-4836-8339-1abff141e56b")
+		)
+		(fp_line
+			(start 6.985 -1.27)
+			(end 6.985 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "96cd0865-589c-43fa-bd02-a54a665e3c9d")
+		)
+		(fp_line
+			(start 1.635 -1.27)
+			(end 6.985 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92e776d4-50b7-4643-a981-db3ac03e0234")
+		)
+		(fp_line
+			(start 0.635 19.05)
+			(end 0.635 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f1957125-7c7c-4d42-a671-81fe214ddd25")
+		)
+		(fp_line
+			(start 0.635 -0.27)
+			(end 1.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c09668e7-61fb-423e-b831-bf95a8b99b05")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 8.89 90)
+			(layer "F.Fab")
+			(uuid "05a1574d-a250-4357-a626-ffde9c3ce3f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 169.105 105.565)
+			(size 1.27)
+			(layer "F.Fab")
+			(uuid "629bd0c4-1f41-4ab0-a668-4bfb7d8f852c")
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net "+5V")
+			(pinfunction "VDDO_1")
+			(pintype "power_in")
+			(uuid "f93a9989-2963-4f4b-8f53-f548bf910d03")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(D2102-~{O0}-Pad2)")
+			(pinfunction "~{O0}_2")
+			(pintype "tri_state+no_connect")
+			(uuid "6f5b8b5a-b579-43b0-91bf-5e1f517d7833")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.08 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/xDN-")
+			(pinfunction "O0_3")
+			(pintype "tri_state")
+			(uuid "29d4dac9-433d-40fb-b8cf-79e8d0103e34")
+		)
+		(pad "4" thru_hole circle
+			(at 0 7.62 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/DN-")
+			(pinfunction "I0_4")
+			(pintype "input")
+			(uuid "31097d8f-d319-405d-bb93-b54ad1a07886")
+		)
+		(pad "5" thru_hole circle
+			(at 0 10.16 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/AZ")
+			(pinfunction "I1_5")
+			(pintype "input")
+			(uuid "99066d2c-14fb-413b-8292-515c8ff8a682")
+		)
+		(pad "6" thru_hole circle
+			(at 0 12.7 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/xAZ")
+			(pinfunction "O1_6")
+			(pintype "tri_state")
+			(uuid "c450f781-fce8-4a25-8bd3-674aa2399e3c")
+		)
+		(pad "7" thru_hole circle
+			(at 0 15.24 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(D2102-~{O1}-Pad7)")
+			(pinfunction "~{O1}_7")
+			(pintype "tri_state+no_connect")
+			(uuid "8674acf6-385c-4b77-9a11-9c6f76aa4b49")
+		)
+		(pad "8" thru_hole circle
+			(at 0 17.78 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "-5V")
+			(pinfunction "VSS_8")
+			(pintype "power_in")
+			(uuid "6f7ea76a-2b83-4f30-8192-e48ae7517db9")
+		)
+		(pad "9" thru_hole circle
+			(at 7.62 17.78 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(D2102-~{O2}-Pad9)")
+			(pinfunction "~{O2}_9")
+			(pintype "tri_state+no_connect")
+			(uuid "40b0bb44-c4ac-4665-a75f-95478cca5c90")
+		)
+		(pad "10" thru_hole circle
+			(at 7.62 15.24 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/xUP")
+			(pinfunction "O2_10")
+			(pintype "tri_state")
+			(uuid "0976c3d3-e818-499e-86ae-c48633cbf137")
+		)
+		(pad "11" thru_hole circle
+			(at 7.62 12.7 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/UP")
+			(pinfunction "I2_11")
+			(pintype "input")
+			(uuid "3fbbb133-3764-4ef0-91b1-9e96c3b4b0a5")
+		)
+		(pad "12" thru_hole circle
+			(at 7.62 10.16 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/DN+")
+			(pinfunction "I3_12")
+			(pintype "input")
+			(uuid "5e317944-5532-4037-9f2f-0d16d57d928e")
+		)
+		(pad "13" thru_hole circle
+			(at 7.62 7.62 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/xDN+")
+			(pinfunction "O3_13")
+			(pintype "tri_state")
+			(uuid "2f14cd93-a867-4055-a6c9-92d3e0050b82")
+		)
+		(pad "14" thru_hole circle
+			(at 7.62 5.08 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(D2102-~{O3}-Pad14)")
+			(pinfunction "~{O3}_14")
+			(pintype "tri_state+no_connect")
+			(uuid "28a763d4-fad8-4f55-b23a-f4a2b03693f6")
+		)
+		(pad "15" thru_hole circle
+			(at 7.62 2.54 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND1")
+			(pinfunction "EO_15")
+			(pintype "input")
+			(uuid "b94cb0fe-153b-4f35-b075-90fb5edd3685")
+		)
+		(pad "16" thru_hole circle
+			(at 7.62 0 180)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND1")
+			(pinfunction "VDDI_16")
+			(pintype "power_in")
+			(uuid "17d4e1fa-26b8-44a9-8869-0c57158b3372")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3325964e-64c7-4c99-b105-77b64d6ce713")
@@ -3181,7 +3783,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3203,6 +3805,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50583"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d462d82e-dcee-457a-99f2-cb24a784e110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "5K9 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a0e4a60-d0a1-4fe3-8836-ee2cbc5f0ee3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3423,412 +4051,6 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-16_W7.62mm"
-		(layer "F.Cu")
-		(uuid "340d2fff-f350-45db-9c87-f89d650b7534")
-		(at 172.5 114.7 180)
-		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
-		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
-		(property "Reference" "D2102"
-			(at 3.81 9.03 0)
-			(layer "F.SilkS")
-			(uuid "e3363007-f4f8-4184-b992-216aa383b251")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "HEF4104"
-			(at 3.81 20.11 0)
-			(layer "F.Fab")
-			(uuid "82d36b26-1d4e-4fcf-b614-e99c141f2510")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6a9669e-5a09-4bdc-9f9e-eba4fb04184a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b57cae8-95c9-4e32-9efc-1205def2d512")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/b819de73-f1b4-4a97-934c-e20e522b98b3")
-		(sheetname "/")
-		(sheetfile "N21_ADCAnalog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "8" "16" "15" "4" "5" "11" "12" "3" "2" "6" "7" "10" "9" "13"
-					"14"
-				)
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 6.46 19.11)
-			(end 6.46 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "97d5754d-d4ba-47ab-8c0c-2c43e1c6ca0e")
-		)
-		(fp_line
-			(start 6.46 -1.33)
-			(end 4.81 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a1c6242-8d0d-4813-be27-b7d29cb9774d")
-		)
-		(fp_line
-			(start 2.81 -1.33)
-			(end 1.16 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4c3d353f-7b8d-4112-ba72-42420f12ad6c")
-		)
-		(fp_line
-			(start 1.16 19.11)
-			(end 6.46 19.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "793613f5-6ac9-49a1-924c-1147e907dcd8")
-		)
-		(fp_line
-			(start 1.16 -1.33)
-			(end 1.16 19.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dc689330-1526-493e-99b7-748974cec214")
-		)
-		(fp_arc
-			(start 4.81 -1.33)
-			(mid 3.81 -0.33)
-			(end 2.81 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a53e668f-a724-485a-94ab-d85fa697886f")
-		)
-		(fp_line
-			(start 8.7 19.3)
-			(end 8.7 -1.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "04c92ff6-e6a0-4855-925c-588bae77abd9")
-		)
-		(fp_line
-			(start 8.7 -1.55)
-			(end -1.1 -1.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "adb5e4d1-fe61-4be7-8fa3-d601393f2b1c")
-		)
-		(fp_line
-			(start -1.1 19.3)
-			(end 8.7 19.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "507a0ea2-df27-4e2a-a143-1fd28df8a631")
-		)
-		(fp_line
-			(start -1.1 -1.55)
-			(end -1.1 19.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1ff6b5b0-f5b8-45e8-9d8c-c34a53062a12")
-		)
-		(fp_line
-			(start 6.985 19.05)
-			(end 0.635 19.05)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c92bedfc-f0ea-4699-bbc9-11d8770bdd05")
-		)
-		(fp_line
-			(start 6.985 -1.27)
-			(end 6.985 19.05)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b2496cb6-0f2d-433b-9216-6e3b5de2c645")
-		)
-		(fp_line
-			(start 1.635 -1.27)
-			(end 6.985 -1.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "eb5ccd27-385a-495a-b5a2-616b07f2f484")
-		)
-		(fp_line
-			(start 0.635 19.05)
-			(end 0.635 -0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "820060ea-cca2-45a5-8ab1-a9b8000dba4d")
-		)
-		(fp_line
-			(start 0.635 -0.27)
-			(end 1.635 -1.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "13e1d1dc-bca0-4e61-a141-947b3b81f794")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 8.89 0)
-			(layer "F.Fab")
-			(uuid "f166f2e3-c7b9-42dc-aa7b-543ed511b72d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "+5V")
-			(pinfunction "Vddo_1")
-			(pintype "power_in")
-			(uuid "e9c7de7c-aec8-4c69-9438-d00bd1ad33f7")
-		)
-		(pad "2" thru_hole oval
-			(at 0 2.54 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(D2102-Pad2)")
-			(pintype "output+no_connect")
-			(uuid "e2967467-dda0-4760-9578-4d593e806264")
-		)
-		(pad "3" thru_hole oval
-			(at 0 5.08 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/xDN-")
-			(pintype "output")
-			(uuid "9328072e-ac2d-4307-9123-8c24eb589b3b")
-		)
-		(pad "4" thru_hole oval
-			(at 0 7.62 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/DN-")
-			(pintype "input")
-			(uuid "bef941e8-5da9-42cc-871e-6e9b44d0f30f")
-		)
-		(pad "5" thru_hole oval
-			(at 0 10.16 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/AZ")
-			(pintype "input")
-			(uuid "8dc1366f-5ddc-478c-975e-ffb8251f7acf")
-		)
-		(pad "6" thru_hole oval
-			(at 0 12.7 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/xAZ")
-			(pintype "output")
-			(uuid "e2d33870-3033-425b-9311-c6c8cf4e0fa5")
-		)
-		(pad "7" thru_hole oval
-			(at 0 15.24 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(D2102-Pad7)")
-			(pintype "output+no_connect")
-			(uuid "9fddf9fc-8b95-4f72-8226-d3a43f8d09e1")
-		)
-		(pad "8" thru_hole oval
-			(at 0 17.78 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "-5V")
-			(pinfunction "Vss_8")
-			(pintype "power_in")
-			(uuid "99958f00-104e-480b-a68a-8b3f0c4adcec")
-		)
-		(pad "9" thru_hole oval
-			(at 7.62 17.78 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(D2102-Pad9)")
-			(pintype "output+no_connect")
-			(uuid "6968d3ac-3cda-48b0-a6ea-5c5c51a17d67")
-		)
-		(pad "10" thru_hole oval
-			(at 7.62 15.24 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/xUP")
-			(pintype "output")
-			(uuid "c2ce5ee2-13c5-432c-a750-65e74ba96775")
-		)
-		(pad "11" thru_hole oval
-			(at 7.62 12.7 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/UP")
-			(pintype "input")
-			(uuid "3adcda8a-06c2-4b2a-b7fc-9c47177f0606")
-		)
-		(pad "12" thru_hole oval
-			(at 7.62 10.16 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/DN+")
-			(pintype "input")
-			(uuid "fe2505fb-dbb5-4d03-961d-12b20b71a32d")
-		)
-		(pad "13" thru_hole oval
-			(at 7.62 7.62 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/xDN+")
-			(pintype "output")
-			(uuid "ad5eca76-3054-46c5-9c77-a38f85754bfd")
-		)
-		(pad "14" thru_hole oval
-			(at 7.62 5.08 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(D2102-Pad14)")
-			(pintype "output+no_connect")
-			(uuid "2158dd09-7b0d-49a3-87cf-4d8d61f2044e")
-		)
-		(pad "15" thru_hole oval
-			(at 7.62 2.54 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND1")
-			(pinfunction "EN_15")
-			(pintype "input")
-			(uuid "411033fb-3cec-41db-bd2b-ccdff2d2ca2e")
-		)
-		(pad "16" thru_hole oval
-			(at 7.62 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND1")
-			(pinfunction "Vddi_16")
-			(pintype "power_in")
-			(uuid "851d7b08-7acd-44f5-b117-9125cf0254ec")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "354668a9-0c4d-4d86-ab5a-9e742600226a")
@@ -3857,7 +4079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3879,6 +4101,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31067"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b43455f8-b10e-48cc-84d6-a0a3cbbd73eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "33pF 100V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fbf6532-4c36-4e50-b6a2-cc21e066000d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4107,7 +4355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4292,7 +4540,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(C2111-Pad1)")
+			(net "Net-(D2101C-Y2)")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "512ee884-cb41-4590-9d57-40604ad17b26")
@@ -4349,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4357,6 +4605,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 101 14293"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bce8f83-4330-4684-9468-04e71d127fb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "trimmer"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09a79084-b58f-43d1-9221-c59f54a2e79a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b16b5b24-f1ee-4906-8043-cada82a00566")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b44272d5-bd95-458d-831f-feb909767fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3573ef9-b5a0-4354-8a50-7713f7006a5d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4619,7 +4932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4641,6 +4954,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50583"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad9588ed-a01c-4ac7-895a-69523f7d30d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "5K9 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e671b50-5f72-4ef0-9ac7-829be5d6282f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4889,7 +5228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4911,6 +5250,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54552"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7418c0-a224-4f89-ab07-c18413cd1f8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "1K05 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f37260fc-2edc-4400-99bf-e17018b913d1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5159,7 +5524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5181,6 +5546,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55458"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f11bfa9-b283-4420-a467-2fce08578b22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "442K 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0135d54a-3460-4711-8581-4b7dbabe6f1b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5429,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5660,7 +6051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5680,6 +6071,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 121 54253"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41536379-2a73-4e2f-82d1-682a2d577014")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "4.22nF 1% 63V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b43e817-b74b-4aa9-82bc-6d3a2bec3c3d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5786,7 +6203,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(C2111-Pad1)")
+			(net "Net-(D2101C-Y2)")
 			(pintype "passive")
 			(uuid "2e0c00ed-0e1d-4b37-a660-d4489afb8a1a")
 		)
@@ -5841,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5861,6 +6278,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31414"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e9b3155-af3f-42c5-9679-f39731dafbf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "10nF 100V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e8bf444-ed11-4cd6-a588-63317a4c0efc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6053,6 +6496,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 85503"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "053a56fb-461d-49e1-b098-49b4ab304a1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LM311N"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5048f06b-21fe-41f9-bb40-049749ca7939")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6370,7 +6839,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6381,11 +6850,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c302c05f-bc19-4082-bcd2-85fbfacfee42")
+			(uuid "7037d891-1fab-4bb2-9872-44fccb17e986")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2625deae-bdb8-4461-b840-f5a956e7a8c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b3f2979-ab28-4654-8412-e2f0c4b96de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9c52de-37c6-4809-a0ed-818aae53d90b")
 			(effects
 				(font
 					(size 1 1)
@@ -6646,7 +7155,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6657,11 +7166,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 270)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c302c05f-bc19-4082-bcd2-85fbfacfee42")
+			(uuid "ec6047bb-7b4e-43ca-b15b-9a1ff7031881")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f594f1c-2721-4af4-ac60-1fa6dfeb8049")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93354a90-43cf-4c68-b71c-2104c995d0c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9b6de2f-effa-445e-ae44-aaa5302edac6")
 			(effects
 				(font
 					(size 1 1)
@@ -6911,7 +7460,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6933,6 +7482,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54613"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "345684da-53d8-42a9-ad15-5e1c5d47f9e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "8K66 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb54989d-f610-43a5-8bd9-56179ade52d3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7136,7 +7711,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2101-Pad1)")
+			(net "Net-(D2101A-Y0)")
 			(pintype "passive")
 			(uuid "5cc738a1-7060-4d43-b828-a9171f3ff6ed")
 		)
@@ -7192,7 +7767,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7200,6 +7775,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 101 14294"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bec6798c-83d7-422d-8498-8fc51813543a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "trimmer"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00b61de6-55fe-461c-bc65-fadbba0a8c2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48663863-a73b-4869-a09f-5fd0e9f0f262")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72238e88-626f-489c-ab87-da6da61d7ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97cac203-7ea6-4ce2-b101-211ca11c3de2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7462,7 +8102,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7693,7 +8333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7715,6 +8355,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54259"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5386379-0ce8-459a-a6b0-2e7c6f2f3809")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "140K 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd2cfa4a-57c3-44dc-8899-cedc7717d03f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7985,6 +8651,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14748"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed328992-f45b-4634-89c1-dc1e752e314a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LM201AN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c009f8df-7bed-4d7e-8d2c-1607e63ccfc4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8291,7 +8983,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8311,6 +9003,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31067"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "925df794-b942-49ae-9c32-40fc0ce89e73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "33pF 100V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "222d04b4-d754-4e8a-a6de-a967c41e08c3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8461,7 +9179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm101a-n.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8472,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8483,11 +9201,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "5322 209 14748"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "58324af6-0ba0-410b-9e87-f37579b37e10")
+			(uuid "2c8d9e4d-82c7-424c-aa30-3f95334d65ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LM201AN"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7f2b42c-068f-4193-82d6-f94dbd95d835")
 			(effects
 				(font
 					(size 1 1)
@@ -8775,7 +9507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8797,6 +9529,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50592"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "397153a2-cb9d-4045-aef7-a4b1c26860a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "442E 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63a1804b-32bc-451d-824d-4123e8783de2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9045,7 +9803,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9295,7 +10053,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9315,6 +10073,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fd095d2-9c7a-41d1-a7e4-801a315cbb8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dccdd25-2746-4f1b-871b-be542d5eeba8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9485,7 +10269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9507,6 +10291,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50514"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26fa9473-f8ff-4dea-8b85-a3911954f7e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "64K9 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8aba40e5-8635-492c-8836-5ea37fbe5c7e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9755,7 +10565,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9777,6 +10587,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54648"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "666a21d9-89c6-4449-8004-5a0b4991ea26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "24K9 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2eec51e-736d-4e98-8cc5-c0670b382ffd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10026,7 +10862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10228,7 +11064,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10250,6 +11086,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54704"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dc53b1c-e559-42bc-a5d9-a4bfeff1759a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "121K 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c8a2ba2-a4df-42e7-a45d-c2d3b72db882")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10498,7 +11360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10510,7 +11372,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10518,6 +11380,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 124 20943"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "835f0517-32ba-48a7-911d-ee264ea2c7c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22uF 10V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce558895-a8cb-4afa-8d30-00811d26945f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10692,7 +11580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10883,7 +11771,7 @@
 				)
 			)
 		)
-		(property "Value" "HEF4066"
+		(property "Value" "HEF4066B"
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
 			(uuid "d2c81be3-2b08-4444-a68c-bbe3abedaf1c")
@@ -10894,7 +11782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/HEF4066B.PDF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10905,7 +11793,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10916,11 +11804,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 14104"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "4bc4bc64-5b2a-4b4c-8dd8-27e5746b01ea")
+			(uuid "27280467-cc2e-4ae6-b46e-9fdf90793b78")
 			(effects
 				(font
 					(size 1 1)
@@ -10928,8 +11817,20 @@
 				)
 			)
 		)
-		(property ki_fp_filters "DIP?14*")
-		(path "/1dc5b874-efdd-471d-bec1-5f438a8c6805")
+		(property "Philips_Value" "HEF4066BP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18d77324-09df-41f9-b5c3-557c9231324b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/26a50bd2-a57a-47b1-9e61-03e6edea546d")
 		(sheetname "/")
 		(sheetfile "N21_ADCAnalog.kicad_sch")
 		(units
@@ -11102,7 +12003,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net "Net-(D2101-Pad1)")
+			(net "Net-(D2101A-Y0)")
+			(pinfunction "Y0_1")
 			(pintype "passive")
 			(uuid "89673072-5b9e-4b00-ba68-ba5064d46251")
 		)
@@ -11113,6 +12015,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(A2101-+)")
+			(pinfunction "Z0_2")
 			(pintype "passive")
 			(uuid "5fa49e8f-872c-4013-a537-fe7723855105")
 		)
@@ -11123,6 +12026,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(A2101-+)")
+			(pinfunction "Z1_3")
 			(pintype "passive")
 			(uuid "fb965161-02bc-4e35-82d2-6938f271956d")
 		)
@@ -11133,6 +12037,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND1")
+			(pinfunction "Y1_4")
 			(pintype "passive")
 			(uuid "52feac5a-7b14-4741-84d0-7471f134a70a")
 		)
@@ -11143,6 +12048,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xAZ")
+			(pinfunction "E1_5")
 			(pintype "input")
 			(uuid "027b7067-7d6e-4f80-ad65-568911584370")
 		)
@@ -11153,6 +12059,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xDN-")
+			(pinfunction "E2_6")
 			(pintype "input")
 			(uuid "4427b896-ae3d-4612-827d-9581524057c4")
 		)
@@ -11173,7 +12080,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(C2111-Pad1)")
+			(net "Net-(D2101C-Y2)")
+			(pinfunction "Y2_8")
 			(pintype "passive")
 			(uuid "61358f8f-276d-487e-a3bf-74ddb3fb25e0")
 		)
@@ -11184,6 +12092,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(A2101-+)")
+			(pinfunction "Z2_9")
 			(pintype "passive")
 			(uuid "77730924-f0c0-4008-b75a-b72f563b4bef")
 		)
@@ -11194,6 +12103,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(A2101-+)")
+			(pinfunction "Z3_10")
 			(pintype "passive")
 			(uuid "64028c03-5b95-4520-b986-1631edb87184")
 		)
@@ -11204,6 +12114,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/+2VRef")
+			(pinfunction "Y3_11")
 			(pintype "passive")
 			(uuid "78e2dac9-ac02-4129-ae0b-8ca70d3e97fc")
 		)
@@ -11214,6 +12125,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xDN+")
+			(pinfunction "E3_12")
 			(pintype "input")
 			(uuid "19544523-a3f2-4df2-badd-65549b30b350")
 		)
@@ -11224,6 +12136,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/xUP")
+			(pinfunction "E0_13")
 			(pintype "input")
 			(uuid "dd300116-d16e-40db-9922-72741e5e4b46")
 		)
@@ -11279,7 +12192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11301,6 +12214,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50592"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f30267e-5e26-4015-8289-e50ea23b9284")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "442E 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2fd9355-0320-4614-ac2b-aeefc2e3c5bc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12096,6 +13035,32 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 130 34044"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf8c701e-270f-41cb-9a95-8e64e9bfa5f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BSV80"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b243ea-1f05-491c-9e97-996d5fd558a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?92*")
 		(path "/41726d12-9ab0-45dc-aaea-a981370baede")
 		(sheetname "/")
@@ -12297,7 +13262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12547,7 +13512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12569,6 +13534,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54665"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2b0251e-974f-494b-a42d-ba0abc9082a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "40K2 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9327d7a4-5e79-4e55-b844-579975c2b88b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12817,7 +13808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12829,7 +13820,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12837,6 +13828,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 124 14081"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcd6c6da-a161-410d-9665-7d2c0408d34e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "6.8uF 25V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2f6d802-d3c1-4d98-acde-9f72591a3ffa")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13010,7 +14027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13241,7 +14258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13261,6 +14278,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31414"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ce55f70-c1ae-4189-b129-ad5f154db871")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "10nF 100V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc641e86-e801-4354-8ee9-6f9d9c7b52c6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13442,7 +14485,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13453,11 +14496,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c302c05f-bc19-4082-bcd2-85fbfacfee42")
+			(uuid "948c80e6-2e9f-41a3-9f40-261c01303687")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a83eea85-6937-4280-bdec-a3f7b7b0b4d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ad8fd86-dff6-4954-879d-f0a8b082e0cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "808c5c2a-3387-4b6d-9dab-e51e9b9ec222")
 			(effects
 				(font
 					(size 1 1)
@@ -13729,11 +14812,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/TO_SOT/THT"
+		(property "Philips_PN" "5322 130 44405"
 			(at 0 0 45)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c344e971-52eb-4564-b421-65e37fed4577")
+			(uuid "da124263-b93a-4abc-b192-d3db4a030989")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "ON528"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4ad5459-8eb9-4e8c-a327-9eddcb2bad5c")
 			(effects
 				(font
 					(size 1 1)
@@ -14026,6 +15123,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 86338"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbc1b6a9-76c5-4538-9c6e-5de70b4550ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LF355H"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d9e4e06-6d5d-4757-a996-b26a2c55e005")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14358,6 +15481,32 @@
 				)
 			)
 		)
+		(property "Philips_PN" "5322 209 80951"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89ca40fe-4b18-4fcf-a990-ad4fb54285df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LF356H"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae12b196-72c5-4532-abea-4774dde36ca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/426d1e69-35f8-4adb-9179-bab1970d81fb")
 		(sheetname "/")
@@ -14660,7 +15809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14705,6 +15854,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2375ffc4-a58e-49d3-8756-675a5e4e90a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34568"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdfcc179-5b64-46e4-861a-e15cf3cc057c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BZV14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db4280da-0cba-43b4-9c8e-de41f8fcbb72")
 			(effects
 				(font
 					(size 1 1)
@@ -15051,7 +16226,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15059,6 +16234,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ce4d8db-f702-4e08-9ea8-c7b1c48f696a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67d247c6-8cc3-4a99-a4e0-2a9ff7469302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d086376f-97a8-4146-a9fb-acfdb5fa585e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15321,7 +16535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15513,7 +16727,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15521,6 +16735,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 101 14072"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81d4256a-d524-4f5a-acbb-379428bca226")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "100E cerm. lin. 0.5W"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35efe5bf-0b0f-46b9-b21f-cddcee707834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc607944-4788-4a07-9c2b-813ef83fce1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e11f1ad0-b5f3-4f3c-9c88-d3ff5ff2a11c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f816ddad-af18-4124-8c5c-84ad11aec335")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15783,7 +17062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15803,6 +17082,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 30128"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52cb892a-2c16-4252-b4b8-3052775bebb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "4.7nF 100V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "464d1006-d32b-4610-aab5-ae258a7a9bf5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15973,7 +17278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm101a-n.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15984,7 +17289,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15995,11 +17300,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "5322 209 85762"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "daac137f-ee14-458d-9e28-35061559544d")
+			(uuid "26722fed-b43f-44ae-be32-106845623ee2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LM208AH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed395aad-d317-462a-a99e-5596148b5308")
 			(effects
 				(font
 					(size 1 1)
@@ -16299,7 +17618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16501,7 +17820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16733,7 +18052,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16935,7 +18254,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17166,7 +18485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17188,6 +18507,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 121 40283"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bf3e8bf-5544-4f0b-96a0-d05dd11b1b0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "3.3uF 100V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44792da7-a622-4cfa-83e1-6dd9020667cf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17396,7 +18741,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17418,6 +18763,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54558"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a831a5ba-fff0-4fc0-8aec-7fd5a3b9ff31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "8K25 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a12a3d5-3f2c-4b3d-81b3-134dd2f8c5a2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

@@ -30,3 +30,14 @@ Everything you find here is work-in-progress. It might be incomplete, and some p
 - See [ADC Overview](/Deepdive/ADC/README.md "The ADC in more detail")
 - See [ADC Control (Expansionboard N20)](/Deepdive/N20/README.md "ADC Control (Expansionboard N20)")
 - See [ADC Analog (Expansionboard N21)](/Deepdive/N21/README.md "ADC Analog (Expansionboard N21)")
+### DC and resistance
+- See [DC Amplifier (Expansionboard N22)](/Deepdive/N22/README.md "DC Amplifier (Expansionboard N22)")
+- See [Current Source (Expansionboard N23)](/Deepdive/N23/README.md "Current Source (Expansionboard N23)")
+### AC
+- See [AC Amplifier (Expansionboard N24)](/Deepdive/N24/README.md "AC Amplifier (Expansionboard N24)")
+- See [RMS Converter (Expansionboard N25)](/Deepdive/N25/README.md "RMS Converter (Expansionboard N25)")
+- See [HF Unit (Expansionboard N26)](/Deepdive/N26/README.md "HF Unit (Expansionboard N26)")
+- See [Peak Detector (Expansionboard N27)](/Deepdive/N27/README.md "Peak Detector (Expansionboard N27)")
+### Outguard
+- See [Galvanic Separation (Expansionboard N30)](/Deepdive/N30/README.md "Galvanic Separation (Expansionboard N30)")
+- See [Analog Output (Expansionboard N31)](/Deepdive/N31/README.md "Analog Output (Expansionboard N31)")

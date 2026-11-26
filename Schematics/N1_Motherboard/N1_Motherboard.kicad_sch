@@ -11,636 +11,6 @@
 		(company "D. Kupers")
 	)
 	(lib_symbols
-		(symbol "Transistor_BJT:BC337"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC337"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "NPN bipolar junction transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BC337_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BC337_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BC549"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC549"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "NPN bipolar junction transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BC549_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BC549_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BC557"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC557"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "PNP bipolar junction transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BC557_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BC557_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -5705,6 +5075,735 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC337"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC337"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC337_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC337_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC549"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC549"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC549_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC549_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC557"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC557"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC557_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BC557_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BF244A"
 			(pin_names
 				(hide yes)
@@ -7789,6 +7888,10 @@
 		(uuid "121de7d4-2c0e-4580-acb3-dde6ab676c6f")
 	)
 	(no_connect
+		(at 410.21 53.34)
+		(uuid "166d98cf-4ca3-53cb-a601-c436e6acb994")
+	)
+	(no_connect
 		(at 328.93 66.04)
 		(uuid "286d64d5-0a5c-44e5-9a8d-98e1e82a3ca3")
 	)
@@ -7799,6 +7902,10 @@
 	(no_connect
 		(at 85.09 76.2)
 		(uuid "2eced5c0-0c07-4fb3-8e40-4c8e1ea8f425")
+	)
+	(no_connect
+		(at 410.21 73.66)
+		(uuid "333a4545-9bef-50ae-ab6d-e8ca61e7246f")
 	)
 	(no_connect
 		(at 247.65 58.42)
@@ -7823,6 +7930,14 @@
 	(no_connect
 		(at 369.57 58.42)
 		(uuid "648933ea-e9a0-44d2-83d5-0ce66a97f536")
+	)
+	(no_connect
+		(at 410.21 48.26)
+		(uuid "6f1fb628-7363-5f42-b3fe-e2dcf6d1435e")
+	)
+	(no_connect
+		(at 410.21 38.1)
+		(uuid "7a00a6ec-6ad7-5f1c-9bda-457501b715e4")
 	)
 	(no_connect
 		(at 247.65 55.88)
@@ -7861,6 +7976,14 @@
 		(uuid "b6450d55-c71c-4a5d-913f-47de853c8afc")
 	)
 	(no_connect
+		(at 410.21 60.96)
+		(uuid "b906636f-9dd4-51a2-99bb-d4069fe4aa1b")
+	)
+	(no_connect
+		(at 410.21 55.88)
+		(uuid "ba818d84-0a4d-52b5-9a9b-2d44c087d4c7")
+	)
+	(no_connect
 		(at 328.93 76.2)
 		(uuid "be073311-9616-4518-bdba-9e633bc55c8a")
 	)
@@ -7889,8 +8012,28 @@
 		(uuid "d652ee1a-f03c-412a-b612-9baec0c95d33")
 	)
 	(no_connect
+		(at 410.21 50.8)
+		(uuid "d8b0c3c7-7760-5960-8d1a-81d8fd2aa268")
+	)
+	(no_connect
+		(at 410.21 63.5)
+		(uuid "d993227e-394f-5f4e-b1d4-b36f872694d9")
+	)
+	(no_connect
+		(at 410.21 58.42)
+		(uuid "dd57128d-657c-5e17-8171-211570ead018")
+	)
+	(no_connect
 		(at 369.57 55.88)
 		(uuid "e890bc37-bf0d-4ee6-86a9-965a008b9413")
+	)
+	(no_connect
+		(at 410.21 66.04)
+		(uuid "f08ad41b-27c9-5765-b27b-c3abf733233f")
+	)
+	(no_connect
+		(at 410.21 43.18)
+		(uuid "f4e5e5ac-b5ea-5ed4-8c98-dd3b55dd8a59")
 	)
 	(no_connect
 		(at 125.73 73.66)
@@ -7903,6 +8046,10 @@
 	(no_connect
 		(at 44.45 58.42)
 		(uuid "fd8ccc8f-9d83-4a2c-8afb-6e5a8b3faaa0")
+	)
+	(no_connect
+		(at 410.21 40.64)
+		(uuid "fea3d275-527d-5993-a2f9-47d4f5f90df1")
 	)
 	(wire
 		(pts
@@ -7923,6 +8070,16 @@
 			(type default)
 		)
 		(uuid "0184381a-e3be-4b4b-ab75-77291678ee45")
+	)
+	(wire
+		(pts
+			(xy 410.21 45.72) (xy 415.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d87aad-9bbe-560b-b5cc-654fbb018dee")
 	)
 	(wire
 		(pts
@@ -9856,6 +10013,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 76.2) (xy 415.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d66caee-af41-5a27-b993-640cc2e0319e")
+	)
+	(wire
+		(pts
 			(xy 378.46 236.22) (xy 378.46 231.14)
 		)
 		(stroke
@@ -10043,6 +10210,16 @@
 			(type default)
 		)
 		(uuid "55af1c1a-f8a1-4b90-bb11-527979382060")
+	)
+	(wire
+		(pts
+			(xy 410.21 68.58) (xy 415.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5816722a-cbd4-53b5-9298-697306d4f137")
 	)
 	(wire
 		(pts
@@ -10506,6 +10683,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 35.56) (xy 415.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a396223-ed6f-51d3-b49e-a9a45e9d3b43")
+	)
+	(wire
+		(pts
 			(xy 185.42 342.9) (xy 185.42 344.17)
 		)
 		(stroke
@@ -10813,6 +11000,16 @@
 			(type default)
 		)
 		(uuid "78905b25-e3f5-4687-8611-fcd017b2cf60")
+	)
+	(wire
+		(pts
+			(xy 410.21 71.12) (xy 415.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789c942e-4bb0-5679-87b4-89753ecbfe55")
 	)
 	(wire
 		(pts
@@ -11173,6 +11370,16 @@
 			(type default)
 		)
 		(uuid "87c86fa2-03f1-4782-8bc4-28da57ab7265")
+	)
+	(wire
+		(pts
+			(xy 410.21 78.74) (xy 415.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f3ad3b-429a-598b-a1eb-5493191aeddd")
 	)
 	(wire
 		(pts
@@ -12143,6 +12350,16 @@
 			(type default)
 		)
 		(uuid "afc55eea-6b96-4b42-bc13-f832092cee64")
+	)
+	(wire
+		(pts
+			(xy 410.21 81.28) (xy 415.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affcc966-0e28-59ad-bb46-dfdf0cf4f38b")
 	)
 	(wire
 		(pts
@@ -14054,6 +14271,16 @@
 		)
 		(uuid "16a3f2fb-e7a3-4497-baf1-471105c2dd24")
 	)
+	(label "N30_CLOCK"
+		(at 415.29 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ac6f227-ad3a-5bdd-89e6-a5847e452c41")
+	)
 	(label "N26_Probe_0VB"
 		(at 190.5 251.46 180)
 		(effects
@@ -14334,6 +14561,16 @@
 		)
 		(uuid "7cecb9f5-4364-4114-8425-daa655053c24")
 	)
+	(label "N30_DA0"
+		(at 415.29 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80572509-1ca4-57ee-b84a-e32a4bf0707e")
+	)
 	(label "N23_REL2302"
 		(at 600.71 480.06 180)
 		(effects
@@ -14453,6 +14690,16 @@
 			(justify right bottom)
 		)
 		(uuid "a6592207-1e5c-421f-ae32-01407168d3a8")
+	)
+	(label "N30_DLEN1"
+		(at 415.29 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8c37ee1-4b30-5f76-8fca-a75e1bdef013")
 	)
 	(label "PEAK_OUT"
 		(at 600.71 459.74 180)
@@ -15039,6 +15286,17 @@
 		)
 		(uuid "657a471b-edd8-4746-aafc-c9cf8716b574")
 	)
+	(hierarchical_label "N31_HI"
+		(shape input)
+		(at 415.29 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "681b2a3b-1b07-5591-b610-32d8edb3a91a")
+	)
 	(hierarchical_label "N20_UP"
 		(shape input)
 		(at 49.53 68.58 0)
@@ -15468,6 +15726,17 @@
 		)
 		(uuid "cf3204d7-9356-48e6-a127-1cd4c2b0bddc")
 	)
+	(hierarchical_label "N31_LO"
+		(shape passive)
+		(at 415.29 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d19728bc-87e2-5b46-889b-c3500b99b282")
+	)
 	(hierarchical_label "N21_COMP"
 		(shape input)
 		(at 49.53 81.28 0)
@@ -15763,7 +16032,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 783.59 497.84 0)
 			(hide yes)
 			(show_name no)
@@ -15847,7 +16116,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15932,7 +16201,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 115 84022"
+		(property "Description" "Tapped wire-wound shunt, three sections in series: C 9 ohm (pins 1-2), B 0.9 ohm (2-3), A 0.1 ohm (3-4). R1604 on N1, Fig 7.4. Pin numbers are not from the drawing."
 			(at 165.1 438.15 0)
 			(hide yes)
 			(show_name no)
@@ -15943,7 +16212,18 @@
 				)
 			)
 		)
-		(property "Description" "Tapped wire-wound shunt, three sections in series: C 9 ohm (pins 1-2), B 0.9 ohm (2-3), A 0.1 ohm (3-4). R1604 on N1, Fig 7.4. Pin numbers are not from the drawing."
+		(property "Philips_Value" "shunt assy"
+			(at 165.1 438.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 115 84022"
 			(at 165.1 438.15 0)
 			(hide yes)
 			(show_name no)
@@ -16034,7 +16314,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 122 34063"
+		(property "Description" "Unpolarized capacitor"
 			(at 364.49 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -16045,7 +16325,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "27pF 100V"
+			(at 364.49 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 122 34063"
 			(at 364.49 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -16132,7 +16423,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
 			(at 293.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16216,7 +16507,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31199"
+		(property "Description" "Unpolarized capacitor"
 			(at 290.83 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -16227,7 +16518,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "22pF 500V"
+			(at 290.83 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31199"
 			(at 290.83 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -16480,7 +16782,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54632"
+		(property "Description" "Resistor"
 			(at 116.84 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -16491,7 +16793,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "14K7 1% 0.4W"
+			(at 116.84 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54632"
 			(at 116.84 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -16577,7 +16890,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 125 54045"
+		(property "Description" "Variable capacitor"
 			(at 384.81 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -16588,7 +16901,18 @@
 				)
 			)
 		)
-		(property "Description" "Variable capacitor"
+		(property "Philips_Value" "5.5pF trim 300V"
+			(at 384.81 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 125 54045"
 			(at 384.81 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -16841,7 +17165,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 186.69 459.74 0)
 			(hide yes)
 			(show_name no)
@@ -16852,7 +17176,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 186.69 459.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 186.69 459.74 0)
 			(hide yes)
 			(show_name no)
@@ -16923,7 +17258,32 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 130.81 179.07 0)
+			(at 135.255 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+			(at 133.35 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+			(at 133.35 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16933,7 +17293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Philips_Value" "BC557B"
 			(at 133.35 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16942,6 +17302,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Philips_PN" "4822 130 44568"
@@ -16953,9 +17314,21 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" "PNP bipolar junction transistor"
+		(property "Sim.Device" "PNP"
+			(at 133.35 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 133.35 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -17045,7 +17418,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 374.65 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17129,7 +17502,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 171.45 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17213,7 +17586,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 293.37 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17297,7 +17670,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 252.73 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17381,7 +17754,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 293.37 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17558,7 +17931,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55583"
+		(property "Description" "Resistor"
 			(at 307.34 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -17569,7 +17942,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "556K 0.1% MR54E"
+			(at 307.34 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55583"
 			(at 307.34 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -17596,6 +17980,90 @@
 			(project "PM2528_System"
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
 					(reference "R1405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PM2528:GNDOG")
+		(at 415.29 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19d2fc00-6a49-5030-a2c3-da088ca55c84")
+		(property "Reference" "#PWR0213"
+			(at 415.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDOG"
+			(at 419.1 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 415.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffebd87e-1701-5f7e-b43a-4f42bc341d5a")
+		)
+		(instances
+			(project "N1_Motherboard"
+				(path "/291175c9-f17a-4526-ae6f-9d055732170b"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -17739,7 +18207,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 20105"
+		(property "Description" ""
 			(at 156.21 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -17750,7 +18218,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy HV spec."
+			(at 156.21 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 20105"
 			(at 156.21 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -17843,7 +18322,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55583"
+		(property "Description" "Resistor"
 			(at 298.45 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -17854,7 +18333,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "556K 0.1% MR54E"
+			(at 298.45 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55583"
 			(at 298.45 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -17910,13 +18400,14 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 247.65 173.99 0)
+			(at 250.19 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18023,7 +18514,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 125 54013"
+		(property "Description" "Variable capacitor"
 			(at 383.54 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -18034,7 +18525,18 @@
 				)
 			)
 		)
-		(property "Description" "Variable capacitor"
+		(property "Philips_Value" "18pF 300V"
+			(at 383.54 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 125 54013"
 			(at 383.54 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -18121,7 +18623,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
 			(at 783.59 490.22 0)
 			(hide yes)
 			(show_name no)
@@ -18205,7 +18707,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 783.59 487.68 0)
 			(hide yes)
 			(show_name no)
@@ -18375,7 +18877,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 34035"
+		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
 			(at 133.35 439.42 0)
 			(hide yes)
 			(show_name no)
@@ -18386,7 +18888,18 @@
 				)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
+		(property "Philips_Value" "15E NTC"
+			(at 133.35 439.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 34035"
 			(at 133.35 439.42 0)
 			(hide yes)
 			(show_name no)
@@ -18558,7 +19071,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 374.65 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18640,7 +19153,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 103 14003"
+		(property "Description" "Potentiometer"
 			(at 219.71 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -18651,7 +19164,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "100K cerm. lin. 0.5W"
+			(at 219.71 443.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 103 14003"
 			(at 219.71 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -18774,7 +19298,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 198.12 411.48 0)
 			(hide yes)
 			(show_name no)
@@ -18785,7 +19309,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 198.12 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 198.12 411.48 0)
 			(hide yes)
 			(show_name no)
@@ -18876,7 +19411,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31067"
+		(property "Description" "Unpolarized capacitor"
 			(at 375.92 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18887,7 +19422,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "33pF 100V"
+			(at 375.92 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31067"
 			(at 375.92 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -19057,7 +19603,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19141,7 +19687,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55448"
+		(property "Description" "Resistor"
 			(at 140.97 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19152,7 +19698,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "4K02 1% 0.4W"
+			(at 140.97 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55448"
 			(at 140.97 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19239,7 +19796,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 162.56 384.81 0)
 			(hide yes)
 			(show_name no)
@@ -19250,7 +19807,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 162.56 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 162.56 384.81 0)
 			(hide yes)
 			(show_name no)
@@ -19299,7 +19867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d2d26f0-af71-49f1-b85e-6ef0f472598a")
-		(property "Reference" "#PWR25"
+		(property "Reference" "#PWR097"
 			(at 86.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19426,7 +19994,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 334.01 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -19508,7 +20076,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55535"
+		(property "Description" "Resistor"
 			(at 228.6 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -19519,7 +20087,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "1M 1% 0.4W"
+			(at 228.6 443.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55535"
 			(at 228.6 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -19690,7 +20269,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 252.73 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19730,7 +20309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33a9166d-4b95-479c-ae56-6a99bf2977c5")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR096"
 			(at 86.36 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19857,7 +20436,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
 			(at 90.17 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19941,7 +20520,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
 			(at 334.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20025,7 +20604,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55584"
+		(property "Description" "Resistor"
 			(at 364.49 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -20036,7 +20615,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "976K 0.1% MR54E"
+			(at 364.49 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55584"
 			(at 364.49 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -20123,7 +20713,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 20105"
+		(property "Description" ""
 			(at 166.37 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -20134,7 +20724,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy HV spec."
+			(at 166.37 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 20105"
 			(at 166.37 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -20227,7 +20828,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
 			(at 130.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20267,7 +20868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39e0a270-23bb-4716-8429-97d4a8c2de45")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR024"
 			(at 330.2 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -20394,7 +20995,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 49.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20477,7 +21078,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 74114"
+		(property "Description" ""
 			(at 153.67 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -20488,7 +21089,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "relay assy"
+			(at 153.67 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 74114"
 			(at 153.67 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -20666,7 +21278,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 172.72 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -20677,7 +21289,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 172.72 359.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 172.72 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -20770,7 +21393,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 783.59 505.46 0)
 			(hide yes)
 			(show_name no)
@@ -20852,7 +21475,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55582"
+		(property "Description" "Resistor"
 			(at 196.85 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -20863,7 +21486,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "493K 0.1% MR34E"
+			(at 196.85 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55582"
 			(at 196.85 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -21033,7 +21667,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54877"
+		(property "Description" "Resistor"
 			(at 398.78 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -21044,7 +21678,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "402E 0.1% 0.1W"
+			(at 398.78 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54877"
 			(at 398.78 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -21131,7 +21776,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31351"
+		(property "Description" "Unpolarized capacitor"
 			(at 339.09 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -21142,7 +21787,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "120pF 63V"
+			(at 339.09 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31351"
 			(at 339.09 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -21228,7 +21884,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 74114"
+		(property "Description" ""
 			(at 153.67 435.61 0)
 			(hide yes)
 			(show_name no)
@@ -21239,7 +21895,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "relay assy"
+			(at 153.67 435.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 74114"
 			(at 153.67 435.61 0)
 			(hide yes)
 			(show_name no)
@@ -21431,6 +22098,12 @@
 			(uuid "d061a486-23bc-4ee3-a474-f6e0864fec84")
 		)
 		(instances
+			(project "N1_Motherboard"
+				(path "/291175c9-f17a-4526-ae6f-9d055732170b"
+					(reference "X3199")
+					(unit 1)
+				)
+			)
 			(project "PM2528_System"
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
 					(reference "X3199")
@@ -21494,7 +22167,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 212.09 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21578,7 +22251,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50557"
+		(property "Description" "Resistor"
 			(at 229.87 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -21589,7 +22262,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "46K4 1% 0.4W"
+			(at 229.87 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50557"
 			(at 229.87 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -21773,7 +22457,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N25"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 242.57 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21911,7 +22595,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 293.37 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -21995,7 +22679,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54643"
+		(property "Description" "Resistor"
 			(at 190.5 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -22006,7 +22690,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "20K5 1% 0.4W"
+			(at 190.5 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54643"
 			(at 190.5 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -22093,7 +22788,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54469"
+		(property "Description" "Resistor"
 			(at 185.42 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -22104,7 +22799,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "100E 1% 1/8W"
+			(at 185.42 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54469"
 			(at 185.42 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -22191,7 +22897,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 293.37 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22273,7 +22979,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54442"
+		(property "Description" "Resistor"
 			(at 233.68 448.31 0)
 			(hide yes)
 			(show_name no)
@@ -22284,7 +22990,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "51E1 1% 0.4W"
+			(at 233.68 448.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54442"
 			(at 233.68 448.31 0)
 			(hide yes)
 			(show_name no)
@@ -22370,7 +23087,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 74114"
+		(property "Description" ""
 			(at 153.67 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -22381,7 +23098,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "relay assy"
+			(at 153.67 443.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 74114"
 			(at 153.67 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -22643,7 +23371,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 130.81 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22812,7 +23540,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 783.59 502.92 0)
 			(hide yes)
 			(show_name no)
@@ -22896,7 +23624,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 334.01 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -22980,7 +23708,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54466"
+		(property "Description" "Resistor"
 			(at 364.49 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -22991,7 +23719,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "90E9 cerm. lin. 0.4W"
+			(at 364.49 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54466"
 			(at 364.49 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -23078,7 +23817,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a local label with name \"+Vprobe\""
 			(at 293.37 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -23162,7 +23901,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 334.01 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -23205,7 +23944,7 @@
 		(fields_autoplaced yes)
 		(uuid "5159bc42-0b60-4196-9f40-f7ce364d4f7d")
 		(property "Reference" "V1808"
-			(at 421.64 336.5501 0)
+			(at 421.64 334.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23216,7 +23955,7 @@
 			)
 		)
 		(property "Value" "BC557B"
-			(at 421.64 334.0101 0)
+			(at 421.64 336.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23227,7 +23966,32 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 421.64 337.82 0)
+			(at 421.64 333.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+			(at 416.56 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+			(at 416.56 335.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23237,7 +24001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Philips_Value" "BC557B"
 			(at 416.56 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -23246,6 +24010,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Philips_PN" "4822 130 44568"
@@ -23257,9 +24022,21 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" "PNP bipolar junction transistor"
+		(property "Sim.Device" "PNP"
+			(at 416.56 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 416.56 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -23401,13 +24178,14 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 186.69 471.17 0)
+			(at 189.23 467.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -23516,7 +24294,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 335.28 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -23527,7 +24305,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 335.28 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 335.28 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -23620,7 +24409,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31052"
+		(property "Description" "Unpolarized capacitor"
 			(at 374.65 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -23631,7 +24420,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "8.2pF 100V"
+			(at 374.65 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31052"
 			(at 374.65 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -23718,7 +24518,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -23802,7 +24602,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54735"
+		(property "Description" "Resistor"
 			(at 361.95 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -23813,7 +24613,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "255K 1% 0.4W"
+			(at 361.95 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54735"
 			(at 361.95 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -23879,7 +24690,32 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 241.3 162.56 0)
+			(at 241.3 167.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 236.22 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
+			(at 236.22 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23889,7 +24725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Philips_Value" "BC549C"
 			(at 236.22 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -23898,6 +24734,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Philips_PN" "4822 130 44246"
@@ -23909,9 +24746,21 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" "NPN bipolar junction transistor"
+		(property "Sim.Device" "NPN"
+			(at 236.22 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 236.22 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -24086,7 +24935,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 252.73 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -24168,7 +25017,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 100 10113"
+		(property "Description" "Potentiometer"
 			(at 378.46 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -24179,7 +25028,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "10K cerm. lin. 0.5W"
+			(at 378.46 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 100 10113"
 			(at 378.46 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -24302,7 +25162,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 198.12 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -24313,7 +25173,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 198.12 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 198.12 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -24405,7 +25276,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 44905"
+		(property "Description" "N-JFET transistor, drain/source/gate"
 			(at 210.82 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -24416,7 +25287,18 @@
 				)
 			)
 		)
-		(property "Description" "N-JFET transistor, drain/source/gate"
+		(property "Philips_Value" "BF410A"
+			(at 210.82 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 44905"
 			(at 210.82 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -24591,7 +25473,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 190.5 417.83 0)
 			(hide yes)
 			(show_name no)
@@ -24602,7 +25484,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 190.5 417.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 190.5 417.83 0)
 			(hide yes)
 			(show_name no)
@@ -24782,17 +25675,6 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31041"
-			(at 360.68 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Description" "Unpolarized capacitor"
 			(at 360.68 220.98 0)
 			(hide yes)
@@ -24805,6 +25687,28 @@
 			)
 		)
 		(property "Board" "One leg lifted on the board (2026-11-21)"
+			(at 360.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "3.3pF 100V"
+			(at 360.68 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31041"
 			(at 360.68 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -24891,7 +25795,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 122 54018"
+		(property "Description" "Unpolarized capacitor"
 			(at 185.42 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -24902,7 +25806,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "100pF 2kV"
+			(at 185.42 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 122 54018"
 			(at 185.42 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -24989,7 +25904,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50451"
+		(property "Description" "Resistor"
 			(at 400.05 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -25000,7 +25915,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "21K5 1% 0.4W"
+			(at 400.05 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50451"
 			(at 400.05 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -25087,7 +26013,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -25169,7 +26095,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31404"
+		(property "Description" "Unpolarized capacitor"
 			(at 349.25 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -25180,7 +26106,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "15pF 100V"
+			(at 349.25 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31404"
 			(at 349.25 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -25267,7 +26204,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54608"
+		(property "Description" "Resistor"
 			(at 313.69 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -25278,7 +26215,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "7K5 1% 0.4W"
+			(at 313.69 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54608"
 			(at 313.69 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -25366,7 +26314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 171.45 38.1 0)
+			(at 783.59 495.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25449,7 +26397,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -25533,7 +26481,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50459"
+		(property "Description" "Resistor"
 			(at 280.67 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -25544,7 +26492,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "422E 1% 0.4W"
+			(at 280.67 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50459"
 			(at 280.67 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -25629,7 +26588,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 101 14008"
+		(property "Description" "Potentiometer"
 			(at 328.93 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -25640,7 +26599,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "2K2 cerm. lin. 0.5W"
+			(at 328.93 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 101 14008"
 			(at 328.93 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -25763,7 +26733,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 252.73 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -25845,7 +26815,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50747"
+		(property "Description" "Resistor"
 			(at 186.69 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -25856,7 +26826,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "1K 0.1% 0.1W"
+			(at 186.69 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50747"
 			(at 186.69 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -25943,7 +26924,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -26027,7 +27008,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55328"
+		(property "Description" "Resistor"
 			(at 355.6 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -26038,7 +27019,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "11K 0.1% 0.1W"
+			(at 355.6 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55328"
 			(at 355.6 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -26297,7 +27289,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 335.28 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -26308,7 +27300,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 335.28 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 335.28 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -26370,13 +27373,14 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 162.56 396.24 0)
+			(at 165.1 392.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -26485,7 +27489,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 90.17 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -26567,7 +27571,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 100 10112"
+		(property "Description" "Potentiometer"
 			(at 162.56 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -26578,7 +27582,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "1K cerm. lin. 0.5W"
+			(at 162.56 359.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 100 10112"
 			(at 162.56 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -26693,7 +27708,30 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
+			(at 331.47 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(at 326.39 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "BSV79"
 			(at 331.47 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -26715,17 +27753,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -26808,7 +27835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 90.17 40.64 0)
+			(at 783.59 500.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26890,7 +27917,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N24"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 283.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -27198,17 +28225,6 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31034"
-			(at 368.3 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Description" "Unpolarized capacitor"
 			(at 368.3 220.98 0)
 			(hide yes)
@@ -27221,6 +28237,28 @@
 			)
 		)
 		(property "Board" "One leg lifted on the board (2026-11-21)"
+			(at 368.3 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "1.8pF 100V"
+			(at 368.3 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31034"
 			(at 368.3 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -27307,7 +28345,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 130.81 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -27389,7 +28427,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50473"
+		(property "Description" "Resistor"
 			(at 205.74 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -27400,7 +28438,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "19E6 1% 0.4W"
+			(at 205.74 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50473"
 			(at 205.74 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -27485,7 +28534,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 100 10113"
+		(property "Description" "Potentiometer"
 			(at 162.56 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -27496,7 +28545,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "10K cerm. lin. 0.5W"
+			(at 162.56 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 100 10113"
 			(at 162.56 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -27617,7 +28677,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31074"
+		(property "Description" "Unpolarized capacitor"
 			(at 361.95 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -27628,7 +28688,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "56pF 100V"
+			(at 361.95 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31074"
 			(at 361.95 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -27731,6 +28802,12 @@
 			(uuid "7f1b30b5-0d23-48cb-a947-b56eac03faf7")
 		)
 		(instances
+			(project "N1_Motherboard"
+				(path "/291175c9-f17a-4526-ae6f-9d055732170b"
+					(reference "X3198")
+					(unit 1)
+				)
+			)
 			(project "PM2528_System"
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
 					(reference "X3198")
@@ -27793,7 +28870,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N27"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 323.85 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -27931,7 +29008,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 130.81 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -28069,7 +29146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f7ba3b3-c82b-4f70-99e3-827103842a24")
-		(property "Reference" "#PWR91"
+		(property "Reference" "#PWR091"
 			(at 400.05 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -28194,7 +29271,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54643"
+		(property "Description" "Resistor"
 			(at 231.14 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -28205,7 +29282,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "20K5 1% 0.4W"
+			(at 231.14 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54643"
 			(at 231.14 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -28376,7 +29464,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54694"
+		(property "Description" "Resistor"
 			(at 224.79 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -28387,7 +29475,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "90K9 1% 0.4W"
+			(at 224.79 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54694"
 			(at 224.79 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -28473,7 +29572,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N21"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -28611,7 +29710,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 334.01 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -28693,17 +29792,6 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 122 34065"
-			(at 361.95 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Description" "Unpolarized capacitor"
 			(at 361.95 179.07 0)
 			(hide yes)
@@ -28716,6 +29804,28 @@
 			)
 		)
 		(property "Board" "One leg lifted on the board (2026-11-21)"
+			(at 361.95 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "12pF 100V"
+			(at 361.95 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 122 34065"
 			(at 361.95 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -28802,7 +29912,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 130.81 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28855,13 +29965,14 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 177.8 445.77 0)
+			(at 180.34 441.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -28926,7 +30037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "862afa8c-0a9a-4fab-b8eb-7d5578b73cdf")
-		(property "Reference" "#PWR90"
+		(property "Reference" "#PWR090"
 			(at 398.78 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -29053,7 +30164,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50664"
+		(property "Description" "Resistor"
 			(at 328.93 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -29064,7 +30175,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "2K05 1% 0.4W"
+			(at 328.93 367.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50664"
 			(at 328.93 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -29233,7 +30355,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54469"
+		(property "Description" "Resistor"
 			(at 166.37 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -29244,7 +30366,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "100E 1% 1/8W"
+			(at 166.37 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54469"
 			(at 166.37 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -29330,7 +30463,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N24"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -29466,7 +30599,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 101 14011"
+		(property "Description" "Potentiometer"
 			(at 162.56 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -29477,7 +30610,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "100E cerm. lin. 0.5W"
+			(at 162.56 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 101 14011"
 			(at 162.56 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -29600,7 +30744,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 156.21 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -29611,7 +30755,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 156.21 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 156.21 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -29704,7 +30859,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54694"
+		(property "Description" "Resistor"
 			(at 247.65 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -29715,7 +30870,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "90K9 1% 0.4W"
+			(at 247.65 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54694"
 			(at 247.65 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -29802,7 +30968,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 177.8 431.8 0)
 			(hide yes)
 			(show_name no)
@@ -29813,7 +30979,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 177.8 431.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 177.8 431.8 0)
 			(hide yes)
 			(show_name no)
@@ -29906,7 +31083,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 406.4 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -29917,7 +31094,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 406.4 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 406.4 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -30010,17 +31198,6 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31047"
-			(at 353.06 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Description" "Unpolarized capacitor"
 			(at 353.06 220.98 0)
 			(hide yes)
@@ -30033,6 +31210,28 @@
 			)
 		)
 		(property "Board" "One leg lifted on the board (2026-11-21)"
+			(at 353.06 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "5.6pF 100V"
+			(at 353.06 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31047"
 			(at 353.06 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -30119,7 +31318,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55596"
+		(property "Description" "Resistor"
 			(at 328.93 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -30130,7 +31329,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "110K 0.1% MR34E"
+			(at 328.93 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55596"
 			(at 328.93 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -30215,7 +31425,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 125 54045"
+		(property "Description" "Variable capacitor"
 			(at 349.25 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -30226,7 +31436,18 @@
 				)
 			)
 		)
-		(property "Description" "Variable capacitor"
+		(property "Philips_Value" "5.5pF 300V"
+			(at 349.25 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 125 54045"
 			(at 349.25 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -30311,7 +31532,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54977"
+		(property "Description" "Resistor"
 			(at 196.85 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -30322,7 +31543,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "89K8 0.1% 0.1W"
+			(at 196.85 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54977"
 			(at 196.85 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -30409,7 +31641,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 212.09 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -30493,7 +31725,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31199"
+		(property "Description" "Unpolarized capacitor"
 			(at 300.99 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -30504,7 +31736,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "22pF 500V"
+			(at 300.99 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31199"
 			(at 300.99 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -30591,7 +31834,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a local label with name \"-5V\""
 			(at 293.37 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -30675,7 +31918,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
 			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30759,7 +32002,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 184.15 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -30770,7 +32013,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 184.15 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 184.15 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -30863,7 +32117,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54801"
+		(property "Description" "Resistor"
 			(at 398.78 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -30874,7 +32128,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "4K07 0.1% 0.1W"
+			(at 398.78 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54801"
 			(at 398.78 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -30961,7 +32226,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 110 10167"
+		(property "Description" "Resistor"
 			(at 179.07 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -30972,7 +32237,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "180K 5% 2W"
+			(at 179.07 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 110 10167"
 			(at 179.07 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -31144,7 +32420,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 121 50566"
+		(property "Description" "Unpolarized capacitor"
 			(at 375.92 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -31155,7 +32431,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "1nF 1% 250V"
+			(at 375.92 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 121 50566"
 			(at 375.92 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -31242,7 +32529,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55584"
+		(property "Description" "Resistor"
 			(at 349.25 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -31253,7 +32540,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "976K 0.1% MR54E"
+			(at 349.25 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55584"
 			(at 349.25 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -31340,7 +32638,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 212.09 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -31422,7 +32720,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 100 10113"
+		(property "Description" "Potentiometer"
 			(at 375.92 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -31433,7 +32731,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "10K cerm. lin. 0.5W"
+			(at 375.92 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 100 10113"
 			(at 375.92 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -31556,7 +32865,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 374.65 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -31638,7 +32947,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55273"
+		(property "Description" "Resistor"
 			(at 205.74 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -31649,7 +32958,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "196E 0.5% 0.4W"
+			(at 205.74 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55273"
 			(at 205.74 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -31736,7 +33056,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31081"
+		(property "Description" "Unpolarized capacitor"
 			(at 345.44 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -31747,7 +33067,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "100pF 100V"
+			(at 345.44 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31081"
 			(at 345.44 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -31834,7 +33165,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 217.17 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -31845,7 +33176,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 217.17 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 217.17 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -31938,7 +33280,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 130.81 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -32022,7 +33364,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 90.17 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -32106,7 +33448,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 121 40282"
+		(property "Description" "Unpolarized capacitor"
 			(at 276.86 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -32117,7 +33459,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "220nF 630V"
+			(at 276.86 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 121 40282"
 			(at 276.86 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -32204,7 +33557,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50572"
+		(property "Description" "Resistor"
 			(at 364.49 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -32215,7 +33568,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "12K1 1% 0.4W"
+			(at 364.49 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50572"
 			(at 364.49 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -32301,7 +33665,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N24"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 364.49 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -32439,7 +33803,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54743"
+		(property "Description" "Resistor"
 			(at 229.87 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -32450,7 +33814,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "301K 1% 0.4W"
+			(at 229.87 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54743"
 			(at 229.87 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -32535,7 +33910,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 267 34058"
+		(property "Description" "8-pole DIN socket as drawn in Fig 7.4 (upper left): contacts 1-5, 7, 8 on a circle (clockwise from top 3, 5, 2, 4, 1, 7, 8), 6 on the horizontal axis between 7/8 and 3/1, key on the left."
 			(at 92.71 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -32546,7 +33921,18 @@
 				)
 			)
 		)
-		(property "Description" "8-pole DIN socket as drawn in Fig 7.4 (upper left): contacts 1-5, 7, 8 on a circle (clockwise from top 3, 5, 2, 4, 1, 7, 8), 6 on the horizontal axis between 7/8 and 3/1, key on the left."
+		(property "Philips_Value" "guard terminal (blue)"
+			(at 92.71 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 267 34058"
 			(at 92.71 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -32734,7 +34120,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54643"
+		(property "Description" "Resistor"
 			(at 351.79 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -32745,7 +34131,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "20K5 1% 0.4W"
+			(at 351.79 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54643"
 			(at 351.79 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -32831,7 +34228,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N24"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -32969,7 +34366,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 212.09 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -33138,7 +34535,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 335.28 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -33149,7 +34546,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 335.28 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 335.28 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -33242,7 +34650,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50459"
+		(property "Description" "Resistor"
 			(at 267.97 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -33253,7 +34661,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "422E 1% 0.4W"
+			(at 267.97 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50459"
 			(at 267.97 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -33506,7 +34925,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 101 14096"
+		(property "Description" "Potentiometer"
 			(at 373.38 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -33517,7 +34936,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "680E cerm. lin. 0.5W"
+			(at 373.38 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 101 14096"
 			(at 373.38 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -33640,7 +35070,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 172.72 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -33651,7 +35081,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 172.72 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 172.72 374.65 0)
 			(hide yes)
 			(show_name no)
@@ -33743,7 +35184,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 34425"
+		(property "Description" "Zener diode"
 			(at 121.92 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -33754,7 +35195,18 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Philips_Value" "BZX87-C5V1"
+			(at 121.92 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34425"
 			(at 121.92 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -34009,7 +35461,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 110 42214"
+		(property "Description" "Resistor"
 			(at 238.76 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -34020,7 +35472,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "10M 5% 0.5W"
+			(at 238.76 443.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 110 42214"
 			(at 238.76 443.23 0)
 			(hide yes)
 			(show_name no)
@@ -34107,7 +35570,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31072"
+		(property "Description" "Unpolarized capacitor"
 			(at 402.59 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -34118,7 +35581,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "47pF 100V"
+			(at 402.59 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31072"
 			(at 402.59 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -34205,7 +35679,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31072"
+		(property "Description" "Unpolarized capacitor"
 			(at 223.52 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -34216,7 +35690,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "47pF 100V"
+			(at 223.52 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31072"
 			(at 223.52 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -34303,7 +35788,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 334.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -34343,7 +35828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be2faa8d-b013-40e9-b46e-411cb5c56cf3")
-		(property "Reference" "#PWR82"
+		(property "Reference" "#PWR082"
 			(at 208.28 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -34470,7 +35955,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 252.73 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -34554,7 +36039,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 212.09 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -34721,7 +36206,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
 			(at 171.45 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -34888,7 +36373,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 101 14011"
+		(property "Description" "Potentiometer"
 			(at 373.38 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -34899,7 +36384,18 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Philips_Value" "100E cerm. lin. 0.5W"
+			(at 373.38 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 101 14011"
 			(at 373.38 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -35022,7 +36518,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -35106,7 +36602,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 217.17 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -35117,7 +36613,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 217.17 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 217.17 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -35211,7 +36718,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54603"
+		(property "Description" "Resistor"
 			(at 419.1 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -35222,7 +36729,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "6K49 1% 0.4W"
+			(at 419.1 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54603"
 			(at 419.1 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -35307,7 +36825,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50572"
+		(property "Description" "Resistor"
 			(at 172.72 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -35318,7 +36836,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "12K1 1% 0.4W"
+			(at 172.72 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50572"
 			(at 172.72 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -35405,7 +36934,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54632"
+		(property "Description" "Resistor"
 			(at 133.35 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -35416,7 +36945,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "14K7 1% 0.4W"
+			(at 133.35 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54632"
 			(at 133.35 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -35679,7 +37219,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50672"
+		(property "Description" "Resistor"
 			(at 405.13 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -35690,7 +37230,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "51K1 1% 0.4W"
+			(at 405.13 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50672"
 			(at 405.13 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -35776,7 +37327,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N24"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 161.29 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -35914,7 +37465,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 111 94044"
+		(property "Description" "Philips OM503 resistor network (R1201, input divider), service manual 9.2.2. R1 8998k 0.8% (1-8), R2 4k668 2% (8-9), R3 898k 0.95% (9-10), R4 518E4 2% (10-11), R5 89k78 0.95% (11-12), R6 52k32 2% (12-13), R7 9k98 0.95% (13-14). Pins placed as in Fig 7.4."
 			(at 147.32 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -35925,7 +37476,18 @@
 				)
 			)
 		)
-		(property "Description" "Philips OM503 resistor network (R1201, input divider), service manual 9.2.2. R1 8998k 0.8% (1-8), R2 4k668 2% (8-9), R3 898k 0.95% (9-10), R4 518E4 2% (10-11), R5 89k78 0.95% (11-12), R6 52k32 2% (12-13), R7 9k98 0.95% (13-14). Pins placed as in Fig 7.4."
+		(property "Philips_Value" "OM503 thin film network"
+			(at 147.32 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 111 94044"
 			(at 147.32 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -35999,13 +37561,14 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 328.93 377.19 0)
+			(at 331.47 373.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -36114,7 +37677,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 201.93 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -36125,7 +37688,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 201.93 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 201.93 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -36218,7 +37792,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 334.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -36385,7 +37959,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
 			(at 252.73 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -36438,13 +38012,14 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 116.84 203.2 0)
+			(at 119.38 199.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -36551,7 +38126,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54987"
+		(property "Description" "Resistor"
 			(at 196.85 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -36562,7 +38137,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "8K98 0.1% 0.1W"
+			(at 196.85 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54987"
 			(at 196.85 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -36647,7 +38233,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 55581"
+		(property "Description" "Resistor"
 			(at 205.74 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -36658,7 +38244,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "407K 0.1% MR34E"
+			(at 205.74 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 55581"
 			(at 205.74 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -36724,7 +38321,32 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 125.73 424.18 0)
+			(at 125.73 428.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 120.65 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 120.65 426.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36734,7 +38356,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Philips_Value" "BC337"
 			(at 120.65 426.72 0)
 			(hide yes)
 			(show_name no)
@@ -36743,6 +38365,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Philips_PN" "4822 130 40855"
@@ -36754,9 +38377,21 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" "NPN bipolar junction transistor"
+		(property "Sim.Device" "NPN"
+			(at 120.65 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 120.65 426.72 0)
 			(hide yes)
 			(show_name no)
@@ -37012,7 +38647,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 212.09 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -37097,7 +38732,18 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 130 24079"
+		(property "Description" "Triode for alternating current, anode1/anode2/gate"
+			(at 133.35 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "BT139-600"
 			(at 133.35 422.91 90)
 			(hide yes)
 			(show_name no)
@@ -37108,8 +38754,8 @@
 				)
 			)
 		)
-		(property "Description" "Triode for alternating current, anode1/anode2/gate"
-			(at 133.35 422.91 0)
+		(property "Philips_PN" "5322 130 24079"
+			(at 133.35 422.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37178,7 +38824,32 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 114.3 429.26 0)
+			(at 114.3 424.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 109.22 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 109.22 426.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37188,7 +38859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Philips_Value" "BC337"
 			(at 109.22 426.72 0)
 			(hide yes)
 			(show_name no)
@@ -37197,6 +38868,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Philips_PN" "4822 130 40855"
@@ -37208,9 +38880,21 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" "NPN bipolar junction transistor"
+		(property "Sim.Device" "NPN"
+			(at 109.22 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 109.22 426.72 0)
 			(hide yes)
 			(show_name no)
@@ -37240,6 +38924,143 @@
 			(project "PM2528_System"
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
 					(reference "V1602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x19")
+		(at 405.13 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9f9d192-b455-5d0e-bfd6-8ceb88eb9f02")
+		(property "Reference" "X31"
+			(at 405.13 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N31 socket"
+			(at 405.13 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 405.13 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 405.13 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 405.13 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "072783a6-c191-535e-aa9d-613c732ead3c")
+		)
+		(pin "2"
+			(uuid "8f3bb160-d6b2-57ec-a155-96a1dad96a6d")
+		)
+		(pin "3"
+			(uuid "9d62ccd6-3872-52fd-8a5f-9b2c1e5c8ef8")
+		)
+		(pin "4"
+			(uuid "8aadae52-1e90-55a3-80db-0ffea47a4e03")
+		)
+		(pin "5"
+			(uuid "042d92f2-6ba0-5bb1-9f72-aa55b27937c5")
+		)
+		(pin "6"
+			(uuid "f7daf0ce-7f6a-52b9-8c20-e82fad32c7c4")
+		)
+		(pin "7"
+			(uuid "a64fe77c-1c28-5854-b7ea-08a86acc69b0")
+		)
+		(pin "8"
+			(uuid "38db50aa-2323-5435-94aa-584ad55b425a")
+		)
+		(pin "9"
+			(uuid "ddc39c68-2ccc-56da-8d29-610f02745f23")
+		)
+		(pin "10"
+			(uuid "567b8b87-6cca-58e3-97c0-07a14fc42f33")
+		)
+		(pin "11"
+			(uuid "2116eea8-6ee4-548d-aabe-059a52b29ee8")
+		)
+		(pin "12"
+			(uuid "0ca1bc90-7559-53c4-8388-faa875650be7")
+		)
+		(pin "13"
+			(uuid "47133750-17b8-5900-af3e-b643ee9e669c")
+		)
+		(pin "14"
+			(uuid "f8122c0b-7ffb-5cd3-b93c-fe1713bf3478")
+		)
+		(pin "15"
+			(uuid "7e3dddc2-f061-5582-adf3-70731c7d6188")
+		)
+		(pin "16"
+			(uuid "6c61db81-b76f-58cf-b257-5fd3c3090115")
+		)
+		(pin "17"
+			(uuid "d5d358b8-4928-513d-942c-b210df6eefb3")
+		)
+		(pin "18"
+			(uuid "49495e8b-c044-5ea2-a637-e3f9db50864b")
+		)
+		(pin "19"
+			(uuid "f23023f8-a4b6-51c7-af02-f781e48b135a")
+		)
+		(instances
+			(project "N1_Motherboard"
+				(path "/291175c9-f17a-4526-ae6f-9d055732170b"
+					(reference "X31")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
+					(reference "X31")
 					(unit 1)
 				)
 			)
@@ -37339,7 +39160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec362b05-7e09-4afc-991e-6ccac871197f")
-		(property "Reference" "#PWR33"
+		(property "Reference" "#PWR033"
 			(at 248.92 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -37549,7 +39370,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 252.73 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -37631,7 +39452,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 122 34064"
+		(property "Description" "Unpolarized capacitor"
 			(at 351.79 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -37642,7 +39463,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "18pF 100V"
+			(at 351.79 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 122 34064"
 			(at 351.79 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -37710,7 +39542,32 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 214.63 181.61 0)
+			(at 214.63 186.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 219.71 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
+			(at 219.71 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37720,7 +39577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Philips_Value" "BC549C"
 			(at 219.71 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -37729,6 +39586,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Philips_PN" "4822 130 44246"
@@ -37740,9 +39598,21 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" "NPN bipolar junction transistor"
+		(property "Sim.Device" "NPN"
+			(at 219.71 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 219.71 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -37788,7 +39658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efb6a8d4-22f1-4acc-a141-919c9b13abce")
-		(property "Reference" "#PWR83"
+		(property "Reference" "#PWR083"
 			(at 208.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -37915,7 +39785,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 171.45 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -37998,7 +39868,7 @@
 				)
 			)
 		)
-		(property "Description" "Slot socket for N24"
+		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 120.65 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -38136,7 +40006,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 130.81 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -38218,7 +40088,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 122 34065"
+		(property "Description" "Unpolarized capacitor"
 			(at 364.49 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -38229,7 +40099,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "12pF 100V"
+			(at 364.49 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 122 34065"
 			(at 364.49 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -38314,17 +40195,6 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 122 34067"
-			(at 361.95 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Description" "Unpolarized capacitor"
 			(at 361.95 186.69 0)
 			(hide yes)
@@ -38337,6 +40207,28 @@
 			)
 		)
 		(property "Board" "One leg lifted on the board (2026-11-21)"
+			(at 361.95 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "22pF 100V"
+			(at 361.95 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 122 34067"
 			(at 361.95 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -38423,7 +40315,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54155"
+		(property "Description" "Resistor"
 			(at 355.6 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -38434,7 +40326,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "100K 0.1% 0.1W"
+			(at 355.6 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54155"
 			(at 355.6 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -38521,7 +40424,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 24147"
+		(property "Description" ""
 			(at 267.97 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -38532,7 +40435,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "relay assy"
+			(at 267.97 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 24147"
 			(at 267.97 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -38566,6 +40480,90 @@
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
 					(reference "K1402")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PM2528:+5VOG")
+		(at 415.29 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6d64891-af75-5892-886d-c24716b84d64")
+		(property "Reference" "#PWR0214"
+			(at 415.29 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VOG"
+			(at 419.1 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 415.29 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5aac0fe6-b4e6-5810-9121-ef25c8a60369")
+		)
+		(instances
+			(project "N1_Motherboard"
+				(path "/291175c9-f17a-4526-ae6f-9d055732170b"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
+					(reference "#PWR0214")
+					(unit 1)
 				)
 			)
 		)
@@ -38623,7 +40621,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 50473"
+		(property "Description" "Resistor"
 			(at 128.27 433.07 0)
 			(hide yes)
 			(show_name no)
@@ -38634,7 +40632,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "19E6 1% 0.4W"
+			(at 128.27 433.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 50473"
 			(at 128.27 433.07 0)
 			(hide yes)
 			(show_name no)
@@ -38677,7 +40686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f90c765a-b8c8-4f95-9c64-740a9215179e")
-		(property "Reference" "#PWR25"
+		(property "Reference" "#PWR025"
 			(at 330.2 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -38803,7 +40812,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 125 54045"
+		(property "Description" "Variable capacitor"
 			(at 375.92 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -38814,7 +40823,18 @@
 				)
 			)
 		)
-		(property "Description" "Variable capacitor"
+		(property "Philips_Value" "5.5pF trim 300V"
+			(at 375.92 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 125 54045"
 			(at 375.92 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -38984,7 +41004,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 172.72 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -38995,7 +41015,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 172.72 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 172.72 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -39088,7 +41119,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 116 54743"
+		(property "Description" "Resistor"
 			(at 217.17 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -39099,7 +41130,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Philips_Value" "301K 1% 0.4W"
+			(at 217.17 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 116 54743"
 			(at 217.17 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -39186,7 +41228,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -39270,7 +41312,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 130.81 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -39354,7 +41396,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "5322 280 80459"
+		(property "Description" ""
 			(at 217.17 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -39365,7 +41407,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Philips_Value" "reed relay assy"
+			(at 217.17 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 280 80459"
 			(at 217.17 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -39456,7 +41509,7 @@
 				)
 			)
 		)
-		(property "Philips_PN" "4822 122 31405"
+		(property "Description" "Unpolarized capacitor"
 			(at 378.46 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -39467,7 +41520,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Philips_Value" "39pF 100V"
+			(at 378.46 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "4822 122 31405"
 			(at 378.46 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -39554,7 +41618,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 783.59 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -40596,484 +42660,10 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x19")
-		(at 405.13 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e9f9d192-b455-5d0e-bfd6-8ceb88eb9f02")
-		(property "Reference" "X31"
-			(at 405.13 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "N31 socket"
-			(at 405.13 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 405.13 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Slot socket for N24"
-			(at 405.13 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "072783a6-c191-535e-aa9d-613c732ead3c")
-		)
-		(pin "2"
-			(uuid "8f3bb160-d6b2-57ec-a155-96a1dad96a6d")
-		)
-		(pin "3"
-			(uuid "9d62ccd6-3872-52fd-8a5f-9b2c1e5c8ef8")
-		)
-		(pin "4"
-			(uuid "8aadae52-1e90-55a3-80db-0ffea47a4e03")
-		)
-		(pin "5"
-			(uuid "042d92f2-6ba0-5bb1-9f72-aa55b27937c5")
-		)
-		(pin "6"
-			(uuid "f7daf0ce-7f6a-52b9-8c20-e82fad32c7c4")
-		)
-		(pin "7"
-			(uuid "a64fe77c-1c28-5854-b7ea-08a86acc69b0")
-		)
-		(pin "8"
-			(uuid "38db50aa-2323-5435-94aa-584ad55b425a")
-		)
-		(pin "9"
-			(uuid "ddc39c68-2ccc-56da-8d29-610f02745f23")
-		)
-		(pin "10"
-			(uuid "567b8b87-6cca-58e3-97c0-07a14fc42f33")
-		)
-		(pin "11"
-			(uuid "2116eea8-6ee4-548d-aabe-059a52b29ee8")
-		)
-		(pin "12"
-			(uuid "0ca1bc90-7559-53c4-8388-faa875650be7")
-		)
-		(pin "13"
-			(uuid "47133750-17b8-5900-af3e-b643ee9e669c")
-		)
-		(pin "14"
-			(uuid "f8122c0b-7ffb-5cd3-b93c-fe1713bf3478")
-		)
-		(pin "15"
-			(uuid "7e3dddc2-f061-5582-adf3-70731c7d6188")
-		)
-		(pin "16"
-			(uuid "6c61db81-b76f-58cf-b257-5fd3c3090115")
-		)
-		(pin "17"
-			(uuid "d5d358b8-4928-513d-942c-b210df6eefb3")
-		)
-		(pin "18"
-			(uuid "49495e8b-c044-5ea2-a637-e3f9db50864b")
-		)
-		(pin "19"
-			(uuid "f23023f8-a4b6-51c7-af02-f781e48b135a")
-		)
-		(instances
-			(project "N1_Motherboard"
-				(path "/291175c9-f17a-4526-ae6f-9d055732170b"
-					(reference "X31")
-					(unit 1)
-				)
-			)
-			(project "PM2528_System"
-				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
-					(reference "X31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 410.21 35.56) (xy 415.29 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a396223-ed6f-51d3-b49e-a9a45e9d3b43")
-	)
-	(wire
-		(pts
-			(xy 410.21 45.72) (xy 415.29 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01d87aad-9bbe-560b-b5cc-654fbb018dee")
-	)
-	(wire
-		(pts
-			(xy 410.21 68.58) (xy 415.29 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5816722a-cbd4-53b5-9298-697306d4f137")
-	)
-	(wire
-		(pts
-			(xy 410.21 71.12) (xy 415.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "789c942e-4bb0-5679-87b4-89753ecbfe55")
-	)
-	(wire
-		(pts
-			(xy 410.21 76.2) (xy 415.29 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d66caee-af41-5a27-b993-640cc2e0319e")
-	)
-	(wire
-		(pts
-			(xy 410.21 78.74) (xy 415.29 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87f3ad3b-429a-598b-a1eb-5493191aeddd")
-	)
-	(wire
-		(pts
-			(xy 410.21 81.28) (xy 415.29 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "affcc966-0e28-59ad-bb46-dfdf0cf4f38b")
-	)
-	(symbol
-		(lib_id "PM2528:GNDOG")
-		(at 415.29 35.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19d2fc00-6a49-5030-a2c3-da088ca55c84")
-		(property "Reference" "#PWR0213"
-			(at 415.29 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDOG"
-			(at 419.1 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 415.29 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 415.29 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 415.29 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffebd87e-1701-5f7e-b43a-4f42bc341d5a")
-		)
-		(instances
-			(project "N1_Motherboard"
-				(path "/291175c9-f17a-4526-ae6f-9d055732170b"
-					(reference "#PWR0213")
-					(unit 1)
-				)
-			)
-			(project "PM2528_System"
-				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
-					(reference "#PWR0213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PM2528:+5VOG")
-		(at 415.29 45.72 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6d64891-af75-5892-886d-c24716b84d64")
-		(property "Reference" "#PWR0214"
-			(at 415.29 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VOG"
-			(at 419.1 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 415.29 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 415.29 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 415.29 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5aac0fe6-b4e6-5810-9121-ef25c8a60369")
-		)
-		(instances
-			(project "N1_Motherboard"
-				(path "/291175c9-f17a-4526-ae6f-9d055732170b"
-					(reference "#PWR0214")
-					(unit 1)
-				)
-			)
-			(project "PM2528_System"
-				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910"
-					(reference "#PWR0214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(hierarchical_label "N31_LO"
-		(shape passive)
-		(at 415.29 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d19728bc-87e2-5b46-889b-c3500b99b282")
-	)
-	(hierarchical_label "N31_HI"
-		(shape input)
-		(at 415.29 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "681b2a3b-1b07-5591-b610-32d8edb3a91a")
-	)
-	(label "N30_DLEN1"
-		(at 415.29 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8c37ee1-4b30-5f76-8fca-a75e1bdef013")
-	)
-	(label "N30_DA0"
-		(at 415.29 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80572509-1ca4-57ee-b84a-e32a4bf0707e")
-	)
-	(label "N30_CLOCK"
-		(at 415.29 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ac6f227-ad3a-5bdd-89e6-a5847e452c41")
-	)
-	(no_connect
-		(at 410.21 38.1)
-		(uuid "7a00a6ec-6ad7-5f1c-9bda-457501b715e4")
-	)
-	(no_connect
-		(at 410.21 40.64)
-		(uuid "fea3d275-527d-5993-a2f9-47d4f5f90df1")
-	)
-	(no_connect
-		(at 410.21 43.18)
-		(uuid "f4e5e5ac-b5ea-5ed4-8c98-dd3b55dd8a59")
-	)
-	(no_connect
-		(at 410.21 48.26)
-		(uuid "6f1fb628-7363-5f42-b3fe-e2dcf6d1435e")
-	)
-	(no_connect
-		(at 410.21 50.8)
-		(uuid "d8b0c3c7-7760-5960-8d1a-81d8fd2aa268")
-	)
-	(no_connect
-		(at 410.21 53.34)
-		(uuid "166d98cf-4ca3-53cb-a601-c436e6acb994")
-	)
-	(no_connect
-		(at 410.21 55.88)
-		(uuid "ba818d84-0a4d-52b5-9a9b-2d44c087d4c7")
-	)
-	(no_connect
-		(at 410.21 58.42)
-		(uuid "dd57128d-657c-5e17-8171-211570ead018")
-	)
-	(no_connect
-		(at 410.21 60.96)
-		(uuid "b906636f-9dd4-51a2-99bb-d4069fe4aa1b")
-	)
-	(no_connect
-		(at 410.21 63.5)
-		(uuid "d993227e-394f-5f4e-b1d4-b36f872694d9")
-	)
-	(no_connect
-		(at 410.21 66.04)
-		(uuid "f08ad41b-27c9-5765-b27b-c3abf733233f")
-	)
-	(no_connect
-		(at 410.21 73.66)
-		(uuid "333a4545-9bef-50ae-ab6d-e8ca61e7246f")
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

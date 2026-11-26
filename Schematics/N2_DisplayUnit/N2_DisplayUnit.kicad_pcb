@@ -132,7 +132,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -143,11 +143,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe355a36-704f-4a0c-bd14-ffa71bff4d63")
+			(uuid "4876f82f-1588-4d32-a899-79f1f84e82d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4dcaab9-d206-412e-85b8-63a30510e28a")
 			(effects
 				(font
 					(size 1 1)
@@ -292,7 +306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -303,7 +317,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8-bit serial-in parallel-out shift register"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -314,11 +328,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 85002"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "808e7dde-2cfe-4604-ae5a-375843e0e5c4")
+			(uuid "682bbd40-59fa-4f8a-824a-3fda3b68cf19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "SN74LS174N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "384664c9-5e45-4e65-9e0c-eda234de8373")
 			(effects
 				(font
 					(size 1 1)
@@ -684,7 +712,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -695,11 +723,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa5bd380-0071-4559-9dc7-2d57a8f41c3f")
+			(uuid "fd8d5297-875a-4364-9d73-e2e21a7add19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a76ee6d8-8f64-4929-8b21-482bd38844a0")
 			(effects
 				(font
 					(size 1 1)
@@ -855,7 +897,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -866,11 +908,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7dcf002-3cb7-432d-a370-966c1e36990e")
+			(uuid "19ab5810-5a8a-4521-9996-2b60259bb19a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a58b694-9864-4f84-9333-7344333df463")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e16447c8-0a9d-49bd-a43c-051069a66065")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acf38f50-d91f-425f-9f3e-3bd3815a504b")
 			(effects
 				(font
 					(size 1 1)
@@ -1131,7 +1213,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1142,11 +1224,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "5322 116 54504"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f85ec559-b089-49cd-a55e-50cd5cc94144")
+			(uuid "34ca447f-d3c2-418f-a1c2-c3d9284cffbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "274E 1% 0.4W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcf5bf1b-f4f6-4351-854e-d4433d1f9318")
 			(effects
 				(font
 					(size 1 1)
@@ -1322,7 +1418,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1330,18 +1426,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8f41919d-ba32-42ea-92a1-aaf06df4db48")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1493,7 +1577,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1504,11 +1588,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "53724be1-876d-4c9f-98e0-603ff13f1e5b")
+			(uuid "3046a9c0-864b-47c8-a25b-4f365e9f9185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f69c07c1-1ff9-41da-9f72-9142ff61348a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bf7deb3-d607-4e9d-9cbe-c5a43a1fc00d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32995d30-c272-4bc0-b38b-948eac63dccb")
 			(effects
 				(font
 					(size 1 1)
@@ -1758,7 +1882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1769,7 +1893,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1780,11 +1904,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9de499f-cb02-4f96-936f-54c5a7de6a97")
+			(uuid "71c92e77-48a8-41d8-8dba-19e5d15909cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18181e31-0ff1-4ba8-a545-9a46edb2e49e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "436b3bad-5d8c-48f9-b534-bb7178e2f4eb")
 			(effects
 				(font
 					(size 1 1)
@@ -2001,7 +2152,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2012,11 +2163,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "5322 116 54504"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1033f83-a2a8-4c7e-b65b-febc94cb1288")
+			(uuid "cd3fac7e-cf02-4956-866d-8ab2263bb6e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "274E 1% 0.4W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7402275-ad78-4ac2-95e9-49418175bcf7")
 			(effects
 				(font
 					(size 1 1)
@@ -2192,7 +2357,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2203,11 +2368,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "32452c16-dbf9-4555-af85-a56adcf6b11f")
+			(uuid "41f0cb7e-68ab-481d-8dc3-11cb53e9bd1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a27ecf1-8b26-4edf-aefc-1e4e76614fea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff2bcaff-4e9d-4d60-a5f9-ad145ac8e954")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f20df628-f910-4b65-a52e-fdaba1793021")
 			(effects
 				(font
 					(size 1 1)
@@ -2457,7 +2662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/HP5082-7740.PDF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2470,7 +2675,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HP 5082-7750 10.9 mm (0.43 in) single digit 7-segment red LED, common anode, left hand decimal point (data sheet drawing E). Segment pins ordered G..A top to bottom to line up with 74LS164 Q1..Q7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2479,6 +2684,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34579"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e89cf1e-74b6-4e04-96c0-200fab73840e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "HP5082-7750"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d925b6f-3c5a-4555-9d26-0b91c76eb7d1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2872,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2883,11 +3114,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 124 20678"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "5baecbda-a3de-472b-959f-b154793117b4")
+			(uuid "c4a7818f-fb39-44fc-bb59-2250b44c26bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "47uF 10V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb8e6a10-48df-40e0-8672-2df2863c259b")
 			(effects
 				(font
 					(size 1 1)
@@ -3198,6 +3443,17 @@
 			(layer "F.Fab")
 			(uuid "0be81fd2-a43c-4a80-9bfb-1ba666d5a71b")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 7.5 0 0)
+			(layer "F.Fab")
+			(uuid "f610ab87-9183-41ba-992d-5f2c09e5fa5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 2 2)
@@ -3218,17 +3474,6 @@
 			(net "-5Vdisp")
 			(pintype "passive")
 			(uuid "03c33c3a-7cbd-4785-8762-fda15e427d34")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 7.5 0 0)
-			(layer "F.Fab")
-			(uuid "f610ab87-9183-41ba-992d-5f2c09e5fa5b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal.step"
@@ -3284,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3293,6 +3538,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caf11b99-e977-4e7a-8139-e5b1a451976a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44d46847-c9a4-44b9-b6f0-3414c479651e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3605,7 +3876,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3616,11 +3887,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "91d2b3df-0a8b-4373-bb23-b0645e19c536")
+			(uuid "810216ad-be98-4e7e-a4e8-f9e3c4c700be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55f341d3-fdd7-4724-ad21-6d6c8dd1718b")
 			(effects
 				(font
 					(size 1 1)
@@ -3765,7 +4050,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3776,7 +4061,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MCS-48 I/O expander, four 4-bit ports (P4-P7) driven over P20-P23 and PROG, 24-pin DIP"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3787,11 +4072,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 54593"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e57013b-7449-4228-bfa5-c9746bb957f9")
+			(uuid "8407b08f-711d-4ce5-81bf-1507b0fec45c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "P8243"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57522f70-7aaf-4abc-9f1b-639abc190daf")
 			(effects
 				(font
 					(size 1 1)
@@ -4258,7 +4557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/HP5082-7740.PDF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4271,7 +4570,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HP 5082-7750 10.9 mm (0.43 in) single digit 7-segment red LED, common anode, left hand decimal point (data sheet drawing E). Segment pins ordered G..A top to bottom to line up with 74LS164 Q1..Q7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4280,6 +4579,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34579"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "657a9f19-7b4a-4a68-9b72-13d71484bede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "HP5082-7750"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4177a169-1e65-46f0-b286-90dda600d36e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4673,7 +4998,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4684,11 +5009,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c21b3c4a-f096-48fe-b074-642d91e3c4f5")
+			(uuid "9d992bcf-b657-4c13-8a59-78cf2a57a807")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21dd7917-1f4f-4af9-95ba-03980ad402af")
 			(effects
 				(font
 					(size 1 1)
@@ -4844,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4855,11 +5194,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 122 30103"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d94b22e7-9637-4ddd-a048-dbc2fa2b9570")
+			(uuid "0eb3894f-9bd0-4ac0-8fb1-49cea301bc8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa3ef193-eb81-4f31-b1cb-1270450f4636")
 			(effects
 				(font
 					(size 1 1)
@@ -5033,7 +5386,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5044,7 +5397,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8-bit serial-in parallel-out shift register"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5055,11 +5408,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 85002"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "57f7f682-1715-4cfa-98d2-d639f9bd1419")
+			(uuid "f4a235e7-86fe-4e8b-94ea-971d3a2d54ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "SN74LS174N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "946114a9-5e18-40fd-bcf2-a6c6f6537bc3")
 			(effects
 				(font
 					(size 1 1)
@@ -5427,7 +5794,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5436,6 +5803,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3298110-58f0-45e4-b7ef-abe63ff30bc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "173eabb8-f2cb-48c8-8163-29f3d32e7878")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5748,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5759,11 +6152,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 122 30103"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "9311cfbd-e2e1-4600-b165-9bc7407315a9")
+			(uuid "f7bfba1f-2479-4322-b4ac-3454affdc631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d80a4e4d-74f1-4c1a-b6fd-e8dcee30e0b4")
 			(effects
 				(font
 					(size 1 1)
@@ -5937,7 +6344,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/HP5082-7740.PDF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5950,7 +6357,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HP 5082-7750 10.9 mm (0.43 in) single digit 7-segment red LED, common anode, left hand decimal point (data sheet drawing E). Segment pins ordered G..A top to bottom to line up with 74LS164 Q1..Q7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5959,6 +6366,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34579"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c03b054-afa6-43d8-b5d3-e856e0726bbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "HP5082-7750"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edba923a-5ee5-4be8-aa66-5eec3377d067")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6352,7 +6785,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6363,11 +6796,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f293b62-b5e6-4539-9959-47d3c4328146")
+			(uuid "e80b0e02-73a6-4394-b9a7-e265b7faa24e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bda22a2-afeb-4aa7-88be-0d7953f782b5")
 			(effects
 				(font
 					(size 1 1)
@@ -6523,7 +6970,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6531,18 +6978,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "808da04b-964e-425d-ae41-8e1758540467")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -6714,7 +7149,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6725,11 +7160,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f73746b3-a218-4e33-87ce-87a584c624c4")
+			(uuid "2b98750d-8db5-4f0f-86ee-1d4a1ceab2db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aabc339a-3141-4607-b6eb-eeb80a9540ee")
 			(effects
 				(font
 					(size 1 1)
@@ -6885,7 +7334,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6896,11 +7345,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "66603abf-49dd-4fcc-8dbc-3deec4d7f2d3")
+			(uuid "ff7c741a-d683-4c7a-873d-a7f05888d244")
 			(effects
 				(font
 					(size 1 1)
@@ -7118,7 +7568,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7129,11 +7579,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2e23c9e-6054-4d54-b2bb-24642539f0e0")
+			(uuid "3767559c-7b52-4bd9-b2bd-d2d6dbf6c13a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "055c383e-0a97-4500-9c7f-44a86a962d24")
 			(effects
 				(font
 					(size 1 1)
@@ -7289,7 +7753,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7300,11 +7764,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c471bfe-0faa-4278-b2e6-5cd4829742e1")
+			(uuid "9908b809-382c-4e47-9ca1-76d97777c864")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7a5c2a8-be6b-4771-ae5a-6cbce74bcd0e")
 			(effects
 				(font
 					(size 1 1)
@@ -7462,7 +7940,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7471,6 +7949,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14338"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b6973ef-49a6-4cd3-8603-349d26ea3408")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch (no LED)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e909e5c8-db61-4b4b-a586-7c4dd31ef0ed")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7772,7 +8276,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/HP5082-7740.PDF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7785,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HP 5082-7750 10.9 mm (0.43 in) single digit 7-segment red LED, common anode, left hand decimal point (data sheet drawing E). Segment pins ordered G..A top to bottom to line up with 74LS164 Q1..Q7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7794,6 +8298,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34579"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b3a505b-0597-4838-a8d2-a78f69929245")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "HP5082-7750"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9366ebf6-c731-438a-8ef2-2339e09c0f45")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8187,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8198,11 +8728,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5d0f71f-5194-4c69-908f-631ba2ffc386")
+			(uuid "f3021021-52de-484f-8661-62c485b926cb")
 			(effects
 				(font
 					(size 1 1)
@@ -8409,7 +8940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8420,7 +8951,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -5V, TO-220/TO-263"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8428,18 +8959,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "86323dda-e685-4026-926c-9c70870a901f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -8673,7 +9192,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8684,11 +9203,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 122 30103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e754ddd-f107-4510-bb5b-140b89fc47a6")
+			(uuid "c258123a-7996-494b-bcac-4b516556d84d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "336ecf6f-c94f-46c6-9bb9-0ae29eee0237")
 			(effects
 				(font
 					(size 1 1)
@@ -8875,7 +9408,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8884,6 +9417,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc8f6f92-31be-4185-8a0d-02f141e1c0c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b197d4cd-9e3c-4147-bce3-b802b7f646e3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9196,7 +9755,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9207,11 +9766,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "68376754-21e0-4b82-ac0f-67311cb0756e")
+			(uuid "8fe62faf-d3fc-4544-b281-ecdaf31892f2")
 			(effects
 				(font
 					(size 1 1)
@@ -9431,7 +9991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9440,6 +10000,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e35cd29-7ba7-478c-80c1-de96322c9dc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48393569-f4fc-4250-adff-d67b51ce028d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9741,7 +10327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS145"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9752,7 +10338,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Decoder 1 to 10, Open Collector"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9763,11 +10349,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 86276"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "b04983c2-1dbd-4aad-b260-9ebaf3c2d1a6")
+			(uuid "49907617-7bcc-41df-95a6-176e2b164808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "SN74LS145N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc311193-59c6-45c9-a03d-88710adca215")
 			(effects
 				(font
 					(size 1 1)
@@ -10157,7 +10757,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10168,11 +10768,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ab09d27-afdf-4bda-a9f6-ce61954270f0")
+			(uuid "b45d932f-0dd8-406b-bd0e-00dd7e19a8d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5895534d-cc0a-4327-b07c-e3567bca49df")
 			(effects
 				(font
 					(size 1 1)
@@ -10328,7 +10942,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10339,11 +10953,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d22afc4f-1b62-473f-aa07-ccd3fa199e23")
+			(uuid "f4732906-4851-47a7-bb82-5c69e5577b27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f6790cd-c0c1-4abc-93dc-a211c2307c4e")
 			(effects
 				(font
 					(size 1 1)
@@ -10488,7 +11116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10499,7 +11127,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8-bit serial-in parallel-out shift register"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10510,11 +11138,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 85002"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "be0646ad-cd67-428f-b931-6f9b7aab6ac3")
+			(uuid "062c5ade-85b3-46bb-a1a7-edbd316602e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "SN74LS174N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acc570b9-a12f-483f-bc9e-b1dde797680b")
 			(effects
 				(font
 					(size 1 1)
@@ -10880,7 +11522,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10891,11 +11533,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "5322 116 54504"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3f6ac58-17fd-4f68-9bd4-16130dc25d2c")
+			(uuid "c01a1a23-585d-4321-8e18-70c5adf1af9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "274E 1% 0.4W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd1c7b4-070c-44d2-932c-885b161e6dc2")
 			(effects
 				(font
 					(size 1 1)
@@ -11060,7 +11716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11071,7 +11727,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MCS-48 I/O expander, four 4-bit ports (P4-P7) driven over P20-P23 and PROG, 24-pin DIP"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11082,11 +11738,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 54593"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef6bd1ad-8b3d-46ef-b083-59809bc6a3b4")
+			(uuid "01d4d4ca-d7b4-491f-9361-15598e210246")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "P8243"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b167d32-7a9f-4a46-87e5-d41a3bd3b914")
 			(effects
 				(font
 					(size 1 1)
@@ -11553,7 +12223,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11564,7 +12234,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11575,11 +12245,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f471d6f-e2b6-4a8e-8043-5f0364bf0c48")
+			(uuid "f4212181-8382-4301-99a7-08635ebe3a6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bd4b4d1-edf8-4491-bc9f-53cb07fe2cb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c13234da-e364-4e66-bdfe-c047abb70ed5")
 			(effects
 				(font
 					(size 1 1)
@@ -11796,7 +12493,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11807,11 +12504,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 124 20688"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7f0fa25-845b-4105-99b6-87fc8a5f92b2")
+			(uuid "e817d9a6-eb69-40ef-96cb-19def0a4b77f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "33uF 16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44c0da6f-0259-497f-b935-eb9305743250")
 			(effects
 				(font
 					(size 1 1)
@@ -12195,7 +12906,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12206,7 +12917,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12217,11 +12928,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c567261-635b-405b-b8b3-032a4f38ef92")
+			(uuid "b9757ca6-aba1-4ce2-8891-706880e61f50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae4e8f13-90b9-4458-94dd-d3c01efffb75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "123f6e12-f4c2-447f-beb6-fc22d03b18a2")
 			(effects
 				(font
 					(size 1 1)
@@ -12438,7 +13176,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12449,11 +13187,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 122 30103"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9b84ceb-3daa-4ad8-adfe-f203baf8d5c8")
+			(uuid "f021ece0-6301-40e0-9971-6f27bd41f44c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daa6b42b-3420-48ec-8be8-ff73afb10ecb")
 			(effects
 				(font
 					(size 1 1)
@@ -12640,7 +13392,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12649,6 +13401,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10963322-5a40-4229-a500-bd92caa16ff0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d41898b-c25f-4d53-8d7a-6797aacf836f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12950,7 +13728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/HP5082-7740.PDF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12963,7 +13741,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HP 5082-7750 10.9 mm (0.43 in) single digit 7-segment red LED, common anode, left hand decimal point (data sheet drawing E). Segment pins ordered G..A top to bottom to line up with 74LS164 Q1..Q7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12972,6 +13750,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34579"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "222ea2c7-f3f5-489d-bef8-69e412931e26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "HP5082-7750"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "387dc60d-025e-4ed6-8dad-ff141f508971")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13354,7 +14158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13365,7 +14169,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13376,11 +14180,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "44defe55-a3d1-409d-80bd-e94caa493b6a")
+			(uuid "432954b7-cbae-47fc-9c1f-7f15c9b909a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4ed74a5-2104-4ab0-9f73-d74ab925e2ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d76f7b73-b877-44e5-9c32-41121d862c76")
 			(effects
 				(font
 					(size 1 1)
@@ -13597,7 +14428,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13608,11 +14439,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "5322 116 54504"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c89c96f-ddf0-432d-9886-009ae44a6db5")
+			(uuid "e6a44375-696c-4e96-811f-c4d7fcdf1eea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "274E 1% 0.4W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34408c8a-a4eb-4bb9-a1be-3a71ee465a62")
 			(effects
 				(font
 					(size 1 1)
@@ -13788,7 +14633,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13799,11 +14644,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae1fc149-391e-48fb-8609-63b033f43ad8")
+			(uuid "5ca20790-19a6-4f59-80ff-b55ede7d5234")
 			(effects
 				(font
 					(size 1 1)
@@ -14021,7 +14867,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14032,11 +14878,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e508a9a-87ca-4c39-822e-1e768db4a6e8")
+			(uuid "49397b26-19c5-43b5-b86b-a70071b20279")
 			(effects
 				(font
 					(size 1 1)
@@ -14254,7 +15101,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14265,11 +15112,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "5322 116 54499"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "37d1f77f-f27c-4bb9-82be-67d6c62db7e6")
+			(uuid "f2c9002c-6b6c-4333-9d39-379a9485d605")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "249E 1% 0.4W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5349cd7-6565-4c31-a5d9-e5d454f6dfc2")
 			(effects
 				(font
 					(size 1 1)
@@ -14445,7 +15306,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14456,11 +15317,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "cfbf5f87-4382-40ae-9ecc-b8d095c12033")
+			(uuid "7ce68b26-d582-4f3d-9457-e30ef5d29461")
 			(effects
 				(font
 					(size 1 1)
@@ -14678,7 +15540,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14689,11 +15551,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "76977b34-7f1e-4639-b9bd-174c0afbb428")
+			(uuid "acd9e16f-72e9-4e86-8d66-6da32275aeb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffc4ed9c-d993-4fbb-b86c-b4fee7d80755")
 			(effects
 				(font
 					(size 1 1)
@@ -14849,7 +15725,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14860,11 +15736,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f8ce60d-3952-42e2-aaf5-da556acb9706")
+			(uuid "30ad9db2-f570-4255-830d-e46790079f91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92ecd6b2-07d8-4cf5-86f2-324d529b1b3d")
 			(effects
 				(font
 					(size 1 1)
@@ -15020,7 +15910,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15031,11 +15921,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "167ca979-1608-44de-bd4d-bb41a31da96e")
+			(uuid "0e06cfb8-3ba4-42ee-8180-5cc9e0d5d7f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91e4a288-8734-4af3-ad81-8b915c8bd999")
 			(effects
 				(font
 					(size 1 1)
@@ -15191,7 +16095,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15202,11 +16106,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 122 30103"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "153a4b96-b9ae-4dd9-86b2-14ab5cf268be")
+			(uuid "1ec5a13e-8915-4c0c-bf33-512fcdf24f62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44798645-d606-4bce-a648-0e71f9e1a1d8")
 			(effects
 				(font
 					(size 1 1)
@@ -15391,7 +16309,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15402,11 +16320,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4519284-efa5-4cc0-b344-c28d070f2d1f")
+			(uuid "a46c9d13-7934-438e-97ee-ab96d9c98b4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8adbe8ab-ae38-4896-8c06-e2d049b06f79")
 			(effects
 				(font
 					(size 1 1)
@@ -15564,7 +16496,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15573,6 +16505,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9b369d7-4095-42a6-89ca-2845c39a7754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84861cfe-d0b0-4673-8eb1-1ebe55999426")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15885,7 +16843,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15896,11 +16854,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "5322 116 54499"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "e22cdcd9-2cc5-4bc7-ad16-71fae09fc5f2")
+			(uuid "267f6a76-0a85-4e20-80b6-884a698cd58c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "249E 1% 0.4W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e6915ff-ae37-49a9-bda1-d5956a6feac9")
 			(effects
 				(font
 					(size 1 1)
@@ -16076,7 +17048,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16087,11 +17059,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "896673d6-4ae0-4b33-850d-8aa469dd3854")
+			(uuid "8d3a83d6-f98f-479e-a68b-12123bbfd79f")
 			(effects
 				(font
 					(size 1 1)
@@ -16309,7 +17282,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16320,11 +17293,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 122 30103"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "39b1d399-ca60-41c1-8fec-99f5457ef840")
+			(uuid "37974b95-f0e3-41ff-9bbc-ffb204ce98b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56ecdf23-155f-42a8-a93d-c513521745d7")
 			(effects
 				(font
 					(size 1 1)
@@ -16498,7 +17485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16509,7 +17496,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16520,11 +17507,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7e16345-09e5-459b-afeb-1bb9b3c42a3e")
+			(uuid "02dbcf98-c339-4587-9189-bc373ac4246e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1c364b1-62b8-46c9-a69d-e8e956969a6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd7ed20b-bf1a-4846-9e44-4b41a3bb1920")
 			(effects
 				(font
 					(size 1 1)
@@ -16741,7 +17755,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16752,11 +17766,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5075841-61af-428e-abc8-b924be54198a")
+			(uuid "7edabbae-ca94-4dd6-9508-10380fd1e8c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9216b9d-5139-42d9-8cb6-b294fd1ff9e3")
 			(effects
 				(font
 					(size 1 1)
@@ -16914,7 +17942,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16923,6 +17951,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eafaf85e-d3b0-4674-a2e2-83ba5f4dfde2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03336daf-6028-4dbe-80d9-2bd5604e77ac")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17237,7 +18291,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17246,6 +18300,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdc2d643-9589-4cba-a42a-87033d341fb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daff9a27-c2c3-49cf-a9ee-680847b0b688")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17558,7 +18638,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17569,11 +18649,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c681afec-55e3-4aaf-8e51-b4defe06a6c8")
+			(uuid "83cafda1-e919-425b-961e-6cd0672aac40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2011c91b-25d4-4e1f-89b1-9481e22c196b")
 			(effects
 				(font
 					(size 1 1)
@@ -17729,7 +18823,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17740,11 +18834,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "69f278ef-b677-480d-86d1-4fe196c3c79a")
+			(uuid "044b8f81-cdd5-4673-a87d-7a768cd689a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a76b69b6-bb94-4e60-8684-7ede3abf1263")
 			(effects
 				(font
 					(size 1 1)
@@ -17902,7 +19010,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17911,6 +19019,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fea78e6c-748c-452e-9cbb-4183ed1bb33b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b89c6c4-0d6c-417b-a064-fa706eea62c6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18212,7 +19346,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18223,7 +19357,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18234,11 +19368,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ce07b50-a597-42bb-bf5b-ba06cf63a35d")
+			(uuid "0dda3b85-e569-4924-90a5-b0c81afbfafa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d86d92f-7e1c-4f7b-bf6c-a5851868bbb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ccbe92b-9c29-408f-9315-160b74663b6b")
 			(effects
 				(font
 					(size 1 1)
@@ -18457,7 +19618,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18466,6 +19627,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63dde419-ff3f-4d75-9eff-2e94bb26ea50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dec71a2c-bea5-495d-8a4a-4e86d773bcd6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18778,7 +19965,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18789,11 +19976,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 124 20678"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae2fbcab-274b-47ac-82e8-94c2bb6def52")
+			(uuid "fec0c4dc-a71f-44d0-a7f6-f639918f9a15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "47uF 10V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3860358d-fef1-4ef9-a74f-74188a57ace5")
 			(effects
 				(font
 					(size 1 1)
@@ -18814,104 +20015,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.63 -2.2)
-			(end 2.13 -2.2)
+			(start 12.62 -3.12)
+			(end 12.62 3.12)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c79fa034-482c-499b-98a1-d9dc63f4a1d5")
-		)
-		(fp_line
-			(start 1.24 0)
-			(end 2.38 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "daa7d29f-c492-4ec2-ae4c-e3ecef306537")
-		)
-		(fp_line
-			(start 1.38 -2.95)
-			(end 1.38 -1.45)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "78da254e-359e-4411-bb9f-6e2158420eee")
-		)
-		(fp_line
-			(start 2.38 -3.12)
-			(end 2.38 3.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cbdc0b05-b4c7-45fd-8fda-3d758abe7695")
-		)
-		(fp_line
-			(start 2.38 -3.12)
-			(end 3.88 -3.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "30b0dbb8-36f6-45e4-8035-ebdb1f9c9410")
-		)
-		(fp_line
-			(start 2.38 3.12)
-			(end 3.88 3.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b9ea6d17-22e3-42b3-b99c-69ec07ec81b0")
-		)
-		(fp_line
-			(start 3.88 -3.12)
-			(end 4.63 -2.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d8b08fd8-ddca-477d-a914-bb7d97bdcf3d")
-		)
-		(fp_line
-			(start 3.88 3.12)
-			(end 4.63 2.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f4bb0064-e640-4787-b04c-38764ea30f7d")
-		)
-		(fp_line
-			(start 4.63 -2.37)
-			(end 5.38 -3.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3d8b5211-a08b-4418-b762-6eb5ba853914")
-		)
-		(fp_line
-			(start 4.63 2.37)
-			(end 5.38 3.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "16b4aa98-aeda-4c80-b668-bd860b217e2a")
+			(uuid "f5dfa1e4-b492-454e-93b8-bb86a6a7bf64")
 		)
 		(fp_line
 			(start 5.38 -3.12)
@@ -18924,24 +20035,64 @@
 			(uuid "9e2bfe0f-fd61-4629-beb2-7ba4234eb7f5")
 		)
 		(fp_line
-			(start 5.38 3.12)
-			(end 12.62 3.12)
+			(start 3.88 -3.12)
+			(end 4.63 -2.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "804d422b-4566-4b77-a044-005a9b455a90")
+			(uuid "d8b08fd8-ddca-477d-a914-bb7d97bdcf3d")
 		)
 		(fp_line
-			(start 12.62 -3.12)
-			(end 12.62 3.12)
+			(start 2.38 -3.12)
+			(end 3.88 -3.12)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f5dfa1e4-b492-454e-93b8-bb86a6a7bf64")
+			(uuid "30b0dbb8-36f6-45e4-8035-ebdb1f9c9410")
+		)
+		(fp_line
+			(start 2.38 -3.12)
+			(end 2.38 3.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cbdc0b05-b4c7-45fd-8fda-3d758abe7695")
+		)
+		(fp_line
+			(start 1.38 -2.95)
+			(end 1.38 -1.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "78da254e-359e-4411-bb9f-6e2158420eee")
+		)
+		(fp_line
+			(start 4.63 -2.37)
+			(end 5.38 -3.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3d8b5211-a08b-4418-b762-6eb5ba853914")
+		)
+		(fp_line
+			(start 0.63 -2.2)
+			(end 2.13 -2.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c79fa034-482c-499b-98a1-d9dc63f4a1d5")
 		)
 		(fp_line
 			(start 13.76 0)
@@ -18952,6 +20103,56 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fadfcd84-00a9-45c5-aed9-22db8d7b5335")
+		)
+		(fp_line
+			(start 1.24 0)
+			(end 2.38 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "daa7d29f-c492-4ec2-ae4c-e3ecef306537")
+		)
+		(fp_line
+			(start 4.63 2.37)
+			(end 5.38 3.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "16b4aa98-aeda-4c80-b668-bd860b217e2a")
+		)
+		(fp_line
+			(start 5.38 3.12)
+			(end 12.62 3.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "804d422b-4566-4b77-a044-005a9b455a90")
+		)
+		(fp_line
+			(start 3.88 3.12)
+			(end 4.63 2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4bb0064-e640-4787-b04c-38764ea30f7d")
+		)
+		(fp_line
+			(start 2.38 3.12)
+			(end 3.88 3.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9ea6d17-22e3-42b3-b99c-69ec07ec81b0")
 		)
 		(fp_rect
 			(start -1.25 -3.25)
@@ -18965,104 +20166,14 @@
 			(uuid "882d6798-1475-47d0-93e7-d17774230909")
 		)
 		(fp_line
-			(start 0 0)
-			(end 2.5 0)
+			(start 12.5 -3)
+			(end 12.5 3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "147f107c-d954-4b23-b27d-51a06182d3ab")
-		)
-		(fp_line
-			(start 2.5 -3)
-			(end 2.5 3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f5639bfd-19ec-45b8-a7ce-1ae7dae72b02")
-		)
-		(fp_line
-			(start 2.5 -3)
-			(end 3.88 -3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "82daf5f4-2249-484b-ae08-099c8b7c0359")
-		)
-		(fp_line
-			(start 2.5 3)
-			(end 3.88 3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0b60b992-cd5b-49db-b015-57b2a3c95b19")
-		)
-		(fp_line
-			(start 3.88 -3)
-			(end 4.63 -2.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "06c43186-526d-4060-900f-34af8bc76705")
-		)
-		(fp_line
-			(start 3.88 3)
-			(end 4.63 2.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "972b712d-d451-468b-8393-a82457257728")
-		)
-		(fp_line
-			(start 3.9 0)
-			(end 5.4 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5c2c98b1-664f-46b2-a4cc-d118a4ae92d3")
-		)
-		(fp_line
-			(start 4.63 -2.25)
-			(end 5.38 -3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "98525c81-60ce-4777-8572-0ddefb03412a")
-		)
-		(fp_line
-			(start 4.63 2.25)
-			(end 5.38 3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f3286823-5b9b-4f4f-8c05-86ea8ef9397f")
-		)
-		(fp_line
-			(start 4.65 -0.75)
-			(end 4.65 0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a74adc92-3d7e-47c6-b9de-7578de905599")
+			(uuid "771f4b75-eb98-438b-974b-02537b0861fe")
 		)
 		(fp_line
 			(start 5.38 -3)
@@ -19075,24 +20186,54 @@
 			(uuid "d04b7e2d-9709-4dc3-a6b6-afda84d2af24")
 		)
 		(fp_line
-			(start 5.38 3)
-			(end 12.5 3)
+			(start 3.88 -3)
+			(end 4.63 -2.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "da8c1962-2693-4fb5-bf76-5632abb72978")
+			(uuid "06c43186-526d-4060-900f-34af8bc76705")
 		)
 		(fp_line
-			(start 12.5 -3)
-			(end 12.5 3)
+			(start 2.5 -3)
+			(end 3.88 -3)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "771f4b75-eb98-438b-974b-02537b0861fe")
+			(uuid "82daf5f4-2249-484b-ae08-099c8b7c0359")
+		)
+		(fp_line
+			(start 2.5 -3)
+			(end 2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f5639bfd-19ec-45b8-a7ce-1ae7dae72b02")
+		)
+		(fp_line
+			(start 4.63 -2.25)
+			(end 5.38 -3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98525c81-60ce-4777-8572-0ddefb03412a")
+		)
+		(fp_line
+			(start 4.65 -0.75)
+			(end 4.65 0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a74adc92-3d7e-47c6-b9de-7578de905599")
 		)
 		(fp_line
 			(start 15 0)
@@ -19103,6 +20244,77 @@
 			)
 			(layer "F.Fab")
 			(uuid "2fea25ee-a908-4eee-aafc-27521964d34c")
+		)
+		(fp_line
+			(start 3.9 0)
+			(end 5.4 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5c2c98b1-664f-46b2-a4cc-d118a4ae92d3")
+		)
+		(fp_line
+			(start 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "147f107c-d954-4b23-b27d-51a06182d3ab")
+		)
+		(fp_line
+			(start 4.63 2.25)
+			(end 5.38 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f3286823-5b9b-4f4f-8c05-86ea8ef9397f")
+		)
+		(fp_line
+			(start 5.38 3)
+			(end 12.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "da8c1962-2693-4fb5-bf76-5632abb72978")
+		)
+		(fp_line
+			(start 3.88 3)
+			(end 4.63 2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "972b712d-d451-468b-8393-a82457257728")
+		)
+		(fp_line
+			(start 2.5 3)
+			(end 3.88 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0b60b992-cd5b-49db-b015-57b2a3c95b19")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 7.5 0 90)
+			(layer "F.Fab")
+			(uuid "c9fd494f-7fb6-4195-b50b-6e8dfc974470")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
@@ -19124,17 +20336,6 @@
 			(net "-5Vdisp")
 			(pintype "passive")
 			(uuid "d1f8b428-ef0f-4503-a6d8-95235a7a598e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 7.5 0 90)
-			(layer "F.Fab")
-			(uuid "c9fd494f-7fb6-4195-b50b-6e8dfc974470")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal.step"
@@ -19188,7 +20389,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19199,11 +20400,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "66336180-d53b-4003-958d-1cad572e7135")
+			(uuid "0a18a375-09e7-403e-a59f-d9d2cf7c24eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afa6adc3-fc9c-487b-93b7-c2f788b15c8c")
 			(effects
 				(font
 					(size 1 1)
@@ -19359,7 +20574,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19370,11 +20585,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 122 30103"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "9296fbbd-02e8-4080-aca4-e01372ec9681")
+			(uuid "1710f209-9f0d-4f6b-8769-794890b9d24d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3349d415-5794-4356-9f2c-82fd55641318")
 			(effects
 				(font
 					(size 1 1)
@@ -19548,7 +20777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS145"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19559,7 +20788,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Decoder 1 to 10, Open Collector"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19570,11 +20799,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 86276"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d549735-8dc2-4b57-9d92-1164bc123cad")
+			(uuid "23b364e8-b097-4415-b0f3-0582711c3f3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "SN74LS145N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b291481-3ae4-498b-bcf9-cc412f30c748")
 			(effects
 				(font
 					(size 1 1)
@@ -19964,7 +21207,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19975,11 +21218,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fc8d41c-b707-4ca9-84ca-75cdab15d92a")
+			(uuid "b1641e51-340e-4834-a4de-1689e041a3df")
 			(effects
 				(font
 					(size 1 1)
@@ -20186,7 +21430,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20197,7 +21441,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8-bit serial-in parallel-out shift register"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20208,11 +21452,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 85002"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5c8d92c-fe01-4d5a-8c7a-edd04de7a33a")
+			(uuid "4c727868-650d-4e87-9930-0e996238d391")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "SN74LS174N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b3f0bca-acec-478a-97fe-ac65ff1a1fcb")
 			(effects
 				(font
 					(size 1 1)
@@ -20578,7 +21836,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20589,11 +21847,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "6322be40-7b18-4df5-88d5-f74257df89ac")
+			(uuid "1b34bbf6-d0ae-4f68-bb6e-97d85b04d672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72a19521-df0d-4a28-a492-6618aaacb125")
 			(effects
 				(font
 					(size 1 1)
@@ -20749,7 +22021,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20760,11 +22032,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c0a8fda-c0ab-474a-8d11-fb32caa29fa2")
+			(uuid "c544b1ab-b18f-43d4-85ff-f1fd27b74dc3")
 			(effects
 				(font
 					(size 1 1)
@@ -20984,7 +22257,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20993,6 +22266,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5e22a8b-acd5-4d3a-92b4-8b09c49c0880")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79bf9f24-e7e4-4fda-9e29-a7ecf041fa60")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21294,7 +22593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21305,7 +22604,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8-bit serial-in parallel-out shift register"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21316,11 +22615,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 85002"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "71e49e52-0b31-46d9-b45f-eb28a9a41874")
+			(uuid "e6e0e400-43d5-4ec5-9d84-24e2c6a1a963")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "SN74LS174N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4ad764d-f45a-4f4e-8057-5ee47acf312b")
 			(effects
 				(font
 					(size 1 1)
@@ -21686,7 +22999,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21697,11 +23010,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c65054d-a436-44f8-a502-f320e177fe27")
+			(uuid "445f880c-1cd8-492c-a1e2-8fc06cdf7e4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d62754d-d77b-4949-a865-62b0ccfcf41a")
 			(effects
 				(font
 					(size 1 1)
@@ -21857,7 +23184,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21868,11 +23195,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "26b1d75c-4413-4e8b-a33a-4bad4583bc66")
+			(uuid "10eb1845-4185-4032-969d-982d537cc42f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9918e57-e263-43ca-b613-59776d34fedf")
 			(effects
 				(font
 					(size 1 1)
@@ -22028,7 +23369,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22036,18 +23377,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7390c967-d85b-4e4c-af48-5aaf5626ed86")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -22409,7 +23738,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22420,11 +23749,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d37be30f-352a-419d-b600-efeca09b6e1c")
+			(uuid "6a1073c0-631b-4e35-9460-124d22715756")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e6d2bbe-7c90-4d6f-b7f2-af3679a1e051")
 			(effects
 				(font
 					(size 1 1)
@@ -22582,7 +23925,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22591,6 +23934,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4274813-29fb-4534-b2bd-4a95879ea08b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bb1f58d-50ca-481e-b67b-685f3ef1c7bf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22903,7 +24272,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22914,11 +24283,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 122 30103"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb6c4ce7-599f-41c9-9679-f11a6133a317")
+			(uuid "6c64619b-881d-40c0-b534-dcd774462c53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bd9166c-c129-4711-a9ea-09b5a2d9b80e")
 			(effects
 				(font
 					(size 1 1)
@@ -23103,7 +24486,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23114,11 +24497,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "009c7463-a8cf-4e5e-80e4-8b36b2864419")
+			(uuid "199e1a31-58dc-4265-8ff7-5dac3a9f092f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab8623d2-9520-4b51-8384-0420fd9c794d")
 			(effects
 				(font
 					(size 1 1)
@@ -23263,7 +24660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/HP5082-7740.PDF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23276,7 +24673,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HP 5082-7750 10.9 mm (0.43 in) single digit 7-segment red LED, common anode, left hand decimal point (data sheet drawing E). Segment pins ordered G..A top to bottom to line up with 74LS164 Q1..Q7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23285,6 +24682,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 130 34579"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36a8b907-4701-4977-abca-d7545bd5701a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "HP5082-7750"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f174fe6-8503-4392-8c4a-678a6d53bc95")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23678,7 +25101,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23689,11 +25112,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f056005-4f47-453a-9d6d-2d635b94de24")
+			(uuid "bc1dc152-10c7-429e-9c5c-4cd8c42c9766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e34e54d-b326-476b-af61-8fc6aa57d6ed")
 			(effects
 				(font
 					(size 1 1)
@@ -23849,7 +25286,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23860,11 +25297,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 122 30103"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d00f2d0f-ab20-41f0-ad83-f441d3fe2211")
+			(uuid "6408c6f9-da03-4ed0-816f-47c1608eb4ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c32fee59-b074-4602-87d1-c186ccdd467f")
 			(effects
 				(font
 					(size 1 1)
@@ -24027,7 +25478,7 @@
 				)
 			)
 		)
-		(property "Value" "HEF4556"
+		(property "Value" "HEF4556B"
 			(at 3.81 20.11 90)
 			(layer "F.Fab")
 			(uuid "8e2d5a87-d51a-4cec-ac8b-c065e4b0b48a")
@@ -24038,7 +25489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/HEF4556B.PDF"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24049,7 +25500,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active LOW; A0/A1 select, ~{E} active LOW enable (data input as demux)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24060,29 +25511,21 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a9f710df-d190-4de1-b912-07cd74d0e11a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/8d91746f-b52d-459c-aaee-b48db7aac656")
+		(path "/804b8670-7852-4789-8a54-2a84366e357b")
 		(sheetname "/")
 		(sheetfile "N2_DisplayUnit.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "2" "3" "1" "16" "8" "4" "5" "6" "7")
+				(pins "2" "3" "1" "4" "5" "6" "7")
 			)
 			(unit
 				(name "B")
-				(pins "14" "13" "15" "16" "8" "12" "11" "10" "9")
+				(pins "14" "13" "15" "12" "11" "10" "9")
+			)
+			(unit
+				(name "C")
+				(pins "16" "8")
 			)
 		)
 		(attr through_hole)
@@ -24234,7 +25677,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
 			(net "/~{PS1}")
-			(pinfunction "~{EN}_1")
+			(pinfunction "~{EA}_1")
 			(pintype "input")
 			(uuid "38da21d2-f8c6-4a9d-bda1-32b1e8209a14")
 		)
@@ -24245,7 +25688,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/P24")
-			(pinfunction "A0_2")
+			(pinfunction "A0A_2")
 			(pintype "input")
 			(uuid "33f4cda4-dbdb-4946-8b9b-8a0272d67e5d")
 		)
@@ -24256,7 +25699,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/P25")
-			(pinfunction "A1_3")
+			(pinfunction "A1A_3")
 			(pintype "input")
 			(uuid "ac0bf283-82d6-4312-a6ed-42152ff7a74a")
 		)
@@ -24267,7 +25710,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D201-~{CS})")
-			(pinfunction "~{Q0}_4")
+			(pinfunction "~{O0A}_4")
 			(pintype "output")
 			(uuid "ca342dad-34c3-4e13-ab5b-0c4f949b8c4a")
 		)
@@ -24278,7 +25721,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D202-~{CS})")
-			(pinfunction "~{Q1}_5")
+			(pinfunction "~{O1A}_5")
 			(pintype "output")
 			(uuid "a5efd889-cf66-4672-af11-02d8d9f45a83")
 		)
@@ -24288,8 +25731,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(D212A-~{Q2}-Pad6)")
-			(pinfunction "~{Q2}_6")
+			(net "unconnected-(D212A-~{O2A}-Pad6)")
+			(pinfunction "~{O2A}_6")
 			(pintype "output+no_connect")
 			(uuid "fe224459-b670-4a79-b6e3-b828a07df6d4")
 		)
@@ -24299,8 +25742,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(D212A-~{Q3}-Pad7)")
-			(pinfunction "~{Q3}_7")
+			(net "unconnected-(D212A-~{O3A}-Pad7)")
+			(pinfunction "~{O3A}_7")
 			(pintype "output+no_connect")
 			(uuid "d89033f4-2bd3-4ee7-a5d2-1ec3b89054b8")
 		)
@@ -24311,7 +25754,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5Vdisp")
-			(pinfunction "Vss_8")
+			(pinfunction "VSS_8")
 			(pintype "power_in")
 			(uuid "8c1d18a4-8ef6-4ac4-aa8f-6e450fdfdc0c")
 		)
@@ -24321,8 +25764,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D212B-~{Q3})")
-			(pinfunction "~{Q3}_9")
+			(net "Net-(D212B-~{O3B})")
+			(pinfunction "~{O3B}_9")
 			(pintype "output")
 			(uuid "af47721a-4b69-41c9-a455-6c93c29d386d")
 		)
@@ -24332,8 +25775,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D212B-~{Q2})")
-			(pinfunction "~{Q2}_10")
+			(net "Net-(D212B-~{O2B})")
+			(pinfunction "~{O2B}_10")
 			(pintype "output")
 			(uuid "31251472-196f-4cc6-97af-a58dde33e291")
 		)
@@ -24343,8 +25786,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D212B-~{Q1})")
-			(pinfunction "~{Q1}_11")
+			(net "Net-(D212B-~{O1B})")
+			(pinfunction "~{O1B}_11")
 			(pintype "output")
 			(uuid "85023a47-4671-4d05-8d12-47d197437cd0")
 		)
@@ -24354,8 +25797,8 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D212B-~{Q0})")
-			(pinfunction "~{Q0}_12")
+			(net "Net-(D212B-~{O0B})")
+			(pinfunction "~{O0B}_12")
 			(pintype "output")
 			(uuid "71ae7848-034d-4dae-af79-4ad2f165effc")
 		)
@@ -24366,7 +25809,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/P25")
-			(pinfunction "A1_13")
+			(pinfunction "A1B_13")
 			(pintype "input")
 			(uuid "ea2d6845-b3c5-4f21-a32d-7977d1d38363")
 		)
@@ -24377,7 +25820,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/P24")
-			(pinfunction "A0_14")
+			(pinfunction "A0B_14")
 			(pintype "input")
 			(uuid "436fa717-92ff-4795-94c1-ba95e1e08488")
 		)
@@ -24388,7 +25831,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/~{PS2}")
-			(pinfunction "~{EN}_15")
+			(pinfunction "~{EB}_15")
 			(pintype "input")
 			(uuid "498e55c5-3929-4699-834e-8dc932908a17")
 		)
@@ -24399,7 +25842,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LGND2")
-			(pinfunction "Vdd_16")
+			(pinfunction "VDD_16")
 			(pintype "power_in")
 			(uuid "32bf4cb7-ac02-4a9f-a8a7-868c845c1588")
 		)
@@ -24457,7 +25900,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24466,6 +25909,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "297069c8-983b-46bc-8848-1fb50705041e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c8e9f5f-3100-425c-b39c-a6a3fa66e99e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24778,7 +26247,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24789,11 +26258,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "879a4d29-eeef-4107-90f4-d2f61f71f5a1")
+			(uuid "667569be-07a6-4666-85ed-0c0f92faa73d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10d3b084-34ec-4d7b-808b-42e3a2181b9b")
 			(effects
 				(font
 					(size 1 1)
@@ -24949,7 +26432,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24960,11 +26443,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c880e70b-f21f-4890-9c6e-fb5906481448")
+			(uuid "580be331-d1e0-4b83-99cb-3142c3651bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8f9def4-a169-4648-8cd7-34da9253ebe4")
 			(effects
 				(font
 					(size 1 1)
@@ -25120,7 +26617,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25131,11 +26628,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcb1e80c-3fa2-42e8-892a-9b096b2f4234")
+			(uuid "ffbb8b98-4c90-405d-856c-77213c2c00da")
 			(effects
 				(font
 					(size 1 1)
@@ -25353,7 +26851,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25364,11 +26862,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "231b90a5-b33e-4dad-a95a-be92ba3cf16d")
+			(uuid "b7e177e3-4fd0-4867-9eed-de883b734e97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a474c2-28a4-4dd5-93ac-e1d4a3b45a8c")
 			(effects
 				(font
 					(size 1 1)
@@ -25524,7 +27036,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25535,11 +27047,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "005fd37c-f0f3-4431-baee-e01eb29dce30")
+			(uuid "747b8350-818a-4ced-bff2-4962ce1489dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dddd89b-449c-443c-8714-c79be6c2c5d2")
 			(effects
 				(font
 					(size 1 1)
@@ -25695,7 +27221,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25706,11 +27232,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "25ffa86c-43ec-4524-987e-6d82f68edd8e")
+			(uuid "a3d14be9-04ea-4212-97e8-96189caf39e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d755c9ef-d4d5-47d1-9498-ffbf2da638d0")
 			(effects
 				(font
 					(size 1 1)
@@ -25866,7 +27406,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25874,18 +27414,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c00b0999-2b6c-416e-9632-c54bee0250e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -26057,7 +27585,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26068,11 +27596,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "3544b7db-030c-41cc-b20f-f9aea0125333")
+			(uuid "5663c74b-b783-4e2a-b4d6-40fb0909b7db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c38e4ec-b593-4e61-8cdf-ca45c33c1f92")
 			(effects
 				(font
 					(size 1 1)
@@ -26228,7 +27770,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26239,11 +27781,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "64797125-ecac-4343-aa73-d7b945c58cda")
+			(uuid "18050108-f854-4a93-b171-a0cee31edf69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae8205c1-c7f6-46d4-90ee-c3e523b46d4e")
 			(effects
 				(font
 					(size 1 1)
@@ -26399,7 +27955,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26410,11 +27966,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "95d01860-d20b-42b4-b330-9d4056d425d0")
+			(uuid "9a93d96e-2773-46a1-a54c-d94fefbe1caa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cab177f-bd6b-450c-a6f6-f065492d8a4c")
 			(effects
 				(font
 					(size 1 1)
@@ -26559,7 +28129,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26570,7 +28140,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26581,11 +28151,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 86296"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "39088288-fa68-4c0a-b8b1-e67b857d1932")
+			(uuid "ce0d1c26-f2ab-4324-ab42-bcbd780237ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "ULN2003N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06f83b03-ef5e-408a-9468-d361dbeadb3e")
 			(effects
 				(font
 					(size 1 1)
@@ -26975,7 +28559,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26986,11 +28570,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 122 30103"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f7f1b12-247b-4a59-8920-3487e35145be")
+			(uuid "939bc5f8-35eb-4b59-aaa4-45f2b96d1dbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4cbf794-0378-405f-8321-b77b8e5c8dcd")
 			(effects
 				(font
 					(size 1 1)
@@ -27175,7 +28773,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27186,11 +28784,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "b88d4ca5-da63-42e9-8e72-8fbb22b5ecc1")
+			(uuid "b67ad006-7791-485c-b81e-ddfa3091a275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0394a81b-f0b9-4c9d-868c-278f97fcecb4")
 			(effects
 				(font
 					(size 1 1)
@@ -27346,7 +28958,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27354,18 +28966,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "93e232a2-9db8-4f6e-b9f9-d9b13eda0d73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -27526,7 +29126,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27537,7 +29137,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8-bit serial-in parallel-out shift register"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27548,11 +29148,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 85002"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "41b6098c-5a26-4356-bd15-93ffca16782d")
+			(uuid "c3e117ef-bc24-4505-ab78-9f39c82e30d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "SN74LS174N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "470ef1e3-0ca5-4d71-9181-38d2ccfaecf7")
 			(effects
 				(font
 					(size 1 1)
@@ -27918,7 +29532,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27926,18 +29540,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8ebbc332-bb6d-417b-9fea-aeea6a168166")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -28109,7 +29711,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28120,11 +29722,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "712f57f6-5a44-4c3b-9618-185c44360286")
+			(uuid "290f0862-a8f0-482b-971b-45fcc8ab6317")
 			(effects
 				(font
 					(size 1 1)
@@ -28342,7 +29945,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28353,11 +29956,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c64a475-1b2a-4748-87fc-895e03940145")
+			(uuid "890f88c5-1861-451c-9e39-a9822dbd55a9")
 			(effects
 				(font
 					(size 1 1)
@@ -28575,7 +30179,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28586,11 +30190,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0740a14-0491-4999-a150-275b8b543b94")
+			(uuid "8add93b1-f9b6-42a1-9989-869c62c9a1ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1a8143b-4047-424a-933e-213006a343b3")
 			(effects
 				(font
 					(size 1 1)
@@ -28746,7 +30364,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28757,11 +30375,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "5322 116 54499"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "752dc23e-85fd-43af-a95c-a49356e5601b")
+			(uuid "979715ef-4d7a-4f6d-b2f8-28408a3f83d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "249E 1% 0.4W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a375190c-fadf-4001-b998-ae85c4143544")
 			(effects
 				(font
 					(size 1 1)
@@ -28926,7 +30558,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28937,7 +30569,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad 2-input OR"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28948,11 +30580,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
+		(property "Philips_PN" "5322 209 85311"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "050e7587-e4f8-4696-af76-4c791d5e7ab5")
+			(uuid "50ba2440-1c1e-427d-8a16-7f1d1329c771")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "N74LS32A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "308c524b-eec3-45ef-8ad9-ce448ac4ed80")
 			(effects
 				(font
 					(size 1 1)
@@ -28961,7 +30607,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP?14*")
-		(path "/c01574f9-49a6-4a02-a132-7c1306b44517")
+		(path "/7d35d837-9bbd-408d-8f40-56182f36b1dc")
 		(sheetname "/")
 		(sheetfile "N2_DisplayUnit.kicad_sch")
 		(units
@@ -29134,7 +30780,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net "Net-(D212B-~{Q2})")
+			(net "Net-(D212B-~{O2B})")
 			(pintype "input")
 			(uuid "88eff444-441f-4c2a-971e-3b2758e865f5")
 		)
@@ -29164,7 +30810,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D212B-~{Q3})")
+			(net "Net-(D212B-~{O3B})")
 			(pintype "input")
 			(uuid "5b2aeb86-2bdc-4976-9dba-ab1454dd8255")
 		)
@@ -29225,7 +30871,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D212B-~{Q0})")
+			(net "Net-(D212B-~{O0B})")
 			(pintype "input")
 			(uuid "886b8745-0742-486c-88b3-e2a01e2c41ed")
 		)
@@ -29255,7 +30901,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D212B-~{Q1})")
+			(net "Net-(D212B-~{O1B})")
 			(pintype "input")
 			(uuid "0fde855f-905d-40ad-b4f5-2a4b7d2597d9")
 		)
@@ -29311,7 +30957,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29322,7 +30968,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29333,11 +30979,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "77317a65-ba10-4ab4-b9ad-ad28a8f34ebb")
+			(uuid "d2746172-651f-4914-984f-fe9416c22799")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9be53ba1-61f6-44f3-b7d4-6b6f5b1bd3a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deb8190c-b18d-49b6-a044-031777c83bd5")
 			(effects
 				(font
 					(size 1 1)
@@ -29556,7 +31229,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29565,6 +31238,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ff6c623-83ed-49ee-aa1f-119556ade2a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaffcb99-ee76-4b87-987e-7b3a6b816e91")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29877,7 +31576,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29888,11 +31587,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "276de399-ba57-4636-a328-34f5ba16c2d8")
+			(uuid "32c4742d-5bb1-46e7-bff0-f05a5aa6422b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45ec8ec3-c2a0-44e8-a16f-e90a8b6b5a12")
 			(effects
 				(font
 					(size 1 1)
@@ -30048,7 +31761,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30059,11 +31772,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "4982037f-2c03-420c-b4be-d27d715b829f")
+			(uuid "5bf93dd7-3123-431c-a118-70a8ccc7b090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e292212-06f5-4f5e-9b5f-b9e9abbe1b62")
 			(effects
 				(font
 					(size 1 1)
@@ -30219,7 +31946,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30230,11 +31957,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cddcbdf-d234-4bd1-9bdb-762c241f3d42")
+			(uuid "5e3ab3f6-4ea0-454c-a2f9-0dcba10ccc70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1df676f-8a4b-4794-8c5c-35b5eeab64a5")
 			(effects
 				(font
 					(size 1 1)
@@ -30390,7 +32131,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30401,11 +32142,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3e97ba9-b815-4bb0-a735-c75bbaf4e50d")
+			(uuid "976cf8c0-39b9-4c34-8e8c-c621f1a4cde3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c760a9d-e88e-445c-a882-4d5b1815c865")
 			(effects
 				(font
 					(size 1 1)
@@ -30550,7 +32305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30561,7 +32316,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30572,11 +32327,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "94a001be-d83d-4df9-8e70-743595880a91")
+			(uuid "456109d3-5a3c-4584-b7ca-b377d927b922")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a29e52b-841d-432d-a37c-bcadddb733ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1c4d72a-108a-46a8-a52e-818df3313088")
 			(effects
 				(font
 					(size 1 1)
@@ -30795,7 +32577,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30804,6 +32586,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b8dd5ac-f5d2-46f2-bbd2-2e1c74a6b65b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7b621f6-cfed-43ed-a2c7-911726c417cf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31105,7 +32913,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31116,7 +32924,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31127,11 +32935,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "92d6d717-9431-422a-8163-d62379519b7d")
+			(uuid "5295a650-4b48-474e-a444-e50787c85980")
 			(effects
 				(font
 					(size 1 1)
@@ -31348,7 +33157,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31359,11 +33168,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b7e375c-812f-42ce-a5e2-e9185d791f8c")
+			(uuid "882ad48f-9a8d-46f6-a776-2c8376cf9243")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dffc610d-762d-4d77-bd92-b4db2cd3c6a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ca28f3b-cdd7-4279-891c-4a4b57cb88b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31005cb1-aec1-4f4e-94f6-05c33511f3ff")
 			(effects
 				(font
 					(size 1 1)
@@ -31613,7 +33462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31624,7 +33473,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31635,11 +33484,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad059155-c092-4d9f-a732-7d60cce2dc1f")
+			(uuid "74e0faeb-7bbf-468c-9e8c-7f87745ecc2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4b8d309-2fcf-4b95-9303-701ef15b95bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f73c33-04ff-4954-a604-0fd12e5f404d")
 			(effects
 				(font
 					(size 1 1)
@@ -31845,7 +33721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31856,7 +33732,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31867,11 +33743,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6b68658-2ff2-4916-84a4-6720d1d7505c")
+			(uuid "83b00a3a-d067-4a1f-9682-697089f461ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dae4afeb-f42b-4b4d-b305-a563883a4a33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6e73897-07c6-4373-a94c-c281b4c83c8b")
 			(effects
 				(font
 					(size 1 1)
@@ -32088,7 +33991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32096,18 +33999,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "52bdc6c4-934b-4120-8f4a-8519de3018a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -32279,7 +34170,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32290,11 +34181,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa49afab-c2fd-4f53-8e61-0caabcbaf08a")
+			(uuid "f951b9f3-ed28-458b-b22a-51f89323898a")
 			(effects
 				(font
 					(size 1 1)
@@ -32512,7 +34404,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32523,11 +34415,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "5322 116 54499"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "5324fc9f-0880-415a-b32c-58b87980cc8a")
+			(uuid "96062eff-37da-441c-acc7-8196ce0d3d4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "249E 1% 0.4W"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63a3de16-fa28-47d8-ba90-ac2b5270e3e1")
 			(effects
 				(font
 					(size 1 1)
@@ -32703,7 +34609,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32714,11 +34620,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "110229d6-9228-45fa-8d4e-32b0c5bccc7b")
+			(uuid "8548489c-f11b-45d9-9c63-034a8d5252ad")
 			(effects
 				(font
 					(size 1 1)
@@ -32936,7 +34843,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32947,11 +34854,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5a27290-9c9b-42d2-adcc-7ec39c65af89")
+			(uuid "72fa4919-600b-4099-a2cb-b0aa4bce5201")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45d5be76-893b-4314-a767-d3fe79823b85")
 			(effects
 				(font
 					(size 1 1)
@@ -33107,7 +35028,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33115,18 +35036,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "82bb0a71-09f2-49c9-84e5-aa93a1cfec47")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -33298,7 +35207,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33309,11 +35218,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "Philips_PN" "4822 110 70093"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "4706d364-e4ed-48a8-80ac-20ad445d2dda")
+			(uuid "d89d25da-39ba-4693-acc8-a77ed50d7b6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c456383b-2ef6-430c-8ee1-41963ac10e64")
 			(effects
 				(font
 					(size 1 1)
@@ -33458,7 +35381,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33469,7 +35392,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33480,11 +35403,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "33f23dbe-dc69-4e5d-81da-9bc4d743deef")
+			(uuid "ba09aee6-054c-412f-b8bc-a406fab14d22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6744f68f-b8b7-45af-b207-5b4283d09e33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "414b0f47-01ad-4017-86f7-38f9e52d0cb8")
 			(effects
 				(font
 					(size 1 1)
@@ -33703,7 +35653,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33712,6 +35662,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14338"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3bf9c70-f54d-4e96-b167-a251bdd0cf32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch (no LED)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ef51150-2005-402a-84e6-2070e1b62a45")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34024,7 +36000,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34035,11 +36011,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
+		(property "Philips_PN" "4822 110 70093"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "2136652d-b3c4-4838-8c85-70163ed692b2")
+			(uuid "aa495bc4-758c-4032-93b8-a947dd68f210")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "300E 1% 0.33W"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33c26523-2716-4f08-ae7c-27bc70e00e02")
 			(effects
 				(font
 					(size 1 1)
@@ -34195,7 +36185,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34206,11 +36196,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "e03108b7-8f13-4b26-9f45-a17799d7313f")
+			(uuid "6c686099-1ac1-4e45-935f-6e09ba32e172")
 			(effects
 				(font
 					(size 1 1)
@@ -34428,7 +36419,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34439,11 +36430,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "5322 130 34919"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "812fc48f-d6c7-4f20-a155-f52a595c7b3a")
+			(uuid "99117f8f-c370-49d5-9cb1-4f7be6de4363")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BYW54"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32e22b56-5c1b-4bc1-8dc8-9959a228fd9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bbdd165-42df-4b6c-aba5-7775bdc0876a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43bbf62c-f0b9-4624-994b-a37ac2e2c077")
 			(effects
 				(font
 					(size 1 1)
@@ -34704,7 +36735,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34715,11 +36746,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5ce0b30-8509-47a7-b1ec-443b0f5f8dfa")
+			(uuid "ce65473e-facc-4471-95bc-9fc4c4ea9bcc")
 			(effects
 				(font
 					(size 1 1)
@@ -34939,7 +36971,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34948,6 +36980,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 276 14418"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "945565f7-4a8a-4785-8a5e-698cb7e38ea5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "keyboard switch"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "418d5b38-ae3d-4f44-9437-3e7f721739cf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -35260,7 +37318,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35271,11 +37329,51 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
+		(property "Philips_PN" "4822 130 30613"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "a02f6201-15f1-49e4-a7e8-b18795157962")
+			(uuid "85c7d1ad-96be-46d3-98f8-4bcbd3e31a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "BAW62"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "699c0976-f3e5-4ec1-ad46-4b4a48d45cc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e482e6b7-2f3f-460b-bf14-5d160e54b9fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d5007f3-3c1a-4cf4-8b4a-6ea4d43dd464")
 			(effects
 				(font
 					(size 1 1)
@@ -35525,7 +37623,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35536,7 +37634,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Indicator lamp (incandescent), same outline and pin positions as Device:LED; PM2528 N2 uses 5 V 21 mA lamps"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35547,11 +37645,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
+		(property "Philips_PN" "5322 134 44225"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f95f073a-1f24-4756-8414-2b6ab88e178f")
+			(uuid "f450662a-b16c-41d3-b397-c00d54e04d7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "LED 5V 21mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22352863-7c2d-40ca-b6c0-0eded7e81142")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cff41359-449a-461f-a5a2-3addb7a133dc")
 			(effects
 				(font
 					(size 1 1)
@@ -35768,7 +37893,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35779,11 +37904,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
+		(property "Philips_PN" "4822 122 30103"
 			(at 0 0 90)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c30c04b3-764c-4a0f-845d-1eff80f5e335")
+			(uuid "8449b7db-01ca-479d-b99d-ad20dff51311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Philips_Value" "22nF 63V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9f1eafe-5498-4bcd-ad40-05a934b8aff2")
 			(effects
 				(font
 					(size 1 1)

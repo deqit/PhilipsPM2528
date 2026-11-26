@@ -5883,6 +5883,15 @@
 				)
 			)
 			(symbol "27C16_1_1"
+				(text "EPROM"
+					(at 2.54 -3.81 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 				(rectangle
 					(start -7.62 22.86)
 					(end 7.62 -20.32)
@@ -5892,15 +5901,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "EPROM"
-					(at 2.54 -3.81 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
 					)
 				)
 				(pin input line
@@ -6425,6 +6425,15 @@
 				)
 			)
 			(symbol "8035_1_1"
+				(text "µP"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+							(bold yes)
+						)
+					)
+				)
 				(rectangle
 					(start -13.97 -34.29)
 					(end 13.97 34.29)
@@ -6434,15 +6443,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "µP"
-					(at 0 -2.54 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-							(bold yes)
-						)
 					)
 				)
 				(pin input line
@@ -7518,15 +7518,13 @@
 				)
 			)
 			(symbol "HEF40098B_1_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 5.08 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 				(polyline
@@ -7553,13 +7551,15 @@
 						(type none)
 					)
 				)
-				(text "1"
-					(at -0.889 5.08 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -7656,15 +7656,13 @@
 				)
 			)
 			(symbol "HEF40098B_2_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 				(polyline
@@ -7691,13 +7689,15 @@
 						(type none)
 					)
 				)
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -7828,17 +7828,17 @@
 				)
 			)
 			(symbol "HEF4013B_1_0"
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin input line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "1Q"
+					(name "1SD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7846,17 +7846,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "~{1Q}"
+					(name "1D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7900,17 +7900,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 2.54 0)
+				(pin output line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "1D"
+					(name "1Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7918,17 +7918,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "1SD"
+					(name "~{1Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7987,24 +7987,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "2CD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input clock
 					(at -10.16 -2.54 0)
 					(length 2.54)
@@ -8023,17 +8005,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "~{2Q}"
+					(name "2CD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8052,6 +8034,24 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{2Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8201,16 +8201,16 @@
 			)
 			(symbol "HEF40175B_1_0"
 				(pin input line
-					(at -10.16 -12.7 0)
+					(at -10.16 10.16 0)
 					(length 2.54)
-					(name "~{MR}"
+					(name "D0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8255,24 +8255,6 @@
 					)
 				)
 				(pin input line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "D1"
@@ -8283,24 +8265,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "~{O1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8326,17 +8290,35 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -10.16 -10.16 0)
+				(pin output line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "CP"
+					(name "~{O1}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0.0 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8345,7 +8327,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0 180)
+					(at 10.16 0.0 180)
 					(length 2.54)
 					(name "O2"
 						(effects
@@ -8381,24 +8363,6 @@
 					)
 				)
 				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "D3"
@@ -8409,6 +8373,24 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8434,17 +8416,35 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -5.08 180)
+				(pin input clock
+					(at -10.16 -10.16 0)
 					(length 2.54)
-					(name "O3"
+					(name "CP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "~{MR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8646,6 +8646,15 @@
 				)
 			)
 			(symbol "HEF4081B_1_1"
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -8657,35 +8666,8 @@
 						(type background)
 					)
 				)
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 			)
 			(symbol "HEF4081B_2_0"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -8722,8 +8704,35 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "HEF4081B_2_1"
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -8733,15 +8742,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
 					)
 				)
 			)
@@ -8802,6 +8802,15 @@
 				)
 			)
 			(symbol "HEF4081B_3_1"
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -8813,35 +8822,8 @@
 						(type background)
 					)
 				)
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 			)
 			(symbol "HEF4081B_4_0"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -8878,8 +8860,35 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "HEF4081B_4_1"
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -8889,15 +8898,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
 					)
 				)
 			)
@@ -9029,24 +9029,6 @@
 			)
 			(symbol "HEF4528B_1_0"
 				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "C_{TCA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "RC_{TCA}"
@@ -9064,17 +9046,35 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -7.62 0)
+				(pin passive line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "~{CDA}"
+					(name "C_{TCA}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input edge_clock_high
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{I0A}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9100,17 +9100,17 @@
 						)
 					)
 				)
-				(pin input edge_clock_high
-					(at -10.16 0 0)
+				(pin input line
+					(at -10.16 -7.62 0)
 					(length 2.54)
-					(name "~{I0A}"
+					(name "~{CDA}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9156,17 +9156,6 @@
 				)
 			)
 			(symbol "HEF4528B_1_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
 						(xy 1.524 7.112) (xy 2.413 7.112) (xy 2.413 8.636) (xy 3.683 8.636) (xy 3.683 7.112) (xy 4.572 7.112)
@@ -9179,19 +9168,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 			)
 			(symbol "HEF4528B_2_0"
-				(pin output line
-					(at 10.16 0 180)
+				(pin passive line
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "~{OB}"
+					(name "RC_{TCB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9199,17 +9199,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 5.08 180)
+				(pin passive line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "OB"
+					(name "C_{TCB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9271,17 +9271,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 7.62 0)
+				(pin output line
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "RC_{TCB}"
+					(name "OB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9289,17 +9289,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "C_{TCB}"
+					(name "~{OB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9309,17 +9309,6 @@
 				)
 			)
 			(symbol "HEF4528B_2_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
 						(xy 1.524 7.112) (xy 2.413 7.112) (xy 2.413 8.636) (xy 3.683 8.636) (xy 3.683 7.112) (xy 4.572 7.112)
@@ -9330,6 +9319,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -9458,24 +9458,6 @@
 			)
 			(symbol "HEF4556B_1_0"
 				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{EA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "A0A"
@@ -9504,6 +9486,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{EA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9548,7 +9548,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0 180)
+					(at 10.16 0.0 180)
 					(length 2.54)
 					(name "~{O2A}"
 						(effects
@@ -9607,71 +9607,17 @@
 				)
 			)
 			(symbol "HEF4556B_2_0"
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "~{O3B}"
+					(name "A0B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~{O2B}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "~{O1B}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "~{O0B}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9698,24 +9644,6 @@
 					)
 				)
 				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "A0B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "~{EB}"
@@ -9726,6 +9654,78 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "~{O0B}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~{O1B}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0.0 180)
+					(length 2.54)
+					(name "~{O2B}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{O3B}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)

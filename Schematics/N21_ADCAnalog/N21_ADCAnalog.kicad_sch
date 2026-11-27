@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N21 (ADC Analog)")
-		(date "2026-11-13")
+		(date "2026-11-27")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -2838,6 +2838,17 @@
 				)
 			)
 			(symbol "HEF4066B_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -2874,37 +2885,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_2_0"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "Y1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -2916,6 +2898,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2943,6 +2943,17 @@
 				)
 			)
 			(symbol "HEF4066B_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -2979,19 +2990,26 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_3_0"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -3028,26 +3046,19 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4066B_3_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -3084,37 +3095,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_4_0"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "Y3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3126,6 +3108,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3153,6 +3153,17 @@
 				)
 			)
 			(symbol "HEF4066B_4_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -3187,17 +3198,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -3325,6 +3325,60 @@
 				)
 			)
 			(symbol "HEF4104B_1_0"
+				(pin power_in line
+					(at 5.08 20.32 270)
+					(length 2.54)
+					(name "VDDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "~{O0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "O0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -10.16 10.16 0)
 					(length 2.54)
@@ -3354,96 +3408,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "I2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "I3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "EO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "O0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "~{O0}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3487,17 +3451,17 @@
 						)
 					)
 				)
-				(pin tri_state line
-					(at 10.16 0.0 180)
+				(pin power_in line
+					(at 0 -15.24 90)
 					(length 2.54)
-					(name "O2"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3516,6 +3480,60 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3559,6 +3577,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "EO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -5.08 20.32 270)
 					(length 2.54)
@@ -3577,44 +3613,19 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 20.32 270)
-					(length 2.54)
-					(name "VDDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4104B_1_1"
+				(rectangle
+					(start -7.62 17.78)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.524 10.922) (xy 3.556 10.922) (xy 2.54 9.398) (xy 1.524 10.922)
@@ -3625,17 +3636,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 17.78)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -3872,13 +3872,17 @@
 			(embedded_fonts no)
 		)
 		(symbol "PM2528:OM528"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at -5.588 -17.526 0)
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3887,8 +3891,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "OM528"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3898,7 +3902,7 @@
 				)
 			)
 			(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-				(at 14.478 1.778 90)
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3919,7 +3923,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Philips OM528 thick-film resistor network (R2119 on N21), service manual 9.2.3. R1 11-4 15k377 0.05%, R2 12-4 15k400 2%, R3 12-3 29k539 0.1%, R4 13-3 2k538 0.1%, R5 13-2 2k600 0.5%, R6 14-2 1k300 1%, R7 14-1 650E 2%, R8 11-5 21E5 2%, R9 8-7 1k 0.2%, R10 9-7 11k800 2%, R11 10-6 11k800 2%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3931,298 +3935,93 @@
 				)
 			)
 			(symbol "OM528_0_1"
-				(polyline
-					(pts
-						(xy -6.35 5.08) (xy -4.064 5.08) (xy -4.064 4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -15.24) (xy -4.318 -15.24) (xy -4.318 -14.732)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 15.24) (xy -6.35 15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 15.24) (xy -1.27 15.24) (xy 1.778 -7.62) (xy 1.778 -8.128)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 14.732) (xy -4.318 15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 8.128) (xy -4.318 7.62) (xy -5.842 7.62) (xy -5.842 10.16) (xy -6.35 10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 -5.08) (xy -6.35 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 -8.128) (xy -4.318 -7.62) (xy -5.842 -7.62) (xy -5.842 -10.16) (xy -6.35 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 -2.032) (xy -4.064 -2.54) (xy -5.842 -2.54) (xy -5.842 0) (xy -6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -8.128) (xy -0.762 -7.62) (xy -4.064 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 4.572) (xy -0.508 4.826) (xy -3.81 7.62) (xy -4.318 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 8.128) (xy 3.81 5.08) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -15.24) (xy -0.762 -15.24) (xy -0.762 -14.732)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -5.08) (xy 6.35 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 14.732) (xy 4.318 15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 5.08) (xy 4.318 4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -5.842) (xy 4.318 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -12.446) (xy 4.318 -12.954) (xy 5.842 -12.954) (xy 5.842 -10.16) (xy 6.35 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 -2.54) (xy -0.508 -2.54) (xy -0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 15.24) (xy 1.27 15.24) (xy 1.27 14.732)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 10.16) (xy 5.842 10.16) (xy 5.842 7.62) (xy 4.318 7.62) (xy 4.318 8.128)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 5.842 0) (xy 5.842 -2.54) (xy 4.318 -2.54) (xy 4.318 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -15.24) (xy 1.778 -15.24) (xy 1.778 -14.732)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "OM528_1_1"
 				(rectangle
-					(start -6.35 16.002)
-					(end 6.35 -16.002)
+					(start -6.35 16.51)
+					(end 6.35 -16.51)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(rectangle
-					(start -4.318 -6.096)
-					(end 2.286 -4.064)
+				(polyline
+					(pts
+						(xy -6.35 15.24) (xy -1.0583 15.24) (xy -1.0583 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 10.16) (xy -2.1167 10.16) (xy -2.1167 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 5.08) (xy -4.2333 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -3.175 0) (xy -3.175 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -5.08) (xy -0.5292 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -10.16) (xy -4.2333 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -15.24) (xy -4.2333 -15.24)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4232,8 +4031,8 @@
 					)
 				)
 				(rectangle
-					(start -3.302 8.128)
-					(end -5.334 14.732)
+					(start -4.7413 14.605)
+					(end -3.7253 10.795)
 					(stroke
 						(width 0)
 						(type default)
@@ -4243,8 +4042,8 @@
 					)
 				)
 				(rectangle
-					(start -3.302 -14.732)
-					(end -5.334 -8.128)
+					(start -4.7413 4.445)
+					(end -3.7253 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -4254,8 +4053,149 @@
 					)
 				)
 				(rectangle
-					(start -3.048 -2.032)
-					(end -5.08 4.572)
+					(start -4.7413 -10.795)
+					(end -3.7253 -14.605)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.2333 15.24)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.2333 15.24) (xy -4.2333 14.605)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.2333 10.795) (xy -4.2333 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.2333 10.16)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.2333 5.08) (xy -4.2333 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.2333 0.635) (xy -4.2333 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.2333 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.2333 -10.16) (xy -4.2333 -10.795)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.2333 -14.605) (xy -4.2333 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -7.62) (xy -0.5292 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.1167 2.54) (xy -0.5292 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.0583 -12.7) (xy -0.5292 -12.7)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4265,8 +4205,8 @@
 					)
 				)
 				(rectangle
-					(start 0.254 -14.732)
-					(end -1.778 -8.128)
+					(start -0.5292 3.048)
+					(end 2.6458 2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -4276,8 +4216,8 @@
 					)
 				)
 				(rectangle
-					(start 0.508 -2.032)
-					(end -1.524 4.572)
+					(start -0.5292 -4.572)
+					(end 2.6458 -5.588)
 					(stroke
 						(width 0)
 						(type default)
@@ -4287,8 +4227,8 @@
 					)
 				)
 				(rectangle
-					(start 2.286 8.128)
-					(end 0.254 14.732)
+					(start -0.5292 -7.112)
+					(end 2.6458 -8.128)
 					(stroke
 						(width 0)
 						(type default)
@@ -4298,8 +4238,8 @@
 					)
 				)
 				(rectangle
-					(start 2.794 -14.732)
-					(end 0.762 -8.128)
+					(start -0.5292 -12.192)
+					(end 2.6458 -13.208)
 					(stroke
 						(width 0)
 						(type default)
@@ -4309,8 +4249,126 @@
 					)
 				)
 				(rectangle
-					(start 3.302 -5.842)
-					(end 5.334 -12.446)
+					(start 1.6087 12.065)
+					(end 2.6247 8.255)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.1167 15.24) (xy 2.1167 12.065)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.1167 8.255) (xy 2.1167 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.6458 2.54) (xy 3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.6458 -5.08) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.6458 -7.62) (xy 3.175 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.6458 -12.7) (xy 3.175 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 2.54) (xy 3.175 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -7.62) (xy 3.175 -15.24) (xy 6.35 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 -12.7)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.7253 14.605)
+					(end 4.7413 10.795)
 					(stroke
 						(width 0)
 						(type default)
@@ -4320,8 +4378,8 @@
 					)
 				)
 				(rectangle
-					(start 5.334 8.128)
-					(end 3.302 14.732)
+					(start 3.7253 4.445)
+					(end 4.7413 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -4331,8 +4389,172 @@
 					)
 				)
 				(rectangle
-					(start 5.334 -2.032)
-					(end 3.302 4.572)
+					(start 3.7253 -5.715)
+					(end 4.7413 -9.525)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.2333 15.24) (xy 4.2333 14.605)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.2333 15.24)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.2333 10.795) (xy 4.2333 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.2333 5.08) (xy 4.2333 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.2333 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.2333 0.635) (xy 4.2333 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.2333 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.2333 -5.08) (xy 4.2333 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.2333 -5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.2333 -9.525) (xy 4.2333 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 15.24) (xy 2.1167 15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 10.16) (xy 4.2333 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 5.08) (xy 2.1167 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -10.16) (xy 4.2333 -10.16)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4342,93 +4564,183 @@
 					)
 				)
 				(text "29k539"
-					(at -4.318 11.43 900)
+					(at -5.4333 12.7 900)
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "11k800"
-					(at -4.318 -11.43 900)
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 					)
 				)
 				(text "21R5"
-					(at -4.064 1.27 900)
+					(at -5.4333 2.54 900)
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "1k\n"
-					(at -1.016 -5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "15k377"
-					(at -0.762 -11.43 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "2k538"
-					(at -0.508 1.27 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "1k300"
-					(at 1.27 11.43 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "15k400"
-					(at 1.778 -11.43 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "650"
-					(at 4.318 11.43 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "2k600"
-					(at 4.318 1.27 900)
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 					)
 				)
 				(text "11k800"
-					(at 4.318 -9.144 900)
+					(at -5.4333 -12.7 900)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 					)
 				)
+				(text "R3"
+					(at -4.2333 12.7 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R8"
+					(at -4.2333 2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R11"
+					(at -4.2333 -12.7 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "2k538"
+					(at 0.5583 1.27 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(text "1k"
+					(at 0.5583 -6.35 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(text "15k377"
+					(at 0.5583 -8.89 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(text "15k400"
+					(at 0.5583 -13.97 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(text "1k300"
+					(at 0.9167 10.16 900)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(text "R4"
+					(at 1.0583 2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R9"
+					(at 1.0583 -5.08 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R1"
+					(at 1.0583 -7.62 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R2"
+					(at 1.0583 -12.7 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R6"
+					(at 2.1167 10.16 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R7"
+					(at 4.2333 12.7 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R5"
+					(at 4.2333 2.54 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "R10"
+					(at 4.2333 -7.62 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "650"
+					(at 5.4333 12.7 900)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(text "2k600"
+					(at 5.4333 2.54 900)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(text "11k800"
+					(at 5.4333 -7.62 900)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(symbol "OM528_1_1"
 				(pin passive line
 					(at 8.89 10.16 180)
 					(length 2.54)
@@ -6195,7 +6507,7 @@
 		(uuid "15262f79-66b9-4def-8102-03d38c6ff883")
 	)
 	(rectangle
-		(start 276.86 175.26)
+		(start 281.94 175.26)
 		(end 400.05 243.84)
 		(stroke
 			(width 0)
@@ -6256,7 +6568,7 @@
 	)
 	(rectangle
 		(start 121.92 19.05)
-		(end 153.67 67.31)
+		(end 153.67 76.2)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -6267,7 +6579,7 @@
 		(uuid "8d5d2c3c-1b1c-4678-801e-a8d97999cca9")
 	)
 	(rectangle
-		(start 309.88 19.05)
+		(start 302.26 19.05)
 		(end 351.79 100.33)
 		(stroke
 			(width 0)
@@ -6279,8 +6591,8 @@
 		(uuid "a35372a0-e51e-450e-b792-ca4c76eb9d5f")
 	)
 	(rectangle
-		(start 353.06 121.92)
-		(end 400.05 171.45)
+		(start 45.72 200.66)
+		(end 92.71 250.19)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -6292,7 +6604,7 @@
 	)
 	(text "Supply zero"
 		(exclude_from_sim no)
-		(at 291.084 198.628 0)
+		(at 289.052 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6342,7 +6654,7 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 291.592 177.292 0)
+		(at 284.734 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6352,7 +6664,7 @@
 	)
 	(text "Comparator"
 		(exclude_from_sim no)
-		(at 315.468 17.018 0)
+		(at 308.61 17.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6414,7 +6726,7 @@
 	)
 	(text "Measuring zero"
 		(exclude_from_sim no)
-		(at 291.084 230.378 0)
+		(at 290.6849 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6464,7 +6776,7 @@
 	)
 	(text "Level shifter"
 		(exclude_from_sim no)
-		(at 359.156 120.904 0)
+		(at 51.816 199.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6787,7 +7099,7 @@
 		(uuid "b5691854-8235-4663-afd0-ecc60662406f")
 	)
 	(junction
-		(at 284.48 55.88)
+		(at 287.02 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b73ec57c-f3e1-4d97-8482-eb3d15e6a738")
@@ -6915,15 +7227,15 @@
 		(uuid "425e71c4-c145-4665-bbee-f701ceb6c712")
 	)
 	(no_connect
-		(at 389.89 152.4)
+		(at 82.55 231.14)
 		(uuid "450923b4-78fa-4171-8fa7-021de2e62f82")
 	)
 	(no_connect
-		(at 389.89 147.32)
+		(at 82.55 226.06)
 		(uuid "4ff5558a-e7c4-4c4d-9a2a-47a8bf70ecc9")
 	)
 	(no_connect
-		(at 389.89 157.48)
+		(at 82.55 236.22)
 		(uuid "61f510f0-0c04-4808-b2d5-1c21b2b5ebd9")
 	)
 	(no_connect
@@ -6947,7 +7259,7 @@
 		(uuid "b14d1f8e-bc62-4061-a05b-9b5ef37794d9")
 	)
 	(no_connect
-		(at 389.89 142.24)
+		(at 82.55 220.98)
 		(uuid "e174925b-653e-41f0-beb3-7a9228715094")
 	)
 	(no_connect
@@ -6956,7 +7268,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 160.02) (xy 369.57 160.02)
+			(xy 60.96 238.76) (xy 62.23 238.76)
 		)
 		(stroke
 			(width 0)
@@ -7236,7 +7548,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 55.88) (xy 322.58 55.88)
+			(xy 312.42 55.88) (xy 322.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7246,7 +7558,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 139.7) (xy 369.57 139.7)
+			(xy 57.15 218.44) (xy 62.23 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7456,7 +7768,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 149.86) (xy 369.57 149.86)
+			(xy 57.15 228.6) (xy 62.23 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7466,7 +7778,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 128.27) (xy 384.81 129.54)
+			(xy 77.47 207.01) (xy 77.47 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7503,16 +7815,6 @@
 			(type default)
 		)
 		(uuid "31a03b6b-1649-4d52-9f3b-28adaf591a51")
-	)
-	(wire
-		(pts
-			(xy 284.48 55.88) (xy 285.75 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31f8ed69-b621-4c1e-abfe-9b0260fc5d87")
 	)
 	(wire
 		(pts
@@ -7796,7 +8098,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 165.1) (xy 379.73 166.37)
+			(xy 72.39 243.84) (xy 72.39 245.11)
 		)
 		(stroke
 			(width 0)
@@ -8146,7 +8448,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 128.27) (xy 374.65 128.27)
+			(xy 66.04 207.01) (xy 67.31 207.01)
 		)
 		(stroke
 			(width 0)
@@ -8316,7 +8618,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 154.94) (xy 389.89 154.94)
+			(xy 88.9 233.68) (xy 82.55 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8526,7 +8828,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 128.27) (xy 374.65 129.54)
+			(xy 67.31 207.01) (xy 67.31 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8536,7 +8838,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 144.78) (xy 369.57 144.78)
+			(xy 57.15 223.52) (xy 62.23 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8666,7 +8968,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 144.78) (xy 389.89 144.78)
+			(xy 88.9 223.52) (xy 82.55 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8966,7 +9268,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 149.86) (xy 389.89 149.86)
+			(xy 88.9 228.6) (xy 82.55 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9116,7 +9418,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 139.7) (xy 389.89 139.7)
+			(xy 88.9 218.44) (xy 82.55 218.44)
 		)
 		(stroke
 			(width 0)
@@ -9546,7 +9848,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 154.94) (xy 369.57 154.94)
+			(xy 57.15 233.68) (xy 62.23 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9626,7 +9928,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 55.88) (xy 278.13 55.88)
+			(xy 278.13 55.88) (xy 304.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9785,7 +10087,7 @@
 		(uuid "3f1df6b0-e977-4ab4-b016-52251141cc4c")
 	)
 	(label "xDN+"
-		(at 396.24 154.94 180)
+		(at 88.9 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9795,7 +10097,7 @@
 		(uuid "4be43b4b-2114-4778-bf93-c6acb62e2fb3")
 	)
 	(label "DN+"
-		(at 364.49 154.94 0)
+		(at 57.15 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9805,7 +10107,7 @@
 		(uuid "52932474-26ae-41d5-a570-2a9b72015b0a")
 	)
 	(label "xAZ"
-		(at 396.24 144.78 180)
+		(at 88.9 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9825,7 +10127,7 @@
 		(uuid "60e13d83-764c-4189-91a9-efb0b787b95f")
 	)
 	(label "AZ"
-		(at 364.49 144.78 0)
+		(at 57.15 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9845,7 +10147,7 @@
 		(uuid "91df62ee-f15b-4c75-9ec9-4874d7447de4")
 	)
 	(label "UP"
-		(at 364.49 149.86 0)
+		(at 57.15 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9855,7 +10157,7 @@
 		(uuid "a01cd58f-0cb6-4d6c-a8a0-e2bbe1ff5c93")
 	)
 	(label "xUP"
-		(at 396.24 149.86 180)
+		(at 88.9 228.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9885,7 +10187,7 @@
 		(uuid "bf8cdbed-a3f2-41e2-9a22-643394903385")
 	)
 	(label "xDN-"
-		(at 396.24 139.7 180)
+		(at 88.9 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9895,7 +10197,7 @@
 		(uuid "c7a58011-1699-4fef-ac38-cffa4b781c4a")
 	)
 	(label "DN-"
-		(at 364.49 139.7 0)
+		(at 57.15 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10325,6 +10627,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 93.98 29.21 0)
 			(hide yes)
@@ -10337,17 +10650,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 93.98 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11384,7 +11686,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:LGND3")
-		(at 373.38 128.27 270)
+		(at 66.04 207.01 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11395,7 +11697,7 @@
 		(dnp no)
 		(uuid "0d8ee10e-a10d-4aef-ab03-8d725715e785")
 		(property "Reference" "#PWR041"
-			(at 367.03 128.27 0)
+			(at 59.69 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11406,7 +11708,7 @@
 			)
 		)
 		(property "Value" "LGND3"
-			(at 367.284 128.27 90)
+			(at 59.944 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11416,7 +11718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 128.27 0)
+			(at 66.04 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11427,7 +11729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 128.27 0)
+			(at 66.04 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11438,7 +11740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-			(at 373.38 128.27 0)
+			(at 66.04 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11871,7 +12173,7 @@
 		(dnp no)
 		(uuid "1dc5b874-efdd-471d-bec1-5f438a8c6805")
 		(property "Reference" "D2101"
-			(at 332.994 200.406 0)
+			(at 332.994 208.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11915,6 +12217,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 336.55 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 336.55 200.66 0)
 			(hide yes)
@@ -11927,17 +12240,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 336.55 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 336.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12060,6 +12362,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 93.98 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 93.98 78.74 0)
 			(hide yes)
@@ -12072,17 +12385,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 93.98 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 93.98 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13003,7 +13305,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 289.56 55.88 90)
+		(at 308.61 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13013,7 +13315,7 @@
 		(dnp no)
 		(uuid "3fe9e212-4923-4db7-a4e1-9deed5f2fe72")
 		(property "Reference" "R2112"
-			(at 289.56 53.594 90)
+			(at 308.61 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13023,7 +13325,7 @@
 			)
 		)
 		(property "Value" "442"
-			(at 289.56 55.88 90)
+			(at 308.61 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13033,7 +13335,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 289.56 57.658 90)
+			(at 308.61 57.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13044,7 +13346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 55.88 0)
+			(at 308.61 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13055,7 +13357,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 289.56 55.88 0)
+			(at 308.61 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13066,7 +13368,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 116 50592"
-			(at 289.56 55.88 0)
+			(at 308.61 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13077,7 +13379,7 @@
 			)
 		)
 		(property "Philips_Value" "442E 1% 0.4W"
-			(at 289.56 55.88 0)
+			(at 308.61 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16008,7 +16310,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 379.73 166.37 0)
+		(at 72.39 245.11 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16019,7 +16321,7 @@
 		(dnp no)
 		(uuid "7d04ff22-af9f-4c77-9d12-4b1e92833f44")
 		(property "Reference" "#PWR029"
-			(at 379.73 162.56 0)
+			(at 72.39 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16030,7 +16332,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 379.73 169.926 0)
+			(at 72.39 248.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16040,7 +16342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 166.37 0)
+			(at 72.39 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16051,7 +16353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 166.37 0)
+			(at 72.39 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16062,7 +16364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 379.73 166.37 0)
+			(at 72.39 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16891,7 +17193,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:LGND3")
-		(at 368.3 160.02 270)
+		(at 60.96 238.76 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16902,7 +17204,7 @@
 		(dnp no)
 		(uuid "9e9cd85b-e786-4bdc-8a9e-2882e48749cc")
 		(property "Reference" "#PWR039"
-			(at 361.95 160.02 0)
+			(at 54.61 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16913,7 +17215,7 @@
 			)
 		)
 		(property "Value" "LGND3"
-			(at 361.696 160.02 90)
+			(at 54.356 238.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16923,7 +17225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 160.02 0)
+			(at 60.96 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16934,7 +17236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 160.02 0)
+			(at 60.96 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16945,7 +17247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-			(at 368.3 160.02 0)
+			(at 60.96 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18195,7 +18497,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4104B")
-		(at 379.73 149.86 0)
+		(at 72.39 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18205,7 +18507,7 @@
 		(dnp no)
 		(uuid "b41546d5-eff9-4bc7-a4ac-333b57fe9c38")
 		(property "Reference" "D2102"
-			(at 375.92 130.81 0)
+			(at 68.58 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18216,7 +18518,7 @@
 			)
 		)
 		(property "Value" "HEF4104B"
-			(at 381 164.084 0)
+			(at 73.66 242.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18227,7 +18529,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 379.73 149.86 0)
+			(at 72.39 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18238,29 +18540,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4104B.PDF"
-			(at 379.73 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_PN" "5322 209 14443"
-			(at 379.73 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_Value" "HEF4104BP"
-			(at 379.73 149.86 0)
+			(at 72.39 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18271,7 +18551,29 @@
 			)
 		)
 		(property "Description" "Quadruple low to high voltage translator with 3-state outputs; inputs on VDDI, outputs O0-O3 and complements on VDDO, common VSS; EO HIGH enables the outputs"
-			(at 379.73 149.86 0)
+			(at 72.39 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14443"
+			(at 72.39 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "HEF4104BP"
+			(at 72.39 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18584,6 +18886,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 93.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 93.98 62.23 0)
 			(hide yes)
@@ -18596,17 +18909,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 93.98 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 93.98 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -19039,7 +19341,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 284.48 55.88 0)
+		(at 287.02 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19049,7 +19351,7 @@
 		(dnp no)
 		(uuid "c255cd19-6eb3-4a7d-9407-35151355a117")
 		(property "Reference" "TP2107"
-			(at 281.178 48.514 0)
+			(at 283.718 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19060,7 +19362,7 @@
 			)
 		)
 		(property "Value" "Slope Amp"
-			(at 280.416 50.546 0)
+			(at 282.956 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19071,7 +19373,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork"
-			(at 289.56 55.88 0)
+			(at 292.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19082,7 +19384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 55.88 0)
+			(at 292.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19093,7 +19395,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 284.48 55.88 0)
+			(at 287.02 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19370,6 +19672,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 93.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 93.98 45.72 0)
 			(hide yes)
@@ -19382,17 +19695,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 93.98 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 93.98 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -20160,7 +20462,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 384.81 128.27 0)
+		(at 77.47 207.01 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20171,7 +20473,7 @@
 		(dnp no)
 		(uuid "da48b89d-3cd5-4d6f-b454-8b8bcb2c5eb0")
 		(property "Reference" "#PWR040"
-			(at 384.81 132.08 0)
+			(at 77.47 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20182,7 +20484,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 384.81 124.714 0)
+			(at 77.47 203.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20192,7 +20494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 384.81 128.27 0)
+			(at 77.47 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20203,7 +20505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 128.27 0)
+			(at 77.47 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20214,7 +20516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 384.81 128.27 0)
+			(at 77.47 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20774,7 +21076,7 @@
 		(dnp no)
 		(uuid "e253272e-7512-4434-9288-2ce08128e9fb")
 		(property "Reference" "R2119"
-			(at 88.138 126.238 0)
+			(at 88.138 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20784,7 +21086,7 @@
 			)
 		)
 		(property "Value" "OM528"
-			(at 91.44 161.036 0)
+			(at 88.138 161.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20794,7 +21096,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 105.918 141.732 90)
+			(at 91.44 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20815,7 +21117,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Philips OM528 thick-film resistor network (R2119 on N21), service manual 9.2.3. R1 11-4 15k377 0.05%, R2 12-4 15k400 2%, R3 12-3 29k539 0.1%, R4 13-3 2k538 0.1%, R5 13-2 2k600 0.5%, R6 14-2 1k300 1%, R7 14-1 650E 2%, R8 11-5 21E5 2%, R9 8-7 1k 0.2%, R10 9-7 11k800 2%, R11 10-6 11k800 2%"
 			(at 91.44 143.51 0)
 			(hide yes)
 			(show_name no)

@@ -14,8 +14,8 @@ flowchart LR
     DEC -- "select A0/A1" --> OPTO
     OPTO --> DLEN["Decoder D3007<br/>DLEN1-3"]
     OPTO --> OUT(["DA0, CLOCK<br/>(outguard)"])
-    DLEN --> OUT2(["DLEN1 → N31<br/>DLEN2, DLEN3 → N32"])
-    DA1(["DA1 (from N32)"]) --> B3005["Optocoupler B3005"] --> BUF["Bus buffer D3005"] --> CPU
+    DLEN --> OUT2(["DLEN1 → N31<br/>DLEN2, DLEN3 → N32 or N34"])
+    DA1(["DA1 (from N32 or N34)"]) --> B3005["Optocoupler B3005"] --> BUF["Bus buffer D3005"] --> CPU
 ```
 
 ## How it works
@@ -29,8 +29,8 @@ The CPU sees N30 as two I/O addresses:
 | Value written to 0x10 | Selects |
 | - | - |
 | 0x00 | DLEN1 (N31 analog output) |
-| 0x80 | DLEN2 (N32: board to CPU) |
-| 0x40 | DLEN3 (N32: CPU to board) |
+| 0x80 | DLEN2 (N32: board to CPU; N34: low digits) |
+| 0x40 | DLEN3 (N32: CPU to board; N34: high digits and codes) |
 | 0xC0 | none |
 
 ### A serial transfer

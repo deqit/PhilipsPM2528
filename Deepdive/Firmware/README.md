@@ -15,7 +15,7 @@ The hardware itself is described on the [Motherboard (N1)](/Deepdive/N1/README.m
 | External memory (`MOVX`) | I/O devices only, see [I/O addresses](Memory.md#io-addresses-movx) |
 | I/O expanders | 3 × 8243 on the motherboard, 2 × 8243 on the display unit |
 | Interrupt | External interrupt only; the timer interrupt is not used |
-| Options | Detected at start-up: N26 (Vhf), N27 (Vpeak), IEC bus interface |
+| Options | Detected at start-up: N26 (Vhf), N27 (Vpeak), IEC bus interface. The BCD output (N34) isn't detected: it gets the reading whenever no IEC board was found |
 
 ## Program memory
 | Address | EPROM | Part | Ghidra name |
@@ -30,8 +30,9 @@ Some fixed addresses:
 | Address | What |
 | - | - |
 | 0x000 | Reset: jumps to the boot code |
-| 0x003 | External interrupt: keys, IEC bus, external start and watchdog |
+| 0x003 | External interrupt: keys, IEC bus, external start (BNC or BCD START DVM) and watchdog |
 | 0x084 | Watchdog recovery: the interrupt handler rewrites its own return address and restarts the main loop at 0x0986 |
+| 0x729 | Function-code table for the BCD output (N34), 12 bytes |
 
 ## Pages
 - [Memory](Memory.md): internal RAM and the I/O addresses

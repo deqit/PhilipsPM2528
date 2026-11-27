@@ -5,7 +5,7 @@ Firmware › [Overview](README.md) · [Memory](Memory.md) · **Ports**
 ### Port 1: ADC control
 | Bit | Name | Dir | Meaning |
 | - | - | :-: | - |
-| 7 | /INT0 | I | 0 = interrupt from the external start or IEC bus (1 = keys or watchdog) |
+| 7 | /INT0 | I | 0 = interrupt from the external start, the IEC bus or BCD START DVM (1 = keys or watchdog) |
 | 6 | ENI | O | Pulsed to clear the external interrupt latch |
 | 5 | WDOG | O | Watchdog trigger, pulsed every 10 ms |
 | 4 | POL | I | Polarity of the conversion |
@@ -111,7 +111,7 @@ All interrupts arrive on the single external interrupt input. The handler (0x003
 
 | Source | How the handler recognises it |
 | - | - |
-| External start (rear BNC) or IEC bus | P1.7 (/INT0) low. It then reads 10 bits from the IEC board via DLEN2 to find out which |
+| External start (rear BNC), IEC bus or BCD START DVM | P1.7 (/INT0) low. It then pulses DLEN2 and reads 10 bits of DA1 to find out which: all 0 = start (T1/T2), all 1 = start in T2 only (BNC), mixed = IEC board event |
 | Key press | P1.7 high; the keyboard is scanned |
 | Watchdog | Status port 0x20 bit 5 low; the firmware restarts the main loop (0x084) |
 

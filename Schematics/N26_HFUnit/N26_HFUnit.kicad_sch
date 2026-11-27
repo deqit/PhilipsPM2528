@@ -10,404 +10,6 @@
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "Transistor_BJT:BC547"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC547"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "NPN bipolar junction transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BC547_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BC547_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -846,6 +448,194 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3012,6 +2802,216 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC547"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC547"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN bipolar junction transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC547_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BC547_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6688,6 +6688,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31414"
 			(at 180.34 157.48 0)
 			(hide yes)
@@ -6700,17 +6711,6 @@
 			)
 		)
 		(property "Philips_Value" "10nF 100V"
-			(at 180.34 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 180.34 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6964,6 +6964,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 383.54 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 383.54 36.83 0)
 			(hide yes)
@@ -6976,17 +6987,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 383.54 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 383.54 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7078,6 +7078,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 238.76 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55459"
 			(at 238.76 175.26 0)
 			(hide yes)
@@ -7090,17 +7101,6 @@
 			)
 		)
 		(property "Philips_Value" "15K4 1% MR25"
-			(at 238.76 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 238.76 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7187,6 +7187,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 388.62 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 130 34605"
 			(at 388.62 36.83 0)
 			(hide yes)
@@ -7199,17 +7210,6 @@
 			)
 		)
 		(property "Philips_Value" "BAX12A"
-			(at 388.62 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 388.62 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7486,6 +7486,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30114"
 			(at 204.47 175.26 0)
 			(hide yes)
@@ -7498,17 +7509,6 @@
 			)
 		)
 		(property "Philips_Value" "2.2nF 100V"
-			(at 204.47 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 204.47 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7764,6 +7764,17 @@
 				)
 			)
 		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 327.66 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 40959"
 			(at 327.66 162.56 0)
 			(hide yes)
@@ -7776,17 +7787,6 @@
 			)
 		)
 		(property "Philips_Value" "BC547B"
-			(at 327.66 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN bipolar junction transistor"
 			(at 327.66 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8042,6 +8042,17 @@
 				)
 			)
 		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 347.98 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30191"
 			(at 347.98 110.49 0)
 			(hide yes)
@@ -8054,17 +8065,6 @@
 			)
 		)
 		(property "Philips_Value" "OA95"
-			(at 347.98 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
 			(at 347.98 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8258,6 +8258,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31414"
 			(at 110.49 60.96 0)
 			(hide yes)
@@ -8270,17 +8281,6 @@
 			)
 		)
 		(property "Philips_Value" "10nF 100V"
-			(at 110.49 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 110.49 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8368,6 +8368,17 @@
 				)
 			)
 		)
+		(property "Description" "Inductor"
+			(at 137.16 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 158 10278"
 			(at 137.16 157.48 0)
 			(hide yes)
@@ -8380,17 +8391,6 @@
 			)
 		)
 		(property "Philips_Value" "coil 1mH"
-			(at 137.16 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
 			(at 137.16 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8476,6 +8476,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 266.7 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 116 51281"
 			(at 266.7 152.4 0)
 			(hide yes)
@@ -8488,17 +8499,6 @@
 			)
 		)
 		(property "Philips_Value" "5K62 1% MR25"
-			(at 266.7 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 266.7 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8585,6 +8585,17 @@
 				)
 			)
 		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 210.82 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 40959"
 			(at 210.82 163.83 0)
 			(hide yes)
@@ -8597,17 +8608,6 @@
 			)
 		)
 		(property "Philips_Value" "BC547B"
-			(at 210.82 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN bipolar junction transistor"
 			(at 210.82 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8780,6 +8780,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 232.41 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54492"
 			(at 232.41 175.26 0)
 			(hide yes)
@@ -8792,17 +8803,6 @@
 			)
 		)
 		(property "Philips_Value" "178E 1% MR25"
-			(at 232.41 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 232.41 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -8889,6 +8889,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 345.44 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 345.44 36.83 0)
 			(hide yes)
@@ -8901,17 +8912,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 345.44 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 345.44 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9297,7 +9297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e103b52-061c-453c-8a5e-7ae0271cc98c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR39"
 			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9425,6 +9425,17 @@
 				)
 			)
 		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 226.06 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 40959"
 			(at 226.06 163.83 0)
 			(hide yes)
@@ -9437,17 +9448,6 @@
 			)
 		)
 		(property "Philips_Value" "BC547B"
-			(at 226.06 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN bipolar junction transistor"
 			(at 226.06 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9619,6 +9619,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 223.52 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50572"
 			(at 223.52 152.4 0)
 			(hide yes)
@@ -9631,17 +9642,6 @@
 			)
 		)
 		(property "Philips_Value" "12K1 1% MR25"
-			(at 223.52 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9727,6 +9727,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 110.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 116 51253"
 			(at 110.49 39.37 0)
 			(hide yes)
@@ -9739,17 +9750,6 @@
 			)
 		)
 		(property "Philips_Value" "10K 1% MR25"
-			(at 110.49 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 110.49 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9793,7 +9793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "411b3dde-b20c-44c2-8fad-fa62be9fca8f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 330.2 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9920,6 +9920,17 @@
 				)
 			)
 		)
+		(property "Description" "Polarized capacitor"
+			(at 368.3 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 124 20698"
 			(at 368.3 223.52 0)
 			(hide yes)
@@ -9932,17 +9943,6 @@
 			)
 		)
 		(property "Philips_Value" "22uF 25V"
-			(at 368.3 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
 			(at 368.3 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -10114,6 +10114,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 160.02 180.34 0)
 			(hide yes)
@@ -10126,17 +10137,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 160.02 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10222,6 +10222,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 356.87 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50675"
 			(at 356.87 104.14 0)
 			(hide yes)
@@ -10234,17 +10245,6 @@
 			)
 		)
 		(property "Philips_Value" "2K26 1% MR25"
-			(at 356.87 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 356.87 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10330,6 +10330,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 168.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54469"
 			(at 168.91 72.39 0)
 			(hide yes)
@@ -10342,17 +10353,6 @@
 			)
 		)
 		(property "Philips_Value" "100E 1% MR25"
-			(at 168.91 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 168.91 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10481,7 +10481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c6de5a8-b01b-42b8-9c04-68ac8e5fea87")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 280.67 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10607,6 +10607,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 144.78 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54589"
 			(at 144.78 186.69 0)
 			(hide yes)
@@ -10619,17 +10630,6 @@
 			)
 		)
 		(property "Philips_Value" "3K83 1% MR25"
-			(at 144.78 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 144.78 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10717,6 +10717,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 309.88 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31414"
 			(at 309.88 157.48 0)
 			(hide yes)
@@ -10729,17 +10740,6 @@
 			)
 		)
 		(property "Philips_Value" "10nF 100V"
-			(at 309.88 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 309.88 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10950,7 +10950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58f8b84a-1a77-4b91-88e3-49cea7c70388")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 238.76 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11076,6 +11076,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 285.75 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 116 51253"
 			(at 285.75 152.4 0)
 			(hide yes)
@@ -11088,17 +11099,6 @@
 			)
 		)
 		(property "Philips_Value" "10K 1% MR25"
-			(at 285.75 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 285.75 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11184,6 +11184,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 154.94 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 116 51259"
 			(at 154.94 168.91 0)
 			(hide yes)
@@ -11196,17 +11207,6 @@
 			)
 		)
 		(property "Philips_Value" "33K2 1% MR25"
-			(at 154.94 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 154.94 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -11250,7 +11250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d732106-9536-4e3e-8131-f5493fe2399a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 218.44 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11460,6 +11460,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 218.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55459"
 			(at 218.44 175.26 0)
 			(hide yes)
@@ -11472,17 +11483,6 @@
 			)
 		)
 		(property "Philips_Value" "15K4 1% MR25"
-			(at 218.44 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 218.44 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11568,6 +11568,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 280.67 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55459"
 			(at 280.67 175.26 0)
 			(hide yes)
@@ -11580,17 +11591,6 @@
 			)
 		)
 		(property "Philips_Value" "15K4 1% MR25"
-			(at 280.67 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 280.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11677,6 +11677,17 @@
 				)
 			)
 		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 273.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 40959"
 			(at 273.05 163.83 0)
 			(hide yes)
@@ -11689,17 +11700,6 @@
 			)
 		)
 		(property "Philips_Value" "BC547B"
-			(at 273.05 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN bipolar junction transistor"
 			(at 273.05 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11872,6 +11872,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 321.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55459"
 			(at 321.31 175.26 0)
 			(hide yes)
@@ -11884,17 +11895,6 @@
 			)
 		)
 		(property "Philips_Value" "15K4 1% MR25"
-			(at 321.31 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 321.31 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -12397,6 +12397,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 154.94 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54455"
 			(at 154.94 186.69 0)
 			(hide yes)
@@ -12409,17 +12420,6 @@
 			)
 		)
 		(property "Philips_Value" "68E1 1% MR25"
-			(at 154.94 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 154.94 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12507,6 +12507,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 93.98 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 93.98 39.37 0)
 			(hide yes)
@@ -12519,17 +12530,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 93.98 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 93.98 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12621,6 +12621,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 173.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54188"
 			(at 173.99 67.31 0)
 			(hide yes)
@@ -12633,17 +12644,6 @@
 			)
 		)
 		(property "Philips_Value" "1M 1% MR30"
-			(at 173.99 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 173.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12813,6 +12813,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 339.09 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50506"
 			(at 339.09 168.91 0)
 			(hide yes)
@@ -12825,17 +12836,6 @@
 			)
 		)
 		(property "Philips_Value" "154E 1% MR25"
-			(at 339.09 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 339.09 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -13089,6 +13089,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 336.55 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 336.55 36.83 0)
 			(hide yes)
@@ -13101,17 +13112,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 336.55 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 336.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -13288,6 +13288,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 162.56 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 110 72214"
 			(at 162.56 67.31 0)
 			(hide yes)
@@ -13300,17 +13311,6 @@
 			)
 		)
 		(property "Philips_Value" "10M 5% VR25"
-			(at 162.56 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 162.56 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13480,6 +13480,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 127 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50559"
 			(at 127 179.07 0)
 			(hide yes)
@@ -13492,17 +13503,6 @@
 			)
 		)
 		(property "Philips_Value" "27K4 1% MR25"
-			(at 127 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 127 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13673,6 +13673,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30128"
 			(at 142.24 162.56 0)
 			(hide yes)
@@ -13685,17 +13696,6 @@
 			)
 		)
 		(property "Philips_Value" "4.7nF 100V"
-			(at 142.24 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 142.24 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13783,6 +13783,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 266.7 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30114"
 			(at 266.7 175.26 0)
 			(hide yes)
@@ -13795,17 +13806,6 @@
 			)
 		)
 		(property "Philips_Value" "2.2nF 100V"
-			(at 266.7 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 266.7 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13892,6 +13892,17 @@
 				)
 			)
 		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 137.16 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 40959"
 			(at 137.16 173.99 0)
 			(hide yes)
@@ -13904,17 +13915,6 @@
 			)
 		)
 		(property "Philips_Value" "BC547B"
-			(at 137.16 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN bipolar junction transistor"
 			(at 137.16 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -14003,6 +14003,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 330.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50506"
 			(at 330.2 152.4 0)
 			(hide yes)
@@ -14015,17 +14026,6 @@
 			)
 		)
 		(property "Philips_Value" "154E 1% MR25"
-			(at 330.2 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 330.2 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14113,6 +14113,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 121 54253"
 			(at 182.88 104.14 0)
 			(hide yes)
@@ -14125,17 +14136,6 @@
 			)
 		)
 		(property "Philips_Value" "(no value)"
-			(at 182.88 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 182.88 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14306,6 +14306,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 377.19 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 377.19 223.52 0)
 			(hide yes)
@@ -14318,17 +14329,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 377.19 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 377.19 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -14415,6 +14415,17 @@
 				)
 			)
 		)
+		(property "Description" "Polarized capacitor"
+			(at 368.3 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 124 20698"
 			(at 368.3 213.36 0)
 			(hide yes)
@@ -14427,17 +14438,6 @@
 			)
 		)
 		(property "Philips_Value" "22uF 25V"
-			(at 368.3 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
 			(at 368.3 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -14524,6 +14524,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30128"
 			(at 142.24 152.4 0)
 			(hide yes)
@@ -14536,17 +14547,6 @@
 			)
 		)
 		(property "Philips_Value" "4.7nF 100V"
-			(at 142.24 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 142.24 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14632,6 +14632,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 146.05 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54188"
 			(at 146.05 57.15 0)
 			(hide yes)
@@ -14644,17 +14655,6 @@
 			)
 		)
 		(property "Philips_Value" "1M 1% MR30"
-			(at 146.05 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15078,6 +15078,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 386.08 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 386.08 64.77 0)
 			(hide yes)
@@ -15090,17 +15101,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 386.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 386.08 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15279,6 +15279,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 375.92 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 375.92 162.56 0)
 			(hide yes)
@@ -15291,17 +15302,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 375.92 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 375.92 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -15393,6 +15393,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 127 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54558"
 			(at 127 168.91 0)
 			(hide yes)
@@ -15405,17 +15416,6 @@
 			)
 		)
 		(property "Philips_Value" "8K25 1% MR25"
-			(at 127 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 127 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15501,6 +15501,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 189.23 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50484"
 			(at 189.23 157.48 0)
 			(hide yes)
@@ -15513,17 +15524,6 @@
 			)
 		)
 		(property "Philips_Value" "4K64 1% MR25"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15651,7 +15651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c488a294-1a03-4d20-ac7b-ec1fede8d573")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 300.99 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -15779,6 +15779,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 386.08 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 386.08 213.36 0)
 			(hide yes)
@@ -15791,17 +15802,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 386.08 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 386.08 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -16056,6 +16056,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 300.99 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55459"
 			(at 300.99 175.26 0)
 			(hide yes)
@@ -16068,17 +16079,6 @@
 			)
 		)
 		(property "Philips_Value" "15K4 1% MR25"
-			(at 300.99 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 300.99 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16302,6 +16302,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 312.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 130 34605"
 			(at 312.42 36.83 0)
 			(hide yes)
@@ -16314,17 +16325,6 @@
 			)
 		)
 		(property "Philips_Value" "BAX12A"
-			(at 312.42 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 312.42 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -16641,7 +16641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbaec10a-0e22-45d5-99e6-46220e941656")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 344.17 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -16768,6 +16768,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 306.07 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 306.07 36.83 0)
 			(hide yes)
@@ -16780,17 +16791,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 306.07 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 306.07 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -16884,6 +16884,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 358.14 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 121 54181"
 			(at 358.14 168.91 0)
 			(hide yes)
@@ -16896,17 +16907,6 @@
 			)
 		)
 		(property "Philips_Value" "21.5nF 1% 63V"
-			(at 358.14 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 358.14 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -16992,6 +16992,17 @@
 				)
 			)
 		)
+		(property "Description" "Potentiometer"
+			(at 146.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 101 14293"
 			(at 146.05 67.31 0)
 			(hide yes)
@@ -17004,17 +17015,6 @@
 			)
 		)
 		(property "Philips_Value" "47K 20% 0.5W"
-			(at 146.05 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
 			(at 146.05 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -17136,6 +17136,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 204.47 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 116 51281"
 			(at 204.47 152.4 0)
 			(hide yes)
@@ -17148,17 +17159,6 @@
 			)
 		)
 		(property "Philips_Value" "5K62 1% MR25"
-			(at 204.47 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 204.47 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17330,6 +17330,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 146.05 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54188"
 			(at 146.05 76.2 0)
 			(hide yes)
@@ -17342,17 +17353,6 @@
 			)
 		)
 		(property "Philips_Value" "1M 1% MR30"
-			(at 146.05 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 146.05 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17439,6 +17439,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 137.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 137.16 62.23 0)
 			(hide yes)
@@ -17451,17 +17462,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 137.16 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 137.16 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17553,6 +17553,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 93.98 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55448"
 			(at 93.98 69.85 0)
 			(hide yes)
@@ -17565,17 +17576,6 @@
 			)
 		)
 		(property "Philips_Value" "4K02 1% MR25"
-			(at 93.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 93.98 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -17662,6 +17662,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 377.19 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 377.19 213.36 0)
 			(hide yes)
@@ -17674,17 +17685,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 377.19 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 377.19 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -17770,6 +17770,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 294.64 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54492"
 			(at 294.64 175.26 0)
 			(hide yes)
@@ -17782,17 +17793,6 @@
 			)
 		)
 		(property "Philips_Value" "178E 1% MR25"
-			(at 294.64 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 294.64 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -17962,6 +17962,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 374.65 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 374.65 36.83 0)
 			(hide yes)
@@ -17974,17 +17985,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 374.65 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 374.65 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -18161,6 +18161,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 93.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 280 80459"
 			(at 93.98 59.69 0)
 			(hide yes)
@@ -18173,17 +18184,6 @@
 			)
 		)
 		(property "Philips_Value" "reed relay assy"
-			(at 93.98 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 93.98 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18359,6 +18359,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 330.2 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50675"
 			(at 330.2 175.26 0)
 			(hide yes)
@@ -18371,17 +18382,6 @@
 			)
 		)
 		(property "Philips_Value" "2K26 1% MR25"
-			(at 330.2 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 330.2 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18469,6 +18469,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31414"
 			(at 248.92 157.48 0)
 			(hide yes)
@@ -18481,17 +18492,6 @@
 			)
 		)
 		(property "Philips_Value" "10nF 100V"
-			(at 248.92 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 248.92 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -18579,6 +18579,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31414"
 			(at 110.49 71.12 0)
 			(hide yes)
@@ -18591,17 +18602,6 @@
 			)
 		)
 		(property "Philips_Value" "10nF 100V"
-			(at 110.49 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18689,6 +18689,17 @@
 				)
 			)
 		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 288.29 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 40959"
 			(at 288.29 163.83 0)
 			(hide yes)
@@ -18701,17 +18712,6 @@
 			)
 		)
 		(property "Philips_Value" "BC547B"
-			(at 288.29 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN bipolar junction transistor"
 			(at 288.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -18799,6 +18799,17 @@
 				)
 			)
 		)
+		(property "Description" "Potentiometer"
+			(at 182.88 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 101 14293"
 			(at 182.88 67.31 0)
 			(hide yes)
@@ -18811,17 +18822,6 @@
 			)
 		)
 		(property "Philips_Value" "47K 20% 0.5W"
-			(at 182.88 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
 			(at 182.88 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18944,6 +18944,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 351.79 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 130 34605"
 			(at 351.79 36.83 0)
 			(hide yes)
@@ -18956,17 +18967,6 @@
 			)
 		)
 		(property "Philips_Value" "BAX12A"
-			(at 351.79 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 351.79 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19025,5 +19025,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

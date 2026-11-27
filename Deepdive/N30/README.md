@@ -1,10 +1,10 @@
 # Galvanic Separation (Expansionboard N30)
 N30 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md)
 
-This expansion board connects the CPU to the option boards on the "outguard" side: the IEC (GPIB) interface N32 and the analog output N31. The measuring circuit floats with the input terminals, so these connections have to be isolated. N30 does that with optocouplers.
+This expansion board connects the CPU to the option boards on the "outguard" side: the IEC (GPIB) interface N32 or the BCD output N34, and the analog output N31. The measuring circuit floats with the input terminals, so these connections have to be isolated. N30 does that with optocouplers.
 
 ## Functions
-- Turning CPU bus writes and reads into a serial interface (DATA, CLOCK)
+- Turning CPU bus writes and reads into a serial interface (DA0, CLOCK)
 - Selecting one of three serial devices (DLEN1, DLEN2, DLEN3)
 - Isolating all lines with optocouplers (CNX35)
 - Reading back the serial data from the option boards (DA1)
@@ -24,12 +24,15 @@ flowchart LR
     subgraph OG["Outguard (isolated)"]
         N31["N31<br/>Analog Output"]
         N32["N32<br/>IEC Interface"]
+        N34["N34<br/>BCD Output"]
     end
     CPU -. "D6, D7, A3, A4, /WR, READ" .-> GS
     GS -. "D6, D7" .-> CPU
     GS -. "DA0, CLOCK, DLEN1" .-> N31
     GS -. "DA0, CLOCK, DLEN2, DLEN3" .-> N32
     N32 -. "DA1" .-> GS
+    GS -. "DA0, CLOCK, DLEN2, DLEN3" .-> N34
+    N34 -. "DA1" .-> GS
     style N30 fill:#fff3a0,color:#000
 ```
 
@@ -39,11 +42,11 @@ flowchart LR
 
 | Pin | Name | I/O | Description | Connected to | Testpoint |
 | -: | - | :-: | - | - | - |
-| 1 | 🟦 **DA0** | O | Serial data to the option boards (outguard) | N31 (DATA), N32 |  |
-| 2 | 🟦 **DA1** | I | Serial data from the option boards (outguard) | N32 |  |
-| 3 | 🟦 **CLOCK** | O | Serial clock (outguard) | N31, N32 |  |
-| 4 | 🟦 **DLEN3** | O | Device select 3 (outguard) | N32 |  |
-| 5 | 🟦 **DLEN2** | O | Device select 2 (outguard) | N32 |  |
+| 1 | 🟦 **DA0** | O | Serial data to the option boards (outguard) | N31; N32 or N34 via X1901 |  |
+| 2 | 🟦 **DA1** | I | Serial data from the option boards (outguard) | N32 or N34 via X1901 |  |
+| 3 | 🟦 **CLOCK** | O | Serial clock (outguard) | N31; N32 or N34 via X1901 |  |
+| 4 | 🟦 **DLEN3** | O | Device select 3 (outguard) | N32 or N34 via X1901 |  |
+| 5 | 🟦 **DLEN2** | O | Device select 2 (outguard) | N32 or N34 via X1901 |  |
 | 6 | 🟦 **DLEN1** | O | Device select 1 (outguard) | N31 |  |
 | 7 | 🟧 **+5V outguard** |  | Outguard supply | Mainboard |  |
 | 8 | 🟧 **0V outguard** |  | Outguard zero | Mainboard |  |

@@ -5113,388 +5113,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:CNY17-1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CNY17-1"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS), DIP6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN DC Optocoupler Base Connected"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W9.53mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CNY17-1_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.508) (xy 0.635 0.508) (xy 0.254 0.381) (xy 0.254 0.635) (xy 0.635 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.508) (xy 0.635 -0.508) (xy 0.254 -0.635) (xy 0.254 -0.381) (xy 0.635 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.254) (xy 2.921 -2.286)
-					)
-					(stroke
-						(width 0.3556)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -1.143) (xy 4.064 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -1.397) (xy 4.064 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.937 -2.413) (xy 3.683 -1.905) (xy 3.429 -2.159) (xy 3.937 -2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.064 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CNY17-1_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:Jumper_2_Small_Open"
 			(pin_numbers
 				(hide yes)
@@ -5883,15 +5501,6 @@
 				)
 			)
 			(symbol "27C16_1_1"
-				(text "EPROM"
-					(at 2.54 -3.81 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -7.62 22.86)
 					(end 7.62 -20.32)
@@ -5901,6 +5510,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "EPROM"
+					(at 2.54 -3.81 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 				(pin input line
@@ -6425,15 +6043,6 @@
 				)
 			)
 			(symbol "8035_1_1"
-				(text "µP"
-					(at 0 -2.54 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -13.97 -34.29)
 					(end 13.97 34.29)
@@ -6443,6 +6052,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "µP"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+							(bold yes)
+						)
 					)
 				)
 				(pin input line
@@ -7168,6 +6786,362 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PM2528:CNY57"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "B"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CNY57A"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PhilipsPM2528:CNY57_DIP-6_W7.62mm"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Optocoupler, GaAs infrared LED and silicon NPN phototransistor with base connection, DIP-6. Pins 1 A, 2 K, 3 nc, 4 E, 5 C, 6 B (service manual 9.3.1; no CNY57 data sheet in the project). On N1 as B1801, CNY57A 5322 131 94049."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "optocoupler phototransistor base DIP-6 Philips"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CNY57_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 4.445 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CNY57_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PM2528:GNDOG"
 			(power global)
 			(pin_numbers
@@ -7518,13 +7492,15 @@
 				)
 			)
 			(symbol "HEF40098B_1_1"
-				(text "1"
-					(at -0.889 5.08 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -7551,15 +7527,13 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 5.08 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -7656,13 +7630,15 @@
 				)
 			)
 			(symbol "HEF40098B_2_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -7689,15 +7665,13 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -7828,17 +7802,17 @@
 				)
 			)
 			(symbol "HEF4013B_1_0"
-				(pin input line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "1SD"
+					(name "1Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7846,17 +7820,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 2.54 0)
+				(pin output line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "1D"
+					(name "~{1Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7900,17 +7874,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "1Q"
+					(name "1D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7918,17 +7892,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "~{1Q}"
+					(name "1SD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7987,24 +7961,6 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "2CP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
@@ -8023,17 +7979,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin input clock
+					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "2Q"
+					(name "2CP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8052,6 +8008,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "2Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8201,16 +8175,16 @@
 			)
 			(symbol "HEF40175B_1_0"
 				(pin input line
-					(at -10.16 10.16 0)
+					(at -10.16 -12.7 0)
 					(length 2.54)
-					(name "D0"
+					(name "~{MR}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8255,6 +8229,24 @@
 					)
 				)
 				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "D1"
@@ -8265,24 +8257,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8308,17 +8282,35 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 0.0 0)
+				(pin output line
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "D2"
+					(name "O1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "CP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8327,7 +8319,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0.0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "O2"
 						(effects
@@ -8363,6 +8355,24 @@
 					)
 				)
 				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "D3"
@@ -8373,24 +8383,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "O3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8416,35 +8408,17 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -10.16 -10.16 0)
+				(pin output line
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "CP"
+					(name "O3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -12.7 0)
-					(length 2.54)
-					(name "~{MR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8646,15 +8620,6 @@
 				)
 			)
 			(symbol "HEF4081B_1_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -8666,8 +8631,35 @@
 						(type background)
 					)
 				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(symbol "HEF4081B_2_0"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -8704,35 +8696,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4081B_2_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -8742,6 +8707,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -8802,15 +8776,6 @@
 				)
 			)
 			(symbol "HEF4081B_3_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -8822,8 +8787,35 @@
 						(type background)
 					)
 				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(symbol "HEF4081B_4_0"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -8860,35 +8852,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4081B_4_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -8898,6 +8863,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -9029,24 +9003,6 @@
 			)
 			(symbol "HEF4528B_1_0"
 				(pin passive line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "RC_{TCA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "C_{TCA}"
@@ -9064,17 +9020,35 @@
 						)
 					)
 				)
-				(pin input edge_clock_high
-					(at -10.16 0 0)
+				(pin passive line
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "~{I0A}"
+					(name "RC_{TCA}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "~{CDA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9100,17 +9074,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -7.62 0)
+				(pin input edge_clock_high
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "~{CDA}"
+					(name "~{I0A}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9156,6 +9130,17 @@
 				)
 			)
 			(symbol "HEF4528B_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.524 7.112) (xy 2.413 7.112) (xy 2.413 8.636) (xy 3.683 8.636) (xy 3.683 7.112) (xy 4.572 7.112)
@@ -9168,30 +9153,19 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4528B_2_0"
-				(pin passive line
-					(at -10.16 7.62 0)
+				(pin output line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "RC_{TCB}"
+					(name "~{OB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9199,17 +9173,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "C_{TCB}"
+					(name "OB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9271,17 +9245,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 5.08 180)
+				(pin passive line
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "OB"
+					(name "RC_{TCB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9289,17 +9263,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
+				(pin passive line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "~{OB}"
+					(name "C_{TCB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9309,6 +9283,17 @@
 				)
 			)
 			(symbol "HEF4528B_2_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.524 7.112) (xy 2.413 7.112) (xy 2.413 8.636) (xy 3.683 8.636) (xy 3.683 7.112) (xy 4.572 7.112)
@@ -9319,17 +9304,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -9458,6 +9432,24 @@
 			)
 			(symbol "HEF4556B_1_0"
 				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{EA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "A0A"
@@ -9486,24 +9478,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{EA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9548,7 +9522,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0.0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "~{O2A}"
 						(effects
@@ -9607,53 +9581,17 @@
 				)
 			)
 			(symbol "HEF4556B_2_0"
-				(pin input line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "A0B"
+					(name "~{O3B}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{EB}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9662,16 +9600,16 @@
 					)
 				)
 				(pin output line
-					(at 10.16 5.08 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "~{O0B}"
+					(name "~{O2B}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9698,16 +9636,16 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0.0 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "~{O2B}"
+					(name "~{O0B}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9715,17 +9653,53 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "~{O3B}"
+					(name "A1B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "A0B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{EB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11487,7 +11461,7 @@
 	)
 	(rectangle
 		(start 71.12 151.13)
-		(end 148.59 200.66)
+		(end 148.59 226.06)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -11510,8 +11484,8 @@
 		(uuid "11162264-a12e-4828-a137-70e43acde940")
 	)
 	(rectangle
-		(start 83.82 346.71)
-		(end 212.09 398.78)
+		(start 341.63 353.06)
+		(end 469.9 405.13)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -11696,7 +11670,7 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 83.82 344.932 0)
+		(at 341.63 351.282 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11727,6 +11701,16 @@
 		)
 		(uuid "a587cf33-a97f-45de-b6f3-14f9f3afe3d1")
 	)
+	(text "X1901.7"
+		(exclude_from_sim no)
+		(at 111.506 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5f9f776-31ea-4f1c-88a1-37772157b732")
+	)
 	(text "Interrupt controller"
 		(exclude_from_sim no)
 		(at 184.658 115.57 0)
@@ -11748,17 +11732,6 @@
 			(justify left)
 		)
 		(uuid "c19a455e-87aa-41ae-94a0-25a8ef52a5b0")
-	)
-	(text "B1801 (EXT START or N30 STDO)\n~{INT0} low on P1.7 and ~{INT} via D1817;\n~{INTX} (N2 keys)\nENI (P1.6) clears it."
-		(exclude_from_sim no)
-		(at 185.166 222.504 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ce1405f3-a510-4c42-ba19-f04137e84721")
 	)
 	(text "ADC TEST"
 		(exclude_from_sim no)
@@ -11837,7 +11810,7 @@
 		(uuid "fb7986ea-1881-4d41-8eb7-b0955c30e85d")
 	)
 	(junction
-		(at 196.85 360.68)
+		(at 454.66 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01b3429a-72b5-4a96-8657-56ddcae981c3")
@@ -11855,7 +11828,7 @@
 		(uuid "030998b6-1cc1-4e43-b745-17f2ee8b3958")
 	)
 	(junction
-		(at 135.89 388.62)
+		(at 393.7 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05cb5578-5a3f-42ce-a6af-40335e54f8f3")
@@ -11867,19 +11840,19 @@
 		(uuid "0890bc13-37b2-4a6f-87ab-57fe3051e2de")
 	)
 	(junction
-		(at 123.19 360.68)
+		(at 381 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bff1160-0d54-4fe1-a9c7-2c359eeb4583")
 	)
 	(junction
-		(at 135.89 360.68)
+		(at 393.7 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ce354e2-eba4-4195-99d1-a0a6350cd38e")
 	)
 	(junction
-		(at 102.87 388.62)
+		(at 360.68 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d0c6678-6e4b-4cf5-ae5f-e029b38a25a3")
@@ -11921,7 +11894,7 @@
 		(uuid "1f086079-4998-4851-8227-27aa0941bbd5")
 	)
 	(junction
-		(at 196.85 388.62)
+		(at 454.66 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "209c6f8e-a51d-427a-adc0-5886c8c92286")
@@ -11933,7 +11906,7 @@
 		(uuid "2150ef95-767a-4ffd-8b9e-8b9fb3437409")
 	)
 	(junction
-		(at 190.5 388.62)
+		(at 448.31 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2525dc53-962b-4e11-9147-7ab2cc0243ec")
@@ -11951,7 +11924,7 @@
 		(uuid "2a3560f5-3847-42b7-985c-5bd0e581e4a4")
 	)
 	(junction
-		(at 113.03 360.68)
+		(at 370.84 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34dfcecc-3651-449f-8102-311c1f974b02")
@@ -11969,7 +11942,7 @@
 		(uuid "385798f7-c5a6-46eb-b987-4729272f2736")
 	)
 	(junction
-		(at 168.91 360.68)
+		(at 426.72 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "412404d4-8d0a-44e6-aa68-132d96754f88")
@@ -11987,12 +11960,6 @@
 		(uuid "469a02bf-f035-46d6-b5fa-e7a016b83e3c")
 	)
 	(junction
-		(at 143.51 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4894e05e-5ba4-446a-bba7-16a815f728a1")
-	)
-	(junction
 		(at 373.38 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12005,7 +11972,7 @@
 		(uuid "566c8e28-af0a-4c2f-acf9-4e7e6bd29460")
 	)
 	(junction
-		(at 176.53 388.62)
+		(at 434.34 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "574e3b33-4c2d-4942-9722-b5d0c7cf5c70")
@@ -12095,7 +12062,7 @@
 		(uuid "88da393b-eb12-4eaf-a185-d24c249d6340")
 	)
 	(junction
-		(at 184.15 388.62)
+		(at 441.96 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92920a60-de41-4769-b018-8115824c1997")
@@ -12107,19 +12074,19 @@
 		(uuid "9402330a-0b46-47b5-aba1-21114b7a90d4")
 	)
 	(junction
-		(at 113.03 388.62)
+		(at 370.84 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "957c6e61-1288-4085-9baa-b64061191af1")
 	)
 	(junction
-		(at 168.91 388.62)
+		(at 426.72 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95e69387-9174-45f1-84d8-d246bb5af951")
 	)
 	(junction
-		(at 148.59 388.62)
+		(at 406.4 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a980877-cea8-4767-9d81-6c47cac12dd9")
@@ -12137,7 +12104,7 @@
 		(uuid "a1bf0dc7-69b3-46d9-ba54-35c2af360667")
 	)
 	(junction
-		(at 161.29 388.62)
+		(at 419.1 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a217395b-08a3-45af-a534-b3575c2f6a87")
@@ -12191,13 +12158,19 @@
 		(uuid "bb66c1cb-1772-4d0e-98e9-e15e2498446d")
 	)
 	(junction
+		(at 120.65 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0d91e98-1eb7-46c7-b9d3-c5c6c52dc273")
+	)
+	(junction
 		(at 426.72 328.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c197d00e-0c88-4094-a856-300d5f6cb1d9")
 	)
 	(junction
-		(at 148.59 360.68)
+		(at 406.4 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2f8937b-5c9f-4754-825a-df2ba2e30700")
@@ -12215,10 +12188,16 @@
 		(uuid "c9c1df57-e496-4116-a8e3-a0172de265e5")
 	)
 	(junction
-		(at 123.19 388.62)
+		(at 381 394.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caba8e37-c290-4a14-aa58-c7fcc13ecb99")
+	)
+	(junction
+		(at 143.51 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb39245d-d11c-47ec-bfca-69e3151e4f4b")
 	)
 	(junction
 		(at 259.08 172.72)
@@ -12227,7 +12206,7 @@
 		(uuid "d17e3513-8414-4c36-9ce5-6f02c34ab7a5")
 	)
 	(junction
-		(at 161.29 360.68)
+		(at 419.1 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6ce6390-a232-42fe-a419-fef9fa15f8f0")
@@ -12239,7 +12218,7 @@
 		(uuid "dab84154-91c8-495b-93ac-f53100fa5aaf")
 	)
 	(junction
-		(at 176.53 360.68)
+		(at 434.34 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc86fcc6-0b89-470f-b149-35dbfdcc5bc9")
@@ -12257,13 +12236,13 @@
 		(uuid "df71176f-f8a3-4eb9-a443-6652a49b3da6")
 	)
 	(junction
-		(at 190.5 360.68)
+		(at 448.31 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e58c661b-a21e-4065-ab27-5034f88a0bb9")
 	)
 	(junction
-		(at 102.87 360.68)
+		(at 360.68 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7acecf7-7eac-4dae-abb2-d25a47839d96")
@@ -12281,7 +12260,7 @@
 		(uuid "ef1c5b2b-0d72-4d85-94c4-7aac3f424f96")
 	)
 	(junction
-		(at 184.15 360.68)
+		(at 441.96 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6afaec4-ffbf-4da9-a96d-e4c503c3c887")
@@ -13475,7 +13454,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 190.5) (xy 138.43 191.77)
+			(xy 138.43 193.04) (xy 138.43 194.31)
 		)
 		(stroke
 			(width 0)
@@ -13525,7 +13504,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 185.42) (xy 120.65 185.42)
+			(xy 121.92 187.96) (xy 120.65 187.96)
 		)
 		(stroke
 			(width 0)
@@ -13535,7 +13514,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 187.96) (xy 143.51 184.15)
+			(xy 143.51 187.96) (xy 143.51 186.69)
 		)
 		(stroke
 			(width 0)
@@ -13715,7 +13694,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 190.5) (xy 121.92 190.5)
+			(xy 120.65 193.04) (xy 121.92 193.04)
 		)
 		(stroke
 			(width 0)
@@ -14165,13 +14144,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 360.68) (xy 184.15 364.49)
+			(xy 441.96 367.03) (xy 441.96 370.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2300de76-7dd5-4b13-b7cc-c23d8b419bc9")
+	)
+	(wire
+		(pts
+			(xy 120.65 175.26) (xy 120.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23014b5a-1e37-40a6-aeed-d40d29bfe3fd")
 	)
 	(wire
 		(pts
@@ -14182,16 +14171,6 @@
 			(type default)
 		)
 		(uuid "237ecf5a-e1e0-4dae-8477-0216dc2071c7")
-	)
-	(wire
-		(pts
-			(xy 137.16 187.96) (xy 143.51 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "257a3378-1df9-4cd5-b1de-e54558ff0cf4")
 	)
 	(wire
 		(pts
@@ -14245,7 +14224,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 384.81) (xy 176.53 388.62)
+			(xy 434.34 391.16) (xy 434.34 394.97)
 		)
 		(stroke
 			(width 0)
@@ -14275,7 +14254,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 361.95) (xy 148.59 360.68)
+			(xy 406.4 368.3) (xy 406.4 367.03)
 		)
 		(stroke
 			(width 0)
@@ -14315,7 +14294,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 185.42) (xy 120.65 184.15)
+			(xy 120.65 187.96) (xy 120.65 184.15)
 		)
 		(stroke
 			(width 0)
@@ -14365,7 +14344,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 181.61) (xy 104.14 182.88)
+			(xy 86.36 187.96) (xy 86.36 189.23)
 		)
 		(stroke
 			(width 0)
@@ -14465,16 +14444,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 185.42) (xy 138.43 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3883080c-00c5-4bfb-8d1a-fba35780bbfa")
-	)
-	(wire
-		(pts
 			(xy 445.77 172.72) (xy 485.14 172.72)
 		)
 		(stroke
@@ -14515,7 +14484,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 361.95) (xy 135.89 360.68)
+			(xy 393.7 368.3) (xy 393.7 367.03)
 		)
 		(stroke
 			(width 0)
@@ -14575,7 +14544,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 190.5) (xy 137.16 190.5)
+			(xy 138.43 193.04) (xy 137.16 193.04)
 		)
 		(stroke
 			(width 0)
@@ -14715,7 +14684,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 387.35) (xy 123.19 388.62)
+			(xy 381 393.7) (xy 381 394.97)
 		)
 		(stroke
 			(width 0)
@@ -14765,7 +14734,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 384.81) (xy 203.2 388.62)
+			(xy 461.01 391.16) (xy 461.01 394.97)
 		)
 		(stroke
 			(width 0)
@@ -14825,7 +14794,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 384.81) (xy 190.5 388.62)
+			(xy 448.31 391.16) (xy 448.31 394.97)
 		)
 		(stroke
 			(width 0)
@@ -14955,7 +14924,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 388.62) (xy 184.15 388.62)
+			(xy 360.68 394.97) (xy 441.96 394.97)
 		)
 		(stroke
 			(width 0)
@@ -15032,6 +15001,16 @@
 			(type default)
 		)
 		(uuid "558f4e20-1acb-4dfb-aaee-253c44446588")
+	)
+	(wire
+		(pts
+			(xy 137.16 187.96) (xy 143.51 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559a1a86-322b-4689-90c1-a1b0519f188e")
 	)
 	(wire
 		(pts
@@ -15335,16 +15314,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 175.26) (xy 138.43 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "651de1f3-e31d-4bfb-8bc2-9c44dca5daee")
-	)
-	(wire
-		(pts
 			(xy 35.56 44.45) (xy 45.72 44.45)
 		)
 		(stroke
@@ -15375,7 +15344,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 361.95) (xy 102.87 360.68)
+			(xy 360.68 368.3) (xy 360.68 367.03)
 		)
 		(stroke
 			(width 0)
@@ -15495,7 +15464,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 387.35) (xy 102.87 388.62)
+			(xy 360.68 393.7) (xy 360.68 394.97)
 		)
 		(stroke
 			(width 0)
@@ -15515,7 +15484,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 359.41) (xy 96.52 360.68)
+			(xy 354.33 365.76) (xy 354.33 367.03)
 		)
 		(stroke
 			(width 0)
@@ -15615,7 +15584,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 384.81) (xy 161.29 388.62)
+			(xy 419.1 391.16) (xy 419.1 394.97)
 		)
 		(stroke
 			(width 0)
@@ -15715,7 +15684,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 388.62) (xy 184.15 388.62)
+			(xy 448.31 394.97) (xy 441.96 394.97)
 		)
 		(stroke
 			(width 0)
@@ -15815,7 +15784,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 388.62) (xy 96.52 388.62)
+			(xy 360.68 394.97) (xy 354.33 394.97)
 		)
 		(stroke
 			(width 0)
@@ -15845,7 +15814,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 175.26) (xy 143.51 176.53)
+			(xy 143.51 177.8) (xy 143.51 179.07)
 		)
 		(stroke
 			(width 0)
@@ -15915,23 +15884,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 388.62) (xy 190.5 388.62)
+			(xy 454.66 394.97) (xy 448.31 394.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8383c92a-1f45-4667-8fb3-890c98ec27a4")
-	)
-	(wire
-		(pts
-			(xy 138.43 175.26) (xy 138.43 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c3ffa5-b4ae-4d88-ac24-ff07027f8e0b")
 	)
 	(wire
 		(pts
@@ -15975,7 +15934,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 190.5) (xy 120.65 191.77)
+			(xy 120.65 193.04) (xy 120.65 194.31)
 		)
 		(stroke
 			(width 0)
@@ -16095,7 +16054,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 360.68) (xy 176.53 364.49)
+			(xy 434.34 367.03) (xy 434.34 370.84)
 		)
 		(stroke
 			(width 0)
@@ -16375,7 +16334,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 384.81) (xy 113.03 388.62)
+			(xy 370.84 391.16) (xy 370.84 394.97)
 		)
 		(stroke
 			(width 0)
@@ -16475,7 +16434,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 364.49) (xy 196.85 360.68)
+			(xy 454.66 370.84) (xy 454.66 367.03)
 		)
 		(stroke
 			(width 0)
@@ -16615,7 +16574,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 360.68) (xy 190.5 360.68)
+			(xy 454.66 367.03) (xy 448.31 367.03)
 		)
 		(stroke
 			(width 0)
@@ -16755,7 +16714,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 364.49) (xy 161.29 360.68)
+			(xy 419.1 370.84) (xy 419.1 367.03)
 		)
 		(stroke
 			(width 0)
@@ -17025,7 +16984,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 388.62) (xy 196.85 388.62)
+			(xy 461.01 394.97) (xy 454.66 394.97)
 		)
 		(stroke
 			(width 0)
@@ -17095,7 +17054,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 360.68) (xy 102.87 360.68)
+			(xy 354.33 367.03) (xy 360.68 367.03)
 		)
 		(stroke
 			(width 0)
@@ -17115,7 +17074,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 364.49) (xy 203.2 360.68)
+			(xy 461.01 370.84) (xy 461.01 367.03)
 		)
 		(stroke
 			(width 0)
@@ -17255,7 +17214,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 387.35) (xy 148.59 388.62)
+			(xy 406.4 393.7) (xy 406.4 394.97)
 		)
 		(stroke
 			(width 0)
@@ -17435,7 +17394,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 181.61) (xy 104.14 181.61)
+			(xy 81.28 187.96) (xy 86.36 187.96)
 		)
 		(stroke
 			(width 0)
@@ -17475,7 +17434,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 387.35) (xy 135.89 388.62)
+			(xy 393.7 393.7) (xy 393.7 394.97)
 		)
 		(stroke
 			(width 0)
@@ -17505,7 +17464,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 360.68) (xy 190.5 364.49)
+			(xy 448.31 367.03) (xy 448.31 370.84)
 		)
 		(stroke
 			(width 0)
@@ -17562,16 +17521,6 @@
 			(type default)
 		)
 		(uuid "d348151f-09a2-481d-81b4-c11fa0ebc251")
-	)
-	(wire
-		(pts
-			(xy 120.65 175.26) (xy 120.65 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a4b222-f59f-43b3-94a1-df2c6f43ae66")
 	)
 	(wire
 		(pts
@@ -17655,7 +17604,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 360.68) (xy 168.91 364.49)
+			(xy 426.72 367.03) (xy 426.72 370.84)
 		)
 		(stroke
 			(width 0)
@@ -17835,7 +17784,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 364.49) (xy 113.03 360.68)
+			(xy 370.84 370.84) (xy 370.84 367.03)
 		)
 		(stroke
 			(width 0)
@@ -17885,7 +17834,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 360.68) (xy 184.15 360.68)
+			(xy 360.68 367.03) (xy 441.96 367.03)
 		)
 		(stroke
 			(width 0)
@@ -17915,7 +17864,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 360.68) (xy 196.85 360.68)
+			(xy 461.01 367.03) (xy 454.66 367.03)
 		)
 		(stroke
 			(width 0)
@@ -18035,7 +17984,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 388.62) (xy 96.52 389.89)
+			(xy 354.33 394.97) (xy 354.33 396.24)
 		)
 		(stroke
 			(width 0)
@@ -18075,6 +18024,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 187.96) (xy 120.65 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec14baec-2071-4b11-98c9-c47ba3aa84f9")
+	)
+	(wire
+		(pts
 			(xy 35.56 105.41) (xy 45.72 105.41)
 		)
 		(stroke
@@ -18105,7 +18064,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 384.81) (xy 168.91 388.62)
+			(xy 426.72 391.16) (xy 426.72 394.97)
 		)
 		(stroke
 			(width 0)
@@ -18205,7 +18164,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 360.68) (xy 184.15 360.68)
+			(xy 448.31 367.03) (xy 441.96 367.03)
 		)
 		(stroke
 			(width 0)
@@ -18225,7 +18184,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 361.95) (xy 123.19 360.68)
+			(xy 381 368.3) (xy 381 367.03)
 		)
 		(stroke
 			(width 0)
@@ -18235,7 +18194,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 182.88) (xy 99.06 181.61)
+			(xy 81.28 189.23) (xy 81.28 187.96)
 		)
 		(stroke
 			(width 0)
@@ -18262,16 +18221,6 @@
 			(type default)
 		)
 		(uuid "f3dc0838-aa71-4836-a6e5-4b18348c9af5")
-	)
-	(wire
-		(pts
-			(xy 138.43 185.42) (xy 138.43 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f51fd406-c920-4d8c-8425-54d6f2301a17")
 	)
 	(wire
 		(pts
@@ -18375,7 +18324,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 384.81) (xy 184.15 388.62)
+			(xy 441.96 391.16) (xy 441.96 394.97)
 		)
 		(stroke
 			(width 0)
@@ -18425,7 +18374,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 384.81) (xy 196.85 388.62)
+			(xy 454.66 391.16) (xy 454.66 394.97)
 		)
 		(stroke
 			(width 0)
@@ -20206,6 +20155,17 @@
 		)
 		(uuid "269faa0d-e44d-4eb8-887a-949589500fab")
 	)
+	(hierarchical_label "STDO"
+		(shape input)
+		(at 109.22 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "312a7271-2721-4da8-9a38-7328c0987a8b")
+	)
 	(hierarchical_label "TR1.13"
 		(shape passive)
 		(at 35.56 120.65 180)
@@ -20836,11 +20796,17 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 135.89 374.65 0)
+		(at 393.7 381 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20850,7 +20816,7 @@
 		(dnp no)
 		(uuid "04673640-5b71-43b6-99b9-65f146c8889b")
 		(property "Reference" "D1812"
-			(at 129.54 382.016 90)
+			(at 387.35 388.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20861,7 +20827,7 @@
 			)
 		)
 		(property "Value" "74LS08"
-			(at 142.24 375.9199 0)
+			(at 400.05 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20873,7 +20839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 374.65 0)
+			(at 393.7 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20884,7 +20850,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 135.89 374.65 0)
+			(at 393.7 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20895,7 +20861,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 135.89 374.65 0)
+			(at 393.7 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20906,7 +20872,7 @@
 			)
 		)
 		(property "Philips_Value" "SN74LS08N"
-			(at 135.89 374.65 0)
+			(at 393.7 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20917,7 +20883,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 84995"
-			(at 135.89 374.65 0)
+			(at 393.7 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21259,7 +21225,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 137.16 175.26 90)
+		(at 130.81 204.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21269,7 +21235,7 @@
 		(dnp no)
 		(uuid "09c73ec6-fb96-4ec7-92bd-95307f2a4ff3")
 		(property "Reference" "#PWR0182"
-			(at 140.97 175.26 0)
+			(at 130.81 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21280,18 +21246,18 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 134.112 175.26 90)
+			(at 128.778 208.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 175.26 0)
+			(at 130.81 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21302,7 +21268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 175.26 0)
+			(at 130.81 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21313,7 +21279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 137.16 175.26 0)
+			(at 130.81 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21426,7 +21392,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF40098B")
-		(at 161.29 374.65 0)
+		(at 419.1 381 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21436,7 +21402,7 @@
 		(dnp no)
 		(uuid "0aa39e8f-9c65-4a92-a8ee-83d616c9bfab")
 		(property "Reference" "D1814"
-			(at 158.242 382.27 90)
+			(at 416.052 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21447,7 +21413,7 @@
 			)
 		)
 		(property "Value" "HEF40098B"
-			(at 167.64 375.9199 0)
+			(at 425.45 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21459,7 +21425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 374.65 0)
+			(at 419.1 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21470,7 +21436,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF40098B.pdf"
-			(at 161.29 374.65 0)
+			(at 419.1 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21481,7 +21447,7 @@
 			)
 		)
 		(property "Description" "Hex inverting buffer, 3-state outputs, active LOW enables (1OE: 1Y0-1Y3, 2OE: 2Y0-2Y1)"
-			(at 161.29 374.65 0)
+			(at 419.1 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21492,7 +21458,7 @@
 			)
 		)
 		(property "Philips_Value" "HEF40098BP"
-			(at 161.29 374.65 0)
+			(at 419.1 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21503,7 +21469,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 14304"
-			(at 161.29 374.65 0)
+			(at 419.1 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22118,6 +22084,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22278,6 +22250,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22355,11 +22333,17 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 180.34 180)
+		(at 143.51 182.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22369,7 +22353,7 @@
 		(dnp no)
 		(uuid "1cb7f711-e312-445f-a824-aab58f19fb1b")
 		(property "Reference" "R1802"
-			(at 141.478 183.388 90)
+			(at 141.478 185.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22380,7 +22364,7 @@
 			)
 		)
 		(property "Value" "2k49"
-			(at 143.51 182.626 90)
+			(at 143.51 185.166 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22391,7 +22375,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 145.288 180.34 90)
+			(at 145.288 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22402,7 +22386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 180.34 0)
+			(at 143.51 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22413,7 +22397,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 180.34 0)
+			(at 143.51 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22424,7 +22408,7 @@
 			)
 		)
 		(property "Philips_Value" "2K49 1% 0.4W"
-			(at 143.51 180.34 0)
+			(at 143.51 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22435,7 +22419,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 116 50581"
-			(at 143.51 180.34 0)
+			(at 143.51 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22568,6 +22552,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "C1804")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22655,7 +22645,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4528B")
-		(at 176.53 374.65 0)
+		(at 434.34 381 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22665,7 +22655,7 @@
 		(dnp no)
 		(uuid "20578a82-45d8-4d3f-a21d-ffa7dc480bed")
 		(property "Reference" "D1807"
-			(at 173.482 382.27 90)
+			(at 431.292 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22676,7 +22666,7 @@
 			)
 		)
 		(property "Value" "HEF4528B"
-			(at 180.34 375.9199 0)
+			(at 438.15 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22688,7 +22678,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 176.53 374.65 0)
+			(at 434.34 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22699,7 +22689,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4528B.PDF"
-			(at 176.53 374.65 0)
+			(at 434.34 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22710,7 +22700,7 @@
 			)
 		)
 		(property "Description" "Dual retriggerable-resettable monostable multivibrator; ~{I0} falling or I1 rising edge triggers, ~{CD} active LOW clear; Ct between CTC (to ground) and RCTC, Rt from RCTC to VDD"
-			(at 176.53 374.65 0)
+			(at 434.34 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22721,7 +22711,7 @@
 			)
 		)
 		(property "Philips_Value" "HEF4528BP"
-			(at 176.53 374.65 0)
+			(at 434.34 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22732,7 +22722,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 14191"
-			(at 176.53 374.65 0)
+			(at 434.34 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22793,6 +22783,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1807")
+					(unit 3)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1807")
 					(unit 3)
 				)
@@ -23053,7 +23049,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4013B")
-		(at 184.15 374.65 0)
+		(at 441.96 381 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23063,7 +23059,7 @@
 		(dnp no)
 		(uuid "23aa54f6-eff0-4615-b00e-d9b0c51cf6ed")
 		(property "Reference" "D1811"
-			(at 181.102 382.27 90)
+			(at 438.912 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23074,7 +23070,7 @@
 			)
 		)
 		(property "Value" "HEF4013B"
-			(at 187.96 375.9199 0)
+			(at 445.77 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23086,7 +23082,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 184.15 374.65 0)
+			(at 441.96 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23097,7 +23093,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4013B.PDF"
-			(at 184.15 374.65 0)
+			(at 441.96 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23108,7 +23104,7 @@
 			)
 		)
 		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
-			(at 184.15 374.65 0)
+			(at 441.96 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23119,7 +23115,7 @@
 			)
 		)
 		(property "Philips_Value" "HEF4013BP"
-			(at 184.15 374.65 0)
+			(at 441.96 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23130,7 +23126,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 10002"
-			(at 184.15 374.65 0)
+			(at 441.96 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23185,6 +23181,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1811")
+					(unit 3)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1811")
 					(unit 3)
 				)
@@ -23904,8 +23906,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:CNY17-1")
-		(at 129.54 187.96 0)
+		(lib_id "PM2528:CNY57")
+		(at 129.54 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23915,7 +23917,7 @@
 		(dnp no)
 		(uuid "2d7e31c5-33f9-45a3-851f-17d0c1216224")
 		(property "Reference" "B1801"
-			(at 129.286 182.626 0)
+			(at 125.73 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23924,8 +23926,8 @@
 				)
 			)
 		)
-		(property "Value" "CNX36"
-			(at 129.54 193.294 0)
+		(property "Value" "CNY57A"
+			(at 133.35 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23934,8 +23936,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 187.96 0)
+		(property "Footprint" "PhilipsPM2528:CNY57_DIP-6_W7.62mm"
+			(at 129.54 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23946,8 +23948,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
-			(at 129.54 187.96 0)
+		(property "Datasheet" ""
+			(at 129.54 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23958,8 +23960,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS), DIP6"
-			(at 129.54 187.96 0)
+		(property "Description" "Optocoupler, GaAs infrared LED and silicon NPN phototransistor with base connection, DIP-6. Pins 1 A, 2 K, 3 nc, 4 E, 5 C, 6 B (service manual 9.3.1; no CNY57 data sheet in the project). On N1 as B1801, CNY57A 5322 131 94049."
+			(at 129.54 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23967,6 +23969,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Philips_Value" "CNY57A"
+			(at 129.54 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Philips_PN" "5322 131 94049"
+			(at 129.54 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "5"
@@ -24724,7 +24750,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 120.65 191.77 0)
+		(at 120.65 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24734,7 +24760,7 @@
 		(dnp no)
 		(uuid "45d64786-f88c-4afd-a5df-d31b26e56909")
 		(property "Reference" "#PWR0180"
-			(at 120.65 198.12 0)
+			(at 120.65 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24745,7 +24771,7 @@
 			)
 		)
 		(property "Value" "Housing"
-			(at 120.904 195.58 0)
+			(at 120.904 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24755,7 +24781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 191.77 0)
+			(at 120.65 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24766,7 +24792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 191.77 0)
+			(at 120.65 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24777,7 +24803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 120.65 191.77 0)
+			(at 120.65 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24999,7 +25025,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 96.52 359.41 180)
+		(at 354.33 365.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25009,7 +25035,7 @@
 		(dnp no)
 		(uuid "4b2b1218-f7e7-4ec8-9c19-47e72b636a05")
 		(property "Reference" "#PWR0110"
-			(at 96.52 353.06 0)
+			(at 354.33 359.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25020,7 +25046,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 96.52 355.346 0)
+			(at 354.33 361.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25030,7 +25056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 359.41 0)
+			(at 354.33 365.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25041,7 +25067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 359.41 0)
+			(at 354.33 365.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25052,7 +25078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 96.52 359.41 0)
+			(at 354.33 365.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26381,7 +26407,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 138.43 191.77 180)
+		(at 138.43 194.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26389,10 +26415,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c2aa315-9e16-498a-9d69-633ecf1ac453")
 		(property "Reference" "#PWR0181"
-			(at 138.43 187.96 0)
+			(at 138.43 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26403,7 +26428,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 140.97 193.0399 0)
+			(at 136.906 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26414,7 +26439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 191.77 0)
+			(at 138.43 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26425,7 +26450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 191.77 0)
+			(at 138.43 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26436,7 +26461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 138.43 191.77 0)
+			(at 138.43 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26605,6 +26630,12 @@
 					(unit 2)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1807")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -26678,6 +26709,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "#PWR0177")
 					(unit 1)
 				)
@@ -26829,7 +26866,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS02")
-		(at 102.87 374.65 0)
+		(at 360.68 381 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26839,7 +26876,7 @@
 		(dnp no)
 		(uuid "65c875dc-cbb1-4139-bf8f-d938ffd50e16")
 		(property "Reference" "D1801"
-			(at 96.774 382.27 90)
+			(at 354.584 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26850,7 +26887,7 @@
 			)
 		)
 		(property "Value" "74LS02"
-			(at 109.22 375.9199 0)
+			(at 367.03 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26862,7 +26899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 374.65 0)
+			(at 360.68 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26873,7 +26910,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
-			(at 102.87 374.65 0)
+			(at 360.68 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26884,7 +26921,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
-			(at 102.87 374.65 0)
+			(at 360.68 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26895,7 +26932,7 @@
 			)
 		)
 		(property "Philips_Value" "N74LS02A"
-			(at 102.87 374.65 0)
+			(at 360.68 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26906,7 +26943,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 85312"
-			(at 102.87 374.65 0)
+			(at 360.68 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27131,6 +27168,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -27347,6 +27390,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1816")
+					(unit 2)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1816")
 					(unit 2)
 				)
@@ -28260,6 +28309,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1811")
+					(unit 2)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1811")
 					(unit 2)
 				)
@@ -30129,6 +30184,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "R1808")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -30503,7 +30564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 143.51 175.26 180)
+		(at 143.51 177.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30511,10 +30572,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2dacba5-dad7-4101-8661-1b1713be89ee")
 		(property "Reference" "#PWR0183"
-			(at 143.51 168.91 0)
+			(at 143.51 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30525,7 +30585,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 146.05 173.9899 0)
+			(at 141.224 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30536,7 +30596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 175.26 0)
+			(at 143.51 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30547,7 +30607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 175.26 0)
+			(at 143.51 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30558,7 +30618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 143.51 175.26 0)
+			(at 143.51 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30657,6 +30717,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "#PWR0221")
 					(unit 1)
 				)
@@ -31485,7 +31551,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 104.14 182.88 0)
+		(at 86.36 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31495,7 +31561,7 @@
 		(dnp no)
 		(uuid "aecc36ce-3582-4e3d-b7f2-f8c4ac075c2c")
 		(property "Reference" "#PWR0190"
-			(at 104.14 189.23 0)
+			(at 86.36 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31506,7 +31572,7 @@
 			)
 		)
 		(property "Value" "Housing"
-			(at 104.394 186.69 0)
+			(at 87.884 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31516,7 +31582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 182.88 0)
+			(at 86.36 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31527,7 +31593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 182.88 0)
+			(at 86.36 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31538,7 +31604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 104.14 182.88 0)
+			(at 86.36 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31641,6 +31707,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -31718,6 +31790,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -31791,6 +31869,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "#PWR0114")
 					(unit 1)
 				)
@@ -32233,6 +32317,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -32311,6 +32401,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "R1809")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "R1809")
 					(unit 1)
 				)
@@ -32454,6 +32550,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1807")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1807")
 					(unit 1)
 				)
@@ -32648,6 +32750,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "C1803")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -32795,7 +32903,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4556B")
-		(at 203.2 374.65 0)
+		(at 461.01 381 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32805,7 +32913,7 @@
 		(dnp no)
 		(uuid "c5568361-fa23-4958-8e10-792d056b4797")
 		(property "Reference" "D1803"
-			(at 200.152 378.714 90)
+			(at 457.962 385.064 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32815,7 +32923,7 @@
 			)
 		)
 		(property "Value" "HEF4556B"
-			(at 199.644 383.54 0)
+			(at 457.454 389.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32826,7 +32934,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 203.2 374.65 0)
+			(at 461.01 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32837,7 +32945,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4556B.PDF"
-			(at 203.2 374.65 0)
+			(at 461.01 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32848,7 +32956,7 @@
 			)
 		)
 		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active LOW; A0/A1 select, ~{E} active LOW enable (data input as demux)"
-			(at 203.2 374.65 0)
+			(at 461.01 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32859,7 +32967,7 @@
 			)
 		)
 		(property "Philips_Value" "HEF4556BP"
-			(at 203.2 374.65 0)
+			(at 461.01 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32870,7 +32978,7 @@
 			)
 		)
 		(property "Philips_PN" "4822 209 10004"
-			(at 203.2 374.65 0)
+			(at 461.01 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32931,6 +33039,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1803")
+					(unit 3)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1803")
 					(unit 3)
 				)
@@ -33030,13 +33144,13 @@
 			(uuid "eb7c6428-0aa9-4e36-b2e2-27a1cc923fa3")
 		)
 		(pin "16"
-			(uuid "ba3edc50-2998-483b-a003-01c560fed6d5")
+			(uuid "ba3edc50-2998-483b-a003-01c560fed6d6")
 		)
 		(pin "6"
-			(uuid "e2ead044-aa6f-4fd3-8434-ed64d7e7ef7a")
+			(uuid "e2ead044-aa6f-4fd3-8434-ed64d7e7ef7b")
 		)
 		(pin "7"
-			(uuid "e1b4018c-3466-4953-9634-ad4fe3354c06")
+			(uuid "e1b4018c-3466-4953-9634-ad4fe3354c07")
 		)
 		(pin "11"
 			(uuid "c2f63df2-651c-4855-9ce4-4055a72f4134")
@@ -33045,22 +33159,22 @@
 			(uuid "f8e481c5-2ec2-47f1-8245-923e9511c4ed")
 		)
 		(pin "1"
-			(uuid "2faaf122-bbe9-4bcc-a22a-1e114cb03016")
+			(uuid "2faaf122-bbe9-4bcc-a22a-1e114cb03017")
 		)
 		(pin "13"
 			(uuid "4c618da8-1e8d-4223-9e90-e5d2e78d8061")
 		)
 		(pin "4"
-			(uuid "82e03840-8439-4dbf-992b-02e224c9ed2b")
+			(uuid "82e03840-8439-4dbf-992b-02e224c9ed2c")
 		)
 		(pin "5"
-			(uuid "9240a8b9-59a7-4934-807c-8cb2efdcc874")
+			(uuid "9240a8b9-59a7-4934-807c-8cb2efdcc875")
 		)
 		(pin "2"
-			(uuid "515536f8-606b-4917-8b89-c154b943f3b4")
+			(uuid "515536f8-606b-4917-8b89-c154b943f3b5")
 		)
 		(pin "3"
-			(uuid "62d3ac91-6f5e-4ba9-8263-bf3b8b8343e1")
+			(uuid "62d3ac91-6f5e-4ba9-8263-bf3b8b8343e2")
 		)
 		(pin "14"
 			(uuid "c5038bfc-9ed3-41ec-83bc-a3832379391d")
@@ -33069,7 +33183,7 @@
 			(uuid "9418a9b0-0d4d-407e-9f9a-e2269545bdad")
 		)
 		(pin "8"
-			(uuid "4de5d543-e7d6-43e1-8523-e0ba624e1564")
+			(uuid "4de5d543-e7d6-43e1-8523-e0ba624e1565")
 		)
 		(instances
 			(project "N1_Motherboard"
@@ -33254,7 +33368,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4081B")
-		(at 168.91 374.65 0)
+		(at 426.72 381 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33264,7 +33378,7 @@
 		(dnp no)
 		(uuid "caa932a2-8913-40f8-8196-e5c4b5fa5129")
 		(property "Reference" "D1817"
-			(at 165.862 382.27 90)
+			(at 423.672 388.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33275,7 +33389,7 @@
 			)
 		)
 		(property "Value" "HEF4081B"
-			(at 175.26 375.9199 90)
+			(at 433.07 382.2699 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33287,7 +33401,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 168.91 374.65 0)
+			(at 426.72 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33298,7 +33412,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4081B.PDF"
-			(at 168.91 374.65 0)
+			(at 426.72 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33309,7 +33423,7 @@
 			)
 		)
 		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
-			(at 168.91 374.65 0)
+			(at 426.72 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33320,7 +33434,7 @@
 			)
 		)
 		(property "Philips_Value" "HEF4081BP"
-			(at 168.91 374.65 0)
+			(at 426.72 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33331,7 +33445,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 14054"
-			(at 168.91 374.65 0)
+			(at 426.72 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33473,11 +33587,17 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "PM2528:HEF40175B")
-		(at 196.85 374.65 0)
+		(at 454.66 381 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33487,7 +33607,7 @@
 		(dnp no)
 		(uuid "d18d4069-a61c-4371-9b8f-1dd0b8858bd2")
 		(property "Reference" "D1805"
-			(at 193.802 382.524 90)
+			(at 451.612 388.874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33498,7 +33618,7 @@
 			)
 		)
 		(property "Value" "HEF40175B"
-			(at 200.66 375.9199 0)
+			(at 458.47 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33510,7 +33630,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 196.85 374.65 0)
+			(at 454.66 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33521,7 +33641,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF40175B.PDF"
-			(at 196.85 374.65 0)
+			(at 454.66 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33532,7 +33652,7 @@
 			)
 		)
 		(property "Description" "Quadruple D-type flip-flop, common positive-edge clock CP and asynchronous master reset ~{MR} (active LOW); outputs O0-O3 and complements"
-			(at 196.85 374.65 0)
+			(at 454.66 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33543,7 +33663,7 @@
 			)
 		)
 		(property "Philips_Value" "HEF40175BP"
-			(at 196.85 374.65 0)
+			(at 454.66 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33554,7 +33674,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 14406"
-			(at 196.85 374.65 0)
+			(at 454.66 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33615,6 +33735,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1805")
+					(unit 2)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1805")
 					(unit 2)
 				)
@@ -33781,7 +33907,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:GNDOG")
-		(at 99.06 182.88 0)
+		(at 81.28 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33789,10 +33915,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4106b5b-9829-4a8e-a6d4-ac4f204867db")
 		(property "Reference" "#PWR0189"
-			(at 99.06 189.23 0)
+			(at 81.28 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33803,7 +33928,7 @@
 			)
 		)
 		(property "Value" "GNDOG"
-			(at 101.6 184.1499 0)
+			(at 75.946 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33814,7 +33939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 182.88 0)
+			(at 81.28 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33825,7 +33950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 182.88 0)
+			(at 81.28 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33836,7 +33961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 182.88 0)
+			(at 81.28 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33866,7 +33991,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4013B")
-		(at 113.03 374.65 0)
+		(at 370.84 381 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33876,7 +34001,7 @@
 		(dnp no)
 		(uuid "d5c5d448-0408-4e9e-942e-4cde58c8f167")
 		(property "Reference" "D1816"
-			(at 109.474 382.016 90)
+			(at 367.284 388.366 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33887,7 +34012,7 @@
 			)
 		)
 		(property "Value" "HEF4013B"
-			(at 116.84 375.9199 0)
+			(at 374.65 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33899,7 +34024,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 113.03 374.65 0)
+			(at 370.84 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33910,7 +34035,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4013B.PDF"
-			(at 113.03 374.65 0)
+			(at 370.84 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33921,7 +34046,7 @@
 			)
 		)
 		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
-			(at 113.03 374.65 0)
+			(at 370.84 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33932,7 +34057,7 @@
 			)
 		)
 		(property "Philips_Value" "HEF4013BP"
-			(at 113.03 374.65 0)
+			(at 370.84 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33943,7 +34068,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 10002"
-			(at 113.03 374.65 0)
+			(at 370.84 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33998,6 +34123,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1816")
+					(unit 3)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1816")
 					(unit 3)
 				)
@@ -34198,6 +34329,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "#PWR0220")
 					(unit 1)
 				)
@@ -34422,11 +34559,17 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 180.34 180)
+		(at 130.81 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34436,29 +34579,27 @@
 		(dnp no)
 		(uuid "dfc6d464-cc5f-494b-91ee-5166bc971a40")
 		(property "Reference" "R1801"
-			(at 136.398 183.388 90)
+			(at 128.27 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "154k"
-			(at 138.43 182.626 90)
+			(at 130.81 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 140.208 180.34 90)
+			(at 132.588 200.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34469,7 +34610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 180.34 0)
+			(at 130.81 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34480,7 +34621,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 180.34 0)
+			(at 130.81 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34491,7 +34632,7 @@
 			)
 		)
 		(property "Philips_Value" "154K 1% 0.4W"
-			(at 138.43 180.34 0)
+			(at 130.81 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34502,7 +34643,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 116 54714"
-			(at 138.43 180.34 0)
+			(at 130.81 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34620,7 +34761,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 148.59 374.65 0)
+		(at 406.4 381 0)
 		(unit 7)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34630,7 +34771,7 @@
 		(dnp no)
 		(uuid "e32e9c92-63fb-4f93-ac02-b1f197d8cea9")
 		(property "Reference" "D1808"
-			(at 141.986 381.762 90)
+			(at 399.796 388.112 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34641,7 +34782,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 154.94 375.9199 0)
+			(at 412.75 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34653,7 +34794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 374.65 0)
+			(at 406.4 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34664,7 +34805,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 148.59 374.65 0)
+			(at 406.4 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34675,7 +34816,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 148.59 374.65 0)
+			(at 406.4 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34686,7 +34827,7 @@
 			)
 		)
 		(property "Philips_Value" "N74LS04N"
-			(at 148.59 374.65 0)
+			(at 406.4 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34697,7 +34838,7 @@
 			)
 		)
 		(property "Philips_PN" "4822 209 80621"
-			(at 148.59 374.65 0)
+			(at 406.4 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34835,6 +34976,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "#PWR0218")
 					(unit 1)
 				)
@@ -35451,7 +35598,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 96.52 389.89 180)
+		(at 354.33 396.24 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35461,7 +35608,7 @@
 		(dnp no)
 		(uuid "ed3bbc76-f128-4a45-8e0e-40c93b8b5eef")
 		(property "Reference" "#PWR0111"
-			(at 96.52 386.08 0)
+			(at 354.33 392.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35472,7 +35619,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 96.266 393.954 0)
+			(at 354.076 400.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35482,7 +35629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 389.89 0)
+			(at 354.33 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35493,7 +35640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 389.89 0)
+			(at 354.33 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35504,7 +35651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 96.52 389.89 0)
+			(at 354.33 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35700,7 +35847,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF40175B")
-		(at 190.5 374.65 0)
+		(at 448.31 381 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35710,7 +35857,7 @@
 		(dnp no)
 		(uuid "f32c8b7f-3690-470e-b4ec-fc0b890e97ed")
 		(property "Reference" "D1804"
-			(at 187.198 382.524 90)
+			(at 445.008 388.874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35721,7 +35868,7 @@
 			)
 		)
 		(property "Value" "HEF40175B"
-			(at 194.31 375.9199 0)
+			(at 452.12 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35733,7 +35880,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 190.5 374.65 0)
+			(at 448.31 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35744,7 +35891,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF40175B.PDF"
-			(at 190.5 374.65 0)
+			(at 448.31 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35755,7 +35902,7 @@
 			)
 		)
 		(property "Description" "Quadruple D-type flip-flop, common positive-edge clock CP and asynchronous master reset ~{MR} (active LOW); outputs O0-O3 and complements"
-			(at 190.5 374.65 0)
+			(at 448.31 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35766,7 +35913,7 @@
 			)
 		)
 		(property "Philips_Value" "HEF40175BP"
-			(at 190.5 374.65 0)
+			(at 448.31 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35777,7 +35924,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 14406"
-			(at 190.5 374.65 0)
+			(at 448.31 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35838,6 +35985,12 @@
 		(instances
 			(project "N1_Motherboard"
 				(path "/291175c9-f17a-4526-ae6f-9d055732170b/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1804")
+					(unit 2)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
 					(reference "D1804")
 					(unit 2)
 				)
@@ -36208,6 +36361,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1811")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -36454,6 +36613,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/23586616-4bc8-5a76-b86e-10e84270e910/e75f8948-7bb5-4183-bd39-b9cbaa34ab6a"
+					(reference "D1816")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -36684,7 +36849,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 123.19 374.65 0)
+		(at 381 381 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36694,7 +36859,7 @@
 		(dnp no)
 		(uuid "fc3cf5b7-ed18-4320-9f27-ce6e7b275049")
 		(property "Reference" "D1815"
-			(at 116.84 382.524 90)
+			(at 374.65 388.874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36705,7 +36870,7 @@
 			)
 		)
 		(property "Value" "74LS32"
-			(at 129.54 375.9199 0)
+			(at 387.35 382.2699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36717,7 +36882,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 123.19 374.65 0)
+			(at 381 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36728,7 +36893,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 123.19 374.65 0)
+			(at 381 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36739,7 +36904,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 123.19 374.65 0)
+			(at 381 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36750,7 +36915,7 @@
 			)
 		)
 		(property "Philips_Value" "N74LS32A"
-			(at 123.19 374.65 0)
+			(at 381 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36761,7 +36926,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 209 85311"
-			(at 123.19 374.65 0)
+			(at 381 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

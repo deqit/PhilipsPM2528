@@ -2042,60 +2042,6 @@
 			)
 			(symbol "HEF4008B_1_0"
 				(pin input line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "A3"
@@ -2106,42 +2052,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "B0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2168,16 +2078,88 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -7.62 0)
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "B3"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "B0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2286,6 +2268,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2487,15 +2487,6 @@
 				)
 			)
 			(symbol "HEF4011B_1_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2507,8 +2498,35 @@
 						(type background)
 					)
 				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(symbol "HEF4011B_2_0"
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2545,35 +2563,8 @@
 						)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4011B_2_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2583,6 +2574,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -2643,15 +2643,6 @@
 				)
 			)
 			(symbol "HEF4011B_3_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2663,8 +2654,35 @@
 						(type background)
 					)
 				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(symbol "HEF4011B_4_0"
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2701,35 +2719,8 @@
 						)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4011B_4_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2739,6 +2730,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -2866,6 +2866,150 @@
 				)
 			)
 			(symbol "HEF4040B_1_0"
+				(pin output line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "O11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "O0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -10.16 12.7 0)
 					(length 2.54)
@@ -2903,124 +3047,16 @@
 					)
 				)
 				(pin output line
-					(at 10.16 12.7 180)
+					(at 10.16 -7.62 180)
 					(length 2.54)
-					(name "O0"
+					(name "O8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "O1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "O3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "O4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0.0 180)
-					(length 2.54)
-					(name "O5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "O6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3039,24 +3075,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "O8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3093,24 +3111,6 @@
 						)
 					)
 					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -15.24 180)
-					(length 2.54)
-					(name "O11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3256,24 +3256,6 @@
 				)
 			)
 			(symbol "HEF4049B_1_0"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3292,15 +3274,35 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "HEF4049B_1_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3315,37 +3317,17 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
 			(symbol "HEF4049B_2_0"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3364,15 +3346,35 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "HEF4049B_2_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3387,37 +3389,17 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
 			(symbol "HEF4049B_3_0"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3436,15 +3418,35 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "HEF4049B_3_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3459,15 +3461,13 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -3510,13 +3510,15 @@
 				)
 			)
 			(symbol "HEF4049B_4_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3531,15 +3533,13 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -3582,13 +3582,15 @@
 				)
 			)
 			(symbol "HEF4049B_5_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3603,15 +3605,13 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -3654,13 +3654,15 @@
 				)
 			)
 			(symbol "HEF4049B_6_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3675,37 +3677,17 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
 			(symbol "HEF4049B_7_0"
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
@@ -3717,6 +3699,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3905,6 +3905,17 @@
 				)
 			)
 			(symbol "HEF4066B_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -3941,37 +3952,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_2_0"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "Y1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3983,6 +3965,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4010,6 +4010,17 @@
 				)
 			)
 			(symbol "HEF4066B_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -4046,19 +4057,26 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_3_0"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -4095,26 +4113,19 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4066B_3_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -4151,37 +4162,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_4_0"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "Y3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -4193,6 +4175,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4220,6 +4220,17 @@
 				)
 			)
 			(symbol "HEF4066B_4_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -4254,17 +4265,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -4566,6 +4566,24 @@
 				)
 			)
 			(symbol "HEF4073B_3_0"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -4613,24 +4631,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4832,15 +4832,6 @@
 				)
 			)
 			(symbol "HEF4081B_1_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -4852,8 +4843,35 @@
 						(type background)
 					)
 				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(symbol "HEF4081B_2_0"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -4890,35 +4908,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4081B_2_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -4928,6 +4919,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -4988,15 +4988,6 @@
 				)
 			)
 			(symbol "HEF4081B_3_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -5008,8 +4999,35 @@
 						(type background)
 					)
 				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(symbol "HEF4081B_4_0"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -5046,35 +5064,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4081B_4_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -5084,6 +5075,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -5247,6 +5247,42 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -5283,42 +5319,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4085B_1_1"
 				(rectangle
@@ -5334,6 +5334,24 @@
 				)
 			)
 			(symbol "HEF4085B_2_0"
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 7.62 0)
 					(length 2.54)
@@ -5417,24 +5435,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5581,6 +5581,24 @@
 			)
 			(symbol "HEF4094B_1_0"
 				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "STR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 12.7 0)
 					(length 2.54)
 					(name "D"
@@ -5609,78 +5627,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "STR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "EO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 12.7 180)
-					(length 2.54)
-					(name "O'_{S}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "O_{S}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5725,7 +5671,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 0.0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "O2"
 						(effects
@@ -5760,17 +5706,35 @@
 						)
 					)
 				)
-				(pin tri_state line
-					(at 10.16 -5.08 180)
+				(pin output line
+					(at 10.16 10.16 180)
 					(length 2.54)
-					(name "O4"
+					(name "O_{S}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "O'_{S}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5779,16 +5743,16 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 -7.62 180)
+					(at 10.16 -12.7 180)
 					(length 2.54)
-					(name "O5"
+					(name "O7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5815,16 +5779,52 @@
 					)
 				)
 				(pin tri_state line
-					(at 10.16 -12.7 180)
+					(at 10.16 -7.62 180)
 					(length 2.54)
-					(name "O7"
+					(name "O5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "EO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5970,71 +5970,17 @@
 				)
 			)
 			(symbol "HEF4522B_1_0"
-				(pin input line
-					(at -10.16 10.16 0)
+				(pin output line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "PL"
+					(name "O3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "P0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6061,16 +6007,16 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -7.62 0)
+					(at -10.16 10.16 0)
 					(length 2.54)
-					(name "CP0"
+					(name "PL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6097,16 +6043,16 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -15.24 0)
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "MR"
+					(name "P0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6115,16 +6061,16 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -17.78 0)
+					(at -10.16 -7.62 0)
 					(length 2.54)
-					(name "CF"
+					(name "CP0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6168,17 +6114,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
+				(pin input line
+					(at -10.16 -15.24 0)
 					(length 2.54)
-					(name "O2"
+					(name "MR"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6186,17 +6132,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "O3"
+					(name "P1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6215,6 +6161,60 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "CF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6491,35 +6491,17 @@
 				)
 			)
 			(symbol "OQ0051_1_1"
-				(pin passive line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "D_{IN+}"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 7.62)
+					(name "V-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "D_{IN-}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6545,89 +6527,18 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "TAIL"
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 12.7 270)
-					(length 5.08)
-					(name "REF"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 12.7 270)
-					(length 7.62)
-					(name "START"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 12.7 270)
-					(length 10.16)
-					(name "V+"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 7.62)
-					(name "V-"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6700,25 +6611,6 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 0)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "7"
 						(effects
 							(font
@@ -6765,6 +6657,60 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 12.7 270)
+					(length 5.08)
+					(name "REF"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 7.62)
+					(name "START"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 12.7 270)
+					(length 10.16)
+					(name "V+"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin no_connect line
 					(at -5.08 0 0)
 					(length 0)
@@ -6777,6 +6723,60 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "D_{IN-}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "D_{IN+}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "TAIL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9466,7 +9466,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 110.49 49.53)
+			(xy 66.04 49.53) (xy 110.49 49.53)
 		)
 		(stroke
 			(width 0)
@@ -13744,8 +13744,8 @@
 		)
 		(uuid "0322297f-e7db-451e-9cf8-a6ce70eba8b9")
 	)
-	(label "DATA"
-		(at 106.68 49.53 180)
+	(label "DA0"
+		(at 66.04 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14367,7 +14367,7 @@
 		)
 		(uuid "9420f52d-7476-486e-9c01-503d61592daa")
 	)
-	(hierarchical_label "DATA"
+	(hierarchical_label "DA0"
 		(shape input)
 		(at 31.75 82.55 0)
 		(effects
@@ -14687,6 +14687,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 312.42 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31414"
 			(at 312.42 345.44 0)
 			(hide yes)
@@ -14699,17 +14710,6 @@
 			)
 		)
 		(property "Philips_Value" "10nF 100V"
-			(at 312.42 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 312.42 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -14795,6 +14795,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 317.5 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 317.5 162.56 0)
 			(hide yes)
@@ -14807,17 +14818,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 317.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 317.5 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -14939,6 +14939,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual 2-wide 2-input AND-OR-invert gate with inhibit input: O = ~(I0.I1 + I2.I3 + I4)"
+			(at 154.94 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14058"
 			(at 154.94 82.55 0)
 			(hide yes)
@@ -14951,17 +14962,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4085BP"
-			(at 154.94 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 2-wide 2-input AND-OR-invert gate with inhibit input: O = ~(I0.I1 + I2.I3 + I4)"
 			(at 154.94 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15248,6 +15248,17 @@
 				)
 			)
 		)
+		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
+			(at 270.51 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10165"
 			(at 270.51 116.84 0)
 			(hide yes)
@@ -15260,17 +15271,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4522BP"
-			(at 270.51 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
 			(at 270.51 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15781,6 +15781,17 @@
 				)
 			)
 		)
+		(property "Description" "Triple 3-input AND gate, buffered outputs: O = I1.I2.I3"
+			(at 452.12 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14066"
 			(at 452.12 349.25 0)
 			(hide yes)
@@ -15793,17 +15804,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4073BP"
-			(at 452.12 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple 3-input AND gate, buffered outputs: O = I1.I2.I3"
 			(at 452.12 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -15926,6 +15926,17 @@
 				)
 			)
 		)
+		(property "Description" "Polarized capacitor"
+			(at 389.89 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 124 14066"
 			(at 389.89 347.98 0)
 			(hide yes)
@@ -15938,17 +15949,6 @@
 			)
 		)
 		(property "Philips_Value" "10uF 16V"
-			(at 389.89 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
 			(at 389.89 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -16033,6 +16033,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 264.16 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 264.16 346.71 0)
 			(hide yes)
@@ -16045,17 +16056,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 264.16 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 264.16 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -16268,6 +16268,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 368.3 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 121 41156"
 			(at 368.3 158.75 0)
 			(hide yes)
@@ -16280,17 +16291,6 @@
 			)
 		)
 		(property "Philips_Value" "68nF mylar"
-			(at 368.3 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 368.3 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -16378,6 +16378,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 458.47 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 458.47 349.25 0)
 			(hide yes)
@@ -16390,17 +16401,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 458.47 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 458.47 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -16528,6 +16528,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 290.83 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30613"
 			(at 290.83 351.79 0)
 			(hide yes)
@@ -16540,17 +16551,6 @@
 			)
 		)
 		(property "Philips_Value" "BAW62"
-			(at 290.83 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 290.83 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -16741,6 +16741,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 307.34 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30613"
 			(at 307.34 335.28 0)
 			(hide yes)
@@ -16753,17 +16764,6 @@
 			)
 		)
 		(property "Philips_Value" "BAW62"
-			(at 307.34 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 307.34 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -16870,6 +16870,17 @@
 				)
 			)
 		)
+		(property "Description" "Triple 3-input AND gate, buffered outputs: O = I1.I2.I3"
+			(at 269.24 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14066"
 			(at 269.24 223.52 0)
 			(hide yes)
@@ -16882,17 +16893,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4073BP"
-			(at 269.24 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple 3-input AND gate, buffered outputs: O = I1.I2.I3"
 			(at 269.24 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -17015,6 +17015,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 120.65 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50557"
 			(at 120.65 265.43 0)
 			(hide yes)
@@ -17027,17 +17038,6 @@
 			)
 		)
 		(property "Philips_Value" "46K4 1% MR25"
-			(at 120.65 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 120.65 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -17208,6 +17208,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 506.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 506.73 153.67 0)
 			(hide yes)
@@ -17220,17 +17231,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 506.73 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 506.73 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -17485,6 +17485,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 407.67 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30053"
 			(at 407.67 140.97 0)
 			(hide yes)
@@ -17497,17 +17508,6 @@
 			)
 		)
 		(property "Philips_Value" "680pF 100V"
-			(at 407.67 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 407.67 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -17676,6 +17676,17 @@
 				)
 			)
 		)
+		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
+			(at 270.51 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10165"
 			(at 270.51 74.93 0)
 			(hide yes)
@@ -17688,17 +17699,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4522BP"
-			(at 270.51 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
 			(at 270.51 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17825,6 +17825,17 @@
 				)
 			)
 		)
+		(property "Description" "Potentiometer"
+			(at 420.37 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 101 14051"
 			(at 420.37 162.56 0)
 			(hide yes)
@@ -17837,17 +17848,6 @@
 			)
 		)
 		(property "Philips_Value" "220E 20% 0.5W"
-			(at 420.37 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
 			(at 420.37 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -17970,6 +17970,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 384.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 121 40308"
 			(at 384.81 158.75 0)
 			(hide yes)
@@ -17982,17 +17993,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 400V"
-			(at 384.81 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 384.81 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18160,6 +18160,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 269.24 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 269.24 240.03 0)
 			(hide yes)
@@ -18172,17 +18183,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 269.24 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 269.24 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -18306,6 +18306,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual 2-wide 2-input AND-OR-invert gate with inhibit input: O = ~(I0.I1 + I2.I3 + I4)"
+			(at 471.17 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14058"
 			(at 471.17 349.25 0)
 			(hide yes)
@@ -18318,17 +18329,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4085BP"
-			(at 471.17 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 2-wide 2-input AND-OR-invert gate with inhibit input: O = ~(I0.I1 + I2.I3 + I4)"
 			(at 471.17 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -18532,6 +18532,17 @@
 				)
 			)
 		)
+		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
+			(at 270.51 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10165"
 			(at 270.51 161.29 0)
 			(hide yes)
@@ -18544,17 +18555,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4522BP"
-			(at 270.51 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
 			(at 270.51 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18766,6 +18766,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 467.36 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55426"
 			(at 467.36 119.38 0)
 			(hide yes)
@@ -18778,17 +18789,6 @@
 			)
 		)
 		(property "Philips_Value" "6K19 1% MR25"
-			(at 467.36 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 467.36 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18873,6 +18873,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 300.99 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30613"
 			(at 300.99 340.36 0)
 			(hide yes)
@@ -18885,17 +18896,6 @@
 			)
 		)
 		(property "Philips_Value" "BAW62"
-			(at 300.99 340.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 300.99 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -19002,6 +19002,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
+			(at 190.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14054"
 			(at 190.5 97.79 0)
 			(hide yes)
@@ -19014,17 +19025,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4081BP"
-			(at 190.5 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
 			(at 190.5 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19145,6 +19145,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 217.17 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 217.17 274.32 0)
 			(hide yes)
@@ -19157,17 +19168,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 217.17 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 217.17 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -19297,6 +19297,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 227.33 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54005"
 			(at 227.33 279.4 0)
 			(hide yes)
@@ -19309,17 +19320,6 @@
 			)
 		)
 		(property "Philips_Value" "3K32 1% MR25"
-			(at 227.33 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 227.33 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -19404,6 +19404,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 172.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 172.72 82.55 0)
 			(hide yes)
@@ -19416,17 +19427,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 172.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 172.72 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -19639,6 +19639,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 552.45 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 552.45 349.25 0)
 			(hide yes)
@@ -19651,17 +19662,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 552.45 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 552.45 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -19783,6 +19783,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 288.29 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 288.29 233.68 0)
 			(hide yes)
@@ -19795,17 +19806,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 288.29 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 288.29 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -19929,6 +19929,17 @@
 				)
 			)
 		)
+		(property "Description" "8-stage shift-and-store bus register; D shifted in on CP rising edge, STR HIGH = storage latch transparent, EO HIGH enables 3-state O0-O7 (LOW = Z); OS = stage 8 on CP rising, O'S = stage 8 on next CP falling (cascading)"
+			(at 506.73 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14485"
 			(at 506.73 349.25 0)
 			(hide yes)
@@ -19941,17 +19952,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4094BP"
-			(at 506.73 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-stage shift-and-store bus register; D shifted in on CP rising edge, STR HIGH = storage latch transparent, EO HIGH enables 3-state O0-O7 (LOW = Z); OS = stage 8 on CP rising, O'S = stage 8 on next CP falling (cascading)"
 			(at 506.73 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -20164,6 +20164,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 417.83 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 417.83 347.98 0)
 			(hide yes)
@@ -20176,17 +20187,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 417.83 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 417.83 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -20271,6 +20271,17 @@
 				)
 			)
 		)
+		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
+			(at 270.51 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10165"
 			(at 270.51 33.02 0)
 			(hide yes)
@@ -20283,17 +20294,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4522BP"
-			(at 270.51 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
 			(at 270.51 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -20506,6 +20506,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 323.85 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 323.85 351.79 0)
 			(hide yes)
@@ -20518,17 +20529,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 323.85 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 323.85 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -20696,6 +20696,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 321.31 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 321.31 231.14 0)
 			(hide yes)
@@ -20708,17 +20719,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 321.31 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 321.31 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -20841,6 +20841,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 426.72 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 426.72 347.98 0)
 			(hide yes)
@@ -20853,17 +20864,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 426.72 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 426.72 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -20950,6 +20950,17 @@
 				)
 			)
 		)
+		(property "Description" "4-bit binary full adder with fast look-ahead carry; S = A + B + CIN, COUT = carry out"
+			(at 224.79 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14214"
 			(at 224.79 82.55 0)
 			(hide yes)
@@ -20962,17 +20973,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4008BP"
-			(at 224.79 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-bit binary full adder with fast look-ahead carry; S = A + B + CIN, COUT = carry out"
 			(at 224.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -21099,6 +21099,17 @@
 				)
 			)
 		)
+		(property "Description" "12-stage binary ripple counter; advances on HIGH-to-LOW transition of ~{CP} (Schmitt trigger), MR HIGH = async reset (all outputs LOW)"
+			(at 229.87 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14269"
 			(at 229.87 218.44 0)
 			(hide yes)
@@ -21111,17 +21122,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4040BP"
-			(at 229.87 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12-stage binary ripple counter; advances on HIGH-to-LOW transition of ~{CP} (Schmitt trigger), MR HIGH = async reset (all outputs LOW)"
 			(at 229.87 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -21248,6 +21248,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 335.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 335.28 162.56 0)
 			(hide yes)
@@ -21260,17 +21271,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 335.28 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 335.28 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -21393,6 +21393,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 109.22 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30613"
 			(at 109.22 265.43 0)
 			(hide yes)
@@ -21405,17 +21416,6 @@
 			)
 		)
 		(property "Philips_Value" "BAW62"
-			(at 109.22 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 109.22 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -21608,6 +21608,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 122 34201"
 			(at 246.38 279.4 0)
 			(hide yes)
@@ -21620,17 +21631,6 @@
 			)
 		)
 		(property "Philips_Value" "120pF 100V"
-			(at 246.38 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 246.38 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -21885,6 +21885,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 114.3 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50557"
 			(at 114.3 226.06 0)
 			(hide yes)
@@ -21897,17 +21908,6 @@
 			)
 		)
 		(property "Philips_Value" "46K4 1% MR25"
-			(at 114.3 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 114.3 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -21994,6 +21994,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 472.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 110 72214"
 			(at 472.44 130.81 0)
 			(hide yes)
@@ -22006,17 +22017,6 @@
 			)
 		)
 		(property "Philips_Value" "10M 5% VR25"
-			(at 472.44 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 472.44 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -22104,6 +22104,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
+			(at 464.82 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14054"
 			(at 464.82 349.25 0)
 			(hide yes)
@@ -22116,17 +22127,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4081BP"
-			(at 464.82 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
 			(at 464.82 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -22416,6 +22416,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 501.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54469"
 			(at 501.65 148.59 0)
 			(hide yes)
@@ -22428,17 +22439,6 @@
 			)
 		)
 		(property "Philips_Value" "100E 1% MR25"
-			(at 501.65 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 501.65 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -22776,6 +22776,17 @@
 				)
 			)
 		)
+		(property "Description" "12-stage binary ripple counter; advances on HIGH-to-LOW transition of ~{CP} (Schmitt trigger), MR HIGH = async reset (all outputs LOW)"
+			(at 115.57 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14269"
 			(at 115.57 162.56 0)
 			(hide yes)
@@ -22788,17 +22799,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4040BP"
-			(at 115.57 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12-stage binary ripple counter; advances on HIGH-to-LOW transition of ~{CP} (Schmitt trigger), MR HIGH = async reset (all outputs LOW)"
 			(at 115.57 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -22927,6 +22927,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 330.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50484"
 			(at 330.2 135.89 0)
 			(hide yes)
@@ -22939,17 +22950,6 @@
 			)
 		)
 		(property "Philips_Value" "4K64 1% MR25"
-			(at 330.2 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 330.2 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -23037,6 +23037,17 @@
 				)
 			)
 		)
+		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
+			(at 477.52 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10165"
 			(at 477.52 349.25 0)
 			(hide yes)
@@ -23049,17 +23060,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4522BP"
-			(at 477.52 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
 			(at 477.52 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -23189,6 +23189,17 @@
 				)
 			)
 		)
+		(property "Description" "12-stage binary ripple counter; advances on HIGH-to-LOW transition of ~{CP} (Schmitt trigger), MR HIGH = async reset (all outputs LOW)"
+			(at 514.35 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14269"
 			(at 514.35 349.25 0)
 			(hide yes)
@@ -23201,17 +23212,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4040BP"
-			(at 514.35 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12-stage binary ripple counter; advances on HIGH-to-LOW transition of ~{CP} (Schmitt trigger), MR HIGH = async reset (all outputs LOW)"
 			(at 514.35 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -23340,6 +23340,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 400.05 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 400.05 347.98 0)
 			(hide yes)
@@ -23352,17 +23363,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 400.05 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 400.05 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -23449,6 +23449,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 467.36 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55359"
 			(at 467.36 130.81 0)
 			(hide yes)
@@ -23461,17 +23472,6 @@
 			)
 		)
 		(property "Philips_Value" "1K62 1% MR25"
-			(at 467.36 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 467.36 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -23558,6 +23558,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 379.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55331"
 			(at 379.73 153.67 0)
 			(hide yes)
@@ -23570,17 +23581,6 @@
 			)
 		)
 		(property "Philips_Value" "649K 1% MR25"
-			(at 379.73 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 379.73 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -23750,6 +23750,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 139.7 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50557"
 			(at 139.7 242.57 0)
 			(hide yes)
@@ -23762,17 +23773,6 @@
 			)
 		)
 		(property "Philips_Value" "46K4 1% MR25"
-			(at 139.7 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 139.7 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -24026,6 +24026,17 @@
 				)
 			)
 		)
+		(property "Description" "Potentiometer"
+			(at 459.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 101 14215"
 			(at 459.74 114.3 0)
 			(hide yes)
@@ -24038,17 +24049,6 @@
 			)
 		)
 		(property "Philips_Value" "3K3 20% 0.5W"
-			(at 459.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
 			(at 459.74 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -24253,6 +24253,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 91.44 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 91.44 177.8 0)
 			(hide yes)
@@ -24265,17 +24276,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 91.44 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 91.44 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -24568,6 +24568,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
+			(at 224.79 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14054"
 			(at 224.79 27.94 0)
 			(hide yes)
@@ -24580,17 +24591,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4081BP"
-			(at 224.79 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
 			(at 224.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -24711,6 +24711,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 349.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 349.25 144.78 0)
 			(hide yes)
@@ -24723,17 +24734,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 349.25 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 349.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -24857,6 +24857,17 @@
 				)
 			)
 		)
+		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
+			(at 529.59 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10165"
 			(at 529.59 349.25 0)
 			(hide yes)
@@ -24869,17 +24880,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4522BP"
-			(at 529.59 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
 			(at 529.59 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -25006,6 +25006,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 295.91 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30613"
 			(at 295.91 346.71 0)
 			(hide yes)
@@ -25018,17 +25029,6 @@
 			)
 		)
 		(property "Philips_Value" "BAW62"
-			(at 295.91 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 295.91 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -25220,6 +25220,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual 2-wide 2-input AND-OR-invert gate with inhibit input: O = ~(I0.I1 + I2.I3 + I4)"
+			(at 163.83 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14058"
 			(at 163.83 173.99 0)
 			(hide yes)
@@ -25232,17 +25243,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4085BP"
-			(at 163.83 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 2-wide 2-input AND-OR-invert gate with inhibit input: O = ~(I0.I1 + I2.I3 + I4)"
 			(at 163.83 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -25365,6 +25365,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 278.13 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31414"
 			(at 278.13 335.28 0)
 			(hide yes)
@@ -25377,17 +25388,6 @@
 			)
 		)
 		(property "Philips_Value" "10nF 100V"
-			(at 278.13 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 278.13 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -25475,6 +25475,17 @@
 				)
 			)
 		)
+		(property "Description" "4-bit binary full adder with fast look-ahead carry; S = A + B + CIN, COUT = carry out"
+			(at 499.11 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14214"
 			(at 499.11 349.25 0)
 			(hide yes)
@@ -25487,17 +25498,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4008BP"
-			(at 499.11 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-bit binary full adder with fast look-ahead carry; S = A + B + CIN, COUT = carry out"
 			(at 499.11 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -25627,6 +25627,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 323.85 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50452"
 			(at 323.85 340.36 0)
 			(hide yes)
@@ -25639,17 +25650,6 @@
 			)
 		)
 		(property "Philips_Value" "10E 1% MR25"
-			(at 323.85 340.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 323.85 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -25737,6 +25737,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 537.21 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 537.21 349.25 0)
 			(hide yes)
@@ -25749,17 +25760,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 537.21 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 537.21 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -25883,6 +25883,17 @@
 				)
 			)
 		)
+		(property "Description" "12-stage binary ripple counter; advances on HIGH-to-LOW transition of ~{CP} (Schmitt trigger), MR HIGH = async reset (all outputs LOW)"
+			(at 544.83 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14269"
 			(at 544.83 349.25 0)
 			(hide yes)
@@ -25895,17 +25906,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4040BP"
-			(at 544.83 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12-stage binary ripple counter; advances on HIGH-to-LOW transition of ~{CP} (Schmitt trigger), MR HIGH = async reset (all outputs LOW)"
 			(at 544.83 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -26034,6 +26034,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 121.92 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 50557"
 			(at 121.92 285.75 0)
 			(hide yes)
@@ -26046,17 +26057,6 @@
 			)
 		)
 		(property "Philips_Value" "46K4 1% MR25"
-			(at 121.92 285.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 121.92 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -26226,6 +26226,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 408.94 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 30103"
 			(at 408.94 347.98 0)
 			(hide yes)
@@ -26238,17 +26249,6 @@
 			)
 		)
 		(property "Philips_Value" "22nF 40V"
-			(at 408.94 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 408.94 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -26502,6 +26502,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 363.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 54727"
 			(at 363.22 153.67 0)
 			(hide yes)
@@ -26514,17 +26525,6 @@
 			)
 		)
 		(property "Philips_Value" "205K 1% MR25"
-			(at 363.22 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 363.22 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -26611,6 +26611,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 278.13 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31414"
 			(at 278.13 346.71 0)
 			(hide yes)
@@ -26623,17 +26634,6 @@
 			)
 		)
 		(property "Philips_Value" "10nF 100V"
-			(at 278.13 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 278.13 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -26721,6 +26721,17 @@
 				)
 			)
 		)
+		(property "Description" "Unpolarized capacitor"
+			(at 454.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 122 31221"
 			(at 454.66 151.13 0)
 			(hide yes)
@@ -26733,17 +26744,6 @@
 			)
 		)
 		(property "Philips_Value" "1.5nF 100V"
-			(at 454.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
 			(at 454.66 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -26830,6 +26830,17 @@
 				)
 			)
 		)
+		(property "Description" "8-stage shift-and-store bus register; D shifted in on CP rising edge, STR HIGH = storage latch transparent, EO HIGH enables 3-state O0-O7 (LOW = Z); OS = stage 8 on CP rising, O'S = stage 8 on next CP falling (cascading)"
+			(at 120.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14485"
 			(at 120.65 62.23 0)
 			(hide yes)
@@ -26842,17 +26853,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4094BP"
-			(at 120.65 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-stage shift-and-store bus register; D shifted in on CP rising edge, STR HIGH = storage latch transparent, EO HIGH enables 3-state O0-O7 (LOW = Z); OS = stage 8 on CP rising, O'S = stage 8 on next CP falling (cascading)"
 			(at 120.65 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -26980,6 +26980,17 @@
 				)
 			)
 		)
+		(property "Description" "Triple 3-input AND gate, buffered outputs: O = I1.I2.I3"
+			(at 91.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14066"
 			(at 91.44 149.86 0)
 			(hide yes)
@@ -26992,17 +27003,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4073BP"
-			(at 91.44 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple 3-input AND gate, buffered outputs: O = I1.I2.I3"
 			(at 91.44 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -27125,6 +27125,17 @@
 				)
 			)
 		)
+		(property "Description" "Resistor"
+			(at 486.41 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 116 55459"
 			(at 486.41 156.21 0)
 			(hide yes)
@@ -27137,17 +27148,6 @@
 			)
 		)
 		(property "Philips_Value" "15K4 1% MR25"
-			(at 486.41 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
 			(at 486.41 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -27403,6 +27403,17 @@
 				)
 			)
 		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 300.99 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 124 10204"
 			(at 300.99 351.79 0)
 			(hide yes)
@@ -27415,17 +27426,6 @@
 			)
 		)
 		(property "Philips_Value" "2.2uF 16V"
-			(at 300.99 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
 			(at 300.99 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -27510,6 +27510,17 @@
 				)
 			)
 		)
+		(property "Description" "8-stage shift-and-store bus register; D shifted in on CP rising edge, STR HIGH = storage latch transparent, EO HIGH enables 3-state O0-O7 (LOW = Z); OS = stage 8 on CP rising, O'S = stage 8 on next CP falling (cascading)"
+			(at 157.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14485"
 			(at 157.48 125.73 0)
 			(hide yes)
@@ -27522,17 +27533,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4094BP"
-			(at 157.48 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-stage shift-and-store bus register; D shifted in on CP rising edge, STR HIGH = storage latch transparent, EO HIGH enables 3-state O0-O7 (LOW = Z); OS = stage 8 on CP rising, O'S = stage 8 on next CP falling (cascading)"
 			(at 157.48 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -27662,6 +27662,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 127 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30613"
 			(at 127 242.57 0)
 			(hide yes)
@@ -27674,17 +27685,6 @@
 			)
 		)
 		(property "Philips_Value" "BAW62"
-			(at 127 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 127 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -27792,6 +27792,17 @@
 				)
 			)
 		)
+		(property "Description" "Rotary switch 1x7, SP7T with mount point"
+			(at 96.52 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 273 30268"
 			(at 96.52 237.49 0)
 			(hide yes)
@@ -27804,17 +27815,6 @@
 			)
 		)
 		(property "Philips_Value" "digit select"
-			(at 96.52 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rotary switch 1x7, SP7T with mount point"
 			(at 96.52 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -28088,6 +28088,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 237.49 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 237.49 274.32 0)
 			(hide yes)
@@ -28100,17 +28111,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 237.49 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 237.49 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -28323,6 +28323,17 @@
 				)
 			)
 		)
+		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
+			(at 483.87 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10165"
 			(at 483.87 349.25 0)
 			(hide yes)
@@ -28335,17 +28346,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4522BP"
-			(at 483.87 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
 			(at 483.87 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -28475,6 +28475,17 @@
 				)
 			)
 		)
+		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
+			(at 521.97 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10165"
 			(at 521.97 349.25 0)
 			(hide yes)
@@ -28487,17 +28498,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4522BP"
-			(at 521.97 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable 4-bit BCD down counter; PL loads P0-P3 (async), CP0 rising / ~{CP1} falling clock, MR async reset, TC = HIGH at zero when CF HIGH and PL LOW"
 			(at 521.97 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -28708,6 +28708,17 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 419.1 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 130 44648"
 			(at 419.1 152.4 0)
 			(hide yes)
@@ -28720,17 +28731,6 @@
 			)
 		)
 		(property "Philips_Value" "BFQ12 sel."
-			(at 419.1 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 419.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -28827,6 +28827,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
+			(at 35.56 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14104"
 			(at 35.56 381 0)
 			(hide yes)
@@ -28839,17 +28850,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4066BP"
-			(at 35.56 381 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple bilateral analogue switch; E HIGH (VDD) = Y-Z low impedance (ON), E LOW (VSS) = Y-Z high impedance (OFF); low RON, pin compatible with HEF4016B"
 			(at 35.56 381 0)
 			(hide yes)
 			(show_name no)
@@ -29223,6 +29223,17 @@
 				)
 			)
 		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 337.82 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 124 20945"
 			(at 337.82 351.79 0)
 			(hide yes)
@@ -29235,17 +29246,6 @@
 			)
 		)
 		(property "Philips_Value" "33uF 10V"
-			(at 337.82 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
 			(at 337.82 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -29332,6 +29332,17 @@
 				)
 			)
 		)
+		(property "Description" "Zener diode, small symbol"
+			(at 436.88 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 34278"
 			(at 436.88 347.98 90)
 			(hide yes)
@@ -29345,17 +29356,6 @@
 		)
 		(property "Philips_Value" "BZX79-C6V8"
 			(at 436.88 347.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode, small symbol"
-			(at 436.88 347.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29442,6 +29442,17 @@
 				)
 			)
 		)
+		(property "Description" "8-stage shift-and-store bus register; D shifted in on CP rising edge, STR HIGH = storage latch transparent, EO HIGH enables 3-state O0-O7 (LOW = Z); OS = stage 8 on CP rising, O'S = stage 8 on next CP falling (cascading)"
+			(at 491.49 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14485"
 			(at 491.49 349.25 0)
 			(hide yes)
@@ -29454,17 +29465,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4094BP"
-			(at 491.49 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-stage shift-and-store bus register; D shifted in on CP rising edge, STR HIGH = storage latch transparent, EO HIGH enables 3-state O0-O7 (LOW = Z); OS = stage 8 on CP rising, O'S = stage 8 on next CP falling (cascading)"
 			(at 491.49 349.25 0)
 			(hide yes)
 			(show_name no)
@@ -29674,6 +29674,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
+			(at 190.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14054"
 			(at 190.5 85.09 0)
 			(hide yes)
@@ -29686,17 +29697,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4081BP"
-			(at 190.5 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
 			(at 190.5 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -29983,6 +29983,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
+			(at 224.79 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14054"
 			(at 224.79 41.91 0)
 			(hide yes)
@@ -29995,17 +30006,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4081BP"
-			(at 224.79 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input AND gate, buffered outputs: O = I1.I2"
 			(at 224.79 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -30127,6 +30127,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 127 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30613"
 			(at 127 252.73 0)
 			(hide yes)
@@ -30139,17 +30150,6 @@
 			)
 		)
 		(property "Philips_Value" "BAW62"
-			(at 127 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 127 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -30256,6 +30256,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 303.53 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 303.53 223.52 0)
 			(hide yes)
@@ -30268,17 +30279,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 303.53 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 303.53 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -30399,6 +30399,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 264.16 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 264.16 335.28 0)
 			(hide yes)
@@ -30411,17 +30422,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 264.16 335.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 264.16 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -30548,6 +30548,17 @@
 				)
 			)
 		)
+		(property "Description" "Diode"
+			(at 109.22 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 130 30613"
 			(at 109.22 275.59 0)
 			(hide yes)
@@ -30560,17 +30571,6 @@
 			)
 		)
 		(property "Philips_Value" "BAW62"
-			(at 109.22 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
 			(at 109.22 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -30762,6 +30762,17 @@
 				)
 			)
 		)
+		(property "Description" "Triple 3-input AND gate, buffered outputs: O = I1.I2.I3"
+			(at 140.97 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14066"
 			(at 140.97 157.48 0)
 			(hide yes)
@@ -30774,17 +30785,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4073BP"
-			(at 140.97 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Triple 3-input AND gate, buffered outputs: O = I1.I2.I3"
 			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -30857,5 +30857,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

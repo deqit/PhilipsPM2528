@@ -45,3 +45,4 @@ Everything you find here is work-in-progress. It might be incomplete, and some p
 ### Outguard
 - See [Galvanic Separation (Expansionboard N30)](/Deepdive/N30/README.md "Galvanic Separation (Expansionboard N30)")
 - See [Analog Output (Expansionboard N31)](/Deepdive/N31/README.md "Analog Output (Expansionboard N31)")
+- See [BCD Output (Expansionboard N34)](/Deepdive/N34/README.md "BCD Output (Expansionboard N34)")

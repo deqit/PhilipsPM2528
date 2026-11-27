@@ -7,8 +7,8 @@ N31 › [Overview](README.md) · **Operation** · [Schematics](Schematics.md)
 ## Block diagram
 ```mermaid
 flowchart LR
-    CPU["CPU<br/>(firmware 0x07a7)"] -- "DLEN1, CLOCK, DATA" --> N30["N30<br/>Galvanic separation"]
-    N30 -- "DLEN1, CLOCK, DATA" --> SR["Shift registers<br/>D3101, D3102"]
+    CPU["CPU<br/>(firmware 0x07a7)"] -- "DLEN1, CLOCK, DA0" --> N30["N30<br/>Galvanic separation"]
+    N30 -- "DLEN1, CLOCK, DA0" --> SR["Shift registers<br/>D3101, D3102"]
     S3101["DIGIT SELECT<br/>S3101"] --> SR
     S3101 --> ADD["+500 adder<br/>D3105"]
     SR --> ADD

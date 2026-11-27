@@ -24,7 +24,7 @@ D1806 (HEF4737) is a 4½-decade counter. It counts the clock pulses (CPC) that N
 ![N1 Interrupt](assets/N1_Section_Interrupt.png "N1 Interrupt controller, watchdog and external start")
 The CPU has a single interrupt input. Three sources share it:
 - **Keys:** pressing a key on N2 pulls `INTX` low.
-- **External start and IEC bus:** the rear EXT START BNC and the `STDO` line of the IEC board share optocoupler B1801, so they're isolated from the measuring circuit. B1801 sets D1816B, which pulls `/INT0` (P1.7) low. The CPU checks P1.7 to see which kind of interrupt it got, and clears D1816B with a pulse on ENI (P1.6).
+- **External start and IEC bus:** the rear EXT START BNC (through V1903 and R1904) and the `STDO` line of the IEC board N32 or the BCD board N34 (X1901 pin 8, straight to the LED) share optocoupler B1801, so they're isolated from the measuring circuit. B1801 sets D1816B, which pulls `/INT0` (P1.7) low. The CPU checks P1.7 to see which kind of interrupt it got, and clears D1816B with a pulse on ENI (P1.6).
 - **Watchdog:** D1807A (HEF4528) is a retriggerable one-shot. The firmware pulses WDOG (P1.5) every 10 ms. If the pulses stop, `~WDTO` goes low, which also causes an interrupt; the firmware sees `~WDTO` at address 0x20 and restarts itself.
 
 D1817A (AND) combines the sources into `INT` for the CPU.

@@ -25,7 +25,7 @@ flowchart LR
     end
     OUT(["Back panel<br/>HI, LO"])
     CPU -. "bus" .-> N30
-    N30 -. "DATA (DA0), CLOCK, DLEN1" .-> AO
+    N30 -. "DA0, CLOCK, DLEN1" .-> AO
     AO -. "HI, LO" .-> OUT
     style N31 fill:#fff3a0,color:#000
 ```
@@ -53,7 +53,7 @@ flowchart LR
 | 15 | 🟦 **HI** | O | Analog output, 0 to about 1 V | Back panel | TP3102 |
 | 16 | ⬛ - |  | Not connected |  |  |
 | 17 | 🟦 **DLEN1** | I | Data enable: high while the CPU shifts the reading out | CPU (via N30) |  |
-| 18 | 🟦 **DATA** | I | Serial data, LSB first | CPU (via N30) |  |
+| 18 | 🟦 **DA0** | I | Serial data, LSB first | CPU (via N30) |  |
 | 19 | 🟦 **CLOCK** | I | Serial clock, 24 pulses per transfer | CPU (via N30) |  |
 
 ## More about this board

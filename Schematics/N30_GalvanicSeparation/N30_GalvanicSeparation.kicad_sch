@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Philips PM2528 - N30 (Galvanic Separation)")
-		(date "2026-11-13")
+		(date "2026-11-27")
 		(rev "1.0")
 		(company "D. Kupers")
 	)
@@ -1570,13 +1570,17 @@
 			(embedded_fonts no)
 		)
 		(symbol "PM2528:CNX35"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.08 0)
+			(property "Reference" "B"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1585,8 +1589,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "CNX35"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1595,7 +1599,18 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "PhilipsPM2528:CNX35_DIP-6_W7.62mm"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "Data/Documentation/Components/CNX35U.PDF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1606,7 +1621,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Description" "Optocoupler, GaAs infrared LED and silicon NPN phototransistor with base connection, DIP-6. Pins 1 A, 2 K, 3 nc, 4 E, 5 C, 6 B. VCEO 30 V, CTR 40-160 % at IF 10 mA. On N30 (B3001-B3005) as selected CNX35, 5322 130 31718; the boards also carry CNX36."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1617,7 +1632,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "ki_keywords" "optocoupler phototransistor base DIP-6 Philips"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1797,31 +1812,11 @@
 					)
 				)
 			)
-			(symbol "CNX35_1_0"
-				(pin passive line
-					(at 1.27 -6.35 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
 			(symbol "CNX35_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name ""
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1839,7 +1834,7 @@
 				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name ""
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1854,10 +1849,29 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name ""
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1875,7 +1889,7 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name ""
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1883,6 +1897,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2135,15 +2167,6 @@
 				)
 			)
 			(symbol "HEF4011B_1_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2155,8 +2178,35 @@
 						(type background)
 					)
 				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(symbol "HEF4011B_2_0"
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2193,35 +2243,8 @@
 						)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4011B_2_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2231,6 +2254,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -2291,15 +2323,6 @@
 				)
 			)
 			(symbol "HEF4011B_3_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2311,8 +2334,35 @@
 						(type background)
 					)
 				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
+					)
+				)
 			)
 			(symbol "HEF4011B_4_0"
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2349,35 +2399,8 @@
 						)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "O4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4011B_4_1"
-				(text "&"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
-					)
-				)
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2387,6 +2410,15 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "&"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -2517,17 +2549,17 @@
 				)
 			)
 			(symbol "HEF4013B_1_0"
-				(pin input line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "1SD"
+					(name "1Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2535,17 +2567,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 2.54 0)
+				(pin output line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "1D"
+					(name "~{1Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2589,17 +2621,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "1Q"
+					(name "1D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2607,17 +2639,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "~{1Q}"
+					(name "1SD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2676,24 +2708,6 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "2CP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
@@ -2712,17 +2726,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin input clock
+					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "2Q"
+					(name "2CP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2741,6 +2755,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "2Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2886,24 +2918,6 @@
 				)
 			)
 			(symbol "HEF4049B_1_0"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 2.54)
@@ -2922,15 +2936,35 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "HEF4049B_1_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -2945,37 +2979,17 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
 			(symbol "HEF4049B_2_0"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 2.54)
@@ -2994,15 +3008,35 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "HEF4049B_2_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3017,37 +3051,17 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
 			(symbol "HEF4049B_3_0"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3066,15 +3080,35 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "HEF4049B_3_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3089,15 +3123,13 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -3140,13 +3172,15 @@
 				)
 			)
 			(symbol "HEF4049B_4_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3161,15 +3195,13 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -3212,13 +3244,15 @@
 				)
 			)
 			(symbol "HEF4049B_5_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3233,15 +3267,13 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
@@ -3284,13 +3316,15 @@
 				)
 			)
 			(symbol "HEF4049B_6_1"
-				(text "1"
-					(at -0.889 2.54 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-							(bold yes)
-						)
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(polyline
@@ -3305,37 +3339,17 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+				(text "1"
+					(at -0.889 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+							(bold yes)
+						)
 					)
 				)
 			)
 			(symbol "HEF4049B_7_0"
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
@@ -3347,6 +3361,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3480,6 +3512,24 @@
 			)
 			(symbol "HEF4555B_1_0"
 				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{EA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "A0A"
@@ -3508,24 +3558,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{EA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3570,7 +3602,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0.0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "O2A"
 						(effects
@@ -3629,53 +3661,17 @@
 				)
 			)
 			(symbol "HEF4555B_2_0"
-				(pin input line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "A0B"
+					(name "O3B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{EB}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3684,16 +3680,16 @@
 					)
 				)
 				(pin output line
-					(at 10.16 5.08 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "O0B"
+					(name "O2B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3720,16 +3716,16 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0.0 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "O2B"
+					(name "O0B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3737,17 +3733,53 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "O3B"
+					(name "A1B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "A0B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{EB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4729,8 +4761,8 @@
 		(uuid "1b0c5c4b-19b7-41ef-8f03-78f173b8324d")
 	)
 	(rectangle
-		(start 340.36 196.85)
-		(end 403.86 251.46)
+		(start 19.05 226.06)
+		(end 82.55 280.67)
 		(stroke
 			(width 0)
 			(type dot)
@@ -4754,7 +4786,7 @@
 	)
 	(text "Unused"
 		(exclude_from_sim no)
-		(at 343.662 196.088 0)
+		(at 22.352 225.298 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4837,6 +4869,12 @@
 		(uuid "03215fad-82e4-4a37-82f9-858555c64e7b")
 	)
 	(junction
+		(at 251.46 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03a427a9-7cb7-48cf-a6a4-2ab842a2e5e5")
+	)
+	(junction
 		(at 240.03 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4849,7 +4887,7 @@
 		(uuid "0bc709ee-72b0-44e8-901a-590bcd61b3b7")
 	)
 	(junction
-		(at 323.85 173.99)
+		(at 323.85 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e662698-cecd-4c50-a2c2-a2fa1dfc8758")
@@ -4963,12 +5001,6 @@
 		(uuid "559b4455-373c-40b6-9699-9a696989a493")
 	)
 	(junction
-		(at 242.57 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "583e5d62-c4b0-4642-9e06-ebe9c067558d")
-	)
-	(junction
 		(at 190.5 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4985,12 +5017,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6493c8ed-ca60-4776-b4fa-5031bd9c8cb5")
-	)
-	(junction
-		(at 242.57 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69e4f132-ddb4-4c87-9992-9a4ed26e849f")
 	)
 	(junction
 		(at 180.34 205.74)
@@ -5083,6 +5109,12 @@
 		(uuid "b05c2eff-46f4-4152-89ab-a7a4c726c590")
 	)
 	(junction
+		(at 247.65 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50657c3-f2b1-4945-b88e-32c40cd3a52c")
+	)
+	(junction
 		(at 271.78 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5167,35 +5199,35 @@
 		(uuid "fecb89f4-7c1d-4248-b544-a6c1f7092d0a")
 	)
 	(no_connect
-		(at 375.92 218.44)
+		(at 54.61 247.65)
 		(uuid "113ff6f3-ed47-4675-974f-212dd332bc05")
 	)
 	(no_connect
-		(at 350.52 218.44)
+		(at 29.21 247.65)
 		(uuid "17ead851-ecd5-4dc4-8df3-dd9e62391dd4")
 	)
 	(no_connect
-		(at 365.76 218.44)
+		(at 44.45 247.65)
 		(uuid "2944ed91-1156-4567-b580-933672849cc8")
 	)
 	(no_connect
-		(at 396.24 220.98)
+		(at 74.93 250.19)
 		(uuid "33ece300-2c8b-4686-b64b-fd85375e2d53")
 	)
 	(no_connect
-		(at 368.3 243.84)
+		(at 46.99 273.05)
 		(uuid "3c8f9e75-55bb-43ab-9bd7-f9fbc5c65845")
 	)
 	(no_connect
-		(at 396.24 223.52)
+		(at 74.93 252.73)
 		(uuid "44ca996d-09d8-4ed9-b17f-7dc7a30a9465")
 	)
 	(no_connect
-		(at 365.76 231.14)
+		(at 44.45 260.35)
 		(uuid "5d426d56-0489-4e53-bf68-22a41b7b05ce")
 	)
 	(no_connect
-		(at 365.76 243.84)
+		(at 44.45 273.05)
 		(uuid "617e6b24-9689-4a61-973c-d39f539f00f4")
 	)
 	(no_connect
@@ -5207,11 +5239,11 @@
 		(uuid "64a435ea-c571-424e-a127-adcaefeb71ba")
 	)
 	(no_connect
-		(at 396.24 215.9)
+		(at 74.93 245.11)
 		(uuid "79d35487-27f0-4db1-bfb8-945e9a072f82")
 	)
 	(no_connect
-		(at 375.92 215.9)
+		(at 54.61 245.11)
 		(uuid "7adf6a58-f1fb-46d4-828c-3fee170f0578")
 	)
 	(no_connect
@@ -5219,27 +5251,27 @@
 		(uuid "81f8f288-fa4a-44d4-be4b-031fd624cb8e")
 	)
 	(no_connect
-		(at 365.76 205.74)
+		(at 44.45 234.95)
 		(uuid "90a0c2ef-fcdf-4dba-8c94-28f4445b5024")
 	)
 	(no_connect
-		(at 375.92 223.52)
+		(at 54.61 252.73)
 		(uuid "94d3f435-b283-4227-b847-18d3462f67b7")
 	)
 	(no_connect
-		(at 396.24 218.44)
+		(at 74.93 247.65)
 		(uuid "968d524a-0f75-4f71-be34-ffd1122fb199")
 	)
 	(no_connect
-		(at 383.54 243.84)
+		(at 62.23 273.05)
 		(uuid "99f3a2a9-6864-4278-8736-2bbc4e83378e")
 	)
 	(no_connect
-		(at 350.52 231.14)
+		(at 29.21 260.35)
 		(uuid "b5d86a61-17f4-4c3d-8bde-44737e5f7e6a")
 	)
 	(no_connect
-		(at 350.52 243.84)
+		(at 29.21 273.05)
 		(uuid "b71b83c9-d81c-4990-85f7-aaf0bce9caef")
 	)
 	(no_connect
@@ -5255,12 +5287,22 @@
 		(uuid "c7f7af9c-bd77-4075-bf98-10e52674b58c")
 	)
 	(no_connect
-		(at 350.52 205.74)
+		(at 29.21 234.95)
 		(uuid "ea2ad507-0893-4999-91a2-a873aa803994")
 	)
 	(no_connect
 		(at 30.48 54.61)
 		(uuid "ff243b02-f37d-48c9-aea6-efdb09017e21")
+	)
+	(wire
+		(pts
+			(xy 247.65 173.99) (xy 247.65 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003f375a-922a-403e-88e3-841c2369ea03")
 	)
 	(wire
 		(pts
@@ -5331,6 +5373,16 @@
 			(type default)
 		)
 		(uuid "03e9a449-dcec-4071-af95-78fc2c30f834")
+	)
+	(wire
+		(pts
+			(xy 246.38 179.07) (xy 247.65 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045e3f97-e6ea-4ab2-96a4-476b15e096ff")
 	)
 	(wire
 		(pts
@@ -5464,16 +5516,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 168.91) (xy 261.62 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128aeb77-d675-4a4f-80d3-13f975c5672e")
-	)
-	(wire
-		(pts
 			(xy 134.62 154.94) (xy 138.43 154.94)
 		)
 		(stroke
@@ -5571,6 +5613,16 @@
 			(type default)
 		)
 		(uuid "20968d3c-7e3f-453d-a8fa-f65c50c89d81")
+	)
+	(wire
+		(pts
+			(xy 267.97 173.99) (xy 274.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f304a7-85b7-458c-a833-801c310f039f")
 	)
 	(wire
 		(pts
@@ -5844,16 +5896,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 180.34) (xy 242.57 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b73da24-461a-4026-9b22-517471ba4c11")
-	)
-	(wire
-		(pts
 			(xy 105.41 151.13) (xy 105.41 64.77)
 		)
 		(stroke
@@ -5891,6 +5933,16 @@
 			(type default)
 		)
 		(uuid "3f1d7d0d-430f-4f4a-993a-99d8c295d9df")
+	)
+	(wire
+		(pts
+			(xy 247.65 179.07) (xy 248.92 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5fb18f-a07d-4ca3-94a7-bef95a48ee37")
 	)
 	(wire
 		(pts
@@ -6144,16 +6196,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 180.34) (xy 251.46 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dc2ed7e-f846-4688-8897-77e56c4d7e7e")
-	)
-	(wire
-		(pts
 			(xy 233.68 72.39) (xy 252.73 72.39)
 		)
 		(stroke
@@ -6201,16 +6243,6 @@
 			(type default)
 		)
 		(uuid "628f941d-7ec8-4380-8607-9a0bb2d7b356")
-	)
-	(wire
-		(pts
-			(xy 274.32 173.99) (xy 261.62 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6374e95f-e113-4a62-81ff-55822c8b0233")
 	)
 	(wire
 		(pts
@@ -6271,16 +6303,6 @@
 			(type default)
 		)
 		(uuid "66884d61-c2b3-4b48-bde7-2a7d04a6d6f2")
-	)
-	(wire
-		(pts
-			(xy 242.57 180.34) (xy 242.57 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66b74601-54c7-43af-8c1a-7c55c1b53275")
 	)
 	(wire
 		(pts
@@ -6394,7 +6416,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 158.75) (xy 242.57 158.75)
+			(xy 250.19 158.75) (xy 251.46 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6411,16 +6433,6 @@
 			(type default)
 		)
 		(uuid "75e73a01-f18d-448b-b1ee-ad86a704583d")
-	)
-	(wire
-		(pts
-			(xy 246.38 173.99) (xy 242.57 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "799a17f8-026a-4536-b5cb-71d7d3929292")
 	)
 	(wire
 		(pts
@@ -6584,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 158.75) (xy 242.57 160.02)
+			(xy 251.46 158.75) (xy 251.46 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6884,16 +6896,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 173.99) (xy 242.57 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad2f3c71-8716-49d9-a383-0bbc07149728")
-	)
-	(wire
-		(pts
 			(xy 167.64 205.74) (xy 175.26 205.74)
 		)
 		(stroke
@@ -6964,7 +6966,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 173.99) (xy 351.79 173.99)
+			(xy 323.85 172.72) (xy 358.14 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6974,7 +6976,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 168.91) (xy 242.57 167.64)
+			(xy 251.46 168.91) (xy 251.46 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7051,16 +7053,6 @@
 			(type default)
 		)
 		(uuid "ba95fcc5-1981-4368-afeb-7ba129399b6c")
-	)
-	(wire
-		(pts
-			(xy 252.73 177.8) (xy 252.73 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb6313db-9e41-4c4e-afa4-f432aa789faf")
 	)
 	(wire
 		(pts
@@ -7144,6 +7136,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 179.07) (xy 259.08 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c092b5d1-84db-4bb2-a39c-26187e60189b")
+	)
+	(wire
+		(pts
 			(xy 30.48 31.75) (xy 33.02 31.75)
 		)
 		(stroke
@@ -7164,7 +7166,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 168.91) (xy 242.57 168.91)
+			(xy 115.57 168.91) (xy 251.46 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7184,7 +7186,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 167.64) (xy 262.89 168.91)
+			(xy 267.97 167.64) (xy 267.97 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7361,6 +7363,16 @@
 			(type default)
 		)
 		(uuid "d6b32cf3-95b2-4ec1-aa7e-a06e3cf908c6")
+	)
+	(wire
+		(pts
+			(xy 251.46 168.91) (xy 252.73 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7175603-4366-46a0-9b17-0122109dc433")
 	)
 	(wire
 		(pts
@@ -7564,6 +7576,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 173.99) (xy 247.65 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8dc72b-dd9a-4d19-acb1-142022007fe5")
+	)
+	(wire
+		(pts
 			(xy 251.46 137.16) (xy 252.73 137.16)
 		)
 		(stroke
@@ -7641,6 +7663,16 @@
 			(type default)
 		)
 		(uuid "f1e7988f-6f96-4cfb-9d05-2dd8b062c256")
+	)
+	(wire
+		(pts
+			(xy 256.54 179.07) (xy 259.08 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25cadee-c772-4429-8ab5-a3e7159631ea")
 	)
 	(wire
 		(pts
@@ -7744,16 +7776,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 168.91) (xy 242.57 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf5c6b3-7fc8-47be-ac8d-e4427575973b")
-	)
-	(wire
-		(pts
 			(xy 270.51 148.59) (xy 271.78 148.59)
 		)
 		(stroke
@@ -7833,7 +7855,7 @@
 		(uuid "64cbde92-a55b-4f0a-9cf4-b43bb9b293b5")
 	)
 	(label "DA1"
-		(at 351.79 173.99 0)
+		(at 358.14 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7937,7 +7959,7 @@
 		(uuid "6f32544a-e047-4779-900a-8bf540a50850")
 	)
 	(hierarchical_label "DA1"
-		(shape output)
+		(shape input)
 		(at 33.02 26.67 0)
 		(effects
 			(font
@@ -8153,6 +8175,89 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-5V")
+		(at 246.38 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "003e4690-fffe-4359-9198-754031ddc06a")
+		(property "Reference" "#PWR044"
+			(at 250.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-5V"
+			(at 241.554 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 246.38 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e965186-99ec-479b-a032-3390da8c4101")
+		)
+		(instances
+			(project "N30_GalvanicSeparation"
+				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PM2528:HEF4049B")
 		(at 308.61 173.99 0)
 		(mirror y)
@@ -8206,6 +8311,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 308.61 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 308.61 173.99 0)
 			(hide yes)
@@ -8218,17 +8334,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 308.61 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8355,6 +8460,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
+			(at 168.91 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10002"
 			(at 168.91 59.69 0)
 			(hide yes)
@@ -8367,17 +8483,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4013BP"
-			(at 168.91 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
 			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8433,6 +8538,12 @@
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "D3003")
+					(unit 2)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "D3003")
 					(unit 2)
 				)
@@ -8534,7 +8645,7 @@
 		(dnp no)
 		(uuid "0cd926b2-0e77-4a4f-b6b1-0db64327ba21")
 		(property "Reference" "B3003"
-			(at 260.604 98.298 0)
+			(at 258.064 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8544,7 +8655,7 @@
 			)
 		)
 		(property "Value" "CNX35"
-			(at 260.604 100.33 0)
+			(at 257.81 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8553,7 +8664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "PhilipsPM2528:CNX35_DIP-6_W7.62mm"
 			(at 260.35 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8564,7 +8675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/CNX35U.PDF"
 			(at 260.35 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8575,7 +8686,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, GaAs infrared LED and silicon NPN phototransistor with base connection, DIP-6. Pins 1 A, 2 K, 3 nc, 4 E, 5 C, 6 B. VCEO 30 V, CTR 40-160 % at IF 10 mA. On N30 (B3001-B3005) as selected CNX35, 5322 130 31718; the boards also carry CNX36."
 			(at 260.35 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8622,6 +8733,9 @@
 		)
 		(pin "6"
 			(uuid "3b896714-edb1-49ac-9ef5-b73a387a7ce4")
+		)
+		(pin "3"
+			(uuid "ae86634f-cfda-4e51-856e-a1812c7bc73e")
 		)
 		(instances
 			(project "N30_GalvanicSeparation"
@@ -8747,7 +8861,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4555B")
-		(at 386.08 219.71 0)
+		(at 64.77 248.92 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8757,7 +8871,7 @@
 		(dnp no)
 		(uuid "0fb21740-0fa6-48cb-9df7-6d97fad6b453")
 		(property "Reference" "D3007"
-			(at 381.762 210.82 0)
+			(at 60.452 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8767,7 +8881,7 @@
 			)
 		)
 		(property "Value" "HEF4555B"
-			(at 383.032 228.854 0)
+			(at 61.722 258.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8777,7 +8891,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 386.08 219.71 0)
+			(at 64.77 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8788,29 +8902,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4555B.PDF"
-			(at 386.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_PN" "5322 209 14188"
-			(at 386.08 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_Value" "HEF4555BP"
-			(at 386.08 219.71 0)
+			(at 64.77 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8821,7 +8913,29 @@
 			)
 		)
 		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active HIGH; A0/A1 select, ~{E} active LOW enable (data input as demux)"
-			(at 386.08 219.71 0)
+			(at 64.77 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14188"
+			(at 64.77 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "HEF4555BP"
+			(at 64.77 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8948,6 +9062,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active HIGH; A0/A1 select, ~{E} active LOW enable (data input as demux)"
+			(at 321.31 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14188"
 			(at 321.31 107.95 0)
 			(hide yes)
@@ -8960,17 +9085,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4555BP"
-			(at 321.31 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active HIGH; A0/A1 select, ~{E} active LOW enable (data input as demux)"
 			(at 321.31 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9046,7 +9160,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 247.65 180.34 90)
+		(at 252.73 179.07 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9057,7 +9171,7 @@
 		(dnp no)
 		(uuid "1669ec33-525e-4261-96a1-aa33441dbcd3")
 		(property "Reference" "R3007"
-			(at 247.65 177.8 90)
+			(at 252.73 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9067,7 +9181,7 @@
 			)
 		)
 		(property "Value" "154k"
-			(at 247.65 180.34 90)
+			(at 252.73 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9077,7 +9191,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 247.65 178.562 90)
+			(at 252.73 177.292 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9088,7 +9202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 180.34 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +9213,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 247.65 180.34 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +9224,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 116 54714"
-			(at 247.65 180.34 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +9235,7 @@
 			)
 		)
 		(property "Philips_Value" "154K 1% MR25"
-			(at 247.65 180.34 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9523,6 +9637,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active HIGH; A0/A1 select, ~{E} active LOW enable (data input as demux)"
+			(at 219.71 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14188"
 			(at 219.71 259.08 0)
 			(hide yes)
@@ -9535,17 +9660,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4555BP"
-			(at 219.71 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active HIGH; A0/A1 select, ~{E} active LOW enable (data input as demux)"
 			(at 219.71 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -9607,6 +9721,12 @@
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "D3007")
+					(unit 3)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "D3007")
 					(unit 3)
 				)
@@ -9879,6 +9999,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
+			(at 168.91 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10002"
 			(at 168.91 38.1 0)
 			(hide yes)
@@ -9901,31 +10032,20 @@
 				)
 			)
 		)
-		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
-			(at 168.91 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "8"
-			(uuid "5929f0a3-6847-45ca-981e-6e742ee8f0b6")
+			(uuid "5929f0a3-6847-45ca-981e-6e742ee8f0b7")
 		)
 		(pin "10"
-			(uuid "c4ef12f1-f031-4c5f-b8e0-9ada8e67bdda")
+			(uuid "c4ef12f1-f031-4c5f-b8e0-9ada8e67bddb")
 		)
 		(pin "11"
-			(uuid "5c1cbb35-7799-4a7d-b0d8-ca5947eefccf")
+			(uuid "5c1cbb35-7799-4a7d-b0d8-ca5947eefcd0")
 		)
 		(pin "12"
-			(uuid "4a4dee38-f5e2-42c7-ae4e-1f372c27f02c")
+			(uuid "4a4dee38-f5e2-42c7-ae4e-1f372c27f02d")
 		)
 		(pin "13"
-			(uuid "6817c8ea-5db0-495d-9308-78df31507337")
+			(uuid "6817c8ea-5db0-495d-9308-78df31507338")
 		)
 		(pin "3"
 			(uuid "7f17fbf6-9af5-44f4-90ed-6aa95e869888")
@@ -9937,13 +10057,13 @@
 			(uuid "a818a8a0-cbb6-4da5-8b16-e1f35a46461f")
 		)
 		(pin "9"
-			(uuid "69fc144e-d3c6-4265-abbb-fce0de21db92")
+			(uuid "69fc144e-d3c6-4265-abbb-fce0de21db93")
 		)
 		(pin "2"
 			(uuid "3e044b8d-64b9-4f72-8698-ac848c81cd68")
 		)
 		(pin "14"
-			(uuid "76438aef-763f-4e21-9213-1b8a67a0eaa3")
+			(uuid "76438aef-763f-4e21-9213-1b8a67a0eaa4")
 		)
 		(pin "6"
 			(uuid "9fce76bd-c7bd-49e2-9662-68d272a3c7e9")
@@ -9952,11 +10072,17 @@
 			(uuid "739a676c-c6ed-4f71-9dd6-a316a98d55d5")
 		)
 		(pin "7"
-			(uuid "2b3991c9-38fb-4184-9761-d7b35f33bc96")
+			(uuid "2b3991c9-38fb-4184-9761-d7b35f33bc97")
 		)
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "D3003")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "D3003")
 					(unit 1)
 				)
@@ -10038,6 +10164,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10096,6 +10228,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 233.68 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 233.68 217.17 0)
 			(hide yes)
@@ -10108,17 +10251,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 233.68 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 233.68 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -10349,6 +10481,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
+			(at 252.73 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10002"
 			(at 252.73 217.17 0)
 			(hide yes)
@@ -10371,55 +10514,44 @@
 				)
 			)
 		)
-		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
-			(at 252.73 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "8"
-			(uuid "5929f0a3-6847-45ca-981e-6e742ee8f0b6")
+			(uuid "5929f0a3-6847-45ca-981e-6e742ee8f0b8")
 		)
 		(pin "10"
-			(uuid "c4ef12f1-f031-4c5f-b8e0-9ada8e67bdda")
+			(uuid "c4ef12f1-f031-4c5f-b8e0-9ada8e67bddc")
 		)
 		(pin "11"
-			(uuid "5c1cbb35-7799-4a7d-b0d8-ca5947eefccf")
+			(uuid "5c1cbb35-7799-4a7d-b0d8-ca5947eefcd1")
 		)
 		(pin "12"
-			(uuid "4a4dee38-f5e2-42c7-ae4e-1f372c27f02c")
+			(uuid "4a4dee38-f5e2-42c7-ae4e-1f372c27f02e")
 		)
 		(pin "13"
-			(uuid "6817c8ea-5db0-495d-9308-78df31507337")
+			(uuid "6817c8ea-5db0-495d-9308-78df31507339")
 		)
 		(pin "3"
-			(uuid "7f17fbf6-9af5-44f4-90ed-6aa95e869888")
+			(uuid "7f17fbf6-9af5-44f4-90ed-6aa95e869889")
 		)
 		(pin "4"
-			(uuid "62512a40-d664-4080-8660-5299dabba3fe")
+			(uuid "62512a40-d664-4080-8660-5299dabba3ff")
 		)
 		(pin "5"
-			(uuid "a818a8a0-cbb6-4da5-8b16-e1f35a46461f")
+			(uuid "a818a8a0-cbb6-4da5-8b16-e1f35a464620")
 		)
 		(pin "9"
-			(uuid "69fc144e-d3c6-4265-abbb-fce0de21db92")
+			(uuid "69fc144e-d3c6-4265-abbb-fce0de21db94")
 		)
 		(pin "2"
-			(uuid "3e044b8d-64b9-4f72-8698-ac848c81cd68")
+			(uuid "3e044b8d-64b9-4f72-8698-ac848c81cd69")
 		)
 		(pin "14"
 			(uuid "19127dc8-9bbc-40e3-99b8-c04d5f3805a3")
 		)
 		(pin "6"
-			(uuid "9fce76bd-c7bd-49e2-9662-68d272a3c7e9")
+			(uuid "9fce76bd-c7bd-49e2-9662-68d272a3c7ea")
 		)
 		(pin "1"
-			(uuid "739a676c-c6ed-4f71-9dd6-a316a98d55d5")
+			(uuid "739a676c-c6ed-4f71-9dd6-a316a98d55d6")
 		)
 		(pin "7"
 			(uuid "c367f96d-aaff-47a5-b4ba-5286b3508879")
@@ -10427,6 +10559,12 @@
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "D3004")
+					(unit 3)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "D3004")
 					(unit 3)
 				)
@@ -10504,6 +10642,12 @@
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -10801,7 +10945,7 @@
 		(dnp no)
 		(uuid "2fda85dc-f194-4392-8d78-1760a9a3466a")
 		(property "Reference" "B3004"
-			(at 260.604 132.588 0)
+			(at 258.064 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10811,7 +10955,7 @@
 			)
 		)
 		(property "Value" "CNX35"
-			(at 260.604 134.62 0)
+			(at 257.81 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10820,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "PhilipsPM2528:CNX35_DIP-6_W7.62mm"
 			(at 260.35 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10831,7 +10975,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/CNX35U.PDF"
 			(at 260.35 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10842,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, GaAs infrared LED and silicon NPN phototransistor with base connection, DIP-6. Pins 1 A, 2 K, 3 nc, 4 E, 5 C, 6 B. VCEO 30 V, CTR 40-160 % at IF 10 mA. On N30 (B3001-B3005) as selected CNX35, 5322 130 31718; the boards also carry CNX36."
 			(at 260.35 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10889,6 +11033,9 @@
 		)
 		(pin "6"
 			(uuid "28cb4afd-5ed8-4498-aa3b-2013ef93a65c")
+		)
+		(pin "3"
+			(uuid "c986a03e-95e1-4063-a32e-0c295a0e0a8e")
 		)
 		(instances
 			(project "N30_GalvanicSeparation"
@@ -11313,7 +11460,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4049B")
-		(at 358.14 218.44 0)
+		(at 36.83 247.65 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11323,7 +11470,7 @@
 		(dnp no)
 		(uuid "3bc840c9-f2ac-4568-b401-ae9311f7eaeb")
 		(property "Reference" "D3001"
-			(at 356.362 212.344 0)
+			(at 35.052 241.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11333,7 +11480,7 @@
 			)
 		)
 		(property "Value" "HEF4049B"
-			(at 358.14 212.09 0)
+			(at 36.83 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11344,7 +11491,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 358.14 218.44 0)
+			(at 36.83 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11355,29 +11502,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4049B.PDF"
-			(at 358.14 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_PN" "5322 209 14049"
-			(at 358.14 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_Value" "HEF4049BP"
-			(at 358.14 218.44 0)
+			(at 36.83 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11388,7 +11513,29 @@
 			)
 		)
 		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
-			(at 358.14 218.44 0)
+			(at 36.83 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 36.83 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "HEF4049BP"
+			(at 36.83 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11769,7 +11916,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:CNX35")
-		(at 254 171.45 0)
+		(at 260.35 171.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11780,7 +11927,7 @@
 		(dnp no)
 		(uuid "43b79214-16f1-41e0-8360-a6c21a798a66")
 		(property "Reference" "B3005"
-			(at 253.746 164.338 0)
+			(at 258.064 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11790,7 +11937,7 @@
 			)
 		)
 		(property "Value" "CNX35"
-			(at 253.746 166.37 0)
+			(at 263.398 177.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11799,8 +11946,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 254 171.45 0)
+		(property "Footprint" "PhilipsPM2528:CNX35_DIP-6_W7.62mm"
+			(at 260.35 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11810,8 +11957,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 254 171.45 0)
+		(property "Datasheet" "Data/Documentation/Components/CNX35U.PDF"
+			(at 260.35 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11821,8 +11968,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 254 171.45 0)
+		(property "Description" "Optocoupler, GaAs infrared LED and silicon NPN phototransistor with base connection, DIP-6. Pins 1 A, 2 K, 3 nc, 4 E, 5 C, 6 B. VCEO 30 V, CTR 40-160 % at IF 10 mA. On N30 (B3001-B3005) as selected CNX35, 5322 130 31718; the boards also carry CNX36."
+			(at 260.35 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11833,7 +11980,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 130 31718"
-			(at 254 171.45 0)
+			(at 260.35 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11844,7 +11991,7 @@
 			)
 		)
 		(property "Philips_Value" "selected CNX35"
-			(at 254 171.45 0)
+			(at 260.35 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11868,6 +12015,9 @@
 		)
 		(pin "6"
 			(uuid "5ba1d502-817f-4fec-9ea8-6cc479a54ec5")
+		)
+		(pin "3"
+			(uuid "39ef69e7-9c58-43dd-af67-1d2350adeaeb")
 		)
 		(instances
 			(project "N30_GalvanicSeparation"
@@ -12038,6 +12188,12 @@
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -12226,6 +12382,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12282,6 +12444,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 96.52 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 96.52 64.77 0)
 			(hide yes)
@@ -12294,17 +12467,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 96.52 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 96.52 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12447,6 +12609,12 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12524,11 +12692,17 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "PM2528:LGND2")
-		(at 237.49 158.75 270)
+		(at 250.19 158.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12538,7 +12712,7 @@
 		(dnp no)
 		(uuid "507e9a5b-44d4-48af-b15c-1fb6f753d536")
 		(property "Reference" "#PWR030"
-			(at 231.14 158.75 0)
+			(at 243.84 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12549,7 +12723,7 @@
 			)
 		)
 		(property "Value" "LGND2"
-			(at 231.14 158.496 90)
+			(at 243.84 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12559,7 +12733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 158.75 0)
+			(at 250.19 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12570,7 +12744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 158.75 0)
+			(at 250.19 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12581,7 +12755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-			(at 237.49 158.75 0)
+			(at 250.19 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12604,89 +12778,6 @@
 			(project "PM2528_System"
 				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 242.57 181.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "52c98354-b6b1-4aef-8635-0bbf59e972e6")
-		(property "Reference" "#PWR028"
-			(at 242.57 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-5V"
-			(at 242.57 185.166 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 242.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e12812cc-e2ac-4c02-9875-43e3aef434c7")
-		)
-		(instances
-			(project "N30_GalvanicSeparation"
-				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-			(project "PM2528_System"
-				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
-					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -12939,6 +13030,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 227.33 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 227.33 217.17 0)
 			(hide yes)
@@ -12951,17 +13053,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 227.33 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 227.33 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -13189,6 +13280,12 @@
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -13442,6 +13539,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 284.48 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 284.48 67.31 0)
 			(hide yes)
@@ -13454,17 +13562,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 284.48 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 284.48 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13702,7 +13799,7 @@
 		(dnp no)
 		(uuid "728e0284-b886-42e2-8c36-96c8dd68f314")
 		(property "Reference" "B3002"
-			(at 260.604 62.738 0)
+			(at 258.064 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13712,7 +13809,7 @@
 			)
 		)
 		(property "Value" "CNX35"
-			(at 260.604 64.77 0)
+			(at 257.81 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13721,7 +13818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "PhilipsPM2528:CNX35_DIP-6_W7.62mm"
 			(at 260.35 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13732,7 +13829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/CNX35U.PDF"
 			(at 260.35 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13743,7 +13840,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, GaAs infrared LED and silicon NPN phototransistor with base connection, DIP-6. Pins 1 A, 2 K, 3 nc, 4 E, 5 C, 6 B. VCEO 30 V, CTR 40-160 % at IF 10 mA. On N30 (B3001-B3005) as selected CNX35, 5322 130 31718; the boards also carry CNX36."
 			(at 260.35 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13791,6 +13888,9 @@
 		(pin "6"
 			(uuid "f200857f-9412-4c3d-a254-27cf8e0e2411")
 		)
+		(pin "3"
+			(uuid "2c77966e-d11c-4b05-b03b-a442736b6ef1")
+		)
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
@@ -13808,7 +13908,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4049B")
-		(at 358.14 243.84 0)
+		(at 36.83 273.05 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13818,7 +13918,7 @@
 		(dnp no)
 		(uuid "777efc1f-565d-4be0-a31a-9ef1b05e2dc7")
 		(property "Reference" "D3001"
-			(at 356.616 237.744 0)
+			(at 35.306 266.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13828,7 +13928,7 @@
 			)
 		)
 		(property "Value" "HEF4049B"
-			(at 358.14 237.49 0)
+			(at 36.83 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13839,7 +13939,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 358.14 243.84 0)
+			(at 36.83 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13850,29 +13950,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4049B.PDF"
-			(at 358.14 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_PN" "5322 209 14049"
-			(at 358.14 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_Value" "HEF4049BP"
-			(at 358.14 243.84 0)
+			(at 36.83 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13883,7 +13961,29 @@
 			)
 		)
 		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
-			(at 358.14 243.84 0)
+			(at 36.83 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 36.83 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "HEF4049BP"
+			(at 36.83 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14119,6 +14219,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 292.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 292.1 173.99 0)
 			(hide yes)
@@ -14131,17 +14242,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 292.1 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 292.1 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -14485,6 +14585,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 96.52 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 96.52 48.26 0)
 			(hide yes)
@@ -14497,17 +14608,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 96.52 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 96.52 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14586,7 +14686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a4aface-7070-4006-bcb5-309f53d8dd83")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 76.2 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14902,7 +15002,7 @@
 		(dnp no)
 		(uuid "8e613e0d-8f7a-4016-855d-2436f69d62ed")
 		(property "Reference" "B3001"
-			(at 260.35 27.432 0)
+			(at 258.064 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14912,7 +15012,7 @@
 			)
 		)
 		(property "Value" "CNX35"
-			(at 260.35 29.21 0)
+			(at 256.54 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14921,7 +15021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(property "Footprint" "PhilipsPM2528:CNX35_DIP-6_W7.62mm"
 			(at 260.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -14932,7 +15032,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Data/Documentation/Components/CNX35U.PDF"
 			(at 260.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -14943,7 +15043,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, GaAs infrared LED and silicon NPN phototransistor with base connection, DIP-6. Pins 1 A, 2 K, 3 nc, 4 E, 5 C, 6 B. VCEO 30 V, CTR 40-160 % at IF 10 mA. On N30 (B3001-B3005) as selected CNX35, 5322 130 31718; the boards also carry CNX36."
 			(at 260.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -14990,6 +15090,9 @@
 		)
 		(pin "6"
 			(uuid "883e5658-ca2d-41d5-909c-343d13f5a5d5")
+		)
+		(pin "3"
+			(uuid "b5860b6f-cf9e-4c5f-b915-6b0a2034627c")
 		)
 		(instances
 			(project "N30_GalvanicSeparation"
@@ -15249,6 +15352,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 76.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 76.2 45.72 0)
 			(hide yes)
@@ -15261,17 +15375,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 76.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 76.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15398,6 +15501,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 96.52 109.22 0)
 			(hide yes)
@@ -15410,17 +15524,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 96.52 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -15624,6 +15727,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
+			(at 168.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10002"
 			(at 168.91 138.43 0)
 			(hide yes)
@@ -15636,17 +15750,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4013BP"
-			(at 168.91 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
 			(at 168.91 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15673,35 +15776,41 @@
 			(uuid "be9772b4-d61d-46c9-a827-4042a00cdeb7")
 		)
 		(pin "3"
-			(uuid "f8961c17-b409-4c84-9cbd-01d6b056285b")
+			(uuid "f8961c17-b409-4c84-9cbd-01d6b056285c")
 		)
 		(pin "4"
-			(uuid "6be91488-2da3-4bd3-8eab-87e288fa13b4")
+			(uuid "6be91488-2da3-4bd3-8eab-87e288fa13b5")
 		)
 		(pin "5"
-			(uuid "12b99504-7bbe-455b-ab5f-d3c9ff178598")
+			(uuid "12b99504-7bbe-455b-ab5f-d3c9ff178599")
 		)
 		(pin "9"
 			(uuid "0a2f9984-0bb0-44d4-ad46-7f280d4f38de")
 		)
 		(pin "2"
-			(uuid "4e3b64fd-df28-45da-ac26-e9f9301640c8")
+			(uuid "4e3b64fd-df28-45da-ac26-e9f9301640c9")
 		)
 		(pin "14"
-			(uuid "76438aef-763f-4e21-9213-1b8a67a0eaa3")
+			(uuid "76438aef-763f-4e21-9213-1b8a67a0eaa5")
 		)
 		(pin "6"
-			(uuid "9c486ab8-ca5a-4653-a361-5dd551cc95a0")
+			(uuid "9c486ab8-ca5a-4653-a361-5dd551cc95a1")
 		)
 		(pin "1"
-			(uuid "e6dd8d44-6df9-427b-a709-6e1624da4b9a")
+			(uuid "e6dd8d44-6df9-427b-a709-6e1624da4b9b")
 		)
 		(pin "7"
-			(uuid "2b3991c9-38fb-4184-9761-d7b35f33bc96")
+			(uuid "2b3991c9-38fb-4184-9761-d7b35f33bc98")
 		)
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "D3004")
+					(unit 2)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "D3004")
 					(unit 2)
 				)
@@ -15719,7 +15828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a16e13b0-1eb9-4ed5-83f4-fecfd259bbcb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 156.21 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15847,6 +15956,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
+			(at 246.38 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10002"
 			(at 246.38 217.17 0)
 			(hide yes)
@@ -15869,62 +15989,57 @@
 				)
 			)
 		)
-		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
-			(at 246.38 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "8"
-			(uuid "5929f0a3-6847-45ca-981e-6e742ee8f0b6")
+			(uuid "5929f0a3-6847-45ca-981e-6e742ee8f0b9")
 		)
 		(pin "10"
-			(uuid "c4ef12f1-f031-4c5f-b8e0-9ada8e67bdda")
+			(uuid "c4ef12f1-f031-4c5f-b8e0-9ada8e67bddd")
 		)
 		(pin "11"
-			(uuid "5c1cbb35-7799-4a7d-b0d8-ca5947eefccf")
+			(uuid "5c1cbb35-7799-4a7d-b0d8-ca5947eefcd2")
 		)
 		(pin "12"
-			(uuid "4a4dee38-f5e2-42c7-ae4e-1f372c27f02c")
+			(uuid "4a4dee38-f5e2-42c7-ae4e-1f372c27f02f")
 		)
 		(pin "13"
-			(uuid "6817c8ea-5db0-495d-9308-78df31507337")
+			(uuid "6817c8ea-5db0-495d-9308-78df3150733a")
 		)
 		(pin "3"
-			(uuid "7f17fbf6-9af5-44f4-90ed-6aa95e869888")
+			(uuid "7f17fbf6-9af5-44f4-90ed-6aa95e86988a")
 		)
 		(pin "4"
-			(uuid "62512a40-d664-4080-8660-5299dabba3fe")
+			(uuid "62512a40-d664-4080-8660-5299dabba400")
 		)
 		(pin "5"
-			(uuid "a818a8a0-cbb6-4da5-8b16-e1f35a46461f")
+			(uuid "a818a8a0-cbb6-4da5-8b16-e1f35a464621")
 		)
 		(pin "9"
-			(uuid "69fc144e-d3c6-4265-abbb-fce0de21db92")
+			(uuid "69fc144e-d3c6-4265-abbb-fce0de21db95")
 		)
 		(pin "2"
-			(uuid "3e044b8d-64b9-4f72-8698-ac848c81cd68")
+			(uuid "3e044b8d-64b9-4f72-8698-ac848c81cd6a")
 		)
 		(pin "14"
-			(uuid "76438aef-763f-4e21-9213-1b8a67a0eaa3")
+			(uuid "76438aef-763f-4e21-9213-1b8a67a0eaa6")
 		)
 		(pin "6"
-			(uuid "9fce76bd-c7bd-49e2-9662-68d272a3c7e9")
+			(uuid "9fce76bd-c7bd-49e2-9662-68d272a3c7eb")
 		)
 		(pin "1"
-			(uuid "739a676c-c6ed-4f71-9dd6-a316a98d55d5")
+			(uuid "739a676c-c6ed-4f71-9dd6-a316a98d55d7")
 		)
 		(pin "7"
-			(uuid "2b3991c9-38fb-4184-9761-d7b35f33bc96")
+			(uuid "2b3991c9-38fb-4184-9761-d7b35f33bc99")
 		)
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "D3003")
+					(unit 3)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "D3003")
 					(unit 3)
 				)
@@ -16016,7 +16131,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4049B")
-		(at 358.14 231.14 0)
+		(at 36.83 260.35 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16026,7 +16141,7 @@
 		(dnp no)
 		(uuid "a41f25ed-53db-4769-8fa2-7e09f2a4452d")
 		(property "Reference" "D3001"
-			(at 356.362 225.044 0)
+			(at 35.052 254.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16036,7 +16151,7 @@
 			)
 		)
 		(property "Value" "HEF4049B"
-			(at 358.14 224.79 0)
+			(at 36.83 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16047,7 +16162,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 358.14 231.14 0)
+			(at 36.83 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16058,29 +16173,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4049B.PDF"
-			(at 358.14 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_PN" "5322 209 14049"
-			(at 358.14 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_Value" "HEF4049BP"
-			(at 358.14 231.14 0)
+			(at 36.83 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16091,7 +16184,29 @@
 			)
 		)
 		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
-			(at 358.14 231.14 0)
+			(at 36.83 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 36.83 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "HEF4049BP"
+			(at 36.83 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16410,6 +16525,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 213.36 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 213.36 259.08 0)
 			(hide yes)
@@ -16422,17 +16548,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 213.36 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 213.36 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -16517,7 +16632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac542133-d42a-491c-ae5f-dd32fb11d5fe")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 167.64 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -16925,7 +17040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd49291f-6831-4cb1-b9c3-16a3ff39ace3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 195.58 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17321,7 +17436,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:HEF4049B")
-		(at 375.92 243.84 0)
+		(at 54.61 273.05 0)
 		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17331,7 +17446,7 @@
 		(dnp no)
 		(uuid "c3d9bad5-1558-464c-b7c5-37aa362eb46f")
 		(property "Reference" "D3006"
-			(at 374.396 237.744 0)
+			(at 53.086 266.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17341,7 +17456,7 @@
 			)
 		)
 		(property "Value" "HEF4049B"
-			(at 376.174 250.19 0)
+			(at 54.864 279.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17351,7 +17466,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 375.92 243.84 0)
+			(at 54.61 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17362,29 +17477,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4049B.PDF"
-			(at 375.92 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_PN" "5322 209 14049"
-			(at 375.92 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_Value" "HEF4049BP"
-			(at 375.92 243.84 0)
+			(at 54.61 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17395,7 +17488,29 @@
 			)
 		)
 		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
-			(at 375.92 243.84 0)
+			(at 54.61 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 54.61 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "HEF4049BP"
+			(at 54.61 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17470,7 +17585,7 @@
 	)
 	(symbol
 		(lib_id "PM2528:+5VOG")
-		(at 262.89 167.64 0)
+		(at 267.97 167.64 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17481,7 +17596,7 @@
 		(dnp no)
 		(uuid "c4e9b7c8-2f70-484e-8f6a-853b0a56dcc2")
 		(property "Reference" "#PWR29"
-			(at 262.89 171.45 0)
+			(at 267.97 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17492,7 +17607,7 @@
 			)
 		)
 		(property "Value" "+5VOG"
-			(at 263.398 163.83 0)
+			(at 268.478 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17502,7 +17617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 167.64 0)
+			(at 267.97 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17513,7 +17628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 167.64 0)
+			(at 267.97 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17524,7 +17639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 262.89 167.64 0)
+			(at 267.97 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17736,11 +17851,17 @@
 					(unit 1)
 				)
 			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "PM2528:HEF4049B")
-		(at 358.14 205.74 0)
+		(at 36.83 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17750,7 +17871,7 @@
 		(dnp no)
 		(uuid "d7555032-81b8-4c97-b8f1-3d8e37f03475")
 		(property "Reference" "D3001"
-			(at 356.362 199.39 0)
+			(at 35.052 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17760,7 +17881,7 @@
 			)
 		)
 		(property "Value" "HEF4049B"
-			(at 358.14 199.39 0)
+			(at 36.83 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17771,7 +17892,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 358.14 205.74 0)
+			(at 36.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17782,29 +17903,7 @@
 			)
 		)
 		(property "Datasheet" "Data/Documentation/Components/HEF4049B.PDF"
-			(at 358.14 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_PN" "5322 209 14049"
-			(at 358.14 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Philips_Value" "HEF4049BP"
-			(at 358.14 205.74 0)
+			(at 36.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17815,7 +17914,29 @@
 			)
 		)
 		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
-			(at 358.14 205.74 0)
+			(at 36.83 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_PN" "5322 209 14049"
+			(at 36.83 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Philips_Value" "HEF4049BP"
+			(at 36.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18261,6 +18382,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
+			(at 168.91 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 10002"
 			(at 168.91 106.68 0)
 			(hide yes)
@@ -18273,17 +18405,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4013BP"
-			(at 168.91 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual D-type flip-flop, positive-edge triggered (CP); SD set and CD clear are asynchronous and active HIGH"
 			(at 168.91 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18310,35 +18431,41 @@
 			(uuid "bb838f7c-7a83-4e50-91df-2077d57ca6ed")
 		)
 		(pin "3"
-			(uuid "f8961c17-b409-4c84-9cbd-01d6b056285b")
+			(uuid "f8961c17-b409-4c84-9cbd-01d6b056285d")
 		)
 		(pin "4"
-			(uuid "6be91488-2da3-4bd3-8eab-87e288fa13b4")
+			(uuid "6be91488-2da3-4bd3-8eab-87e288fa13b6")
 		)
 		(pin "5"
-			(uuid "12b99504-7bbe-455b-ab5f-d3c9ff178598")
+			(uuid "12b99504-7bbe-455b-ab5f-d3c9ff17859a")
 		)
 		(pin "9"
 			(uuid "ec89e225-d1dd-46ca-a76c-dcb94ca3e40f")
 		)
 		(pin "2"
-			(uuid "4e3b64fd-df28-45da-ac26-e9f9301640c8")
+			(uuid "4e3b64fd-df28-45da-ac26-e9f9301640ca")
 		)
 		(pin "14"
-			(uuid "76438aef-763f-4e21-9213-1b8a67a0eaa3")
+			(uuid "76438aef-763f-4e21-9213-1b8a67a0eaa7")
 		)
 		(pin "6"
-			(uuid "9c486ab8-ca5a-4653-a361-5dd551cc95a0")
+			(uuid "9c486ab8-ca5a-4653-a361-5dd551cc95a2")
 		)
 		(pin "1"
-			(uuid "e6dd8d44-6df9-427b-a709-6e1624da4b9a")
+			(uuid "e6dd8d44-6df9-427b-a709-6e1624da4b9c")
 		)
 		(pin "7"
-			(uuid "2b3991c9-38fb-4184-9761-d7b35f33bc96")
+			(uuid "2b3991c9-38fb-4184-9761-d7b35f33bc9a")
 		)
 		(instances
 			(project "N30_GalvanicSeparation"
 				(path "/6784e7c3-155e-4573-b80e-6fead634d4c8"
+					(reference "D3004")
+					(unit 1)
+				)
+			)
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/f7c5d432-3ff4-57ea-9184-88e50d1cc21d"
 					(reference "D3004")
 					(unit 1)
 				)
@@ -18398,6 +18525,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 323.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 323.85 31.75 0)
 			(hide yes)
@@ -18410,17 +18548,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 323.85 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 323.85 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -18547,6 +18674,17 @@
 				)
 			)
 		)
+		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
+			(at 114.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14046"
 			(at 114.3 62.23 0)
 			(hide yes)
@@ -18559,17 +18697,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4011BP"
-			(at 114.3 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple 2-input NAND gate, buffered outputs: O = ~(I1.I2)"
 			(at 114.3 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -18941,6 +19068,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 130.81 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 130.81 62.23 0)
 			(hide yes)
@@ -18953,17 +19091,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 130.81 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 130.81 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -19090,6 +19217,17 @@
 				)
 			)
 		)
+		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
+			(at 323.85 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "5322 209 14049"
 			(at 323.85 67.31 0)
 			(hide yes)
@@ -19102,17 +19240,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4049BP"
-			(at 323.85 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex inverting buffer (HIGH-to-LOW level shifter, input may exceed VDD): nY = ~nA; pins 13, 16 n.c."
 			(at 323.85 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -19297,7 +19424,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 163.83 0)
+		(at 251.46 163.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19308,7 +19435,7 @@
 		(dnp no)
 		(uuid "ee4a1226-ea53-45f9-acbd-14b4b37e9430")
 		(property "Reference" "R3006"
-			(at 245.11 163.83 90)
+			(at 249.174 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19318,7 +19445,7 @@
 			)
 		)
 		(property "Value" "2k05"
-			(at 242.57 163.83 90)
+			(at 251.46 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19328,7 +19455,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 244.348 163.83 90)
+			(at 253.238 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19339,7 +19466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 163.83 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19350,7 +19477,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 163.83 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19361,7 +19488,7 @@
 			)
 		)
 		(property "Philips_PN" "5322 116 50664"
-			(at 242.57 163.83 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19372,7 +19499,7 @@
 			)
 		)
 		(property "Philips_Value" "2K05 1% MR25"
-			(at 242.57 163.83 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20040,5 +20167,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

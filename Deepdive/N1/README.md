@@ -12,7 +12,7 @@ The motherboard holds everything that isn't on an expansion board or the display
 - Three I/O expanders (8243) that drive about 50 relays and read some status lines
 - The ADC input multiplexer, which selects the signal for the ADC
 - Interrupts (keys, IEC bus, external start), watchdog and mains synchronisation
-- Sockets X20-X31 for the expansion boards
+- Sockets X20-X31 for the expansion boards, and X1901 for the flat cable of the IEC or BCD option
 
 ## Signal flow
 ```mermaid

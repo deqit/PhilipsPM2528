@@ -3730,6 +3730,24 @@
 			)
 			(symbol "HEF4556B_1_0"
 				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{EA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "A0A"
@@ -3758,24 +3776,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{EA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3820,7 +3820,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0.0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "~{O2A}"
 						(effects
@@ -3879,53 +3879,17 @@
 				)
 			)
 			(symbol "HEF4556B_2_0"
-				(pin input line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "A0B"
+					(name "~{O3B}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{EB}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3934,16 +3898,16 @@
 					)
 				)
 				(pin output line
-					(at 10.16 5.08 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "~{O0B}"
+					(name "~{O2B}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3970,16 +3934,16 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0.0 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "~{O2B}"
+					(name "~{O0B}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3987,17 +3951,53 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 -2.54 180)
+				(pin input line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "~{O3B}"
+					(name "A1B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "A0B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{EB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -23174,6 +23174,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active LOW; A0/A1 select, ~{E} active LOW enable (data input as demux)"
+			(at 572.77 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 209 10004"
 			(at 572.77 341.63 0)
 			(hide yes)
@@ -23186,17 +23197,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4556BP"
-			(at 572.77 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active LOW; A0/A1 select, ~{E} active LOW enable (data input as demux)"
 			(at 572.77 341.63 0)
 			(hide yes)
 			(show_name no)
@@ -23256,6 +23256,12 @@
 			(uuid "cc518ef9-cd52-497e-abb9-27fb1a7223a3")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/53988bed-73ba-5507-9b59-b2e4184eaff0"
+					(reference "D212")
+					(unit 3)
+				)
+			)
 			(project "N2_DisplayUnit"
 				(path "/aa270f01-0612-4f7b-b68e-e9003beeba60"
 					(reference "D212")
@@ -25321,6 +25327,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active LOW; A0/A1 select, ~{E} active LOW enable (data input as demux)"
+			(at 43.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 209 10004"
 			(at 43.18 170.18 0)
 			(hide yes)
@@ -25333,17 +25350,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4556BP"
-			(at 43.18 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active LOW; A0/A1 select, ~{E} active LOW enable (data input as demux)"
 			(at 43.18 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -26402,6 +26408,17 @@
 				)
 			)
 		)
+		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active LOW; A0/A1 select, ~{E} active LOW enable (data input as demux)"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Philips_PN" "4822 209 10004"
 			(at 153.67 63.5 0)
 			(hide yes)
@@ -26414,17 +26431,6 @@
 			)
 		)
 		(property "Philips_Value" "HEF4556BP"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 1-of-4 decoder/demultiplexer, outputs active LOW; A0/A1 select, ~{E} active LOW enable (data input as demux)"
 			(at 153.67 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -36183,5 +36189,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

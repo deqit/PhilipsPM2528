@@ -23,6 +23,8 @@ The motherboard is drawn on four sheets:
 ### Card sockets
 Each expansion board plugs into its own 19-pin socket (X20-X27, X30, X31). The pinout of each card is described on the card's own page. Analog cards get 0 V, -5 V, -15 V, +15 V and +5 V on pins 1-5. N31 is an outguard board and gets the isolated outguard supply instead.
 
+The IEC interface (N32) or the BCD output (N34) isn't a plug-in card: it connects with a 10-way flat cable to X1901. On the motherboard, X1901 is wired to the option bus of the N30 socket (DA0, DA1, CLOCK, DLEN2, DLEN3) and to the outguard supply; its pin 8 (STDO) goes to the start optocoupler B1801.
+
 ### Input terminals
 ![N1 Inputs](assets/N1_Section_Inputs.png "N1 Input terminals, divider and shunts")
 - **V/Ω input:** the high-voltage input. Relay K1401 sends it to the AC amplifier, K1201 to the DC divider.

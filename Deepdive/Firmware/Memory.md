@@ -20,11 +20,11 @@ The 8035 has 64 bytes. The firmware uses both register banks: the interrupt hand
 | 0x28 | ZeroTrim | Input offset compensation (OFFSET, IEC `O1O1`) |
 | 0x29 | OffsetRef | Relative reference (OFFSET, IEC `O1`) |
 | 0x2C | ReadingSign | Sign of the last conversion |
-| 0x2D-0x2F | Reading | The last conversion, BCD |
+| 0x2D-0x2F | Reading | The last conversion, BCD. During the display task 0x2E/0x2F hold a snapshot of FuncRange and Mode (see below) |
 | 0x30 | AccSign | Work register for calculations: sign |
 | 0x31-0x33 | Acc | Work register for calculations, BCD |
 | 0x34 | ResultSign | Sign of the displayed result |
-| 0x35-0x37 | Result | The displayed result, BCD |
+| 0x35-0x37 | Result | The displayed result, BCD (`0x37` = D1 D0, `0x36` = D3 D2, `0x35` = D5 D4). Also sent to the option boards N31 and N34 |
 | 0x38 | IecParseState | IEC command parser state |
 | 0x39 | TalkIndex | IEC talker: position in the output string |
 | 0x3A | InterfaceStatus | Status of the IEC board |
@@ -74,6 +74,28 @@ The main loop is a simple scheduler. Each bit of TaskFlags is a task; the lowest
 
 The measurement itself steps through MeasurementSequencer, one bit at a time: init → settle → mains sync → convert → range check → compute.
 
+### 0x2E-0x2F during the display task
+By the time the display task runs (0x0f71), the conversion result has moved to Result (0x35-0x37), so the display task reuses two Reading bytes for a snapshot of the settings that belong to this reading:
+
+| Address | Contents | Used for |
+| - | - | - |
+| 0x2E | FuncRange with the autorange bit cleared | Decimal point and sign on the display, function and range code of the BCD output (N34) |
+| 0x2F | Mode | Bit 4 (OFFSET): with a relative reading, every function shows a sign, also on the BCD output |
+
+The same code also writes TalkFuncRange (0x3E) for the IEC talker.
+
+### Reading output to the option boards
+After each reading, the display task sends Result to the outguard option boards through N30:
+
+| Option | Select | What is sent |
+| - | - | - |
+| Analog output N31 | DLEN1 | 0x37, 0x36, 0x35, LSB first (24 bits); blank digits cleared to 0 |
+| BCD output N34 (only without an IEC board) | DLEN2 | One SAA1060 word: 0x37, 0x36 (digits D0-D3) |
+|  | DLEN3 | One SAA1060 word: D4, D5 bits 0-1, overload, polarity, function code (table at 0x0729) and range code (9 - range); blank digits stay 1111 |
+| IEC interface N32 (when fitted) | DLEN2/DLEN3 | The reading as text, over the IEC bus handshake |
+
+The codes are described on the [N34 Operation page](../N34/Operation.md#the-codes).
+
 ## I/O addresses (MOVX)
 There's no external RAM; the external memory space only holds I/O devices. The decoding is partial, so the map repeats every 0x40.
 
@@ -85,7 +107,8 @@ There's no external RAM; the external memory space only holds I/O devices. The d
 | 0x20 | Status port D1814: D7, D6 = mains-sync phases, D5 = watchdog (0 = fired), D4 = ADC TEST switch (0 = test loop) | - |
 
 - Every access to 0x08, read or write, also makes a clock pulse on the option bus.
-- Device select at 0x10: `0x00` = DLEN1 (N31 analog output), `0x80` = DLEN2 (IEC board, to the CPU), `0x40` = DLEN3 (IEC board, from the CPU), `0xC0` = none.
+- Device select at 0x10: `0x00` = DLEN1 (N31 analog output), `0x80` = DLEN2 (IEC board N32: to the CPU; BCD board N34: low digits), `0x40` = DLEN3 (IEC board: from the CPU; BCD board: high digits and codes), `0xC0` = none.
+- DA1 carries the IEC board status, or on the BCD board the START DVM latch.
 - The counter reads are masked with 0x0F, because D4-D7 aren't driven by the counter.
 
 ---

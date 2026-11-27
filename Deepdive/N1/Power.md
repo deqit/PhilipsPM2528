@@ -10,7 +10,7 @@ The transformer has four windings:
 | Winding | Rectifier | Regulator | Rail | Use |
 | - | - | - | - | - |
 | TR1A | - | - | - | Primary; my unit is wired for 240 V |
-| TR1B | V1901 | A1901 7805 | +5VOG / GNDOG | Outguard supply, isolated from the rest (N30, N31, IEC board) |
+| TR1B | V1901 | A1901 7805 | +5VOG / GNDOG | Outguard supply, isolated from the rest (N30, N31, the IEC board N32 or the BCD board N34) |
 | TR1C | V1001 | A1001 7815, A1002 7915 | +15 V, -15 V | Analog supply |
 | TR1C | V1001 | From +15 V via R1002 and zener V1004 | +5 V | Analog supply |
 | TR1D | V1002, V1003 | A1003 7905 | -5 V | Logic supply (logic 0 = -5 V, logic 1 = 0 V) |

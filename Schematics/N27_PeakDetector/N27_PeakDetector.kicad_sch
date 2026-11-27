@@ -3021,6 +3021,17 @@
 				)
 			)
 			(symbol "HEF4066B_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -3057,37 +3068,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_2_0"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "Y1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3099,6 +3081,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3126,6 +3126,17 @@
 				)
 			)
 			(symbol "HEF4066B_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -3162,19 +3173,26 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_3_0"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -3211,26 +3229,19 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4066B_3_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -3267,37 +3278,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4066B_4_0"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "Y3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -3309,6 +3291,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3336,6 +3336,17 @@
 				)
 			)
 			(symbol "HEF4066B_4_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -3370,17 +3381,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -3508,6 +3508,60 @@
 				)
 			)
 			(symbol "HEF4104B_1_0"
+				(pin power_in line
+					(at 5.08 20.32 270)
+					(length 2.54)
+					(name "VDDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "~{O0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "O0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -10.16 10.16 0)
 					(length 2.54)
@@ -3537,96 +3591,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "I2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "I3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "EO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "O0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "~{O0}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3670,17 +3634,17 @@
 						)
 					)
 				)
-				(pin tri_state line
-					(at 10.16 0.0 180)
+				(pin power_in line
+					(at 0 -15.24 90)
 					(length 2.54)
-					(name "O2"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3699,6 +3663,60 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3742,6 +3760,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "EO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -5.08 20.32 270)
 					(length 2.54)
@@ -3760,44 +3796,19 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 20.32 270)
-					(length 2.54)
-					(name "VDDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "HEF4104B_1_1"
+				(rectangle
+					(start -7.62 17.78)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.524 10.922) (xy 3.556 10.922) (xy 2.54 9.398) (xy 1.524 10.922)
@@ -3808,17 +3819,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 17.78)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -3899,24 +3899,6 @@
 			)
 			(symbol "HEF4528B_1_0"
 				(pin passive line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "RC_{TCA}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "C_{TCA}"
@@ -3934,17 +3916,35 @@
 						)
 					)
 				)
-				(pin input edge_clock_high
-					(at -10.16 0 0)
+				(pin passive line
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "~{I0A}"
+					(name "RC_{TCA}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "~{CDA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3970,17 +3970,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -7.62 0)
+				(pin input edge_clock_high
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "~{CDA}"
+					(name "~{I0A}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4026,6 +4026,17 @@
 				)
 			)
 			(symbol "HEF4528B_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.524 7.112) (xy 2.413 7.112) (xy 2.413 8.636) (xy 3.683 8.636) (xy 3.683 7.112) (xy 4.572 7.112)
@@ -4038,30 +4049,19 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "HEF4528B_2_0"
-				(pin passive line
-					(at -10.16 7.62 0)
+				(pin output line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "RC_{TCB}"
+					(name "~{OB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4069,17 +4069,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 5.08 0)
+				(pin output line
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "C_{TCB}"
+					(name "OB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4141,17 +4141,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 5.08 180)
+				(pin passive line
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "OB"
+					(name "RC_{TCB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4159,17 +4159,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
+				(pin passive line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "~{OB}"
+					(name "C_{TCB}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4179,6 +4179,17 @@
 				)
 			)
 			(symbol "HEF4528B_2_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.524 7.112) (xy 2.413 7.112) (xy 2.413 8.636) (xy 3.683 8.636) (xy 3.683 7.112) (xy 4.572 7.112)
@@ -4189,17 +4200,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -12813,6 +12813,12 @@
 			(uuid "ceedbed8-a08a-405d-8d06-9670f3f48ab3")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "R2717")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "R2717")
@@ -12956,6 +12962,12 @@
 			(uuid "1d5fc1ab-57e2-4fb8-924f-0f5877f6b5cb")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "D2702")
+					(unit 2)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "D2702")
@@ -13033,6 +13045,12 @@
 			(uuid "92073a8f-eaa0-4e5a-8626-a0adb7af0e33")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "#PWR079")
@@ -13576,6 +13594,12 @@
 			(uuid "f9f6bd53-b30c-4aec-99b7-042becd34a6a")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "#PWR037")
@@ -13927,7 +13951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eedeeb2-44cb-48b5-870d-c9d1f09dda51")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR43"
 			(at 260.35 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -14307,6 +14331,12 @@
 			(uuid "1d87ab40-02d6-4f8a-99de-a5a8f964dd53")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "#PWR04")
@@ -14384,6 +14414,12 @@
 			(uuid "6659b898-545a-4ac2-97b4-f07d452474ea")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "#PWR035")
@@ -14820,6 +14856,12 @@
 			(uuid "ba78ab30-0768-4ae4-8222-d149e8405f34")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "#PWR085")
@@ -14983,7 +15025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff2687e-4d01-4b56-9f4a-aeb64ba76dcb")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR58"
 			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15517,6 +15559,12 @@
 			(uuid "1d5fc1ab-57e2-4fb8-924f-0f5877f6b5cc")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "D2702")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "D2702")
@@ -15536,7 +15584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a8b6171-d890-4536-aa13-01f795a32fa0")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR24"
 			(at 377.19 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -15746,6 +15794,12 @@
 			(uuid "1d5fc1ab-57e2-4fb8-924f-0f5877f6b5cd")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "D2702")
+					(unit 3)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "D2702")
@@ -16187,7 +16241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61e6e792-93ab-47f3-8915-59e6141824b7")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR70"
 			(at 260.35 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16270,7 +16324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "621dee92-e3f8-4dfd-9340-a004b5128950")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR63"
 			(at 247.65 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16520,7 +16574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "655d917b-ba73-48ab-8c19-c6460ee41783")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR28"
 			(at 302.26 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -16706,7 +16760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "678ab515-f41a-461a-9d79-40124f90b9b0")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR47"
 			(at 251.46 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -17083,7 +17137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70d78f02-18f9-4e8a-9469-81c504a17f31")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR46"
 			(at 245.11 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -17276,7 +17330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73a18ccd-dde7-46fe-8c3c-5d9253124b9d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR25"
 			(at 114.3 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17801,7 +17855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8146662a-0efa-48fa-ba33-315f4926b268")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR26"
 			(at 114.3 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18242,7 +18296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "860fb563-b0bc-444b-9a49-ef93cf7a6745")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR45"
 			(at 227.33 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -18816,7 +18870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fe4a1cf-ea8e-443d-8349-fe7716f348cd")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR50"
 			(at 201.93 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19775,6 +19829,12 @@
 			(uuid "68ff5344-d540-4f0f-866f-28e13f7d8915")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "#PWR080")
@@ -19920,6 +19980,12 @@
 			(uuid "cec15a6b-6261-4c8c-a596-23fc6062329e")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "D2703")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "D2703")
@@ -19939,7 +20005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a11068d7-10aa-452a-9159-07e37969746d")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR67"
 			(at 295.91 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -20678,6 +20744,12 @@
 			(uuid "3f9233e8-7993-455a-8af4-a4ed81da42d2")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "#PWR087")
@@ -21133,7 +21205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4af9ad7-e368-48da-b277-97ad2254375f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR48"
 			(at 269.24 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -21410,7 +21482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bad662d1-7793-4021-8ad6-9c4a27dbe68d")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR59"
 			(at 237.49 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -21600,7 +21672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2205729-c4e3-4dcf-a73c-a01a92403109")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR44"
 			(at 236.22 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -21979,6 +22051,12 @@
 			(uuid "04280a4b-758c-4375-8939-5291ab828633")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "C2708")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "C2708")
@@ -22247,6 +22325,12 @@
 			(uuid "1f121e72-493e-4895-8895-d65bb37d24ed")
 		)
 		(instances
+			(project "PM2528_System"
+				(path "/a449d4f3-3c46-59b1-a6c4-754ca12e8994/5b5a92cf-d0f5-57da-937a-8f9ed180da69"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
 			(project "N27_PeakDetector"
 				(path "/cee5e9fe-3cec-4119-b6e5-547fd834757d"
 					(reference "#PWR086")
@@ -22266,7 +22350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfec0c3d-8784-4ea0-bf30-ac861fc373a3")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR54"
 			(at 204.47 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -23214,7 +23298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f04d8215-9312-4701-9e53-95686251072c")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR69"
 			(at 278.13 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -23657,7 +23741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd4bab67-cb80-4c60-adb8-3736bfc0522c")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR68"
 			(at 280.67 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -23734,5 +23818,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

@@ -3,30 +3,33 @@ N27 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)
 
 This expansion board captures the highest or lowest value of the AC signal (function Vpeak). It is an option.
 
-Its functions include:
+## Functions
 - Scaling the signal from N24 (×1 or ×0.1)
 - Selecting the high peak (Û) or the low peak (Ǔ)
 - Holding the peak on a capacitor, with a reset by the CPU
 - Telling the CPU when a peak is captured and stable (/BSY, /STADC)
 
+## Signal flow
+N27 takes the output of the AC amplifier and hands the held peak to the ADC. The CPU controls it and waits for its status lines.
+
 ```mermaid
 flowchart LR
-    IN(["IN (pin 7)<br/>from N24"]) --> DIV["Divider ÷10<br/>K2701: X10"]
-    DIV --> A2701["A2701<br/>(Ǔ, low peak)"]
-    DIV --> A2702["A2702 inverting<br/>(Û, high peak)"]
-    A2701 --> SW["D2701 switch<br/>SEL"]
-    A2702 --> SW
-    SW --> DET["Peak detector<br/>A2703 + C2712"]
-    DET --> BUF["Buffer<br/>V2716 + A2704"]
-    BUF --> OUT(["OUT (pin 12)<br/>to ADC"])
-    BUF -- "feedback" --> DET
-    RES(["/RESET (pin 14)"]) --> DET
-    DET --> MONO["Monostables D2702"]
-    MONO --> BSY(["/BSY, /STADC<br/>(pins 15, 16)"])
+    N24["N24<br/>AC Amplifier"]
+    subgraph N27["Expansionboard N27"]
+        PK["Peak Detector"]
+    end
+    subgraph N1["Motherboard"]
+        EXP["Port expander<br/>D1703"]
+        MUX["ADC input mux<br/>D1101"]
+    end
+    N24 -. "OUT" .-> PK
+    EXP -. "X10, SEL, /RESET" .-> PK
+    PK -. "/BSY, /STADC" .-> EXP
+    PK -. "OUT" .-> MUX
+    style N27 fill:#fff3a0,color:#000
 ```
 
-### The signals
-#### External signals (to/from this board)
+## Edge connector
 
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
@@ -57,3 +60,6 @@ flowchart LR
 - [Schematics](Schematics.md): the full schematic, internal signals and the sections
 - [PCB](PCB.md): the board layout and 3D view
 - [Switching](Switching.md): the relay and the peak-select switches
+
+---
+N27 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · [Switching](Switching.md)

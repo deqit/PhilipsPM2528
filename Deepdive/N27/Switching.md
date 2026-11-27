@@ -34,3 +34,6 @@ The level shifter D2703 (HEF4104) turns **SEL** into two complementary control s
 In the amplitude function (Û - Ǔ) the firmware measures both peaks, one after the other, so each switch is closed in turn.
 
 _Source: the relay routine in the firmware, run in an emulator, with the expander wiring of Fig 7.6 of the service manual; SEL polarity from the HEF4104 data sheet._
+
+---
+N27 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · **Switching**

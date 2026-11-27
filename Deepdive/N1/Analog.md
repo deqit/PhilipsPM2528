@@ -1,6 +1,7 @@
 # Motherboard (N1) · Analog sheet
 N1 › [Overview](README.md) · [Main sheet](MainSheet.md) · [Digital](Digital.md) · **Analog** · [Power](Power.md) · [Switching](Switching.md)
 
+## Full schematic
 ![N1 Schematics Analog](assets/N1_Schematics_Analog.png "N1 Schematics - Analog")
 
 ## Relay drivers
@@ -26,4 +27,8 @@ D1101 (HEF4051) selects the signal that goes to the ADC (N21, `ADC_IN`). D1705 (
 | Y6 FAST | N22 output (DC_OUT) via R1108, unfiltered | VDC in fast mode; ADC |
 | Y7 | 4-wire sense (OHM4W_SENSE) via R1103 | Ω 4W, °C |
 
-_Note: the DC current function (ADC) uses the filtered and unfiltered inputs the other way round from VDC. That might be deliberate or a firmware bug; I still need to check it on the instrument._
+> [!NOTE]
+> The DC current function (ADC) uses the filtered and unfiltered inputs the other way round from VDC. That might be deliberate or a firmware bug; I still need to check it on the instrument.
+
+---
+N1 › [Overview](README.md) · [Main sheet](MainSheet.md) · [Digital](Digital.md) · **Analog** · [Power](Power.md) · [Switching](Switching.md)

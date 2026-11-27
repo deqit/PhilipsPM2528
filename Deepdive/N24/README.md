@@ -3,26 +3,38 @@ N24 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)
 
 This expansion board is the wideband amplifier for the AC functions. Its output feeds the RMS converter (N25) and the peak detector (N27).
 
-Its functions include:
+## Functions
 - Amplifying the AC input signal over a wide frequency range
 - Keeping its own DC offset at zero with a slow chopper servo
 - Detecting signals with a crest factor that is too high (CFI)
 
 N24 has no relays: the gain is set by the input network on the mainboard, and the firmware doesn't touch this board.
 
+## Signal flow
+N24 gets its input and feedback networks from the mainboard and feeds the RMS converter and the peak detector.
+
 ```mermaid
 flowchart LR
-    IN(["IN (pin 10)"]) --> AMP["Wideband amplifier<br/>V2404 … V2416"]
-    AMP --> OUT(["OUT (pin 17)<br/>to N25, N27"])
-    IN --> SERVO["Chopper offset servo<br/>V2401, A2401, V2402"]
-    SERVO -- "offset correction<br/>(gate 2)" --> AMP
-    IN --> CFI["Crest factor detector<br/>A2402"]
-    OUT --> CFI
-    CFI --> CFIOUT(["CFI (pin 14)"])
+    subgraph N1["Motherboard"]
+        NET["Input and feedback networks<br/>K1401-K1406"]
+        CFL["CFI latch<br/>D1801"]
+    end
+    subgraph N24["Expansionboard N24"]
+        AC["AC Amplifier"]
+    end
+    N25["N25<br/>RMS Converter"]
+    N27["N27<br/>Peak Detector"]
+    N26["N26<br/>HF Unit"]
+    NET -. "IN" .-> AC
+    AC -. "OUT (feedback, K1403)" .-> NET
+    AC -. "OUT" .-> N25
+    AC -. "OUT" .-> N27
+    AC -. "CFI" .-> CFL
+    N26 -. "HF A (Vhf, via V1401)" .-> NET
+    style N24 fill:#fff3a0,color:#000
 ```
 
-### The signals
-#### External signals (to/from this board)
+## Edge connector
 
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
@@ -54,3 +66,6 @@ flowchart LR
 - [PCB](PCB.md): the board layout and 3D view
 
 _N24 has no relays. Its only switches are the chopper FETs of the offset servo, described under Operation._
+
+---
+N24 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md)

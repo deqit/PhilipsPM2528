@@ -3,15 +3,39 @@ N21 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)
 
 This expansion board realizes the actual Dual Slope Integrator.
 
-Its functions include:
+## Functions
 - Providing a reference voltage
 - Realizing the actual Dual Slope Integrator
 - Selecting the right signal to be fed into the integrator
 
-![ADC Signalflow](assets/ADC_Signalflow_N21.png "The signalflow between the components")
+## Signal flow
+N21 receives the conditioned input from the mainboard and is steered by the ADC Control (N20). The counter and the CPU on the mainboard turn the result into a reading.
 
-### The signals
-#### External signals (to/from this board)
+```mermaid
+flowchart LR
+    IN(["Input<br/>(conditioned, inverted)"])
+    subgraph N21["Expansionboard N21"]
+        ANA["ADC Analog"]
+    end
+    subgraph N20["Expansionboard N20"]
+        CTL["ADC Control"]
+    end
+    subgraph N1["Motherboard"]
+        CPU["CPU (8035)"]
+        CNT["Counter"]
+    end
+    IN -.-> ANA
+    CTL -. "UP, DN+, DN-, AZ" .-> ANA
+    ANA -. "COMP" .-> CTL
+    CTL -. "AZ, XC20, POL" .-> CPU
+    CPU -. "SAZ, SRUP, CP, HSM" .-> CTL
+    CTL -. "CPC, RC" .-> CNT
+    CNT -. "C20000" .-> CTL
+    CNT -. "Count" .-> CPU
+    style N21 fill:#fff3a0,color:#000
+```
+
+## Edge connector
 
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
@@ -37,16 +61,11 @@ Its functions include:
 | 18 | 🟧 **0V** |  | Supply zero | Mainboard |  |
 | 19 | 🟦 **COMP** | O | COMParator output (zero-crossing detector) | ADC Control | TP2109 |
 
-In the scope-screendumps, you'll also see these signals:
-| Trace | Description | Measuring point |
-| - | - | - |
-| **yellow** | Input into ADC Integrator | TP2105 |
-| **purple** | ADC Integrator voltage | TP2106 |
-
-_Note: the scope ground was on the -5 V rail (logic 0), so logic swings 0–5 V on screen and analog 0 V appears at +5 V_
-
 ## More about this board
 - [Operation](Operation.md): a measurement cycle, step by step
 - [Schematics](Schematics.md): the full schematic, internal signals and the sections
 - [PCB](PCB.md): the board layout and 3D view
 - [Switching](Switching.md): the analog switches per ADC phase
+
+---
+N21 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · [Switching](Switching.md)

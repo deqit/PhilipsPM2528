@@ -87,3 +87,6 @@ There's no external RAM; the external memory space only holds I/O devices. The d
 - Every access to 0x08, read or write, also makes a clock pulse on the option bus.
 - Device select at 0x10: `0x00` = DLEN1 (N31 analog output), `0x80` = DLEN2 (IEC board, to the CPU), `0x40` = DLEN3 (IEC board, from the CPU), `0xC0` = none.
 - The counter reads are masked with 0x0F, because D4-D7 aren't driven by the counter.
+
+---
+Firmware › [Overview](README.md) · **Memory** · [Ports](Ports.md)

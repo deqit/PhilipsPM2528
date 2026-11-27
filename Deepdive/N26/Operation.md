@@ -1,7 +1,21 @@
 # HF Unit (Expansionboard N26) · Operation
 N26 › [Overview](README.md) · **Operation** · [Schematics](Schematics.md) · [PCB](PCB.md) · [Switching](Switching.md)
 
-_Note: I haven't made scope captures of this board, so the description below is based on the schematics, the Philips documentation, the firmware and a simulation._
+> [!NOTE]
+> I haven't made scope captures of this board, so the description below is based on the schematics, the Philips documentation, the firmware and a simulation.
+
+## Block diagram
+```mermaid
+flowchart LR
+    PROBE(["HF probe PM9211<br/>+V / -V (pins 15, 16)"]) --> SUM["Sum node<br/>R2602-R2604"]
+    SUM -- "K2604" --> N22["N22 as integrator<br/>(pins 10, 11)"]
+    N22 --> CTRL["Control voltage<br/>(TP2602)"]
+    OSC["Oscillator<br/>100 kHz"] --> AMP["Two controlled<br/>amplifier stages"]
+    CTRL --> AMP
+    AMP --> OUTST["Output stage<br/>V2606"]
+    OUTST -- "100 kHz (pins 12, 13)" --> PROBE
+    OUTST --> N24(["N24 / N25<br/>RMS measurement"])
+```
 
 ## How it works
 The HF probe rectifies two signals: the HF input voltage, and the 100 kHz carrier from N26. N26 changes the carrier level until both rectified voltages are equal. The PM2528 then measures the RMS value of the carrier, which is a clean 100 kHz signal, instead of the HF signal itself.
@@ -22,3 +36,6 @@ The firmware only allows the 200 mV and 2 V ranges in Vhf; the 20 V and 200 V ra
 
 - **K2601** shorts the sum node to zero in Ω 4-wire and °C: the probe socket is shared with the Pt100 probe, and pins 15/16 then carry the 4-wire sense lines.
 - **K2602** ties the data hold line J to zero in Vhf, so the HF probe's data hold button doesn't work in its own function.
+
+---
+N26 › [Overview](README.md) · **Operation** · [Schematics](Schematics.md) · [PCB](PCB.md) · [Switching](Switching.md)

@@ -3,25 +3,32 @@ N25 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)
 
 This expansion board turns the amplified AC signal from N24 into a DC voltage equal to its true RMS value. The ADC then measures that DC voltage.
 
-Its functions include:
+## Functions
 - Full-wave rectifying the signal (absolute value)
 - Computing the RMS value with a log/antilog circuit
 - Averaging, with a FAST or SLOW setting (S2501)
 - Dividing the output by 10 in the 2000 V range (K2501)
 
+## Signal flow
+N25 converts the output of the AC amplifier into a DC voltage for the ADC.
+
 ```mermaid
 flowchart LR
-    IN(["IN (pin 7)<br/>from N24"]) --> RECT["Absolute value<br/>A2501"]
-    RECT --> LOG["Square / divide<br/>A2502, V2504, V2505"]
-    LOG --> AVG["Averaging<br/>A2503 (S2501 FAST/SLOW)"]
-    AVG --> SCALE["Scale<br/>A2504"]
-    SCALE -- "feedback: divide by output" --> LOG
-    AVG --> DIV["Output divider<br/>K2501: ÷10"]
-    DIV --> OUT(["OUT (pin 13)<br/>to ADC"])
+    N24["N24<br/>AC Amplifier"]
+    subgraph N1["Motherboard"]
+        EXP["Port expander<br/>D1703"]
+        MUX["ADC input mux<br/>D1101"]
+    end
+    subgraph N25["Expansionboard N25"]
+        RMS["RMS Converter"]
+    end
+    N24 -. "OUT" .-> RMS
+    EXP -. "REL2501" .-> RMS
+    RMS -. "OUT (RMS_OUT)" .-> MUX
+    style N25 fill:#fff3a0,color:#000
 ```
 
-### The signals
-#### External signals (to/from this board)
+## Edge connector
 
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
@@ -52,3 +59,6 @@ flowchart LR
 - [Schematics](Schematics.md): the full schematic, internal signals and the sections
 - [PCB](PCB.md): the board layout and 3D view
 - [Switching](Switching.md): the relay per function and range
+
+---
+N25 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · [Switching](Switching.md)

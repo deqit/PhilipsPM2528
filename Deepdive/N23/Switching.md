@@ -3,8 +3,6 @@ N23 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schem
 
 N23 has seven relays. They set the measuring current for the Ω ranges and °C. In all other functions they are all off. The CPU drives them directly from port expander D1701 on the mainboard (port bit 0 = on).
 
-● = energised (closed) · blank = released (open)
-
 ## Relays
 | Relay | Driven by | Switches |
 | - | - | - |
@@ -17,6 +15,8 @@ N23 has seven relays. They set the measuring current for the Ω ranges and °C. 
 | **K2307** | REL2307 (pin 16), D1701 P50 | Puts the 1 MΩ divider (R2331 trimmer) in parallel with the 9.09 MΩ one |
 
 ## Per function and range
+● = energised (closed) · blank = released (open)
+
 | Function | Range | K2301 | K2302 | K2303 | K2304 | K2305 | K2306 | K2307 |
 | - | - | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Ω 2-wire, Ω 4-wire | 200 Ω | ● |  |  |  | ● |  |  |
@@ -33,3 +33,6 @@ N23 has seven relays. They set the measuring current for the Ω ranges and °C. 
 °C uses the same relays as the 2000 Ω range (1 mA). The currents and full-scale voltages per range are on the [Operation](Operation.md) page.
 
 _Source: the relay routine in the firmware, run in an emulator, with the expander wiring of Fig 7.6 of the service manual._
+
+---
+N23 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · **Switching**

@@ -116,3 +116,6 @@ All interrupts arrive on the single external interrupt input. The handler (0x003
 | Watchdog | Status port 0x20 bit 5 low; the firmware restarts the main loop (0x084) |
 
 Interrupts are switched off around time-critical code, like the data-hold sample and the IEC handshakes.
+
+---
+Firmware › [Overview](README.md) · [Memory](Memory.md) · **Ports**

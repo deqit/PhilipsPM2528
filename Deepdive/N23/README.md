@@ -3,25 +3,34 @@ N23 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)
 
 This expansion board delivers the measuring current for the resistance and temperature functions.
 
-Its functions include:
+## Functions
 - Making a precise current from the 2 V reference
 - Selecting the current with relays (10 mA down to 10 µA)
 - Making a weak source for the MΩ ranges
 - Protecting itself against voltage on the Ω input
 
+## Signal flow
+N23 takes its reference from N21 and feeds the measuring current to the input relays. The CPU selects the range with seven relay lines.
+
 ```mermaid
 flowchart LR
-    VREF(["+2VRef (pin 9)<br/>from N21"]) --> HOW["Howland current source<br/>A2301 + V2301"]
-    HOW --> LADDER["Resistor ladder<br/>K2301-K2304: tap"]
-    LADDER --> K2305{"K2305 / K2306"}
-    K2305 -- "low ranges" --> IOUT(["Iout (pin 19)"])
-    K2305 -- "MΩ ranges" --> DIV["Shunt 901 Ω +<br/>9.09 MΩ / 1 MΩ"] --> IOUT
-    CPU(["CPU relay lines<br/>pins 10-16"]) --> LADDER
-    CPU --> K2305
+    N21["N21<br/>ADC Analog"]
+    N22["N22<br/>DC Amplifier"]
+    subgraph N1["Motherboard"]
+        EXP["Port expander<br/>D1701"]
+        REL["Input relays<br/>K1301, K1302"]
+    end
+    subgraph N23["Expansionboard N23"]
+        CS["Current Source"]
+    end
+    N21 -. "+2VRef" .-> CS
+    EXP -. "REL2301-REL2307" .-> CS
+    N22 -. "HIOUT2 (filter)" .-> CS
+    CS -. "Iout" .-> REL
+    style N23 fill:#fff3a0,color:#000
 ```
 
-### The signals
-#### External signals (to/from this board)
+## Edge connector
 
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
@@ -52,3 +61,6 @@ flowchart LR
 - [Schematics](Schematics.md): the full schematic, internal signals and the sections
 - [PCB](PCB.md): the board layout and 3D view
 - [Switching](Switching.md): the relays per function and range
+
+---
+N23 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · [Switching](Switching.md)

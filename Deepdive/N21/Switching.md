@@ -3,8 +3,6 @@ N21 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schem
 
 N21 has no relays. Its analog switches follow the phase of the ADC, not the function or range: every measurement runs through the same sequence. The ADC Control (N20) sets the phase with the signals **AZ**, **UP**, **DN+** and **DN-**.
 
-● = switch closed · blank = open
-
 ## Input selector D2101 (HEF4066)
 The four switches of D2101 connect one of four signals to the buffer input (**Switch**, TP2104). D2102 (HEF4104) shifts the control signals from the 0/-5 V logic of N20 to +5/-5 V for the switches. All four channels of D2102 are non-inverting, so a switch is closed while its control signal is active.
 
@@ -22,6 +20,8 @@ The JFET V2102 closes the auto-zero loop: it connects the output of the slope am
 - **xAZ low** (-5 V): V2103 pulls the gate to -5 V and the JFET is off, so C2104 holds its charge during the conversion.
 
 ## Per ADC phase
+● = switch closed · blank = open
+
 | Phase | N20 signal | INPUT (S1) | +2VRef (S4) | -2VRef (S3) | Zero (S2) | Auto-zero (V2102) |
 | - | - | :-: | :-: | :-: | :-: | :-: |
 | Auto-zero (idle) | AZ |  |  |  | ● | ● |
@@ -30,3 +30,6 @@ The JFET V2102 closes the auto-zero loop: it connects the output of the slope am
 | Ramp-down, negative input | DN- |  |  | ● |  |  |
 
 See [Operation](Operation.md) for the timing of these phases in a real measurement cycle.
+
+---
+N21 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · **Switching**

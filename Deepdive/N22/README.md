@@ -3,24 +3,41 @@ N22 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)
 
 This expansion board is the high-impedance input amplifier for DC voltage, resistance and current. It sits between the input relays and the ADC.
 
-Its functions include:
+## Functions
 - Buffering the input signal with a very high input impedance
 - Amplifying it ×1 or ×10, depending on the range
 - Keeping the offset at µV level with a chopper-stabilised second channel
 - Protecting itself against overvoltage with clamp diodes
 
+## Signal flow
+N22 sits between the input relays and the ADC. The CPU sets its gain; in Vhf, N26 borrows it as an integrator.
+
 ```mermaid
 flowchart LR
-    IN(["HI (pin 10)"]) --> FAST["Fast path<br/>FET pair V2201 + A2201"]
-    IN --> CHOP["Chopper channel<br/>V2205, A2202, V2212"]
-    CHOP -- "offset correction<br/>(gate 2)" --> FAST
-    FAST --> OUT1(["HIOUT1 (pin 14)"])
-    FAST --> R2235["R2235 100 Ω"] --> OUT2(["HIOUT2 (pin 15)<br/>to ADC"])
-    FAST --> DIV["Feedback divider<br/>K2201/K2202: ×1 / ×10"] --> LO(["LO (pin 8)"])
+    subgraph N1["Motherboard"]
+        RIN["Input relays<br/>K1202-K1204, K1307, K1605"]
+        ROUT["Relays K1306,<br/>K1606-K1610"]
+        MUX["ADC input mux<br/>D1101"]
+        EXP["Port expander<br/>D1701"]
+        ZERO(["Input socket '0'"])
+    end
+    subgraph N22["Expansionboard N22"]
+        DCA["DC Amplifier"]
+    end
+    N23["N23<br/>Current Source"]
+    N26["N26<br/>HF Unit"]
+    RIN -. "HI" .-> DCA
+    EXP -. "RELHI" .-> DCA
+    DCA -. "HIOUT1" .-> ROUT
+    DCA -. "HIOUT2 (DC_OUT)" .-> MUX
+    DCA -. "LO" .-> ZERO
+    DCA -. "HIOUT2 (filter)" .-> N23
+    N26 -. "DC AMPL INPUT (HI)" .-> DCA
+    DCA -. "HIOUT1" .-> N26
+    style N22 fill:#fff3a0,color:#000
 ```
 
-### The signals
-#### External signals (to/from this board)
+## Edge connector
 
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
@@ -51,3 +68,6 @@ flowchart LR
 - [Schematics](Schematics.md): the full schematic, internal signals and the sections
 - [PCB](PCB.md): the board layout and 3D view
 - [Switching](Switching.md): the relays and switching FETs per function and range
+
+---
+N22 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · [Switching](Switching.md)

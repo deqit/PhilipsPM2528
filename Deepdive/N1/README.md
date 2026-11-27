@@ -3,7 +3,7 @@ N1 › **Overview** · [Main sheet](MainSheet.md) · [Digital](Digital.md) · [A
 
 The motherboard holds everything that isn't on an expansion board or the display: the power supply, the CPU, the relays that route the input signals, and the sockets for all expansion boards.
 
-Its functions include:
+## Functions
 - Power supply: all supply rails, plus a separate isolated supply for the outguard boards
 - Input terminals, input divider, current shunts and overload protection
 - The input and feedback networks of the AC amplifier (N24)
@@ -14,6 +14,7 @@ Its functions include:
 - Interrupts (keys, IEC bus, external start), watchdog and mains synchronisation
 - Sockets X20-X31 for the expansion boards
 
+## Signal flow
 ```mermaid
 flowchart LR
     IN(["Input terminals<br/>V/Ω, A, 0, probe"]) --> REL["Input relays<br/>divider, shunts"]
@@ -37,3 +38,6 @@ The firmware side of all this (port bits, addresses, internal memory) is describ
 - [Analog](Analog.md): relay drivers and the ADC input multiplexer
 - [Power](Power.md): transformer, rectifiers and regulators
 - [Switching](Switching.md): which relay is on in which function and range, and the ADC multiplexer
+
+---
+N1 › **Overview** · [Main sheet](MainSheet.md) · [Digital](Digital.md) · [Analog](Analog.md) · [Power](Power.md) · [Switching](Switching.md)

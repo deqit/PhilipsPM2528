@@ -42,3 +42,6 @@ Some fixed addresses:
 - `reveng/IEC_INTERFACE.md`: the IEC bus protocol and commands
 - `reveng/CONSISTENCY_REPORT.md`: the full analysis, including firmware bugs and quirks
 - The plate comments in the Ghidra project: every memory location and port bit, in bitwise notation
+
+---
+Firmware › **Overview** · [Memory](Memory.md) · [Ports](Ports.md)

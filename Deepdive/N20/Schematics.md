@@ -1,13 +1,14 @@
 # ADC Control (Expansionboard N20) · Schematics
 N20 › [Overview](README.md) · [Operation](Operation.md) · **Schematics** · [PCB](PCB.md)
 
-## Schematics
 I copied and rearranged the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
+
+## Full schematic
 ![N20 Schematics](assets/N20_Schematics.png "N20 Schematics")
 
-The input- and output signals of this board are listed on the [overview page](README.md#the-signals). The 'local' signals are listed in the next table.
+## Internal signals
+The signals on the edge connector are listed on the [overview page](README.md#edge-connector). These are the local ones.
 
-#### Internal signals
 | Name | Description | Testpoint |
 | - | - | - |
 | **xSTD** | STart Down-count. Goes high 8 **CP** pulses after RampDown starts (Q3 of counter D2002A) and triggers the **RC** pulse that restarts the counter.|
@@ -24,12 +25,13 @@ The input- and output signals of this board are listed on the [overview page](RE
 | **x/CP** | **C**lock**P**ulses (inverted)  | |
 | **xECP** | **E**nable **C**lock**P**ulses (gate for pulses to counter)| |
 
-### Section: Counter-control (to Counter)
+## Sections
+### Counter-control (to Counter)
 This section generates the **CPC** (ClockPulses for Counter) and **RC** (Reset Counter) signals.
 
 ![N20 Counter-control schematic](assets/N20_Section_CounterControl.png "N20 Counter-control schematic")
 
-### Section: RampUp, AutoZero (to ADC)
+### RampUp, AutoZero (to ADC)
 This section generates the **UP** (RampUp active) and **AZ** (AutoZero) signals.
 
 The **UP** (RampUp) signal is active during the RampUp phase.
@@ -37,23 +39,23 @@ The **AZ** (AutoZero) signal is active when the measurement is not active, i.e. 
 
 ![N20 RampUp, AutoZero schematic](assets/N20_Section_UpAutozero.png "N20 RampUp, AutoZero schematic")
 
-### Section: Polarity and RampDown (to ADC)
+### Polarity and RampDown (to ADC)
 This section generates the **POL** (Polarity), **DN+** and **DN-** (DownRamp) signals.
 
 ![N20 Polarity, RampDown schematic](assets/N20_Section_PolRampdown.png "N20 Polarity, RampDown schematic")
 
-### Section: Gated Counter-overflow (to uP)
+### Gated Counter-overflow (to uP)
 This section creates the **XC20** signal for the CPU. This is in fact a gated Counter-Overflow signal. The gate is closed in the RampUp phase, and opened in the RampDown phase.
 
 ![N20 Gated Counter-overflow schematic](assets/N20_Section_GatedCounterOverflow.png "N20 Gated Counter-overflow schematic")
 
-### Section: Determine end of RampUp phase
+### Determine end of RampUp phase
 This section generates the internal **xENC20** signal. In HSM-mode it sets **xENC20** after the 1st Counter-overflow, so the RampUp-phase ends at the 2nd overflow (40.000 counts, 20 ms). Otherwise it sets **xENC20** after the 9th overflow, and the RampUp-phase ends at the 10th (200.000 counts, 100 ms). The RampUp-phase ends with the **xEC20** pulse.
 
 ![N20 End of RampUp schematic](assets/N20_Section_EndOfRampUp.png "N20 End of RampUp schematic")
 
 
-### Section: Timing-table
+### Timing-table
 | **CP**-Edge | What's happening | Components |
 |-|-|-|
 | rising, **SRUP**=high|**RC** set|D2005 (**RC**) |
@@ -70,3 +72,6 @@ This section generates the internal **xENC20** signal. In HSM-mode it sets **xEN
 | (**COMP** flips) | **xRDY** set --> **xSCP** --> counter gate closes | D2006 --> D2003 (**xRDY**) |
 | next falling | **xRD** cleared, **DN+** or **DN-** off | D2003 (**xRD**) |
 | next falling | **AZ** set --> CPU sees this, pulses **SAZ** after 67us | D2009 (**xAZ**) |
+
+---
+N20 › [Overview](README.md) · [Operation](Operation.md) · **Schematics** · [PCB](PCB.md)

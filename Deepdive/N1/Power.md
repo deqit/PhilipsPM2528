@@ -1,7 +1,10 @@
 # Motherboard (N1) · Power sheet
 N1 › [Overview](README.md) · [Main sheet](MainSheet.md) · [Digital](Digital.md) · [Analog](Analog.md) · **Power** · [Switching](Switching.md)
 
+## Full schematic
 ![N1 Schematics Power](assets/N1_Schematics_Power.png "N1 Schematics - Power")
+
+## Supply rails
 The transformer has four windings:
 
 | Winding | Rectifier | Regulator | Rail | Use |
@@ -15,4 +18,8 @@ The transformer has four windings:
 
 TR1.13-TR1.15 also feed the mains sync circuit on the digital sheet.
 
-_Note: all logic runs between -5 V and 0 V. So on the scope, with the probe ground on 0 V, a logic "1" is 0 V and a logic "0" is -5 V._
+> [!NOTE]
+> All logic runs between -5 V and 0 V. So on the scope, with the probe ground on 0 V, a logic "1" is 0 V and a logic "0" is -5 V.
+
+---
+N1 › [Overview](README.md) · [Main sheet](MainSheet.md) · [Digital](Digital.md) · [Analog](Analog.md) · **Power** · [Switching](Switching.md)

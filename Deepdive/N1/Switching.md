@@ -145,3 +145,6 @@ The multiplexer input doesn't depend on the range, only on the function and on f
 ## Other expander lines
 - **`/ES`** (D1702 P60, external supply for the probe): driven low only in VDC.
 - **`~DH_SAMPLE`** (D1702 P70): high in every function; the firmware pulses it low only while it reads the data-hold line.
+
+---
+N1 › [Overview](README.md) · [Main sheet](MainSheet.md) · [Digital](Digital.md) · [Analog](Analog.md) · [Power](Power.md) · **Switching**

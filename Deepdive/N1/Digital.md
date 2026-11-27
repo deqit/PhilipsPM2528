@@ -1,6 +1,7 @@
 # Motherboard (N1) · Digital sheet
 N1 › [Overview](README.md) · [Main sheet](MainSheet.md) · **Digital** · [Analog](Analog.md) · [Power](Power.md) · [Switching](Switching.md)
 
+## Full schematic
 ![N1 Schematics Digital](assets/N1_Schematics_Digital.png "N1 Schematics - Digital")
 
 ## CPU and program memory
@@ -40,3 +41,6 @@ D1817A (AND) combines the sources into `INT` for the CPU.
 - D1807B (one-shot) and D1811B (flip-flop) make two phase signals, which D1817C/D turn into D7 and D6.
 - The firmware waits for one of them before each conversion, so every conversion starts at the same point of the mains period. It alternates between the two phases on successive conversions.
 - **D1814A (HEF40098)** puts these on the data bus when the CPU reads address 0x20, together with `~WDTO` (D5) and the ADC TEST switch S1801B (D4).
+
+---
+N1 › [Overview](README.md) · [Main sheet](MainSheet.md) · **Digital** · [Analog](Analog.md) · [Power](Power.md) · [Switching](Switching.md)

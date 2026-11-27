@@ -3,25 +3,34 @@ N2 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) 
 
 The display unit is the front panel: six 7-segment digits, the indicator lamps and LEDs, and the 18 keys. It has no intelligence of its own; the CPU on the motherboard writes every segment and scans the keys.
 
-Its functions include:
+## Functions
 - Driving six 7-segment LED digits through shift registers
 - Showing the function, the unit, the sign and the trigger mode with LEDs and small lamps
 - Reading the keyboard, and interrupting the CPU when a key is pressed
 - Making its own -5 V supply
 
+## Signal flow
+The display unit hangs on the CPU's expander bus. The peripheral select on the mainboard tells it whether the CPU talks to its I/O expanders or to the digit shift registers.
+
 ```mermaid
 flowchart LR
-    CPU(["CPU (N1)<br/>P20-P25, PROG, PS1, PS2"]) --> SEL["Select<br/>D212 (HEF4556)"]
-    SEL -- "PS1" --> EXP["I/O expanders<br/>D201, D202 (8243)"]
-    SEL -- "PS2" --> SR["Shift registers<br/>D204-D209 (74LS164)"]
-    SR --> DIG["6 digits<br/>H201-H206"]
-    EXP --> IND["Indicators<br/>D210, D211, D203"]
-    EXP <--> KEY["Keyboard<br/>S201-S218"]
-    KEY -- "INTX" --> CPU
+    subgraph N1["Motherboard"]
+        CPU["CPU (8035)"]
+        PS["Peripheral select<br/>D1803A"]
+        INT["Interrupt controller"]
+    end
+    subgraph N2["Display Unit N2"]
+        DU["Expanders, displays,<br/>indicators, keys"]
+    end
+    CPU -. "P20-P23, PROG" .-> DU
+    CPU -. "P24, P25" .-> DU
+    CPU -. "P26, P27" .-> PS
+    PS -. "/PS1, /PS2" .-> DU
+    DU -. "INTX" .-> INT
+    style N2 fill:#fff3a0,color:#000
 ```
 
-### The signals
-#### External signals (to/from this board)
+## Edge connector
 
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
@@ -48,3 +57,6 @@ flowchart LR
 - [PCB](PCB.md): the board layout and 3D view
 
 _N2 has no relays or analog switches._
+
+---
+N2 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md)

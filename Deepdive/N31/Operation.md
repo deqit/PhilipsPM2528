@@ -1,26 +1,47 @@
 # Analog Output (Expansionboard N31) · Operation
 N31 › [Overview](README.md) · **Operation** · [Schematics](Schematics.md)
 
-_Note: I haven't made scope captures of this board yet, so the description below is based on the schematics and the firmware._
+> [!NOTE]
+> I haven't made scope captures of this board yet, so the description below is based on the schematics and the firmware.
+
+## Block diagram
+```mermaid
+flowchart LR
+    CPU["CPU<br/>(firmware 0x07a7)"] -- "DLEN1, CLOCK, DATA" --> N30["N30<br/>Galvanic separation"]
+    N30 -- "DLEN1, CLOCK, DATA" --> SR["Shift registers<br/>D3101, D3102"]
+    S3101["DIGIT SELECT<br/>S3101"] --> SR
+    S3101 --> ADD["+500 adder<br/>D3105"]
+    SR --> ADD
+    ADD --> CNT["BCD down counters<br/>D3106-D3109"]
+    SR --> CNT
+    OSC["Oscillator<br/>~850 kHz"] --> LOAD["LOAD pulse<br/>D3104"]
+    S3101 --> LOAD
+    LOAD --> CNT
+    OSC --> CNT
+    CNT -- "TC (PWM)" --> SW["Switch + filter<br/>D3115"]
+    VREF["Vref 1.024 V"] --> SW
+    SW --> BUF["Buffer<br/>A3101"]
+    BUF --> OUT(["HI / LO"])
+```
 
 ## A data transfer from the Analog Output's perspective
 
 This section describes how the N31 receives a new reading and turns it into a voltage.
 
-#### Step 1: the CPU sends the reading
+### Step 1: the CPU sends the reading
 - After every reading the firmware raises **DLEN1** and shifts out 3 bytes: `m37`, `m36`, `m35` (digits D1 D0, D3 D2, D5 D4), each LSB first. That is 24 **CLOCK** pulses.
 - The sign, the decimal point and overload are not sent. The output is the magnitude of the displayed digits only.
 - Blank digits (in the reduced-resolution modes) are turned into 0 by the firmware before the transfer.
 
-#### Step 2: the digit selector keeps the right digits
+### Step 2: the digit selector keeps the right digits
 - The clock reaches the shift registers D3101/D3102 through gate D3113C, and the clock counter D3103 counts along.
 - Depending on **DIGIT SELECT**, the gate closes after 16, 20 or 24 clocks. The shift registers then hold exactly the digits that were selected (see the table below).
 
-#### Step 3: DLEN1 drops
+### Step 3: DLEN1 drops
 - **DLEN1** low resets D3103 and strobes the shift registers: the selected digits appear on their outputs.
 - In positions C, E and G, the adder D3105 adds 5 to the top digit (modulo 10).
 
-#### Step 4: the PWM DAC picks up the new value
+### Step 4: the PWM DAC picks up the new value
 - At the next **LOAD** pulse the BCD down counters D3106-D3109 are loaded with the new digits.
 - From then on, every PWM period outputs the new value. The filter needs some tens of milliseconds to settle.
 
@@ -57,3 +78,6 @@ What the positions are for:
 - **A** gives the whole reading, at a coarse resolution.
 - **B, D and F** zoom in on the lower digits. The output wraps around like a sawtooth whenever the selected digits roll over (999 → 000).
 - **C, E and G** move that wrap point to mid-scale. A reading that hovers around a round value (for example 1.00000 V in position D) then sits around 0.5 V on the recorder, instead of jumping between 0 V and 0.999 V.
+
+---
+N31 › [Overview](README.md) · **Operation** · [Schematics](Schematics.md)

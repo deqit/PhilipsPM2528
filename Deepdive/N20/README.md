@@ -3,16 +3,40 @@ N20 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)
 
 This expansion board forms the digital control interface between the microcontroller, the ADC Analog and the Counter.
 
-Its functions include:
+## Functions
 - Coordinating of the Ramp-Up and Ramp-Down phases
 - Send the correct signals on time to the ADC Analog
 - Trigger and reset the Counter
 - Return measurement-ready signal to the CPU
 
-![ADC Signalflow](assets/ADC_Signalflow_N20.png "The signalflow between the components")
+## Signal flow
+N20 is the conductor of the ADC: it steers the ADC Analog (N21) and the counter, and reports to the CPU.
 
-### The signals
-#### External signals (to/from this board)
+```mermaid
+flowchart LR
+    IN(["Input<br/>(conditioned, inverted)"])
+    subgraph N21["Expansionboard N21"]
+        ANA["ADC Analog"]
+    end
+    subgraph N20["Expansionboard N20"]
+        CTL["ADC Control"]
+    end
+    subgraph N1["Motherboard"]
+        CPU["CPU (8035)"]
+        CNT["Counter"]
+    end
+    IN -.-> ANA
+    CTL -. "UP, DN+, DN-, AZ" .-> ANA
+    ANA -. "COMP" .-> CTL
+    CTL -. "AZ, XC20, POL" .-> CPU
+    CPU -. "SAZ, SRUP, CP, HSM" .-> CTL
+    CTL -. "CPC, RC" .-> CNT
+    CNT -. "C20000" .-> CTL
+    CNT -. "Count" .-> CPU
+    style N20 fill:#fff3a0,color:#000
+```
+
+## Edge connector
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
 | Pin | Name | I/O | Description | Connected to | Testpoint |
@@ -37,13 +61,6 @@ Its functions include:
 | 18 | ⬛ - |  | Not connected |  |  |
 | 19 | 🟦 **COMP** | I | COMParator output (sign of the integrator on N21) | ADC Analog | TP2006 |
 
-In the scope-screendumps, you'll also see these signals:
-| Trace | Description | Measuring point |
-| - | - | - |
-| **yellow** | Input into ADC Integrator | N21.TP2105 |
-| **purple** | ADC Integrator voltage | N21.TP2106 |
-
-_Note: the scope ground was on the -5 V rail (logic 0), so logic swings 0–5 V on screen and analog 0 V appears at +5 V_
 
 ## More about this board
 - [Operation](Operation.md): a measurement cycle, step by step
@@ -51,3 +68,6 @@ _Note: the scope ground was on the -5 V rail (logic 0), so logic swings 0–5 V 
 - [PCB](PCB.md): the board layout and 3D view
 
 _N20 is pure CMOS logic: it has no relays or analog switches._
+
+---
+N20 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md)

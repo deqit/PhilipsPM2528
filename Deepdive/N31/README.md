@@ -3,7 +3,7 @@ N31 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)
 
 This expansion board turns the displayed reading into a DC voltage, for example to drive a chart recorder.
 
-Its functions include:
+## Functions
 - Receiving the reading from the CPU over the serial DLEN1 bus
 - Selecting which digits of the reading go to the output (DIGIT SELECT switch)
 - Converting these digits into a voltage with a PWM DAC
@@ -11,27 +11,26 @@ Its functions include:
 
 The board sits on the outguard side: it gets its data, clock and supply through the galvanic separation (N30).
 
+## Signal flow
+N31 receives the reading from the CPU through the galvanic separation N30 and turns it into a voltage on the back panel.
+
 ```mermaid
 flowchart LR
-    CPU["CPU<br/>(firmware 0x07a7)"] -- "DLEN1, CLOCK, DATA" --> N30["N30<br/>Galvanic separation"]
-    N30 -- "DLEN1, CLOCK, DATA" --> SR["Shift registers<br/>D3101, D3102"]
-    S3101["DIGIT SELECT<br/>S3101"] --> SR
-    S3101 --> ADD["+500 adder<br/>D3105"]
-    SR --> ADD
-    ADD --> CNT["BCD down counters<br/>D3106-D3109"]
-    SR --> CNT
-    OSC["Oscillator<br/>~850 kHz"] --> LOAD["LOAD pulse<br/>D3104"]
-    S3101 --> LOAD
-    LOAD --> CNT
-    OSC --> CNT
-    CNT -- "TC (PWM)" --> SW["Switch + filter<br/>D3115"]
-    VREF["Vref 1.024 V"] --> SW
-    SW --> BUF["Buffer<br/>A3101"]
-    BUF --> OUT(["HI / LO"])
+    subgraph N1["Motherboard"]
+        CPU["CPU (8035)"]
+    end
+    N30["N30<br/>Galvanic Separation"]
+    subgraph N31["Expansionboard N31"]
+        AO["Analog Output"]
+    end
+    OUT(["Back panel<br/>HI, LO"])
+    CPU -. "bus" .-> N30
+    N30 -. "DATA (DA0), CLOCK, DLEN1" .-> AO
+    AO -. "HI, LO" .-> OUT
+    style N31 fill:#fff3a0,color:#000
 ```
 
-### The signals
-#### External signals (to/from this board)
+## Edge connector
 
 🟦 signal · 🟧 supply / zero · ⬛ not connected
 
@@ -62,3 +61,6 @@ flowchart LR
 - [Schematics](Schematics.md): the full schematic, internal signals and the sections
 
 _N31 has no relays. Its PWM switch is described on the Schematics page._
+
+---
+N31 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md)

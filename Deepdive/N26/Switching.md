@@ -3,8 +3,6 @@ N26 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schem
 
 N26 has five relays on three drive lines. They connect the HF probe loop in Vhf, and quieten the probe socket when it carries the Pt100 / 4-wire lines. The CPU drives them from port expander D1702 on the mainboard, through the ULN2003 D1704 (port bit 1 = on).
 
-● = energised (closed) · blank = released (open)
-
 ## Relays
 | Relay | Driven by | Switches |
 | - | - | - |
@@ -15,6 +13,8 @@ N26 has five relays on three drive lines. They connect the HF probe loop in Vhf,
 | **K2605** | REL2600C, with K2604 | Contacts not on the Philips drawing; probably R2631 |
 
 ## Per function and range
+● = energised (closed) · blank = released (open)
+
 | Function | Range | K2601 | K2602<br>+K2603 | K2604<br>+K2605 |
 | - | - | :-: | :-: | :-: |
 | Ω 4-wire | all | ● |  |  |
@@ -25,3 +25,6 @@ N26 has five relays on three drive lines. They connect the HF probe loop in Vhf,
 Why each relay is needed is explained on the [Operation](Operation.md) page.
 
 _Source: the relay routine in the firmware, run in an emulator, with the expander wiring of Fig 7.6 of the service manual._
+
+---
+N26 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · **Switching**

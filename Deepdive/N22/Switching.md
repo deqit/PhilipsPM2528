@@ -3,8 +3,6 @@ N22 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schem
 
 N22 has two relays and two switching FETs. The relays set the gain of the amplifier per function and range. The FETs are part of the chopper and switch all the time, in every function.
 
-● = energised (closed) · blank = released (open)
-
 ## Relays
 | Relay | Driven by | Switches | Energised in |
 | - | - | - | - |
@@ -14,6 +12,8 @@ N22 has two relays and two switching FETs. The relays set the gain of the amplif
 Both relays always switch together, so the table below shows them as one column.
 
 ## Per function and range
+● = energised (closed) · blank = released (open)
+
 | Function | Range | K2201 + K2202 | Gain |
 | - | - | :-: | :-: |
 | VDC | 200 mV |  | ×10 |
@@ -39,3 +39,6 @@ _Source: the relay tables in the firmware, which match Fig 7.6 of the service ma
 | **V2212** | BFW13 (JFET) | Synchronous demodulator: turns the chopped signal back into DC | D2201, same clock | All functions |
 
 See [Operation](Operation.md#the-chopper-channel) for how the chopper channel works.
+
+---
+N22 › [Overview](README.md) · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md) · **Switching**

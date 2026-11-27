@@ -1,4 +1,6 @@
 # AC Amplifier (Expansionboard N24)
+N24 › **Overview** · [Operation](Operation.md) · [Schematics](Schematics.md) · [PCB](PCB.md)
+
 This expansion board is the wideband amplifier for the AC functions. Its output feeds the RMS converter (N25) and the peak detector (N27).
 
 Its functions include:
@@ -46,54 +48,9 @@ flowchart LR
 | 18 | ⬛ - |  | Not connected |  |  |
 | 19 | 🟧 **0V** |  | Supply zero (▽6) | Mainboard |  |
 
-_Note: I haven't made scope captures of this board yet, so the description below is based on the schematics, the Philips documentation and the firmware._
+## More about this board
+- [Operation](Operation.md): signal path, offset servo and crest factor indicator
+- [Schematics](Schematics.md): the full schematic, internal signals and the sections
+- [PCB](PCB.md): the board layout and 3D view
 
-## How it works
-
-#### Signal path
-- IN goes through C2411 (330n) to gate 1 of the dual FET V2404 (BFQ14). R2417 (10M) biases it, and **Ioff** (R2422) balances the pair.
-- Then, in turn: the emitter followers V2405/V2406, the PNP pair V2407/V2408, the FET followers V2409/V2410, the BF199 pair V2411/V2412 (V2413 as tail current source) and the complementary output followers V2415/V2416 to OUT.
-- C2415 (15p) feeds the input straight to V2409, a feed-forward path for high frequencies. C2416/R2432, C2414/R2427 and R2442/C2418 shape the frequency response.
-
-#### Offset servo
-The same idea as on N22, but much slower:
-- IN also goes through R2401 (1M) / R2402 to the chopper V2401 (BSV81), clocked by D2401 (HEF4047) at about 27 Hz.
-- A2401 (LM308) amplifies the chopped signal about 250×. The demodulator V2402 and R2411 / C2407 (22 µ) turn it into a DC correction for gate 2 of V2404.
-
-#### Crest factor indicator
-- BAV45 / BAW62 diodes clamp the input to a node (R2446 to zero), and BZX79-B8V2 zeners reference it to OUT.
-- A2402 (LM393, outputs wired together) compares both polarities against about ±0.5 V. When the amplifier runs out of headroom, one of them trips and pulls **CFI** down.
-- On the mainboard, CFI sets the latch D1801 (cleared by SAZ), and the CPU reads it as /CFI.
-
-## Schematics
-I copied and redrew the schematics and PCB in KiCad, using the low‑res Philips docs as a reference. There might be a few small differences since I tweaked them to match my PM2528. You’ll find the KiCad files in other parts of this repo.
-![N24 Schematics](assets/N24_Schematics.png "N24 Schematics")
-
-The input- and output signals of this board are listed at the top of the page. The 'local' signals are listed in the next table.
-
-#### Internal signals
-| Name | Description | Testpoint |
-| - | - | - |
-| **Fchop** | Chopper clock (D2401 Q), about 27 Hz | TP2401
-| **Demod** | Output of the demodulator V2402 | TP2402
-| **OffsetCorr** | Offset correction voltage (C2407), to gate 2 of V2404 | TP2403
-| **DriverBias** | Bias point of the output stage driver (V2410 gate, behind link JP1) | TP2404
-| **0V** | Zero | TP2405
-| **ChopperAmpl** | Output of the chopper amplifier A2401 | TP2406
-
-### Section: Wideband amplifier
-The discrete amplifier from V2404 to the output followers V2415/V2416. The boxed values on the Philips drawing are the DC levels at Vin = 0 (OUT = 0 V).
-
-### Section: Chopper Amplifier
-The offset servo: chopper V2401, amplifier A2401, demodulator V2402 and the oscillator D2401. **Voff** (R2406) and **Spike** (R2415, JP2401/JP2402) are the same trims as on N22.
-
-![N24 Chopper amplifier](assets/N24_Section_ChopperAmplifier.png "N24 Chopper amplifier")
-
-### Section: Crest Factor Indicator
-A2402 with its threshold divider R2450-R2453 and the clamp network at the input.
-
-![N24 Crest factor indicator](assets/N24_Section_CrestFactor.png "N24 Crest factor indicator")
-
-## PCB
-![N24 PCB](assets/N24_PCB.png "N24 PCB")
-![N24 PCB 3D](assets/N24_PCB-3D.png "N24 PCB 3D")
+_N24 has no relays. Its only switches are the chopper FETs of the offset servo, described under Operation._
